@@ -1,0 +1,5 @@
+{
+  "status": "collection_failed",
+  "cause": "Implicit namespace examples shadowed by installed regular examples package; add explicit examples and examples/komp package initializers.",
+  "numerical_tests_executed": false
+}

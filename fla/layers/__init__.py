@@ -25,6 +25,7 @@ from .hgrn import HGRNAttention
 from .hgrn2 import HGRN2Attention
 from .kda import KimiDeltaAttention
 from .komp import KOMPMixer
+from .komp_value_decay import KOMPValueDecayMixer
 from .lightnet import LightNetAttention
 from .linear_attn import LinearAttention
 from .log_linear_mamba2 import LogLinearMamba2
@@ -72,6 +73,7 @@ __all__ = [
     'HGRN2Attention',
     'HGRNAttention',
     'KOMPMixer',
+    'KOMPValueDecayMixer',
     'KimiDeltaAttention',
     'LightNetAttention',
     'LinearAttention',

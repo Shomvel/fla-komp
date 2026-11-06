@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-df84062d615e-20261106192627",
+    "user_def_name": "fla-komp-value-integration-20261106-r3",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  }
+]

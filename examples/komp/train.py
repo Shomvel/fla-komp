@@ -24,11 +24,14 @@ from fla.models.komp import KOMPConfig
 from fla.models.komp.conversion import map_weights, optimizer
 from fla.models.komp.legacy import LM as LegacyLM
 from fla.models.komp.modeling_komp import TrainingLM
+from fla.models.komp_value_decay import KOMPValueDecayConfig
+from fla.models.komp_value_decay.modeling_komp_value_decay import ValueDecayTrainingLM
 
 
 def arguments():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--kind", choices=["exact", "block"], required=True)
+    parser.add_argument("--decay-axis", choices=["slot", "value"], default="slot")
     parser.add_argument("--tokens", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--steps", type=int, default=12970)
@@ -53,7 +56,9 @@ def arguments():
 
 def main():
     args = arguments()
-    config = KOMPConfig(kind=args.kind, checkpoint_mixer=not args.no_checkpoint_mixer, cache_geometry=args.cache_geometry)
+    config_class = KOMPConfig if args.decay_axis == "slot" else KOMPValueDecayConfig
+    model_class = TrainingLM if args.decay_axis == "slot" else ValueDecayTrainingLM
+    config = config_class(kind=args.kind, checkpoint_mixer=not args.no_checkpoint_mixer, cache_geometry=args.cache_geometry)
     rank = int(os.environ.get("RANK", "0"))
     world = int(os.environ.get("WORLD_SIZE", "1"))
     local_rank = int(os.environ.get("LOCAL_RANK", "0"))
@@ -81,12 +86,12 @@ def main():
     if checkpoint_path.exists() and not args.resume:
         raise FileExistsError("Output already has a checkpoint; use --resume or a new output directory")
     torch.manual_seed(args.seed)
-    model = TrainingLM(config)
+    model = model_class(config)
     if not args.resume:
         if args.init_checkpoint:
             initial = torch.load(args.init_checkpoint, map_location="cpu", weights_only=True)
             model.load_state_dict(initial.get("model", initial), strict=True)
-        else:
+        elif args.decay_axis == "slot":
             # Reproduce the frozen recipe's seeded initialization, including decay/beta biases.
             legacy = LegacyLM(args.kind, seed=args.seed)
             model.load_state_dict(map_weights(legacy.state_dict()), strict=True)

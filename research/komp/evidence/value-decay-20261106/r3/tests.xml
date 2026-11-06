@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="8" time="39.566" timestamp="2026-11-06T11:28:36.784449+00:00" hostname="job-df84062d615e-20261106192627-runner-0"><testcase classname="tests.models.test_komp_value_decay" name="test_value_decay_config_and_default_layout" time="0.354" /><testcase classname="tests.models.test_komp_value_decay" name="test_value_decay_config_rejects_unsupported[cache]" time="0.002" /><testcase classname="tests.models.test_komp_value_decay" name="test_value_decay_config_rejects_unsupported[geometry-cache]" time="0.002" /><testcase classname="tests.models.test_komp_value_decay" name="test_value_decay_config_rejects_unsupported[slots]" time="0.002" /><testcase classname="tests.models.test_komp_value_decay" name="test_value_decay_config_rejects_unsupported[value-expansion]" time="0.002" /><testcase classname="tests.models.test_komp_value_decay" name="test_value_decay_config_rejects_unsupported[gate-contract]" time="0.002" /><testcase classname="tests.models.test_komp_value_decay" name="test_value_decay_initialization" time="0.048" /><testcase classname="tests.models.test_komp_value_decay" name="test_value_decay_model_train_restore[exact-defaults]" time="38.884"><failure message="AttributeError: 'KOMPValueDecayForCausalLM' object has no attribute 'all_tied_weights_keys'. Did you mean: '_tied_weights_keys'?">kind = 'exact', options = {}
+tmp_path = PosixPath('/tmp/pytest-of-root/pytest-0/test_value_decay_model_train_r0')
+
+    @pytest.mark.skipif(not IS_NVIDIA, reason="model mixer requires NVIDIA CUDA")
+    @pytest.mark.parametrize(
+        ("kind", "options"),
+        [
+            pytest.param("exact", {}, id="exact-defaults"),
+            pytest.param("block", {}, id="block-defaults"),
+            pytest.param(
+                "block", dict(output_sigmoid=False, low_rank_gates=False, multi_timescale_init=False), id="block-dense-gates"
+            ),
+        ],
+    )
+    def test_value_decay_model_train_restore(kind, options, tmp_path):
+        torch.manual_seed(42)
+        config = tiny_config(kind, **options)
+        model = AutoModelForCausalLM.from_config(config).to(device)
+        ids = torch.randint(0, config.vocab_size, (1, 17), device=device)
+        labels = ids.clone()
+        labels[:, -2:] = -100
+        model.train()
+        with torch.autocast("cuda", dtype=torch.bfloat16):
+            loss = model(input_ids=ids, labels=labels).loss
+        loss.backward()
+        assert torch.isfinite(loss)
+        assert all(p.grad is not None and torch.isfinite(p.grad).all() for p in model.parameters())
+        # Mixer checkpointing must reproduce the non-checkpointed model's update.
+        eager = KOMPValueDecayForCausalLM(tiny_config(kind, checkpoint_mixer=False, **options)).to(device)
+        eager.load_state_dict(model.state_dict())
+        eager.train()
+        with torch.autocast("cuda", dtype=torch.bfloat16):
+            eager_loss = eager(input_ids=ids, labels=labels).loss
+        eager_loss.backward()
+        torch.testing.assert_close(loss, eager_loss, atol=2e-5, rtol=2e-5)
+        for p, q in zip(model.parameters(), eager.parameters()):
+            torch.testing.assert_close(p.grad, q.grad, atol=2e-4, rtol=0.003)
+        opt = torch.optim.AdamW(model.parameters(), lr=3e-4)
+        opt.step()
+        model.eval()
+        with torch.no_grad():
+            expected = model(ids).logits
+        model.save_pretrained(tmp_path)
+&gt;       loaded = AutoModelForCausalLM.from_pretrained(tmp_path).to(device).eval()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/models/test_komp_value_decay.py:117: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../../fla-komp-value-integration-20261106-r1/deps/transformers/models/auto/auto_factory.py:394: in from_pretrained
+    return model_class.from_pretrained(
+../../fla-komp-value-integration-20261106-r1/deps/transformers/modeling_utils.py:4211: in from_pretrained
+    loading_info = cls._finalize_model_loading(model, load_config, loading_info)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../fla-komp-value-integration-20261106-r1/deps/transformers/modeling_utils.py:4366: in _finalize_model_loading
+    model._move_missing_keys_from_meta_to_device(
+../../fla-komp-value-integration-20261106-r1/deps/transformers/modeling_utils.py:4629: in _move_missing_keys_from_meta_to_device
+    for key in missing_keys - self.all_tied_weights_keys.keys():
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = KOMPValueDecayForCausalLM(
+  (model): KOMPValueDecayModel(
+    (embeddings): Embedding(256, 128)
+    (layers): ModuleL...rm((128,), eps=1e-06, elementwise_affine=True)
+  )
+  (lm_head): Linear(in_features=128, out_features=256, bias=False)
+)
+name = 'all_tied_weights_keys'
+
+    def __getattr__(self, name: str) -&gt; Union[Tensor, "Module"]:
+        if "_parameters" in self.__dict__:
+            _parameters = self.__dict__["_parameters"]
+            if name in _parameters:
+                return _parameters[name]
+        if "_buffers" in self.__dict__:
+            _buffers = self.__dict__["_buffers"]
+            if name in _buffers:
+                return _buffers[name]
+        if "_modules" in self.__dict__:
+            modules = self.__dict__["_modules"]
+            if name in modules:
+                return modules[name]
+&gt;       raise AttributeError(
+            f"'{type(self).__name__}' object has no attribute '{name}'"
+        )
+E       AttributeError: 'KOMPValueDecayForCausalLM' object has no attribute 'all_tied_weights_keys'. Did you mean: '_tied_weights_keys'?
+
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py:1966: AttributeError</failure></testcase></testsuite></testsuites>

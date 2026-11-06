@@ -1,0 +1,62 @@
+[
+  {
+    "name": "original_value",
+    "stream_out": {
+      "max_abs": 0.00034424662590026855,
+      "rmsrel": 0.00033141836065258656
+    },
+    "stream_state": {
+      "max_abs": 0.0011513233184814453,
+      "rmsrel": 0.00039950300105176095
+    },
+    "prefix": {
+      "max_abs": 0.00032633543014526367,
+      "rmsrel": 0.0002703384527857282
+    }
+  },
+  {
+    "name": "integrated_value",
+    "stream_out": {
+      "max_abs": 0.00034424662590026855,
+      "rmsrel": 0.00033141836065258656
+    },
+    "stream_state": {
+      "max_abs": 0.0011513233184814453,
+      "rmsrel": 0.00039950300105176095
+    },
+    "prefix": {
+      "max_abs": 0.00032633543014526367,
+      "rmsrel": 0.0002703384527857282
+    }
+  },
+  {
+    "name": "slot",
+    "stream_out": {
+      "max_abs": 0.13445444405078888,
+      "rmsrel": 0.09586683728745098
+    },
+    "stream_state": {
+      "max_abs": 0.48587560653686523,
+      "rmsrel": 0.12700007189317125
+    },
+    "prefix": {
+      "max_abs": 0.0,
+      "rmsrel": 0.0
+    }
+  },
+  {
+    "name": "reference",
+    "stream_out": {
+      "max_abs": 1.6653345369377348e-16,
+      "rmsrel": 9.02250419349168e-17
+    },
+    "stream_state": {
+      "max_abs": 2.220446049250313e-16,
+      "rmsrel": 4.453962995733026e-17
+    },
+    "prefix": {
+      "max_abs": 0.0,
+      "rmsrel": 0.0
+    }
+  }
+]

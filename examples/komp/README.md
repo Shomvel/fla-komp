@@ -43,3 +43,7 @@ Importing `fla.models.komp` registers the configuration and models with Transfor
 The constructors preserve the frozen adapter's initialization rather than invoking a new Hugging Face initialization pass. Use the runner's seeded legacy initialization or load converted weights when reproducing an experiment.
 
 The serialized kernel width parameter is `kernel_temperature=0.5`. Old configs using `temperature=0.5` are accepted and migrated on load; the reserved Transformers generation field is not written back. This changes no kernel parameter or weight.
+
+## Value-decay models
+
+Select `--decay-axis value --kind exact` or `--decay-axis value --kind block` for the independent `komp_value_decay` model. It defaults to FF2272, low-rank output/decay gates, sigmoid output gating and multiple initial head timescales, totaling 341,552,000 parameters. It starts from its own seeded initialization and requires its own checkpoint; slot-model checkpoints cannot be resumed into it. Geometry caching is currently unsupported for this variant. See [the operator/model contract](../../fla/ops/komp/VALUE_DECAY.md) for configuration and direct AutoModel usage.

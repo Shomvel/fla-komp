@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="12" time="196.685" timestamp="2026-11-06T11:20:41.037925+00:00" hostname="job-33b4d6a595e2-20261106191927-runner-0"><testcase classname="tests.ops.test_komp_value_decay" name="test_block_komp_value_decay[exact-ring-wrap]" time="16.561" /><testcase classname="tests.ops.test_komp_value_decay" name="test_block_komp_value_decay[exact-asymmetric]" time="15.557" /><testcase classname="tests.ops.test_komp_value_decay" name="test_block_komp_value_decay[block-short-chunk]" time="9.329" /><testcase classname="tests.ops.test_komp_value_decay" name="test_block_komp_value_decay[block-tail-bf16]" time="55.571" /><testcase classname="tests.ops.test_komp_value_decay" name="test_block_komp_value_decay[block-long-vjp]" time="57.925" /><testcase classname="tests.ops.test_komp_value_decay" name="test_block_komp_value_decay[non-native-shape-fallback]" time="1.806" /><testcase classname="tests.ops.test_komp_value_decay" name="test_value_decay_strong_forgetting[exact-zero-reference-gradient]" time="16.172" /><testcase classname="tests.ops.test_komp_value_decay" name="test_value_decay_strong_forgetting[block-large-range-fallback]" time="1.155" /><testcase classname="tests.ops.test_komp_value_decay" name="test_value_decay_strong_forgetting[exact-native-range-edge]" time="0.078" /><testcase classname="tests.ops.test_komp_value_decay" name="test_value_decay_strong_forgetting[block-fallback-range-edge]" time="2.187" /><testcase classname="tests.ops.test_komp_value_decay" name="test_value_decay_streaming[exact]" time="7.114" /><testcase classname="tests.ops.test_komp_value_decay" name="test_value_decay_streaming[block]" time="11.178"><failure message="AssertionError: Tensor-likes are not close!&#10;&#10;Mismatched elements: 2525 / 4224 (59.8%)&#10;Greatest absolute difference: 0.00034424662590026855 at index (0, 17, 0, 60) (up to 1e-05 allowed)&#10;Greatest relative difference: 0.26955148577690125 at index (0, 26, 0, 15) (up to 0.0001 allowed)">chunk = 16
+
+    @pytest.mark.skipif(not IS_NVIDIA, reason="requires NVIDIA CUDA")
+    @pytest.mark.parametrize("chunk", [pytest.param(1, id="exact"), pytest.param(16, id="block")])
+    def test_value_decay_streaming(chunk):
+        xs = inputs(33)
+        base = call(xs, chunk)
+        part = call([x[:, :16] for x in xs[:5]] + xs[5:], chunk)
+        last = call([x[:, 16:] for x in xs[:5]] + list(part[1:]), chunk)
+        for x, y in zip((torch.cat((part[0], last[0]), 1), *last[1:]), base):
+&gt;           torch.testing.assert_close(x, y, atol=1e-5, rtol=1e-4)
+E           AssertionError: Tensor-likes are not close!
+E           
+E           Mismatched elements: 2525 / 4224 (59.8%)
+E           Greatest absolute difference: 0.00034424662590026855 at index (0, 17, 0, 60) (up to 1e-05 allowed)
+E           Greatest relative difference: 0.26955148577690125 at index (0, 26, 0, 15) (up to 0.0001 allowed)
+
+tests/ops/test_komp_value_decay.py:94: AssertionError</failure></testcase></testsuite></testsuites>

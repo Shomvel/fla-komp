@@ -1,0 +1,32 @@
+{
+  "status": "failed",
+  "base_commit": "439072f54a67cc35b6310651e43ce56b4ccbe4a7",
+  "commands": [
+    {
+      "command": [
+        "/opt/venv/bin/python3",
+        "-m",
+        "pytest",
+        "-x",
+        "-q",
+        "tests/ops/test_komp_value_decay.py",
+        "tests/models/test_komp_value_decay.py",
+        "validation/komp/test_contracts.py",
+        "validation/komp/test_geometry_cache.py",
+        "--junitxml=/gpfs/users/linlizhi/fla-komp-value-integration-20261106-r2/evidence/tests.xml"
+      ],
+      "returncode": 1,
+      "seconds": 240.03703002259135
+    }
+  ],
+  "python": "3.12.3",
+  "torch": "2.10.0a0+b558c986e8.nv25.11",
+  "triton": "3.7.1",
+  "transformers": "5.6.2",
+  "numpy": "2.2.6",
+  "protobuf": "5.29.6",
+  "protobuf_backend": "python",
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "cuda": "13.0",
+  "traceback": "Traceback (most recent call last):\n  File \"/gpfs/users/linlizhi/fla-komp-value-integration-20261106-r2/run_integration.py\", line 11, in <module>\n    t=time.monotonic();r=subprocess.run(command,cwd=root/'src');report['commands'].append(dict(command=command,returncode=r.returncode,seconds=time.monotonic()-t));assert r.returncode==0\n                                                                                                                                                                           ^^^^^^^^^^^^^^^\nAssertionError\n"
+}

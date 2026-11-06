@@ -14,6 +14,7 @@ legacy checkpoint to reproduce an existing experiment's initial conditions.
 import torch
 from torch import nn
 from torch.nn import functional as F
+from transformers.initialization import no_init_weights
 from transformers.modeling_outputs import CausalLMOutputWithPast
 
 from fla.layers.komp import KOMPMixer
@@ -31,39 +32,47 @@ class RoundingCompatibleMLP(GatedMLP):
 
 
 class KOMPBlock(GatedDeltaNetBlock):
+    mixer_class = KOMPMixer
+
     def __init__(self, config, layer_idx):
         # Native block creates the native FLA MLP and norm/residual contract.
         super().__init__(config, layer_idx)
-        self.attn = KOMPMixer(config, layer_idx)
+        self.attn = self.mixer_class(config, layer_idx)
         self.mlp = RoundingCompatibleMLP(config.hidden_size, intermediate_size=config.intermediate_size, fuse_swiglu=False)
 
 
 class KOMPModel(GatedDeltaNetPreTrainedModel, FLAModel):
     config_class = KOMPConfig
+    block_class = KOMPBlock
 
     def __init__(self, config):
         super().__init__(config)
         self.padding_idx = config.pad_token_id
         self.vocab_size = config.vocab_size
         self.embeddings = nn.Embedding(config.vocab_size, config.hidden_size, padding_idx=config.pad_token_id)
-        self.layers = nn.ModuleList(KOMPBlock(config, i) for i in range(config.num_hidden_layers))
+        self.layers = nn.ModuleList(self.block_class(config, i) for i in range(config.num_hidden_layers))
         self.norm = nn.RMSNorm(config.hidden_size, eps=config.norm_eps)
         self.use_attnres = False
         self.gradient_checkpointing = False
-        # All weights come from a validated legacy checkpoint; no post_init reinitialization.
+        # populate HF loading metadata without overwriting the custom mixer initialization.
+        with no_init_weights():
+            self.post_init()
 
 
 class KOMPForCausalLM(GatedDeltaNetPreTrainedModel, FLAForCausalLM):
     config_class = KOMPConfig
+    model_class = KOMPModel
     _tied_weights_keys = {}
 
     def __init__(self, config):
         super().__init__(config)
-        self.model = KOMPModel(config)
+        self.model = self.model_class(config)
         self.lm_head = nn.Linear(config.hidden_size, config.vocab_size, bias=False)
         self.vocab_size = config.vocab_size
         self.criterion = None
         self.kind = config.kind
+        with no_init_weights():
+            self.post_init()
 
     def forward(
         self,
