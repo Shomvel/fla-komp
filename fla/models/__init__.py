@@ -26,6 +26,7 @@ from fla.models.gsa2 import GSA2Config, GSA2ForCausalLM, GSA2Model
 from fla.models.hgrn import HGRNConfig, HGRNForCausalLM, HGRNModel
 from fla.models.hgrn2 import HGRN2Config, HGRN2ForCausalLM, HGRN2Model
 from fla.models.kda import KDAConfig, KDAForCausalLM, KDAModel
+from fla.models.komp import KOMPConfig, KOMPForCausalLM, KOMPModel
 from fla.models.lightnet import LightNetConfig, LightNetForCausalLM, LightNetModel
 from fla.models.linear_attn import LinearAttentionConfig, LinearAttentionForCausalLM, LinearAttentionModel
 from fla.models.log_linear_mamba2 import LogLinearMamba2Config, LogLinearMamba2ForCausalLM, LogLinearMamba2Model
@@ -117,6 +118,9 @@ __all__ = [
     'KDAConfig',
     'KDAForCausalLM',
     'KDAModel',
+    'KOMPConfig',
+    'KOMPForCausalLM',
+    'KOMPModel',
     'LightNetConfig',
     'LightNetForCausalLM',
     'LightNetModel',
