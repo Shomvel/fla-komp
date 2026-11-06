@@ -1,0 +1,4 @@
+set -e
+python validate_scan.py
+export FLA_DISABLE_BACKEND_DISPATCH=1 FLA_DISABLE_TENSOR_CACHE=1
+python ablations.py

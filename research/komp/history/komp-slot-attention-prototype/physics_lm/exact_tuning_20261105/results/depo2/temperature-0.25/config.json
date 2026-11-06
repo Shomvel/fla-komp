@@ -1,0 +1,64 @@
+{
+  "task": "depo2",
+  "candidate": {
+    "name": "temperature-0.25",
+    "alpha0": 0.98,
+    "beta0": 0.2,
+    "temperature": 0.25,
+    "ridge": 0.0001,
+    "slots": 32,
+    "decay_normalizer": 8,
+    "eviction": "fifo",
+    "score_write_gate": false,
+    "compute_chunk": 16,
+    "projection_dtype": "float64",
+    "decay_bias": 1.7405981254553757,
+    "beta_bias": -1.3862943611198906
+  },
+  "phase": "tune",
+  "seed": 731,
+  "lr": 0.0005,
+  "wd": 0.1,
+  "batch": 128,
+  "world_size": 8,
+  "steps": 123,
+  "model": {
+    "kind": "exact",
+    "parameters": 100526392,
+    "width": 512,
+    "layers": 15,
+    "ff": 1984,
+    "heads": 8,
+    "head_dim": 64,
+    "short_conv": true,
+    "conv_size": 4,
+    "block_chunk": null,
+    "block_slots": 32,
+    "exact_compute_chunk": 16,
+    "compression_tokens": 1,
+    "eviction": "fifo",
+    "projection_dtype": "float64",
+    "gsa_slots": null,
+    "rope_base": null,
+    "swa_window": null
+  },
+  "sources": {
+    "ddp": {
+      "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+      "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+    },
+    "tuning": {
+      "numerical.py": "81f8b91a62ea1fa2bc7a86afdb319bf9ab44bf2e3e75597a6235628945340436",
+      "prepare_queue.py": "104f2683c840c6acdef28e64fa3caf46c681ce840ebb99132dd74791f6f0ac4a",
+      "report.py": "53f4fd0595a1d66fd8c38e8ef005d4142f2285a006b0afb37cea24326cacbd83",
+      "tune.py": "99825009bec10dc2b26b9d1fdae1d77d596297d076f7a503bc3d115f04c81165",
+      "tuned_preflight.py": "313f0ffcc36d036554b89eb95a21141d95cc19c06bcf1ea46c4a932163086cc9"
+    },
+    "plan": "0d138f9449294e03a5c9e4bf7fc41665daf3b38293ab2b4207395e85c3ce6120"
+  },
+  "data_order_sha256": "f97c6a98b36c3dfe2520a6d937a62966ab7f975039adcc221d5297c6ed92da40",
+  "train_positions": 10001214,
+  "selection": "full validation masked CE only; short-budget ranking",
+  "schedule": "5% warmup then cosine to 10%; independent 10M horizon",
+  "ddp_loss": "local sum * world_size / global supervised tokens"
+}

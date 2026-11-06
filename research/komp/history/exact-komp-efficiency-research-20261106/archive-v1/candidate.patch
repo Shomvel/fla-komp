@@ -1,0 +1,111 @@
+--- baseline/models.py
++++ candidate/models.py
+@@ -4,6 +4,7 @@
+ from torch import nn
+ from torch.nn import functional as F
+ from torch.utils.checkpoint import checkpoint
++from geometry_cache import geometry_contexts
+ import legacy_models as legacy
+ from legacy_models import ROOT,FLA,D,H,K,M,L,FF,VOCAB,ALPHA,BETA,exact_komp,block_komp_fast
+ for name,rel in [('fla.layers','fla/layers'),('fla.models','fla/models'),('fla.models.gated_deltanet','fla/models/gated_deltanet')]:
+@@ -27,11 +28,16 @@
+ 
+ class KOMPMixer(legacy.Mixer):
+  def __init__(self,config,layer_idx):
+-  super().__init__(config.kind);self.layer_idx=layer_idx;self.checkpoint_mixer=config.checkpoint_mixer
++  super().__init__(config.kind);self.layer_idx=layer_idx;self.checkpoint_mixer=config.checkpoint_mixer;self.cache_geometry=False
+  def forward(self,hidden_states,attention_mask=None,past_key_values=None,use_cache=False,output_attentions=False,**kwargs):
+   if use_cache or past_key_values is not None:raise ValueError('KOMP pretraining adapter does not implement generation cache')
+   if attention_mask is not None and not bool(attention_mask.all()):raise ValueError('Packed pretraining requires fully valid inputs; mask labels for tail loss')
+-  y=checkpoint(super().forward,hidden_states,use_reentrant=False) if self.training and self.checkpoint_mixer else super().forward(hidden_states)
++  options={}
++  if self.training and self.checkpoint_mixer and self.cache_geometry:
++   if self.kind!='exact':raise ValueError('geometry cache is Exact-only')
++   if torch.compiler.is_compiling():raise RuntimeError('geometry cache requires eager checkpoint execution')
++   options['context_fn']=geometry_contexts
++  y=checkpoint(super().forward,hidden_states,use_reentrant=False,**options) if self.training and self.checkpoint_mixer else super().forward(hidden_states)
+   return y,None,None
+ 
+ class RoundingCompatibleMLP(GatedMLP):
+--- baseline/snapshot/komp_slot/exact_komp/operator.py
++++ candidate/snapshot/komp_slot/exact_komp/operator.py
+@@ -7,6 +7,7 @@
+ from . import chunk_backward as cb
+ from . import hierarchical as hs
+ from . import versioned as vg
++from geometry_cache import cached_geometry
+ 
+ 
+ class _Exact(torch.autograd.Function):
+@@ -21,7 +22,6 @@
+         qn=alloc((bh,t,d),dtype);pool=alloc((bh,t+m,d),dtype)
+         ids=alloc((bh,t+1,m),torch.int32);drop=alloc((bh,t),torch.int32)
+         sf=alloc((bh,m));bf=alloc((bh,m),torch.int64);be=alloc((bh,t))
+-        p,h,r=[alloc((bh,t,m),dtype) for _ in range(3)];n=alloc((bh,t),dtype)
+         geo.normalize[(t+m,bh)](q,k,k0,qn,pool,t,m,d,bd,num_warps=4,enable_fp_fusion=False)
+         if learned:
+             geo.select[(bh,)](scores,scores0,births0,ids,drop,sf,bf,t,m,bm,start,64,num_warps=4)
+@@ -30,7 +30,14 @@
+         geo.effective_beta[(tr.cdiv(bh*t,256),)](beta,scores,be,bh*t,gate,256)
+         reuse=learned and not fp64 and m<=32
+         cross=alloc((bh,t,m)) if reuse else alloc((0,))
+-        geo.forward[(t,bh)](qn,pool,ids,drop,p,h,r,n,t,m,d,bm,bd,tau,ridge,reuse,num_warps=geo_warps,enable_fp_fusion=False)
++        def build_geometry():
++            p,h,r=[alloc((bh,t,m),dtype) for _ in range(3)];n=alloc((bh,t),dtype)
++            geo.forward[(t,bh)](qn,pool,ids,drop,p,h,r,n,t,m,d,bm,bd,tau,ridge,reuse,num_warps=geo_warps,enable_fp_fusion=False)
++            return p,h,r,n
++        # Learned projection mutates p below; only the frozen FIFO FP32 path is cached.
++        signature=(bh,t,d,m,dv,q.dtype,q.device,gate,start,c,tau,ridge,scalar)
++        p,h,r,n=(cached_geometry(signature,build_geometry)
++                 if not learned and not fp64 else build_geometry())
+         if reuse:
+             vg.prepare[(t,bh)](qn,pool,ids,drop,p,h,r,n,cross,t,m,d,bm,bd,tau,ridge,num_warps=4,enable_fp_fusion=False)
+             vg.project[(tr.cdiv(t,32),bh)](qn,pool,ids,drop,cross,p,p,p,t,m,d,bm,bd,tau,ridge,False,num_warps=4,enable_fp_fusion=False)
+--- /dev/null
++++ candidate/geometry_cache.py
+@@ -0,0 +1,45 @@
++"""Cache immutable geometry outputs for one eager non-reentrant checkpoint.
++
++No approximate math and no autograd replacement: the original Exact Function
++still saves its normal tape and executes its original analytic backward.
++The cache lives with the checkpoint graph, supports repeated backward, and is
++never shared across layers, microbatches, or calls. torch.compile is unsupported.
++"""
++from contextvars import ContextVar
++
++_active = ContextVar('exact_geometry_cache', default=None)
++
++class _Scope:
++    def __init__(self, entries, replay):
++        self.entries, self.replay = entries, replay
++        self.tokens = []
++    def __enter__(self):
++        # Cursor belongs to each entry into the context, including retained graphs.
++        self.tokens.append(_active.set([self.entries, self.replay, 0]))
++        return self
++    def __exit__(self, exc_type, exc, tb):
++        _active.reset(self.tokens.pop())
++        return False
++
++def geometry_contexts():
++    entries = []
++    return _Scope(entries, False), _Scope(entries, True)
++
++def cached_geometry(signature, build):
++    active = _active.get()
++    if active is None:
++        return build()
++    entries, replay, cursor = active
++    active[2] += 1
++    if replay:
++        if cursor >= len(entries):
++            raise RuntimeError('Exact checkpoint replay has an extra geometry call')
++        expected, values = entries[cursor]
++        if signature != expected:
++            raise RuntimeError('Exact checkpoint geometry contract changed on replay')
++        return values
++    if cursor != len(entries):
++        raise RuntimeError('Exact checkpoint forward context was reused')
++    values = build()
++    entries.append((signature, values))
++    return values

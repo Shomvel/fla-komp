@@ -1,3 +1,16 @@
+# FLA-KOMP
+
+This fork contains Exact KOMP, Block KOMP, their variants and optimizations, and training code directly on `main`.
+
+- [Operators and usage](fla/ops/komp/README.md)
+- [KOMP340M trainer and checkpoint conversion](examples/komp/README.md)
+- [Research variants, original trainers and source inventory](research/komp/README.md)
+- [Validation status and historical H100 results](research/komp/VALIDATION.md)
+
+The upstream Flash Linear Attention documentation follows.
+
+---
+
 <div align="center">
 
 <img width="50%" alt="Flash Linear Attention" src="images/logo.png">

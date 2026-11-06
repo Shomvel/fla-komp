@@ -1,0 +1,11 @@
+{
+  "files": {
+    "ddp_train.py": "08588e36fe4dc692b714d317c8462aebb8e485f541fb20b9941b5813ce064c58",
+    "alpha_models.py": "fd3f7c0615a71a7fcbe1504fdf08d6f7f48a5dfdcdd2d7389cbd61d490ee88ae",
+    "group_runner.py": "f807123909d6a3d3e0bdef71c42def1ed58e34009e46466b96e6ea9e84e16f2f",
+    "evaluate.py": "8d64836ff584e37f2fe6d81248e9120cc973b9e9af7ee8f0f84a6cff78edfd74",
+    "plan.json": "46ee591c53beea4d046284892381711d1544681d4059dc49751245bd3014c5d3",
+    "evidence/snapshot-sha256.json": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+    "evidence/preflight-reuse.json": "6e9751dc32d2f7319370d3f5ae859f87573cd8dcf147678cc5fa49ffaaf85c5b"
+  }
+}

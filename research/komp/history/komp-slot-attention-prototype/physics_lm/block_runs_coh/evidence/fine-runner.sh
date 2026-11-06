@@ -1,0 +1,12 @@
+#!/bin/bash
+set -euo pipefail
+task_dir=/gpfs/users/linlizhi/komp-coh-trials-20261101
+worker_dir="$task_dir/fine-workers/$FINE_MODE-$FINE_INDEX"
+mkdir -p "$worker_dir"
+exec > >(tee "$worker_dir/runner.log") 2>&1
+trap 'code=$?; echo "$code" > "$worker_dir/exit-code.txt"' EXIT
+nvidia-smi > "$worker_dir/nvidia-smi.txt"
+export BLOCK_RUNS="$task_dir/results-fine"
+export PHYSICS_DATA=/gpfs/users/linlizhi/softmax-10m-20261023/data
+export PYTHONDONTWRITEBYTECODE=1
+python "$task_dir/run_fine_worker.py"

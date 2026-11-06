@@ -1,0 +1,1 @@
+../../komp-slot-attention-prototype/komp_slot/exact_komp/recurrence.py

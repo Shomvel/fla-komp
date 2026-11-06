@@ -1,0 +1,114 @@
+{
+  "architecture": "gsa",
+  "seed": 731,
+  "width": 128,
+  "layers": 4,
+  "heads": 2,
+  "key_value_dim": 64,
+  "slots": 32,
+  "ffn": 256,
+  "vocab": 32000,
+  "params": 8947328,
+  "batch": 64,
+  "epoch": 1,
+  "steps": 2231,
+  "data": {
+    "source": "facebookresearch/PhysicsLM4@6c7bbda1d9c9ab104cd4a75814cd83bd29db77f0",
+    "unique_token_definition": "Nonpadding input tokens in exact-deduplicated complete training documents; repeated epochs excluded",
+    "target_unique_input_tokens": 10000000,
+    "depo": {
+      "N": 32,
+      "K": 4,
+      "M": 10,
+      "mini_vocab": 50,
+      "min_tlen": 1,
+      "max_tlen": 2
+    },
+    "brevo": {
+      "N": 24,
+      "multi": false
+    },
+    "excluded_prior_documents": 36086,
+    "splits": {
+      "train": {
+        "seed": 2026102301,
+        "examples": 142784,
+        "tokens": 10001108,
+        "supervised_tokens": 2172277,
+        "content_supervised_tokens": 1439445,
+        "task_examples": {
+          "depo": 71392,
+          "brevo": 71392
+        },
+        "max_length": 171,
+        "rejected_duplicates": 257,
+        "sha256": "3260be1fc124b25f33d85d6642a812ba7ee3a417fb9a1968c851a23177b35bc7",
+        "cross_split_duplicates": 0
+      },
+      "val": {
+        "seed": 2026102302,
+        "examples": 2048,
+        "tokens": 142410,
+        "supervised_tokens": 31058,
+        "content_supervised_tokens": 20612,
+        "task_examples": {
+          "depo": 1024,
+          "brevo": 1024
+        },
+        "max_length": 164,
+        "rejected_duplicates": 5,
+        "sha256": "67eb3a22722fd7d3b0d10e471e5a5e379071f066a83aa89c0dfaaf3c4df9664f",
+        "cross_split_duplicates": 0
+      },
+      "test": {
+        "seed": 2026102303,
+        "examples": 2048,
+        "tokens": 141734,
+        "supervised_tokens": 31043,
+        "content_supervised_tokens": 20572,
+        "task_examples": {
+          "depo": 1024,
+          "brevo": 1024
+        },
+        "max_length": 162,
+        "rejected_duplicates": 6,
+        "sha256": "8adf18fbd4c78ed3f4d65a50e08c3cb86996f05cbc67639b63dc1a635d4052b0",
+        "cross_split_duplicates": 0
+      },
+      "confirm": {
+        "seed": 2026102304,
+        "examples": 2048,
+        "tokens": 145443,
+        "supervised_tokens": 31695,
+        "content_supervised_tokens": 21031,
+        "task_examples": {
+          "depo": 1024,
+          "brevo": 1024
+        },
+        "max_length": 163,
+        "rejected_duplicates": 14,
+        "sha256": "cf60712d5905aff85c1c8015bf9150604c2c86621a7545a9dc142ac2939f1f33",
+        "cross_split_duplicates": 0
+      }
+    }
+  },
+  "lr": "5e-4 warmup5% cosine to10%; residual output multiplier .1->.3",
+  "schedule_note": "Same prespecified recipe for all arms; not claimed optimal for this smaller backbone",
+  "routing": "cyclic t mod M; fixed, no KOMP deletion-cost search",
+  "source_sha256": "979b6ae2787bd1ca5de590bc0de3e0294a610d271da648033495aea61c562855",
+  "environment": {
+    "torch": "2.10.0a0+b558c986e8.nv25.11",
+    "triton": "3.7.1",
+    "cuda": "13.0",
+    "python": "3.12.3",
+    "gpu": "NVIDIA H100 80GB HBM3",
+    "protobuf": "5.29.6",
+    "protobuf_backend": "python"
+  },
+  "common_init_sha256": {
+    "embed.weight": "b81772765c60ed7c609320965a9d5488addda5a9c9ccc153a12fc335bba6c928",
+    "layers.0.mix.q.weight": "a54f0e0c92f4dbfedfdff550e474bfd55536c925817bc1c3ae160f4464e67cee",
+    "layers.0.up.weight": "f2b14c4652ce0cb37276cd51f852a3ef3d25f4211ca74aea95035eb344c5de3f",
+    "head.weight": "cd098ddcb2ec2f242598b55d98b0d7e0c28a9f46b3aade3f3003736d45e36a21"
+  }
+}

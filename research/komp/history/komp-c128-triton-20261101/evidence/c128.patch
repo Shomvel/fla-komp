@@ -1,0 +1,230 @@
+--- komp_slot/block_fast.py.before
++++ komp_slot/block_fast.py
+@@ -2,7 +2,7 @@
+ 
+ Forward  normalize (row blocks) | [dict_scan: learned eviction tables] | proj: Kc,Nc,Gk (tf32x3), Gram sweep
+          inverse, PEo=P Kc, PEn=P Nc | att: Hk,Hn,Rk,Rn (key-width blocked cosines) | ut: (I+diag(beta)(D o Hn))^-1
+-         by 16x16 blocks | compose: OS,OV,FS,FV | scan: group compose, group scan, expand + outputs | final rows.
++         by 16x16 blocks (32x32 for C=128) | compose: OS,OV,FS,FV | scan: group compose, group scan, expand + outputs | final rows.
+ Backward adjoint scan (3 kernels) | mapgrad: dOS,dOV,dFS,dFV,dV | proj_bwd a/b: next-state maps, then through
+          the Gram inverse | chunk_bwd: outputs, UT transform and log-decay gradients | keygrad: key-width
+          blocked products (FIFO C >= M: Knew folded into Kn) | pool_norm_bwd: pool-row sums + normalize.
+@@ -421,18 +421,18 @@
+ 
+ 
+ @tr.jit
+-def _blk(P, i: tl.constexpr, j: tl.constexpr, C: tl.constexpr):
+-    o = tl.arange(0, 16)
+-    return tl.load(P+(16*i+o[:, None])*C+16*j+o[None, :])
+-
+-
+-@tr.jit
+-def _diag_inv(A):
+-    # (I + A)^-1 for a strictly lower 16x16 block by block doubling (4 steps of 16^3 products).
+-    o = tl.arange(0, 16)
++def _blk(P, i: tl.constexpr, j: tl.constexpr, C: tl.constexpr, BS: tl.constexpr = 16):
++    o = tl.arange(0, BS)
++    return tl.load(P+(BS*i+o[:, None])*C+BS*j+o[None, :])
++
++
++@tr.jit
++def _diag_inv(A, BS: tl.constexpr = 16):
++    # Unit-lower block inverse by doubling: 16 rows for C<=64, 32 rows for C=128.
++    o = tl.arange(0, BS)
+     L = -tl.where(o[:, None] > o[None, :], A, 0.)
+     inv = (o[:, None] == o[None, :]).to(tl.float32)
+-    for step in tl.static_range(4):
++    for step in tl.static_range(5 if BS == 32 else 4):
+         w = 1 << step
+         cross = tl.where((o[:, None]//(2*w) == o[None, :]//(2*w)) & (o[:, None] % (2*w) >= w) & (o[None, :] % (2*w) < w), L, 0.)
+         inv += tl.dot(tl.dot(inv, cross, input_precision=PROJ), inv, input_precision=PROJ)
+@@ -440,47 +440,49 @@
+ 
+ 
+ @tr.jit
+-def _put(P, x, i: tl.constexpr, j: tl.constexpr, C: tl.constexpr):
+-    o = tl.arange(0, 16)
+-    tl.store(P+(16*i+o[:, None])*C+16*j+o[None, :], x)
++def _put(P, x, i: tl.constexpr, j: tl.constexpr, C: tl.constexpr, BS: tl.constexpr = 16):
++    o = tl.arange(0, BS)
++    tl.store(P+(BS*i+o[:, None])*C+BS*j+o[None, :], x)
+ 
+ 
+ @tr.jit
+ def _ut_solve(AA, TT, idx, C: tl.constexpr, NB: tl.constexpr):
+-    # (I + A)^-1 from the strictly lower A in AA: 16x16 diagonal inverses, then block merges.
++    # Keep four blocks for C=128 by doubling the tile width, as in blocked triangular solves.
++    # All intermediates remain FP32; only the final TT stores follow the input precision.
++    BS: tl.constexpr = 32 if NB == 8 else 16
+     A = AA+idx*C*C
+     O = TT+idx*C*C
+-    z = tl.zeros((16, 16), tl.float32)
+-    i11 = _diag_inv(_blk(A, 0, 0, C))
+-    _put(O, i11, 0, 0, C)
++    z = tl.zeros((BS, BS), tl.float32)
++    i11 = _diag_inv(_blk(A, 0, 0, C, BS), BS)
++    _put(O, i11, 0, 0, C, BS)
+     if NB >= 2:
+-        i22 = _diag_inv(_blk(A, 1, 1, C))
+-        i21 = -tl.dot(tl.dot(i22, _blk(A, 1, 0, C), input_precision=UT), i11, input_precision=UT)
+-        _put(O, i22, 1, 1, C)
+-        _put(O, i21, 1, 0, C)
+-        _put(O, z, 0, 1, C)
+-    if NB == 4:
+-        i33 = _diag_inv(_blk(A, 2, 2, C))
+-        i44 = _diag_inv(_blk(A, 3, 3, C))
+-        a31, a32 = _blk(A, 2, 0, C), _blk(A, 2, 1, C)
+-        a41, a42, a43 = _blk(A, 3, 0, C), _blk(A, 3, 1, C), _blk(A, 3, 2, C)
++        i22 = _diag_inv(_blk(A, 1, 1, C, BS), BS)
++        i21 = -tl.dot(tl.dot(i22, _blk(A, 1, 0, C, BS), input_precision=UT), i11, input_precision=UT)
++        _put(O, i22, 1, 1, C, BS)
++        _put(O, i21, 1, 0, C, BS)
++        _put(O, z, 0, 1, C, BS)
++    if NB >= 4:
++        i33 = _diag_inv(_blk(A, 2, 2, C, BS), BS)
++        i44 = _diag_inv(_blk(A, 3, 3, C, BS), BS)
++        a31, a32 = _blk(A, 2, 0, C, BS), _blk(A, 2, 1, C, BS)
++        a41, a42, a43 = _blk(A, 3, 0, C, BS), _blk(A, 3, 1, C, BS), _blk(A, 3, 2, C, BS)
+         i32 = -tl.dot(tl.dot(i33, a32, input_precision=UT), i22, input_precision=UT)
+         i43 = -tl.dot(tl.dot(i44, a43, input_precision=UT), i33, input_precision=UT)
+         i31 = -tl.dot(i33, tl.dot(a31, i11, input_precision=UT)+tl.dot(a32, i21, input_precision=UT), input_precision=UT)
+         i42 = -tl.dot(i44, tl.dot(a42, i22, input_precision=UT)+tl.dot(a43, i32, input_precision=UT), input_precision=UT)
+         i41 = -tl.dot(i44, tl.dot(a41, i11, input_precision=UT)+tl.dot(a42, i21, input_precision=UT)
+                       + tl.dot(a43, i31, input_precision=UT), input_precision=UT)
+-        _put(O, i33, 2, 2, C)
+-        _put(O, i44, 3, 3, C)
+-        _put(O, i31, 2, 0, C)
+-        _put(O, i32, 2, 1, C)
+-        _put(O, i41, 3, 0, C)
+-        _put(O, i42, 3, 1, C)
+-        _put(O, i43, 3, 2, C)
++        _put(O, i33, 2, 2, C, BS)
++        _put(O, i44, 3, 3, C, BS)
++        _put(O, i31, 2, 0, C, BS)
++        _put(O, i32, 2, 1, C, BS)
++        _put(O, i41, 3, 0, C, BS)
++        _put(O, i42, 3, 1, C, BS)
++        _put(O, i43, 3, 2, C, BS)
+         for j in tl.static_range(4):
+             for i in tl.static_range(4):
+                 if i < j and not (i < 2 and j < 2):
+-                    _put(O, z, i, j, C)
++                    _put(O, z, i, j, C, BS)
+ 
+ 
+ @tr.jit
+@@ -728,26 +730,30 @@
+ @tr.jit
+ def out_bwd_kernel(G, Beta, HK, RK, RN, TT, DOS, DOV, DWSP, DWVP, DWS, DWV, DGAM, DE, CRK, CRN,
+                    T: tl.constexpr, H: tl.constexpr, M: tl.constexpr, C: tl.constexpr, NC: tl.constexpr,
+-                   BM: tl.constexpr, TAU: tl.constexpr, SLOT: tl.constexpr, IDX: tl.constexpr):
++                   BM: tl.constexpr, TAU: tl.constexpr, SLOT: tl.constexpr, IDX: tl.constexpr, PART: tl.constexpr = 0):
+     # Outputs OS = Gam o Rk + Rd WS, OV = Rd WV (Rd = D' o Rn); completes dWS, dWV.
+     chunk, bh = tl.program_id(0).to(tl.int64), tl.program_id(1).to(tl.int64)
+     t, n, valid, tok, beta, Gam, Ex, Dl, Dp, dend, gend, le, lt, o, r_new = _slot_decay(G, Beta, chunk, bh, T, H, M, C, BM, SLOT, IDX)
+     idx = bh*NC+chunk
+-    Tm = _ld(TT, idx, C, C, C, C)
+-    WS = -tl.dot(Tm, beta[:, None]*Gam*_ld(HK, idx, C, M, C, BM), input_precision=ATT)
+-    WV = Tm*beta[None, :]
+     dOS = _ld(DOS, idx, C, M, C, BM)
+     dOV = _ld(DOV, idx, C, C, C, C)
+-    dRd = tl.dot(dOS, tl.trans(WS), input_precision=ATT)+tl.dot(dOV, tl.trans(WV), input_precision=ATT)
+     Rn = _ld(RN, idx, C, C, C, C)
+     Rd = Dp*Rn
+-    _st(CRN, idx, dRd*Rd/TAU, C, C, C, C)
+-    _st(DE, idx, tl.where(le, dRd*Rn, 0.), C, C, C, C)
+-    _st(DWS, idx, _ld(DWSP, idx, C, M, C, BM)+tl.dot(tl.trans(Rd), dOS, input_precision=ATT), C, M, C, BM)
+-    _st(DWV, idx, _ld(DWVP, idx, C, C, C, C)+tl.dot(tl.trans(Rd), dOV, input_precision=ATT), C, C, C, C)
+-    Rk = _ld(RK, idx, C, M, C, BM)
+-    _st(CRK, idx, Gam*dOS*Rk/TAU, C, M, C, BM)
+-    _st(DGAM, idx, dOS*Rk, C, M, C, BM)
++    # C128 launches each part separately: avoid keeping both orientations of the
++    # 128x128 dOV matrix in shared memory alongside Tm/WV and Rd.
++    if PART != 2:
++        Tm = _ld(TT, idx, C, C, C, C)
++        WS = -tl.dot(Tm, beta[:, None]*Gam*_ld(HK, idx, C, M, C, BM), input_precision=ATT)
++        WV = Tm*beta[None, :]
++        dRd = tl.dot(dOS, tl.trans(WS), input_precision=ATT)+tl.dot(dOV, tl.trans(WV), input_precision=ATT)
++        _st(CRN, idx, dRd*Rd/TAU, C, C, C, C)
++        _st(DE, idx, tl.where(le, dRd*Rn, 0.), C, C, C, C)
++    if PART != 1:
++        _st(DWS, idx, _ld(DWSP, idx, C, M, C, BM)+tl.dot(tl.trans(Rd), dOS, input_precision=ATT), C, M, C, BM)
++        _st(DWV, idx, _ld(DWVP, idx, C, C, C, C)+tl.dot(tl.trans(Rd), dOV, input_precision=ATT), C, C, C, C)
++        Rk = _ld(RK, idx, C, M, C, BM)
++        _st(CRK, idx, Gam*dOS*Rk/TAU, C, M, C, BM)
++        _st(DGAM, idx, dOS*Rk, C, M, C, BM)
+ 
+ 
+ @tr.jit
+@@ -1250,7 +1256,8 @@
+         # stage count is capped by shared memory (FP32 inputs at M=64 fit two stages, BF16 three).
+         es = value.element_size()
+         per_stage = 4*bm*bm+4*bm*c+es*(c*bv)+os.element_size()*(c*bm+c*c)
+-        stages = max(1, min(SCAN_STAGES, 200_000//per_stage))
++        # C128 output tiles and FP32 dot scratch exceed H100 shared memory with pipelined stages.
++        stages = 1 if c == 128 else max(1, min(SCAN_STAGES, 200_000//per_stage))
+         bscan_expand_kernel[(1, bh, nv)](F, FO, value, init, tape, os, ov, out, t, h, m, width, c, nc, nc, 1, bm, bv,
+                                          rev, not rev, SCAN, bf, final, True, num_warps=WARPS['scan'],
+                                          num_stages=stages)
+@@ -1264,10 +1271,10 @@
+     gc = torch.empty((bh, ng, m, width), device=tape.device, dtype=torch.float32)
+     entry = torch.empty_like(gc)
+     w = WARPS['scan']
+-    bscan_compose_kernel[(ng, bh, nv+1)](F, FO, value, ga, gc, t, h, m, width, c, nc, group, ng, bm, bv, rev, nv, SCAN, num_warps=w)
++    bscan_compose_kernel[(ng, bh, nv+1)](F, FO, value, ga, gc, t, h, m, width, c, nc, group, ng, bm, bv, rev, nv, SCAN, num_warps=w, num_stages=1 if c == 128 else 3)
+     group_scan_kernel[(bh, nv)](ga, gc, init, entry, final, m, width, ng, bm, bv, SCAN, num_warps=w)
+     bscan_expand_kernel[(ng, bh, nv)](F, FO, value, entry, tape, os, ov, out, t, h, m, width, c, nc, group, ng, bm, bv,
+-                                      rev, not rev, SCAN, bf, num_warps=w)
++                                      rev, not rev, SCAN, bf, num_warps=w, num_stages=1 if c == 128 else 3)
+ 
+ 
+ class _BlockFast(torch.autograd.Function):
+@@ -1319,7 +1326,7 @@
+                                      num_warps=WARPS['dict'])
+         share = SHARE_GRAM and c == m and not ix and not FUSE_CHUNK_FWD and not FUSE_PROJ_BWD
+         cache = (SLOT_GC_CACHE and slot and not ix and m == bm and c % bm == 0 and not FUSE_CHUNK_FWD
+-                 and not FUSE_PROJ_BWD and FUSE_CHUNK_BWD)
++                 and not FUSE_PROJ_BWD and FUSE_CHUNK_BWD and c <= 64)
+         gcache = torch.empty((b*h*nc, c, bm), device=q.device, dtype=torch.float32) if cache else None
+         chol = CHOL_INV and not RANK1_SWEEP and not SWEEP_FUSED
+         cs = torch.empty((b*h*nc, 2, bm, bm), device=q.device, dtype=torch.float32) if chol else None
+@@ -1400,7 +1407,7 @@
+             affine_scan(fs, off, dfv, ds, dvalues0, True, None, bv, SCAN)
+         f32 = lambda x: torch.empty(x.shape, device=x.device, dtype=torch.float32)
+         dos, dov, dfs, dfv_map = f32(os), f32(ov), torch.empty_like(fs), torch.empty_like(fv)
+-        if DOV_BF16 and bf and FUSE_CHUNK_BWD:
++        if DOV_BF16 and bf and FUSE_CHUNK_BWD and c <= 64:
+             # chunk_bwd reads dOV only through BF16 products: storing it in BF16 is exact.
+             dov = torch.empty(ov.shape, device=ov.device, dtype=torch.bfloat16)
+         dv = torch.empty_like(v)
+@@ -1421,14 +1428,16 @@
+             proj_bwd_b_kernel[grid](g, beta, cand, peo, pen, pinv, kc, ncm, gk, dfs, djn, ckc, cnc, cgs,
+                                     t, h, m, c, nc, bm, tau, slot, ix, ctx.share, ctx.gcache, 0 if ctx.gcache is None else 2,
+                                     num_warps=WARPS['proj_bwd_ix' if ix else 'proj_bwd'])
+-        if FUSE_CHUNK_BWD:
++        # C128 uses three Triton backward stages to bound live 128x128 tiles.
++        if FUSE_CHUNK_BWD and c <= 64:
+             chunk_bwd_kernel[grid](g, beta, hk, hn, rk, rn, tt, dos, dov, dwsp, dwvp, vec, chk, chns, crk, crn, dg, db,
+                                    t, h, m, c, nc, bm, tau, slot, ix, bf, ctx.gcache, 0 if ctx.gcache is None else 2,
+                                    num_warps=WARPS['chunk_bwd_slot' if slot else 'chunk_bwd'])
+         else:
+             dws, dwv, dgam, de = f32(hk), f32(hn), f32(hk), f32(hn)
+-            out_bwd_kernel[grid](g, beta, hk, rk, rn, tt, dos, dov, dwsp, dwvp, dws, dwv, dgam, de, crk, crn,
+-                                 t, h, m, c, nc, bm, tau, slot, ix, num_warps=WARPS['ut_bwd'])
++            for part in ((1, 2) if c == 128 else (0,)):
++                out_bwd_kernel[grid](g, beta, hk, rk, rn, tt, dos, dov, dwsp, dwvp, dws, dwv, dgam, de, crk, crn,
++                                     t, h, m, c, nc, bm, tau, slot, ix, part, num_warps=WARPS['ut_bwd'])
+             ut_bwd_kernel[grid](g, beta, hk, hn, tt, dws, dwv, dgam, de, chk, chns, db,
+                                 t, h, m, c, nc, bm, tau, slot, ix, num_warps=WARPS['ut_bwd'])
+             decay_bwd_kernel[grid](g, beta, dgam, de, vec, dg, t, h, m, c, nc, bm, slot, ix, num_warps=4)
+@@ -1494,8 +1503,8 @@
+     keys0, values0 = initial_state
+     if g.shape not in (q.shape[:3], (*q.shape[:3], keys0.shape[-2])):
+         raise ValueError('g must have shape [B,T,H] or [B,T,H,M]')
+-    if chunk_size not in (16, 32, 64) or keys0.shape[-2] > 64:
+-        raise ValueError('chunk_size must be 16, 32 or 64 and at most 64 slots are supported')
++    if chunk_size not in (16, 32, 64, 128) or keys0.shape[-2] > 64:
++        raise ValueError('chunk_size must be 16, 32, 64 or 128 and at most 64 slots are supported')
+     inputs = [x.contiguous() for x in (q, k, v, g, beta, keys0, values0)]
+     with torch.cuda.device(q.device):
+         out, keys, values = _BlockFast.apply(*inputs, scores, initial_scores, chunk_size, temperature, ridge)

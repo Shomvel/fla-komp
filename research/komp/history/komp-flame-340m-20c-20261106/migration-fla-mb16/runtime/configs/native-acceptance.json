@@ -1,0 +1,18 @@
+{
+  "policy": "Declared before mb16 GPU results; strict compatibility remains separately reported",
+  "strict_per_tensor": {
+    "relative_rms": 0.035,
+    "normalized_max": 0.04,
+    "near_zero_absolute": 1e-07
+  },
+  "native_training": {
+    "loss_absolute": 0.005,
+    "whole_model_gradient_relative_l2": 0.035,
+    "whole_model_update_relative_l2": 0.035,
+    "all_parameters_and_gradients_finite": true,
+    "causal_prefix_relative_rms": 1e-05,
+    "replicas_identical": true,
+    "full_adam_rng_loader_restore": true,
+    "aligned_token_budget": true
+  }
+}

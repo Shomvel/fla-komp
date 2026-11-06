@@ -1,0 +1,50 @@
+{
+  "model": {
+    "kind": "block",
+    "parameters": 339966848,
+    "width": 1024,
+    "layers": 24,
+    "ff": 1824,
+    "heads": 16,
+    "head_dim": 64,
+    "slots": 32,
+    "alpha0": 0.995,
+    "beta0": 0.2,
+    "seed": 42,
+    "vocab": 32000,
+    "short_conv": 4,
+    "compression_tokens": 128,
+    "exact_compute_chunk": null,
+    "eviction": "fifo",
+    "temperature": 0.5,
+    "ridge": 0.0001,
+    "projection": "float32",
+    "state_compute": "float32",
+    "chunk_tape": "bfloat16",
+    "residual_init_std": 0.002886751345948129
+  },
+  "source_sha": "70508897cf56d89882f6f64cdcff0f243c848a93c47aa21c07fb9934c975e00a",
+  "data_sha": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+  "target_input_tokens": 6800000000,
+  "target_supervised_tokens": 6800000000,
+  "global_sequences": 256,
+  "sequence_length": 2048,
+  "microbatch": 4,
+  "accumulation": 8,
+  "batching_sha": "74a286aa3551adc41ab330d94f29363fa169e068c70934128c7f8a084bff228b",
+  "world_size": 8,
+  "optimizer": {
+    "lr": 0.0003,
+    "betas": [
+      0.8,
+      0.95
+    ],
+    "eps": 1e-15,
+    "weight_decay": 0.1
+  },
+  "warmup_steps": 1024,
+  "cosine_min_ratio": 0.1,
+  "packing": "2049 IDs, 2048 inputs and next-token targets; shared boundary token",
+  "final_padding": "unbudgeted trailing compute positions masked from loss",
+  "checkpoint_retention": "latest two complete checkpoints in this new run only"
+}

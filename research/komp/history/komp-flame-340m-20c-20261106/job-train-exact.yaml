@@ -1,0 +1,54 @@
+apiVersion: batch.volcano.sh/v1alpha1
+kind: Job
+metadata:
+  name: komp340m-exact-20c-20261106
+  namespace: qiji
+  annotations:
+    JobAlias: komp340m-exact-20c-20261106
+    project: WeaverRSI
+spec:
+  minAvailable: 1
+  schedulerName: volcano
+  queue: proj-32
+  maxRetry: 0
+  policies:
+    - {event: PodFailed, action: AbortJob}
+    - {event: PodEvicted, action: AbortJob}
+  tasks:
+    - replicas: 1
+      name: runner
+      template:
+        spec:
+          activeDeadlineSeconds: 604800
+          restartPolicy: Never
+          tolerations:
+            - {key: task-type, operator: Equal, value: rsi-weaver, effect: NoSchedule}
+            - {key: task-type, operator: Equal, value: weaver, effect: NoSchedule}
+            - {key: task-type, operator: Equal, value: infra-dev-weaver, effect: NoSchedule}
+          volumes:
+            - name: gpfs
+              hostPath: {path: /gpfs, type: Directory}
+            - name: shm
+              emptyDir: {medium: Memory, sizeLimit: 32Gi}
+          containers:
+            - name: runner
+              image: harbor.local.clusters/bp/weaver-trainer-megatron-bridge:v1.14.30@sha256:8e310d0cb124813a25683448b41df67331951aae06e17bddcfd3f7692f71520e
+              resources:
+                requests: {nvidia.com/gpu: '8', cpu: '32', memory: 128Gi}
+                limits: {nvidia.com/gpu: '8', cpu: '32', memory: 128Gi}
+              volumeMounts:
+                - {name: gpfs, mountPath: /gpfs}
+                - {name: shm, mountPath: /dev/shm}
+              command: [/bin/bash, -lc]
+              args:
+                - |
+                  set -euo pipefail
+                  task_dir=/gpfs/users/linlizhi/komp-flame-340m-20c-20261106
+                  export PYTHONUNBUFFERED=1 OMP_NUM_THREADS=2 TOKENIZERS_PARALLELISM=false
+                  export TRITON_CACHE_DIR="$task_dir/triton-cache"
+                  export CUBLAS_WORKSPACE_CONFIG=:4096:8
+                  export PYTHONPATH=/gpfs/users/linlizhi/komp-gsa-gdn-20261031-env/triton371
+                  export FLA_DISABLE_BACKEND_DISPATCH=1 FLA_DISABLE_TENSOR_CACHE=1
+                  cd "$task_dir"
+                  exec >> "$task_dir/logs/train-exact.log" 2>&1
+                  torchrun --standalone --nproc_per_node=8 train.py --kind exact

@@ -50,7 +50,7 @@ HEADER_LINES = 6
 
 
 def should_skip(path: Path) -> bool:
-    return any(d in path.parts for d in SKIP_DIRS)
+    return path.parts[:3] == ("research", "komp", "history") or any(d in path.parts for d in SKIP_DIRS)
 
 
 def is_header_line(line: str) -> bool:

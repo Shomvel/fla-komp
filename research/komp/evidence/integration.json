@@ -1,0 +1,42 @@
+{
+  "upstream_commit": "9e82a80fdaefcd7c9cc3da51ea36d6a9e1587bd1",
+  "files": {
+    "examples/komp/data.py": "c826258976473331c44cd7d39a0c0020508439de47709254fcbe78dc8499cad0",
+    "examples/komp/train.py": "f9fb6d314f2b4b589de7774ea3c17185af7ac20a3607085e9e2d93e5a036fb13",
+    "fla/layers/komp.py": "7288654d41264045934acdd19d9248ecb449c718a49780db3530dda9ce62c3af",
+    "fla/models/komp/__init__.py": "4fbf1f1a7565ad8046674b9ef3e08303d02d373bd7e954f836a6e27fe46c0077",
+    "fla/models/komp/configuration_komp.py": "049add83bbbacb4be4a132db2760f7bae28fb082da4a74e77a5c182a37786b09",
+    "fla/models/komp/conversion.py": "7d0943af488ad94e2d43a5c4823fd02f801ab13f3a56fa4038dcd47ff4e3fe2c",
+    "fla/models/komp/legacy.py": "0819d12673c8c60e55d1cd40ad51d221a8433df59ce5907af2992c70738d81d0",
+    "fla/models/komp/modeling_komp.py": "d4296ab658bf64d5982b1bf36abf9a124ae36e7492e4b0d33a8c969b1e6703f6",
+    "validation/komp/numerical_cuda.py": "89fdd77dc0965d03607ca006d4734d4322ec3ead9bc8734d2fb353307283b415",
+    "validation/komp/test_contracts.py": "1665d7409dc7b39767be76016f143fb0cca88ce6865be3a288296223c06769b3",
+    "validation/komp/test_geometry_cache.py": "fb75ff02a2219092a0da56e28a825880c1df2a110b99341071db18316b395389",
+    "validation/komp/verify_sources.py": "c541008a95ab83ff2546cfa5a0ea488e94a627b551ec4d11b0003a74ec6316b2"
+  },
+  "checks": {
+    "source_hashes_and_operator_ast": "passed",
+    "pre_commit_core": "passed",
+    "copyright_headers": "passed",
+    "local_checkpoint_cache_lifecycle": "3 passed",
+    "linux_package_contracts": "10 passed in 8.51 seconds",
+    "cuda_latest_upstream": "not run",
+    "portable_cuda_ddp_training": "not run",
+    "editable_install": "passed",
+    "trainer_cli_help": "passed"
+  },
+  "environment": {
+    "python": "3.14.8",
+    "torch": "2.15.0+cpu",
+    "triton": "3.9.0",
+    "transformers": "5.22.1",
+    "gpu_available": false
+  },
+  "commands": [
+    "python -m pytest -q validation/komp/test_contracts.py validation/komp/test_geometry_cache.py",
+    "python validation/komp/verify_sources.py",
+    "python scripts/check_header.py --check",
+    "pre-commit run --files <new and modified maintained files>"
+  ],
+  "core_commit": "f6591a64b0c14417cdabd81bc7a05505361dc2b5"
+}

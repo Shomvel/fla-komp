@@ -1,0 +1,144 @@
+{
+  "status": "both_tasks_selected",
+  "selection_rule": "min final full-validation CE among three prospectively fixed100Mformal LRs per task; no test or generation consulted",
+  "new_training_positions": 0,
+  "action": "promote existing exactsame-seed100Mformal checkpoint; no duplicate retraining",
+  "tasks": {
+    "depo2": {
+      "status": "selected_formal_checkpoint",
+      "alpha0": 0.995,
+      "lr": 0.001,
+      "wd": 0.1,
+      "seed": 731,
+      "positions": 100000997,
+      "projection_dtype": "float32",
+      "state_dtype": "float32",
+      "network_dtype": "bfloat16",
+      "selected_validation_ce": 0.6308049911361147,
+      "selected_directory": "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_alpha995_lr_formal_20261105/runs-ddp/results/depo2-exact-final-lr0.001-wd0.1-seed731",
+      "selected_summary_sha256": "6b74746a5de9ea4407813b1ae55eccab23aaa4fae0272ef2cad9e10339680761",
+      "checkpoint_sha256": "9613ab2456b970cf4e8ee6a1f0ce0c1ae45481707123ad95cb3fbde2d3b4b84c",
+      "checkpoint_stat": {
+        "size": 1206763449,
+        "mtime_ns": 1793893376373583637
+      },
+      "sources": {
+        "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+        "ddp_train": "08588e36fe4dc692b714d317c8462aebb8e485f541fb20b9941b5813ce064c58",
+        "alpha_models": "fd3f7c0615a71a7fcbe1504fdf08d6f7f48a5dfdcdd2d7389cbd61d490ee88ae"
+      },
+      "data_order_sha256": "adeeb571b3383ef06185e972a1e63c0f7ca45f651a952a6ab0126d495cb4789f",
+      "all_candidates": [
+        {
+          "lr": 0.00025,
+          "validation_ce": 0.7011411367138506,
+          "summary_sha256": "05a14608d787641ce5cc3afcb14e41d8fa495dcea80a30c2e06a631300d4b88c",
+          "directory": "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_alpha995_lr_formal_20261105/runs-ddp/results/depo2-exact-final-lr0.00025-wd0.1-seed731",
+          "sources": {
+            "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+            "ddp_train": "08588e36fe4dc692b714d317c8462aebb8e485f541fb20b9941b5813ce064c58",
+            "alpha_models": "fd3f7c0615a71a7fcbe1504fdf08d6f7f48a5dfdcdd2d7389cbd61d490ee88ae"
+          },
+          "positions": 100000997,
+          "data_order_sha256": "adeeb571b3383ef06185e972a1e63c0f7ca45f651a952a6ab0126d495cb4789f"
+        },
+        {
+          "lr": 0.0005,
+          "validation_ce": 0.6695572929539848,
+          "summary_sha256": "f5195525f376ddc7acea64118dc40e2e5b9c175b5a0db9fc3bdd52d09fb00191",
+          "directory": "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_alpha995_formal_20261105/runs-ddp/results/depo2-exact-final-lr0.0005-wd0.1-seed731",
+          "sources": {
+            "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+            "ddp_train": "08588e36fe4dc692b714d317c8462aebb8e485f541fb20b9941b5813ce064c58",
+            "alpha_models": "fd3f7c0615a71a7fcbe1504fdf08d6f7f48a5dfdcdd2d7389cbd61d490ee88ae"
+          },
+          "positions": 100000997,
+          "data_order_sha256": "adeeb571b3383ef06185e972a1e63c0f7ca45f651a952a6ab0126d495cb4789f"
+        },
+        {
+          "lr": 0.001,
+          "validation_ce": 0.6308049911361147,
+          "summary_sha256": "6b74746a5de9ea4407813b1ae55eccab23aaa4fae0272ef2cad9e10339680761",
+          "directory": "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_alpha995_lr_formal_20261105/runs-ddp/results/depo2-exact-final-lr0.001-wd0.1-seed731",
+          "sources": {
+            "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+            "ddp_train": "08588e36fe4dc692b714d317c8462aebb8e485f541fb20b9941b5813ce064c58",
+            "alpha_models": "fd3f7c0615a71a7fcbe1504fdf08d6f7f48a5dfdcdd2d7389cbd61d490ee88ae"
+          },
+          "positions": 100000997,
+          "data_order_sha256": "adeeb571b3383ef06185e972a1e63c0f7ca45f651a952a6ab0126d495cb4789f"
+        }
+      ],
+      "original_alpha098_summary_sha256": "aad9fa703a832608bc71e8a2f2a30eda4279475e9e46b9c2559f23369ff0a8b2",
+      "central_alpha995_summary_sha256": "f5195525f376ddc7acea64118dc40e2e5b9c175b5a0db9fc3bdd52d09fb00191"
+    },
+    "brevo2": {
+      "status": "selected_formal_checkpoint",
+      "alpha0": 0.995,
+      "lr": 0.002,
+      "wd": 0.1,
+      "seed": 731,
+      "positions": 100000590,
+      "projection_dtype": "float32",
+      "state_dtype": "float32",
+      "network_dtype": "bfloat16",
+      "selected_validation_ce": 0.7088655219547753,
+      "selected_directory": "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_alpha995_lr_formal_20261105/runs-ddp/results/brevo2-exact-final-lr0.002-wd0.1-seed731",
+      "selected_summary_sha256": "d1d42cafded88f5a991f1472b7f348de4b104f0b005f4801d6465c66f16b8a82",
+      "checkpoint_sha256": "dbc78722178b923a9eb91b3743c5d5a377e804876267b128ccc9657ab9ee51da",
+      "checkpoint_stat": {
+        "size": 1206763577,
+        "mtime_ns": 1793892976701750126
+      },
+      "sources": {
+        "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+        "ddp_train": "08588e36fe4dc692b714d317c8462aebb8e485f541fb20b9941b5813ce064c58",
+        "alpha_models": "fd3f7c0615a71a7fcbe1504fdf08d6f7f48a5dfdcdd2d7389cbd61d490ee88ae"
+      },
+      "data_order_sha256": "5d54cbfa072adb348f3dfefb89cab29c5be0572618eadbaa7678a3801ef1986d",
+      "all_candidates": [
+        {
+          "lr": 0.0005,
+          "validation_ce": 0.7617774751543879,
+          "summary_sha256": "d11f8366f106c5d4416575562ce3778580443db8cada4d707e6caf34b93f7aa9",
+          "directory": "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_alpha995_lr_formal_20261105/runs-ddp/results/brevo2-exact-final-lr0.0005-wd0.1-seed731",
+          "sources": {
+            "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+            "ddp_train": "08588e36fe4dc692b714d317c8462aebb8e485f541fb20b9941b5813ce064c58",
+            "alpha_models": "fd3f7c0615a71a7fcbe1504fdf08d6f7f48a5dfdcdd2d7389cbd61d490ee88ae"
+          },
+          "positions": 100000590,
+          "data_order_sha256": "5d54cbfa072adb348f3dfefb89cab29c5be0572618eadbaa7678a3801ef1986d"
+        },
+        {
+          "lr": 0.001,
+          "validation_ce": 0.7348304093575835,
+          "summary_sha256": "c358bbabd349daf3678a5dc42652c022d40c74c0d701f8be8cd21020bc5ab929",
+          "directory": "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_alpha995_formal_20261105/runs-ddp/results/brevo2-exact-final-lr0.001-wd0.1-seed731",
+          "sources": {
+            "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+            "ddp_train": "08588e36fe4dc692b714d317c8462aebb8e485f541fb20b9941b5813ce064c58",
+            "alpha_models": "fd3f7c0615a71a7fcbe1504fdf08d6f7f48a5dfdcdd2d7389cbd61d490ee88ae"
+          },
+          "positions": 100000590,
+          "data_order_sha256": "5d54cbfa072adb348f3dfefb89cab29c5be0572618eadbaa7678a3801ef1986d"
+        },
+        {
+          "lr": 0.002,
+          "validation_ce": 0.7088655219547753,
+          "summary_sha256": "d1d42cafded88f5a991f1472b7f348de4b104f0b005f4801d6465c66f16b8a82",
+          "directory": "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_alpha995_lr_formal_20261105/runs-ddp/results/brevo2-exact-final-lr0.002-wd0.1-seed731",
+          "sources": {
+            "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+            "ddp_train": "08588e36fe4dc692b714d317c8462aebb8e485f541fb20b9941b5813ce064c58",
+            "alpha_models": "fd3f7c0615a71a7fcbe1504fdf08d6f7f48a5dfdcdd2d7389cbd61d490ee88ae"
+          },
+          "positions": 100000590,
+          "data_order_sha256": "5d54cbfa072adb348f3dfefb89cab29c5be0572618eadbaa7678a3801ef1986d"
+        }
+      ],
+      "original_alpha098_summary_sha256": "eaf708398ff0ad0d5c2bb575155dcf691d1a90026a8630a721a0d17a189ede9f",
+      "central_alpha995_summary_sha256": "c358bbabd349daf3678a5dc42652c022d40c74c0d701f8be8cd21020bc5ab929"
+    }
+  }
+}

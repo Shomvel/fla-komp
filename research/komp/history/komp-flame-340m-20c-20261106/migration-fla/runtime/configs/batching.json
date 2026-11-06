@@ -1,0 +1,8 @@
+{
+  "microbatch": {
+    "exact": 32,
+    "block": 32
+  },
+  "global_sequences": 256,
+  "world_size": 8
+}

@@ -1,0 +1,58 @@
+{
+  "task": "mano",
+  "budget": 10000,
+  "tune_budget": 1000,
+  "seed": 731001,
+  "definition": "non-padding next-token positions; full final document may overshoot",
+  "splits": {
+    "val": {
+      "documents": 16,
+      "tokens_with_bos": 336,
+      "next_token_positions": 320,
+      "supervised_positions": 32,
+      "token_sha256": "02a15626aac7756b81ad6b4c9c8f10a2c06621eeb521b1669c91eaff1f0e1c51"
+    },
+    "test": {
+      "documents": 16,
+      "tokens_with_bos": 336,
+      "next_token_positions": 320,
+      "supervised_positions": 32,
+      "token_sha256": "dc6c1dd556be4817cd7437d7921c11593dd3afaae7cf14049dc41952090d0b05"
+    },
+    "train": {
+      "documents": 448,
+      "tokens_with_bos": 10458,
+      "next_token_positions": 10010,
+      "supervised_positions": 896,
+      "token_sha256": "8221ce7b4ff909ece2f6887b4083df02a699075a10d15146b2530258e3ff666b"
+    }
+  },
+  "tune_prefix": {
+    "documents": 46,
+    "next_token_positions": 1000,
+    "supervised_positions": 92,
+    "token_sha256": "3af39bab1438f3bafd3688046a19ca60463146410586e11399a611c1d80591d9"
+  },
+  "source_sha256": {
+    "data.py": "b87d535791654123651e9f95daab495bc87f3cf48bd302cc310639ec14c5ffc4",
+    "tasks.py": "5ac209aa47433189ff431f894ed61b17015a7ca9965b3d875342c1f55e94ad95",
+    "physics_port.py": "55847905097b5a7a15f691c34a065861c260bb63bef614e5dac35732d2d41319",
+    "source/Brevo/brevo.py": "a17f150c38528f1d7be52f0bc4d5d32dee04af060ea86445fbe7b8eae9846b5f",
+    "source/Capo-bioS-bioR/Capo-bioS-bioR.py": "90a9349138178b6439e1521cf28e746ddbd634061070f368a0e4718d707bfc1e",
+    "source/Capo-bioS-bioR/fields/city.txt": "7e9d73759976692c014f1437b92d28359783bf65d00b6ed8f4516f4b978c9e0f",
+    "source/Capo-bioS-bioR/fields/company.txt": "e5f1fd6b609a47c79b58ca11da14bbd97da00ad0580ecefcfe49e656f174aa94",
+    "source/Capo-bioS-bioR/fields/field.txt": "5764b044a4a0f87950d03f7b47feec6243da035cae11e806deef326870b41808",
+    "source/Capo-bioS-bioR/fields/first_name.txt": "957f94f7d78a3fc45709517a4389ff1943ff8ae843eb0fab1af81587fbcf16bc",
+    "source/Capo-bioS-bioR/fields/job.txt": "21438dfdd45e1844d2f53aded879e0c151a60bca565739df1db5614187fe5079",
+    "source/Capo-bioS-bioR/fields/last_name.txt": "591e196c3213f31ebc1d2686edfe1366892624f59ab96ab73ee489bcd2dc1e27",
+    "source/Capo-bioS-bioR/fields/middle_name.txt": "95a8ec088fb4ed39809052006b96aaf62985ecb1dee360312434c10b8aeca544",
+    "source/Capo-bioS-bioR/fields/university.txt": "975ca8640a66fa2a8cd42e88567257a2683a233c6db570be3a500643e3203703",
+    "source/Depo/depo.py": "680c5d9dea4e645d4e5c41b72fac8b5e5bbe5ce6a907a9a887d5de61e5f50cbb",
+    "source/Lano-cfg/configs/cfg3b.json": "9b65f447aed2ef8b50f0dcfa1ae5b03a3e055c36aff8ca732cef25ecf67f62c1",
+    "source/Lano-cfg/configs/cfg3f.json": "37f177af07ac2123bc0726d0ac293c110712082a3f529c246e1155a737b66e8a",
+    "source/Lano-cfg/data_cfg.py": "9acb9aac344c0549dde4dfa08b4316c92c0aa03de5cb383c9db9b82f22a5e904",
+    "source/Lano-cfg/demo2_advanced_dp.py": "d77be5000afe011baa45296d564df3fcaba366714b8cf8ec792942000f7089ff",
+    "source/Mano/mano.py": "2eb9520d22b0fa7cf20e87a2e62694d42635465543765813fd4c4acb4f978b5e",
+    "source/upstream.json": "fe5a90ecae4463fdeed9321e8afdb6f64f572ff8eeeb1b61d22b008682fe08d5"
+  }
+}

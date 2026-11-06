@@ -1,0 +1,13 @@
+{
+  "files": {
+    "ddp_train.py": "429c3404c2d24dbdb76a06b12d1b0c2df4974996e57732e0ca13f0f62eebd83f",
+    "beta_m_models.py": "25514759cd39f948d50865541c00c8861939fa922de6ba91cc13b89842095dd7",
+    "numerical_preflight.py": "e277376862fe803675ba0f0fe5a89ef969721839a22c5693464c192c319a426b",
+    "reference.py": "b19d6c25bac9cdc596b97125f18abf777ec09f7def0b9cbf39c35827ebe0aa10",
+    "benchmark.py": "c0d50465d43a1a493d73ad0f4d6d22d8ef7adab650ebe03ad49f30744911b5cd",
+    "group_runner.py": "07f49716b7832fcb24549ef536a1bd49868bdb11a194d7d611fd7f9cc9d8fc28",
+    "evaluate.py": "58ac23eaa9174b797040597627a6ccf1a9674fdb1ab512894be3bce7df1cb129",
+    "plan.json": "6b0e234c8b25ac1a96c7107885ffd705db985e37922ff7434c968b1e16e15844",
+    "evidence/snapshot-sha256.json": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd"
+  }
+}

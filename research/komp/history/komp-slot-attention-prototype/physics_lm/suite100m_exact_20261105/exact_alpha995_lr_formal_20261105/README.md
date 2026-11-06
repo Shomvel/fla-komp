@@ -1,0 +1,7 @@
+# Alpha .995 / FP32 formal learning-rate sweep
+
+Four new100M-position formal runs: Depo2 LR=.00025 then .001; Brevo2 LR=.002 then .0005. Two independent8GPU groups run the two rates serially. Central DepoLR=.0005 and BrevoLR=.001 reuse the completed100M alpha-only runs with checkpoint SHA bindings and zero new training. Added actual positions:400,003,174. Do not merge these results with the older10M FP64 LR screen.
+
+Alpha=.995, FP32projection/state, BF16network/head, WD=.1, seed731, global128documents, original data order and100Mschedule are fixed. Trainer and alpha adapter are byte-identical to the just-accepted alpha-only package; `evidence/preflight-reuse.json` binds its completed8GPU preflight, not a new acceptance claim for the known FP32near-collinear stress limitation. `source-manifest.json` pins this package. Final validation CE alone ranks the rates. Independent256-probe test evaluation is descriptive and must not select LR.
+
+Remote path `/gpfs/users/linlizhi/physics100m-exact-20261105/exact_alpha995_lr_formal_20261105`. Aliases `physics100m-alpha995-lr-depo2-20261105`, `physics100m-alpha995-lr-brevo2-20261105`. Read-only status: `ssh linlizhi-bp-dev python3 - < probe.py`. Once each two-run training group completes, delete the8GPU allocation and evaluate each checkpoint in independent1GPU jobs using the same frozen scorer and probes. Checkpoints remain remote and preserved.

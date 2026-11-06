@@ -1,0 +1,164 @@
+{
+  "architecture": "coh_fifo_999",
+  "seed": 731,
+  "width": 128,
+  "layers": 4,
+  "heads": 2,
+  "key_value_dim": 64,
+  "slots": 32,
+  "ffn": 256,
+  "vocab": 32000,
+  "params": 8964744,
+  "batch": 64,
+  "epoch": 1,
+  "steps": 2231,
+  "data": {
+    "source": "facebookresearch/PhysicsLM4@6c7bbda1d9c9ab104cd4a75814cd83bd29db77f0",
+    "unique_token_definition": "Nonpadding input tokens in exact-deduplicated complete training documents; repeated epochs excluded",
+    "target_unique_input_tokens": 10000000,
+    "depo": {
+      "N": 32,
+      "K": 4,
+      "M": 10,
+      "mini_vocab": 50,
+      "min_tlen": 1,
+      "max_tlen": 2
+    },
+    "brevo": {
+      "N": 24,
+      "multi": false
+    },
+    "excluded_prior_documents": 36086,
+    "splits": {
+      "train": {
+        "seed": 2026102301,
+        "examples": 142784,
+        "tokens": 10001108,
+        "supervised_tokens": 2172277,
+        "content_supervised_tokens": 1439445,
+        "task_examples": {
+          "depo": 71392,
+          "brevo": 71392
+        },
+        "max_length": 171,
+        "rejected_duplicates": 257,
+        "sha256": "3260be1fc124b25f33d85d6642a812ba7ee3a417fb9a1968c851a23177b35bc7",
+        "cross_split_duplicates": 0
+      },
+      "val": {
+        "seed": 2026102302,
+        "examples": 2048,
+        "tokens": 142410,
+        "supervised_tokens": 31058,
+        "content_supervised_tokens": 20612,
+        "task_examples": {
+          "depo": 1024,
+          "brevo": 1024
+        },
+        "max_length": 164,
+        "rejected_duplicates": 5,
+        "sha256": "67eb3a22722fd7d3b0d10e471e5a5e379071f066a83aa89c0dfaaf3c4df9664f",
+        "cross_split_duplicates": 0
+      },
+      "test": {
+        "seed": 2026102303,
+        "examples": 2048,
+        "tokens": 141734,
+        "supervised_tokens": 31043,
+        "content_supervised_tokens": 20572,
+        "task_examples": {
+          "depo": 1024,
+          "brevo": 1024
+        },
+        "max_length": 162,
+        "rejected_duplicates": 6,
+        "sha256": "8adf18fbd4c78ed3f4d65a50e08c3cb86996f05cbc67639b63dc1a635d4052b0",
+        "cross_split_duplicates": 0
+      },
+      "confirm": {
+        "seed": 2026102304,
+        "examples": 2048,
+        "tokens": 145443,
+        "supervised_tokens": 31695,
+        "content_supervised_tokens": 21031,
+        "task_examples": {
+          "depo": 1024,
+          "brevo": 1024
+        },
+        "max_length": 163,
+        "rejected_duplicates": 14,
+        "sha256": "cf60712d5905aff85c1c8015bf9150604c2c86621a7545a9dc142ac2939f1f33",
+        "cross_split_duplicates": 0
+      }
+    }
+  },
+  "lr": "5e-4 warmup5% cosine to10%; residual output multiplier .1->.3",
+  "schedule_note": "Same prespecified recipe for all arms; not claimed optimal for this smaller backbone",
+  "routing": "cyclic t mod M; fixed, no KOMP deletion-cost search",
+  "source_sha256": {
+    "physics_lm/block_experiment.py": "ab75ce8bbcb69ed650f616204cf652425836e00bf8dbfbac0798b0bd31517ed8",
+    "physics_lm/experiment.py": "3963e05767c6a83daa5b3b3e0f1e8a559632a5c239841c8c218c22afe066a060",
+    "komp_slot/__init__.py": "31ff68031942bcbd8efaa22724d4ccf0497cc44dd4bc6a729d43bfad48e2acfc",
+    "komp_slot/block_fast.py": "a8e4c72527473bb1928841df26c5e4625e9441f5b7f2b309f420cabf8d0c74ce",
+    "komp_slot/block_flex.py": "04e049363c3adcc4e675f2076b9977e585c3ce655e8566ffaad14519964c3144",
+    "komp_slot/block_komp.py": "bcde52ca1270099a05b716954ce012bd2a145de21a28ae6cc77bd1e023e1ff17",
+    "komp_slot/block_reference.py": "c36873c0ec4a9987bb1a8c3760289091a93c8ac47ce0bca4191c6a1d30cd5a24",
+    "komp_slot/bsgd.py": "6ea0889a577a253078019fc499d9707dea4bd76044d3bd4d9f7d9b888a71707a",
+    "komp_slot/bsgd_chunk.py": "76c576b71779b53bccf557a33d2714eafffec9e285255398a29b0a33a0a9ded2",
+    "komp_slot/bsgd_reference.py": "1bfec79de41bc7c1a94a90de43f66688b45983a02314887e194b06d07a81c1a3",
+    "komp_slot/chunk.py": "c869f89c55e04930abb12879ece418a59034fed3fff56428129043d1c61df092",
+    "komp_slot/decay.py": "a831b7effa5907bd2b183f902f74ea521f02c28496cd3846de02743389e61e40",
+    "komp_slot/fast_chunk.py": "0a6fa0c812791aab05e66d136a5261cceedcdad76c659a0eac0946cf592ac592",
+    "komp_slot/geometry.py": "74faed0b02fd51d739a75a6766fa37e15920d96ec5aea430dfc42be58fabde14",
+    "komp_slot/geometry_chunk.py": "34e6039108dcf1f1bbf3a25767f00c2752d61123cae790a8dfc7e2070ccdb126",
+    "komp_slot/kapa.py": "bf0f1f73e2b831a88d8774b2215e554e2719d6c358c0aca55957e2014cdfe0fa",
+    "komp_slot/kapa_chunk.py": "a23efd2bda07d67b8a50a5a3d9a42fae114d4a8a239a0a5a7cac6b1d67e6e396",
+    "komp_slot/kapa_geometry.py": "cbc184c9cdcfbedd0fffe237bb913532bc4c41374acd25e2006676ecb3ff7a82",
+    "komp_slot/kapa_reference.py": "3575757ebe150876c980acc558edbcf3d8f7fae4cd15885832a080599ce42413",
+    "komp_slot/kernels.py": "72f1750a8ada09d7d2323d682bb7b5a8c73960aff96618bf58e35b22ea5df08b",
+    "komp_slot/operator.py": "6a79a87acf157b484eafec3eaf78719c0d20969d8addd339d3a224818dfc371e",
+    "komp_slot/recurrence.py": "78b5e2469ff96fb5be096e2af0e165837191ae03c2a4767f04f80bc435ac844e",
+    "komp_slot/reference.py": "d2941e97714c35bd5245a675e0b232be3355f939a62e8723ab80af3d73582bd7",
+    "komp_slot/scan.py": "1bbe108e5900fff570e70795f272cfab60ea42aa34f39342f5fdcc1af888ef4a",
+    "komp_slot/triton_chunk.py": "75197354e2f2cd816e6b77f8bf67a34f95cdf18eac8219a2709af7382c96476b",
+    "komp_slot/utils.py": "0861344f151287a70501001231dc13a3f95a11dbc2ce2aeede55996aaecb0ada",
+    "physics_lm/block_coherence.py": "7c878a996b4f8ae34986422be24792df119bc14ef4c1f5a41c6b8dedcc94e520"
+  },
+  "gsa_slot_initialization": null,
+  "environment": {
+    "torch": "2.10.0a0+b558c986e8.nv25.11",
+    "triton": "3.7.1",
+    "cuda": "13.0",
+    "python": "3.12.3",
+    "gpu": "NVIDIA H100 80GB HBM3",
+    "protobuf": "5.29.6",
+    "protobuf_backend": "python"
+  },
+  "common_init_sha256": {
+    "embed.weight": "b81772765c60ed7c609320965a9d5488addda5a9c9ccc153a12fc335bba6c928",
+    "layers.0.mix.q.weight": "a54f0e0c92f4dbfedfdff550e474bfd55536c925817bc1c3ae160f4464e67cee",
+    "layers.0.up.weight": "f2b14c4652ce0cb37276cd51f852a3ef3d25f4211ca74aea95035eb344c5de3f",
+    "head.weight": "cd098ddcb2ec2f242598b55d98b0d7e0c28a9f46b3aade3f3003736d45e36a21"
+  },
+  "block_variant": "coh_fifo_999",
+  "block_config": {
+    "chunk": 64,
+    "decay": "slot",
+    "evict": "fifo",
+    "score_gate": false
+  },
+  "eviction": "fifo: top-M of M+C kept at chunk ends (ties to newer), evicted atoms jointly projected",
+  "implementation": "block_flex FP32 for every arm; BF16 surrounding backbone",
+  "projectron": null,
+  "decay": "per ring slot g=logsigmoid(linear)/8, initial alpha .98 everywhere",
+  "score_gate": false,
+  "score_note": "initial_score has no differentiable ranking path; gate-only keeps the same dormant parameter",
+  "short_conv": false,
+  "temperature": 0.5,
+  "ridge": 0.0001,
+  "deterministic_algorithms": true,
+  "coherence": 0.999,
+  "coherence_family": "fifo",
+  "statistics": "nonpadding token-head weighted; first/last ceil(2231*.1)=224 optimizer steps only",
+  "selection_metric": "E1 seven-seed confirm mean_content_ce; best enabled threshold, off tested separately"
+}

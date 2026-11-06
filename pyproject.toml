@@ -57,6 +57,7 @@ pythonpath = [
 ]
 
 [tool.ruff]
+extend-exclude = ["research/komp/history"]
 target-version = "py310"
 line-length = 127
 

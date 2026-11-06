@@ -1,0 +1,1 @@
+../../../kapa-geometry-20261101-r1/work/komp_slot/block_fast.py

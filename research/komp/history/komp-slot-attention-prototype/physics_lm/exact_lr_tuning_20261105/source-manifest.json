@@ -1,0 +1,19 @@
+{
+  "files": {
+    "report.py": "711086a9f10b523ebb880a1c3287a68e61f7f8bc3e16abfed8a1300b3860ead4",
+    "prepare_receipts.py": "291803d2cb106e564345f5d7211234d945fe85b638feaab673e8966c080e7ab7",
+    "lr_train.py": "d7035344a3c1b5cfaaf4a5d0a3c71a2dad20c7b9e232f76dc84a7658a3155c14",
+    "group_runner.py": "c747638146f954fa83fb74349bc55f746d9c22af35778ef85f9e0caf126b6417",
+    "lr-screen.json": "243c52796bffa5f52dcf6a6e51ad97dafa6abf3bff3e28ecf94d20a58f6e59f8"
+  },
+  "inherited_files": {
+    "exact_tuning_20261105/report.py": "53f4fd0595a1d66fd8c38e8ef005d4142f2285a006b0afb37cea24326cacbd83",
+    "exact_tuning_20261105/prepare_queue.py": "104f2683c840c6acdef28e64fa3caf46c681ce840ebb99132dd74791f6f0ac4a",
+    "exact_tuning_20261105/tune.py": "99825009bec10dc2b26b9d1fdae1d77d596297d076f7a503bc3d115f04c81165",
+    "exact_tuning_20261105/tuned_preflight.py": "313f0ffcc36d036554b89eb95a21141d95cc19c06bcf1ea46c4a932163086cc9",
+    "exact_tuning_20261105/numerical.py": "81f8b91a62ea1fa2bc7a86afdb319bf9ab44bf2e3e75597a6235628945340436",
+    "exact_tuning_20261105/initial-screen.json": "0d138f9449294e03a5c9e4bf7fc41665daf3b38293ab2b4207395e85c3ce6120",
+    "ddp_train.py": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2",
+    "evidence/snapshot-sha256.json": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd"
+  }
+}

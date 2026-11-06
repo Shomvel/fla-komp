@@ -1,0 +1,39 @@
+{
+  "name": "brevo2-komp-final-lr0.001-wd0.1-seed731",
+  "task": "brevo2",
+  "phase": "final",
+  "seed": 731,
+  "lr": 0.001,
+  "wd": 0.1,
+  "batch": 128,
+  "world_size": 8,
+  "local_microbatch_token_cap": 8192,
+  "steps": 2705,
+  "model": {
+    "kind": "komp",
+    "parameters": 100526392,
+    "width": 512,
+    "layers": 15,
+    "ff": 1984,
+    "heads": 8,
+    "head_dim": 64,
+    "short_conv": true,
+    "conv_size": 4,
+    "block_chunk": 128,
+    "block_slots": 32,
+    "exact_compute_chunk": null,
+    "compression_tokens": 128,
+    "eviction": "fifo",
+    "projection_dtype": null,
+    "gsa_slots": null,
+    "rope_base": null,
+    "swa_window": null
+  },
+  "sources": {
+    "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+    "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+  },
+  "selection": "reused prior validation selection; Exact matched Block",
+  "ddp_loss": "local sum * world_size / global supervised tokens; identical microstep count",
+  "data_order_sha256": "5d54cbfa072adb348f3dfefb89cab29c5be0572618eadbaa7678a3801ef1986d"
+}
