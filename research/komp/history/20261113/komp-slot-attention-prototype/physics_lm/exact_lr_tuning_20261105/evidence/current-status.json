@@ -1,0 +1,16 @@
+{
+  "status": "completed_and_resources_released",
+  "updated_unix": 1793884207.9919062,
+  "new_runs_completed": 4,
+  "new_training_positions": 40003582,
+  "reused_runs": 2,
+  "audit": "evidence/final-audit.json",
+  "audit_status": "passed",
+  "winners": {
+    "depo2": 0.0005,
+    "brevo2": 0.002
+  },
+  "new_lr_gpus_allocated": 0,
+  "startup_record": "evidence/startup.json remains the immutable historical submission receipt",
+  "formal_exact_configuration_changed": false
+}

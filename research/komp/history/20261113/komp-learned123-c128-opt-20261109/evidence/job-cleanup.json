@@ -1,0 +1,10 @@
+{
+  "job": "job-647a7d11db8a-20261109080424",
+  "alias": "komp-learned123-c128-opt-20261109",
+  "terminal": "Completed",
+  "exit_code": 0,
+  "delete_success": true,
+  "query_after_delete": [],
+  "preserved": "all local and GPFS source/fixture/evidence",
+  "observed_at": "2026-11-09T02:15:10.227174+00:00"
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "job-36a6d2dcc899-20261105164214",
+    "user_def_name": "physics100m-exact-20261105-r2",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  },
+  {
+    "name": "job-03277577cd0e-20261105164136",
+    "user_def_name": "physics100m-exact-20261105-r1",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  }
+]

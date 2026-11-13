@@ -1,0 +1,73 @@
+{
+  "comparisons": {
+    "full-comparison.json": {
+      "status": "passed",
+      "failures": 0,
+      "max_loss_difference": 0.0,
+      "categories": {
+        "grad": {
+          "whole_relative_l2": 0.004402751128927671,
+          "worst_rms": 0.02656064266487904,
+          "worst_normalized_max": 0.000150362029671669
+        },
+        "delta": {
+          "whole_relative_l2": 0.004858359602363689,
+          "worst_rms": 0.028154937643372405,
+          "worst_normalized_max": 0.00043879076838493347
+        }
+      }
+    },
+    "full-control-comparison.json": {
+      "status": "passed",
+      "failures": 0,
+      "max_loss_difference": 0.0,
+      "categories": {
+        "grad": {
+          "whole_relative_l2": 0.004394837886689022,
+          "worst_rms": 0.026818999445972307,
+          "worst_normalized_max": 0.00010591000318527222
+        },
+        "delta": {
+          "whole_relative_l2": 0.004849977345307742,
+          "worst_rms": 0.02765535959578729,
+          "worst_normalized_max": 0.0004921844229102135
+        }
+      }
+    },
+    "tail-comparison.json": {
+      "status": "passed",
+      "failures": 0,
+      "max_loss_difference": 0.0,
+      "categories": {
+        "grad": {
+          "whole_relative_l2": 0.004393796109739905,
+          "worst_rms": 0.025433710297985735,
+          "worst_normalized_max": 0.00011905375868082047
+        },
+        "delta": {
+          "whole_relative_l2": 0.004840506571931107,
+          "worst_rms": 0.02706260526302015,
+          "worst_normalized_max": 0.00019842479377985
+        }
+      }
+    },
+    "tail-control-comparison.json": {
+      "status": "passed",
+      "failures": 0,
+      "max_loss_difference": 0.0,
+      "categories": {
+        "grad": {
+          "whole_relative_l2": 0.004408096627027647,
+          "worst_rms": 0.0256499289543272,
+          "worst_normalized_max": 0.00010501407086849213
+        },
+        "delta": {
+          "whole_relative_l2": 0.004845578426471092,
+          "worst_rms": 0.027167852924644454,
+          "worst_normalized_max": 0.00028273090720176697
+        }
+      }
+    }
+  },
+  "runs": {}
+}

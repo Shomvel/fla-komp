@@ -1,0 +1,20 @@
+[
+  {
+    "name": "job-0cae6617a482-20261106094507",
+    "user_def_name": "komp340m-block-fla-mb16-20261106",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 8
+  },
+  {
+    "name": "job-fc9daba3ba43-20261106094504",
+    "user_def_name": "komp340m-exact-fla-mb16-20261106",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 8
+  }
+]

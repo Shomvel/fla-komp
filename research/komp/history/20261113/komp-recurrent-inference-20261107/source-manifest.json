@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "files": {
+    "DESIGN.md": "b9ed5bda6f4937edc818e7626a75a50634c558eeec7913ddb0f8fd9c2fe1b3a7",
+    "benchmark.py": "c7e3f5b375d0cca9dad3105d011ac25ed4e324c48498db7db6e48809975ad726",
+    "fixture_validate.py": "db8aede01f30823f75b9c412d5e8e966f28de24055d4ab6c286534b46c6c82e2",
+    "freeze_sources.py": "50768f89d14e5c12603e2de1e7be0c89e707ad619af59489c095359983093aa4",
+    "gpu_entry.py": "c825cb24f983e28cce7e356b4fd9a43262d727d3cfdc823b73cd615b095ea1f8",
+    "gpu_validate.py": "a3962ef7de4412b79eb99a024ee8d4f6abdeef1326c4d3b6af07507b365d510e",
+    "komp_inference/__init__.py": "54ca8f5dd28e6d098dc64c1cd01eb1189d1a34122ca8de542b60452ddf9e472f",
+    "komp_inference/model.py": "4b53546fc486b91c985ca96e583cbb91336817a9a2634122e7750a36e49c2af2",
+    "komp_inference/prefill.py": "3543c0b848826485e38be662ab38e7afefd548588c0fb8ff45ef0fda2388c9b3",
+    "komp_inference/recurrent.py": "f23a7a7be3c9a42c938f4f03792580b90ed9035bcc469c074ace525a73275f7a",
+    "komp_inference/triton_step.py": "d5eabe46861ca2fcf66ba7d0b780729a5f61411a5f3efef32c3b9935a356da5e",
+    "tests/test_model.py": "c202e52965d9449f6ea041f64965dd82473cd08e43b84a7011aa6ea06785dec5",
+    "tests/test_recurrent.py": "811d442764bd625eda6982f13cf2f121d1ff9c982f67805fb9dfcf97404bc0eb",
+    "validation-plan.json": "6c181191cbc96529c7731b5f61e6957208dd835d136987c25a700e3daef638c9",
+    "verify_sources.py": "ca2168fdbade4d65188119140ae8ec79c42081c13b9df22faffe5720e459f353"
+  }
+}

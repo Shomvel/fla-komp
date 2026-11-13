@@ -1,0 +1,13 @@
+{
+  "status": "completed_audited_and_resources_released",
+  "formal_training_runs": 14,
+  "heldout_runs": 14,
+  "training_positions": 1400011109,
+  "independently_regraded_generation_probes": 3584,
+  "results_sha256": "477f2e0fbcc92b521f3aba5668d8e805efad0a85c56da15362c473334269321c",
+  "audit_sha256": "a3d7cbbe422aafde7847c5e918fd0dfafd47cc7eee359d67bb0af38be8006ba7",
+  "scope": "Original seven architectures x two tasks only; separate alpha995 and LR budgets are excluded",
+  "gsa2": "separate numerically-stabilized source and release-with-limitations",
+  "brevo_block_eval": "right-padding adapter approved by18zero-difference prefix checks and24fullgeneration exactreplay; original progress/source preserved and oldpodgone before identity migration",
+  "checkpoint_policy": "All original and stabilized checkpoints retained on GPFS; no training reruns"
+}

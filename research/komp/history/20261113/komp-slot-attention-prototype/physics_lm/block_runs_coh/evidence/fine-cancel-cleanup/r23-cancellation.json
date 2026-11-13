@@ -1,0 +1,14 @@
+{
+  "reason": "User cancelled coherence scan and replaced it with projection/SWA experiment",
+  "before_delete": [
+    {
+      "name": "job-d2f182831840-20261101160427",
+      "user_def_name": "komp-coh-trials-20261101-r23",
+      "status": "Running",
+      "ready_status": "1/1",
+      "namespace": "qiji",
+      "job_creator": "linlizhi",
+      "user_gpu": 1
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"status": "passed", "checks": ["running_waits", "partial_completed_rejected", "aborted_rejected", "identity_mismatch_rejected", "partial_pin_rejected", "all_four_exits_required", "completed50b_accepted", "repeat_submit_uses_receipt", "ambiguous_prior_intent_never_reposts"]}

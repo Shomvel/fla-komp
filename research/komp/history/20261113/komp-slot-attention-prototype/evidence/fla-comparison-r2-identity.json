@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-a315c2f6c7fe-20261031164416",
+    "user_def_name": "komp-gsa-gdn-20261031-r2",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "status": "bound_same_source",
+  "source_root": "/Users/shom/Downloads/komp-slot-attention-prototype/physics_lm/suite100m_exact_20261105/exact_alpha995_formal_20261105",
+  "ticket_sha256": "6d55af900b68f43fec32b9bb49b6018d1ba2d219ed98e3b1659010aa926304ae",
+  "sources": {
+    "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+    "ddp_train": "08588e36fe4dc692b714d317c8462aebb8e485f541fb20b9941b5813ce064c58",
+    "alpha_models": "fd3f7c0615a71a7fcbe1504fdf08d6f7f48a5dfdcdd2d7389cbd61d490ee88ae"
+  },
+  "reason": "Trainer,alpha adapter,snapshot and arithmetic byte-identical; only runtimeLR args and result directory change; original preflight already covers full8GPU execution"
+}

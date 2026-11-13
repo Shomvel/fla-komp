@@ -1,0 +1,48 @@
+{
+  "preflight": {
+    "status": "passed",
+    "train_files": 253,
+    "checkpoint_step": 3072,
+    "data_manifest_sha": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+    "audit_sha": "ff89fb613d504cb199e378ff7edcb639d597c64827e8b197143a531a4e1da7cc"
+  },
+  "source_checkpoint": "/gpfs/users/linlizhi/exact-komp-efficiency-research-20261106/pinned-checkpoint",
+  "source_hashes": {
+    "model.pt": "192d36ed1594d6938f8f29638c02eadd67c724d5d2057570311c15a679fccc06",
+    "rank0.pt": "c1c685ad7644af369e03fcc677b8f132b4647e07763784e19d640cb706664a19",
+    "rank1.pt": "b95c05e32a08b380bbc1b3236209ddfbdc5f1f85ae9400e1b41ff785a4f8bbe2",
+    "rank2.pt": "a1a38a11b97e92e30ade82e01fcca6d8db2ce375c03ab1b5e08a65c96650905e",
+    "rank3.pt": "f65d10501053fbeb4e88a8181e0e995d956c25cb91ff56da7f77d7ad06b47d1d",
+    "rank4.pt": "f7ddd1d26081e392413dcd9399233abdc23ffdfc3a0d057ddadf5e35ebdfb3e8",
+    "rank5.pt": "6360c69481f49f28b5423a10591992715294cd2dc9903cf62a4783d68d23eda2",
+    "rank6.pt": "ba0d2e9a669fd1e6872fb662cb43d99f83985d1ff7d261b4b89dfe81f7a2bd1a",
+    "rank7.pt": "0e6086d4336db3f1ca3eb4f8e7c29be8b20371a6e8273e18836b0b1e6165f2ff",
+    "complete.json": "f01f7f1c40b42837db2972802af9b964b0e31c69e5335cca7293b483b370dd3b"
+  },
+  "files": {
+    "input-rank1.pt": "bb519053172007323c7a73a4394317d9a80f817ba4d5622a79847d910fb2402a",
+    "rank4.pt": "f7ddd1d26081e392413dcd9399233abdc23ffdfc3a0d057ddadf5e35ebdfb3e8",
+    "input-rank3.pt": "c6800350695789d043edc8b9feaba0df443240e26546fc107a6a2eb44847783d",
+    "input-rank4.pt": "8008f7b76952a77e3b7182538e77421d39568ee421e664f51b1713cba7cd8d2a",
+    "input-rank6.pt": "6d06155039abb50aa6a75a5ad723135cc38b51ac4ec243ca0273fe69f9ba4742",
+    "rank3.pt": "f65d10501053fbeb4e88a8181e0e995d956c25cb91ff56da7f77d7ad06b47d1d",
+    "data-manifest.json": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+    "model.pt": "192d36ed1594d6938f8f29638c02eadd67c724d5d2057570311c15a679fccc06",
+    "complete.json": "f01f7f1c40b42837db2972802af9b964b0e31c69e5335cca7293b483b370dd3b",
+    "input-rank7.pt": "080db3712ae778e062620892875502b858f7981f7c1dca7e9be8bbcdf14b3bb0",
+    "input-rank5.pt": "68ea665258c0f1fe405786e5a6a78eae225dc9e7f20ee060c1d903adedc4288c",
+    "rank1.pt": "b95c05e32a08b380bbc1b3236209ddfbdc5f1f85ae9400e1b41ff785a4f8bbe2",
+    "rank5.pt": "6360c69481f49f28b5423a10591992715294cd2dc9903cf62a4783d68d23eda2",
+    "input-rank2.pt": "d031a6ac17a1922554776b92c65df0f15613ade038deb1d17b5ea1a39c02a746",
+    "rank7.pt": "0e6086d4336db3f1ca3eb4f8e7c29be8b20371a6e8273e18836b0b1e6165f2ff",
+    "rank0.pt": "c1c685ad7644af369e03fcc677b8f132b4647e07763784e19d640cb706664a19",
+    "input-rank0.pt": "e2d7370a3e50fa1bb786f30dd5582ae71ad60c57b2ff9420fdb20b1c73e77795",
+    "rank2.pt": "a1a38a11b97e92e30ade82e01fcca6d8db2ce375c03ab1b5e08a65c96650905e",
+    "rank6.pt": "ba0d2e9a669fd1e6872fb662cb43d99f83985d1ff7d261b4b89dfe81f7a2bd1a"
+  },
+  "shape": [
+    32,
+    2049
+  ],
+  "input_scope": "Two fixed real-data B16 microbatches per rank; repeated for controlled benchmarking, not counted as formal tokens"
+}

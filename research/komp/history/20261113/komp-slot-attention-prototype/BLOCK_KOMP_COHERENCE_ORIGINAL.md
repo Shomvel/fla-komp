@@ -1,0 +1,1 @@
+../../komp-slot-attention-prototype/BLOCK_KOMP_COHERENCE_ORIGINAL.md

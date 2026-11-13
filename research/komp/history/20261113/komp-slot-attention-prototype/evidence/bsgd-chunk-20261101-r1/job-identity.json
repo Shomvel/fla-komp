@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-f7c961e556da-20261101082106",
+    "user_def_name": "bsgd-chunk-20261101-r1",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  }
+]

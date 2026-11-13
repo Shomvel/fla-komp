@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "training_runs": 11,
+  "heldout_evaluations": 3,
+  "prefix_interventions": 286,
+  "checkpoint_sha256": {
+    "physics_lm/gsa2_runs/results/gsa2-large-lr0.001-wd0.1-seed731/model.pt": "ea6197aab399991e91ad8e21e6a3e4b7fead9920c30720ed7be2a7acbd049f33",
+    "physics_lm/gsa2_runs/results/gsa2-small-lr0.00025-wd0-seed731/model.pt": "e815777a2d0634c4cbefa0f29958844c98a4aee3916133d6525158d61ae62945",
+    "physics_lm/gsa2_runs/results/gsa2-small-lr0.00025-wd0.01-seed731/model.pt": "f184b800980b6dc643e8224d50e6ae9f960efc762fcc2f6e42d03312fa05b1b5",
+    "physics_lm/gsa2_runs/results/gsa2-small-lr0.00025-wd0.1-seed731/model.pt": "fb381321ed65b01c3247f699c5a595f5bfef1bb2450ba53e7b774c4e6708cbbe",
+    "physics_lm/gsa2_runs/results/gsa2-small-lr0.0005-wd0-seed731/model.pt": "cfa01d1c3a925c38f6e2adf27c4d0b9f7b37f57a335934fccc212f47bf4817f8",
+    "physics_lm/gsa2_runs/results/gsa2-small-lr0.0005-wd0.01-seed731/model.pt": "6bc4e0faaffb2ff2960a6716d380840ceeca11be23977791d6e8ae0efc353d7b",
+    "physics_lm/gsa2_runs/results/gsa2-small-lr0.0005-wd0.1-seed731/model.pt": "efe598d6cb92be4a178531af1dcebe76f30f287a5c81e91e057b95f25e6d9e65",
+    "physics_lm/gsa2_runs/results/gsa2-small-lr0.001-wd0-seed731/model.pt": "1936932a6690042ce29677e6fece207043260fbe9a15a2c1b3314c7ac98bad66",
+    "physics_lm/gsa2_runs/results/gsa2-small-lr0.001-wd0.01-seed731/model.pt": "fd0f4b08fb835855a873a62eb6e677123f49100d8ea04f4c64993863ea78600b",
+    "physics_lm/gsa2_runs/results/gsa2-small-lr0.001-wd0.1-seed731/model.pt": "ead2b85dd31205491258c968d7593e7f4a8179cc61d81f618e0990507d8e7eab",
+    "physics_lm/gsa2_runs/results/gsa2-small-lr0.001-wd0.1-seed732/model.pt": "84a89381eab434971313736e7feb3a230e6b4bd8ba3b7e48bcb482eb8a3d5372"
+  },
+  "selection_sha256": "4e0a41f5d11be61716b244050564e51ee36b475a0447f07d9e6b9534d514c5d9",
+  "script_sha256": {
+    "physics_lm/decay_experiment.py": "130a2e053196552076b57d4f60977bbfd19d544a293bbd3ac28439c6f6f55fed",
+    "physics_lm/decay_launch.py": "97f5dc7b4de22fe5944ef2b6abbb70eba6bc2e8e81654441fd315d69507ef1b9",
+    "physics_lm/experiment.py": "3963e05767c6a83daa5b3b3e0f1e8a559632a5c239841c8c218c22afe066a060",
+    "physics_lm/gsa2_experiment.py": "3313ef51e1b26b82951b52e34b832cf288506842dfefc6a82a7a93e2f655bf54",
+    "physics_lm/gsa2_launch.py": "e347f3ed6234a593a352710e72849116d17d17198d8ab8bc8e7c595470720ea4",
+    "physics_lm/lrwd_experiment.py": "a3c574bcbffa818630cac2c299d4df894ded50a9f77c230f021430431bca269a",
+    "physics_lm/lrwd_launch.py": "4e5ed4dd47897a95863198f5681a734e81cb6533dd4af97bec256b04e8d2a560",
+    "physics_lm/physics_port.py": "55847905097b5a7a15f691c34a065861c260bb63bef614e5dac35732d2d41319",
+    "physics_lm/prepare_100m.py": "6e3c6a1308a9e05ddd6b0a298fbb0a9201ed091cd936df4166141370dd046711",
+    "physics_lm/shortconv_experiment.py": "748d55dfd0a90105a30bf030e386b59d51e309c7de1c42970369619c96e2e284",
+    "physics_lm/shortconv_launch.py": "b559e947cce223e302e926e4c23837bfd615af16c4b10d9b8425546fda45dcd8",
+    "physics_lm/validate_data.py": "591674052f775554b09d3ea45779c4cc1c604c3896e63b2067af6197cb89d2d4"
+  }
+}

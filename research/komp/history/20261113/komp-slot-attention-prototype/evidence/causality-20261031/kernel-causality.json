@@ -1,0 +1,5562 @@
+{
+  "checks": [
+    {
+      "name": "c16/OV_upper_triangle",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/suffix_intervention/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/1/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/1/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/1/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/1/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/1/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/1/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/suffix_intervention/7",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/7/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/7/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/7/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/7/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/7/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/7/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/suffix_intervention/15",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/15/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/15/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/15/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/15/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/15/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/15/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/suffix_intervention/16",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/16/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/16/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/16/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/16/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/16/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/16/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/suffix_intervention/17",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/17/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/17/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/17/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/17/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/17/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/17/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/suffix_intervention/31",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/31/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/31/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/31/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/31/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/31/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/31/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/suffix_intervention/32",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/32/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/32/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/32/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/32/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/32/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/32/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/suffix_intervention/33",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/33/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/33/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/33/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/33/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/33/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/33/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/suffix_intervention/63",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/63/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/63/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/63/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/63/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/63/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/63/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/suffix_intervention/64",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/64/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/64/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/64/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/64/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/64/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/64/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/suffix_intervention/65",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/65/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/65/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/65/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/65/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/65/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/65/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/suffix_intervention/127",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/127/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/127/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/127/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/127/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/127/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/127/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/suffix_intervention/128",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/128/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/128/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/128/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/128/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/128/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/128/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/suffix_intervention/129",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/129/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/129/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/129/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/129/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/129/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/129/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/suffix_intervention/191",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/191/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/191/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/191/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/191/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/191/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/191/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/suffix_intervention/192",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/192/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/192/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/192/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/192/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/192/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c16/future_gradient/192/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/OV_upper_triangle",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/suffix_intervention/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/1/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/1/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/1/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/1/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/1/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/1/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/suffix_intervention/7",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/7/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/7/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/7/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/7/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/7/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/7/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/suffix_intervention/15",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/15/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/15/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/15/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/15/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/15/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/15/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/suffix_intervention/16",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/16/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/16/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/16/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/16/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/16/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/16/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/suffix_intervention/17",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/17/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/17/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/17/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/17/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/17/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/17/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/suffix_intervention/31",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/31/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/31/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/31/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/31/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/31/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/31/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/suffix_intervention/32",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/32/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/32/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/32/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/32/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/32/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/32/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/suffix_intervention/33",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/33/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/33/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/33/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/33/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/33/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/33/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/suffix_intervention/63",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/63/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/63/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/63/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/63/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/63/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/63/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/suffix_intervention/64",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/64/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/64/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/64/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/64/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/64/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/64/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/suffix_intervention/65",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/65/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/65/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/65/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/65/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/65/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/65/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/suffix_intervention/127",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/127/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/127/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/127/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/127/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/127/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/127/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/suffix_intervention/128",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/128/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/128/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/128/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/128/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/128/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/128/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/suffix_intervention/129",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/129/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/129/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/129/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/129/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/129/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/129/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/suffix_intervention/191",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/191/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/191/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/191/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/191/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/191/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/191/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/suffix_intervention/192",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/192/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/192/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/192/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/192/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/192/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "c32/future_gradient/192/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/1/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/1/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/1/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future_gradient/1/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future_gradient/1/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/15/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/15/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/15/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future_gradient/15/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future_gradient/15/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/16/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/16/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/16/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future_gradient/16/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future_gradient/16/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/17/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/17/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/17/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future_gradient/17/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future_gradient/17/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/31/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/31/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/31/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future_gradient/31/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future_gradient/31/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/32/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/32/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/32/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future_gradient/32/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future_gradient/32/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/33/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/33/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/33/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future_gradient/33/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future_gradient/33/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/127/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/127/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/127/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future_gradient/127/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future_gradient/127/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/128/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/128/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/128/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future_gradient/128/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future_gradient/128/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/129/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/129/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/129/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future_gradient/129/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future_gradient/129/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/192/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/192/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future/192/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future_gradient/192/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "geometry/future_gradient/192/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed731/trained_model_future/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed731/trained_model_future/15",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed731/trained_model_future/16",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed731/trained_model_future/17",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed731/trained_model_future/31",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed731/trained_model_future/32",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed731/trained_model_future/33",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed731/trained_model_future/63",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed731/trained_model_future/64",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed731/trained_model_future/65",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed731/trained_model_future/127",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed731/trained_model_future/128",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed731/trained_model_future/129",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed731/trained_model_future/191",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed731/gold_suffix/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed731/gold_suffix/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed731/gold_suffix/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed731/gold_suffix/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed731/gold_suffix/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed731/gold_suffix/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed731/gold_suffix/6",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed731/gold_suffix/7",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed731/gold_suffix/8",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed731/gold_suffix/9",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed731/gold_suffix/10",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed731/gold_suffix/11",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed731/gold_suffix/12",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed731/gold_suffix/13",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed731/gold_suffix/14",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed731/gold_suffix/15",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed732/trained_model_future/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed732/trained_model_future/15",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed732/trained_model_future/16",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed732/trained_model_future/17",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed732/trained_model_future/31",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed732/trained_model_future/32",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed732/trained_model_future/33",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed732/trained_model_future/63",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed732/trained_model_future/64",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed732/trained_model_future/65",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed732/trained_model_future/127",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed732/trained_model_future/128",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed732/trained_model_future/129",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed732/trained_model_future/191",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed732/gold_suffix/0",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed732/gold_suffix/1",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed732/gold_suffix/2",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed732/gold_suffix/3",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed732/gold_suffix/4",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed732/gold_suffix/5",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed732/gold_suffix/6",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed732/gold_suffix/7",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed732/gold_suffix/8",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed732/gold_suffix/9",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed732/gold_suffix/10",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed732/gold_suffix/11",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed732/gold_suffix/12",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed732/gold_suffix/13",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed732/gold_suffix/14",
+      "max_abs": 0.0
+    },
+    {
+      "name": "gsa_slot-seed732/gold_suffix/15",
+      "max_abs": 0.0
+    }
+  ],
+  "models": [
+    {
+      "name": "gsa_slot-seed731",
+      "n": 128,
+      "recurrent_valid": 41,
+      "original_valid": 41,
+      "same_guess": 125,
+      "records": [
+        {
+          "guess": [
+            10,
+            20,
+            16,
+            11,
+            2,
+            9,
+            17,
+            21,
+            23,
+            7,
+            6,
+            1,
+            18,
+            13,
+            15,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 21
+        },
+        {
+          "guess": [
+            22,
+            11,
+            1,
+            10,
+            6,
+            19,
+            12,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 9
+        },
+        {
+          "guess": [
+            9,
+            10,
+            19,
+            14,
+            22,
+            4,
+            5,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 9
+        },
+        {
+          "guess": [
+            10,
+            9,
+            15,
+            12,
+            19,
+            5,
+            11,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 14
+        },
+        {
+          "guess": [
+            2,
+            22,
+            8,
+            11,
+            17,
+            6,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 13
+        },
+        {
+          "guess": [
+            15,
+            7,
+            24,
+            23,
+            4,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 5
+        },
+        {
+          "guess": [
+            10,
+            1,
+            7,
+            23,
+            4,
+            19,
+            22,
+            3,
+            20,
+            6,
+            15,
+            21,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 22
+        },
+        {
+          "guess": [
+            1,
+            14,
+            24,
+            15,
+            18,
+            23,
+            21,
+            6,
+            10,
+            2,
+            4,
+            3,
+            8,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 16
+        },
+        {
+          "guess": [
+            10,
+            11,
+            8,
+            13,
+            12,
+            5,
+            15,
+            6,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 24
+        },
+        {
+          "guess": [
+            1,
+            14,
+            17,
+            23,
+            22,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 12
+        },
+        {
+          "guess": [
+            16,
+            24,
+            12,
+            17,
+            21,
+            11,
+            20,
+            7,
+            1,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 14
+        },
+        {
+          "guess": [
+            13,
+            11,
+            23,
+            21,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 5
+        },
+        {
+          "guess": [
+            2,
+            8,
+            18,
+            7,
+            15,
+            10,
+            13,
+            12,
+            22,
+            11,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 21
+        },
+        {
+          "guess": [
+            13,
+            10,
+            8,
+            6,
+            20,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 7
+        },
+        {
+          "guess": [
+            10,
+            15,
+            17,
+            23,
+            21,
+            1,
+            4,
+            11,
+            20,
+            7,
+            2,
+            22,
+            18,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 22
+        },
+        {
+          "guess": [
+            21,
+            2,
+            6,
+            7,
+            13,
+            19,
+            22,
+            4,
+            11,
+            18,
+            23,
+            10,
+            12,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 18
+        },
+        {
+          "guess": [
+            14,
+            11,
+            21,
+            9,
+            4,
+            5,
+            7,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 8
+        },
+        {
+          "guess": [
+            1,
+            12,
+            16,
+            22,
+            5,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 6
+        },
+        {
+          "guess": [
+            5,
+            20,
+            15,
+            3,
+            14,
+            13,
+            16,
+            7,
+            21,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 11
+        },
+        {
+          "guess": [
+            17,
+            10,
+            13,
+            21,
+            24,
+            6,
+            19,
+            22,
+            16,
+            7,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 20
+        },
+        {
+          "guess": [
+            20,
+            11,
+            15,
+            7,
+            21,
+            6,
+            12,
+            17,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 20
+        },
+        {
+          "guess": [
+            23,
+            22,
+            10,
+            3,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 7
+        },
+        {
+          "guess": [
+            24,
+            14,
+            11,
+            10,
+            7,
+            1,
+            12,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 11
+        },
+        {
+          "guess": [
+            20,
+            9,
+            15,
+            2,
+            4,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 5
+        },
+        {
+          "guess": [
+            13,
+            12,
+            14,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 3
+        },
+        {
+          "guess": [
+            12,
+            16,
+            17,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 3
+        },
+        {
+          "guess": [
+            3,
+            18,
+            14,
+            6,
+            23,
+            8,
+            12,
+            5,
+            10,
+            11,
+            24,
+            13,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 18
+        },
+        {
+          "guess": [
+            18,
+            15,
+            17,
+            5,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 4
+        },
+        {
+          "guess": [
+            14,
+            3,
+            23,
+            5,
+            6,
+            20,
+            15,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 8
+        },
+        {
+          "guess": [
+            5,
+            16,
+            10,
+            17,
+            22,
+            11,
+            1,
+            19,
+            18,
+            24,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": false,
+          "n": 18
+        },
+        {
+          "guess": [
+            10,
+            9,
+            20,
+            17,
+            16,
+            5,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 9
+        },
+        {
+          "guess": [
+            13,
+            12,
+            3,
+            18,
+            1,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 5
+        },
+        {
+          "guess": [
+            20,
+            1,
+            23,
+            3,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 4
+        },
+        {
+          "guess": [
+            24,
+            10,
+            21,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 4
+        },
+        {
+          "guess": [
+            8,
+            17,
+            1,
+            12,
+            2,
+            7,
+            21,
+            20,
+            16,
+            4,
+            17,
+            7,
+            21,
+            19,
+            22,
+            18,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": false,
+          "n": 16
+        },
+        {
+          "guess": [
+            2,
+            16,
+            21,
+            20,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 4
+        },
+        {
+          "guess": [
+            2,
+            8,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 4
+        },
+        {
+          "guess": [
+            23,
+            14,
+            17,
+            12,
+            3,
+            15,
+            6,
+            5,
+            19,
+            21,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 16
+        },
+        {
+          "guess": [
+            1,
+            3,
+            24,
+            5,
+            9,
+            4,
+            12,
+            21,
+            13,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 14
+        },
+        {
+          "guess": [
+            12,
+            22,
+            19,
+            4,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 4
+        },
+        {
+          "guess": [
+            19,
+            6,
+            17,
+            21,
+            9,
+            7,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 7
+        },
+        {
+          "guess": [
+            2,
+            11,
+            10,
+            7,
+            9,
+            15,
+            18,
+            3,
+            4,
+            22,
+            20,
+            5,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 14
+        },
+        {
+          "guess": [
+            10,
+            5,
+            22,
+            18,
+            24,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 8
+        },
+        {
+          "guess": [
+            8,
+            17,
+            22,
+            21,
+            15,
+            1,
+            19,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 10
+        },
+        {
+          "guess": [
+            8,
+            14,
+            1,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 3
+        },
+        {
+          "guess": [
+            4,
+            23,
+            19,
+            11,
+            24,
+            21,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 7
+        },
+        {
+          "guess": [
+            17,
+            5,
+            16,
+            2,
+            19,
+            3,
+            4,
+            24,
+            13,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 19
+        },
+        {
+          "guess": [
+            2,
+            7,
+            3,
+            15,
+            13,
+            4,
+            1,
+            9,
+            17,
+            12,
+            5,
+            22,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 18
+        },
+        {
+          "guess": [
+            4,
+            19,
+            22,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 3
+        },
+        {
+          "guess": [
+            19,
+            8,
+            13,
+            12,
+            4,
+            21,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 6
+        },
+        {
+          "guess": [
+            12,
+            23,
+            21,
+            20,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 6
+        },
+        {
+          "guess": [
+            11,
+            2,
+            1,
+            22,
+            6,
+            17,
+            24,
+            16,
+            19,
+            5,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 16
+        },
+        {
+          "guess": [
+            5,
+            11,
+            3,
+            9,
+            7,
+            1,
+            21,
+            24,
+            8,
+            15,
+            12,
+            10,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 18
+        },
+        {
+          "guess": [
+            3,
+            17,
+            6,
+            20,
+            7,
+            16,
+            10,
+            13,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 15
+        },
+        {
+          "guess": [
+            24,
+            15,
+            3,
+            8,
+            21,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 8
+        },
+        {
+          "guess": [
+            1,
+            19,
+            23,
+            24,
+            22,
+            9,
+            13,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 7
+        },
+        {
+          "guess": [
+            22,
+            3,
+            11,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 4
+        },
+        {
+          "guess": [
+            4,
+            7,
+            17,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 4
+        },
+        {
+          "guess": [
+            4,
+            8,
+            12,
+            15,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 5
+        },
+        {
+          "guess": [
+            24,
+            8,
+            1,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 3
+        },
+        {
+          "guess": [
+            10,
+            6,
+            9,
+            22,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 24
+        },
+        {
+          "guess": [
+            7,
+            4,
+            19,
+            5,
+            23,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 5
+        },
+        {
+          "guess": [
+            7,
+            10,
+            6,
+            4,
+            9,
+            24,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 8
+        },
+        {
+          "guess": [
+            2,
+            18,
+            15,
+            6,
+            4,
+            17,
+            23,
+            24,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 14
+        },
+        {
+          "guess": [
+            13,
+            6,
+            24,
+            17,
+            21,
+            2,
+            23,
+            4,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 12
+        },
+        {
+          "guess": [
+            19,
+            21,
+            9,
+            10,
+            17,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 10
+        },
+        {
+          "guess": [
+            21,
+            11,
+            19,
+            24,
+            6,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 5
+        },
+        {
+          "guess": [
+            16,
+            1,
+            3,
+            11,
+            17,
+            19,
+            12,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 12
+        },
+        {
+          "guess": [
+            6,
+            14,
+            12,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 3
+        },
+        {
+          "guess": [
+            9,
+            15,
+            21,
+            22,
+            24,
+            5,
+            14,
+            6,
+            23,
+            12,
+            17,
+            4,
+            7,
+            11,
+            2,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 19
+        },
+        {
+          "guess": [
+            9,
+            22,
+            19,
+            24,
+            11,
+            17,
+            14,
+            23,
+            8,
+            21,
+            1,
+            18,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 18
+        },
+        {
+          "guess": [
+            14,
+            7,
+            18,
+            10,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 5
+        },
+        {
+          "guess": [
+            6,
+            15,
+            7,
+            21,
+            18,
+            8,
+            23,
+            10,
+            20,
+            5,
+            24,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 18
+        },
+        {
+          "guess": [
+            13,
+            8,
+            6,
+            12,
+            18,
+            14,
+            24,
+            20,
+            2,
+            21,
+            11,
+            5,
+            10,
+            9,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 21
+        },
+        {
+          "guess": [
+            14,
+            15,
+            12,
+            6,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 11
+        },
+        {
+          "guess": [
+            23,
+            21,
+            4,
+            12,
+            20,
+            6,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 17
+        },
+        {
+          "guess": [
+            24,
+            1,
+            2,
+            13,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 6
+        },
+        {
+          "guess": [
+            10,
+            9,
+            3,
+            19,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 4
+        },
+        {
+          "guess": [
+            7,
+            4,
+            2,
+            8,
+            20,
+            23,
+            11,
+            14,
+            3,
+            10,
+            18,
+            19,
+            12,
+            21,
+            9,
+            17,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 24
+        },
+        {
+          "guess": [
+            11,
+            13,
+            12,
+            2,
+            18,
+            21,
+            17,
+            6,
+            22,
+            5,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 24
+        },
+        {
+          "guess": [
+            5,
+            7,
+            13,
+            24,
+            12,
+            21,
+            17,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 8
+        },
+        {
+          "guess": [
+            22,
+            3,
+            15,
+            2,
+            24,
+            7,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 6
+        },
+        {
+          "guess": [
+            11,
+            1,
+            12,
+            14,
+            4,
+            19,
+            21,
+            15,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 11
+        },
+        {
+          "guess": [
+            1,
+            23,
+            9,
+            10,
+            11,
+            5,
+            12,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 10
+        },
+        {
+          "guess": [
+            3,
+            13,
+            20,
+            7,
+            8,
+            23,
+            9,
+            19,
+            6,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 16
+        },
+        {
+          "guess": [
+            22,
+            15,
+            19,
+            5,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 8
+        },
+        {
+          "guess": [
+            5,
+            8,
+            23,
+            19,
+            7,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 9
+        },
+        {
+          "guess": [
+            21,
+            13,
+            15,
+            3,
+            6,
+            17,
+            20,
+            24,
+            1,
+            10,
+            5,
+            12,
+            11,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 17
+        },
+        {
+          "guess": [
+            21,
+            15,
+            11,
+            16,
+            8,
+            2,
+            10,
+            23,
+            20,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 21
+        },
+        {
+          "guess": [
+            13,
+            10,
+            17,
+            23,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 6
+        },
+        {
+          "guess": [
+            17,
+            23,
+            12,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 3
+        },
+        {
+          "guess": [
+            15,
+            2,
+            5,
+            6,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 4
+        },
+        {
+          "guess": [
+            11,
+            15,
+            16,
+            24,
+            3,
+            18,
+            14,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 9
+        },
+        {
+          "guess": [
+            10,
+            12,
+            21,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 3
+        },
+        {
+          "guess": [
+            15,
+            7,
+            4,
+            6,
+            16,
+            10,
+            20,
+            18,
+            14,
+            9,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": false,
+          "n": 17
+        },
+        {
+          "guess": [
+            15,
+            2,
+            17,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 13
+        },
+        {
+          "guess": [
+            1,
+            18,
+            11,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 4
+        },
+        {
+          "guess": [
+            12,
+            8,
+            4,
+            22,
+            11,
+            7,
+            17,
+            1,
+            15,
+            23,
+            13,
+            20,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 21
+        },
+        {
+          "guess": [
+            15,
+            16,
+            12,
+            19,
+            22,
+            6,
+            2,
+            23,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 17
+        },
+        {
+          "guess": [
+            8,
+            21,
+            20,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 3
+        },
+        {
+          "guess": [
+            8,
+            13,
+            5,
+            22,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 5
+        },
+        {
+          "guess": [
+            18,
+            19,
+            12,
+            23,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 4
+        },
+        {
+          "guess": [
+            7,
+            20,
+            21,
+            23,
+            13,
+            24,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 8
+        },
+        {
+          "guess": [
+            18,
+            16,
+            21,
+            7,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 6
+        },
+        {
+          "guess": [
+            16,
+            5,
+            6,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 4
+        },
+        {
+          "guess": [
+            22,
+            19,
+            24,
+            17,
+            4,
+            12,
+            15,
+            8,
+            1,
+            16,
+            13,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 12
+        },
+        {
+          "guess": [
+            13,
+            3,
+            5,
+            17,
+            15,
+            6,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 8
+        },
+        {
+          "guess": [
+            24,
+            15,
+            8,
+            18,
+            13,
+            19,
+            7,
+            4,
+            1,
+            14,
+            17,
+            9,
+            11,
+            21,
+            2,
+            16,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 24
+        },
+        {
+          "guess": [
+            9,
+            11,
+            1,
+            14,
+            20,
+            13,
+            18,
+            6,
+            23,
+            17,
+            3,
+            12,
+            10,
+            8,
+            21,
+            7,
+            24,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 24
+        },
+        {
+          "guess": [
+            15,
+            9,
+            11,
+            5,
+            19,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 5
+        },
+        {
+          "guess": [
+            23,
+            14,
+            21,
+            2,
+            12,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 6
+        },
+        {
+          "guess": [
+            3,
+            13,
+            16,
+            24,
+            5,
+            14,
+            22,
+            21,
+            19,
+            20,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 12
+        },
+        {
+          "guess": [
+            12,
+            15,
+            20,
+            23,
+            5,
+            13,
+            8,
+            10,
+            4,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 14
+        },
+        {
+          "guess": [
+            14,
+            10,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 3
+        },
+        {
+          "guess": [
+            20,
+            10,
+            11,
+            2,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 4
+        },
+        {
+          "guess": [
+            9,
+            17,
+            10,
+            16,
+            12,
+            23,
+            15,
+            14,
+            2,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 16
+        },
+        {
+          "guess": [
+            5,
+            17,
+            20,
+            3,
+            6,
+            4,
+            1,
+            8,
+            10,
+            13,
+            19,
+            2,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 20
+        },
+        {
+          "guess": [
+            8,
+            23,
+            11,
+            17,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 6
+        },
+        {
+          "guess": [
+            21,
+            11,
+            24,
+            5,
+            4,
+            15,
+            3,
+            6,
+            10,
+            18,
+            13,
+            23,
+            22,
+            9,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 22
+        },
+        {
+          "guess": [
+            24,
+            16,
+            6,
+            18,
+            21,
+            4,
+            10,
+            8,
+            7,
+            11,
+            19,
+            3,
+            12,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 18
+        },
+        {
+          "guess": [
+            2,
+            19,
+            24,
+            12,
+            18,
+            11,
+            7,
+            9,
+            22,
+            23,
+            3,
+            6,
+            20,
+            14,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 16
+        },
+        {
+          "guess": [
+            18,
+            2,
+            19,
+            9,
+            4,
+            16,
+            1,
+            17,
+            12,
+            11,
+            10,
+            22,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 19
+        },
+        {
+          "guess": [
+            5,
+            21,
+            13,
+            23,
+            11,
+            19,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 6
+        },
+        {
+          "guess": [
+            15,
+            3,
+            16,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 3
+        },
+        {
+          "guess": [
+            15,
+            9,
+            18,
+            19,
+            7,
+            17,
+            24,
+            10,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 19
+        },
+        {
+          "guess": [
+            21,
+            7,
+            10,
+            13,
+            11,
+            5,
+            17,
+            16,
+            2,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 13
+        },
+        {
+          "guess": [
+            12,
+            15,
+            2,
+            8,
+            6,
+            7,
+            17,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 9
+        },
+        {
+          "guess": [
+            5,
+            17,
+            8,
+            16,
+            3,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 5
+        }
+      ]
+    },
+    {
+      "name": "gsa_slot-seed732",
+      "n": 128,
+      "recurrent_valid": 38,
+      "original_valid": 38,
+      "same_guess": 126,
+      "records": [
+        {
+          "guess": [
+            20,
+            7,
+            10,
+            17,
+            6,
+            16,
+            9,
+            18,
+            2,
+            15,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 21
+        },
+        {
+          "guess": [
+            22,
+            11,
+            10,
+            1,
+            19,
+            12,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 9
+        },
+        {
+          "guess": [
+            9,
+            10,
+            19,
+            13,
+            4,
+            22,
+            5,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 9
+        },
+        {
+          "guess": [
+            10,
+            9,
+            15,
+            12,
+            17,
+            14,
+            19,
+            5,
+            20,
+            6,
+            21,
+            11,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": false,
+          "n": 14
+        },
+        {
+          "guess": [
+            22,
+            8,
+            2,
+            11,
+            17,
+            6,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 13
+        },
+        {
+          "guess": [
+            15,
+            7,
+            24,
+            23,
+            4,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 5
+        },
+        {
+          "guess": [
+            10,
+            23,
+            7,
+            19,
+            22,
+            1,
+            4,
+            3,
+            20,
+            18,
+            15,
+            12,
+            2,
+            21,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 22
+        },
+        {
+          "guess": [
+            1,
+            15,
+            14,
+            18,
+            6,
+            24,
+            2,
+            23,
+            3,
+            8,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 16
+        },
+        {
+          "guess": [
+            10,
+            11,
+            17,
+            22,
+            21,
+            12,
+            5,
+            15,
+            13,
+            8,
+            24,
+            19,
+            18,
+            1,
+            6,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": false,
+          "n": 24
+        },
+        {
+          "guess": [
+            23,
+            1,
+            17,
+            14,
+            7,
+            4,
+            21,
+            11,
+            22,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 12
+        },
+        {
+          "guess": [
+            16,
+            12,
+            17,
+            21,
+            19,
+            4,
+            24,
+            11,
+            8,
+            20,
+            13,
+            2,
+            1,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 14
+        },
+        {
+          "guess": [
+            13,
+            11,
+            23,
+            21,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 5
+        },
+        {
+          "guess": [
+            8,
+            18,
+            10,
+            2,
+            13,
+            7,
+            12,
+            22,
+            23,
+            11,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 21
+        },
+        {
+          "guess": [
+            13,
+            10,
+            8,
+            6,
+            20,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 7
+        },
+        {
+          "guess": [
+            10,
+            20,
+            17,
+            1,
+            21,
+            4,
+            15,
+            23,
+            7,
+            2,
+            11,
+            12,
+            18,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 22
+        },
+        {
+          "guess": [
+            21,
+            18,
+            2,
+            6,
+            13,
+            19,
+            7,
+            13,
+            4,
+            22,
+            23,
+            11,
+            12,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 18
+        },
+        {
+          "guess": [
+            14,
+            11,
+            5,
+            9,
+            4,
+            7,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 8
+        },
+        {
+          "guess": [
+            1,
+            12,
+            22,
+            16,
+            5,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 6
+        },
+        {
+          "guess": [
+            20,
+            5,
+            15,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 11
+        },
+        {
+          "guess": [
+            10,
+            17,
+            24,
+            6,
+            19,
+            22,
+            5,
+            16,
+            13,
+            7,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 20
+        },
+        {
+          "guess": [
+            11,
+            13,
+            20,
+            21,
+            15,
+            12,
+            6,
+            7,
+            17,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 20
+        },
+        {
+          "guess": [
+            23,
+            10,
+            22,
+            17,
+            3,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 7
+        },
+        {
+          "guess": [
+            24,
+            10,
+            14,
+            11,
+            7,
+            2,
+            1,
+            12,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 11
+        },
+        {
+          "guess": [
+            20,
+            9,
+            15,
+            2,
+            4,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 5
+        },
+        {
+          "guess": [
+            13,
+            12,
+            14,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 3
+        },
+        {
+          "guess": [
+            12,
+            16,
+            17,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 3
+        },
+        {
+          "guess": [
+            6,
+            23,
+            3,
+            8,
+            12,
+            18,
+            14,
+            2,
+            4,
+            13,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 18
+        },
+        {
+          "guess": [
+            18,
+            15,
+            17,
+            5,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 4
+        },
+        {
+          "guess": [
+            3,
+            23,
+            14,
+            5,
+            6,
+            20,
+            15,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 8
+        },
+        {
+          "guess": [
+            16,
+            5,
+            10,
+            1,
+            17,
+            22,
+            19,
+            15,
+            24,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 18
+        },
+        {
+          "guess": [
+            10,
+            9,
+            20,
+            16,
+            17,
+            14,
+            5,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 9
+        },
+        {
+          "guess": [
+            13,
+            12,
+            3,
+            18,
+            1,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 5
+        },
+        {
+          "guess": [
+            20,
+            1,
+            23,
+            3,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 4
+        },
+        {
+          "guess": [
+            24,
+            10,
+            21,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 4
+        },
+        {
+          "guess": [
+            8,
+            12,
+            17,
+            7,
+            20,
+            21,
+            1,
+            2,
+            4,
+            5,
+            22,
+            18,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 16
+        },
+        {
+          "guess": [
+            2,
+            16,
+            21,
+            20,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 4
+        },
+        {
+          "guess": [
+            2,
+            8,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 4
+        },
+        {
+          "guess": [
+            23,
+            3,
+            14,
+            17,
+            12,
+            4,
+            15,
+            6,
+            19,
+            21,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 16
+        },
+        {
+          "guess": [
+            1,
+            3,
+            24,
+            9,
+            5,
+            13,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 14
+        },
+        {
+          "guess": [
+            12,
+            22,
+            19,
+            4,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 4
+        },
+        {
+          "guess": [
+            19,
+            6,
+            17,
+            21,
+            7,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 7
+        },
+        {
+          "guess": [
+            11,
+            10,
+            9,
+            2,
+            18,
+            7,
+            15,
+            3,
+            4,
+            22,
+            20,
+            5,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 14
+        },
+        {
+          "guess": [
+            10,
+            22,
+            18,
+            8,
+            5,
+            24,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 8
+        },
+        {
+          "guess": [
+            8,
+            17,
+            21,
+            15,
+            22,
+            1,
+            19,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 10
+        },
+        {
+          "guess": [
+            8,
+            14,
+            1,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 3
+        },
+        {
+          "guess": [
+            4,
+            23,
+            19,
+            11,
+            8,
+            21,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 7
+        },
+        {
+          "guess": [
+            5,
+            2,
+            3,
+            4,
+            17,
+            16,
+            19,
+            24,
+            13,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 19
+        },
+        {
+          "guess": [
+            2,
+            13,
+            1,
+            15,
+            12,
+            7,
+            4,
+            5,
+            20,
+            3,
+            9,
+            22,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 18
+        },
+        {
+          "guess": [
+            4,
+            19,
+            22,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 3
+        },
+        {
+          "guess": [
+            19,
+            8,
+            13,
+            12,
+            21,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 6
+        },
+        {
+          "guess": [
+            12,
+            23,
+            20,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 6
+        },
+        {
+          "guess": [
+            1,
+            11,
+            6,
+            2,
+            22,
+            19,
+            13,
+            5,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 16
+        },
+        {
+          "guess": [
+            11,
+            9,
+            5,
+            3,
+            7,
+            1,
+            21,
+            12,
+            16,
+            15,
+            19,
+            8,
+            10,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 18
+        },
+        {
+          "guess": [
+            6,
+            7,
+            3,
+            17,
+            15,
+            22,
+            16,
+            8,
+            10,
+            13,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 15
+        },
+        {
+          "guess": [
+            15,
+            24,
+            3,
+            8,
+            21,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 8
+        },
+        {
+          "guess": [
+            23,
+            1,
+            19,
+            24,
+            22,
+            9,
+            13,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 7
+        },
+        {
+          "guess": [
+            22,
+            3,
+            11,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 4
+        },
+        {
+          "guess": [
+            4,
+            7,
+            17,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 4
+        },
+        {
+          "guess": [
+            4,
+            8,
+            12,
+            15,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 5
+        },
+        {
+          "guess": [
+            24,
+            8,
+            1,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 3
+        },
+        {
+          "guess": [
+            7,
+            15,
+            23,
+            10,
+            20,
+            6,
+            9,
+            2,
+            8,
+            18,
+            22,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 24
+        },
+        {
+          "guess": [
+            7,
+            4,
+            19,
+            23,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 5
+        },
+        {
+          "guess": [
+            7,
+            10,
+            6,
+            4,
+            9,
+            14,
+            15,
+            24,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 8
+        },
+        {
+          "guess": [
+            18,
+            2,
+            23,
+            16,
+            6,
+            15,
+            17,
+            4,
+            19,
+            24,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 14
+        },
+        {
+          "guess": [
+            13,
+            6,
+            17,
+            21,
+            2,
+            23,
+            22,
+            8,
+            9,
+            4,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 12
+        },
+        {
+          "guess": [
+            19,
+            9,
+            10,
+            21,
+            17,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 10
+        },
+        {
+          "guess": [
+            21,
+            11,
+            19,
+            24,
+            6,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 5
+        },
+        {
+          "guess": [
+            3,
+            11,
+            16,
+            1,
+            19,
+            12,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 12
+        },
+        {
+          "guess": [
+            6,
+            14,
+            12,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 3
+        },
+        {
+          "guess": [
+            9,
+            22,
+            15,
+            24,
+            6,
+            21,
+            17,
+            14,
+            23,
+            13,
+            7,
+            2,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 19
+        },
+        {
+          "guess": [
+            8,
+            9,
+            19,
+            24,
+            11,
+            17,
+            23,
+            22,
+            14,
+            18,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 18
+        },
+        {
+          "guess": [
+            14,
+            7,
+            18,
+            10,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 5
+        },
+        {
+          "guess": [
+            18,
+            15,
+            21,
+            20,
+            8,
+            9,
+            6,
+            23,
+            7,
+            10,
+            3,
+            17,
+            22,
+            4,
+            5,
+            24,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 18
+        },
+        {
+          "guess": [
+            8,
+            13,
+            6,
+            12,
+            20,
+            11,
+            18,
+            14,
+            24,
+            9,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 21
+        },
+        {
+          "guess": [
+            14,
+            23,
+            12,
+            15,
+            11,
+            6,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 11
+        },
+        {
+          "guess": [
+            23,
+            21,
+            20,
+            12,
+            4,
+            5,
+            15,
+            1,
+            18,
+            6,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 17
+        },
+        {
+          "guess": [
+            24,
+            1,
+            10,
+            20,
+            2,
+            13,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 6
+        },
+        {
+          "guess": [
+            10,
+            9,
+            3,
+            19,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 4
+        },
+        {
+          "guess": [
+            23,
+            4,
+            12,
+            11,
+            7,
+            14,
+            3,
+            10,
+            17,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 24
+        },
+        {
+          "guess": [
+            18,
+            21,
+            15,
+            12,
+            2,
+            23,
+            11,
+            13,
+            6,
+            5,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 24
+        },
+        {
+          "guess": [
+            5,
+            7,
+            13,
+            24,
+            12,
+            9,
+            21,
+            17,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 8
+        },
+        {
+          "guess": [
+            22,
+            3,
+            15,
+            2,
+            7,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 6
+        },
+        {
+          "guess": [
+            11,
+            12,
+            1,
+            14,
+            23,
+            19,
+            21,
+            15,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 11
+        },
+        {
+          "guess": [
+            1,
+            23,
+            9,
+            10,
+            11,
+            5,
+            12,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 10
+        },
+        {
+          "guess": [
+            3,
+            20,
+            13,
+            23,
+            7,
+            8,
+            9,
+            5,
+            6,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 16
+        },
+        {
+          "guess": [
+            22,
+            15,
+            19,
+            5,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 8
+        },
+        {
+          "guess": [
+            8,
+            5,
+            23,
+            19,
+            18,
+            16,
+            14,
+            7,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 9
+        },
+        {
+          "guess": [
+            13,
+            3,
+            21,
+            6,
+            17,
+            20,
+            5,
+            12,
+            1,
+            15,
+            23,
+            4,
+            10,
+            11,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 17
+        },
+        {
+          "guess": [
+            16,
+            11,
+            4,
+            15,
+            22,
+            2,
+            10,
+            23,
+            21,
+            9,
+            8,
+            5,
+            12,
+            7,
+            20,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 21
+        },
+        {
+          "guess": [
+            13,
+            10,
+            17,
+            23,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 6
+        },
+        {
+          "guess": [
+            17,
+            23,
+            12,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 3
+        },
+        {
+          "guess": [
+            15,
+            2,
+            5,
+            6,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 4
+        },
+        {
+          "guess": [
+            15,
+            24,
+            11,
+            16,
+            3,
+            18,
+            14,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 9
+        },
+        {
+          "guess": [
+            10,
+            12,
+            21,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 3
+        },
+        {
+          "guess": [
+            15,
+            6,
+            7,
+            4,
+            16,
+            10,
+            5,
+            14,
+            18,
+            9,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 17
+        },
+        {
+          "guess": [
+            15,
+            2,
+            11,
+            5,
+            12,
+            3,
+            17,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 13
+        },
+        {
+          "guess": [
+            1,
+            18,
+            9,
+            11,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 4
+        },
+        {
+          "guess": [
+            8,
+            4,
+            22,
+            12,
+            13,
+            20,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 21
+        },
+        {
+          "guess": [
+            19,
+            12,
+            15,
+            22,
+            2,
+            16,
+            13,
+            6,
+            23,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 17
+        },
+        {
+          "guess": [
+            8,
+            21,
+            20,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 3
+        },
+        {
+          "guess": [
+            8,
+            13,
+            5,
+            22,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 5
+        },
+        {
+          "guess": [
+            18,
+            19,
+            12,
+            23,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 4
+        },
+        {
+          "guess": [
+            7,
+            20,
+            21,
+            23,
+            13,
+            24,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 8
+        },
+        {
+          "guess": [
+            18,
+            16,
+            21,
+            7,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 6
+        },
+        {
+          "guess": [
+            16,
+            5,
+            6,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 4
+        },
+        {
+          "guess": [
+            22,
+            19,
+            4,
+            17,
+            12,
+            15,
+            8,
+            24,
+            16,
+            13,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 12
+        },
+        {
+          "guess": [
+            13,
+            3,
+            5,
+            17,
+            15,
+            6,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 8
+        },
+        {
+          "guess": [
+            9,
+            24,
+            15,
+            4,
+            17,
+            7,
+            8,
+            23,
+            19,
+            11,
+            18,
+            2,
+            21,
+            13,
+            16,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 24
+        },
+        {
+          "guess": [
+            9,
+            13,
+            11,
+            14,
+            17,
+            5,
+            23,
+            1,
+            8,
+            6,
+            20,
+            12,
+            18,
+            24,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 24
+        },
+        {
+          "guess": [
+            15,
+            9,
+            11,
+            5,
+            19,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 5
+        },
+        {
+          "guess": [
+            23,
+            14,
+            19,
+            21,
+            12,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 6
+        },
+        {
+          "guess": [
+            3,
+            13,
+            16,
+            24,
+            22,
+            19,
+            4,
+            14,
+            20,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 12
+        },
+        {
+          "guess": [
+            12,
+            15,
+            20,
+            23,
+            8,
+            5,
+            4,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 14
+        },
+        {
+          "guess": [
+            14,
+            10,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 3
+        },
+        {
+          "guess": [
+            20,
+            11,
+            10,
+            2,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 4
+        },
+        {
+          "guess": [
+            17,
+            23,
+            18,
+            10,
+            16,
+            15,
+            14,
+            12,
+            8,
+            9,
+            2,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 16
+        },
+        {
+          "guess": [
+            6,
+            20,
+            5,
+            3,
+            10,
+            19,
+            17,
+            13,
+            8,
+            2,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 20
+        },
+        {
+          "guess": [
+            8,
+            23,
+            11,
+            19,
+            17,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 6
+        },
+        {
+          "guess": [
+            24,
+            21,
+            4,
+            5,
+            11,
+            6,
+            10,
+            15,
+            23,
+            6,
+            16,
+            9,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 22
+        },
+        {
+          "guess": [
+            6,
+            24,
+            21,
+            19,
+            4,
+            8,
+            11,
+            18,
+            12,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 18
+        },
+        {
+          "guess": [
+            19,
+            7,
+            12,
+            2,
+            6,
+            11,
+            24,
+            18,
+            9,
+            22,
+            23,
+            3,
+            20,
+            14,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 16
+        },
+        {
+          "guess": [
+            18,
+            2,
+            11,
+            4,
+            12,
+            17,
+            19,
+            14,
+            22,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 19
+        },
+        {
+          "guess": [
+            5,
+            21,
+            13,
+            23,
+            11,
+            19,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 6
+        },
+        {
+          "guess": [
+            15,
+            3,
+            16,
+            9998
+          ],
+          "valid": true,
+          "original_valid": true,
+          "same_guess": true,
+          "n": 3
+        },
+        {
+          "guess": [
+            18,
+            15,
+            19,
+            9,
+            17,
+            24,
+            5,
+            7,
+            13,
+            4,
+            10,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 19
+        },
+        {
+          "guess": [
+            13,
+            21,
+            7,
+            10,
+            5,
+            17,
+            16,
+            2,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 13
+        },
+        {
+          "guess": [
+            12,
+            2,
+            8,
+            6,
+            15,
+            17,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 9
+        },
+        {
+          "guess": [
+            17,
+            8,
+            5,
+            16,
+            3,
+            9998
+          ],
+          "valid": false,
+          "original_valid": false,
+          "same_guess": true,
+          "n": 5
+        }
+      ]
+    }
+  ],
+  "environment": {
+    "torch": "2.10.0a0+b558c986e8.nv25.11",
+    "triton": "3.7.1",
+    "gpu": "NVIDIA H100 80GB HBM3"
+  },
+  "sources": {
+    "audit_kernel_causality.py": "f56fbcae474c9077badf7cd2353da4dd6eba3dad02d598f1f4dcb1ac8d541609",
+    "komp_slot/__init__.py": "31ff68031942bcbd8efaa22724d4ccf0497cc44dd4bc6a729d43bfad48e2acfc",
+    "komp_slot/chunk.py": "c869f89c55e04930abb12879ece418a59034fed3fff56428129043d1c61df092",
+    "komp_slot/decay.py": "a831b7effa5907bd2b183f902f74ea521f02c28496cd3846de02743389e61e40",
+    "komp_slot/geometry.py": "e8d6604f96090c54cec87b6c4e26367900bef43b13be0f4262418062facb72a7",
+    "komp_slot/kernels.py": "72f1750a8ada09d7d2323d682bb7b5a8c73960aff96618bf58e35b22ea5df08b",
+    "komp_slot/operator.py": "daeaa5dacff6a9b7a935da2d13794557baea14661c1ec714cbfc430d7525bdb4",
+    "komp_slot/reference.py": "d2941e97714c35bd5245a675e0b232be3355f939a62e8723ab80af3d73582bd7",
+    "komp_slot/triton_chunk.py": "1f8d937754e6ea929efc816c5a2d5d7ad52eec344e4f97c224385345a38ee6df",
+    "komp_slot/utils.py": "0861344f151287a70501001231dc13a3f95a11dbc2ce2aeede55996aaecb0ada"
+  },
+  "status": "passed"
+}

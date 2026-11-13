@@ -1,0 +1,29 @@
+{
+  "status": "running",
+  "identity": "job-cc613003a120-20261106222833",
+  "latest": {
+    "kind": "block",
+    "step": 1571,
+    "effective_input_tokens": 823656448,
+    "input_tokens": 823656448,
+    "supervised_tokens": 823656448,
+    "compute_tokens": 823656448,
+    "loss": 3.206789255142212,
+    "lr": 0.0002986056036653087,
+    "grad_norm": 0.49323201179504395,
+    "seconds": 2.5838020127266645,
+    "peak_bytes": 38262252544,
+    "peak_reserved_bytes": 39676018688,
+    "documents": 84952,
+    "excluded_documents": 0
+  },
+  "resumed_updates": 35,
+  "warm_median_seconds": 2.585640652105212,
+  "restore_ranks_passed": 8,
+  "continuous_unique_steps": true,
+  "replayed_comparison_steps": 35,
+  "replay_max_loss_abs": 0.00013363361358642578,
+  "replay_max_grad_norm_abs": 0.0033286213874816895,
+  "replay_loader_counts_match": true,
+  "wasted_tokens_separate": 111673344
+}

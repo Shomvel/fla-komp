@@ -1,0 +1,1 @@
+../../../../../komp-slot-attention-prototype/physics_lm/suite100m_exact_20261105/best_lr_formal_20261105/promote.py

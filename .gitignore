@@ -27,6 +27,10 @@ wandb
 *.png
 *.html
 
+# Published KOMP measurement receipts and score tables
+!research/komp/results/
+!research/komp/results/**
+
 # log and config files
 log.*
 *.log

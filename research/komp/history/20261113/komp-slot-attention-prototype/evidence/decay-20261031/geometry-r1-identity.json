@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-49344470d7da-20261031192652",
+    "user_def_name": "komp-geometry-20261031-r1",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  }
+]

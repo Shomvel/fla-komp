@@ -1,0 +1,186 @@
+{
+  "status": "passed",
+  "mode": "preflight",
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "torch": "2.10.0a0+b558c986e8.nv25.11",
+  "elapsed_seconds": 10.097800113260746,
+  "checks": [
+    {
+      "name": "s10/B1T9H2M4K8V5/torch.float32/random/learnedFalse/C16/output",
+      "rms_relative": 1.9986122627229385e-07,
+      "normalized_max": 1.4393990793726275e-07,
+      "max_abs": 1.4393990793726275e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s10/B1T9H2M4K8V5/torch.float32/random/learnedFalse/C16/keys",
+      "rms_relative": 4.9285804258294736e-08,
+      "normalized_max": 7.502322274532958e-08,
+      "max_abs": 7.502322274532958e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s10/B1T9H2M4K8V5/torch.float32/random/learnedFalse/C16/state",
+      "rms_relative": 2.9415323295892245e-07,
+      "normalized_max": 4.7661565481084775e-07,
+      "max_abs": 5.107164723350266e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s10/B1T9H2M4K8V5/torch.float32/random/learnedFalse/C16/grad/q",
+      "rms_relative": 2.6015585081083516e-07,
+      "normalized_max": 1.398930866702841e-07,
+      "max_abs": 1.398930866702841e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s10/B1T9H2M4K8V5/torch.float32/random/learnedFalse/C16/grad/k",
+      "rms_relative": 1.88273054074283e-07,
+      "normalized_max": 1.2267960042302997e-07,
+      "max_abs": 1.7191848766806572e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s10/B1T9H2M4K8V5/torch.float32/random/learnedFalse/C16/grad/v",
+      "rms_relative": 1.547562276297815e-07,
+      "normalized_max": 1.2638268395392444e-07,
+      "max_abs": 2.4472600557157165e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s10/B1T9H2M4K8V5/torch.float32/random/learnedFalse/C16/grad/g",
+      "rms_relative": 3.947242806070779e-07,
+      "normalized_max": 3.3569747235585475e-07,
+      "max_abs": 5.175853226013771e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s10/B1T9H2M4K8V5/torch.float32/random/learnedFalse/C16/grad/beta",
+      "rms_relative": 2.3590653317993155e-07,
+      "normalized_max": 1.8453897975671537e-07,
+      "max_abs": 7.198248628270676e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s10/B1T9H2M4K8V5/torch.float32/random/learnedFalse/C16/grad/initial_keys",
+      "rms_relative": 2.0087833111877166e-07,
+      "normalized_max": 9.220767101247862e-09,
+      "max_abs": 9.220767101247862e-09,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s10/B1T9H2M4K8V5/torch.float32/random/learnedFalse/C16/grad/initial_coefficients",
+      "rms_relative": 7.735148215455097e-07,
+      "normalized_max": 6.720024180451034e-07,
+      "max_abs": 6.720024180451034e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s10/B1T9H2M4K8V5/torch.float32/random/learnedFalse/C16/grad/scores",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.0,
+      "max_tolerance": 0.0
+    },
+    {
+      "name": "s10/B1T9H2M4K8V5/torch.float32/random/learnedTrue/C16/output",
+      "rms_relative": 1.8937673610068658e-07,
+      "normalized_max": 1.6218961973457624e-07,
+      "max_abs": 1.6218961973457624e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s10/B1T9H2M4K8V5/torch.float32/random/learnedTrue/C16/keys",
+      "rms_relative": 3.582380853626165e-08,
+      "normalized_max": 5.090616728153918e-08,
+      "max_abs": 5.090616728153918e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s10/B1T9H2M4K8V5/torch.float32/random/learnedTrue/C16/state",
+      "rms_relative": 2.965761070503805e-07,
+      "normalized_max": 3.538447865539483e-07,
+      "max_abs": 4.19712113730597e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s10/B1T9H2M4K8V5/torch.float32/random/learnedTrue/C16/grad/q",
+      "rms_relative": 1.5539671467990611e-07,
+      "normalized_max": 9.313089599505275e-08,
+      "max_abs": 9.313089599505275e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s10/B1T9H2M4K8V5/torch.float32/random/learnedTrue/C16/grad/k",
+      "rms_relative": 2.8283400575814586e-07,
+      "normalized_max": 2.4276572074816343e-07,
+      "max_abs": 2.673886698723038e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s10/B1T9H2M4K8V5/torch.float32/random/learnedTrue/C16/grad/v",
+      "rms_relative": 2.8127285832520794e-07,
+      "normalized_max": 2.2817067283142762e-07,
+      "max_abs": 4.775429555126109e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s10/B1T9H2M4K8V5/torch.float32/random/learnedTrue/C16/grad/g",
+      "rms_relative": 2.7755920449057817e-07,
+      "normalized_max": 4.2672334910842167e-07,
+      "max_abs": 8.771447423949752e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s10/B1T9H2M4K8V5/torch.float32/random/learnedTrue/C16/grad/beta",
+      "rms_relative": 3.2780127203740526e-07,
+      "normalized_max": 4.5724062119760046e-07,
+      "max_abs": 1.2498823980244822e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s10/B1T9H2M4K8V5/torch.float32/random/learnedTrue/C16/grad/initial_keys",
+      "rms_relative": 4.444382522240744e-07,
+      "normalized_max": 4.1746969775546816e-07,
+      "max_abs": 4.1746969775546816e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s10/B1T9H2M4K8V5/torch.float32/random/learnedTrue/C16/grad/initial_coefficients",
+      "rms_relative": 3.099793095719877e-07,
+      "normalized_max": 2.4532659201566096e-07,
+      "max_abs": 5.946520179600512e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s10/B1T9H2M4K8V5/torch.float32/random/learnedTrue/C16/grad/scores",
+      "rms_relative": 5.090181556100096e-07,
+      "normalized_max": 4.0755842123374464e-07,
+      "max_abs": 4.0755842123374464e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    }
+  ],
+  "check_count": 22
+}

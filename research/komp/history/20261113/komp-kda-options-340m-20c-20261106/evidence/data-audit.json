@@ -1,0 +1,45 @@
+{
+  "status": "prepared; GPU image tokenizer parity must pass before release",
+  "train_shards": 253,
+  "source_bytes": 1043068622438,
+  "source_inventory_sha256": "26272738b08cdc47dffe6ed60a673c587087d45f06e071d674895d0cb9fe193d",
+  "source_hash_scope": "size/mtime and first 64 KiB per shard; not a full 1 TB content hash",
+  "tokenizers_version": "0.21.0",
+  "tokenizer_files": {
+    "tokenizer.json": "fc4f0bd70b3709312d9d1d9e5ba674794b6bc5abc17429897a540f93882f25fc",
+    "tokenizer_config.json": "747ec99bae3fd9d7bf9c3b9172e5ca0d82ca0d23d64a58ef1752b612f196817b",
+    "special_tokens_map.json": "6fa06efa2785e450051989a6f8fb4416b10149ded485ddd3f127a40734f5cfd0",
+    "tokenizer.model": "dadfd56d766715c61d2ef780a525ab43b8e6da4de6865bda3d95fdef5e134055"
+  },
+  "text_hash": "sha256(text.encode(utf-8)); no normalization",
+  "split_policy": "Round-robin first shard of every crawl snapshot; unique entire documents assigned by SHA256 first64bits parity; all selected document hashes excluded from training globally",
+  "document_count": {
+    "validation": 3516,
+    "test": 3363
+  },
+  "excluded_documents": 6879,
+  "skipped_duplicate_documents": 54,
+  "split_hashes_disjoint": true,
+  "token_files": {
+    "validation": {
+      "path": "/gpfs/users/linlizhi/komp-flame-340m-20c-20261106/data/validation.uint16",
+      "sha256": "112b9412c555a9783b5e64199d11edd64da6f6ad8808d5504c004c553e089e4f",
+      "dtype": "little-endian uint16",
+      "raw_ids": 4194305,
+      "supervised_tokens": 4194304
+    },
+    "test": {
+      "path": "/gpfs/users/linlizhi/komp-flame-340m-20c-20261106/data/test.uint16",
+      "sha256": "657f6c08149c98c86f64502195193c1e850a210dfd82f46eb33f9ae24d450430",
+      "dtype": "little-endian uint16",
+      "raw_ids": 4194305,
+      "supervised_tokens": 4194304
+    }
+  },
+  "exclusion_sha256": "2ed394308fe022a0b3e72d16e09fc14b1b996d6c6aef5a8b83e4abee16a74f1a",
+  "packing": "BOS per document, no extra EOS; continuous stream, 2049-token windows advancing by2048",
+  "limitations": [
+    "No global training deduplication or near-duplicate semantic deduplication; exact selected heldout text duplicates are filtered by training loader.",
+    "Deterministic heldout sampling within crawl snapshots, not an external benchmark."
+  ]
+}

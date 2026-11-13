@@ -1,0 +1,24 @@
+{
+  "status": "completed",
+  "main": [
+    [
+      "swa_w32",
+      732
+    ],
+    [
+      "swa_w32",
+      734
+    ],
+    [
+      "swa_w32",
+      736
+    ]
+  ],
+  "optional": [
+    [
+      "fifo_proj_c128",
+      737
+    ]
+  ],
+  "source_verified": true
+}

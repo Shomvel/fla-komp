@@ -40,3 +40,9 @@ These results belong to the original frozen runtime and are retained for provena
 Receipts: [ABBA timings](evidence/frozen-20261106/abba-summary.json), [GPU summary](evidence/frozen-20261106/gpu-summary.json), [repeated-input losses](evidence/frozen-20261106/repeated-input-loss.json), [resource ledger](evidence/frozen-20261106/resource-ledger.json), and [original report](history/exact-komp-efficiency-research-20261106/REPORT.md).
 
 The historical 100M/340M trainers, source variants and launchers are preserved for inspection and reconstruction. They have not all been rerun, and may depend on data, checkpoints, package versions and environment-specific paths outside this repository.
+
+## Research consolidation on 2026-11-13
+
+The [dated source collection](history/20261113/README.md) adds 5,219 retained paths with content hashes, kernel candidates, acceptance and failure receipts, training recipes, and final score tables. `python research/komp/summarize_results.py --check` verifies these hashes and repository-internal links, checks all 184 CSV rows against the historical final-verification receipt, and rebuilds 215 timing rows without a GPU. The score cross-check includes counts, plan/checkpoint hashes, training budgets, and exact stored scores. It does not re-read the 34,000 original batch files or execute the models.
+
+No active kernel, model, default, tolerance or checkpoint format changes in this consolidation. Historical H100 acceptance applies only to the exact sources and workloads recorded in the linked receipts. Recurrent r3 still lacks complete GPU/model/greedy acceptance. The 1B target-50B run is Aborted with 42.550B observed tokens and no final completion marker or downstream scores; the read-only remote snapshots are retained under [results/20261113](results/20261113/). See [RECENT_RESULTS.md](RECENT_RESULTS.md) for the current status and limitations.

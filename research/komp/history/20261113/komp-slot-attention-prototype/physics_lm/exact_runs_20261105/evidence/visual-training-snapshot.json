@@ -1,0 +1,73 @@
+{
+  "updated": "2026-11-05 17:17 CST",
+  "tasks": [
+    {
+      "name": "Depo2",
+      "status": "DDP 预检 3 / 7 通过",
+      "models": [
+        {
+          "name": "GDN",
+          "status": "DDP 预检中 / 待预检"
+        },
+        {
+          "name": "Full",
+          "status": "预检通过 · 待训练"
+        },
+        {
+          "name": "SWA",
+          "status": "DDP 预检中 / 待预检"
+        },
+        {
+          "name": "GSA",
+          "status": "预检通过 · 待训练"
+        },
+        {
+          "name": "GSA2",
+          "status": "DDP 预检中 / 待预检"
+        },
+        {
+          "name": "Block-KOMP",
+          "status": "DDP 预检中 / 待预检"
+        },
+        {
+          "name": "Exact-KOMP",
+          "status": "预检通过 · 待训练"
+        }
+      ]
+    },
+    {
+      "name": "Brevo2",
+      "status": "DDP 预检 3 / 7 通过",
+      "models": [
+        {
+          "name": "GDN",
+          "status": "DDP 预检中 / 待预检"
+        },
+        {
+          "name": "Full",
+          "status": "预检通过 · 待训练"
+        },
+        {
+          "name": "SWA",
+          "status": "DDP 预检中 / 待预检"
+        },
+        {
+          "name": "GSA",
+          "status": "预检通过 · 待训练"
+        },
+        {
+          "name": "GSA2",
+          "status": "DDP 预检中 / 待预检"
+        },
+        {
+          "name": "Block-KOMP",
+          "status": "DDP 预检中 / 待预检"
+        },
+        {
+          "name": "Exact-KOMP",
+          "status": "预检通过 · 待训练"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "job": "job-9c1dd6b7454e-20261109003948",
+  "status": "training_advancing",
+  "captured_utc": "2026-11-08T16:44:24.624337+00:00",
+  "world_size": 32,
+  "microbatch": 16,
+  "accumulation": 1,
+  "global_batch": 512,
+  "parent_step": 1068,
+  "current_step": 1080,
+  "new_steps": 12,
+  "current_tokens": 1132462080,
+  "loss": 3.9200837165117264,
+  "last10_seconds_mean": 2.932325087673962,
+  "peak_bytes": 70372114944,
+  "parent_resume_passed": 32,
+  "preflight": "skipped_by_explicit_user_request"
+}

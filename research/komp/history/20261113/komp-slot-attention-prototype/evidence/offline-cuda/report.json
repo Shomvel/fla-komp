@@ -1,0 +1,97 @@
+{
+  "status": "passed",
+  "triton": "3.2.0",
+  "artifacts": [
+    {
+      "name": "slot_fwd_kernel-sm80-m5-v37-saveFalse",
+      "bytes": 17248,
+      "sha256": "006401b14c4549a174c4a5f99e6c6f5208ad8c7b964b9767a624fd48bf105b84"
+    },
+    {
+      "name": "slot_fwd_kernel-sm80-m5-v37-saveTrue",
+      "bytes": 19424,
+      "sha256": "ea8d6a952377e83f4cef7ab63bd48e92d0a03afe504ecc9af8062e245e8febd7"
+    },
+    {
+      "name": "slot_bwd_kernel-sm80-m5-v37-saveNone",
+      "bytes": 36000,
+      "sha256": "982ec1cee97fe52dc8b9e1bbb498e2de8ace6aaf3db2260dc3f502efd2495718"
+    },
+    {
+      "name": "slot_fwd_kernel-sm80-m16-v64-saveFalse",
+      "bytes": 21984,
+      "sha256": "3a4c58f4837b37a92da49275d373504f32eb0cb69468d265e79c104fc2cbd214"
+    },
+    {
+      "name": "slot_fwd_kernel-sm80-m16-v64-saveTrue",
+      "bytes": 24800,
+      "sha256": "c393e868f911752dbc0ba2b79bfbd8a15b57b8ccde4611e6aaa650694e064f8f"
+    },
+    {
+      "name": "slot_bwd_kernel-sm80-m16-v64-saveNone",
+      "bytes": 50208,
+      "sha256": "a151417c617f88cc478607b3a05d6ccb037005de71016905f55d1f4a015af34e"
+    },
+    {
+      "name": "slot_fwd_kernel-sm80-m64-v65-saveFalse",
+      "bytes": 51424,
+      "sha256": "b69dbd43be2b4eed7f25764c15c0a9536d467ab9960010528c31303dc60da9e6"
+    },
+    {
+      "name": "slot_fwd_kernel-sm80-m64-v65-saveTrue",
+      "bytes": 60896,
+      "sha256": "61695227cb790a284f6a3e6af5d76c4e8cefb4f727a04b575026383b5dfc4507"
+    },
+    {
+      "name": "slot_bwd_kernel-sm80-m64-v65-saveNone",
+      "bytes": 145952,
+      "sha256": "d1b18789d10b642b55f440da6ae34bdeaffd3f035a5d56465dbf89fa77e1cdb4"
+    },
+    {
+      "name": "slot_fwd_kernel-sm90-m5-v37-saveFalse",
+      "bytes": 17928,
+      "sha256": "dfb25bba7ddf7031fe3ca56e796580dc498c7e173c508cbaf8ae024bd9cc3c8a"
+    },
+    {
+      "name": "slot_fwd_kernel-sm90-m5-v37-saveTrue",
+      "bytes": 20104,
+      "sha256": "7cac6f74973b192845b0f3f044b712a3af864d3f79c1754fe598dd5b377e4805"
+    },
+    {
+      "name": "slot_bwd_kernel-sm90-m5-v37-saveNone",
+      "bytes": 36664,
+      "sha256": "7a75ea761334de2d43f381f0c2f5491370d84a7c11aad61bc8a5bb045f357d62"
+    },
+    {
+      "name": "slot_fwd_kernel-sm90-m16-v64-saveFalse",
+      "bytes": 22664,
+      "sha256": "93ddc3bc38651eb8fb0b3b3568dcd0307af704b89c51f00d71c0fdfe7c02865f"
+    },
+    {
+      "name": "slot_fwd_kernel-sm90-m16-v64-saveTrue",
+      "bytes": 25224,
+      "sha256": "dd8a61c34eda3221e2eb032a3deca141549b8f28864455d83e105cc63420bdbb"
+    },
+    {
+      "name": "slot_bwd_kernel-sm90-m16-v64-saveNone",
+      "bytes": 50872,
+      "sha256": "260ebba968d83c0c14973019f03be8041900017b73b10991a1cda0f5865a4da3"
+    },
+    {
+      "name": "slot_fwd_kernel-sm90-m64-v65-saveFalse",
+      "bytes": 50440,
+      "sha256": "c6fbbdf5c8df8d4ed5d1317cd56d3189be81e39ae29fc6eb0b2ad847de9d6d0f"
+    },
+    {
+      "name": "slot_fwd_kernel-sm90-m64-v65-saveTrue",
+      "bytes": 60424,
+      "sha256": "62db4e0bbff46a4740dff6da3464f663ee9c18739ed6f868cc1c6b33e4456594"
+    },
+    {
+      "name": "slot_bwd_kernel-sm90-m64-v65-saveNone",
+      "bytes": 146360,
+      "sha256": "dfd934571e715e4e829679ebfe71c1af9125e5983c79efd7a25cf077bb5f9403"
+    }
+  ],
+  "limitation": "Offline compilation only; kernels were not launched on a GPU"
+}

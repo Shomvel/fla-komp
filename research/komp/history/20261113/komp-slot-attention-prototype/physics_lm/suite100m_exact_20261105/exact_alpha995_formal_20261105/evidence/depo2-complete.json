@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-d96babe0f1fe-20261105230048",
+    "user_def_name": "physics100m-alpha995-depo2-20261105",
+    "status": "Completed",
+    "ready_status": "0/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 8
+  }
+]

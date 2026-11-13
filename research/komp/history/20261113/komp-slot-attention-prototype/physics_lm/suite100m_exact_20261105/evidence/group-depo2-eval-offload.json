@@ -1,0 +1,38 @@
+{
+  "status": "old_group_deleted_and_single_gpu_evaluators_submitted",
+  "time": "2026-11-05T22:13:14.138611+08:00",
+  "task": "depo2",
+  "remaining_runs": [
+    {
+      "status": "passed",
+      "run": "depo2-komp-final-lr0.0005-wd0.1-seed731",
+      "identity": {
+        "run": "depo2-komp-final-lr0.0005-wd0.1-seed731",
+        "summary_sha256": "74326faa0c3f8d120cab6f3a7fcc8238a1ef4cb2a78c127f4393552c7480b70d",
+        "probes_sha256": "da9a5b19749a5c4f874a6b9c2eca3d693fc2ccd2e0baa0ac803c81c705927215",
+        "evaluator_sha256": "8c43dbabf549ea54c355d443cc3d5354abf7812b43271b160597270677c9abb6",
+        "checkpoint_size": 1206763193,
+        "checkpoint_mtime_ns": 1793883972607740725
+      },
+      "saved_probes": 72,
+      "test": {
+        "ce": 0.7003645799889956,
+        "supervised_positions": 66644
+      },
+      "seconds": 1526.944701846689,
+      "snapshot_manifest_sha256": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+      "progress_sha256": "fba8dff1dbd3089df41d46db73e37686be94c949be341055127ba26afb17c229",
+      "checkpoint_sha256": "64de59b803a7dd65a1cd0b7061f2d18b20cb18e5bdfefed4acc08cd0df4900bd"
+    }
+  ],
+  "training_complete": 6,
+  "old_alias": "physics100m-exact-ddp-depo2-20261105",
+  "new_aliases": [
+    "physics100m-eval-depo2-komp-20261105"
+  ],
+  "reason": "Finish original resumable evaluators on one GPU each, release idle 8GPU allocations; no new samples or training",
+  "old_pod_confirmed_absent": true,
+  "resume_receipts": [
+    "offload-after-depo2-komp.json"
+  ]
+}

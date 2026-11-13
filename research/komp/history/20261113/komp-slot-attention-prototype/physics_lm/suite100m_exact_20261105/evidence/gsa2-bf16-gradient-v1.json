@@ -1,0 +1,26 @@
+{
+  "status": "running",
+  "sources": {
+    "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+    "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+  },
+  "cases": {
+    "mano": {
+      "whole_loss": 10.48529052734375,
+      "partition_loss": 10.485290884971619,
+      "loss_abs": 3.5762786865234375e-07,
+      "gradient_rms": {
+        "embed.weight": 0.016819268465042114,
+        "layers.0.mix.layer.o_proj.weight": 0.014244990423321724,
+        "head.weight": 0.002002837136387825
+      },
+      "parameter_max_abs": {
+        "embed.weight": 0.00019999057985842228,
+        "layers.0.mix.layer.o_proj.weight": 0.00019988499116152525,
+        "head.weight": 0.00011326931416988373
+      },
+      "whole_grad_norm": 5227.40380859375,
+      "partition_grad_norm": 5214.4052734375
+    }
+  }
+}

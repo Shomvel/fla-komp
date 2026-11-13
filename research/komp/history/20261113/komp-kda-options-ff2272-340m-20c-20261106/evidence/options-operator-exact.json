@@ -1,0 +1,245 @@
+{
+  "status": "passed",
+  "kind": "exact",
+  "options": [
+    {
+      "sigmoid": false,
+      "lowrank": false,
+      "multi_timescale": false,
+      "finite_gradients": true,
+      "initial_mean_log_alpha": -0.00501254154369235
+    },
+    {
+      "sigmoid": false,
+      "lowrank": false,
+      "multi_timescale": true,
+      "finite_gradients": true,
+      "initial_mean_log_alpha": -0.005012541965697892
+    },
+    {
+      "sigmoid": false,
+      "lowrank": true,
+      "multi_timescale": false,
+      "finite_gradients": true,
+      "initial_mean_log_alpha": -0.00501254154369235
+    },
+    {
+      "sigmoid": false,
+      "lowrank": true,
+      "multi_timescale": true,
+      "finite_gradients": true,
+      "initial_mean_log_alpha": -0.005012541965697892
+    },
+    {
+      "sigmoid": true,
+      "lowrank": false,
+      "multi_timescale": false,
+      "finite_gradients": true,
+      "initial_mean_log_alpha": -0.00501254154369235
+    },
+    {
+      "sigmoid": true,
+      "lowrank": false,
+      "multi_timescale": true,
+      "finite_gradients": true,
+      "initial_mean_log_alpha": -0.005012541965697892
+    },
+    {
+      "sigmoid": true,
+      "lowrank": true,
+      "multi_timescale": false,
+      "finite_gradients": true,
+      "initial_mean_log_alpha": -0.00501254154369235
+    },
+    {
+      "sigmoid": true,
+      "lowrank": true,
+      "multi_timescale": true,
+      "finite_gradients": true,
+      "initial_mean_log_alpha": -0.005012541965697892
+    }
+  ],
+  "checks": [
+    {
+      "case": "real_text_initial_activations_multiscale",
+      "name": "output",
+      "relative_rms": 0.001631771385942571,
+      "normalized_max": 2.8658258131301906e-05
+    },
+    {
+      "case": "real_text_initial_activations_multiscale",
+      "name": "keys",
+      "relative_rms": 5.729946057027946e-08,
+      "normalized_max": 4.862289448848145e-08
+    },
+    {
+      "case": "real_text_initial_activations_multiscale",
+      "name": "state",
+      "relative_rms": 4.366297987499995e-07,
+      "normalized_max": 9.398162507446607e-09
+    },
+    {
+      "case": "real_text_initial_activations_multiscale",
+      "name": "dq",
+      "relative_rms": 0.0023139256511573027,
+      "normalized_max": 0.0007675947901487346
+    },
+    {
+      "case": "real_text_initial_activations_multiscale",
+      "name": "dk",
+      "relative_rms": 0.0016919225864341534,
+      "normalized_max": 0.002178026000129557
+    },
+    {
+      "case": "real_text_initial_activations_multiscale",
+      "name": "dv",
+      "relative_rms": 0.0021060768598632944,
+      "normalized_max": 0.0019053663902467433
+    },
+    {
+      "case": "real_text_initial_activations_multiscale",
+      "name": "dg",
+      "relative_rms": 0.0014330813615442623,
+      "normalized_max": 7.249378339686959e-05
+    },
+    {
+      "case": "real_text_initial_activations_multiscale",
+      "name": "dbeta",
+      "relative_rms": 0.0013602038102734594,
+      "normalized_max": 0.0002816187564752097
+    },
+    {
+      "case": "real_text_initial_activations_multiscale",
+      "name": "dk0",
+      "relative_rms": 0.0,
+      "normalized_max": 0.0
+    },
+    {
+      "case": "real_text_initial_activations_multiscale",
+      "name": "ds0",
+      "relative_rms": 0.0017654802567360066,
+      "normalized_max": 0.001482867626064153
+    },
+    {
+      "case": "torch.float32_varying_slot_decay",
+      "name": "output",
+      "relative_rms": 4.658285046661304e-07,
+      "normalized_max": 2.455810346191356e-07
+    },
+    {
+      "case": "torch.float32_varying_slot_decay",
+      "name": "keys",
+      "relative_rms": 5.715052802967888e-08,
+      "normalized_max": 5.05399386785399e-08
+    },
+    {
+      "case": "torch.float32_varying_slot_decay",
+      "name": "state",
+      "relative_rms": 3.802853157221243e-07,
+      "normalized_max": 3.74836571226389e-07
+    },
+    {
+      "case": "torch.float32_varying_slot_decay",
+      "name": "dq",
+      "relative_rms": 4.3882666439179095e-07,
+      "normalized_max": 7.919292036029368e-08
+    },
+    {
+      "case": "torch.float32_varying_slot_decay",
+      "name": "dk",
+      "relative_rms": 4.1396786018166534e-07,
+      "normalized_max": 2.625322492733062e-07
+    },
+    {
+      "case": "torch.float32_varying_slot_decay",
+      "name": "dv",
+      "relative_rms": 4.0449024647697e-07,
+      "normalized_max": 3.5190770093090906e-07
+    },
+    {
+      "case": "torch.float32_varying_slot_decay",
+      "name": "dg",
+      "relative_rms": 6.796958012445895e-07,
+      "normalized_max": 6.499973797050392e-07
+    },
+    {
+      "case": "torch.float32_varying_slot_decay",
+      "name": "dbeta",
+      "relative_rms": 4.2350617659983486e-07,
+      "normalized_max": 3.523978446301649e-07
+    },
+    {
+      "case": "torch.float32_varying_slot_decay",
+      "name": "dk0",
+      "relative_rms": 5.147480584903081e-07,
+      "normalized_max": 3.126867578195913e-07
+    },
+    {
+      "case": "torch.float32_varying_slot_decay",
+      "name": "ds0",
+      "relative_rms": 5.689025919270486e-07,
+      "normalized_max": 7.329051264869056e-07
+    },
+    {
+      "case": "torch.bfloat16_varying_slot_decay",
+      "name": "output",
+      "relative_rms": 0.0016639888918084144,
+      "normalized_max": 0.0009765259102939572
+    },
+    {
+      "case": "torch.bfloat16_varying_slot_decay",
+      "name": "keys",
+      "relative_rms": 5.678855349729377e-08,
+      "normalized_max": 5.011619741424056e-08
+    },
+    {
+      "case": "torch.bfloat16_varying_slot_decay",
+      "name": "state",
+      "relative_rms": 3.8580153051169373e-07,
+      "normalized_max": 4.565184374971665e-07
+    },
+    {
+      "case": "torch.bfloat16_varying_slot_decay",
+      "name": "dq",
+      "relative_rms": 0.0023726911066057573,
+      "normalized_max": 0.0006591195842276243
+    },
+    {
+      "case": "torch.bfloat16_varying_slot_decay",
+      "name": "dk",
+      "relative_rms": 0.0018433446976489534,
+      "normalized_max": 0.001039003783883441
+    },
+    {
+      "case": "torch.bfloat16_varying_slot_decay",
+      "name": "dv",
+      "relative_rms": 0.0021043006310240493,
+      "normalized_max": 0.002026227734286956
+    },
+    {
+      "case": "torch.bfloat16_varying_slot_decay",
+      "name": "dg",
+      "relative_rms": 0.0014169417528573924,
+      "normalized_max": 0.0012657756550399273
+    },
+    {
+      "case": "torch.bfloat16_varying_slot_decay",
+      "name": "dbeta",
+      "relative_rms": 0.0014058042430721317,
+      "normalized_max": 0.0010275123683627881
+    },
+    {
+      "case": "torch.bfloat16_varying_slot_decay",
+      "name": "dk0",
+      "relative_rms": 0.0017315541868443373,
+      "normalized_max": 0.0008103672560564532
+    },
+    {
+      "case": "torch.bfloat16_varying_slot_decay",
+      "name": "ds0",
+      "relative_rms": 0.0017453005465446335,
+      "normalized_max": 0.0020652074486654562
+    }
+  ],
+  "scope": "Specified real-text and random cases only; existing near-collinear FP32 limitations remain"
+}

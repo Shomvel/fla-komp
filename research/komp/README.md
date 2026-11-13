@@ -1,5 +1,7 @@
 # KOMP source collection
 
+Recent kernel changes, complete model scores and current experiment status: [2026-11-13 results](RECENT_RESULTS.md). The [kernel report](KERNEL_RESULTS.md), [184 downstream scores](results/20261113/MODEL_RESULTS.md), and [dated source archive](history/20261113/README.md) link each measurement to its original receipt.
+
 This fork's `main` includes the maintained operators, native FLA model and trainer, plus the local research implementations. Upstream FLA is pinned at `9e82a80fdaefcd7c9cc3da51ea36d6a9e1587bd1` for this import.
 
 | Component | Location |

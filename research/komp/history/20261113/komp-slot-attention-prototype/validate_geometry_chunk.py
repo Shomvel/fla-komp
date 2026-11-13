@@ -1,0 +1,1 @@
+../../komp-slot-attention-prototype/validate_geometry_chunk.py

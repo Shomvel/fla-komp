@@ -1,0 +1,109 @@
+{
+  "status": "passed",
+  "base_commit": "439072f54a67cc35b6310651e43ce56b4ccbe4a7",
+  "commands": [
+    {
+      "command": [
+        "/opt/venv/bin/python3",
+        "-m",
+        "pytest",
+        "-x",
+        "-q",
+        "tests/ops/test_komp_value_decay.py",
+        "tests/models/test_komp_value_decay.py",
+        "validation/komp/test_contracts.py",
+        "validation/komp/test_geometry_cache.py",
+        "--junitxml=/gpfs/users/linlizhi/fla-komp-value-integration-20261106-r4/evidence/tests.xml"
+      ],
+      "returncode": 0,
+      "seconds": 348.8320492655039
+    },
+    {
+      "command": [
+        "/opt/venv/bin/python3",
+        "-m",
+        "examples.komp.train",
+        "--decay-axis",
+        "value",
+        "--kind",
+        "exact",
+        "--tokens",
+        "/tmp/fla-value-train-check/tokens.bin",
+        "--output",
+        "/tmp/fla-value-train-check/exact",
+        "--steps",
+        "1",
+        "--global-batch",
+        "1",
+        "--microbatch",
+        "1",
+        "--sequence-length",
+        "17",
+        "--warmup-steps",
+        "0"
+      ],
+      "returncode": 0,
+      "resume_returncode": 0,
+      "seconds": 76.97511060163379,
+      "metrics": {
+        "step": 1,
+        "supervised_tokens": 17,
+        "loss": 10.478345085592832,
+        "lr": 2.9999999999999997e-05,
+        "grad_norm": 16.66984748840332,
+        "seconds": 18.365678396075964
+      },
+      "checkpoint_step": 1,
+      "parameters": 341552000,
+      "optimizer_states": 507
+    },
+    {
+      "command": [
+        "/opt/venv/bin/python3",
+        "-m",
+        "examples.komp.train",
+        "--decay-axis",
+        "value",
+        "--kind",
+        "block",
+        "--tokens",
+        "/tmp/fla-value-train-check/tokens.bin",
+        "--output",
+        "/tmp/fla-value-train-check/block",
+        "--steps",
+        "1",
+        "--global-batch",
+        "1",
+        "--microbatch",
+        "1",
+        "--sequence-length",
+        "17",
+        "--warmup-steps",
+        "0"
+      ],
+      "returncode": 0,
+      "resume_returncode": 0,
+      "seconds": 106.38472596183419,
+      "metrics": {
+        "step": 1,
+        "supervised_tokens": 17,
+        "loss": 10.478214039522058,
+        "lr": 2.9999999999999997e-05,
+        "grad_norm": 16.666608810424805,
+        "seconds": 49.74820762127638
+      },
+      "checkpoint_step": 1,
+      "parameters": 341552000,
+      "optimizer_states": 507
+    }
+  ],
+  "python": "3.12.3",
+  "torch": "2.10.0a0+b558c986e8.nv25.11",
+  "triton": "3.7.1",
+  "transformers": "5.6.2",
+  "numpy": "2.2.6",
+  "protobuf": "5.29.6",
+  "protobuf_backend": "python",
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "cuda": "13.0"
+}

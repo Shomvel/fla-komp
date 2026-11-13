@@ -1,0 +1,90 @@
+{
+  "checks": [
+    {
+      "arm": "fifo_proj_c64",
+      "seed": 731,
+      "confirm_equal": true,
+      "generation_equal": true
+    },
+    {
+      "arm": "fifo_proj_c64",
+      "seed": 732,
+      "confirm_equal": true,
+      "generation_equal": true
+    },
+    {
+      "arm": "fifo_proj_c64",
+      "seed": 733,
+      "confirm_equal": true,
+      "generation_equal": true
+    },
+    {
+      "arm": "fifo_proj_c64",
+      "seed": 734,
+      "confirm_equal": true,
+      "generation_equal": true
+    },
+    {
+      "arm": "fifo_proj_c64",
+      "seed": 735,
+      "confirm_equal": true,
+      "generation_equal": true
+    },
+    {
+      "arm": "fifo_proj_c64",
+      "seed": 736,
+      "confirm_equal": true,
+      "generation_equal": true
+    },
+    {
+      "arm": "fifo_proj_c64",
+      "seed": 737,
+      "confirm_equal": true,
+      "generation_equal": true
+    },
+    {
+      "arm": "learned_proj_c64",
+      "seed": 731,
+      "confirm_equal": true,
+      "generation_equal": true
+    },
+    {
+      "arm": "learned_proj_c64",
+      "seed": 732,
+      "confirm_equal": true,
+      "generation_equal": true
+    },
+    {
+      "arm": "learned_proj_c64",
+      "seed": 733,
+      "confirm_equal": true,
+      "generation_equal": true
+    },
+    {
+      "arm": "learned_proj_c64",
+      "seed": 734,
+      "confirm_equal": true,
+      "generation_equal": true
+    },
+    {
+      "arm": "learned_proj_c64",
+      "seed": 735,
+      "confirm_equal": true,
+      "generation_equal": true
+    },
+    {
+      "arm": "learned_proj_c64",
+      "seed": 736,
+      "confirm_equal": true,
+      "generation_equal": true
+    },
+    {
+      "arm": "learned_proj_c64",
+      "seed": 737,
+      "confirm_equal": true,
+      "generation_equal": true
+    }
+  ],
+  "all_equal": true,
+  "note": "Independent reruns, no reused result files; default projection path matches prior deterministic coherence-off controls"
+}

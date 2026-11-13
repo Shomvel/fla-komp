@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "completed_runs": 21,
+  "steps_per_run": 2231,
+  "tokens_per_run": 10001108,
+  "generation_records": 5376,
+  "source_matches_preflight": true,
+  "prior_reports_unchanged": true,
+  "checkpoint_reload_passed": true,
+  "no_checkpoints": true
+}

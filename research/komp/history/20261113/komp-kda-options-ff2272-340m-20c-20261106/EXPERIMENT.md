@@ -1,0 +1,7 @@
+# Parameter-matched restart of KOMP options 1+2+3
+
+User requested restart with FFN parameters restored to comparable scale. FF2272 gives340,753,280 parameters (+0.2313% vs original339,966,848). Only FF width changes relative to prior combo FF1824; sigmoid output / rank64 output+decay / head multi-timescale options remain enabled. Old307.72M runs are superseded and preserved with separate terminal checkpoints and spent-token ledger. Fresh seed42 model/Adam/RNG/data cursor, each6.8B supervised token budget; no old weights or progress reused. Each8H100, mb16accum2/global256; original3 jobs unaffected, combined cap40 GPUs.
+
+All other recipe/data/tokenizer/schedule/precision/checkpoint settings inherit the prior frozen combo. New source and independent full preflight required: options-off full-model initialization now compares to the same2272-width legacy reference; this is not equality to the original1824 FF baseline. Same-shaped shared modules retain original named initialization. Changed FF weights use the same seed/init rule at the new shape. Both new architectures must have identical initial full-model SHA. Original checkpoint migration failures and FP32 near-collinear limits remain preserved.
+
+WeaverRSI / proj-32. Independent alias komp340m-{exact,block}-kda123-ff2272-20261106. reports/collect.py compares same-token validation against original KOMP baselines. Prior combo experiment documentation remains in its preserved package.

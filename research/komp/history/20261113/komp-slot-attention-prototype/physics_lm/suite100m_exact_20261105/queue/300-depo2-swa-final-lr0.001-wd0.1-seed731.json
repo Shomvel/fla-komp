@@ -1,0 +1,1 @@
+{"command": ["python", "../evaluate.py", "--run", "depo2-swa-final-lr0.001-wd0.1-seed731"], "requires": ["/gpfs/users/linlizhi/physics100m-exact-20261105/runs/results/depo2-swa-final-lr0.001-wd0.1-seed731/summary.json"], "run": "depo2-swa-final-lr0.001-wd0.1-seed731", "stage": "evaluate"}

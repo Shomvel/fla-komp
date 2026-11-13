@@ -1,0 +1,113 @@
+{
+  "model": "value_learned123",
+  "status": "passed",
+  "torch": "2.10.0a0+b558c986e8.nv25.11",
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "torch_matmul_allow_tf32": true,
+  "source": "/gpfs/users/linlizhi/komp-value-decay-learned-123-340m-20c-20261107",
+  "started": 1794044356.1031027,
+  "candidate_source": {
+    "source_manifest_sha256": "f0ebd0c1b3375e671d849a99e70c2019b3cf20be89d588982e4e5fe86dd050f8",
+    "file_count": 15
+  },
+  "frozen": {
+    "model": "value_learned123",
+    "source": "/gpfs/users/linlizhi/komp-value-decay-learned-123-340m-20c-20261107",
+    "source_manifest_sha256": "0b906d5b3e39c017e862c13c6e7474a741a00ccfbde9be654f10e1265fc8f763",
+    "data_manifest_sha256": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+    "source_file_count": 836
+  },
+  "operators": [
+    {
+      "label": "block-value-learnedTrue-B1-T33-torch.float32-output",
+      "absolute": 0.0009862184524536133,
+      "rmsrel": 0.0014721417817233392,
+      "passed": true
+    },
+    {
+      "label": "block-value-learnedTrue-B1-T33-torch.float32-keys",
+      "absolute": 5.960464477539063e-08,
+      "rmsrel": 6.86422043367235e-08,
+      "passed": true
+    },
+    {
+      "label": "block-value-learnedTrue-B1-T33-torch.float32-coefficients",
+      "absolute": 0.001157224178314209,
+      "rmsrel": 0.0007832604694774461,
+      "passed": true
+    },
+    {
+      "label": "block-value-learnedTrue-B1-T33-torch.float32-torch-stream",
+      "absolute": 2.086162567138672e-07,
+      "rmsrel": 3.1151882207805397e-07,
+      "passed": true
+    },
+    {
+      "label": "block-value-learnedTrue-B1-T33-torch.float32-open-state",
+      "absolute": 8.344650268554688e-07,
+      "rmsrel": 4.466827570667678e-07,
+      "passed": true
+    },
+    {
+      "label": "block-value-learnedTrue-B2-T129-torch.bfloat16-output",
+      "absolute": 0.00390625,
+      "rmsrel": 0.004300335043545716,
+      "passed": true
+    },
+    {
+      "label": "block-value-learnedTrue-B2-T129-torch.bfloat16-keys",
+      "absolute": 5.960464477539063e-08,
+      "rmsrel": 6.463758356002667e-08,
+      "passed": true
+    },
+    {
+      "label": "block-value-learnedTrue-B2-T129-torch.bfloat16-coefficients",
+      "absolute": 0.002211451530456543,
+      "rmsrel": 0.0014371327499237904,
+      "passed": true
+    },
+    {
+      "label": "block-value-learnedTrue-B2-T129-torch.bfloat16-torch-stream",
+      "absolute": 0.0009765625,
+      "rmsrel": 5.1373154598787254e-05,
+      "passed": true
+    },
+    {
+      "label": "block-value-learnedTrue-B2-T129-torch.bfloat16-open-state",
+      "absolute": 4.225969314575195e-05,
+      "rmsrel": 7.2372526703074964e-06,
+      "passed": true
+    },
+    {
+      "label": "block-value-learnedTrue-B1-T259-torch.bfloat16-output",
+      "absolute": 0.00390625,
+      "rmsrel": 0.004296832879196884,
+      "passed": true
+    },
+    {
+      "label": "block-value-learnedTrue-B1-T259-torch.bfloat16-keys",
+      "absolute": 5.960464477539063e-08,
+      "rmsrel": 6.540313189962252e-08,
+      "passed": true
+    },
+    {
+      "label": "block-value-learnedTrue-B1-T259-torch.bfloat16-coefficients",
+      "absolute": 0.001931905746459961,
+      "rmsrel": 0.0014049647384338673,
+      "passed": true
+    },
+    {
+      "label": "block-value-learnedTrue-B1-T259-torch.bfloat16-torch-stream",
+      "absolute": 0.0009765625,
+      "rmsrel": 5.050361804954885e-05,
+      "passed": true
+    },
+    {
+      "label": "block-value-learnedTrue-B1-T259-torch.bfloat16-open-state",
+      "absolute": 2.771615982055664e-05,
+      "rmsrel": 7.108175329813685e-06,
+      "passed": true
+    }
+  ],
+  "finished": 1794044435.7623978
+}

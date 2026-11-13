@@ -1,0 +1,197 @@
+{
+  "tokenizer": "/gpfs/shared_data/qiji/huggingface.co/fla-hub/transformer-1.3B-100B",
+  "tokenizer_sha": "fc4f0bd70b3709312d9d1d9e5ba674794b6bc5abc17429897a540f93882f25fc",
+  "add_special_tokens": false,
+  "eos_token_id": 2,
+  "bos_token_id": 1,
+  "seeds": {
+    "python": 0,
+    "numpy": 1234
+  },
+  "cases": [
+    {
+      "case": "niah_single_1_1024",
+      "task": "niah_single_1",
+      "count": 500,
+      "sha256": "1c71ad8473e750dddbf9f639df94b703c96628f024aebbc3d37c11cfdf733155",
+      "min_prompt_tokens": 831,
+      "max_prompt_tokens": 849
+    },
+    {
+      "case": "niah_single_1_2048",
+      "task": "niah_single_1",
+      "count": 500,
+      "sha256": "a64984d3efcacb1a95890129200b0c83bc036d1f5b130919aa55db3bbe29a9b5",
+      "min_prompt_tokens": 1831,
+      "max_prompt_tokens": 1849
+    },
+    {
+      "case": "niah_single_1_4096",
+      "task": "niah_single_1",
+      "count": 500,
+      "sha256": "918777900ddde3cdc23030051b02e21a61629bc3b162fd3bddcc371f740928dd",
+      "min_prompt_tokens": 3831,
+      "max_prompt_tokens": 3849
+    },
+    {
+      "case": "niah_single_1_8192",
+      "task": "niah_single_1",
+      "count": 500,
+      "sha256": "5bcef04254bd3aedf70dcd9f855f8d978adbf8bc464562a6a815c714651b16f0",
+      "min_prompt_tokens": 7581,
+      "max_prompt_tokens": 7602
+    },
+    {
+      "case": "niah_single_2_1024",
+      "task": "niah_single_2",
+      "count": 500,
+      "sha256": "061fa1e906fb4f54d4261c48e7b3b599afeb20d88c0dbbe4621153f03c6d3fb8",
+      "min_prompt_tokens": 759,
+      "max_prompt_tokens": 777
+    },
+    {
+      "case": "niah_single_2_2048",
+      "task": "niah_single_2",
+      "count": 500,
+      "sha256": "c6ec6fa41712dc01fdaa663d1391c8b82a253f13b8f34c49788dfeada27f7f31",
+      "min_prompt_tokens": 1436,
+      "max_prompt_tokens": 1458
+    },
+    {
+      "case": "niah_single_2_4096",
+      "task": "niah_single_2",
+      "count": 500,
+      "sha256": "87a26c9717d31b5d8cd58ed6cf9b40cf1466167e9262c97f7f67a795c955e068",
+      "min_prompt_tokens": 3357,
+      "max_prompt_tokens": 3376
+    },
+    {
+      "case": "niah_single_2_8192",
+      "task": "niah_single_2",
+      "count": 500,
+      "sha256": "ddffb8d865f8ef9923c782c649f51bafc51e3afbdc2d64f6de08b5a76c3a5de5",
+      "min_prompt_tokens": 8004,
+      "max_prompt_tokens": 8026
+    },
+    {
+      "case": "niah_single_3_1024",
+      "task": "niah_single_3",
+      "count": 500,
+      "sha256": "aaa4c3ea4d6b2dcbd1bb6215f8ee83e9a8910b76ee821fd039678ffde440a92b",
+      "min_prompt_tokens": 783,
+      "max_prompt_tokens": 807
+    },
+    {
+      "case": "niah_single_3_2048",
+      "task": "niah_single_3",
+      "count": 500,
+      "sha256": "4d4e4e1ea9a277afb86fc9d10b0aeaeebd25fab0c0049e13ef5a31101c3aed3b",
+      "min_prompt_tokens": 1462,
+      "max_prompt_tokens": 1482
+    },
+    {
+      "case": "niah_single_3_4096",
+      "task": "niah_single_3",
+      "count": 500,
+      "sha256": "e57b7473fd9c69bcfa114d52d548cd97414bf51bd85e6a634c2448abeb21695a",
+      "min_prompt_tokens": 3382,
+      "max_prompt_tokens": 3407
+    },
+    {
+      "case": "niah_single_3_8192",
+      "task": "niah_single_3",
+      "count": 500,
+      "sha256": "a78327db495789a91f8e5e8ba952056749a1e1e0fe4deff5df1859d3f0de05f7",
+      "min_prompt_tokens": 8030,
+      "max_prompt_tokens": 8051
+    },
+    {
+      "case": "phonebook_32",
+      "task": "phonebook_32",
+      "count": 1000,
+      "sha256": "937a2a90098acccc081d6709a81496591e22e47231b6f7f5cb141c777532b8d3",
+      "min_prompt_tokens": 67,
+      "max_prompt_tokens": 86
+    },
+    {
+      "case": "phonebook_64",
+      "task": "phonebook_64",
+      "count": 1000,
+      "sha256": "02dbb68230c5c2ed23e4936675ae6f933641bbd58914e430397e098b35c7cdbe",
+      "min_prompt_tokens": 66,
+      "max_prompt_tokens": 84
+    },
+    {
+      "case": "phonebook_100",
+      "task": "phonebook_100",
+      "count": 1000,
+      "sha256": "c57bf4d71d1fd740d13dd7f6e7509e20f6efd474a8fc54c2e3d0c612a8e3f586",
+      "min_prompt_tokens": 67,
+      "max_prompt_tokens": 84
+    },
+    {
+      "case": "phonebook_128",
+      "task": "phonebook_128",
+      "count": 1000,
+      "sha256": "f845b34620ce1626b008f7fe06eec2cf623a3b51472076e916402596df4c4164",
+      "min_prompt_tokens": 84,
+      "max_prompt_tokens": 102
+    },
+    {
+      "case": "phonebook_150",
+      "task": "phonebook_150",
+      "count": 1000,
+      "sha256": "5c1f5aa8ca99887d79f9da9988217169b1579db4f0f5c001976648d75379f972",
+      "min_prompt_tokens": 100,
+      "max_prompt_tokens": 121
+    },
+    {
+      "case": "phonebook_200",
+      "task": "phonebook_200",
+      "count": 1000,
+      "sha256": "a35bbfea44fc32707a8f82a9cecfa0898d20d7a6b4d201e46665592fe24e61ec",
+      "min_prompt_tokens": 153,
+      "max_prompt_tokens": 174
+    },
+    {
+      "case": "phonebook_256",
+      "task": "phonebook_256",
+      "count": 1000,
+      "sha256": "0056612f0dd1853b561fe3b37b371c11588f73e98ddd62d5fd5dfc0fa5d3bfc2",
+      "min_prompt_tokens": 219,
+      "max_prompt_tokens": 244
+    },
+    {
+      "case": "based_swde",
+      "task": "based_swde",
+      "count": 1111,
+      "sha256": "a80ae6f81d9ecf3e35f02cb8304e2446f1cbb9e8564a8b05e0422b3413f8d1af",
+      "min_prompt_tokens": 317,
+      "max_prompt_tokens": 2179
+    },
+    {
+      "case": "based_fda",
+      "task": "based_fda",
+      "count": 1102,
+      "sha256": "df2b54a0c7455051ebbb700150d7c01b23683bd9c88e25ec7d2bfcb6d898350c",
+      "min_prompt_tokens": 181,
+      "max_prompt_tokens": 2738
+    },
+    {
+      "case": "based_nq_1024",
+      "task": "based_nq_1024",
+      "count": 3157,
+      "sha256": "669ebb1da1c19f4b25d160897db072bd2efb0f49f2e98dcee477a4d424fc1e68",
+      "min_prompt_tokens": 822,
+      "max_prompt_tokens": 4992
+    },
+    {
+      "case": "based_drop",
+      "task": "based_drop",
+      "count": 2087,
+      "sha256": "ae4a41a761d58d865ec0972918f0483065daff704daafa0b26d62ff8fa558d82",
+      "min_prompt_tokens": 92,
+      "max_prompt_tokens": 1560
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        65536
+      ],
+      "metrics": [
+        {
+          "name": "out",
+          "relative_rms": 0.0,
+          "max_abs": 0.0,
+          "different": 0
+        },
+        {
+          "name": "dgate",
+          "relative_rms": 1.2362771443465614e-16,
+          "max_abs": 2.220446049250313e-16,
+          "different": 1
+        },
+        {
+          "name": "dup",
+          "relative_rms": 0.0,
+          "max_abs": 0.0,
+          "different": 0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        16,
+        2048,
+        3072
+      ],
+      "metrics": [
+        {
+          "name": "out",
+          "relative_rms": 0.0,
+          "max_abs": 0.0,
+          "different": 0
+        },
+        {
+          "name": "dgate",
+          "relative_rms": 2.3670040150136629e-07,
+          "max_abs": 1.52587890625e-05,
+          "different": 9
+        },
+        {
+          "name": "dup",
+          "relative_rms": 0.0,
+          "max_abs": 0.0,
+          "different": 0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        65536
+      ],
+      "metrics": [
+        {
+          "name": "out",
+          "relative_rms": 1.1667262711512194e-08,
+          "max_abs": 0.0001220703125,
+          "different": 2
+        },
+        {
+          "name": "dgate",
+          "relative_rms": 2.0922054773109267e-06,
+          "max_abs": 3.814697265625e-06,
+          "different": 1
+        },
+        {
+          "name": "dup",
+          "relative_rms": 1.8412324109817746e-08,
+          "max_abs": 1.9073486328125e-06,
+          "different": 2
+        }
+      ],
+      "passed": true
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        16,
+        2048,
+        3072
+      ],
+      "metrics": [
+        {
+          "name": "out",
+          "relative_rms": 1.2336894315012614e-06,
+          "max_abs": 0.00048828125,
+          "different": 18724
+        },
+        {
+          "name": "dgate",
+          "relative_rms": 3.4447930374881253e-06,
+          "max_abs": 3.0517578125e-05,
+          "different": 7413
+        },
+        {
+          "name": "dup",
+          "relative_rms": 1.2163998235337203e-06,
+          "max_abs": 7.62939453125e-06,
+          "different": 18094
+        }
+      ],
+      "passed": true
+    }
+  ]
+}

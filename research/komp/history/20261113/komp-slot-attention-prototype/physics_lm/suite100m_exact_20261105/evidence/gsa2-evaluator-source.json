@@ -1,0 +1,6 @@
+{
+  "file": "evaluate_gsa2_candidate.py",
+  "sha256": "f864feb08ddc99419ba783d22aa1dd69c665a9c184c3e04d8b533ec7ecf01d8f",
+  "underlying_scorer": "same frozen task grader and 256 generation probes",
+  "runtime": "new-source stabilized GSA2; identical BF16 network/head and original selected recipe"
+}

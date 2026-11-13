@@ -1,0 +1,1238 @@
+{
+  "status": "passed",
+  "check_count": 154,
+  "checks": [
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_beta/learnedFalse/C16/output",
+      "rms_relative": 2.8267465878772427e-07,
+      "normalized_max": 1.6942532238273245e-07,
+      "max_abs": 1.6942532238273245e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_beta/learnedFalse/C16/keys",
+      "rms_relative": 4.954156727002024e-08,
+      "normalized_max": 5.4375194347144884e-08,
+      "max_abs": 5.4375194347144884e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_beta/learnedFalse/C16/state",
+      "rms_relative": 2.567044456348977e-07,
+      "normalized_max": 2.529274830964656e-07,
+      "max_abs": 2.529274830964656e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_beta/learnedFalse/C16/grad/q",
+      "rms_relative": 2.591075996694051e-07,
+      "normalized_max": 8.247602256705733e-08,
+      "max_abs": 8.247602256705733e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_beta/learnedFalse/C16/grad/k",
+      "rms_relative": 2.1951570611066442e-07,
+      "normalized_max": 1.1373206182385687e-07,
+      "max_abs": 1.1373206182385687e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_beta/learnedFalse/C16/grad/v",
+      "rms_relative": 1.7990297297980602e-07,
+      "normalized_max": 1.6998359134157148e-07,
+      "max_abs": 1.6998359134157148e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_beta/learnedFalse/C16/grad/g",
+      "rms_relative": 4.48025737893628e-07,
+      "normalized_max": 5.660298722509616e-07,
+      "max_abs": 5.660298722509616e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_beta/learnedFalse/C16/grad/beta",
+      "rms_relative": 2.5820749657199855e-07,
+      "normalized_max": 2.172728185063651e-07,
+      "max_abs": 1.012443957670861e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_beta/learnedFalse/C16/grad/initial_keys",
+      "rms_relative": 2.4699066678815923e-07,
+      "normalized_max": 2.7262051893739425e-08,
+      "max_abs": 2.7262051893739425e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_beta/learnedFalse/C16/grad/initial_coefficients",
+      "rms_relative": 3.372124173654337e-07,
+      "normalized_max": 2.701566951756339e-07,
+      "max_abs": 3.124040013346985e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_beta/learnedFalse/C16/grad/scores",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.0,
+      "max_tolerance": 0.0
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_beta/learnedTrue/C16/output",
+      "rms_relative": 2.545901543264933e-07,
+      "normalized_max": 1.7657433659667987e-07,
+      "max_abs": 1.7657433659667987e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_beta/learnedTrue/C16/keys",
+      "rms_relative": 4.303957361548066e-08,
+      "normalized_max": 3.3029156520925085e-08,
+      "max_abs": 3.3029156520925085e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_beta/learnedTrue/C16/state",
+      "rms_relative": 1.6838589116581833e-07,
+      "normalized_max": 1.46072554844688e-07,
+      "max_abs": 2.3083664246748015e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_beta/learnedTrue/C16/grad/q",
+      "rms_relative": 2.983540941645392e-07,
+      "normalized_max": 1.1295840754432795e-07,
+      "max_abs": 1.1295840754432795e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_beta/learnedTrue/C16/grad/k",
+      "rms_relative": 2.887650600430824e-07,
+      "normalized_max": 2.591111971650406e-07,
+      "max_abs": 2.591111971650406e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_beta/learnedTrue/C16/grad/v",
+      "rms_relative": 2.541448500838193e-07,
+      "normalized_max": 2.703746614778008e-07,
+      "max_abs": 6.236627949629536e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_beta/learnedTrue/C16/grad/g",
+      "rms_relative": 2.1969726150784118e-07,
+      "normalized_max": 2.974343539116007e-07,
+      "max_abs": 8.908758335479661e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_beta/learnedTrue/C16/grad/beta",
+      "rms_relative": 1.5724071647011303e-07,
+      "normalized_max": 9.002284398450214e-08,
+      "max_abs": 5.909235763768006e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_beta/learnedTrue/C16/grad/initial_keys",
+      "rms_relative": 1.352135538675181e-07,
+      "normalized_max": 6.385383374829523e-08,
+      "max_abs": 6.385383374829523e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_beta/learnedTrue/C16/grad/initial_coefficients",
+      "rms_relative": 3.368593383610702e-07,
+      "normalized_max": 2.8576095309527395e-07,
+      "max_abs": 3.785388527910438e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_beta/learnedTrue/C16/grad/scores",
+      "rms_relative": 1.117386348682169e-07,
+      "normalized_max": 7.498608264877582e-08,
+      "max_abs": 7.498608264877582e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_norm/learnedFalse/C16/output",
+      "rms_relative": 1.9018388309760567e-07,
+      "normalized_max": 7.14140799273899e-08,
+      "max_abs": 7.14140799273899e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_norm/learnedFalse/C16/keys",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_norm/learnedFalse/C16/state",
+      "rms_relative": 1.3148361504196836e-06,
+      "normalized_max": 1.3099427690459047e-06,
+      "max_abs": 1.7239837446503259e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_norm/learnedFalse/C16/grad/q",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_norm/learnedFalse/C16/grad/k",
+      "rms_relative": 2.2509256724125756e-08,
+      "normalized_max": 2.990030834692983e-08,
+      "max_abs": 0.053558349609375,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_norm/learnedFalse/C16/grad/v",
+      "rms_relative": 1.4228683595584565e-06,
+      "normalized_max": 1.101796961718375e-06,
+      "max_abs": 1.7661821982706272e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_norm/learnedFalse/C16/grad/g",
+      "rms_relative": 3.3825232366309347e-06,
+      "normalized_max": 3.661910312085769e-06,
+      "max_abs": 4.24369550933168e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_norm/learnedFalse/C16/grad/beta",
+      "rms_relative": 1.2384014712374373e-06,
+      "normalized_max": 9.988039081413347e-07,
+      "max_abs": 5.073494964147329e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_norm/learnedFalse/C16/grad/initial_keys",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_norm/learnedFalse/C16/grad/initial_coefficients",
+      "rms_relative": 9.797055254687145e-07,
+      "normalized_max": 7.606783441742749e-07,
+      "max_abs": 7.606783441742749e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_norm/learnedFalse/C16/grad/scores",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.0,
+      "max_tolerance": 0.0
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_norm/learnedTrue/C16/output",
+      "rms_relative": 1.792143854067682e-07,
+      "normalized_max": 1.1652296660891182e-07,
+      "max_abs": 1.1652296660891182e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_norm/learnedTrue/C16/keys",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_norm/learnedTrue/C16/state",
+      "rms_relative": 8.933988336293298e-07,
+      "normalized_max": 7.966870206302489e-07,
+      "max_abs": 1.6480781740435546e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_norm/learnedTrue/C16/grad/q",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_norm/learnedTrue/C16/grad/k",
+      "rms_relative": 2.2207919368022372e-08,
+      "normalized_max": 2.990030834692983e-08,
+      "max_abs": 0.053558349609375,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_norm/learnedTrue/C16/grad/v",
+      "rms_relative": 8.70139265354676e-07,
+      "normalized_max": 6.096845930232324e-07,
+      "max_abs": 1.694872603374975e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_norm/learnedTrue/C16/grad/g",
+      "rms_relative": 1.7079229039297522e-06,
+      "normalized_max": 1.4240850533749757e-06,
+      "max_abs": 5.716530613320003e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_norm/learnedTrue/C16/grad/beta",
+      "rms_relative": 1.1572724914564571e-06,
+      "normalized_max": 8.4908068936687e-07,
+      "max_abs": 7.096808113782327e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_norm/learnedTrue/C16/grad/initial_keys",
+      "rms_relative": 2.3651722663450983e-08,
+      "normalized_max": 2.6874569975306557e-08,
+      "max_abs": 0.0379486083984375,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_norm/learnedTrue/C16/grad/initial_coefficients",
+      "rms_relative": 7.574797752593556e-07,
+      "normalized_max": 7.351846354614056e-07,
+      "max_abs": 7.351846354614056e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/zero_norm/learnedTrue/C16/grad/scores",
+      "rms_relative": 1.6566851199684395e-06,
+      "normalized_max": 1.351333629495688e-06,
+      "max_abs": 1.351333629495688e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/tiny_norm/learnedFalse/C16/output",
+      "rms_relative": 1.9944853836745488e-07,
+      "normalized_max": 6.573882119914609e-08,
+      "max_abs": 6.573882119914609e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/tiny_norm/learnedFalse/C16/keys",
+      "rms_relative": 2.9587408405334915e-08,
+      "normalized_max": 9.141558621195145e-10,
+      "max_abs": 9.141558621195145e-10,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/tiny_norm/learnedFalse/C16/state",
+      "rms_relative": 4.04470364801816e-05,
+      "normalized_max": 2.492838288047762e-05,
+      "max_abs": 3.6620271878951005e-05,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/tiny_norm/learnedFalse/C16/grad/q",
+      "rms_relative": 3.11231254245925e-05,
+      "normalized_max": 2.8953580462564003e-05,
+      "max_abs": 0.9940710864630091,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/tiny_norm/learnedFalse/C16/grad/k",
+      "rms_relative": 0.0001325349715463722,
+      "normalized_max": 9.387811546841498e-05,
+      "max_abs": 3857.74121764116,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/tiny_norm/learnedFalse/C16/grad/v",
+      "rms_relative": 5.615741314052569e-05,
+      "normalized_max": 7.548994024083449e-05,
+      "max_abs": 0.00012101025393973508,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/tiny_norm/learnedFalse/C16/grad/g",
+      "rms_relative": 7.630830204317231e-05,
+      "normalized_max": 9.844083348731328e-05,
+      "max_abs": 0.00016046640353287178,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/tiny_norm/learnedFalse/C16/grad/beta",
+      "rms_relative": 4.695625415918422e-05,
+      "normalized_max": 5.109873746585459e-05,
+      "max_abs": 0.0002595098652191652,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/tiny_norm/learnedFalse/C16/grad/initial_keys",
+      "rms_relative": 0.0009714610119723894,
+      "normalized_max": 0.0010914429442697262,
+      "max_abs": 14.775924999589506,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/tiny_norm/learnedFalse/C16/grad/initial_coefficients",
+      "rms_relative": 1.0601539231555313e-05,
+      "normalized_max": 7.228057331692961e-06,
+      "max_abs": 7.228057331692961e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/tiny_norm/learnedFalse/C16/grad/scores",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.0,
+      "max_tolerance": 0.0
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/tiny_norm/learnedTrue/C16/output",
+      "rms_relative": 1.8779300858274855e-07,
+      "normalized_max": 1.0194695973519963e-07,
+      "max_abs": 1.0194695973519963e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/tiny_norm/learnedTrue/C16/keys",
+      "rms_relative": 2.5922302972314056e-08,
+      "normalized_max": 7.273683877428994e-10,
+      "max_abs": 7.273683877428994e-10,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/tiny_norm/learnedTrue/C16/state",
+      "rms_relative": 5.744042326367501e-05,
+      "normalized_max": 3.7229790599685306e-05,
+      "max_abs": 7.549787842353606e-05,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/tiny_norm/learnedTrue/C16/grad/q",
+      "rms_relative": 4.9102511303851396e-05,
+      "normalized_max": 7.362852977872543e-05,
+      "max_abs": 1.7298892634971708,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/tiny_norm/learnedTrue/C16/grad/k",
+      "rms_relative": 0.00015892639735666552,
+      "normalized_max": 0.00013041926879577454,
+      "max_abs": 5784.462619127706,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/tiny_norm/learnedTrue/C16/grad/v",
+      "rms_relative": 5.283479489424536e-05,
+      "normalized_max": 3.915340251465576e-05,
+      "max_abs": 0.00010884300073097514,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/tiny_norm/learnedTrue/C16/grad/g",
+      "rms_relative": 8.358394159465655e-05,
+      "normalized_max": 7.072686337290076e-05,
+      "max_abs": 0.0002605682617664584,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/tiny_norm/learnedTrue/C16/grad/beta",
+      "rms_relative": 4.45970312373156e-05,
+      "normalized_max": 3.5519551834204325e-05,
+      "max_abs": 0.0003160812321151285,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/tiny_norm/learnedTrue/C16/grad/initial_keys",
+      "rms_relative": 0.00023515424220312548,
+      "normalized_max": 0.0002548715871665907,
+      "max_abs": 6870.46981391497,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/tiny_norm/learnedTrue/C16/grad/initial_coefficients",
+      "rms_relative": 5.5116685462478776e-05,
+      "normalized_max": 5.199362083269099e-05,
+      "max_abs": 5.199362083269099e-05,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s912/B1T19H1M4K8V7/torch.float32/tiny_norm/learnedTrue/C16/grad/scores",
+      "rms_relative": 5.925378874634451e-05,
+      "normalized_max": 4.4581298773493487e-05,
+      "max_abs": 4.718931542867233e-05,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s913/B1T65H2M8K16V17/torch.float32/strong/learnedFalse/C32/output",
+      "rms_relative": 3.9244006169940246e-07,
+      "normalized_max": 5.526686350787458e-07,
+      "max_abs": 5.526686350787458e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s913/B1T65H2M8K16V17/torch.float32/strong/learnedFalse/C32/keys",
+      "rms_relative": 5.888234836561077e-08,
+      "normalized_max": 7.126391154965717e-08,
+      "max_abs": 7.126391154965717e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s913/B1T65H2M8K16V17/torch.float32/strong/learnedFalse/C32/state",
+      "rms_relative": 1.33384677957344e-07,
+      "normalized_max": 1.5544991929292186e-07,
+      "max_abs": 2.4823582522870424e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s913/B1T65H2M8K16V17/torch.float32/strong/learnedFalse/C32/grad/q",
+      "rms_relative": 4.554838920347135e-07,
+      "normalized_max": 3.0967848857477165e-07,
+      "max_abs": 3.0967848857477165e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s913/B1T65H2M8K16V17/torch.float32/strong/learnedFalse/C32/grad/k",
+      "rms_relative": 2.2951066428165415e-07,
+      "normalized_max": 2.267968339797477e-07,
+      "max_abs": 2.267968339797477e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s913/B1T65H2M8K16V17/torch.float32/strong/learnedFalse/C32/grad/v",
+      "rms_relative": 1.223524116619924e-07,
+      "normalized_max": 6.796811107101427e-08,
+      "max_abs": 1.1979236080872369e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s913/B1T65H2M8K16V17/torch.float32/strong/learnedFalse/C32/grad/g",
+      "rms_relative": 1.2108195291683204e-06,
+      "normalized_max": 8.085572133498253e-07,
+      "max_abs": 8.085572133498253e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s913/B1T65H2M8K16V17/torch.float32/strong/learnedFalse/C32/grad/beta",
+      "rms_relative": 1.7941760921459398e-07,
+      "normalized_max": 1.5446215418585594e-07,
+      "max_abs": 5.818371334731509e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s913/B1T65H2M8K16V17/torch.float32/strong/learnedFalse/C32/grad/initial_keys",
+      "rms_relative": 2.0478706211691284e-07,
+      "normalized_max": 2.639145115120034e-09,
+      "max_abs": 2.639145115120034e-09,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s913/B1T65H2M8K16V17/torch.float32/strong/learnedFalse/C32/grad/initial_coefficients",
+      "rms_relative": 1.6825783384401237e-07,
+      "normalized_max": 2.0162442770921274e-08,
+      "max_abs": 2.0162442770921274e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s913/B1T65H2M8K16V17/torch.float32/strong/learnedFalse/C32/grad/scores",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.0,
+      "max_tolerance": 0.0
+    },
+    {
+      "name": "s914/B1T33H2M8K16V17/torch.float32/near/learnedFalse/C16/output",
+      "rms_relative": 1.112066827860826e-06,
+      "normalized_max": 1.3122796277686977e-06,
+      "max_abs": 1.3122796277686977e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s914/B1T33H2M8K16V17/torch.float32/near/learnedFalse/C16/keys",
+      "rms_relative": 2.4675335932238108e-08,
+      "normalized_max": 1.4866484432385363e-08,
+      "max_abs": 1.4866484432385363e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s914/B1T33H2M8K16V17/torch.float32/near/learnedFalse/C16/state",
+      "rms_relative": 1.9705945116844106e-06,
+      "normalized_max": 2.602838315063412e-06,
+      "max_abs": 5.777354348257546e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s914/B1T33H2M8K16V17/torch.float32/near/learnedFalse/C16/grad/q",
+      "rms_relative": 1.93730766133438e-06,
+      "normalized_max": 1.0554715403621184e-06,
+      "max_abs": 1.0554715403621184e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s914/B1T33H2M8K16V17/torch.float32/near/learnedFalse/C16/grad/k",
+      "rms_relative": 5.901028349915433e-07,
+      "normalized_max": 8.966288894440999e-07,
+      "max_abs": 3.27294259534483e-05,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s914/B1T33H2M8K16V17/torch.float32/near/learnedFalse/C16/grad/v",
+      "rms_relative": 1.1592213609821352e-06,
+      "normalized_max": 2.448167786140029e-06,
+      "max_abs": 4.6153620089951775e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s914/B1T33H2M8K16V17/torch.float32/near/learnedFalse/C16/grad/g",
+      "rms_relative": 7.277704551728855e-07,
+      "normalized_max": 1.188165197660146e-06,
+      "max_abs": 9.647327112283222e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s914/B1T33H2M8K16V17/torch.float32/near/learnedFalse/C16/grad/beta",
+      "rms_relative": 1.101114522846242e-06,
+      "normalized_max": 1.102458901453472e-06,
+      "max_abs": 1.638878809373523e-05,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s914/B1T33H2M8K16V17/torch.float32/near/learnedFalse/C16/grad/initial_keys",
+      "rms_relative": 3.739821197443079e-06,
+      "normalized_max": 2.1132922573344204e-07,
+      "max_abs": 2.1132922573344204e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s914/B1T33H2M8K16V17/torch.float32/near/learnedFalse/C16/grad/initial_coefficients",
+      "rms_relative": 4.378656095232862e-06,
+      "normalized_max": 1.3041332454222232e-06,
+      "max_abs": 1.3041332454222232e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s914/B1T33H2M8K16V17/torch.float32/near/learnedFalse/C16/grad/scores",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.0,
+      "max_tolerance": 0.0
+    },
+    {
+      "name": "s913/B1T65H2M8K16V17/torch.float32/strong/learnedTrue/C32/output",
+      "rms_relative": 4.5814577224171835e-07,
+      "normalized_max": 8.431198310112403e-07,
+      "max_abs": 9.055621864317853e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s913/B1T65H2M8K16V17/torch.float32/strong/learnedTrue/C32/keys",
+      "rms_relative": 5.790808995431247e-08,
+      "normalized_max": 7.126391154965717e-08,
+      "max_abs": 7.126391154965717e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s913/B1T65H2M8K16V17/torch.float32/strong/learnedTrue/C32/state",
+      "rms_relative": 9.054309558600964e-07,
+      "normalized_max": 5.24012373159799e-07,
+      "max_abs": 5.24012373159799e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s913/B1T65H2M8K16V17/torch.float32/strong/learnedTrue/C32/grad/q",
+      "rms_relative": 5.418723593127225e-07,
+      "normalized_max": 5.065645958257647e-07,
+      "max_abs": 5.065645958257647e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s913/B1T65H2M8K16V17/torch.float32/strong/learnedTrue/C32/grad/k",
+      "rms_relative": 3.974623780777217e-07,
+      "normalized_max": 4.644025805022878e-07,
+      "max_abs": 4.644025805022878e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s913/B1T65H2M8K16V17/torch.float32/strong/learnedTrue/C32/grad/v",
+      "rms_relative": 2.368771754075799e-07,
+      "normalized_max": 4.236724603229325e-07,
+      "max_abs": 4.236724603229325e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s913/B1T65H2M8K16V17/torch.float32/strong/learnedTrue/C32/grad/g",
+      "rms_relative": 1.2511291908061293e-06,
+      "normalized_max": 1.0669150538107952e-06,
+      "max_abs": 1.2848628162531739e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s913/B1T65H2M8K16V17/torch.float32/strong/learnedTrue/C32/grad/beta",
+      "rms_relative": 3.183312046350697e-07,
+      "normalized_max": 7.793407919298264e-07,
+      "max_abs": 2.493654140067747e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s913/B1T65H2M8K16V17/torch.float32/strong/learnedTrue/C32/grad/initial_keys",
+      "rms_relative": 2.791778582657582e-07,
+      "normalized_max": 2.0383949350666342e-07,
+      "max_abs": 2.0383949350666342e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s913/B1T65H2M8K16V17/torch.float32/strong/learnedTrue/C32/grad/initial_coefficients",
+      "rms_relative": 1.9416069629996793e-07,
+      "normalized_max": 2.2455730872006363e-08,
+      "max_abs": 2.2455730872006363e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s913/B1T65H2M8K16V17/torch.float32/strong/learnedTrue/C32/grad/scores",
+      "rms_relative": 3.245237780822507e-07,
+      "normalized_max": 5.748472626798673e-07,
+      "max_abs": 5.748472626798673e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s914/B1T33H2M8K16V17/torch.float32/near/learnedTrue/C16/output",
+      "rms_relative": 1.33655095064631e-06,
+      "normalized_max": 1.5736553445888646e-06,
+      "max_abs": 1.5736553445888646e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s914/B1T33H2M8K16V17/torch.float32/near/learnedTrue/C16/keys",
+      "rms_relative": 2.4847792053398044e-08,
+      "normalized_max": 1.4783190060985163e-08,
+      "max_abs": 1.4783190060985163e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s914/B1T33H2M8K16V17/torch.float32/near/learnedTrue/C16/state",
+      "rms_relative": 1.6935298182204546e-06,
+      "normalized_max": 2.486586470582099e-06,
+      "max_abs": 5.4207505690850866e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s914/B1T33H2M8K16V17/torch.float32/near/learnedTrue/C16/grad/q",
+      "rms_relative": 1.9477232733209315e-06,
+      "normalized_max": 1.0051110841957644e-06,
+      "max_abs": 1.0051110841957644e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s914/B1T33H2M8K16V17/torch.float32/near/learnedTrue/C16/grad/k",
+      "rms_relative": 2.404657671669757e-06,
+      "normalized_max": 3.965795919627152e-06,
+      "max_abs": 0.00031869066147294234,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s914/B1T33H2M8K16V17/torch.float32/near/learnedTrue/C16/grad/v",
+      "rms_relative": 1.3121866292898627e-06,
+      "normalized_max": 1.7291664245191876e-06,
+      "max_abs": 3.7064723544463773e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s914/B1T33H2M8K16V17/torch.float32/near/learnedTrue/C16/grad/g",
+      "rms_relative": 1.521398376549829e-06,
+      "normalized_max": 1.5796445085770503e-06,
+      "max_abs": 1.562170931990181e-05,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s914/B1T33H2M8K16V17/torch.float32/near/learnedTrue/C16/grad/beta",
+      "rms_relative": 2.166293949155152e-06,
+      "normalized_max": 2.4859985027661196e-06,
+      "max_abs": 2.4195524417791603e-05,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s914/B1T33H2M8K16V17/torch.float32/near/learnedTrue/C16/grad/initial_keys",
+      "rms_relative": 1.7568453026409302e-06,
+      "normalized_max": 1.733940140299989e-06,
+      "max_abs": 9.481251025533766e-05,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s914/B1T33H2M8K16V17/torch.float32/near/learnedTrue/C16/grad/initial_coefficients",
+      "rms_relative": 2.6777908767985246e-06,
+      "normalized_max": 1.3664852847039555e-06,
+      "max_abs": 1.3664852847039555e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s914/B1T33H2M8K16V17/torch.float32/near/learnedTrue/C16/grad/scores",
+      "rms_relative": 2.527890826922962e-06,
+      "normalized_max": 4.530580300305881e-06,
+      "max_abs": 5.280676605184942e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "8k/torch.float32/learnedFalse/0",
+      "rms_relative": 2.7643851690911297e-07,
+      "normalized_max": 3.5762786865234375e-07,
+      "max_abs": 3.5762786865234375e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "8k/torch.float32/learnedFalse/1",
+      "rms_relative": 5.9304240339622284e-08,
+      "normalized_max": 5.960464477539063e-08,
+      "max_abs": 5.960464477539063e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "8k/torch.float32/learnedFalse/2",
+      "rms_relative": 6.531477249622437e-08,
+      "normalized_max": 5.431895438185573e-08,
+      "max_abs": 1.1920928955078125e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "8k/torch.float32/learnedFalse/3",
+      "rms_relative": 2.164232000147339e-07,
+      "normalized_max": 1.3387762010097504e-09,
+      "max_abs": 1.3387762010097504e-09,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "8k/torch.float32/learnedFalse/4",
+      "rms_relative": 2.9577572187780286e-07,
+      "normalized_max": 3.725290298461914e-09,
+      "max_abs": 3.725290298461914e-09,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "8k/torch.float32/learnedFalse/5",
+      "rms_relative": 2.601684170414459e-07,
+      "normalized_max": 4.6566128730773926e-09,
+      "max_abs": 4.6566128730773926e-09,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "8k/torch.float32/learnedFalse/6",
+      "rms_relative": 4.4053733441658427e-07,
+      "normalized_max": 5.21540641784668e-08,
+      "max_abs": 5.21540641784668e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "8k/torch.float32/learnedFalse/7",
+      "rms_relative": 2.7945942897845835e-07,
+      "normalized_max": 4.470348358154297e-08,
+      "max_abs": 4.470348358154297e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "8k/torch.float32/learnedFalse/8",
+      "rms_relative": 3.6377144208260363e-07,
+      "normalized_max": 2.0372681319713593e-10,
+      "max_abs": 2.0372681319713593e-10,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "8k/torch.float32/learnedFalse/9",
+      "rms_relative": 4.702436055486637e-07,
+      "normalized_max": 5.471520125865936e-09,
+      "max_abs": 5.471520125865936e-09,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "8k/torch.float32/learnedFalse/10",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "8k/torch.float32/learnedTrue/0",
+      "rms_relative": 3.398509311449866e-07,
+      "normalized_max": 5.094897561989619e-07,
+      "max_abs": 5.364418029785156e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "8k/torch.float32/learnedTrue/1",
+      "rms_relative": 6.448290974185032e-08,
+      "normalized_max": 5.960464477539063e-08,
+      "max_abs": 5.960464477539063e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "8k/torch.float32/learnedTrue/2",
+      "rms_relative": 1.4755157843878182e-06,
+      "normalized_max": 6.854534149169922e-07,
+      "max_abs": 6.854534149169922e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "8k/torch.float32/learnedTrue/3",
+      "rms_relative": 7.262039118921223e-07,
+      "normalized_max": 2.3283064365386963e-09,
+      "max_abs": 2.3283064365386963e-09,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "8k/torch.float32/learnedTrue/4",
+      "rms_relative": 1.64833523565782e-06,
+      "normalized_max": 5.21540641784668e-08,
+      "max_abs": 5.21540641784668e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "8k/torch.float32/learnedTrue/5",
+      "rms_relative": 3.7846133267621137e-07,
+      "normalized_max": 1.6763806343078613e-08,
+      "max_abs": 1.6763806343078613e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "8k/torch.float32/learnedTrue/6",
+      "rms_relative": 4.4438962536651575e-07,
+      "normalized_max": 5.21540641784668e-08,
+      "max_abs": 5.21540641784668e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "8k/torch.float32/learnedTrue/7",
+      "rms_relative": 3.997641202084552e-07,
+      "normalized_max": 6.705522537231445e-08,
+      "max_abs": 6.705522537231445e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "8k/torch.float32/learnedTrue/8",
+      "rms_relative": 1.8992065244413803e-06,
+      "normalized_max": 1.234002411365509e-08,
+      "max_abs": 1.234002411365509e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "8k/torch.float32/learnedTrue/9",
+      "rms_relative": 3.8345272197957246e-07,
+      "normalized_max": 6.05359673500061e-09,
+      "max_abs": 6.05359673500061e-09,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "8k/torch.float32/learnedTrue/10",
+      "rms_relative": 4.04844684440327e-07,
+      "normalized_max": 1.4901161193847656e-08,
+      "max_abs": 1.4901161193847656e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "8k/torch.bfloat16/learnedFalse/0",
+      "rms_relative": 4.115236311572975e-05,
+      "normalized_max": 0.001953125,
+      "max_abs": 0.001953125,
+      "rms_tolerance": 0.01,
+      "max_tolerance": 0.01
+    },
+    {
+      "name": "8k/torch.bfloat16/learnedFalse/1",
+      "rms_relative": 5.988601967579528e-08,
+      "normalized_max": 5.960464477539063e-08,
+      "max_abs": 5.960464477539063e-08,
+      "rms_tolerance": 0.01,
+      "max_tolerance": 0.01
+    },
+    {
+      "name": "8k/torch.bfloat16/learnedFalse/2",
+      "rms_relative": 6.969664107162026e-08,
+      "normalized_max": 1.0849895065239877e-07,
+      "max_abs": 2.384185791015625e-07,
+      "rms_tolerance": 0.01,
+      "max_tolerance": 0.01
+    },
+    {
+      "name": "8k/torch.bfloat16/learnedFalse/3",
+      "rms_relative": 2.544916976924485e-05,
+      "normalized_max": 7.62939453125e-06,
+      "max_abs": 7.62939453125e-06,
+      "rms_tolerance": 0.01,
+      "max_tolerance": 0.01
+    },
+    {
+      "name": "8k/torch.bfloat16/learnedFalse/4",
+      "rms_relative": 2.8636306903102976e-05,
+      "normalized_max": 7.62939453125e-06,
+      "max_abs": 7.62939453125e-06,
+      "rms_tolerance": 0.01,
+      "max_tolerance": 0.01
+    },
+    {
+      "name": "8k/torch.bfloat16/learnedFalse/5",
+      "rms_relative": 2.775859440851238e-05,
+      "normalized_max": 3.0517578125e-05,
+      "max_abs": 3.0517578125e-05,
+      "rms_tolerance": 0.01,
+      "max_tolerance": 0.01
+    },
+    {
+      "name": "8k/torch.bfloat16/learnedFalse/6",
+      "rms_relative": 4.118969931494722e-07,
+      "normalized_max": 5.21540641784668e-08,
+      "max_abs": 5.21540641784668e-08,
+      "rms_tolerance": 0.01,
+      "max_tolerance": 0.01
+    },
+    {
+      "name": "8k/torch.bfloat16/learnedFalse/7",
+      "rms_relative": 2.7870440701067275e-07,
+      "normalized_max": 3.725290298461914e-08,
+      "max_abs": 3.725290298461914e-08,
+      "rms_tolerance": 0.01,
+      "max_tolerance": 0.01
+    },
+    {
+      "name": "8k/torch.bfloat16/learnedFalse/8",
+      "rms_relative": 4.363305719522501e-05,
+      "normalized_max": 2.384185791015625e-07,
+      "max_abs": 2.384185791015625e-07,
+      "rms_tolerance": 0.01,
+      "max_tolerance": 0.01
+    },
+    {
+      "name": "8k/torch.bfloat16/learnedFalse/9",
+      "rms_relative": 4.4206168162724975e-07,
+      "normalized_max": 5.587935447692871e-09,
+      "max_abs": 5.587935447692871e-09,
+      "rms_tolerance": 0.01,
+      "max_tolerance": 0.01
+    },
+    {
+      "name": "8k/torch.bfloat16/learnedFalse/10",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.01,
+      "max_tolerance": 0.01
+    },
+    {
+      "name": "8k/torch.bfloat16/learnedTrue/0",
+      "rms_relative": 3.5274058921563004e-05,
+      "normalized_max": 0.001851851851851852,
+      "max_abs": 0.001953125,
+      "rms_tolerance": 0.01,
+      "max_tolerance": 0.01
+    },
+    {
+      "name": "8k/torch.bfloat16/learnedTrue/1",
+      "rms_relative": 6.240529357902387e-08,
+      "normalized_max": 5.960464477539063e-08,
+      "max_abs": 5.960464477539063e-08,
+      "rms_tolerance": 0.01,
+      "max_tolerance": 0.01
+    },
+    {
+      "name": "8k/torch.bfloat16/learnedTrue/2",
+      "rms_relative": 1.5654100377445307e-06,
+      "normalized_max": 8.344650268554688e-07,
+      "max_abs": 8.344650268554688e-07,
+      "rms_tolerance": 0.01,
+      "max_tolerance": 0.01
+    },
+    {
+      "name": "8k/torch.bfloat16/learnedTrue/3",
+      "rms_relative": 5.240822321732897e-05,
+      "normalized_max": 7.62939453125e-06,
+      "max_abs": 7.62939453125e-06,
+      "rms_tolerance": 0.01,
+      "max_tolerance": 0.01
+    },
+    {
+      "name": "8k/torch.bfloat16/learnedTrue/4",
+      "rms_relative": 9.850653491491427e-05,
+      "normalized_max": 3.0517578125e-05,
+      "max_abs": 3.0517578125e-05,
+      "rms_tolerance": 0.01,
+      "max_tolerance": 0.01
+    },
+    {
+      "name": "8k/torch.bfloat16/learnedTrue/5",
+      "rms_relative": 5.293681932720178e-05,
+      "normalized_max": 3.0517578125e-05,
+      "max_abs": 3.0517578125e-05,
+      "rms_tolerance": 0.01,
+      "max_tolerance": 0.01
+    },
+    {
+      "name": "8k/torch.bfloat16/learnedTrue/6",
+      "rms_relative": 4.361471709935537e-07,
+      "normalized_max": 7.82310962677002e-08,
+      "max_abs": 7.82310962677002e-08,
+      "rms_tolerance": 0.01,
+      "max_tolerance": 0.01
+    },
+    {
+      "name": "8k/torch.bfloat16/learnedTrue/7",
+      "rms_relative": 3.9713060380942386e-07,
+      "normalized_max": 1.1175870895385742e-07,
+      "max_abs": 1.1175870895385742e-07,
+      "rms_tolerance": 0.01,
+      "max_tolerance": 0.01
+    },
+    {
+      "name": "8k/torch.bfloat16/learnedTrue/8",
+      "rms_relative": 1.1776030060547791e-05,
+      "normalized_max": 2.384185791015625e-07,
+      "max_abs": 2.384185791015625e-07,
+      "rms_tolerance": 0.01,
+      "max_tolerance": 0.01
+    },
+    {
+      "name": "8k/torch.bfloat16/learnedTrue/9",
+      "rms_relative": 3.729337578213438e-07,
+      "normalized_max": 5.122274160385132e-09,
+      "max_abs": 5.122274160385132e-09,
+      "rms_tolerance": 0.01,
+      "max_tolerance": 0.01
+    },
+    {
+      "name": "8k/torch.bfloat16/learnedTrue/10",
+      "rms_relative": 4.076958512671165e-07,
+      "normalized_max": 1.4901161193847656e-08,
+      "max_abs": 1.4901161193847656e-08,
+      "rms_tolerance": 0.01,
+      "max_tolerance": 0.01
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "status": "completed",
+  "run": "brevo2-komp-final-lr0.001-wd0.1-seed731",
+  "checkpoint_stat": {
+    "size": 1206763257,
+    "mtime_ns": 1793883416038515703
+  },
+  "script_sha256": "84b703651f8d6f39b7dba170a740aa8e3c11c3d551b7da4f44c8156d3ecb2c0b",
+  "scope": "unchanged frozen BF16 Block model; right pad only to128boundary; fixed recorded generated prefixes, no new generation samples or optimizer updates",
+  "cases": [
+    {
+      "batch_start": 0,
+      "generated_step": 0,
+      "length": 670,
+      "padded_length": 768,
+      "hidden_max_abs": 0.0,
+      "hidden_rms_relative": 0.0,
+      "last_logits_max_abs": 0.0,
+      "greedy_equal": true,
+      "finite": true
+    },
+    {
+      "batch_start": 0,
+      "generated_step": 1,
+      "length": 671,
+      "padded_length": 768,
+      "hidden_max_abs": 0.0,
+      "hidden_rms_relative": 0.0,
+      "last_logits_max_abs": 0.0,
+      "greedy_equal": true,
+      "finite": true
+    },
+    {
+      "batch_start": 0,
+      "generated_step": 31,
+      "length": 701,
+      "padded_length": 768,
+      "hidden_max_abs": 0.0,
+      "hidden_rms_relative": 0.0,
+      "last_logits_max_abs": 0.0,
+      "greedy_equal": true,
+      "finite": true
+    },
+    {
+      "batch_start": 0,
+      "generated_step": 63,
+      "length": 733,
+      "padded_length": 768,
+      "hidden_max_abs": 0.0,
+      "hidden_rms_relative": 0.0,
+      "last_logits_max_abs": 0.0,
+      "greedy_equal": true,
+      "finite": true
+    },
+    {
+      "batch_start": 0,
+      "generated_step": 127,
+      "length": 737,
+      "padded_length": 768,
+      "hidden_max_abs": 0.0,
+      "hidden_rms_relative": 0.0,
+      "last_logits_max_abs": 0.0,
+      "greedy_equal": true,
+      "finite": true
+    },
+    {
+      "batch_start": 0,
+      "generated_step": 200,
+      "length": 737,
+      "padded_length": 768,
+      "hidden_max_abs": 0.0,
+      "hidden_rms_relative": 0.0,
+      "last_logits_max_abs": 0.0,
+      "greedy_equal": true,
+      "finite": true
+    },
+    {
+      "batch_start": 8,
+      "generated_step": 0,
+      "length": 484,
+      "padded_length": 512,
+      "hidden_max_abs": 0.0,
+      "hidden_rms_relative": 0.0,
+      "last_logits_max_abs": 0.0,
+      "greedy_equal": true,
+      "finite": true
+    },
+    {
+      "batch_start": 8,
+      "generated_step": 1,
+      "length": 485,
+      "padded_length": 512,
+      "hidden_max_abs": 0.0,
+      "hidden_rms_relative": 0.0,
+      "last_logits_max_abs": 0.0,
+      "greedy_equal": true,
+      "finite": true
+    },
+    {
+      "batch_start": 8,
+      "generated_step": 31,
+      "length": 515,
+      "padded_length": 640,
+      "hidden_max_abs": 0.0,
+      "hidden_rms_relative": 0.0,
+      "last_logits_max_abs": 0.0,
+      "greedy_equal": true,
+      "finite": true
+    },
+    {
+      "batch_start": 8,
+      "generated_step": 63,
+      "length": 534,
+      "padded_length": 640,
+      "hidden_max_abs": 0.0,
+      "hidden_rms_relative": 0.0,
+      "last_logits_max_abs": 0.0,
+      "greedy_equal": true,
+      "finite": true
+    },
+    {
+      "batch_start": 8,
+      "generated_step": 127,
+      "length": 534,
+      "padded_length": 640,
+      "hidden_max_abs": 0.0,
+      "hidden_rms_relative": 0.0,
+      "last_logits_max_abs": 0.0,
+      "greedy_equal": true,
+      "finite": true
+    },
+    {
+      "batch_start": 8,
+      "generated_step": 200,
+      "length": 534,
+      "padded_length": 640,
+      "hidden_max_abs": 0.0,
+      "hidden_rms_relative": 0.0,
+      "last_logits_max_abs": 0.0,
+      "greedy_equal": true,
+      "finite": true
+    },
+    {
+      "batch_start": 16,
+      "generated_step": 0,
+      "length": 449,
+      "padded_length": 512,
+      "hidden_max_abs": 0.0,
+      "hidden_rms_relative": 0.0,
+      "last_logits_max_abs": 0.0,
+      "greedy_equal": true,
+      "finite": true
+    },
+    {
+      "batch_start": 16,
+      "generated_step": 1,
+      "length": 450,
+      "padded_length": 512,
+      "hidden_max_abs": 0.0,
+      "hidden_rms_relative": 0.0,
+      "last_logits_max_abs": 0.0,
+      "greedy_equal": true,
+      "finite": true
+    },
+    {
+      "batch_start": 16,
+      "generated_step": 31,
+      "length": 480,
+      "padded_length": 512,
+      "hidden_max_abs": 0.0,
+      "hidden_rms_relative": 0.0,
+      "last_logits_max_abs": 0.0,
+      "greedy_equal": true,
+      "finite": true
+    },
+    {
+      "batch_start": 16,
+      "generated_step": 63,
+      "length": 509,
+      "padded_length": 512,
+      "hidden_max_abs": 0.0,
+      "hidden_rms_relative": 0.0,
+      "last_logits_max_abs": 0.0,
+      "greedy_equal": true,
+      "finite": true
+    },
+    {
+      "batch_start": 16,
+      "generated_step": 127,
+      "length": 509,
+      "padded_length": 512,
+      "hidden_max_abs": 0.0,
+      "hidden_rms_relative": 0.0,
+      "last_logits_max_abs": 0.0,
+      "greedy_equal": true,
+      "finite": true
+    },
+    {
+      "batch_start": 16,
+      "generated_step": 200,
+      "length": 509,
+      "padded_length": 512,
+      "hidden_max_abs": 0.0,
+      "hidden_rms_relative": 0.0,
+      "last_logits_max_abs": 0.0,
+      "greedy_equal": true,
+      "finite": true
+    }
+  ],
+  "all_bitwise_equal": true,
+  "all_greedy_equal": true
+}

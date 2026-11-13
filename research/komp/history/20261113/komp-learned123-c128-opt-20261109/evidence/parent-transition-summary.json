@@ -1,0 +1,29 @@
+{
+  "parent_root": "/gpfs/users/linlizhi/komp-learned123-1b-50b-20261109-mb16-direct",
+  "checkpoint_path": "/gpfs/users/linlizhi/komp-learned123-1b-50b-20261109-mb16-direct/runs/block/checkpoint-012922",
+  "checkpoint_sha256": "70d502bccb29dee41d31b22c60e682fc48ebdb1f36d3608168563d2393393178",
+  "source_sha": "84e4ac86514786ff8880287d49860319cc15d4f0fbf9205b26c7298f400a887f",
+  "data_sha": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+  "step": 12922,
+  "tokens": 13549699072,
+  "world_size": 32,
+  "change": "C128 learned forward/backward optimization: direct slot reduction, measured warps, rounded SwiGLU and exact graph-local recomputation cache; retain IEEE UT and original PyTorch RMSNorm; checkpoint cache storage releases automatically during backward",
+  "changed_files": [
+    "configs/resume-parent.json",
+    "job-train.yaml",
+    "models.py",
+    "run_train.sh",
+    "snapshot/fla/models/komp/modeling_komp.py",
+    "snapshot/fla/ops/komp/block_fast.py"
+  ],
+  "added_files": [
+    "configs/optimization.json",
+    "snapshot/fla/modules/rounded_swiglu.py"
+  ],
+  "optimization_policy_sha": "1e8210f692e797bff59d674119323be627d35ed568c4fd0652def46280150acd",
+  "operator_sha": "9ab491fcbc7b356aeb74d90f95dd1f85bcfac74b2fe52f33dd68f85ef98a456b",
+  "microbatch": 16,
+  "accumulation": 1,
+  "global_sequences": 512,
+  "target_supervised_tokens": 50000000000
+}

@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "rank": 6,
+  "source_sha": "b5828e0262452ac518840be596e26406620e19b2b68bc5e8d590d8037699ecd7",
+  "model_sha": "f01180659c5711ac39e376a5252e362d2cefd0288a29aa110e60d92df4277117",
+  "optimizer_sha": "dafd2a4f5bdc4c57928f950eaaed0150bed4a683dbfd7ee6a9696c4b502fe852",
+  "adam_states": 579,
+  "rng_match": true,
+  "loader_match": true
+}

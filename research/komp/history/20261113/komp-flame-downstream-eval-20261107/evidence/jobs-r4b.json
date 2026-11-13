@@ -1,0 +1,25 @@
+{
+  "jobs": [
+    {
+      "shard": 0,
+      "alias": "komp340m-downstream-eval-20261107-r4b-s0",
+      "identity": "job-bdaafde6397e-20261107143915",
+      "gpus": 8
+    },
+    {
+      "shard": 1,
+      "alias": "komp340m-downstream-eval-20261107-r4b-s1",
+      "identity": "job-ed375f508254-20261107143937",
+      "gpus": 8
+    },
+    {
+      "shard": 2,
+      "alias": "komp340m-downstream-eval-20261107-r4b-s2",
+      "identity": "job-01a5e891f391-20261107143959",
+      "gpus": 8
+    }
+  ],
+  "project": "WeaverRSI",
+  "queue": "proj-32",
+  "gpu_count": 24
+}

@@ -1,0 +1,10 @@
+{
+  "name": "coh_fifo_999-seed732",
+  "command": [
+    "block_coherence.py",
+    "--kind",
+    "coh_fifo_999",
+    "--seed",
+    "732"
+  ]
+}

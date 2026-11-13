@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-880a5c43fba6-20261105221543",
+    "user_def_name": "physics100m-eval-brevo2-komp-20261105",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  }
+]

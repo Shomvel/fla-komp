@@ -1,0 +1,1 @@
+../komp-recurrent-inference-20261107-r2/STATIC_DIAGNOSIS_R2.md

@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "import": "komp_slot.exact_komp",
+  "module_file": "/gpfs/users/linlizhi/komp-exact-triton-20261105/integration/komp_slot/exact_komp/operator.py",
+  "checks": [
+    {
+      "name": "package/output",
+      "rms_relative": 1.4746183472731112e-07,
+      "normalized_max": 8.950834899830451e-08,
+      "max_abs": 8.950834899830451e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "package/keys",
+      "rms_relative": 2.5564173205453303e-08,
+      "normalized_max": 2.5307805295859964e-08,
+      "max_abs": 2.5307805295859964e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "package/state",
+      "rms_relative": 2.2024364858381573e-07,
+      "normalized_max": 3.2369331796930784e-07,
+      "max_abs": 1.0320942940289513e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    }
+  ],
+  "finite_gradients": true
+}

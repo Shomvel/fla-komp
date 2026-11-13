@@ -1,0 +1,220 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "case": "production-trained",
+      "shape": [
+        16,
+        2048,
+        32,
+        64
+      ],
+      "slots": 32,
+      "chunk": 128,
+      "eviction": "learned",
+      "final_state_loss": false,
+      "metrics": [
+        {
+          "name": "out",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.09206140041351318,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "final_keys",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.125,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "final_values",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.046128857880830765,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dq",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.0023482174146920443,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dk",
+          "relative_rms": 7.52280414019139e-06,
+          "baseline_repeat_relative_rms": 1.4123760528014841e-06,
+          "max_abs": 0.00390625,
+          "rms": 0.09825145453214645,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dv",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.002455450827255845,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dg",
+          "relative_rms": 4.518919930002357e-07,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 4.0978193283081055e-08,
+          "rms": 0.0017785815289244056,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dbeta",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.0017950325272977352,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dkeys",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dvalues",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.005671814549714327,
+          "tolerance": 0.0005,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "tail-129-m32-c128-learned-slotTrue",
+      "shape": [
+        2,
+        129,
+        3,
+        64
+      ],
+      "slots": 32,
+      "chunk": 128,
+      "eviction": "learned",
+      "final_state_loss": true,
+      "metrics": [
+        {
+          "name": "out",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.03835858032107353,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "final_keys",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.125,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "final_values",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.032763514667749405,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dq",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.0008251878898590803,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dk",
+          "relative_rms": 1.1798926695996333e-05,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 7.62939453125e-06,
+          "rms": 0.002905274275690317,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dv",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.0012745189014822245,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dg",
+          "relative_rms": 4.036752941764094e-07,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 9.313225746154785e-09,
+          "rms": 0.004726112354546785,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dbeta",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.010952312499284744,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dkeys",
+          "relative_rms": 4.381257002119355e-08,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 1.862645149230957e-09,
+          "rms": 0.003131384262815118,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dvalues",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.006752828601747751,
+          "tolerance": 0.0005,
+          "passed": true
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "rms_tolerance": 0.0005,
+  "baseline_sha": "cea04d17671192bf926fd5f166cb7a6f7aea5d47dd6cb65e30397d8d38a892a7",
+  "candidate_sha": "34850fd126128b1cd1b74d0baad0f1f48d39e27dbfe2a8068dc3d29f9a855e22"
+}

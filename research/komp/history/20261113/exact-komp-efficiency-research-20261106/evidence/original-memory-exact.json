@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "selected_checkpoint_policy": "mixer_only",
+  "activation_memory": [
+    {
+      "mixer_checkpoint": true,
+      "saved_activation_bytes": 1026490368,
+      "peak_increment_bytes": 4139324928,
+      "conservative_full_stack_gib": 34.94384765625
+    },
+    {
+      "mixer_checkpoint": false,
+      "saved_activation_bytes": 3809443840,
+      "peak_increment_bytes": 4348150784,
+      "conservative_full_stack_gib": 97.147705078125
+    }
+  ],
+  "no_checkpoint_estimated_safe": false
+}

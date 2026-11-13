@@ -1,0 +1,146 @@
+[
+  {
+    "name": "job-75ef7d9b0f53-20261101144836",
+    "user_def_name": "komp-coh-trials-20261101-r15",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  },
+  {
+    "name": "job-82c8d7c4921a-20261101144836",
+    "user_def_name": "komp-coh-trials-20261101-r14",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  },
+  {
+    "name": "job-e08e38e4e899-20261101144836",
+    "user_def_name": "komp-coh-trials-20261101-r16",
+    "status": "Pending",
+    "ready_status": "0/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  },
+  {
+    "name": "job-f389e15ab7e5-20261101144836",
+    "user_def_name": "komp-coh-trials-20261101-r13",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  },
+  {
+    "name": "job-0ec56d257185-20261101144831",
+    "user_def_name": "komp-coh-trials-20261101-r9",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  },
+  {
+    "name": "job-7408e29aaca7-20261101144831",
+    "user_def_name": "komp-coh-trials-20261101-r10",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  },
+  {
+    "name": "job-91840537a2d4-20261101144831",
+    "user_def_name": "komp-coh-trials-20261101-r12",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  },
+  {
+    "name": "job-9a1172e4e6f7-20261101144831",
+    "user_def_name": "komp-coh-trials-20261101-r11",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  },
+  {
+    "name": "job-1eb8ab4e2bde-20261101144826",
+    "user_def_name": "komp-coh-trials-20261101-r8",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  },
+  {
+    "name": "job-5b963ea8dfdf-20261101144826",
+    "user_def_name": "komp-coh-trials-20261101-r5",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  },
+  {
+    "name": "job-97aa5989eea9-20261101144826",
+    "user_def_name": "komp-coh-trials-20261101-r6",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  },
+  {
+    "name": "job-beb8edaa2d95-20261101144826",
+    "user_def_name": "komp-coh-trials-20261101-r7",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  },
+  {
+    "name": "job-00313356acf5-20261101144821",
+    "user_def_name": "komp-coh-trials-20261101-r2",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  },
+  {
+    "name": "job-335bac6e286d-20261101144821",
+    "user_def_name": "komp-coh-trials-20261101-r4",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  },
+  {
+    "name": "job-a4c01f64fa63-20261101144821",
+    "user_def_name": "komp-coh-trials-20261101-r1",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  },
+  {
+    "name": "job-ce40e3ce560a-20261101144821",
+    "user_def_name": "komp-coh-trials-20261101-r3",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  }
+]

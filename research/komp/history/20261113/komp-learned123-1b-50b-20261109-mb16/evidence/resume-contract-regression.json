@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "actual_resume_function": true,
+  "exact_state_restored": [
+    "model",
+    "optimizer",
+    "rank_stream",
+    "rank_rng"
+  ],
+  "rejected": [
+    "checkpoint_path",
+    "source_sha",
+    "data_sha",
+    "step",
+    "tokens",
+    "world_size",
+    "checkpoint_sha256",
+    "rank_sha256",
+    "model-source-change"
+  ]
+}

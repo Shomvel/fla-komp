@@ -1,0 +1,24 @@
+{
+  "pod": "job-ed375f508254-20261107143937-runner-0",
+  "job_identity": "job-ed375f508254-20261107143937",
+  "gpu_uuid": "GPU-a23fed83-576f-fcd6-f472-b74160734f00",
+  "source_manifest_sha256": "226bef160d973a34464604137e51f88ab62597044b4a3bbac862c513a052ce37",
+  "started_utc": "2026-11-07T10:35:27.656429+00:00",
+  "command": [
+    "/opt/venv/bin/python",
+    "/gpfs/users/linlizhi/komp-recurrent-inference-20261107-r2/diagnose_model.py",
+    "--model",
+    "block",
+    "--lengths",
+    "31",
+    "--decode",
+    "4",
+    "--output-dir",
+    "/gpfs/users/linlizhi/komp-recurrent-inference-20261107-r2/attempts/r2-diagnostic-block31"
+  ],
+  "idle_gpu_observation": "GPU-a23fed83-576f-fcd6-f472-b74160734f00, 0, 0",
+  "compute_apps_before": "30053, GPU-6c87d5be-bd80-8c74-d7cd-ddc5d4a176a6, 3752 MiB\n30054, GPU-71b18666-7f33-c111-660c-e33dcd0bfd28, 5466 MiB\n30055, GPU-cc798f01-fa4b-6482-64e3-ed65aa868ac2, 3864 MiB\n30056, GPU-c3d57b87-86cf-3874-150b-b9c95ec0cfa6, 3852 MiB\n30057, GPU-03ceec1c-1b15-1ba9-a655-322f2437c0c4, 3766 MiB\n30058, GPU-1919e079-28f8-9f06-e02e-c02a4550fab3, 9708 MiB\n30059, GPU-e4471a1f-04be-37b8-4fc7-1d7c2eb2ccf1, 5512 MiB\n",
+  "process_snapshot_before": "  PID  PPID STAT COMMAND\n    1     0 Ss   /bin/bash -lc set -euo pipefail task_dir=/gpfs/users/linlizhi/komp-flame-downstream-eval-20261107 export PYTHONUNBUFFERED=1 OMP_NUM_THREADS=2 TOKENIZERS_PARALLELISM=false export TRITON_CACHE_DIR=/tmp/komp-gdn-slot-learned123-340m-cache export CUBLAS_WORKSPACE_CONFIG=:4096:8 export PYTHONPATH=\"$task_dir/snapshot:/gpfs/users/linlizhi/fla-komp-value-integration-20261106-r1/deps:/gpfs/users/linlizhi/komp-gsa-gdn-20261031-env/triton371\" export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python FLA_CI_ENV=0 export FLA_DISABLE_BACKEND_DISPATCH=1 FLA_DISABLE_TENSOR_CACHE=1 cd \"$task_dir\" exec >> \"$task_dir/logs/launcher-r4b-s1.log\" 2>&1 export EVAL_JOB_ALIAS=komp340m-downstream-eval-20261107-r4b-s1 export EVAL_JOB_RECEIPT=\"$task_dir/sharded/job-r4b-s1.json\" until test -f \"$EVAL_JOB_RECEIPT\"; do sleep 2; done pids=() for i in 0 1 2 3 4 5 6 7; do   python evaluate_sharded.py --shard 1 --index \"$i\" > \"$task_dir/logs/model-r4b-s1-$i.log\" 2>&1 &   pids+=(\"$!\") done failure=0 for pid in \"${pids[@]}\"; do   wait \"$pid\" || failure=1 done exit \"$failure\" \n   45     1 Rl   python evaluate_sharded.py --shard 1 --index 1\n   46     1 Rl   python evaluate_sharded.py --shard 1 --index 2\n   47     1 Rl   python evaluate_sharded.py --shard 1 --index 3\n   48     1 Sl   python evaluate_sharded.py --shard 1 --index 4\n   49     1 Rl   python evaluate_sharded.py --shard 1 --index 5\n   50     1 Rl   python evaluate_sharded.py --shard 1 --index 6\n   51     1 Rl   python evaluate_sharded.py --shard 1 --index 7\n23263     0 Ss+  bash --norc\n36638     0 Ss+  bash --norc\n37326     0 Ss+  bash --norc\n38970     0 Ss+  bash --norc\n40375     0 Ss+  bash --norc\n41273     0 Ss+  bash --norc\n50290     0 Ss+  bash --norc\n50490     0 Ss   bash --norc\n50500    48 R    /usr/local/cuda/bin/ptxas -lineinfo -v --regAllocOptLevel 2 --gpu-name sm_90a /tmp/tmpsc7ouu8t.ptx -o /tmp/tmpsc7ouu8t.ptx.o\n50504 50490 S+   python /gpfs/users/linlizhi/komp-recurrent-inference-20261107-r2/evidence/idle-reuse/launch_diagnostic.py\n50511 50504 R+   ps -eo pid,ppid,stat,args\n",
+  "kda_complete_sha256": "60264f1a764cc7ed6e3e6ab17c1861fc9b129902d0a7cfbb54336f43ff1e633b",
+  "pid": 50512
+}

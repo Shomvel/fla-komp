@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "rank": 4,
+  "step": 1536,
+  "tokens": 805306368,
+  "source_sha": "3e861451b240e3d4a3479fb0827bf26a10fee320895215dfa419f3a6026c0f6e",
+  "data_sha": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+  "model_sha": "d592c115fdcd2656309314d4a3f29cbb1b83834b29f2bddb23cf8ed340e4eca3",
+  "adam_states": 507,
+  "rng_loader_match": true,
+  "replicas_identical": true
+}

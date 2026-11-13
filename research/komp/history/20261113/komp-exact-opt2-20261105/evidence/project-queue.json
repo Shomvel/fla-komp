@@ -1,0 +1,10 @@
+[
+  {
+    "name": "job-b490831a54f5-20261105150415",
+    "user_def_name": "nextron-flash1017-sglang-h100-20261105-r2",
+    "project": "WeaverRSI",
+    "queue": "proj-32",
+    "project_exists": true,
+    "user_in_project": true
+  }
+]

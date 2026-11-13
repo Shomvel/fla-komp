@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "checks": "All7 source-matched8GPU forward/backward/uneven-tail/checkpoint-restore/realDepo steps",
+  "models": {
+    "gdn": {
+      "parameters": 99846832,
+      "world_size": 8,
+      "source": {
+        "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+        "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+      },
+      "grad_rms_max": 7.681597224973302e-08,
+      "parameter_max_abs": 8.009374141693115e-08
+    },
+    "full": {
+      "parameters": 99723712,
+      "world_size": 8,
+      "source": {
+        "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+        "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+      },
+      "grad_rms_max": 7.624561249031103e-08,
+      "parameter_max_abs": 1.4528632164001465e-07
+    },
+    "swa": {
+      "parameters": 99723712,
+      "world_size": 8,
+      "source": {
+        "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+        "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+      },
+      "grad_rms_max": 7.624561249031103e-08,
+      "parameter_max_abs": 1.4528632164001465e-07
+    },
+    "gsa": {
+      "parameters": 100713472,
+      "world_size": 8,
+      "source": {
+        "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+        "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+      },
+      "grad_rms_max": 6.552159703687721e-08,
+      "parameter_max_abs": 6.05359673500061e-08
+    },
+    "gsa2": {
+      "parameters": 99286192,
+      "world_size": 8,
+      "source": {
+        "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+        "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+      },
+      "grad_rms_max": 8.038887955308383e-08,
+      "parameter_max_abs": 7.078051567077637e-08
+    },
+    "komp": {
+      "parameters": 100526392,
+      "world_size": 8,
+      "source": {
+        "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+        "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+      },
+      "grad_rms_max": 7.654752920416286e-08,
+      "parameter_max_abs": 1.257285475730896e-08
+    },
+    "exact": {
+      "parameters": 100526392,
+      "world_size": 8,
+      "source": {
+        "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+        "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+      },
+      "grad_rms_max": 5.829600127071899e-07,
+      "parameter_max_abs": 2.4586915969848633e-06
+    }
+  },
+  "formal_training_steps": 0
+}

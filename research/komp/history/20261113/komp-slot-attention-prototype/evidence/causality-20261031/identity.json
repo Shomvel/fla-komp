@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-dd79e0eb6511-20261031222221",
+    "user_def_name": "komp-causality-20261031-r1",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  }
+]

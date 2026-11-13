@@ -1,0 +1,69 @@
+{
+  "status": "passed",
+  "model": {
+    "kind": "gsa",
+    "parameters": 100713472,
+    "width": 512,
+    "layers": 15,
+    "ff": 2176,
+    "heads": 8,
+    "head_dim": 64,
+    "short_conv": true,
+    "conv_size": 4,
+    "block_chunk": null,
+    "block_slots": null,
+    "exact_compute_chunk": null,
+    "compression_tokens": null,
+    "eviction": null,
+    "projection_dtype": null,
+    "gsa_slots": 32,
+    "rope_base": null,
+    "swa_window": null
+  },
+  "world_size": 8,
+  "sources": {
+    "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+    "ddp_train": "37ae547bdfbfc5bacd9c4becc68b56de1bf8d8e7b8a4b23cf7bc0e823cf5a34e"
+  },
+  "checks": [
+    "full-model causality",
+    "FP32 one-GPU vs8GPU global objective and update",
+    "uneven17-document batch",
+    "3-document tail with dummy ranks",
+    "replica equality after each step",
+    "all-rank RNG and model/optimizer checkpoint restore",
+    "real long Depo2 BF16 update"
+  ],
+  "fp32_gradient_rms": {
+    "embed.weight": 6.297199206528603e-07,
+    "head.weight": 4.1657719407339755e-07
+  },
+  "parameter_max_abs": {
+    "embed.weight": 1.341104507446289e-07,
+    "head.weight": 3.405148163437843e-08
+  },
+  "short_batch": {
+    "loss": 10.398935317993164,
+    "tokens": 389,
+    "supervised": 34,
+    "microsteps": 1,
+    "global_documents": 17,
+    "grad_norm": 23.734041213989258
+  },
+  "tail_batch": {
+    "loss": 8.701788902282715,
+    "tokens": 77,
+    "supervised": 6,
+    "microsteps": 1,
+    "global_documents": 3,
+    "grad_norm": 21.8497314453125
+  },
+  "real_batch": {
+    "loss": 10.190815019864369,
+    "tokens": 7927,
+    "supervised": 1114,
+    "microsteps": 1,
+    "global_documents": 17,
+    "grad_norm": 21.211395263671875
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "status": "completed",
+  "sources": {
+    "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+    "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+  },
+  "script_sha256": "9f8755d350f72119c450454a0003f8e7ad58bacfeaf9bb170f31fed09a266f46",
+  "configuration": [
+    {
+      "kernel": "layer_norm_gated_fwd_kernel",
+      "BT": 32,
+      "num_warps": 4
+    },
+    {
+      "kernel": "layer_norm_gated_bwd_kernel",
+      "BT": 32,
+      "num_warps": 4
+    },
+    {
+      "cache_free_eval_layout": "packed for B>1 and T>64; short recurrent path unchanged"
+    },
+    {
+      "kernel": "l2norm_fwd_kernel",
+      "BT": 32,
+      "num_warps": 4
+    },
+    {
+      "kernel": "l2norm_bwd_kernel",
+      "BT": 32,
+      "num_warps": 4
+    }
+  ],
+  "optimizer_steps": 0,
+  "shared_upstream_seed": 831,
+  "forward": {
+    "rms_relative": 0.0,
+    "max_abs": 0.0,
+    "finite": true
+  },
+  "activation_gradients": {
+    "layer14": {
+      "rms_relative": 0.0,
+      "max_abs": 0.0,
+      "finite": true
+    },
+    "layer13": {
+      "rms_relative": 0.0,
+      "max_abs": 0.0,
+      "finite": true
+    },
+    "layer12": {
+      "rms_relative": 0.0,
+      "max_abs": 0.0,
+      "finite": true
+    },
+    "layer11": {
+      "rms_relative": 0.0,
+      "max_abs": 0.0,
+      "finite": true
+    },
+    "layer10": {
+      "rms_relative": 0.0,
+      "max_abs": 0.0,
+      "finite": true
+    },
+    "layer9": {
+      "rms_relative": 0.0,
+      "max_abs": 0.0,
+      "finite": true
+    },
+    "layer8": {
+      "rms_relative": 0.0,
+      "max_abs": 0.0,
+      "finite": true
+    },
+    "layer7": {
+      "rms_relative": 0.0,
+      "max_abs": 0.0,
+      "finite": true
+    },
+    "layer6": {
+      "rms_relative": 0.0,
+      "max_abs": 0.0,
+      "finite": true
+    },
+    "layer5": {
+      "rms_relative": 0.0,
+      "max_abs": 0.0,
+      "finite": true
+    },
+    "layer4": {
+      "rms_relative": 0.0,
+      "max_abs": 0.0,
+      "finite": true
+    },
+    "layer3": {
+      "rms_relative": 0.0,
+      "max_abs": 0.0,
+      "finite": true
+    },
+    "layer2": {
+      "rms_relative": 0.0,
+      "max_abs": 0.0,
+      "finite": true
+    },
+    "layer1": {
+      "rms_relative": 0.0,
+      "max_abs": 0.0,
+      "finite": true
+    },
+    "layer0": {
+      "rms_relative": 0.0,
+      "max_abs": 0.0,
+      "finite": true
+    }
+  },
+  "parameter_gradients": {
+    "embed.weight": {
+      "rms_relative": 2.7982218853139784e-07,
+      "max_abs": 0.00054931640625,
+      "finite": true
+    },
+    "layers.0.mix.layer.o_proj.weight": {
+      "rms_relative": 0.002377124270424247,
+      "max_abs": 0.1953125,
+      "finite": true
+    },
+    "layers.14.mix.layer.o_proj.weight": {
+      "rms_relative": 0.002348198089748621,
+      "max_abs": 0.00010013580322265625,
+      "finite": true
+    }
+  }
+}

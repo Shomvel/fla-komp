@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-5b5ed4634431-20261031194036",
+    "user_def_name": "komp-decay-20261031-final-r1",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  }
+]

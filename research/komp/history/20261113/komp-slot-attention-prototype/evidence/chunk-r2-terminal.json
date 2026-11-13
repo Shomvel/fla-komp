@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-42e79ef70868-20261031150031",
+    "user_def_name": "komp-slot-prototype-20261031-r2",
+    "status": "Aborted",
+    "ready_status": "0/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  }
+]

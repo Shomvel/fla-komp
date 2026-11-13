@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "required_members": [
+    "physics_lm/experiment.py",
+    "physics_lm/decay_experiment.py",
+    "physics_lm/shortconv_launch.py",
+    "physics_lm/shortconv_experiment.py",
+    "physics_lm/validate_data.py",
+    "physics_lm/physics_port.py",
+    "physics_lm/data-manifest.json",
+    "benchmark_fla.py",
+    "komp_slot/__init__.py"
+  ],
+  "validate_data_import": "passed",
+  "overlay_sha256": "3071ee064606a5e65affe91e07aa6d8b4d6797161863b1869ec8c08122a253ba"
+}

@@ -1,0 +1,471 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "case": "graph0-first",
+      "passed": true,
+      "metrics": [
+        {
+          "name": "out",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "keys",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "values",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dq",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dk",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dv",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dg",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dbeta",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dkeys",
+          "relative_rms": 2.4246750385259475e-08,
+          "baseline_repeat": 1.8252469757840117e-08,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dvalues",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "case": "graph0-retained",
+      "passed": true,
+      "metrics": [
+        {
+          "name": "out",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "keys",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "values",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dq",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dk",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dv",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dg",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dbeta",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dkeys",
+          "relative_rms": 2.1615788270423764e-08,
+          "baseline_repeat": 1.8252469757840117e-08,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dvalues",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "case": "graph0-interleaved",
+      "passed": true,
+      "metrics": [
+        {
+          "name": "out",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "keys",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "values",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dq",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dk",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dv",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dg",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dbeta",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dkeys",
+          "relative_rms": 1.4119200031359469e-08,
+          "baseline_repeat": 1.1783638065310242e-08,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dvalues",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "case": "graph1-first",
+      "passed": true,
+      "metrics": [
+        {
+          "name": "out",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "keys",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "values",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dq",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dk",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dv",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dg",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dbeta",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dkeys",
+          "relative_rms": 1.5616913984217717e-08,
+          "baseline_repeat": 1.3325727188373548e-08,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dvalues",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "case": "graph1-retained",
+      "passed": true,
+      "metrics": [
+        {
+          "name": "out",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "keys",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "values",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dq",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dk",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dv",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dg",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dbeta",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dkeys",
+          "relative_rms": 1.2787104708422703e-08,
+          "baseline_repeat": 1.3325727188373548e-08,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dvalues",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "case": "graph1-interleaved",
+      "passed": true,
+      "metrics": [
+        {
+          "name": "out",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "keys",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "values",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dq",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dk",
+          "relative_rms": 0.0,
+          "baseline_repeat": 2.72473688056607e-08,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dv",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dg",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dbeta",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dkeys",
+          "relative_rms": 2.9136966617215876e-08,
+          "baseline_repeat": 1.4132091941121416e-08,
+          "tolerance": 0.0005,
+          "passed": true
+        },
+        {
+          "name": "dvalues",
+          "relative_rms": 0.0,
+          "baseline_repeat": 0.0,
+          "tolerance": 0.0005,
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "post_graph_allocated_bytes": [
+    1100800,
+    1100800,
+    1100800,
+    1100800,
+    1100800,
+    1100800,
+    1100800,
+    1100800
+  ]
+}

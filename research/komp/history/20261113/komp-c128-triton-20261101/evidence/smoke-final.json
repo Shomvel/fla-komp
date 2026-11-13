@@ -1,0 +1,283 @@
+{
+  "checks": [
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearFalse/out",
+      "rms_relative": 0.0016081101109080222,
+      "max_abs": 0.0007713971195725811,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearFalse/keys",
+      "rms_relative": 5.3692440593530746e-08,
+      "max_abs": 4.911176748612078e-08,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearFalse/values",
+      "rms_relative": 0.0013793594269200648,
+      "max_abs": 0.0011196466282845652,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearFalse/dq",
+      "rms_relative": 0.0022557300709329757,
+      "max_abs": 0.0003439201976217776,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearFalse/dk",
+      "rms_relative": 0.0010043964198709712,
+      "max_abs": 0.0003909427783183317,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearFalse/dv",
+      "rms_relative": 0.001567605222713899,
+      "max_abs": 0.0024159607125575633,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearFalse/dg",
+      "rms_relative": 0.0016120367318326811,
+      "max_abs": 0.006855175908133226,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearFalse/dbeta",
+      "rms_relative": 0.0015351243079247835,
+      "max_abs": 0.01278223254863775,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearFalse/dk0",
+      "rms_relative": 0.001513810066198144,
+      "max_abs": 7.112963937818545e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearFalse/dv0",
+      "rms_relative": 0.0007893812587137151,
+      "max_abs": 0.00120997635446346,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.bfloat16/slotFalse/fifo/nearFalse/out",
+      "rms_relative": 0.00356111396013302,
+      "max_abs": 0.0014168147288997346,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.bfloat16/slotFalse/fifo/nearFalse/keys",
+      "rms_relative": 5.6741889982853e-08,
+      "max_abs": 4.663138064575634e-08,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.bfloat16/slotFalse/fifo/nearFalse/values",
+      "rms_relative": 0.0010773766831895235,
+      "max_abs": 0.001004929378109476,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.bfloat16/slotFalse/fifo/nearFalse/dq",
+      "rms_relative": 0.003536401751307225,
+      "max_abs": 0.0007197071751204043,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.bfloat16/slotFalse/fifo/nearFalse/dk",
+      "rms_relative": 0.002171471445527657,
+      "max_abs": 0.0011230520298753932,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.bfloat16/slotFalse/fifo/nearFalse/dv",
+      "rms_relative": 0.0034432181815413428,
+      "max_abs": 0.00870012096138284,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.bfloat16/slotFalse/fifo/nearFalse/dg",
+      "rms_relative": 0.003143789288783693,
+      "max_abs": 0.016413028238091876,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.bfloat16/slotFalse/fifo/nearFalse/dbeta",
+      "rms_relative": 0.00231842265234128,
+      "max_abs": 0.015910978555054633,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.bfloat16/slotFalse/fifo/nearFalse/dk0",
+      "rms_relative": 0.003465972072616024,
+      "max_abs": 0.00018667279549332283,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.bfloat16/slotFalse/fifo/nearFalse/dv0",
+      "rms_relative": 0.00319331346708376,
+      "max_abs": 0.004207122649625493,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearFalse/out",
+      "rms_relative": 0.0015613701191154717,
+      "max_abs": 0.00042686570539540725,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearFalse/keys",
+      "rms_relative": 5.3692440593530746e-08,
+      "max_abs": 4.911176748612078e-08,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearFalse/values",
+      "rms_relative": 0.0010567104643348561,
+      "max_abs": 0.0007210807028880106,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearFalse/dq",
+      "rms_relative": 0.0022735672706071172,
+      "max_abs": 0.00024816371105067236,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearFalse/dk",
+      "rms_relative": 0.0005267064896837762,
+      "max_abs": 0.00024791518158208403,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearFalse/dv",
+      "rms_relative": 0.0015004133895840728,
+      "max_abs": 0.001714460080309177,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearFalse/dg",
+      "rms_relative": 0.0015321176341782745,
+      "max_abs": 0.0016494411573508838,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearFalse/dbeta",
+      "rms_relative": 0.0015698447251230924,
+      "max_abs": 0.005511760929450382,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearFalse/dk0",
+      "rms_relative": 0.0014980758633830625,
+      "max_abs": 4.4004671497097775e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearFalse/dv0",
+      "rms_relative": 0.0008397771201721692,
+      "max_abs": 0.0006302996429795038,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.bfloat16/slotTrue/fifo/nearFalse/out",
+      "rms_relative": 0.0030762359657709863,
+      "max_abs": 0.0010620891945682664,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.bfloat16/slotTrue/fifo/nearFalse/keys",
+      "rms_relative": 5.6741889982853e-08,
+      "max_abs": 4.663138064575634e-08,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.bfloat16/slotTrue/fifo/nearFalse/values",
+      "rms_relative": 0.0007087793749335593,
+      "max_abs": 0.0003762768951563189,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.bfloat16/slotTrue/fifo/nearFalse/dq",
+      "rms_relative": 0.003501337537359126,
+      "max_abs": 0.0006029228194365105,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.bfloat16/slotTrue/fifo/nearFalse/dk",
+      "rms_relative": 0.0018228979765979223,
+      "max_abs": 0.0012906441352742437,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.bfloat16/slotTrue/fifo/nearFalse/dv",
+      "rms_relative": 0.003144716211797174,
+      "max_abs": 0.00870012096138284,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.bfloat16/slotTrue/fifo/nearFalse/dg",
+      "rms_relative": 0.00209819838590375,
+      "max_abs": 0.0024290061809536523,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.bfloat16/slotTrue/fifo/nearFalse/dbeta",
+      "rms_relative": 0.001940629023593633,
+      "max_abs": 0.0074411725183325395,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.bfloat16/slotTrue/fifo/nearFalse/dk0",
+      "rms_relative": 0.0035115797638346513,
+      "max_abs": 0.00014884524031876303,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.bfloat16/slotTrue/fifo/nearFalse/dv0",
+      "rms_relative": 0.0028686133215724526,
+      "max_abs": 0.0024200226956381174,
+      "tolerance": 0.01
+    }
+  ],
+  "cases": [
+    "(1, 257, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearFalse",
+    "(1, 257, 2, 64, 64, 32)/torch.bfloat16/slotFalse/fifo/nearFalse",
+    "(1, 257, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearFalse",
+    "(1, 257, 2, 64, 64, 32)/torch.bfloat16/slotTrue/fifo/nearFalse"
+  ],
+  "environment": {
+    "torch": "2.10.0a0+b558c986e8.nv25.11",
+    "triton": "3.7.1",
+    "python": "3.12.3",
+    "gpu": "NVIDIA H100 80GB HBM3"
+  },
+  "status": "passed",
+  "sources": {
+    "komp_slot/kapa_reference.py": "3575757ebe150876c980acc558edbcf3d8f7fae4cd15885832a080599ce42413",
+    "komp_slot/kapa.py": "bf0f1f73e2b831a88d8774b2215e554e2719d6c358c0aca55957e2014cdfe0fa",
+    "komp_slot/chunk.py": "c869f89c55e04930abb12879ece418a59034fed3fff56428129043d1c61df092",
+    "komp_slot/geometry_chunk.py": "34e6039108dcf1f1bbf3a25767f00c2752d61123cae790a8dfc7e2070ccdb126",
+    "komp_slot/bsgd.py": "6ea0889a577a253078019fc499d9707dea4bd76044d3bd4d9f7d9b888a71707a",
+    "komp_slot/operator.py": "6a79a87acf157b484eafec3eaf78719c0d20969d8addd339d3a224818dfc371e",
+    "komp_slot/bsgd_reference.py": "1bfec79de41bc7c1a94a90de43f66688b45983a02314887e194b06d07a81c1a3",
+    "komp_slot/decay.py": "a831b7effa5907bd2b183f902f74ea521f02c28496cd3846de02743389e61e40",
+    "komp_slot/kernels.py": "72f1750a8ada09d7d2323d682bb7b5a8c73960aff96618bf58e35b22ea5df08b",
+    "komp_slot/block_reference.py": "e195d47aa0fd23ef5165357902d3825dc84e429fd220cd3ceae8fbace5ff8b8e",
+    "komp_slot/__init__.py": "31ff68031942bcbd8efaa22724d4ccf0497cc44dd4bc6a729d43bfad48e2acfc",
+    "komp_slot/utils.py": "0861344f151287a70501001231dc13a3f95a11dbc2ce2aeede55996aaecb0ada",
+    "komp_slot/geometry.py": "74faed0b02fd51d739a75a6766fa37e15920d96ec5aea430dfc42be58fabde14",
+    "komp_slot/block_fast.py": "79629c0cf0096624c7004a7cab9bd7d41acffb6de93b2a70ded0ed6d0275a9e7",
+    "komp_slot/triton_chunk.py": "75197354e2f2cd816e6b77f8bf67a34f95cdf18eac8219a2709af7382c96476b",
+    "komp_slot/block_flex.py": "0d1700ec29eb179c8ed0205c425a29696b4345f0a62a02cb69a5f56437c29bfe",
+    "komp_slot/bsgd_chunk.py": "76c576b71779b53bccf557a33d2714eafffec9e285255398a29b0a33a0a9ded2",
+    "komp_slot/recurrence.py": "78b5e2469ff96fb5be096e2af0e165837191ae03c2a4767f04f80bc435ac844e",
+    "komp_slot/scan.py": "1bbe108e5900fff570e70795f272cfab60ea42aa34f39342f5fdcc1af888ef4a",
+    "komp_slot/block_komp.py": "4a3c4edb4434ce11480e968158b7813ce58293d9d69363ba5c3763ca22947231",
+    "komp_slot/reference.py": "d2941e97714c35bd5245a675e0b232be3355f939a62e8723ab80af3d73582bd7",
+    "komp_slot/kapa_geometry.py": "cbc184c9cdcfbedd0fffe237bb913532bc4c41374acd25e2006676ecb3ff7a82",
+    "komp_slot/fast_chunk.py": "0a6fa0c812791aab05e66d136a5261cceedcdad76c659a0eac0946cf592ac592",
+    "komp_slot/kapa_chunk.py": "a23efd2bda07d67b8a50a5a3d9a42fae114d4a8a239a0a5a7cac6b1d67e6e396"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "training": {
+    "gdn-seed731": {
+      "sha256": "c5d15c809f328a2725228605512d89831c0e44cf96f2e1918a1d971d3e786d3f",
+      "source_sha256": "979b6ae2787bd1ca5de590bc0de3e0294a610d271da648033495aea61c562855",
+      "tokens": 10001108,
+      "reload_ce_error": 0.0
+    },
+    "gdn-seed732": {
+      "sha256": "ae33b23b5805d060dfe9921b74e3359ac9e8fd5b2db68de4f014057c7fb5324d",
+      "source_sha256": "979b6ae2787bd1ca5de590bc0de3e0294a610d271da648033495aea61c562855",
+      "tokens": 10001108,
+      "reload_ce_error": 0.0
+    },
+    "gsa-seed731": {
+      "sha256": "db8711156d2502ebd31129d12a098929e0cd0800875eaf46345a6987f032a235",
+      "source_sha256": "20765d91fbbac108efcf6b88ef4478768bd3fd166e892eaf290eefe4c2be0398",
+      "tokens": 10001108,
+      "reload_ce_error": 0.0
+    },
+    "gsa-seed732": {
+      "sha256": "6c0d3942dd0dfc4294f04f676a71b0c400ae34e7097e8ec29d750a0f322daa8c",
+      "source_sha256": "20765d91fbbac108efcf6b88ef4478768bd3fd166e892eaf290eefe4c2be0398",
+      "tokens": 10001108,
+      "reload_ce_error": 0.0
+    },
+    "komp-seed731": {
+      "sha256": "512e19c1b8fd3152e12fa30db411bce78bff55aac56009b89cc926537297f477",
+      "source_sha256": "979b6ae2787bd1ca5de590bc0de3e0294a610d271da648033495aea61c562855",
+      "tokens": 10001108,
+      "reload_ce_error": 0.0
+    },
+    "komp-seed732": {
+      "sha256": "fb76fc6926d1ad2512e2848d2f8c20e8e25cb18a5250dd4c102b8f04f92003ef",
+      "source_sha256": "979b6ae2787bd1ca5de590bc0de3e0294a610d271da648033495aea61c562855",
+      "tokens": 10001108,
+      "reload_ce_error": 0.0
+    }
+  },
+  "training_results": "physics_lm/RESULTS.md",
+  "training_protocol": "physics_lm/PLAN.md",
+  "benchmark": "evidence/fla-comparison.json",
+  "benchmark_complete": true,
+  "decay_research": "DECAY_RESEARCH.md",
+  "decay_formula_validation": "decay_research/verify_diagonal_chunk.json",
+  "remote_checkpoints": {
+    "gdn_komp": "/gpfs/users/linlizhi/komp-physics-20261031-train-r2/physics_lm/results/",
+    "gsa": "/gpfs/users/linlizhi/komp-physics-20261031-gsa-r3/physics_lm/results/"
+  },
+  "no_new_decay_training": true,
+  "benchmark_sha256": "6361996b6573801bdc17d70031337ba82f82b2cc7048f29ec6d98d28c1279239"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "identical_ast": [
+    "score",
+    "context_limit",
+    "context_ids",
+    "logits",
+    "generate"
+  ],
+  "reference": "/Users/shom/Downloads/komp-flame-downstream-eval-20261107/evaluate_sharded.py"
+}

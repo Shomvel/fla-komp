@@ -1,0 +1,17 @@
+{
+  "benchmark_fla.py": "8c1f6e02355c0739044435ad57125b553219ff8b78c1196ff5b5def36ccfe4aa",
+  "komp_slot/__init__.py": "31ff68031942bcbd8efaa22724d4ccf0497cc44dd4bc6a729d43bfad48e2acfc",
+  "komp_slot/chunk.py": "c869f89c55e04930abb12879ece418a59034fed3fff56428129043d1c61df092",
+  "komp_slot/geometry.py": "1c33320cbda7cdf060a36741e321dca6baaf5aef25940dc15b6291cf9e428d53",
+  "komp_slot/kernels.py": "72f1750a8ada09d7d2323d682bb7b5a8c73960aff96618bf58e35b22ea5df08b",
+  "komp_slot/operator.py": "bca0a5f8eb85aa9abfbc776424be156c1feddaff8ed7c6b1ba79808a4dff6f14",
+  "komp_slot/reference.py": "34df4421b13bc0709defb191757e0d33f1fa54fb3189c834d672880d83ac29ee",
+  "komp_slot/triton_chunk.py": "7974edf809ed403833d9494805d58dc38fa3f58eae7deb24da1386f4cc4485b3",
+  "komp_slot/utils.py": "6f92ba977983321e50e8f9fc2fdfc19e41de096ca92d51bbf1e4316213e4eda0",
+  "physics_lm/experiment.py": "979b6ae2787bd1ca5de590bc0de3e0294a610d271da648033495aea61c562855",
+  "physics_lm/launch.py": "0cb7bf305d2bb555e121b8ab6c316358b9f45ee73042a0a8965126b4f9b1f53c",
+  "physics_lm/physics_port.py": "55847905097b5a7a15f691c34a065861c260bb63bef614e5dac35732d2d41319",
+  "physics_lm/plot.py": "a01705bf8781a77199be13cfec03153924505c26340549666e3087f3930ef98f",
+  "physics_lm/report.py": "8435515f422d3a3d975a74e4c6087fa4c7a66e19bc1a2878156266d0275124aa",
+  "physics_lm/validate_data.py": "591674052f775554b09d3ea45779c4cc1c604c3896e63b2067af6197cb89d2d4"
+}

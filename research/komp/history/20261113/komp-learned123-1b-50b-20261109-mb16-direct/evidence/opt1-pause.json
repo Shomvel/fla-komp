@@ -1,0 +1,98 @@
+{
+  "captured_utc": "2026-11-09T02:12:57.729377+00:00",
+  "pause_exists": true,
+  "paused": {
+    "status": "paused",
+    "step": 12922,
+    "tokens": 13549699072
+  },
+  "latest": {
+    "path": "/gpfs/users/linlizhi/komp-learned123-1b-50b-20261109-mb16-direct/runs/block/checkpoint-012922",
+    "step": 12922,
+    "tokens": 13549699072
+  },
+  "node_exits": {
+    "0": "0\n",
+    "1": "0\n",
+    "2": "0\n",
+    "3": "0\n"
+  },
+  "checkpoint_files": {
+    "complete.json": 230,
+    "model.pt": 12039012513,
+    "rank0.pt": 15661,
+    "rank1.pt": 15149,
+    "rank10.pt": 16437,
+    "rank11.pt": 23861,
+    "rank12.pt": 16309,
+    "rank13.pt": 29685,
+    "rank14.pt": 15157,
+    "rank15.pt": 65333,
+    "rank16.pt": 30453,
+    "rank17.pt": 16181,
+    "rank18.pt": 21621,
+    "rank19.pt": 15669,
+    "rank2.pt": 17325,
+    "rank20.pt": 15029,
+    "rank21.pt": 15861,
+    "rank22.pt": 21237,
+    "rank23.pt": 16437,
+    "rank24.pt": 15093,
+    "rank25.pt": 18805,
+    "rank26.pt": 15413,
+    "rank27.pt": 15349,
+    "rank28.pt": 16565,
+    "rank29.pt": 15029,
+    "rank3.pt": 15405,
+    "rank30.pt": 19317,
+    "rank31.pt": 16949,
+    "rank4.pt": 18477,
+    "rank5.pt": 28717,
+    "rank6.pt": 17069,
+    "rank7.pt": 16493,
+    "rank8.pt": 18925,
+    "rank9.pt": 18285
+  },
+  "checkpoint_complete": {
+    "step": 12922,
+    "tokens": 13549699072,
+    "world_size": 32,
+    "source_sha": "84e4ac86514786ff8880287d49860319cc15d4f0fbf9205b26c7298f400a887f",
+    "data_sha": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f"
+  },
+  "last_metric": {
+    "kind": "block",
+    "step": 12922,
+    "effective_input_tokens": 13549699072,
+    "input_tokens": 13549699072,
+    "supervised_tokens": 13549699072,
+    "compute_tokens": 13549699072,
+    "loss": 2.4131183475255966,
+    "lr": 0.0002731504327723834,
+    "grad_norm": 0.169833242893219,
+    "seconds": 2.8009776026010513,
+    "peak_bytes": 70372114944,
+    "peak_reserved_bytes": 75625398272,
+    "documents": 348765,
+    "excluded_documents": 12
+  },
+  "platform": [
+    {
+      "name": "job-9c1dd6b7454e-20261109003948",
+      "user_def_name": "komp-learned123-1b-50b-20261109-mb16-direct",
+      "status": "Completed",
+      "ready_status": "0/4",
+      "namespace": "qiji",
+      "job_creator": "linlizhi",
+      "user_gpu": 32
+    }
+  ],
+  "checks": {
+    "all_exit_zero": true,
+    "rank_files_32": true,
+    "model_complete": true,
+    "metadata_consistent": true,
+    "platform_completed": true,
+    "training_complete_50B": false
+  }
+}

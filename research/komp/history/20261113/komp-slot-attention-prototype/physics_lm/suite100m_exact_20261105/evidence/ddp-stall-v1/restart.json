@@ -1,0 +1,34 @@
+{
+  "reason": "GDN and GSA2 preflight stalled with inactive cache and 7/8 GPU NCCL-like spin; no optimizer step",
+  "deleted": [
+    {
+      "identity": "job-2e6613bef320-20261105170455",
+      "alias": "physics100m-exact-ddp-depo2-20261105",
+      "delete_success": true
+    },
+    {
+      "identity": "job-6989d1bf3d79-20261105170511",
+      "alias": "physics100m-exact-ddp-brevo2-20261105",
+      "delete_success": true
+    }
+  ],
+  "post_delete_query": [],
+  "new_jobs": [
+    {
+      "identity": "job-b91e5269f469-20261105172627",
+      "task": "depo2"
+    },
+    {
+      "identity": "job-261d0e925ef6-20261105172629",
+      "task": "brevo2"
+    }
+  ],
+  "diagnostic_changes": [
+    "per-rank stage logs",
+    "90-second faulthandler tracebacks",
+    "180-second preflight process group timeout",
+    "Gloo rank0-only result broadcast",
+    "flush exceptions and immediate process exit so torchrun terminates peers"
+  ],
+  "training_runs_started": 0
+}

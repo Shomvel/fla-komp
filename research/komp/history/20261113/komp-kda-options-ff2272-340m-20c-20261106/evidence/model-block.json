@@ -1,0 +1,29 @@
+{
+  "options": {
+    "output_sigmoid": true,
+    "low_rank_gates": true,
+    "multi_timescale_init": true,
+    "gate_rank": 64,
+    "timescale_spread": 4.0
+  },
+  "shared_backbone_initial_sha": "bb75bbc333c113ed94243df3df38086bd5ce49e229a8096bee1717b5e3133955",
+  "kind": "block",
+  "parameters": 340753280,
+  "width": 1024,
+  "layers": 24,
+  "ff": 2272,
+  "heads": 16,
+  "head_dim": 64,
+  "slots": 32,
+  "alpha0": 0.995,
+  "beta0": 0.2,
+  "model_definition": "registered FLA KOMPModel/KOMPForCausalLM; native GatedDeltaNetBlock.forward/FLAModel.forward",
+  "fuse_norm": false,
+  "fuse_swiglu": false,
+  "fused_linear_cross_entropy": true,
+  "checkpoint_policy": "mixer_only",
+  "head_checkpoint": false,
+  "projection": "float32",
+  "state_compute": "float32",
+  "chunk_tape": "bfloat16"
+}

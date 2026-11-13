@@ -1,0 +1,38 @@
+[
+  {
+    "name": "job-a8bbce53a014-20261106195012",
+    "user_def_name": "komp340m-block-value-decay-20261106",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 8
+  },
+  {
+    "name": "job-3a6bbfbfecbe-20261106152826",
+    "user_def_name": "komp340m-block-kda123-ff2272-20261106",
+    "status": "Aborted",
+    "ready_status": "0/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 8
+  },
+  {
+    "name": "job-f827c97546c2-20261106152808",
+    "user_def_name": "komp340m-exact-kda123-ff2272-20261106",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 8
+  },
+  {
+    "name": "job-fc9daba3ba43-20261106094504",
+    "user_def_name": "komp340m-exact-fla-mb16-20261106",
+    "status": "Aborted",
+    "ready_status": "0/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 8
+  }
+]

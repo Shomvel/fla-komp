@@ -1,0 +1,30 @@
+{
+  "status": "authorized",
+  "tasks": [
+    "depo2",
+    "brevo2"
+  ],
+  "kind": "exact",
+  "parameters": 100526392,
+  "positions_per_task": {
+    "depo2": 100000997,
+    "brevo2": 100000590
+  },
+  "additional_positions": 200001587,
+  "alpha0": 0.995,
+  "reference_alpha0": 0.98,
+  "projection_dtype": "float32",
+  "state_dtype": "float32",
+  "network_dtype": "bfloat16",
+  "seed": 731,
+  "lr": {
+    "depo2": 0.0005,
+    "brevo2": 0.001
+  },
+  "wd": 0.1,
+  "world_size": 8,
+  "global_batch_documents": 128,
+  "data": "/gpfs/users/linlizhi/physics100m-20261101/data",
+  "selection": "single-factor alpha change; no LR winner substitution",
+  "numerical_limitations": "Original FP32 near-collinear initial-key gradient stress gate fails; previous alpha.995 FP32 checkpoint transfer tests retained, no strict pressure-test pass claim"
+}

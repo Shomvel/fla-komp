@@ -1,0 +1,124 @@
+{
+  "code": 0,
+  "data": {
+    "models": [
+      {
+        "active_jobs": 15,
+        "alloc_pct": 87.5,
+        "avg_gpu_util": 0,
+        "avg_mem_pct": 65.27152591281467,
+        "avg_power_pct": 15.900976841517862,
+        "avg_sm_active": 0,
+        "avg_temp_c": 31.41015625,
+        "gpu_allocated": 56,
+        "gpu_idle": 8,
+        "gpu_total": 64,
+        "model": "nvidia.com/b300",
+        "node_count": 8,
+        "serving_allocated": 0,
+        "training_allocated": 56
+      },
+      {
+        "active_jobs": 76,
+        "alloc_pct": 99.52330508474576,
+        "avg_gpu_util": 47.57719809322034,
+        "avg_mem_pct": 56.73865673905713,
+        "avg_power_pct": 31.283338037227598,
+        "avg_sm_active": 0.18827192302259793,
+        "avg_temp_c": 33.49126059322034,
+        "gpu_allocated": 1879,
+        "gpu_idle": 9,
+        "gpu_total": 1888,
+        "model": "nvidia.com/gpu",
+        "node_count": 236,
+        "serving_allocated": 682,
+        "training_allocated": 432
+      }
+    ],
+    "pending_requests": [],
+    "queues": [
+      {
+        "gpu_used": 16,
+        "pod_count": 2,
+        "queue": "proj-32",
+        "task_count": 2,
+        "user_count": 1
+      }
+    ],
+    "summary": {
+      "alloc_pct": 99.12909836065575,
+      "avg_gpu_util": 46.017289959016395,
+      "avg_mem_pct": 57.66670293318181,
+      "avg_power_pct": 30.306680183531743,
+      "avg_sm_active": 0.18209907308743079,
+      "avg_temp_c": 33.42302766393443,
+      "gpu_allocated": 1935,
+      "gpu_idle": 17,
+      "gpu_total": 1952,
+      "node_full": 240,
+      "node_idle": 1,
+      "node_total": 244,
+      "pending_total": 0,
+      "power_tdp_w": 1411200,
+      "power_w": 427687.87074999994,
+      "serving_allocated": 682,
+      "task_total": 4995,
+      "training_allocated": 488
+    },
+    "tasks": [
+      {
+        "avg_gpu_util": 87.5,
+        "avg_sm_active": 0.0066285625,
+        "avg_temp_c": 29.250000000000004,
+        "creator": "linlizhi",
+        "gpu_count": 8,
+        "gpu_model": "nvidia.com/gpu",
+        "job_name": "job-2e6613bef320-20261105170455",
+        "job_type": "training",
+        "node_count": 1,
+        "nodes": [
+          "node062"
+        ],
+        "pod_count": 1,
+        "power_tdp_w": 5600,
+        "power_w": 895.778,
+        "queue": "proj-32",
+        "running_pod_count": 1,
+        "status": "Running",
+        "tenant": "qiji",
+        "uptime_secs": 1035,
+        "user_def_name": "physics100m-exact-ddp-depo2-20261105",
+        "wanted_gpu": 8
+      },
+      {
+        "avg_gpu_util": 87.5,
+        "avg_sm_active": 0.006628500000000001,
+        "avg_temp_c": 26.25,
+        "creator": "linlizhi",
+        "gpu_count": 8,
+        "gpu_model": "nvidia.com/gpu",
+        "job_name": "job-6989d1bf3d79-20261105170511",
+        "job_type": "training",
+        "node_count": 1,
+        "nodes": [
+          "node063"
+        ],
+        "pod_count": 1,
+        "power_tdp_w": 5600,
+        "power_w": 885.298,
+        "queue": "proj-32",
+        "running_pod_count": 1,
+        "status": "Running",
+        "tenant": "qiji",
+        "uptime_secs": 1019,
+        "user_def_name": "physics100m-exact-ddp-brevo2-20261105",
+        "wanted_gpu": 8
+      }
+    ],
+    "tenants": [],
+    "users": []
+  },
+  "err_detail": "",
+  "err_msg": "",
+  "request_id": "ReqID-20261105-172206-3558-17c8"
+}

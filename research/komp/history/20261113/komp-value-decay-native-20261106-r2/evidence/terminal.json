@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-241c682b524b-20261106184153",
+    "user_def_name": "komp-value-decay-native-20261106-r2",
+    "status": "Completed",
+    "ready_status": "0/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "lr": 0.001,
+  "wd": 0.1,
+  "val_ce": 1.5968200729221358,
+  "run": "brevo2-gsa2-tune-lr0.001-wd0.1-seed731",
+  "criterion": "minimum final validation CE at 10M tokens",
+  "candidates": [
+    {
+      "lr": 0.00025,
+      "wd": 0.0,
+      "val_ce": 1.702489495749437,
+      "run": "brevo2-gsa2-tune-lr0.00025-wd0-seed731"
+    },
+    {
+      "lr": 0.00025,
+      "wd": 0.01,
+      "val_ce": 1.7046432322190634,
+      "run": "brevo2-gsa2-tune-lr0.00025-wd0.01-seed731"
+    },
+    {
+      "lr": 0.00025,
+      "wd": 0.1,
+      "val_ce": 1.7342918198276456,
+      "run": "brevo2-gsa2-tune-lr0.00025-wd0.1-seed731"
+    },
+    {
+      "lr": 0.0005,
+      "wd": 0.0,
+      "val_ce": 1.647508658145015,
+      "run": "brevo2-gsa2-tune-lr0.0005-wd0-seed731"
+    },
+    {
+      "lr": 0.0005,
+      "wd": 0.01,
+      "val_ce": 1.6632033394205925,
+      "run": "brevo2-gsa2-tune-lr0.0005-wd0.01-seed731"
+    },
+    {
+      "lr": 0.0005,
+      "wd": 0.1,
+      "val_ce": 1.6392241665763503,
+      "run": "brevo2-gsa2-tune-lr0.0005-wd0.1-seed731"
+    },
+    {
+      "lr": 0.001,
+      "wd": 0.0,
+      "val_ce": 1.5988072197631114,
+      "run": "brevo2-gsa2-tune-lr0.001-wd0-seed731"
+    },
+    {
+      "lr": 0.001,
+      "wd": 0.01,
+      "val_ce": 1.6450859690068014,
+      "run": "brevo2-gsa2-tune-lr0.001-wd0.01-seed731"
+    },
+    {
+      "lr": 0.001,
+      "wd": 0.1,
+      "val_ce": 1.5968200729221358,
+      "run": "brevo2-gsa2-tune-lr0.001-wd0.1-seed731"
+    }
+  ]
+}

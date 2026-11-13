@@ -1,0 +1,795 @@
+{
+  "status": "passed",
+  "scope": "CPU synthetic PyTorch operator validation, not CUDA/DDP/native training acceptance",
+  "torch": "2.12.1",
+  "checks": [
+    {
+      "name": "differential/M3K5V4T9C1/output",
+      "max_abs": 2.220446049250313e-16,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "differential/M3K5V4T9C1/keys",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "differential/M3K5V4T9C1/coefficients",
+      "max_abs": 1.1102230246251565e-16,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "differential/M3K5V4T9C1/grad_q",
+      "max_abs": 4.440892098500626e-16,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M3K5V4T9C1/grad_k",
+      "max_abs": 5.551115123125783e-16,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M3K5V4T9C1/grad_v",
+      "max_abs": 2.220446049250313e-16,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M3K5V4T9C1/grad_g",
+      "max_abs": 4.440892098500626e-16,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M3K5V4T9C1/grad_beta",
+      "max_abs": 4.440892098500626e-16,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M3K5V4T9C1/grad_initial_keys",
+      "max_abs": 2.0816681711721685e-17,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M3K5V4T9C1/grad_initial_coef",
+      "max_abs": 3.3306690738754696e-16,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M3K5V4T9C4/output",
+      "max_abs": 2.220446049250313e-16,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "differential/M3K5V4T9C4/keys",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "differential/M3K5V4T9C4/coefficients",
+      "max_abs": 1.1102230246251565e-16,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "differential/M3K5V4T9C4/grad_q",
+      "max_abs": 4.440892098500626e-16,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M3K5V4T9C4/grad_k",
+      "max_abs": 2.220446049250313e-16,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M3K5V4T9C4/grad_v",
+      "max_abs": 2.220446049250313e-16,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M3K5V4T9C4/grad_g",
+      "max_abs": 6.661338147750939e-16,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M3K5V4T9C4/grad_beta",
+      "max_abs": 1.5543122344752192e-15,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M3K5V4T9C4/grad_initial_keys",
+      "max_abs": 2.7755575615628914e-17,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M3K5V4T9C4/grad_initial_coef",
+      "max_abs": 2.220446049250313e-16,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M4K4V4T7C3/output",
+      "max_abs": 2.220446049250313e-16,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "differential/M4K4V4T7C3/keys",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "differential/M4K4V4T7C3/coefficients",
+      "max_abs": 2.220446049250313e-16,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "differential/M4K4V4T7C3/grad_q",
+      "max_abs": 1.1102230246251565e-16,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M4K4V4T7C3/grad_k",
+      "max_abs": 4.440892098500626e-16,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M4K4V4T7C3/grad_v",
+      "max_abs": 2.220446049250313e-16,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M4K4V4T7C3/grad_g",
+      "max_abs": 8.881784197001252e-16,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M4K4V4T7C3/grad_beta",
+      "max_abs": 8.881784197001252e-16,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M4K4V4T7C3/grad_initial_keys",
+      "max_abs": 2.7755575615628914e-17,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M4K4V4T7C3/grad_initial_coef",
+      "max_abs": 5.551115123125783e-16,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M2K4V7T5C8/output",
+      "max_abs": 2.220446049250313e-16,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "differential/M2K4V7T5C8/keys",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "differential/M2K4V7T5C8/coefficients",
+      "max_abs": 3.3306690738754696e-16,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "differential/M2K4V7T5C8/grad_q",
+      "max_abs": 5.551115123125783e-16,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M2K4V7T5C8/grad_k",
+      "max_abs": 4.440892098500626e-16,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M2K4V7T5C8/grad_v",
+      "max_abs": 1.6653345369377348e-16,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M2K4V7T5C8/grad_g",
+      "max_abs": 4.440892098500626e-16,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M2K4V7T5C8/grad_beta",
+      "max_abs": 6.661338147750939e-16,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M2K4V7T5C8/grad_initial_keys",
+      "max_abs": 6.938893903907228e-17,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M2K4V7T5C8/grad_initial_coef",
+      "max_abs": 4.440892098500626e-16,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M1K3V2T1C1/output",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "differential/M1K3V2T1C1/keys",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "differential/M1K3V2T1C1/coefficients",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "differential/M1K3V2T1C1/grad_q",
+      "max_abs": 0.0,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M1K3V2T1C1/grad_k",
+      "max_abs": 0.0,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M1K3V2T1C1/grad_v",
+      "max_abs": 0.0,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M1K3V2T1C1/grad_g",
+      "max_abs": 1.3877787807814457e-17,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M1K3V2T1C1/grad_beta",
+      "max_abs": 0.0,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M1K3V2T1C1/grad_initial_keys",
+      "max_abs": 3.469446951953614e-18,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M1K3V2T1C1/grad_initial_coef",
+      "max_abs": 5.551115123125783e-17,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M32K64V64T129C128/output",
+      "max_abs": 9.992007221626409e-16,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "differential/M32K64V64T129C128/keys",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "differential/M32K64V64T129C128/coefficients",
+      "max_abs": 4.3298697960381105e-15,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "differential/M32K64V64T129C128/grad_q",
+      "max_abs": 3.3306690738754696e-16,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M32K64V64T129C128/grad_k",
+      "max_abs": 4.996003610813204e-16,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M32K64V64T129C128/grad_v",
+      "max_abs": 3.3306690738754696e-15,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M32K64V64T129C128/grad_g",
+      "max_abs": 9.769962616701378e-15,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M32K64V64T129C128/grad_beta",
+      "max_abs": 1.4210854715202004e-14,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M32K64V64T129C128/grad_initial_keys",
+      "max_abs": 4.85722573273506e-17,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "differential/M32K64V64T129C128/grad_initial_coef",
+      "max_abs": 1.6653345369377348e-15,
+      "atol": 2e-08,
+      "rtol": 2e-07
+    },
+    {
+      "name": "finite_difference_gradcheck",
+      "passed": true
+    },
+    {
+      "name": "scalar_limit/C1/out",
+      "max_abs": 1.1102230246251565e-16,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "scalar_limit/C1/keys",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "scalar_limit/C1/coef",
+      "max_abs": 1.1102230246251565e-16,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "streaming/C1/output",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "streaming/C1/coef",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "scalar_limit/C4/out",
+      "max_abs": 1.1102230246251565e-16,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "scalar_limit/C4/keys",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "scalar_limit/C4/coef",
+      "max_abs": 1.1102230246251565e-16,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "streaming/C4/output",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "streaming/C4/coef",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "exact_alias/out",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "exact_alias/keys",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "exact_alias/coef",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "causal/C1",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/0.0/C1/out",
+      "max_abs": 2.220446049250313e-16,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/0.0/C1/keys",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/0.0/C1/coef",
+      "max_abs": 1.1102230246251565e-16,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/0.0/C1/grad0",
+      "max_abs": 4.440892098500626e-16,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/0.0/C1/grad1",
+      "max_abs": 2.220446049250313e-16,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/0.0/C1/grad2",
+      "max_abs": 1.6653345369377348e-16,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/0.0/C1/grad3",
+      "max_abs": 8.881784197001252e-16,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/0.0/C1/grad4",
+      "max_abs": 1.1102230246251565e-16,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/0.0/C1/grad5",
+      "max_abs": 3.903127820947816e-17,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/0.0/C1/grad6",
+      "max_abs": 2.220446049250313e-16,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/-1000.0/C1/out",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/-1000.0/C1/keys",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/-1000.0/C1/coef",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/-1000.0/C1/grad0",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/-1000.0/C1/grad1",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/-1000.0/C1/grad2",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/-1000.0/C1/grad3",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/-1000.0/C1/grad4",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/-1000.0/C1/grad5",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/-1000.0/C1/grad6",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "causal/C4",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/0.0/C4/out",
+      "max_abs": 5.551115123125783e-17,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/0.0/C4/keys",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/0.0/C4/coef",
+      "max_abs": 2.220446049250313e-16,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/0.0/C4/grad0",
+      "max_abs": 4.440892098500626e-16,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/0.0/C4/grad1",
+      "max_abs": 6.661338147750939e-16,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/0.0/C4/grad2",
+      "max_abs": 4.440892098500626e-16,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/0.0/C4/grad3",
+      "max_abs": 6.38378239159465e-16,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/0.0/C4/grad4",
+      "max_abs": 1.7763568394002505e-15,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/0.0/C4/grad5",
+      "max_abs": 4.163336342344337e-17,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/0.0/C4/grad6",
+      "max_abs": 2.220446049250313e-16,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/-1000.0/C4/out",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/-1000.0/C4/keys",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/-1000.0/C4/coef",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/-1000.0/C4/grad0",
+      "max_abs": 1.3877787807814457e-17,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/-1000.0/C4/grad1",
+      "max_abs": 3.469446951953614e-18,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/-1000.0/C4/grad2",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/-1000.0/C4/grad3",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/-1000.0/C4/grad4",
+      "max_abs": 8.881784197001252e-16,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/-1000.0/C4/grad5",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "extreme/-1000.0/C4/grad6",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "zero_key_query",
+      "max_abs": 2.220446049250313e-16,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "zero_key_query",
+      "max_abs": 0.0,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "zero_key_query",
+      "max_abs": 2.220446049250313e-16,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "RKHS_energy_contraction",
+      "max_energy_ratio": 0.8852971123815667
+    },
+    {
+      "name": "projection_commutes_with_value_decay",
+      "max_abs": 6.938893903907228e-18,
+      "atol": 2e-09,
+      "rtol": 2e-08
+    },
+    {
+      "name": "precision/torch.float32/0",
+      "max_abs": 1.1105314834392033e-07,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "name": "precision/torch.float32/1",
+      "max_abs": 2.4195773939972298e-08,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "name": "precision/torch.float32/2",
+      "max_abs": 9.124194549903208e-08,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "name": "precision/torch.bfloat16/0",
+      "max_abs": 0.0030854386995438077,
+      "atol": 0.004,
+      "rtol": 0.008
+    },
+    {
+      "name": "precision/torch.bfloat16/1",
+      "max_abs": 5.3237717789755834e-08,
+      "atol": 0.004,
+      "rtol": 0.008
+    },
+    {
+      "name": "precision/torch.bfloat16/2",
+      "max_abs": 1.4258104696907026e-07,
+      "atol": 0.004,
+      "rtol": 0.008
+    },
+    {
+      "name": "gate_initial_alpha",
+      "max_abs": 0.0,
+      "atol": 1e-07,
+      "rtol": 1e-07
+    },
+    {
+      "name": "synthetic_LM_Adam_smoke/C1",
+      "losses": [
+        3.1151697635650635,
+        3.112910509109497,
+        3.11064076423645
+      ],
+      "gate_both_factors_receive_gradient": true
+    },
+    {
+      "name": "synthetic_LM_Adam_smoke/C4",
+      "losses": [
+        3.1143767833709717,
+        3.1120481491088867,
+        3.1097092628479004
+      ],
+      "gate_both_factors_receive_gradient": true
+    }
+  ],
+  "seconds": 2.018456457881257,
+  "sources": {
+    "komp_slot/value_decay.py": "a8bff4110b904415d0730cd8e2176662188991e3bd4e49dfc2b138b0696f6470",
+    "komp_slot/block_reference.py": "99359b95987f60122db08239cd563a4fab0b5d06016b3c74a295edcc31e715f4",
+    "validate_value_decay.py": "b84d2a660303c2ec3621542eafb7da0b23e158686c03d705b68e34a39a3aef97"
+  }
+}

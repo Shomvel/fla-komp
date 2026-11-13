@@ -1,0 +1,257 @@
+{
+  "status": "passed_for_completed_runs",
+  "training_complete": 14,
+  "heldout_complete": 10,
+  "expected_runs": 14,
+  "pending": [],
+  "sources": {
+    "original": {
+      "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+      "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+    },
+    "gsa2_stabilized": {
+      "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+      "inherited_ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2",
+      "ddp_train": "b463fc337f09d7da36374d609f67902243e5e9bc687b8cd4b3fc880fe7e314b6",
+      "candidate": {
+        "gsa2_fixed_norm_candidate.py": "168d5c488f2350bcd7ddcffa2c4c890d65d761e05cdabad1f61e484bb5d44257",
+        "gsa2_packed_eval_candidate.py": "76e92c87723e58c1e9c4db0bd7ab5076031e3cb6f36c8297c2dff95ef31856d8",
+        "gsa2_consistent_candidate.py": "8d5eb48775c766ed4a80d24bac252b1f74ae867d20c4d8cb5ba111ee4c446dda",
+        "gsa2_candidate_preflight.py": "4a85de43e19da46747d8a4ba3902691ac9d27e7b1d49953161604559fbadd263"
+      }
+    }
+  },
+  "data_order_sha256": {
+    "brevo2": "5d54cbfa072adb348f3dfefb89cab29c5be0572618eadbaa7678a3801ef1986d",
+    "depo2": "adeeb571b3383ef06185e972a1e63c0f7ca45f651a952a6ab0126d495cb4789f"
+  },
+  "runs": [
+    {
+      "task": "brevo2",
+      "kind": "exact",
+      "implementation": "original-frozen",
+      "validation_ce": 0.7741052325775389,
+      "positions": 100000590,
+      "train_seconds_including_compilation": 959.1052676811814,
+      "summary_sha256": "eaf708398ff0ad0d5c2bb575155dcf691d1a90026a8630a721a0d17a189ede9f"
+    },
+    {
+      "task": "brevo2",
+      "kind": "full",
+      "implementation": "original-frozen",
+      "validation_ce": 0.763569783069314,
+      "positions": 100000590,
+      "train_seconds_including_compilation": 699.1747984476388,
+      "summary_sha256": "5af4d8970279a63b6329e3874874653febf995b5687f019b0e2c5db66a128b82",
+      "heldout": {
+        "status": "completed",
+        "test": {
+          "ce": 0.7691766231074691,
+          "supervised_positions": 37233
+        },
+        "generation_accuracy": 0.05859375,
+        "n_generation": 256,
+        "seconds": 129.90566292218864
+      }
+    },
+    {
+      "task": "brevo2",
+      "kind": "gdn",
+      "implementation": "original-frozen",
+      "validation_ce": 0.6683962709011283,
+      "positions": 100000590,
+      "train_seconds_including_compilation": 737.5054216235876,
+      "summary_sha256": "6dc826fec803c22d2f499952f17d3acea6425892dc53518d6fee721e9c9263ad",
+      "heldout": {
+        "status": "completed",
+        "test": {
+          "ce": 0.6714316177460373,
+          "supervised_positions": 37233
+        },
+        "generation_accuracy": 0.1484375,
+        "n_generation": 256,
+        "seconds": 94.57540671527386
+      }
+    },
+    {
+      "task": "brevo2",
+      "kind": "gsa",
+      "implementation": "original-frozen",
+      "validation_ce": 0.830668208216191,
+      "positions": 100000590,
+      "train_seconds_including_compilation": 832.6892874706537,
+      "summary_sha256": "2921212e610c831e28f4ec54db81e65999b1aa553d0f70cfc32115b5f207c64d",
+      "heldout": {
+        "status": "completed",
+        "test": {
+          "ce": 0.836600894122172,
+          "supervised_positions": 37233
+        },
+        "generation_accuracy": 0.0703125,
+        "n_generation": 256,
+        "seconds": 115.99547865614295
+      }
+    },
+    {
+      "task": "brevo2",
+      "kind": "komp",
+      "implementation": "original-frozen",
+      "validation_ce": 0.7003588979464752,
+      "positions": 100000590,
+      "train_seconds_including_compilation": 3115.192656300962,
+      "summary_sha256": "61372d624127b5e0b8ab5ff28b72f6e0fb7a20db60cecfca0e558aee668547dd"
+    },
+    {
+      "task": "brevo2",
+      "kind": "swa",
+      "implementation": "original-frozen",
+      "validation_ce": 0.9110204129226999,
+      "positions": 100000590,
+      "train_seconds_including_compilation": 683.3146583642811,
+      "summary_sha256": "f3c366fbd55fde212221acca1f592e76950a596a4c6b1686f94006a89e693383",
+      "heldout": {
+        "status": "completed",
+        "test": {
+          "ce": 0.9191563450812755,
+          "supervised_positions": 37233
+        },
+        "generation_accuracy": 0.0546875,
+        "n_generation": 256,
+        "seconds": 94.79737348668277
+      }
+    },
+    {
+      "task": "depo2",
+      "kind": "exact",
+      "implementation": "original-frozen",
+      "validation_ce": 0.757860016688033,
+      "positions": 100000997,
+      "train_seconds_including_compilation": 957.2642574720085,
+      "summary_sha256": "aad9fa703a832608bc71e8a2f2a30eda4279475e9e46b9c2559f23369ff0a8b2",
+      "heldout": {
+        "status": "completed",
+        "test": {
+          "ce": 0.7629591705604344,
+          "supervised_positions": 66644
+        },
+        "generation_accuracy": 0.04296875,
+        "n_generation": 256,
+        "seconds": 1255.1498832814395
+      }
+    },
+    {
+      "task": "depo2",
+      "kind": "full",
+      "implementation": "original-frozen",
+      "validation_ce": 0.7448952925233022,
+      "positions": 100000997,
+      "train_seconds_including_compilation": 469.45073691383004,
+      "summary_sha256": "d3271b23faa6246ca801d6a448e9eed80efdb5e1bd2874cf34250ebf4f5de86c",
+      "heldout": {
+        "status": "completed",
+        "test": {
+          "ce": 0.7481239850720998,
+          "supervised_positions": 66644
+        },
+        "generation_accuracy": 0.0390625,
+        "n_generation": 256,
+        "seconds": 28.44957186281681
+      }
+    },
+    {
+      "task": "depo2",
+      "kind": "gdn",
+      "implementation": "original-frozen",
+      "validation_ce": 0.5113474973634732,
+      "positions": 100000997,
+      "train_seconds_including_compilation": 496.18919617682695,
+      "summary_sha256": "044d2ef6f93e04a66c347e7a0092f19c0727278e0d0c69d906e8300deefe9c47",
+      "heldout": {
+        "status": "completed",
+        "test": {
+          "ce": 0.5137908087365732,
+          "supervised_positions": 66644
+        },
+        "generation_accuracy": 0.06640625,
+        "n_generation": 256,
+        "seconds": 20.88939280807972
+      }
+    },
+    {
+      "task": "depo2",
+      "kind": "gsa",
+      "implementation": "original-frozen",
+      "validation_ce": 0.9182115566115262,
+      "positions": 100000997,
+      "train_seconds_including_compilation": 691.7147040553391,
+      "summary_sha256": "be34db2e537e0692b920af10e37cc39a4eba71119c9dfe31bd2b9f0838e64306",
+      "heldout": {
+        "status": "completed",
+        "test": {
+          "ce": 0.9196145078456314,
+          "supervised_positions": 66644
+        },
+        "generation_accuracy": 0.0234375,
+        "n_generation": 256,
+        "seconds": 49.625263813883066
+      }
+    },
+    {
+      "task": "depo2",
+      "kind": "komp",
+      "implementation": "original-frozen",
+      "validation_ce": 0.697052747024354,
+      "positions": 100000997,
+      "train_seconds_including_compilation": 3500.9213945306838,
+      "summary_sha256": "74326faa0c3f8d120cab6f3a7fcc8238a1ef4cb2a78c127f4393552c7480b70d"
+    },
+    {
+      "task": "depo2",
+      "kind": "swa",
+      "implementation": "original-frozen",
+      "validation_ce": 0.9119999879295904,
+      "positions": 100000997,
+      "train_seconds_including_compilation": 467.5176166445017,
+      "summary_sha256": "0d338b830d09844ec2f6f2ebbbd3b0c565fdd4033794fb45e5ee4033d77e435e",
+      "heldout": {
+        "status": "completed",
+        "test": {
+          "ce": 0.9147785355739824,
+          "supervised_positions": 66644
+        },
+        "generation_accuracy": 0.0390625,
+        "n_generation": 256,
+        "seconds": 31.268837459385395
+      }
+    },
+    {
+      "task": "brevo2",
+      "kind": "gsa2",
+      "implementation": "numerically-stabilized",
+      "validation_ce": 0.683094099428103,
+      "positions": 100000590,
+      "train_seconds_including_compilation": 1773.1254177708179,
+      "summary_sha256": "006cebb570818c09b2ac75f95d3dd5a1d677b24b919fed5e534b5ff9cc92ab73"
+    },
+    {
+      "task": "depo2",
+      "kind": "gsa2",
+      "implementation": "numerically-stabilized",
+      "validation_ce": 0.6506032886615859,
+      "positions": 100000997,
+      "train_seconds_including_compilation": 1296.820558547999,
+      "summary_sha256": "713d5c83dcdf7b50713b4a381e9a652534e1a08aa950fc3954a14b7ea9b48066",
+      "heldout": {
+        "status": "completed",
+        "test": {
+          "ce": 0.6518424397992827,
+          "supervised_positions": 66644
+        },
+        "generation_accuracy": 0.04296875,
+        "n_generation": 256,
+        "seconds": 62.341058515012264
+      }
+    }
+  ],
+  "scope": "Completed-source/configuration/token-budget/finite-metrics audit; heldout generations independently rescored from frozen task grader; GSA2 wholebatch-Adam equivalence is not claimed."
+}

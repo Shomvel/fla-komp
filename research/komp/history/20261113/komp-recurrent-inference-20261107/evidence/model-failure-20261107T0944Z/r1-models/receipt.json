@@ -1,0 +1,47 @@
+{
+  "status": "failed",
+  "candidate_source": {
+    "source_manifest_sha256": "f0ebd0c1b3375e671d849a99e70c2019b3cf20be89d588982e4e5fe86dd050f8",
+    "file_count": 15
+  },
+  "models": [
+    "block",
+    "exact",
+    "block123",
+    "exact123",
+    "learned",
+    "learned123",
+    "value",
+    "value_learned123"
+  ],
+  "stages": [
+    "models"
+  ],
+  "started": "2026-11-07T09:40:47.295432+00:00",
+  "cuda_visible_devices": "GPU-a23fed83-576f-fcd6-f472-b74160734f00",
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "commands": [
+    {
+      "stage": "models",
+      "model": "block",
+      "command": [
+        "/opt/venv/bin/python",
+        "/gpfs/users/linlizhi/komp-recurrent-inference-20261107/gpu_validate.py",
+        "--model-only",
+        "--model",
+        "block",
+        "--base",
+        "/gpfs/users/linlizhi",
+        "--evidence-dir",
+        "/gpfs/users/linlizhi/komp-recurrent-inference-20261107/attempts/r1-models/models",
+        "--operator-receipt",
+        "/gpfs/users/linlizhi/komp-recurrent-inference-20261107/attempts/r1/operators/gpu-block.json"
+      ],
+      "status": "failed",
+      "exit_code": 1,
+      "log_sha256": "2882697c7371a622f96a749f8bd2314fc202d48b186c7ffc6f911052e97a9a36"
+    }
+  ],
+  "error": "RuntimeError('models/block failed; stopped without retry, see /gpfs/users/linlizhi/komp-recurrent-inference-20261107/attempts/r1-models/models/block.log')",
+  "finished": "2026-11-07T09:42:03.022975+00:00"
+}

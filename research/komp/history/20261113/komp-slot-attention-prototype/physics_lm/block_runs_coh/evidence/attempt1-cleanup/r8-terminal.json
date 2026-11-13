@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-1eb8ab4e2bde-20261101144826",
+    "user_def_name": "komp-coh-trials-20261101-r8",
+    "status": "Aborted",
+    "ready_status": "0/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  }
+]

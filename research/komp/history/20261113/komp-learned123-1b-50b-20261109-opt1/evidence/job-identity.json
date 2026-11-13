@@ -1,0 +1,15 @@
+{
+  "alias": "komp-learned123-1b-50b-20261109-opt1",
+  "identity": "job-757679e41f6c-20261109101556",
+  "project": "WeaverRSI",
+  "queue": "proj-32",
+  "world_size": 32,
+  "nodes": 4,
+  "source_sha": "f513fda5a095ade64f330175bf51c14b93a3ad821f7ae7efcaf0c4505adb34ce",
+  "parent_step": 12922,
+  "parent_tokens": 13549699072,
+  "expected_first_step": 12923,
+  "target_tokens": 50000000000,
+  "submitted_cst": "2026-11-09 10:15:56",
+  "state": "awaiting_formal_metrics"
+}

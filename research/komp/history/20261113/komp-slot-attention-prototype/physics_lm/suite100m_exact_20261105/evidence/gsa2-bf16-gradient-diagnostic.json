@@ -1,0 +1,59 @@
+{
+  "status": "completed",
+  "sources": {
+    "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+    "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+  },
+  "cases": {
+    "mano": {
+      "whole_loss": 10.48529052734375,
+      "partition_loss": 10.485290884971619,
+      "loss_abs": 3.5762786865234375e-07,
+      "gradient_rms": {
+        "embed.weight": 0.016819268465042114,
+        "layers.0.mix.layer.o_proj.weight": 0.014244990423321724,
+        "head.weight": 0.002002837136387825
+      },
+      "parameter_max_abs": {
+        "embed.weight": 0.00019999057985842228,
+        "layers.0.mix.layer.o_proj.weight": 0.00019988499116152525,
+        "head.weight": 0.00011326931416988373
+      },
+      "whole_grad_norm": 5227.40380859375,
+      "partition_grad_norm": 5214.4052734375,
+      "accepted": false,
+      "thresholds": {
+        "loss_abs": 0.005,
+        "gradient_rms": 0.02,
+        "parameter_max_abs": 0.0001
+      }
+    },
+    "depo2": {
+      "whole_loss": 10.492290496826172,
+      "partition_loss": 10.492134034633636,
+      "loss_abs": 0.0001564621925354004,
+      "gradient_rms": {
+        "embed.weight": 1.116263747215271,
+        "layers.0.mix.layer.o_proj.weight": 0.9943519234657288,
+        "head.weight": 0.12597516179084778
+      },
+      "parameter_max_abs": {
+        "embed.weight": 0.00020000338554382324,
+        "layers.0.mix.layer.o_proj.weight": 0.00019999966025352478,
+        "head.weight": 0.00019942224025726318
+      },
+      "whole_grad_norm": 912.1752319335938,
+      "partition_grad_norm": 1059.278076171875,
+      "accepted": false,
+      "thresholds": {
+        "loss_abs": 0.005,
+        "gradient_rms": 0.02,
+        "parameter_max_abs": 0.0001
+      }
+    }
+  },
+  "accepted": false,
+  "verdict": "FAILED",
+  "scope": "BF16 training only; FP32 whole-batch shape sensitivity retained as a limitation",
+  "layout_sha256": "9fa2e887151e93b6a184632f3e97bfd0db377a4cd5538a56fdf48bac509074e4"
+}

@@ -1,0 +1,796 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "case": "random-learned-tail-torch.float32",
+      "tolerance": 0.003,
+      "absolute_tolerance": 0.0003,
+      "rows": [
+        {
+          "tensor": "out",
+          "absolute": 0.003584317820184868,
+          "rmsrel": 0.0019461067235744774,
+          "passed": true
+        },
+        {
+          "tensor": "keys",
+          "absolute": 4.330904562754867e-08,
+          "rmsrel": 5.271276359403537e-08,
+          "passed": true
+        },
+        {
+          "tensor": "state",
+          "absolute": 0.006483424870808108,
+          "rmsrel": 0.001356366645428667,
+          "passed": true
+        },
+        {
+          "tensor": "dq",
+          "absolute": 0.0024790366490679006,
+          "rmsrel": 0.0022783897817177517,
+          "passed": true
+        },
+        {
+          "tensor": "dk",
+          "absolute": 0.0036524611974904087,
+          "rmsrel": 0.0022356586638886808,
+          "passed": true
+        },
+        {
+          "tensor": "dv",
+          "absolute": 0.006479247213594164,
+          "rmsrel": 0.0018185986193873164,
+          "passed": true
+        },
+        {
+          "tensor": "dg",
+          "absolute": 0.01792065249729724,
+          "rmsrel": 0.0024407107602360594,
+          "passed": true
+        },
+        {
+          "tensor": "dbeta",
+          "absolute": 0.026767492472723475,
+          "rmsrel": 0.0018598578389965876,
+          "passed": true
+        },
+        {
+          "tensor": "dk0",
+          "absolute": 0.000847025349847319,
+          "rmsrel": 0.0014174700035186733,
+          "passed": true
+        },
+        {
+          "tensor": "ds0",
+          "absolute": 0.0034689344386120147,
+          "rmsrel": 0.00280798637178954,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "random-learned-tail-torch.bfloat16",
+      "tolerance": 0.025,
+      "absolute_tolerance": 0.0003,
+      "rows": [
+        {
+          "tensor": "out",
+          "absolute": 0.010845768482303342,
+          "rmsrel": 0.005506159956550787,
+          "passed": true
+        },
+        {
+          "tensor": "keys",
+          "absolute": 4.1470833933576756e-08,
+          "rmsrel": 5.225624798937926e-08,
+          "passed": true
+        },
+        {
+          "tensor": "state",
+          "absolute": 0.006526140903120536,
+          "rmsrel": 0.0023027090707011684,
+          "passed": true
+        },
+        {
+          "tensor": "dq",
+          "absolute": 0.0051673438171536135,
+          "rmsrel": 0.004552103741166893,
+          "passed": true
+        },
+        {
+          "tensor": "dk",
+          "absolute": 0.009172134231937967,
+          "rmsrel": 0.004672938176718094,
+          "passed": true
+        },
+        {
+          "tensor": "dv",
+          "absolute": 0.012075457059226302,
+          "rmsrel": 0.005250554182011566,
+          "passed": true
+        },
+        {
+          "tensor": "dg",
+          "absolute": 0.059254834505454046,
+          "rmsrel": 0.009906689835493561,
+          "passed": true
+        },
+        {
+          "tensor": "dbeta",
+          "absolute": 0.09499398424430705,
+          "rmsrel": 0.005735207424600151,
+          "passed": true
+        },
+        {
+          "tensor": "dk0",
+          "absolute": 0.00271631998825983,
+          "rmsrel": 0.003139007234192278,
+          "passed": true
+        },
+        {
+          "tensor": "ds0",
+          "absolute": 0.008404432134474095,
+          "rmsrel": 0.005599616618360301,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "forced-hybrid-bf16",
+      "tolerance": 0.025,
+      "absolute_tolerance": 0.0003,
+      "rows": [
+        {
+          "tensor": "out",
+          "absolute": 0.003870075947680407,
+          "rmsrel": 0.0016684049405471916,
+          "passed": true
+        },
+        {
+          "tensor": "keys",
+          "absolute": 4.1470833933576756e-08,
+          "rmsrel": 4.3917896440648367e-08,
+          "passed": true
+        },
+        {
+          "tensor": "state",
+          "absolute": 0.00030933873856536787,
+          "rmsrel": 0.00016519534471267277,
+          "passed": true
+        },
+        {
+          "tensor": "dq",
+          "absolute": 0.0020420659024779075,
+          "rmsrel": 0.00166599121487057,
+          "passed": true
+        },
+        {
+          "tensor": "dk",
+          "absolute": 0.004047824741057804,
+          "rmsrel": 0.0016944951139933166,
+          "passed": true
+        },
+        {
+          "tensor": "dv",
+          "absolute": 0.007915923930316815,
+          "rmsrel": 0.001666504328708194,
+          "passed": true
+        },
+        {
+          "tensor": "dg",
+          "absolute": 0.001355645529766969,
+          "rmsrel": 0.00021829127957695625,
+          "passed": true
+        },
+        {
+          "tensor": "dbeta",
+          "absolute": 0.001867284398623159,
+          "rmsrel": 0.00016425843644107105,
+          "passed": true
+        },
+        {
+          "tensor": "dk0",
+          "absolute": 0.0004249315093278576,
+          "rmsrel": 0.00035909621425496045,
+          "passed": true
+        },
+        {
+          "tensor": "ds0",
+          "absolute": 0.0002864960599922306,
+          "rmsrel": 0.0001710469691828171,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "automatic-stable-fallback-fp32",
+      "tolerance": 0.003,
+      "absolute_tolerance": 0.0003,
+      "rows": [
+        {
+          "tensor": "out",
+          "absolute": 0.00030773543265383285,
+          "rmsrel": 0.0001737471277478749,
+          "passed": true
+        },
+        {
+          "tensor": "keys",
+          "absolute": 4.1470833933576756e-08,
+          "rmsrel": 4.3917896440648367e-08,
+          "passed": true
+        },
+        {
+          "tensor": "state",
+          "absolute": 0.0003928432461272058,
+          "rmsrel": 0.00015802180280603763,
+          "passed": true
+        },
+        {
+          "tensor": "dq",
+          "absolute": 0.0004366307419139126,
+          "rmsrel": 0.00032611137327315747,
+          "passed": true
+        },
+        {
+          "tensor": "dk",
+          "absolute": 0.0005844904869369283,
+          "rmsrel": 0.00035596169779896847,
+          "passed": true
+        },
+        {
+          "tensor": "dv",
+          "absolute": 0.0004220964985872655,
+          "rmsrel": 0.00017071827321138314,
+          "passed": true
+        },
+        {
+          "tensor": "dg",
+          "absolute": 0.001856900047489063,
+          "rmsrel": 0.00020341071744557412,
+          "passed": true
+        },
+        {
+          "tensor": "dbeta",
+          "absolute": 0.0022929781708906916,
+          "rmsrel": 0.0001840174545785188,
+          "passed": true
+        },
+        {
+          "tensor": "dk0",
+          "absolute": 0.0003131540151434242,
+          "rmsrel": 0.0003795392734395979,
+          "passed": true
+        },
+        {
+          "tensor": "ds0",
+          "absolute": 0.0003640863073006151,
+          "rmsrel": 0.00020130502301891033,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "real-first-layer-initial-ties-tail",
+      "tolerance": 0.025,
+      "absolute_tolerance": 0.0003,
+      "rows": [
+        {
+          "tensor": "out",
+          "absolute": 4.6188770253283856e-05,
+          "rmsrel": 0.0035165980284152395,
+          "passed": true
+        },
+        {
+          "tensor": "keys",
+          "absolute": 6.365031413047006e-08,
+          "rmsrel": 6.096933542580899e-08,
+          "passed": true
+        },
+        {
+          "tensor": "state",
+          "absolute": 2.8963825113925007e-05,
+          "rmsrel": 0.0011061324127845072,
+          "passed": true
+        },
+        {
+          "tensor": "dq",
+          "absolute": 0.001576395121011931,
+          "rmsrel": 0.0032394628217986836,
+          "passed": true
+        },
+        {
+          "tensor": "dk",
+          "absolute": 0.10807874601557188,
+          "rmsrel": 0.0016589065115213597,
+          "passed": true
+        },
+        {
+          "tensor": "dv",
+          "absolute": 0.004073135787171833,
+          "rmsrel": 0.0037617177585465645,
+          "passed": true
+        },
+        {
+          "tensor": "dg",
+          "absolute": 0.00036676032977998874,
+          "rmsrel": 0.0048935953426459625,
+          "passed": true
+        },
+        {
+          "tensor": "dbeta",
+          "absolute": 0.0007269953084500513,
+          "rmsrel": 0.0027464185235304456,
+          "passed": true
+        },
+        {
+          "tensor": "dk0",
+          "absolute": 0.0,
+          "rmsrel": 0.0,
+          "passed": true
+        },
+        {
+          "tensor": "ds0",
+          "absolute": 0.013531374897610367,
+          "rmsrel": 0.004568067861576343,
+          "passed": true
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "ranking": [
+    {
+      "case": "ties_newest",
+      "passed": true,
+      "retained_pool_rows": [
+        [
+          [
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264,
+            265,
+            266,
+            267,
+            268,
+            269,
+            270,
+            271,
+            272,
+            273,
+            274,
+            275,
+            276,
+            277,
+            278,
+            279,
+            280,
+            281,
+            282,
+            283,
+            284,
+            285,
+            286,
+            287,
+            288
+          ],
+          [
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264,
+            265,
+            266,
+            267,
+            268,
+            269,
+            270,
+            271,
+            272,
+            273,
+            274,
+            275,
+            276,
+            277,
+            278,
+            279,
+            280,
+            281,
+            282,
+            283,
+            284,
+            285,
+            286,
+            287,
+            288
+          ]
+        ]
+      ],
+      "expected_pool_rows": [
+        [
+          [
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264,
+            265,
+            266,
+            267,
+            268,
+            269,
+            270,
+            271,
+            272,
+            273,
+            274,
+            275,
+            276,
+            277,
+            278,
+            279,
+            280,
+            281,
+            282,
+            283,
+            284,
+            285,
+            286,
+            287,
+            288
+          ],
+          [
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264,
+            265,
+            266,
+            267,
+            268,
+            269,
+            270,
+            271,
+            272,
+            273,
+            274,
+            275,
+            276,
+            277,
+            278,
+            279,
+            280,
+            281,
+            282,
+            283,
+            284,
+            285,
+            286,
+            287,
+            288
+          ]
+        ]
+      ],
+      "differs_from_fifo": false
+    },
+    {
+      "case": "retain_early",
+      "passed": true,
+      "retained_pool_rows": [
+        [
+          [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ],
+          [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ]
+        ]
+      ],
+      "expected_pool_rows": [
+        [
+          [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ],
+          [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ]
+        ]
+      ],
+      "differs_from_fifo": true
+    },
+    {
+      "case": "retain_initial",
+      "passed": true,
+      "retained_pool_rows": [
+        [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ]
+        ]
+      ],
+      "expected_pool_rows": [
+        [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ]
+        ]
+      ],
+      "differs_from_fifo": true
+    }
+  ],
+  "gradient_scope": "seven continuous operands; hard ranking detached",
+  "score_learning": "separately checked through the model write-strength gate"
+}

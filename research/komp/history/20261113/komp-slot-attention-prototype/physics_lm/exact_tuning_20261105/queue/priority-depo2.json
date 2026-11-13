@@ -1,0 +1,401 @@
+{
+  "task": "depo2",
+  "world_size": 8,
+  "ready": true,
+  "commands": [
+    {
+      "name": "tune-depo2-bf16-model",
+      "argv": [
+        "/opt/venv/bin/python",
+        "-m",
+        "torch.distributed.run",
+        "--standalone",
+        "--nproc_per_node=8",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/check_bf16_model.py",
+        "--task",
+        "depo2",
+        "--candidate",
+        "alpha0-0.995",
+        "--checkpoint-sha256",
+        "03c3663f55097dbffd773b45484f8f32ba77a657496a304d95dbfcd6e3e80516"
+      ],
+      "done_path": "/gpfs/users/linlizhi/physics100m-exact-20261105/evidence/bf16-model-depo2.json",
+      "source_sha256": {
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/build_variants.py": "153a322a771d8e6d75ad749978912c1fdec78e2420905fe3fbdacca1ee2be492",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bench_projection.py": "de0e682266cee11a3c9a94400b35a4db4ff3fe31752727fb3332962f88334a29",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/variants.json": "848fa0dd55c51261347721ddd94d2368a66af89e4f20120bfaaf5a10cf14b0e8",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bf16_projection_mixed/operator.py": "4f43a1e966e472059c0c9d903063d7e940029281614986ce14bd6388924eb308",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bf16_projection_mixed/hierarchical.py": "100517a5611d0db3c82b8584340c76207b39f688d38128c3dbca698937103b68",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bf16_projection_mixed/chunk_backward.py": "654a29b52abdda49d49d88dd66eb3a6db36d5c31a5ac2d5d69f247f8df454337",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bf16_projection_mixed/__init__.py": "e5ca7eef4e205d3331b8d24ddb87e0cc12148beddd28fe1e7a9c668f4d2d1058",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bf16_projection_mixed/geometry.py": "e603072dc5ad272aa14874a262295ed5a6a1ca71262dfe083717b66c2670afe1",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bf16_projection_mixed/versioned.py": "78e15ea818ee0f04ddc551c800b5bb31a34e57212f5c0b7e7f028022a99bd94d",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bf16_projection_mixed/recurrence.py": "41bd96f432f2c7424e8831aaa3340495510369609fe90b308baa3646353dd6bd",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bf16_projection/operator.py": "4f43a1e966e472059c0c9d903063d7e940029281614986ce14bd6388924eb308",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bf16_projection/hierarchical.py": "100517a5611d0db3c82b8584340c76207b39f688d38128c3dbca698937103b68",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bf16_projection/chunk_backward.py": "654a29b52abdda49d49d88dd66eb3a6db36d5c31a5ac2d5d69f247f8df454337",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bf16_projection/__init__.py": "e5ca7eef4e205d3331b8d24ddb87e0cc12148beddd28fe1e7a9c668f4d2d1058",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bf16_projection/geometry.py": "ba59858ca47fbd37b20339f39b24ce56bc6d5cdc37706d1e5bd6962035d516df",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bf16_projection/versioned.py": "78e15ea818ee0f04ddc551c800b5bb31a34e57212f5c0b7e7f028022a99bd94d",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bf16_projection/recurrence.py": "41bd96f432f2c7424e8831aaa3340495510369609fe90b308baa3646353dd6bd",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/check_bf16_model.py": "a0896d1bcd4171086d452011f3534fc9cc63ba10f91da0fb0af0b011e9894d58"
+      }
+    },
+    {
+      "name": "tune-depo2-projection-speed",
+      "argv": [
+        "/opt/venv/bin/python",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bench_projection.py"
+      ],
+      "done_path": "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/operator-results.json",
+      "source_sha256": {
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/build_variants.py": "153a322a771d8e6d75ad749978912c1fdec78e2420905fe3fbdacca1ee2be492",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bench_projection.py": "de0e682266cee11a3c9a94400b35a4db4ff3fe31752727fb3332962f88334a29",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/variants.json": "848fa0dd55c51261347721ddd94d2368a66af89e4f20120bfaaf5a10cf14b0e8",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bf16_projection_mixed/operator.py": "4f43a1e966e472059c0c9d903063d7e940029281614986ce14bd6388924eb308",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bf16_projection_mixed/hierarchical.py": "100517a5611d0db3c82b8584340c76207b39f688d38128c3dbca698937103b68",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bf16_projection_mixed/chunk_backward.py": "654a29b52abdda49d49d88dd66eb3a6db36d5c31a5ac2d5d69f247f8df454337",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bf16_projection_mixed/__init__.py": "e5ca7eef4e205d3331b8d24ddb87e0cc12148beddd28fe1e7a9c668f4d2d1058",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bf16_projection_mixed/geometry.py": "e603072dc5ad272aa14874a262295ed5a6a1ca71262dfe083717b66c2670afe1",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bf16_projection_mixed/versioned.py": "78e15ea818ee0f04ddc551c800b5bb31a34e57212f5c0b7e7f028022a99bd94d",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bf16_projection_mixed/recurrence.py": "41bd96f432f2c7424e8831aaa3340495510369609fe90b308baa3646353dd6bd",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bf16_projection/operator.py": "4f43a1e966e472059c0c9d903063d7e940029281614986ce14bd6388924eb308",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bf16_projection/hierarchical.py": "100517a5611d0db3c82b8584340c76207b39f688d38128c3dbca698937103b68",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bf16_projection/chunk_backward.py": "654a29b52abdda49d49d88dd66eb3a6db36d5c31a5ac2d5d69f247f8df454337",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bf16_projection/__init__.py": "e5ca7eef4e205d3331b8d24ddb87e0cc12148beddd28fe1e7a9c668f4d2d1058",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bf16_projection/geometry.py": "ba59858ca47fbd37b20339f39b24ce56bc6d5cdc37706d1e5bd6962035d516df",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bf16_projection/versioned.py": "78e15ea818ee0f04ddc551c800b5bb31a34e57212f5c0b7e7f028022a99bd94d",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bf16_projection/recurrence.py": "41bd96f432f2c7424e8831aaa3340495510369609fe90b308baa3646353dd6bd",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/check_bf16_model.py": "a0896d1bcd4171086d452011f3534fc9cc63ba10f91da0fb0af0b011e9894d58"
+      }
+    },
+    {
+      "name": "tune-depo2-fp32-current-checkpoint",
+      "argv": [
+        "/opt/venv/bin/python",
+        "-m",
+        "torch.distributed.run",
+        "--standalone",
+        "--nproc_per_node=8",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/check_geometry_transfer.py",
+        "--task",
+        "depo2",
+        "--candidate",
+        "alpha0-0.995",
+        "--checkpoint-sha256",
+        "03c3663f55097dbffd773b45484f8f32ba77a657496a304d95dbfcd6e3e80516",
+        "--selection-scope",
+        "current_completed"
+      ],
+      "done_path": "/gpfs/users/linlizhi/physics100m-exact-20261105/evidence/geometry-transfer-depo2.json",
+      "source_sha256": {
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/check_geometry_transfer.py": "67b4829a43d40e2f402c739fd550015d67e2cf71e153453f2dfc8bab858388ed"
+      }
+    },
+    {
+      "name": "tune-depo2-fp32-numerical",
+      "argv": [
+        "/opt/venv/bin/python",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/diagnose_fp32_projection.py",
+        "--task",
+        "depo2"
+      ],
+      "done_path": "/gpfs/users/linlizhi/physics100m-exact-20261105/evidence/fp32-projection-diagnostic-depo2.json",
+      "source_sha256": {
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/diagnose_fp32_projection.py": "a68051a1a46e3faf3e672f7fe49d3ba4b6b6c2b0d1b67469234d9403014cc96a"
+      }
+    },
+    {
+      "name": "tune-depo2-numerical",
+      "argv": [
+        "/opt/venv/bin/python",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/numerical.py",
+        "--task",
+        "depo2"
+      ],
+      "done_path": "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/evidence/numerical-depo2.json",
+      "source_sha256": {
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/numerical.py": "81f8b91a62ea1fa2bc7a86afdb319bf9ab44bf2e3e75597a6235628945340436",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/prepare_queue.py": "104f2683c840c6acdef28e64fa3caf46c681ce840ebb99132dd74791f6f0ac4a",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/report.py": "53f4fd0595a1d66fd8c38e8ef005d4142f2285a006b0afb37cea24326cacbd83",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tune.py": "99825009bec10dc2b26b9d1fdae1d77d596297d076f7a503bc3d115f04c81165",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tuned_preflight.py": "313f0ffcc36d036554b89eb95a21141d95cc19c06bcf1ea46c4a932163086cc9",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/initial-screen.json": "0d138f9449294e03a5c9e4bf7fc41665daf3b38293ab2b4207395e85c3ce6120",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/ddp_train.py": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/evidence/snapshot-sha256.json": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd"
+      }
+    },
+    {
+      "name": "tune-depo2-precision-ddp",
+      "argv": [
+        "/opt/venv/bin/python",
+        "-m",
+        "torch.distributed.run",
+        "--standalone",
+        "--nproc_per_node=8",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tuned_preflight.py",
+        "--task",
+        "depo2"
+      ],
+      "done_path": "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/preflight/depo2/runs-ddp/ddp-preflight/exact.json",
+      "source_sha256": {
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/numerical.py": "81f8b91a62ea1fa2bc7a86afdb319bf9ab44bf2e3e75597a6235628945340436",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/prepare_queue.py": "104f2683c840c6acdef28e64fa3caf46c681ce840ebb99132dd74791f6f0ac4a",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/report.py": "53f4fd0595a1d66fd8c38e8ef005d4142f2285a006b0afb37cea24326cacbd83",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tune.py": "99825009bec10dc2b26b9d1fdae1d77d596297d076f7a503bc3d115f04c81165",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tuned_preflight.py": "313f0ffcc36d036554b89eb95a21141d95cc19c06bcf1ea46c4a932163086cc9",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/initial-screen.json": "0d138f9449294e03a5c9e4bf7fc41665daf3b38293ab2b4207395e85c3ce6120",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/ddp_train.py": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/evidence/snapshot-sha256.json": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd"
+      }
+    },
+    {
+      "name": "tune-depo2-baseline",
+      "argv": [
+        "/opt/venv/bin/python",
+        "-m",
+        "torch.distributed.run",
+        "--standalone",
+        "--nproc_per_node=8",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tune.py",
+        "--task",
+        "depo2",
+        "--candidate",
+        "baseline"
+      ],
+      "done_path": "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/results/depo2/baseline/summary.json",
+      "source_sha256": {
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/numerical.py": "81f8b91a62ea1fa2bc7a86afdb319bf9ab44bf2e3e75597a6235628945340436",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/prepare_queue.py": "104f2683c840c6acdef28e64fa3caf46c681ce840ebb99132dd74791f6f0ac4a",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/report.py": "53f4fd0595a1d66fd8c38e8ef005d4142f2285a006b0afb37cea24326cacbd83",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tune.py": "99825009bec10dc2b26b9d1fdae1d77d596297d076f7a503bc3d115f04c81165",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tuned_preflight.py": "313f0ffcc36d036554b89eb95a21141d95cc19c06bcf1ea46c4a932163086cc9",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/initial-screen.json": "0d138f9449294e03a5c9e4bf7fc41665daf3b38293ab2b4207395e85c3ce6120",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/ddp_train.py": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/evidence/snapshot-sha256.json": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd"
+      }
+    },
+    {
+      "name": "tune-depo2-alpha0-0.995",
+      "argv": [
+        "/opt/venv/bin/python",
+        "-m",
+        "torch.distributed.run",
+        "--standalone",
+        "--nproc_per_node=8",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tune.py",
+        "--task",
+        "depo2",
+        "--candidate",
+        "alpha0-0.995"
+      ],
+      "done_path": "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/results/depo2/alpha0-0.995/summary.json",
+      "source_sha256": {
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/numerical.py": "81f8b91a62ea1fa2bc7a86afdb319bf9ab44bf2e3e75597a6235628945340436",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/prepare_queue.py": "104f2683c840c6acdef28e64fa3caf46c681ce840ebb99132dd74791f6f0ac4a",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/report.py": "53f4fd0595a1d66fd8c38e8ef005d4142f2285a006b0afb37cea24326cacbd83",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tune.py": "99825009bec10dc2b26b9d1fdae1d77d596297d076f7a503bc3d115f04c81165",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tuned_preflight.py": "313f0ffcc36d036554b89eb95a21141d95cc19c06bcf1ea46c4a932163086cc9",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/initial-screen.json": "0d138f9449294e03a5c9e4bf7fc41665daf3b38293ab2b4207395e85c3ce6120",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/ddp_train.py": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/evidence/snapshot-sha256.json": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd"
+      }
+    },
+    {
+      "name": "tune-depo2-alpha0-0.999",
+      "argv": [
+        "/opt/venv/bin/python",
+        "-m",
+        "torch.distributed.run",
+        "--standalone",
+        "--nproc_per_node=8",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tune.py",
+        "--task",
+        "depo2",
+        "--candidate",
+        "alpha0-0.999"
+      ],
+      "done_path": "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/results/depo2/alpha0-0.999/summary.json",
+      "source_sha256": {
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/numerical.py": "81f8b91a62ea1fa2bc7a86afdb319bf9ab44bf2e3e75597a6235628945340436",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/prepare_queue.py": "104f2683c840c6acdef28e64fa3caf46c681ce840ebb99132dd74791f6f0ac4a",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/report.py": "53f4fd0595a1d66fd8c38e8ef005d4142f2285a006b0afb37cea24326cacbd83",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tune.py": "99825009bec10dc2b26b9d1fdae1d77d596297d076f7a503bc3d115f04c81165",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tuned_preflight.py": "313f0ffcc36d036554b89eb95a21141d95cc19c06bcf1ea46c4a932163086cc9",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/initial-screen.json": "0d138f9449294e03a5c9e4bf7fc41665daf3b38293ab2b4207395e85c3ce6120",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/ddp_train.py": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/evidence/snapshot-sha256.json": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd"
+      }
+    },
+    {
+      "name": "tune-depo2-beta0-0.1",
+      "argv": [
+        "/opt/venv/bin/python",
+        "-m",
+        "torch.distributed.run",
+        "--standalone",
+        "--nproc_per_node=8",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tune.py",
+        "--task",
+        "depo2",
+        "--candidate",
+        "beta0-0.1"
+      ],
+      "done_path": "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/results/depo2/beta0-0.1/summary.json",
+      "source_sha256": {
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/numerical.py": "81f8b91a62ea1fa2bc7a86afdb319bf9ab44bf2e3e75597a6235628945340436",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/prepare_queue.py": "104f2683c840c6acdef28e64fa3caf46c681ce840ebb99132dd74791f6f0ac4a",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/report.py": "53f4fd0595a1d66fd8c38e8ef005d4142f2285a006b0afb37cea24326cacbd83",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tune.py": "99825009bec10dc2b26b9d1fdae1d77d596297d076f7a503bc3d115f04c81165",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tuned_preflight.py": "313f0ffcc36d036554b89eb95a21141d95cc19c06bcf1ea46c4a932163086cc9",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/initial-screen.json": "0d138f9449294e03a5c9e4bf7fc41665daf3b38293ab2b4207395e85c3ce6120",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/ddp_train.py": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/evidence/snapshot-sha256.json": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd"
+      }
+    },
+    {
+      "name": "tune-depo2-beta0-0.4",
+      "argv": [
+        "/opt/venv/bin/python",
+        "-m",
+        "torch.distributed.run",
+        "--standalone",
+        "--nproc_per_node=8",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tune.py",
+        "--task",
+        "depo2",
+        "--candidate",
+        "beta0-0.4"
+      ],
+      "done_path": "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/results/depo2/beta0-0.4/summary.json",
+      "source_sha256": {
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/numerical.py": "81f8b91a62ea1fa2bc7a86afdb319bf9ab44bf2e3e75597a6235628945340436",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/prepare_queue.py": "104f2683c840c6acdef28e64fa3caf46c681ce840ebb99132dd74791f6f0ac4a",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/report.py": "53f4fd0595a1d66fd8c38e8ef005d4142f2285a006b0afb37cea24326cacbd83",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tune.py": "99825009bec10dc2b26b9d1fdae1d77d596297d076f7a503bc3d115f04c81165",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tuned_preflight.py": "313f0ffcc36d036554b89eb95a21141d95cc19c06bcf1ea46c4a932163086cc9",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/initial-screen.json": "0d138f9449294e03a5c9e4bf7fc41665daf3b38293ab2b4207395e85c3ce6120",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/ddp_train.py": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/evidence/snapshot-sha256.json": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd"
+      }
+    },
+    {
+      "name": "tune-depo2-temperature-0.25",
+      "argv": [
+        "/opt/venv/bin/python",
+        "-m",
+        "torch.distributed.run",
+        "--standalone",
+        "--nproc_per_node=8",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tune.py",
+        "--task",
+        "depo2",
+        "--candidate",
+        "temperature-0.25"
+      ],
+      "done_path": "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/results/depo2/temperature-0.25/summary.json",
+      "source_sha256": {
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/numerical.py": "81f8b91a62ea1fa2bc7a86afdb319bf9ab44bf2e3e75597a6235628945340436",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/prepare_queue.py": "104f2683c840c6acdef28e64fa3caf46c681ce840ebb99132dd74791f6f0ac4a",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/report.py": "53f4fd0595a1d66fd8c38e8ef005d4142f2285a006b0afb37cea24326cacbd83",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tune.py": "99825009bec10dc2b26b9d1fdae1d77d596297d076f7a503bc3d115f04c81165",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tuned_preflight.py": "313f0ffcc36d036554b89eb95a21141d95cc19c06bcf1ea46c4a932163086cc9",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/initial-screen.json": "0d138f9449294e03a5c9e4bf7fc41665daf3b38293ab2b4207395e85c3ce6120",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/ddp_train.py": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/evidence/snapshot-sha256.json": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd"
+      }
+    },
+    {
+      "name": "tune-depo2-temperature-1",
+      "argv": [
+        "/opt/venv/bin/python",
+        "-m",
+        "torch.distributed.run",
+        "--standalone",
+        "--nproc_per_node=8",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tune.py",
+        "--task",
+        "depo2",
+        "--candidate",
+        "temperature-1"
+      ],
+      "done_path": "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/results/depo2/temperature-1/summary.json",
+      "source_sha256": {
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/numerical.py": "81f8b91a62ea1fa2bc7a86afdb319bf9ab44bf2e3e75597a6235628945340436",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/prepare_queue.py": "104f2683c840c6acdef28e64fa3caf46c681ce840ebb99132dd74791f6f0ac4a",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/report.py": "53f4fd0595a1d66fd8c38e8ef005d4142f2285a006b0afb37cea24326cacbd83",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tune.py": "99825009bec10dc2b26b9d1fdae1d77d596297d076f7a503bc3d115f04c81165",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tuned_preflight.py": "313f0ffcc36d036554b89eb95a21141d95cc19c06bcf1ea46c4a932163086cc9",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/initial-screen.json": "0d138f9449294e03a5c9e4bf7fc41665daf3b38293ab2b4207395e85c3ce6120",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/ddp_train.py": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/evidence/snapshot-sha256.json": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd"
+      }
+    },
+    {
+      "name": "tune-depo2-ridge-1e-05",
+      "argv": [
+        "/opt/venv/bin/python",
+        "-m",
+        "torch.distributed.run",
+        "--standalone",
+        "--nproc_per_node=8",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tune.py",
+        "--task",
+        "depo2",
+        "--candidate",
+        "ridge-1e-05"
+      ],
+      "done_path": "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/results/depo2/ridge-1e-05/summary.json",
+      "source_sha256": {
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/numerical.py": "81f8b91a62ea1fa2bc7a86afdb319bf9ab44bf2e3e75597a6235628945340436",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/prepare_queue.py": "104f2683c840c6acdef28e64fa3caf46c681ce840ebb99132dd74791f6f0ac4a",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/report.py": "53f4fd0595a1d66fd8c38e8ef005d4142f2285a006b0afb37cea24326cacbd83",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tune.py": "99825009bec10dc2b26b9d1fdae1d77d596297d076f7a503bc3d115f04c81165",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tuned_preflight.py": "313f0ffcc36d036554b89eb95a21141d95cc19c06bcf1ea46c4a932163086cc9",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/initial-screen.json": "0d138f9449294e03a5c9e4bf7fc41665daf3b38293ab2b4207395e85c3ce6120",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/ddp_train.py": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/evidence/snapshot-sha256.json": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd"
+      }
+    },
+    {
+      "name": "tune-depo2-ridge-0.001",
+      "argv": [
+        "/opt/venv/bin/python",
+        "-m",
+        "torch.distributed.run",
+        "--standalone",
+        "--nproc_per_node=8",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tune.py",
+        "--task",
+        "depo2",
+        "--candidate",
+        "ridge-0.001"
+      ],
+      "done_path": "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/results/depo2/ridge-0.001/summary.json",
+      "source_sha256": {
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/numerical.py": "81f8b91a62ea1fa2bc7a86afdb319bf9ab44bf2e3e75597a6235628945340436",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/prepare_queue.py": "104f2683c840c6acdef28e64fa3caf46c681ce840ebb99132dd74791f6f0ac4a",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/report.py": "53f4fd0595a1d66fd8c38e8ef005d4142f2285a006b0afb37cea24326cacbd83",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tune.py": "99825009bec10dc2b26b9d1fdae1d77d596297d076f7a503bc3d115f04c81165",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/tuned_preflight.py": "313f0ffcc36d036554b89eb95a21141d95cc19c06bcf1ea46c4a932163086cc9",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/initial-screen.json": "0d138f9449294e03a5c9e4bf7fc41665daf3b38293ab2b4207395e85c3ce6120",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/ddp_train.py": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/evidence/snapshot-sha256.json": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd"
+      }
+    },
+    {
+      "name": "tune-depo2-formal-gate",
+      "argv": [
+        "/opt/venv/bin/python",
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/formal_gate.py",
+        "--task",
+        "depo2"
+      ],
+      "done_path": "/gpfs/users/linlizhi/physics100m-exact-20261105/evidence/formal-gate-depo2.json",
+      "source_sha256": {
+        "/gpfs/users/linlizhi/physics100m-exact-20261105/formal_gate.py": "fd6d7f34659b4ffefa337b4051dcce9fc5048226923f67481607fa65b475e321"
+      }
+    }
+  ],
+  "scope": "9 Exact candidates x 10M train positions; final validation CE selection"
+}

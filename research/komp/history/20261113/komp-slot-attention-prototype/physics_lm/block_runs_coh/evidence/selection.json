@@ -1,0 +1,30 @@
+{
+  "status": "locked",
+  "criterion": "minimum seven-seed confirm mean_content_ce among enabled thresholds",
+  "tie_break": "threshold order .99, .95, .80",
+  "selected_tag": "99",
+  "ranking": [
+    {
+      "kind": "coh_fifo_off",
+      "mean_content_ce": 2.089156282147867,
+      "mean_val_content_ce": 2.0747870165641302
+    },
+    {
+      "kind": "coh_fifo_99",
+      "mean_content_ce": 2.121288735054256,
+      "mean_val_content_ce": 2.1048210059978887
+    },
+    {
+      "kind": "coh_fifo_95",
+      "mean_content_ce": 2.4326356237430193,
+      "mean_val_content_ce": 2.40522412483936
+    },
+    {
+      "kind": "coh_fifo_80",
+      "mean_content_ce": 2.3318530108763484,
+      "mean_val_content_ce": 2.3002766041962075
+    }
+  ],
+  "off_compared_separately": true,
+  "selection_bias": "same confirm used for threshold selection and reporting; not an independent test"
+}

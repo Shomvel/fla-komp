@@ -1,0 +1,20 @@
+[
+  {
+    "name": "job-b7eecdaecfae-20261106001818",
+    "user_def_name": "physics100m-beta-m-brevo2-20261106",
+    "status": "Pending",
+    "ready_status": "0/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 8
+  },
+  {
+    "name": "job-cd4a9ccc7974-20261106001816",
+    "user_def_name": "physics100m-beta-m-depo2-20261106",
+    "status": "Pending",
+    "ready_status": "0/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 8
+  }
+]

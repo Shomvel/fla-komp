@@ -1,0 +1,432 @@
+{
+  "project": {
+    "project_id": 32,
+    "project_name": "WeaverRSI",
+    "queue_name": "proj-32",
+    "enabled": true,
+    "sync_state": "ready"
+  },
+  "old_job": {
+    "name": "job-757679e41f6c-20261109101556",
+    "status": "Aborted",
+    "ready_status": "0/4"
+  },
+  "gpfs_free_bytes": 3663841984512,
+  "ready_gpu_nodes": [
+    {
+      "name": "boss01",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "boss02",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "boss03",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "boss04",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "boss05",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "boss06",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu010",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu011",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu012",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu013",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu014",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu015",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu016",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu017",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu018",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu019",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu020",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu024",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu025",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu026",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu027",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu028",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu029",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu030",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu031",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu032",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu033",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu034",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu035",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu036",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu037",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu038",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu039",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu040",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu041",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu042",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu043",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu044",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu045",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu046",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu047",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu049",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu052",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu053",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu054",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu055",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu056",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu057",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu058",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu059",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu060",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu061",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu062",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu063",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu064",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu065",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu066",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu068",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu069",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu070",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu072",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu073",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu074",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu075",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu076",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu077",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu078",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu079",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu083",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu085",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu086",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu087",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "cpu088",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "master001",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "master002",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "master003",
+      "gpu_types": null,
+      "fragment": 8
+    },
+    {
+      "name": "node025",
+      "gpu_types": {
+        "nvidia.com/gpu": 8
+      },
+      "fragment": 2
+    },
+    {
+      "name": "node214",
+      "gpu_types": {
+        "nvidia.com/gpu": 8
+      },
+      "fragment": 2
+    },
+    {
+      "name": "node249",
+      "gpu_types": {
+        "nvidia.com/gpu": 8
+      },
+      "fragment": 8
+    },
+    {
+      "name": "node250",
+      "gpu_types": {
+        "nvidia.com/gpu": 8
+      },
+      "fragment": 8
+    },
+    {
+      "name": "node252",
+      "gpu_types": {
+        "nvidia.com/gpu": 8
+      },
+      "fragment": 8
+    }
+  ]
+}

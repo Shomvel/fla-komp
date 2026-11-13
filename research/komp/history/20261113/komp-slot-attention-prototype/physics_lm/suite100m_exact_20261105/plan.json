@@ -1,0 +1,148 @@
+{
+  "tasks": [
+    "depo2",
+    "brevo2"
+  ],
+  "kinds": [
+    "gdn",
+    "full",
+    "swa",
+    "gsa",
+    "gsa2",
+    "komp",
+    "exact"
+  ],
+  "seed": 731,
+  "tokens_per_run": 100000000,
+  "runs": 14,
+  "nominal_total_tokens": 1400000000,
+  "workers": 2,
+  "batch_documents": 128,
+  "microbatch_token_cap": 8192,
+  "short_conv_all": true,
+  "swa_window": 96,
+  "block_compression_tokens": 128,
+  "exact_compression_tokens": 1,
+  "exact_compute_chunk": 16,
+  "eviction": "fifo",
+  "decay": "per-slot logsigmoid/8",
+  "tuning": "none; previous frozen validation selections, Exact uses same-task Block selection",
+  "selections": {
+    "depo2-gdn": {
+      "lr": 0.0005,
+      "wd": 0.0,
+      "criterion": "preexisting validation-selected recipe; no new search",
+      "prior_path": "/Users/shom/Downloads/komp-slot-attention-prototype/physics_lm/suite100m_exact_20261105/prior-selection/depo2-gdn.json",
+      "prior_sha256": "6c0c0244c9dae5e3a04f4a1d57e562c50451756dd5d7cac07ad738366fd0e288",
+      "exact_transfer_from_block": false
+    },
+    "depo2-full": {
+      "lr": 0.0005,
+      "wd": 0.0,
+      "criterion": "preexisting validation-selected recipe; no new search",
+      "prior_path": "/Users/shom/Downloads/komp-slot-attention-prototype/physics_lm/suite100m_exact_20261105/prior-selection/depo2-full.json",
+      "prior_sha256": "b8f1ca01ac0ab2e4eaf73b257b82ea91542ae3100234e64a65a924d073a32989",
+      "exact_transfer_from_block": false
+    },
+    "depo2-swa": {
+      "lr": 0.001,
+      "wd": 0.1,
+      "criterion": "preexisting validation-selected recipe; no new search",
+      "prior_path": "/Users/shom/Downloads/komp-slot-attention-prototype/physics_lm/suite100m_exact_20261105/prior-selection/depo2-swa.json",
+      "prior_sha256": "03093a396b8f1b21a3fbcf128bd85c284cafaf49fcdf80f184e21bf9d146f80b",
+      "exact_transfer_from_block": false
+    },
+    "depo2-gsa": {
+      "lr": 0.001,
+      "wd": 0.0,
+      "criterion": "preexisting validation-selected recipe; no new search",
+      "prior_path": "/Users/shom/Downloads/komp-slot-attention-prototype/physics_lm/suite100m_exact_20261105/prior-selection/depo2-gsa.json",
+      "prior_sha256": "2ea7631a15dc443894162764d5bbc5e83ba7b2789fb49d6db5427b9e17fd4e9c",
+      "exact_transfer_from_block": false
+    },
+    "depo2-gsa2": {
+      "lr": 0.001,
+      "wd": 0.01,
+      "criterion": "preexisting validation-selected recipe; no new search",
+      "prior_path": "/Users/shom/Downloads/komp-slot-attention-prototype/physics_lm/suite100m_exact_20261105/prior-selection/depo2-gsa2.json",
+      "prior_sha256": "9fd6eec9b9ae0ff100a3b7fd115e462b7b2109f5043e8c0b15a97c3f443b815b",
+      "exact_transfer_from_block": false
+    },
+    "depo2-komp": {
+      "lr": 0.0005,
+      "wd": 0.1,
+      "criterion": "preexisting validation-selected recipe; no new search",
+      "prior_path": "/Users/shom/Downloads/komp-slot-attention-prototype/physics_lm/suite100m_exact_20261105/prior-selection/depo2-komp.json",
+      "prior_sha256": "0e320d92c190384c8121636d136189d66df74f916e281d2aac720e3ab7a69380",
+      "exact_transfer_from_block": false
+    },
+    "depo2-exact": {
+      "lr": 0.0005,
+      "wd": 0.1,
+      "criterion": "preexisting validation-selected recipe; no new search",
+      "prior_path": "/Users/shom/Downloads/komp-slot-attention-prototype/physics_lm/suite100m_exact_20261105/prior-selection/depo2-komp.json",
+      "prior_sha256": "0e320d92c190384c8121636d136189d66df74f916e281d2aac720e3ab7a69380",
+      "exact_transfer_from_block": true
+    },
+    "brevo2-gdn": {
+      "lr": 0.0005,
+      "wd": 0.1,
+      "criterion": "preexisting validation-selected recipe; no new search",
+      "prior_path": "/Users/shom/Downloads/komp-slot-attention-prototype/physics_lm/suite100m_exact_20261105/prior-selection/brevo2-gdn.json",
+      "prior_sha256": "030f09a7c47d6edebf1b4682208a2d01327170900b0e1bec97ca56762fc5a308",
+      "exact_transfer_from_block": false
+    },
+    "brevo2-full": {
+      "lr": 0.001,
+      "wd": 0.1,
+      "criterion": "preexisting validation-selected recipe; no new search",
+      "prior_path": "/Users/shom/Downloads/komp-slot-attention-prototype/physics_lm/suite100m_exact_20261105/prior-selection/brevo2-full.json",
+      "prior_sha256": "0115ab87167f629b1f4e07e1cad883931975002cf70124176259bbbbfccbf846",
+      "exact_transfer_from_block": false
+    },
+    "brevo2-swa": {
+      "lr": 0.001,
+      "wd": 0.0,
+      "criterion": "preexisting validation-selected recipe; no new search",
+      "prior_path": "/Users/shom/Downloads/komp-slot-attention-prototype/physics_lm/suite100m_exact_20261105/prior-selection/brevo2-swa.json",
+      "prior_sha256": "49e8551c3f3daf5adf534ce2d081d5f96528d33c9bac37ce679bd404dfc3b05d",
+      "exact_transfer_from_block": false
+    },
+    "brevo2-gsa": {
+      "lr": 0.0005,
+      "wd": 0.01,
+      "criterion": "preexisting validation-selected recipe; no new search",
+      "prior_path": "/Users/shom/Downloads/komp-slot-attention-prototype/physics_lm/suite100m_exact_20261105/prior-selection/brevo2-gsa.json",
+      "prior_sha256": "00a61bcf9859ab1444b314614d4cdfb3e7dfa935e49203d524fd97c1b8bb495e",
+      "exact_transfer_from_block": false
+    },
+    "brevo2-gsa2": {
+      "lr": 0.001,
+      "wd": 0.1,
+      "criterion": "preexisting validation-selected recipe; no new search",
+      "prior_path": "/Users/shom/Downloads/komp-slot-attention-prototype/physics_lm/suite100m_exact_20261105/prior-selection/brevo2-gsa2.json",
+      "prior_sha256": "2997850c9d630283e3191273cb477869fab90a3bb2b18ea3ce3d8ff3d92637b3",
+      "exact_transfer_from_block": false
+    },
+    "brevo2-komp": {
+      "lr": 0.001,
+      "wd": 0.1,
+      "criterion": "preexisting validation-selected recipe; no new search",
+      "prior_path": "/Users/shom/Downloads/komp-slot-attention-prototype/physics_lm/suite100m_exact_20261105/prior-selection/brevo2-komp.json",
+      "prior_sha256": "2a74f5254af258dad5eb9bc869e46fff2f5f4f4113d0bc8375aa71154036f491",
+      "exact_transfer_from_block": false
+    },
+    "brevo2-exact": {
+      "lr": 0.001,
+      "wd": 0.1,
+      "criterion": "preexisting validation-selected recipe; no new search",
+      "prior_path": "/Users/shom/Downloads/komp-slot-attention-prototype/physics_lm/suite100m_exact_20261105/prior-selection/brevo2-komp.json",
+      "prior_sha256": "2a74f5254af258dad5eb9bc869e46fff2f5f4f4113d0bc8375aa71154036f491",
+      "exact_transfer_from_block": true
+    }
+  },
+  "gpus_per_worker": 8,
+  "total_gpus": 16,
+  "execution": "8GPU DDP per model; one task per group, seven models serial",
+  "actual_total_tokens": 1400011109
+}

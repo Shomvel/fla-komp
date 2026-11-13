@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-13",
+  "scope": "fresh_git_index_export",
+  "base_commit": "cf6b1ea6b045e33248b6d461a1dc64c27c19a4bc",
+  "checks": [
+    {
+      "command": "python3 validation/komp/verify_sources.py",
+      "stdout": "{\n  \"archive_files\": 2571,\n  \"unique_contents\": 1523,\n  \"equivalent_operator_files\": 31,\n  \"upstream_commit\": \"9e82a80fdaefcd7c9cc3da51ea36d6a9e1587bd1\"\n}",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 research/komp/summarize_results.py --check",
+      "stdout": "{\"status\": \"passed\", \"archive_files\": 5219, \"downstream_cases\": 184, \"downstream_examples\": 163656, \"kernel_timing_rows\": 215, \"mode\": \"check\"}",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 scripts/check_header.py --check",
+      "stdout": "All headers OK.",
+      "exit_code": 0
+    }
+  ],
+  "new_archive_paths": 5219,
+  "measurement_source_hash_checks": 126,
+  "downstream_cases": 184,
+  "downstream_examples": 163656,
+  "kernel_timing_rows": 215,
+  "local_links_verified": 112,
+  "candidate_patch_reconstructed_files": 4,
+  "new_gpu_runs": 0,
+  "pre_commit": "passed_on_maintained_files; historical_archive_excluded_by_existing_policy",
+  "status": "passed"
+}

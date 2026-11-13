@@ -1,0 +1,1 @@
+../../komp-gdn-8k-20261105/runner.sh

@@ -1,0 +1,8 @@
+{
+  "lr": 0.0005,
+  "wd": 0.0,
+  "criterion": "preexisting validation-selected recipe; no new search",
+  "prior_path": "/Users/shom/Downloads/komp-slot-attention-prototype/physics_lm/suite100m_exact_20261105/prior-selection/depo2-gdn.json",
+  "prior_sha256": "6c0c0244c9dae5e3a04f4a1d57e562c50451756dd5d7cac07ad738366fd0e288",
+  "exact_transfer_from_block": false
+}

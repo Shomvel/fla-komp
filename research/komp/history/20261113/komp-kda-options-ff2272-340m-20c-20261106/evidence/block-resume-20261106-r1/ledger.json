@@ -1,0 +1,29 @@
+{
+  "status": "prepared",
+  "authorization": "User: \u7ec4\u5408 Block \u5c1d\u8bd5\u7ee7\u7eed\u8dd1",
+  "old_identity": "job-3a6bbfbfecbe-20261106152826",
+  "source_sha": "3e861451b240e3d4a3479fb0827bf26a10fee320895215dfa419f3a6026c0f6e",
+  "resume_step": 1536,
+  "resume_tokens": 805306368,
+  "old_last_step": 1749,
+  "old_last_tokens": 916979712,
+  "superseded_uncheckpointed_steps": 213,
+  "wasted_training_tokens": 111673344,
+  "target_effective_tokens": 6800000000,
+  "expected_total_training_compute_tokens_including_abandoned_tail": 6911688704,
+  "final_padding_tokens": 15360,
+  "reason": "Platform Aborted/SIGTERM; origin unknown; user explicitly requested continuation",
+  "checkpoint_sha256": {
+    "rank4.pt": "386a7e957ea2a08edf60a9eaa7cf140b510d25c2ad2bc16ffff6813fe1591e81",
+    "rank3.pt": "d37fa1a343d9b8b7b61395d67dd2b3575a6fe4a0ec1168745fd3db4b6ab976df",
+    "model.pt": "a20921016e939204e2cd096e7505ff81d0f47423ae7005a5f409c52dd6513c32",
+    "complete.json": "2ffb652ab299a0a465712658ee7ce489c7cc8473ab0a4854786377595dd703b5",
+    "rank1.pt": "31e5d09ed379651f1ced64c52ec459f9720ac8ccacb842181b34ba418f097bd9",
+    "rank5.pt": "40c43306b705b01ee72c22ecdfbd4b83c848c3a5e5e671113a68c18da5039a37",
+    "rank7.pt": "defef228ef4ff9e5bd373335a4e90241b7b3414bd1b0be0f72e2fb037480cfed",
+    "rank0.pt": "14f38604e3e0be8891ebf5a25c3822d71bc96db9e7013c7428fe8040460832bc",
+    "rank2.pt": "fe65503e469026c3ebbaa82f7e3cea3ca17acf0782945af14fb94de140f512d2",
+    "rank6.pt": "3500007f00461acfda2f49455218f565214e57f76987bab1a935d5acc41c7697"
+  },
+  "metrics_lineage": "Original full metrics archived here; active metrics retained through1536 then append resumed1537 onward"
+}

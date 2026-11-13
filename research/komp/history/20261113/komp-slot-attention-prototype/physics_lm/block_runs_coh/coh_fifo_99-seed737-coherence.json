@@ -1,0 +1,63 @@
+{
+  "kind": "coh_fifo_99",
+  "seed": 737,
+  "coherence": 0.99,
+  "status": "completed",
+  "steps": 2231,
+  "training_tokens": 10001108,
+  "denominator": "nonpadding token-heads",
+  "windows": {
+    "first10pct": {
+      "0": {
+        "tokens": 1993838,
+        "merged": 1428122,
+        "calls": 224,
+        "fraction": 0.7162678211569846
+      },
+      "1": {
+        "tokens": 1993838,
+        "merged": 524359,
+        "calls": 224,
+        "fraction": 0.2629897714859482
+      },
+      "2": {
+        "tokens": 1993838,
+        "merged": 655382,
+        "calls": 224,
+        "fraction": 0.3287037362112669
+      },
+      "3": {
+        "tokens": 1993838,
+        "merged": 1003215,
+        "calls": 224,
+        "fraction": 0.5031577289629348
+      }
+    },
+    "last10pct": {
+      "0": {
+        "tokens": 2005490,
+        "merged": 1435398,
+        "calls": 224,
+        "fraction": 0.7157343093209141
+      },
+      "1": {
+        "tokens": 2005490,
+        "merged": 670396,
+        "calls": 224,
+        "fraction": 0.3342804003011733
+      },
+      "2": {
+        "tokens": 2005490,
+        "merged": 284126,
+        "calls": 224,
+        "fraction": 0.14167410458291987
+      },
+      "3": {
+        "tokens": 2005490,
+        "merged": 593064,
+        "calls": 224,
+        "fraction": 0.29572024791946105
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "status": "completed_and_audited",
+  "training_complete": 2,
+  "heldout_complete": 2,
+  "positions": 200001587,
+  "source_manifest_sha256": "f280f81506566c411e23d2b53c136608971afc07024cecd376e0c5efdebc299d",
+  "results_sha256": "07dd18e6b65f04610bca94f145ca446d9df6bc184650c9dbe5375845e398f5f1",
+  "evaluation_grades": "All512probes independently rescored",
+  "allocations": "Both8GPUtraining and both1GPUevaluation jobs deleted and verified absent",
+  "runs": [
+    {
+      "task": "depo2",
+      "alpha0": 0.995,
+      "reference_alpha0": 0.98,
+      "training_status": "completed",
+      "heldout_status": "completed",
+      "baseline_validation_ce": 0.757860016688033,
+      "baseline_test_ce": 0.7629591705604344,
+      "baseline_generation_accuracy": 0.04296875,
+      "validation_ce": 0.6695572929539848,
+      "validation_ce_delta": -0.08830272373404824,
+      "positions": 100000997,
+      "source": {
+        "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+        "ddp_train": "08588e36fe4dc692b714d317c8462aebb8e485f541fb20b9941b5813ce064c58",
+        "alpha_models": "fd3f7c0615a71a7fcbe1504fdf08d6f7f48a5dfdcdd2d7389cbd61d490ee88ae"
+      },
+      "summary_sha256": "f5195525f376ddc7acea64118dc40e2e5b9c175b5a0db9fc3bdd52d09fb00191",
+      "test_ce": 0.6712530436160062,
+      "generation_probes": 256,
+      "test_ce_delta": -0.09170612694442815,
+      "generation_accuracy": 0.0546875,
+      "generation_accuracy_delta": 0.01171875
+    },
+    {
+      "task": "brevo2",
+      "alpha0": 0.995,
+      "reference_alpha0": 0.98,
+      "training_status": "completed",
+      "heldout_status": "completed",
+      "baseline_validation_ce": 0.7741052325775389,
+      "baseline_test_ce": 0.7790923566446583,
+      "baseline_generation_accuracy": 0.11328125,
+      "validation_ce": 0.7348304093575835,
+      "validation_ce_delta": -0.03927482321995546,
+      "positions": 100000590,
+      "source": {
+        "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+        "ddp_train": "08588e36fe4dc692b714d317c8462aebb8e485f541fb20b9941b5813ce064c58",
+        "alpha_models": "fd3f7c0615a71a7fcbe1504fdf08d6f7f48a5dfdcdd2d7389cbd61d490ee88ae"
+      },
+      "summary_sha256": "c358bbabd349daf3678a5dc42652c022d40c74c0d701f8be8cd21020bc5ab929",
+      "test_ce": 0.7420737431210905,
+      "generation_probes": 256,
+      "test_ce_delta": -0.03701861352356772,
+      "generation_accuracy": 0.109375,
+      "generation_accuracy_delta": -0.00390625
+    }
+  ]
+}

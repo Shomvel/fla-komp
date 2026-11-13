@@ -1,0 +1,32 @@
+{
+  "captured_utc": "2026-11-08T16:34:25.517786+00:00",
+  "phase": "preflight",
+  "jobs": [
+    {
+      "name": "job-b054fc9711a2-20261109003121",
+      "user_def_name": "komp-learned123-1b-50b-20261109-mb16",
+      "status": "Running",
+      "ready_status": "4/4",
+      "namespace": "qiji",
+      "job_creator": "linlizhi",
+      "user_gpu": 32
+    }
+  ],
+  "step": 1068,
+  "tokens": 1119879168,
+  "target": 50000000000,
+  "percent": 2.239758336,
+  "loss": null,
+  "loss_mean100": null,
+  "step_seconds_mean100": 0,
+  "global_tokens_per_second": null,
+  "delta_steps": null,
+  "delta_tokens": null,
+  "validation_last": null,
+  "checkpoints": [],
+  "node_exits": {},
+  "restore_passed": 0,
+  "parent_resume_passed": 0,
+  "resume_parent_step": 1068,
+  "resume_parent_tokens": 1119879168
+}

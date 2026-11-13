@@ -1,0 +1,125 @@
+{
+  "baseline_operator_ms": 64.20222576707602,
+  "baseline_model_s": 2.5924974801018834,
+  "candidates": {
+    "snapshot": {
+      "change": "one-hot FP32 GEMM -> direct slot reduce",
+      "operator_ms": 38.119275122880936,
+      "operator_speedup": 1.684245714539805,
+      "differential_cases": 8,
+      "status": "full_model_passed",
+      "model_seconds": 1.9692130153998733
+    },
+    "snapshot-ut": {
+      "change": "UT off-diagonal products use tf32x3",
+      "status": "passed_user_authorized_gdn_policy",
+      "dq_relative_rms_first": 0.0009769315502489097,
+      "dk_relative_rms_full": 0.0035028232661428564,
+      "evidence": "ut-gdn-differential.json",
+      "operator_ms": 37.4104
+    },
+    "snapshot-split": {
+      "change": "split C128 UT backward; reuse temporary",
+      "status": "operator_differential_passed",
+      "operator_ms": 35.569
+    },
+    "snapshot-slot": {
+      "change": "remove duplicate prefix scan; select before expand",
+      "status": "not_selected_slower",
+      "operator_ms": 38.4103
+    },
+    "snapshot-ff": {
+      "change": "fused rounded SwiGLU; retain BF16 intermediate rounding",
+      "status": "same_operator_isolated_full_model_passed",
+      "evidence": "ff-isolated.json",
+      "global_gradient_relative_rms": 0.004854397421941467,
+      "baseline_repeat_gradient_rms": 0.004665578857160266,
+      "tensors": 579,
+      "peak_saved_bytes": 4630000000
+    },
+    "snapshot-norm": {
+      "status": "local_output_gradient_passed",
+      "max_gradient_rms": 6.58e-07,
+      "width64_seconds": {
+        "pytorch": 0.0016518,
+        "fla": 0.0006585
+      },
+      "width2048_seconds": {
+        "pytorch": 0.0008743,
+        "fla": 0.0006873
+      },
+      "model_seconds_with_ff_and_slot": 1.95844,
+      "model_loss_difference": -0.0001466
+    },
+    "snapshot-cache": {
+      "status": "graph_isolation_retained_backward_allocation_passed_and_model_measured",
+      "model_seconds": 1.7628,
+      "peak_bytes": 72945500000,
+      "ut_executions": 24,
+      "baseline_ut_executions": 48,
+      "loss_bitwise_equal": true
+    }
+  },
+  "formal_job_unchanged": false,
+  "user_approved_ut_gradient_relative_rms_tolerance": 0.001,
+  "warp_sweep_ms": {
+    "base": 38.0547,
+    "ut8": 40.5368,
+    "compose8": 35.8702,
+    "projback8": 37.4577,
+    "back8": 32.5397,
+    "keygrad8": 36.7862,
+    "KEY_BLOCK32": 39.1151,
+    "KEY_BLOCK16": 38.8021,
+    "MAPGRAD_BV64": 38.0869
+  },
+  "user_approved_numerical_policy": {
+    "policy": "upstream_gdn_bf16_test_chunk",
+    "out_final_state_rms": 0.005,
+    "dq_dk_dv_dh0_rms": 0.008,
+    "dg_dbeta_rms": 0.02,
+    "max_absolute_alternative": 1e-06,
+    "finite_required": true,
+    "model_loss_absolute": 0.001
+  },
+  "updated_utc": "2026-11-09T01:24:56.390451+00:00",
+  "rejected_final_v1": {
+    "reason": "whole_model_gradients_and_adam_updates_exceeded_existing_gates",
+    "loss_difference": -0.0001404285430908203,
+    "gradient_relative_rms": 0.03457214484894134,
+    "baseline_repeat_rms": 0.0045033458018272805,
+    "failures": {
+      "gradient": 560,
+      "parameter_update": 445,
+      "adam_delta": 572
+    },
+    "deployed": false
+  },
+  "final_v2": {
+    "status": "deployed_and_formal_32gpu_accepted",
+    "removed": [
+      "UT_tf32x3",
+      "FLA_RMSNorm"
+    ],
+    "retained": [
+      "direct_slot_decay_backward",
+      "measured_8warp_layouts",
+      "rounded_SwiGLU",
+      "graph_local_exact_UT_dictionary_cache"
+    ],
+    "operator_sha": "9ab491fcbc7b356aeb74d90f95dd1f85bcfac74b2fe52f33dd68f85ef98a456b",
+    "loss_difference": 0.0,
+    "gradient_relative_rms": 0.00515245,
+    "baseline_repeat_rms": 0.00468493,
+    "gradient_tensors": 579,
+    "adam_passed": true,
+    "formal_identity": "job-757679e41f6c-20261109101556",
+    "formal_source_sha": "f513fda5a095ade64f330175bf51c14b93a3ad821f7ae7efcaf0c4505adb34ce",
+    "formal_speedup": 1.6894060658434125,
+    "formal_seconds": 1.6917090538981152,
+    "formal_step": 13004,
+    "formal_tokens": 13635682304,
+    "rank_restores": 32
+  },
+  "development_gpu_job": "exit0_deleted_and_confirmed_absent"
+}

@@ -1,0 +1,100 @@
+{
+  "code": 0,
+  "data": {
+    "models": [
+      {
+        "active_jobs": 15,
+        "alloc_pct": 87.5,
+        "avg_gpu_util": 0,
+        "avg_mem_pct": 65.27152591281467,
+        "avg_power_pct": 15.90667103794643,
+        "avg_sm_active": 0,
+        "avg_temp_c": 31.46484375,
+        "gpu_allocated": 56,
+        "gpu_idle": 8,
+        "gpu_total": 64,
+        "model": "nvidia.com/b300",
+        "node_count": 8,
+        "serving_allocated": 0,
+        "training_allocated": 56
+      },
+      {
+        "active_jobs": 74,
+        "alloc_pct": 99.09957627118644,
+        "avg_gpu_util": 54.296742584745765,
+        "avg_mem_pct": 61.497928974992135,
+        "avg_power_pct": 34.771279415102924,
+        "avg_sm_active": 0.2436566389036004,
+        "avg_temp_c": 35.155455508474574,
+        "gpu_allocated": 1871,
+        "gpu_idle": 17,
+        "gpu_total": 1888,
+        "model": "nvidia.com/gpu",
+        "node_count": 236,
+        "serving_allocated": 698,
+        "training_allocated": 407
+      }
+    ],
+    "pending_requests": [
+      {
+        "creator": "linlizhi",
+        "gpu_count": 8,
+        "gpu_type": "",
+        "job_name": "job-b91e5269f469-20261105172627",
+        "pod_count": 1,
+        "queue": "proj-32",
+        "status": "Pending",
+        "tenant": "qiji",
+        "user_def_name": "physics100m-exact-ddp-depo2-20261105",
+        "wait_secs": 184
+      },
+      {
+        "creator": "linlizhi",
+        "gpu_count": 8,
+        "gpu_type": "",
+        "job_name": "job-261d0e925ef6-20261105172629",
+        "pod_count": 1,
+        "queue": "proj-32",
+        "status": "Pending",
+        "tenant": "qiji",
+        "user_def_name": "physics100m-exact-ddp-brevo2-20261105",
+        "wait_secs": 182
+      }
+    ],
+    "queues": [
+      {
+        "gpu_used": 0,
+        "pod_count": 2,
+        "queue": "proj-32",
+        "task_count": 2,
+        "user_count": 1
+      }
+    ],
+    "summary": {
+      "alloc_pct": 98.71926229508196,
+      "avg_gpu_util": 52.51652151639344,
+      "avg_mem_pct": 61.90835039421151,
+      "avg_power_pct": 33.57352650226759,
+      "avg_sm_active": 0.23566789664446597,
+      "avg_temp_c": 35.03445184426229,
+      "gpu_allocated": 1927,
+      "gpu_idle": 25,
+      "gpu_total": 1952,
+      "node_full": 238,
+      "node_idle": 1,
+      "node_total": 244,
+      "pending_total": 2,
+      "power_tdp_w": 1411200,
+      "power_w": 473789.60600000026,
+      "serving_allocated": 698,
+      "task_total": 4997,
+      "training_allocated": 463
+    },
+    "tasks": [],
+    "tenants": [],
+    "users": []
+  },
+  "err_detail": "",
+  "err_msg": "",
+  "request_id": "ReqID-20261105-172926-6272-d010"
+}

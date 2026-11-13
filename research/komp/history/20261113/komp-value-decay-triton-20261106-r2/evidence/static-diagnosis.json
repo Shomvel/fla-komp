@@ -1,0 +1,9 @@
+{
+  "previous": "../komp-value-decay-triton-20261106-r1",
+  "first_failure": "multi-step Exact forward mismatch; single step passes",
+  "independent_CPU_same_geometry_error": 5.55e-13,
+  "hypothesis": "entry tape store/reload with row layouts; live state need not roundtrip global memory",
+  "fix": "register gather from live state, no same-kernel read of freshly written Entry",
+  "adjacent_audit": "backward reads completed forward tape in a separate kernel; geometry indices, FIFO compression, tail, channel tiling checked",
+  "confirmed_root_cause": false
+}

@@ -1,0 +1,960 @@
+{
+  "status": "completed",
+  "sources": {
+    "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+    "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+  },
+  "shape": [
+    17,
+    48
+  ],
+  "lengths": [
+    38,
+    28,
+    12,
+    34,
+    16,
+    26,
+    20,
+    12,
+    34,
+    14,
+    18,
+    36,
+    36,
+    16,
+    16,
+    36,
+    14
+  ],
+  "checks": {
+    "fp32": {
+      "permutation": [
+        {
+          "layer": 0,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 1,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 2,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 3,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 4,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 5,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 6,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 7,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 8,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 9,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 10,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 11,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 12,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 13,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 14,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        }
+      ],
+      "other_document_intervention": [
+        {
+          "layer": 0,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 1,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 2,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 3,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 4,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 5,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 6,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 7,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 8,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 9,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 10,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 11,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 12,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 13,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 14,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        }
+      ],
+      "partition_global_pad": [
+        {
+          "layer": 0,
+          "rms_relative": 4.0083312342176214e-05,
+          "max_abs": 0.00027467310428619385
+        },
+        {
+          "layer": 1,
+          "rms_relative": 0.0002524344890844077,
+          "max_abs": 0.001355886459350586
+        },
+        {
+          "layer": 2,
+          "rms_relative": 0.0006223797099664807,
+          "max_abs": 0.006020829081535339
+        },
+        {
+          "layer": 3,
+          "rms_relative": 0.001042129355482757,
+          "max_abs": 0.007748901844024658
+        },
+        {
+          "layer": 4,
+          "rms_relative": 0.0016465388471260667,
+          "max_abs": 0.013982415199279785
+        },
+        {
+          "layer": 5,
+          "rms_relative": 0.0027302224189043045,
+          "max_abs": 0.037114545702934265
+        },
+        {
+          "layer": 6,
+          "rms_relative": 0.003983937669545412,
+          "max_abs": 0.04743856191635132
+        },
+        {
+          "layer": 7,
+          "rms_relative": 0.0057086218148469925,
+          "max_abs": 0.08141028881072998
+        },
+        {
+          "layer": 8,
+          "rms_relative": 0.008417194709181786,
+          "max_abs": 0.16226768493652344
+        },
+        {
+          "layer": 9,
+          "rms_relative": 0.010732372291386127,
+          "max_abs": 0.1792472004890442
+        },
+        {
+          "layer": 10,
+          "rms_relative": 0.01406733226031065,
+          "max_abs": 0.19611310958862305
+        },
+        {
+          "layer": 11,
+          "rms_relative": 0.017837917432188988,
+          "max_abs": 0.24146759510040283
+        },
+        {
+          "layer": 12,
+          "rms_relative": 0.022006602957844734,
+          "max_abs": 0.3928016424179077
+        },
+        {
+          "layer": 13,
+          "rms_relative": 0.026750247925519943,
+          "max_abs": 0.3765268921852112
+        },
+        {
+          "layer": 14,
+          "rms_relative": 0.03399907052516937,
+          "max_abs": 0.551836371421814
+        }
+      ],
+      "partition_local_pad": [
+        {
+          "layer": 0,
+          "rms_relative": 4.008363248431124e-05,
+          "max_abs": 0.00027467310428619385
+        },
+        {
+          "layer": 1,
+          "rms_relative": 0.00025256103253923357,
+          "max_abs": 0.0013540685176849365
+        },
+        {
+          "layer": 2,
+          "rms_relative": 0.0006191455177031457,
+          "max_abs": 0.0060650259256362915
+        },
+        {
+          "layer": 3,
+          "rms_relative": 0.0010418688179925084,
+          "max_abs": 0.00789758563041687
+        },
+        {
+          "layer": 4,
+          "rms_relative": 0.0016411951510235667,
+          "max_abs": 0.013851284980773926
+        },
+        {
+          "layer": 5,
+          "rms_relative": 0.0027368557639420033,
+          "max_abs": 0.037114545702934265
+        },
+        {
+          "layer": 6,
+          "rms_relative": 0.004029686562716961,
+          "max_abs": 0.05030578374862671
+        },
+        {
+          "layer": 7,
+          "rms_relative": 0.005795342847704887,
+          "max_abs": 0.0846690833568573
+        },
+        {
+          "layer": 8,
+          "rms_relative": 0.008530156686902046,
+          "max_abs": 0.16226768493652344
+        },
+        {
+          "layer": 9,
+          "rms_relative": 0.010862147435545921,
+          "max_abs": 0.1792472004890442
+        },
+        {
+          "layer": 10,
+          "rms_relative": 0.014211874455213547,
+          "max_abs": 0.19611310958862305
+        },
+        {
+          "layer": 11,
+          "rms_relative": 0.01801867038011551,
+          "max_abs": 0.24146759510040283
+        },
+        {
+          "layer": 12,
+          "rms_relative": 0.022181186825037003,
+          "max_abs": 0.3928016424179077
+        },
+        {
+          "layer": 13,
+          "rms_relative": 0.027213985100388527,
+          "max_abs": 0.3765268921852112
+        },
+        {
+          "layer": 14,
+          "rms_relative": 0.03452807664871216,
+          "max_abs": 0.5966201424598694
+        }
+      ],
+      "pad_64": [
+        {
+          "layer": 0,
+          "rms_relative": 3.928337537217885e-05,
+          "max_abs": 0.00017663836479187012
+        },
+        {
+          "layer": 1,
+          "rms_relative": 0.00024911601212807,
+          "max_abs": 0.0015305131673812866
+        },
+        {
+          "layer": 2,
+          "rms_relative": 0.0006288101430982351,
+          "max_abs": 0.005984961986541748
+        },
+        {
+          "layer": 3,
+          "rms_relative": 0.0010599499801173806,
+          "max_abs": 0.009127840399742126
+        },
+        {
+          "layer": 4,
+          "rms_relative": 0.0016254171496257186,
+          "max_abs": 0.014480046927928925
+        },
+        {
+          "layer": 5,
+          "rms_relative": 0.002394396113231778,
+          "max_abs": 0.033173978328704834
+        },
+        {
+          "layer": 6,
+          "rms_relative": 0.003479576203972101,
+          "max_abs": 0.04444873332977295
+        },
+        {
+          "layer": 7,
+          "rms_relative": 0.004845194052904844,
+          "max_abs": 0.05392944812774658
+        },
+        {
+          "layer": 8,
+          "rms_relative": 0.006961587816476822,
+          "max_abs": 0.07720139622688293
+        },
+        {
+          "layer": 9,
+          "rms_relative": 0.008802036754786968,
+          "max_abs": 0.10542458295822144
+        },
+        {
+          "layer": 10,
+          "rms_relative": 0.010853027924895287,
+          "max_abs": 0.11579346656799316
+        },
+        {
+          "layer": 11,
+          "rms_relative": 0.013737771660089493,
+          "max_abs": 0.19039838016033173
+        },
+        {
+          "layer": 12,
+          "rms_relative": 0.016777081415057182,
+          "max_abs": 0.22147703170776367
+        },
+        {
+          "layer": 13,
+          "rms_relative": 0.02022690139710903,
+          "max_abs": 0.2264999896287918
+        },
+        {
+          "layer": 14,
+          "rms_relative": 0.024869108572602272,
+          "max_abs": 0.2609708309173584
+        }
+      ],
+      "pad_128": [
+        {
+          "layer": 0,
+          "rms_relative": 4.37743728980422e-05,
+          "max_abs": 0.00017576664686203003
+        },
+        {
+          "layer": 1,
+          "rms_relative": 0.00025671598268672824,
+          "max_abs": 0.0018323957920074463
+        },
+        {
+          "layer": 2,
+          "rms_relative": 0.0006068723159842193,
+          "max_abs": 0.006726562976837158
+        },
+        {
+          "layer": 3,
+          "rms_relative": 0.001014422276057303,
+          "max_abs": 0.007764935493469238
+        },
+        {
+          "layer": 4,
+          "rms_relative": 0.0015579137252643704,
+          "max_abs": 0.010212600231170654
+        },
+        {
+          "layer": 5,
+          "rms_relative": 0.0023649572394788265,
+          "max_abs": 0.021882176399230957
+        },
+        {
+          "layer": 6,
+          "rms_relative": 0.0034715819638222456,
+          "max_abs": 0.04136653617024422
+        },
+        {
+          "layer": 7,
+          "rms_relative": 0.004966932348906994,
+          "max_abs": 0.0675663948059082
+        },
+        {
+          "layer": 8,
+          "rms_relative": 0.0068605998530983925,
+          "max_abs": 0.08723589777946472
+        },
+        {
+          "layer": 9,
+          "rms_relative": 0.008661394938826561,
+          "max_abs": 0.13015639781951904
+        },
+        {
+          "layer": 10,
+          "rms_relative": 0.010795168578624725,
+          "max_abs": 0.14344894886016846
+        },
+        {
+          "layer": 11,
+          "rms_relative": 0.013542736880481243,
+          "max_abs": 0.1717904806137085
+        },
+        {
+          "layer": 12,
+          "rms_relative": 0.016712207347154617,
+          "max_abs": 0.23566152155399323
+        },
+        {
+          "layer": 13,
+          "rms_relative": 0.020167911425232887,
+          "max_abs": 0.27089929580688477
+        },
+        {
+          "layer": 14,
+          "rms_relative": 0.02426544763147831,
+          "max_abs": 0.3205941915512085
+        }
+      ]
+    },
+    "bf16": {
+      "permutation": [
+        {
+          "layer": 0,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 1,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 2,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 3,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 4,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 5,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 6,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 7,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 8,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 9,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 10,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 11,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 12,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 13,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 14,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        }
+      ],
+      "other_document_intervention": [
+        {
+          "layer": 0,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 1,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 2,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 3,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 4,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 5,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 6,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 7,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 8,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 9,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 10,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 11,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 12,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 13,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 14,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        }
+      ],
+      "partition_global_pad": [
+        {
+          "layer": 0,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 1,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 2,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 3,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 4,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 5,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 6,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 7,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 8,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 9,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 10,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 11,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 12,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 13,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 14,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        }
+      ],
+      "partition_local_pad": [
+        {
+          "layer": 0,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 1,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 2,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 3,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 4,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 5,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 6,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 7,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 8,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 9,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 10,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 11,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 12,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 13,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 14,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        }
+      ],
+      "pad_64": [
+        {
+          "layer": 0,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 1,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 2,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 3,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 4,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 5,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 6,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 7,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 8,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 9,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 10,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 11,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 12,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 13,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 14,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        }
+      ],
+      "pad_128": [
+        {
+          "layer": 0,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 1,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 2,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 3,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 4,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 5,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 6,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 7,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 8,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 9,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 10,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 11,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 12,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 13,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 14,
+          "rms_relative": 0.0,
+          "max_abs": 0.0
+        }
+      ]
+    }
+  }
+}

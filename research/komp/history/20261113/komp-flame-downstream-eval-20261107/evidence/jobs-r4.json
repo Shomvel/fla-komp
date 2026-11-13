@@ -1,0 +1,32 @@
+{
+  "project": "WeaverRSI",
+  "queue": "proj-32",
+  "jobs": [
+    {
+      "shard": 0,
+      "alias": "komp340m-downstream-eval-20261107-r4-s0",
+      "identity": "job-0094247693fa-20261107142805",
+      "status": "Running",
+      "ready": "1/1",
+      "gpus": 8
+    },
+    {
+      "shard": 1,
+      "alias": "komp340m-downstream-eval-20261107-r4-s1",
+      "identity": "job-802600c95a0f-20261107142846",
+      "status": "Running",
+      "ready": "1/1",
+      "gpus": 8
+    },
+    {
+      "shard": 2,
+      "alias": "komp340m-downstream-eval-20261107-r4-s2",
+      "identity": "job-cc0315970933-20261107142927",
+      "status": "Running",
+      "ready": "1/1",
+      "gpus": 8
+    }
+  ],
+  "total_gpu": 24,
+  "remote_evidence": "/gpfs/users/linlizhi/komp-flame-downstream-eval-20261107/sharded/evidence"
+}

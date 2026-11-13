@@ -1,0 +1,14 @@
+{
+  "status": "prepared_for_new_8gpu_preflight",
+  "scope": "GSA2 numerically-stabilized implementation; original BF16 network/head, hyperparameters and budget",
+  "whole_batch_adam_equivalence": "FAILED retained; not acceptance criterion for distributed execution",
+  "files": {
+    "ddp_train_gsa2_candidate.py": "b463fc337f09d7da36374d609f67902243e5e9bc687b8cd4b3fc880fe7e314b6",
+    "gsa2_fixed_norm_candidate.py": "168d5c488f2350bcd7ddcffa2c4c890d65d761e05cdabad1f61e484bb5d44257",
+    "gsa2_packed_eval_candidate.py": "76e92c87723e58c1e9c4db0bd7ab5076031e3cb6f36c8297c2dff95ef31856d8",
+    "gsa2_consistent_candidate.py": "8d5eb48775c766ed4a80d24bac252b1f74ae867d20c4d8cb5ba111ee4c446dda",
+    "gsa2_candidate_preflight.py": "4a85de43e19da46747d8a4ba3902691ac9d27e7b1d49953161604559fbadd263",
+    "ddp_train.py": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2",
+    "evidence/snapshot-sha256.json": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd"
+  }
+}

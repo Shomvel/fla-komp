@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-5ab05f1be9f8-20261105191317",
+    "user_def_name": "physics100m-exact-ddp-depo2-20261105",
+    "status": "Aborted",
+    "ready_status": "0/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 8
+  }
+]

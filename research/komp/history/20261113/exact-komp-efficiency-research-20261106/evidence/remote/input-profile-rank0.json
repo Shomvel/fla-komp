@@ -1,0 +1,41 @@
+{
+  "rows": [
+    {
+      "repeat": 0,
+      "seconds": 0.16805643890984356,
+      "shape": [
+        2,
+        16,
+        2049
+      ]
+    },
+    {
+      "repeat": 1,
+      "seconds": 0.11463902401737869,
+      "shape": [
+        2,
+        16,
+        2049
+      ]
+    },
+    {
+      "repeat": 2,
+      "seconds": 0.11160691594704986,
+      "shape": [
+        2,
+        16,
+        2049
+      ]
+    },
+    {
+      "repeat": 3,
+      "seconds": 0.1096462681889534,
+      "shape": [
+        2,
+        16,
+        2049
+      ]
+    }
+  ],
+  "scope": "Single rank CPU JSONL/tokenizer/packing; OS cache not flushed; no H2D, concurrent rank contention or checkpoint IO"
+}

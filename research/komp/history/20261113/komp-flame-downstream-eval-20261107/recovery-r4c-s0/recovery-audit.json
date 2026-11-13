@@ -1,0 +1,112 @@
+{
+  "status": "passed",
+  "time": "2026-11-07T11:27:15.272894+00:00",
+  "new_identity": "job-de184fdde2fc-20261107192117",
+  "old_batches_hash_verified": 4765,
+  "source_plan_kda_unchanged": true,
+  "acceptance_workers": 7,
+  "new_samples": 10,
+  "new_batches": [
+    {
+      "model": "exact_partial",
+      "batch_key": "based_fda-00006",
+      "count": 1,
+      "path": "/gpfs/users/linlizhi/komp-flame-downstream-eval-20261107/sharded/batches/exact_partial/s0/based_fda-00006.json",
+      "sha256": "9082d7f0b2e3f87eac5a7dd66dfb8986130b585c8ecbb9550161f0f6a0e2390c"
+    },
+    {
+      "model": "value",
+      "batch_key": "niah_single_2_8192-00054",
+      "count": 4,
+      "path": "/gpfs/users/linlizhi/komp-flame-downstream-eval-20261107/sharded/batches/value/s0/niah_single_2_8192-00054.json",
+      "sha256": "9f18e5ed88a4f68deb32e3f31783f371d13e98aeedfccacfc0361cb3f0dd2dd1"
+    },
+    {
+      "model": "block",
+      "batch_key": "based_swde-00117",
+      "count": 2,
+      "path": "/gpfs/users/linlizhi/komp-flame-downstream-eval-20261107/sharded/batches/block/s0/based_swde-00117.json",
+      "sha256": "28f60cc654eb3edb56d209faea991ba9bbeedbf613c869e3f2287039451f1d9b"
+    },
+    {
+      "model": "exact123",
+      "batch_key": "based_fda-00000",
+      "count": 1,
+      "path": "/gpfs/users/linlizhi/komp-flame-downstream-eval-20261107/sharded/batches/exact123/s0/based_fda-00000.json",
+      "sha256": "a6538d934477caf21dff495ae9525cf2bfc78a18d7e93f47030f226d80536314"
+    },
+    {
+      "model": "exact123",
+      "batch_key": "based_fda-00003",
+      "count": 2,
+      "path": "/gpfs/users/linlizhi/komp-flame-downstream-eval-20261107/sharded/batches/exact123/s0/based_fda-00003.json",
+      "sha256": "4f253a9481b47eed06bc248e9e2c1e0f5ff2dc3bc3de322a90bbb45f8c6182ef"
+    }
+  ],
+  "owners": [
+    {
+      "host": "job-de184fdde2fc-20261107192117-runner-0",
+      "pid": 78,
+      "model": "block123",
+      "shard": 0,
+      "created": 1794050611.2061863,
+      "job_identity": "job-de184fdde2fc-20261107192117",
+      "job_alias": "komp340m-downstream-eval-20261107-r4c-s0"
+    },
+    {
+      "host": "job-de184fdde2fc-20261107192117-runner-0",
+      "pid": 79,
+      "model": "exact123",
+      "shard": 0,
+      "created": 1794050611.2063627,
+      "job_identity": "job-de184fdde2fc-20261107192117",
+      "job_alias": "komp340m-downstream-eval-20261107-r4c-s0"
+    },
+    {
+      "host": "job-de184fdde2fc-20261107192117-runner-0",
+      "pid": 80,
+      "model": "learned",
+      "shard": 0,
+      "created": 1794050611.2067642,
+      "job_identity": "job-de184fdde2fc-20261107192117",
+      "job_alias": "komp340m-downstream-eval-20261107-r4c-s0"
+    },
+    {
+      "host": "job-de184fdde2fc-20261107192117-runner-0",
+      "pid": 81,
+      "model": "learned123",
+      "shard": 0,
+      "created": 1794050611.2058156,
+      "job_identity": "job-de184fdde2fc-20261107192117",
+      "job_alias": "komp340m-downstream-eval-20261107-r4c-s0"
+    },
+    {
+      "host": "job-de184fdde2fc-20261107192117-runner-0",
+      "pid": 82,
+      "model": "block",
+      "shard": 0,
+      "created": 1794050611.2117133,
+      "job_identity": "job-de184fdde2fc-20261107192117",
+      "job_alias": "komp340m-downstream-eval-20261107-r4c-s0"
+    },
+    {
+      "host": "job-de184fdde2fc-20261107192117-runner-0",
+      "pid": 83,
+      "model": "value",
+      "shard": 0,
+      "created": 1794050611.213301,
+      "job_identity": "job-de184fdde2fc-20261107192117",
+      "job_alias": "komp340m-downstream-eval-20261107-r4c-s0"
+    },
+    {
+      "host": "job-de184fdde2fc-20261107192117-runner-0",
+      "pid": 84,
+      "model": "exact_partial",
+      "shard": 0,
+      "created": 1794050611.2060087,
+      "job_identity": "job-de184fdde2fc-20261107192117",
+      "job_alias": "komp340m-downstream-eval-20261107-r4c-s0"
+    }
+  ],
+  "validation": "All model ID order, uniqueness, checkpoint/plan and completed-case coverage assertions passed; no old s0 batch overwritten."
+}

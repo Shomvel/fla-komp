@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "base": 512,
+  "forward": 16778240,
+  "after_backward_loss_held": 1536,
+  "after_loss_released": 1024,
+  "production_rule": "delete raw/loss immediately after backward to bound graph-local cache lifetime"
+}

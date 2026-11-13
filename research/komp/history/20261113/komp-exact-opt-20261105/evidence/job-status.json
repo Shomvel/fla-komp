@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-c1bc261ad385-20261105143636",
+    "user_def_name": "komp-exact-opt-20261105-r1",
+    "status": "Pending",
+    "ready_status": "0/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  }
+]

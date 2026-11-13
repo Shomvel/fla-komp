@@ -1,0 +1,292 @@
+{
+  "status": "passed",
+  "beta0": 0.1,
+  "slots": 32,
+  "checks": [
+    {
+      "name": "torch.float32/random65/output",
+      "relative_rms": 4.67104505151312e-07,
+      "normalized_max": 1.5078149823155584e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "torch.float32/random65/keys",
+      "relative_rms": 4.928114041465027e-08,
+      "normalized_max": 4.535310099695877e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "torch.float32/random65/state",
+      "relative_rms": 3.7529921130322226e-07,
+      "normalized_max": 2.103405613018694e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "torch.float32/random65/dq",
+      "relative_rms": 4.0082210851119384e-07,
+      "normalized_max": 4.0595620449859066e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "torch.float32/random65/dk",
+      "relative_rms": 2.5376252663646984e-07,
+      "normalized_max": 1.315011500246932e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "torch.float32/random65/dv",
+      "relative_rms": 3.1251752249075766e-07,
+      "normalized_max": 1.2490999554137794e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "torch.float32/random65/dg",
+      "relative_rms": 5.825920528633836e-07,
+      "normalized_max": 4.282072736984421e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "torch.float32/random65/dbeta",
+      "relative_rms": 2.6800250353916505e-07,
+      "normalized_max": 1.7691976641445129e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "torch.float32/random65/dk0",
+      "relative_rms": 6.760962590378018e-07,
+      "normalized_max": 2.9396503456458056e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "torch.float32/random65/ds0",
+      "relative_rms": 6.171421899995895e-07,
+      "normalized_max": 8.112273645137865e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "torch.bfloat16/random65/output",
+      "relative_rms": 0.0016596468100262478,
+      "normalized_max": 0.0004876677087148895,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "torch.bfloat16/random65/keys",
+      "relative_rms": 5.785477347631119e-08,
+      "normalized_max": 4.4312636837684494e-08,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "torch.bfloat16/random65/state",
+      "relative_rms": 3.9338345901440824e-07,
+      "normalized_max": 1.495921653771326e-07,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "torch.bfloat16/random65/dq",
+      "relative_rms": 0.0022858526572500297,
+      "normalized_max": 0.00027098997296259864,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "torch.bfloat16/random65/dk",
+      "relative_rms": 0.0017099930920405956,
+      "normalized_max": 0.000991508901788507,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "torch.bfloat16/random65/dv",
+      "relative_rms": 0.0019367417291464811,
+      "normalized_max": 0.0010378777593929023,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "torch.bfloat16/random65/dg",
+      "relative_rms": 0.0010854063354647319,
+      "normalized_max": 0.0010565068940833183,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "torch.bfloat16/random65/dbeta",
+      "relative_rms": 0.0008777252520700108,
+      "normalized_max": 0.0008407965947019056,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "torch.bfloat16/random65/dk0",
+      "relative_rms": 0.0014933524899310964,
+      "normalized_max": 0.0008726513933418611,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "torch.bfloat16/random65/ds0",
+      "relative_rms": 0.0016308983252088195,
+      "normalized_max": 0.001497035736766978,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "real_first_layer/output",
+      "relative_rms": 0.001690527661237802,
+      "normalized_max": 1.499190642911645e-05,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "real_first_layer/keys",
+      "relative_rms": 5.484274298765255e-08,
+      "normalized_max": 4.796710151300232e-08,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "real_first_layer/state",
+      "relative_rms": 3.322511877094918e-05,
+      "normalized_max": 2.855086020138453e-07,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "real_first_layer/dq",
+      "relative_rms": 0.0023756314328161666,
+      "normalized_max": 0.0008630213087483241,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "real_first_layer/dk",
+      "relative_rms": 0.0016595611382664295,
+      "normalized_max": 0.0024871637580394716,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "real_first_layer/dv",
+      "relative_rms": 0.0019579796820834608,
+      "normalized_max": 0.0010266106465680047,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "real_first_layer/dg",
+      "relative_rms": 0.0009319337080044045,
+      "normalized_max": 2.5832127151042238e-05,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "real_first_layer/dbeta",
+      "relative_rms": 0.0009314129837111724,
+      "normalized_max": 0.00015181772636489732,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "real_first_layer/dk0",
+      "relative_rms": 0.0,
+      "normalized_max": 0.0,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "real_first_layer/ds0",
+      "relative_rms": 0.002096271012845444,
+      "normalized_max": 0.002174202633214462,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "M32_adapter_original_model_forward",
+      "max_abs": 0
+    },
+    {
+      "name": "hierarchical_vs_streamed/0",
+      "relative_rms": 4.6484862728195434e-08,
+      "normalized_max": 3.725290298461914e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "hierarchical_vs_streamed/1",
+      "relative_rms": 0.0,
+      "normalized_max": 0.0,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "hierarchical_vs_streamed/2",
+      "relative_rms": 8.065194541932502e-08,
+      "normalized_max": 5.960464477539063e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "hierarchical_vs_streamed/3",
+      "relative_rms": 9.402087858055356e-08,
+      "normalized_max": 1.862645149230957e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "hierarchical_vs_streamed/4",
+      "relative_rms": 1.5252709976152364e-07,
+      "normalized_max": 1.1920928955078125e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "hierarchical_vs_streamed/5",
+      "relative_rms": 4.5101771821864805e-08,
+      "normalized_max": 4.470348358154297e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "hierarchical_vs_streamed/6",
+      "relative_rms": 7.753661296685012e-08,
+      "normalized_max": 2.088381996810623e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "hierarchical_vs_streamed/7",
+      "relative_rms": 6.45331753720074e-08,
+      "normalized_max": 1.3046228632756283e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "hierarchical_vs_streamed/8",
+      "relative_rms": 0.0,
+      "normalized_max": 0.0,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "hierarchical_vs_streamed/9",
+      "relative_rms": 5.5376412663268764e-08,
+      "normalized_max": 1.3351074240784488e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    }
+  ],
+  "scope": "Representative random and real activation forward/state/gradient checks plus hierarchical streaming consistency; original near-collinear FP32 stress failure retained."
+}

@@ -1,0 +1,47 @@
+{
+  "checks": [
+    {
+      "name": "full_projection/output",
+      "max_abs_error": 2.7755575615628914e-17,
+      "atol": 1e-10,
+      "rtol": 1e-09
+    },
+    {
+      "name": "full_projection/keys",
+      "max_abs_error": 0.0,
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    {
+      "name": "full_projection/values",
+      "max_abs_error": 5.551115123125783e-17,
+      "atol": 1e-10,
+      "rtol": 1e-09
+    },
+    {
+      "name": "geometry_gradcheck",
+      "passed": true
+    }
+  ],
+  "environment": {
+    "python": "3.12.3",
+    "torch": "2.10.0a0+b558c986e8.nv25.11",
+    "cuda": "13.0",
+    "protobuf": "5.29.6",
+    "protobuf_backend": "python",
+    "device": "cpu",
+    "tf32": false,
+    "nan_poisoning": true
+  },
+  "source_sha256": {
+    "compile_cuda.py": "3d48ce49ec4b25ba417b7ae81c959c92ccf0eb898c694b70501faddbbc45823b",
+    "komp_slot/__init__.py": "31ff68031942bcbd8efaa22724d4ccf0497cc44dd4bc6a729d43bfad48e2acfc",
+    "komp_slot/kernels.py": "72f1750a8ada09d7d2323d682bb7b5a8c73960aff96618bf58e35b22ea5df08b",
+    "komp_slot/operator.py": "ec790f5af5899cc5ece36acfd9c29d2894220fdaf1c7f5e8d8d0248d3b9d374f",
+    "komp_slot/reference.py": "34df4421b13bc0709defb191757e0d33f1fa54fb3189c834d672880d83ac29ee",
+    "validate.py": "55a51f3be4aa0c153add80563e71f31abb746c38087807e843e945b149cecee8",
+    "validate_triton_cpu.py": "5cd950d3036826e9f44c6421f9276b3a1e82c55df7458bdcbdf45b352b50e266"
+  },
+  "status": "passed",
+  "elapsed_seconds": 2.3311977041885257
+}

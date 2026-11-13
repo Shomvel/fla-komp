@@ -1,0 +1,42 @@
+{
+  "model": {
+    "kind": "exact",
+    "parameters": 102742072,
+    "width": 512,
+    "layers": 15,
+    "ff": 1984,
+    "heads": 8,
+    "head_dim": 64,
+    "short_conv": true,
+    "conv_size": 4,
+    "block_chunk": null,
+    "block_slots": 64,
+    "exact_compute_chunk": 16,
+    "compression_tokens": 1,
+    "eviction": "fifo",
+    "projection_dtype": "float32",
+    "gsa_slots": null,
+    "rope_base": null,
+    "swa_window": null,
+    "alpha0": 0.995,
+    "beta0": 0.2,
+    "experiment": "beta/M formal with fixed original M32 backbone",
+    "persistent_state_bytes_per_sequence": 3932160,
+    "coefficient_state_bytes_per_sequence": 1966080
+  },
+  "device": "NVIDIA H100 80GB HBM3",
+  "batch": 1,
+  "sequence_length": 1024,
+  "dtype": "BF16 network/head; FP32 geometry/state",
+  "forward_backward_ms": [
+    186.0174102783203,
+    186.06080627441406,
+    185.55580139160156,
+    185.74844360351562,
+    190.86061096191406
+  ],
+  "median_ms": 186.0174102783203,
+  "peak_allocated_bytes": 933879296,
+  "peak_reserved_bytes": 1136656384,
+  "scope": "Warm synthetic same-shape full-model forward/backward, activation checkpointing on, no optimizer/DDP; not training wall-clock throughput."
+}

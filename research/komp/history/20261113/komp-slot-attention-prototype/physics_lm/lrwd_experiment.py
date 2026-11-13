@@ -1,0 +1,1 @@
+../../../komp-slot-attention-prototype/physics_lm/lrwd_experiment.py

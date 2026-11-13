@@ -1,0 +1,11 @@
+{
+  "local_root": "/Users/shom/Downloads/komp-learned123-1b-50b-20261109-opt1",
+  "remote_root": "/gpfs/users/linlizhi/komp-learned123-1b-50b-20261109-opt1",
+  "alias": "komp-learned123-1b-50b-20261109-opt1",
+  "identity": "job-757679e41f6c-20261109101556",
+  "source_sha": "f513fda5a095ade64f330175bf51c14b93a3ad821f7ae7efcaf0c4505adb34ce",
+  "parent_step": 12922,
+  "parent_tokens": 13549699072,
+  "verified_utc": "2026-11-09T02:21:07.178200+00:00",
+  "reason": "User-authorized optimized continuation; current hourly entry forwards to successor, never reports parent paused/Completed as 50B finished"
+}

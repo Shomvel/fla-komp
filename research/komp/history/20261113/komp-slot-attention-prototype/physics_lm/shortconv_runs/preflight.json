@@ -1,0 +1,526 @@
+{
+  "status": "passed",
+  "data_checked": 148928,
+  "conv_checks": [
+    {
+      "dtype": "torch.float32",
+      "name": "output",
+      "rms_relative": 5.212075748772804e-08,
+      "tolerance": 2e-05
+    },
+    {
+      "dtype": "torch.float32",
+      "name": "dx",
+      "rms_relative": 7.063121643113845e-08,
+      "tolerance": 2e-05
+    },
+    {
+      "dtype": "torch.float32",
+      "name": "dw",
+      "rms_relative": 1.0673963402041409e-07,
+      "tolerance": 2e-05
+    },
+    {
+      "dtype": "torch.float32",
+      "future_gradient": 0,
+      "suffix_intervention": 0,
+      "stream_vs_full_max_abs": 3.5762786865234375e-07
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "name": "output",
+      "rms_relative": 0.0016668536700308323,
+      "tolerance": 0.015
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "name": "dx",
+      "rms_relative": 0.0017535765655338764,
+      "tolerance": 0.015
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "name": "dw",
+      "rms_relative": 0.0006038353894837201,
+      "tolerance": 0.015
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "future_gradient": 0,
+      "suffix_intervention": 0,
+      "stream_vs_full_max_abs": 0.0
+    }
+  ],
+  "models": {
+    "komp_slot_plain": {
+      "losses": [
+        10.359315872192383,
+        9.65443229675293,
+        9.20505428314209,
+        8.859488487243652,
+        8.591995239257812,
+        8.373394966125488,
+        8.189887046813965,
+        8.036307334899902,
+        7.897719383239746,
+        7.777735233306885,
+        7.668412685394287,
+        7.568085670471191,
+        7.491283416748047,
+        7.387219429016113,
+        7.299983978271484,
+        7.210268020629883
+      ],
+      "causality": [
+        {
+          "cut": 1,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 3,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 4,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 15,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 16,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 17,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 31,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 32,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 33,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 127,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 128,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 129,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 191,
+          "prefix_max_abs": 0.0
+        }
+      ],
+      "params": 8964744
+    },
+    "komp_slot_conv": {
+      "losses": [
+        10.394193649291992,
+        9.740745544433594,
+        9.297566413879395,
+        8.951988220214844,
+        8.682904243469238,
+        8.44659423828125,
+        8.245641708374023,
+        8.07555866241455,
+        7.923718452453613,
+        7.78958797454834,
+        7.667430877685547,
+        7.558904647827148,
+        7.458472728729248,
+        7.364705562591553,
+        7.274966239929199,
+        7.1879987716674805
+      ],
+      "causality": [
+        {
+          "cut": 1,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 3,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 4,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 15,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 16,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 17,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 31,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 32,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 33,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 127,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 128,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 129,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 191,
+          "prefix_max_abs": 0.0
+        }
+      ],
+      "params": 8970888
+    },
+    "gsa_plain": {
+      "losses": [
+        10.393531799316406,
+        9.754073143005371,
+        9.30626392364502,
+        8.959177017211914,
+        8.678814888000488,
+        8.45755672454834,
+        8.270861625671387,
+        8.113248825073242,
+        7.975654125213623,
+        7.856507301330566,
+        7.747091770172119,
+        7.6455397605896,
+        7.553154945373535,
+        7.4666056632995605,
+        7.389529228210449,
+        7.297857284545898
+      ],
+      "causality": [
+        {
+          "cut": 1,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 3,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 4,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 15,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 16,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 17,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 31,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 32,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 33,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 127,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 128,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 129,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 191,
+          "prefix_max_abs": 0.0
+        }
+      ],
+      "params": 8947328
+    },
+    "gsa_conv": {
+      "losses": [
+        10.375016212463379,
+        9.789216041564941,
+        9.388041496276855,
+        9.068751335144043,
+        8.797096252441406,
+        8.563898086547852,
+        8.371091842651367,
+        8.198649406433105,
+        8.052911758422852,
+        7.920270919799805,
+        7.7990899085998535,
+        7.690634250640869,
+        7.588765621185303,
+        7.4930830001831055,
+        7.404184341430664,
+        7.314846515655518
+      ],
+      "causality": [
+        {
+          "cut": 1,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 3,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 4,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 15,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 16,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 17,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 31,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 32,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 33,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 127,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 128,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 129,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 191,
+          "prefix_max_abs": 0.0
+        }
+      ],
+      "params": 8953472
+    },
+    "gdn_plain": {
+      "losses": [
+        10.358222961425781,
+        9.805498123168945,
+        9.36834716796875,
+        9.01669979095459,
+        8.738143920898438,
+        8.513599395751953,
+        8.320430755615234,
+        8.155157089233398,
+        8.006868362426758,
+        7.879209518432617,
+        7.7648515701293945,
+        7.675383567810059,
+        7.567281246185303,
+        7.47767972946167,
+        7.383162975311279,
+        7.295567989349365
+      ],
+      "causality": [
+        {
+          "cut": 1,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 3,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 4,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 15,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 16,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 17,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 31,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 32,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 33,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 127,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 128,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 129,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 191,
+          "prefix_max_abs": 0.0
+        }
+      ],
+      "params": 8916368
+    },
+    "gdn_conv": {
+      "losses": [
+        10.38768482208252,
+        9.647714614868164,
+        9.151074409484863,
+        8.788200378417969,
+        8.513927459716797,
+        8.277571678161621,
+        8.080805778503418,
+        7.919934272766113,
+        7.780169486999512,
+        7.65982723236084,
+        7.549549579620361,
+        7.454945087432861,
+        7.3641743659973145,
+        7.277459621429443,
+        7.194485187530518,
+        7.110786437988281
+      ],
+      "causality": [
+        {
+          "cut": 1,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 3,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 4,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 15,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 16,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 17,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 31,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 32,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 33,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 127,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 128,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 129,
+          "prefix_max_abs": 0.0
+        },
+        {
+          "cut": 191,
+          "prefix_max_abs": 0.0
+        }
+      ],
+      "params": 8922512
+    }
+  },
+  "source_sha256": {
+    "physics_lm/shortconv_experiment.py": "748d55dfd0a90105a30bf030e386b59d51e309c7de1c42970369619c96e2e284",
+    "physics_lm/experiment.py": "3963e05767c6a83daa5b3b3e0f1e8a559632a5c239841c8c218c22afe066a060",
+    "physics_lm/decay_experiment.py": "130a2e053196552076b57d4f60977bbfd19d544a293bbd3ac28439c6f6f55fed",
+    "benchmark_fla.py": "6c838b20e2a424a9a01103770857cb010a8c1b4077bd3740e5cf9e8dcfde3d56",
+    "physics_lm/shortconv_launch.py": "b559e947cce223e302e926e4c23837bfd615af16c4b10d9b8425546fda45dcd8",
+    "physics_lm/validate_data.py": "591674052f775554b09d3ea45779c4cc1c604c3896e63b2067af6197cb89d2d4",
+    "physics_lm/physics_port.py": "55847905097b5a7a15f691c34a065861c260bb63bef614e5dac35732d2d41319",
+    "komp_slot/__init__.py": "31ff68031942bcbd8efaa22724d4ccf0497cc44dd4bc6a729d43bfad48e2acfc",
+    "komp_slot/chunk.py": "c869f89c55e04930abb12879ece418a59034fed3fff56428129043d1c61df092",
+    "komp_slot/decay.py": "a831b7effa5907bd2b183f902f74ea521f02c28496cd3846de02743389e61e40",
+    "komp_slot/geometry.py": "e8d6604f96090c54cec87b6c4e26367900bef43b13be0f4262418062facb72a7",
+    "komp_slot/kernels.py": "72f1750a8ada09d7d2323d682bb7b5a8c73960aff96618bf58e35b22ea5df08b",
+    "komp_slot/operator.py": "daeaa5dacff6a9b7a935da2d13794557baea14661c1ec714cbfc430d7525bdb4",
+    "komp_slot/reference.py": "d2941e97714c35bd5245a675e0b232be3355f939a62e8723ab80af3d73582bd7",
+    "komp_slot/triton_chunk.py": "1f8d937754e6ea929efc816c5a2d5d7ad52eec344e4f97c224385345a38ee6df",
+    "komp_slot/utils.py": "0861344f151287a70501001231dc13a3f95a11dbc2ce2aeede55996aaecb0ada"
+  },
+  "shared_initialization": "passed",
+  "paired_initialization": "passed"
+}

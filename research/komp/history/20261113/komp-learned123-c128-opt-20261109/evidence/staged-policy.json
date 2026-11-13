@@ -1,0 +1,31 @@
+{
+  "verified": true,
+  "verification_scope": "single_H100_fixed_trained_checkpoint_inputs; formal_32GPU_acceptance_recorded_separately",
+  "description": "C128 learned forward/backward optimization: direct slot reduction, measured warps, rounded SwiGLU and exact graph-local recomputation cache; retain IEEE UT and original PyTorch RMSNorm; checkpoint cache storage releases automatically during backward",
+  "operator_sha256": "9ab491fcbc7b356aeb74d90f95dd1f85bcfac74b2fe52f33dd68f85ef98a456b",
+  "candidate_files_sha256": {
+    "snapshot/fla/modules/rounded_swiglu.py": "02305e321af33f951fe18e560ed91eec7cb02f353f512dc11e47c73814a67abf",
+    "snapshot/fla/ops/komp/block_fast.py": "9ab491fcbc7b356aeb74d90f95dd1f85bcfac74b2fe52f33dd68f85ef98a456b",
+    "snapshot/fla/models/komp/modeling_komp.py": "369b6e909ee3017575e57335aff1c11573aae37409d58932bafca50f6eaed445",
+    "models.py": "7c73dab2edf16238f3c9f04213f80458849c4f11c991b90662d238fbacb4127b"
+  },
+  "loss_tolerance": 0.001,
+  "numerical_policy": "upstream_gdn_bf16_test_chunk",
+  "verification_evidence_sha256": {
+    "final-v2-gdn-differential.json": "d0ff19f23565d25ab307aee80a4d06f80d6e21747051c908f92429bdc1638c95",
+    "final-v2-model-adam.json": "df15da61881d65eb63917448630955630d3c058e40bf09a0eae81280175f2df4",
+    "final-v2-reference-acceptance.json": "01d19527ce8a59173cc0916e2d878525dca4c88f5e942d4a219a2733259419be",
+    "final-v2-model-abba.json": "bec223cd96949cd7e06d3963abe6070f4978097b6e2d69adaceba43e632c65a3"
+  },
+  "cache_ut_layers": 24,
+  "single_h100_reference_seconds": 2.594976701773703,
+  "single_h100_candidate_seconds": 1.4693674352020025,
+  "single_h100_speedup": 1.766050233321631,
+  "peak_bytes": 68313907200,
+  "formal_32gpu_measurement": "pending",
+  "world_size": 32,
+  "microbatch": 16,
+  "accumulation": 1,
+  "global_sequences": 512,
+  "target_supervised_tokens": 50000000000
+}

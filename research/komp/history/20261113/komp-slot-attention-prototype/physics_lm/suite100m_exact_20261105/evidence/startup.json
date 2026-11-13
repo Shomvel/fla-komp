@@ -1,0 +1,101 @@
+{
+  "time": "2026-11-05T10:22:35.063446+00:00",
+  "phase": "Exact hyperparameter pilots precede frozen14run comparison",
+  "formal_14run_steps": 0,
+  "gpu_count": 16,
+  "groups": {
+    "depo2": {
+      "identity": "job-0a277787366f-20261105181616",
+      "world_size": 8,
+      "batch": 128,
+      "parameters": 100526392,
+      "projection_dtype": "float64",
+      "first_step": {
+        "loss": 10.418401489325547,
+        "tokens": 131086,
+        "supervised": 9011,
+        "microsteps": 4,
+        "global_documents": 128,
+        "grad_norm": 28.62858772277832,
+        "step": 1,
+        "total": 123,
+        "lr": 8.333333333333333e-05,
+        "seconds": 53.53163080662489
+      },
+      "latest_step": {
+        "loss": 10.418401489325547,
+        "tokens": 131086,
+        "supervised": 9011,
+        "microsteps": 4,
+        "global_documents": 128,
+        "grad_norm": 28.62858772277832,
+        "step": 1,
+        "total": 123,
+        "lr": 8.333333333333333e-05,
+        "seconds": 53.53163080662489
+      },
+      "precision_ddp": "passed",
+      "sources": {
+        "ddp": {
+          "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+          "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+        },
+        "tuning": {
+          "numerical.py": "81f8b91a62ea1fa2bc7a86afdb319bf9ab44bf2e3e75597a6235628945340436",
+          "prepare_queue.py": "104f2683c840c6acdef28e64fa3caf46c681ce840ebb99132dd74791f6f0ac4a",
+          "report.py": "53f4fd0595a1d66fd8c38e8ef005d4142f2285a006b0afb37cea24326cacbd83",
+          "tune.py": "99825009bec10dc2b26b9d1fdae1d77d596297d076f7a503bc3d115f04c81165",
+          "tuned_preflight.py": "313f0ffcc36d036554b89eb95a21141d95cc19c06bcf1ea46c4a932163086cc9"
+        },
+        "plan": "0d138f9449294e03a5c9e4bf7fc41665daf3b38293ab2b4207395e85c3ce6120"
+      }
+    },
+    "brevo2": {
+      "identity": "job-2bf1f3bd3bd1-20261105181629",
+      "world_size": 8,
+      "batch": 128,
+      "parameters": 100526392,
+      "projection_dtype": "float64",
+      "first_step": {
+        "loss": 10.439882934679401,
+        "tokens": 32143,
+        "supervised": 4476,
+        "microsteps": 1,
+        "global_documents": 128,
+        "grad_norm": 12.617977142333984,
+        "step": 1,
+        "total": 271,
+        "lr": 7.692307692307693e-05,
+        "seconds": 15.784642787650228
+      },
+      "latest_step": {
+        "loss": 10.439882934679401,
+        "tokens": 32143,
+        "supervised": 4476,
+        "microsteps": 1,
+        "global_documents": 128,
+        "grad_norm": 12.617977142333984,
+        "step": 1,
+        "total": 271,
+        "lr": 7.692307692307693e-05,
+        "seconds": 15.784642787650228
+      },
+      "precision_ddp": "passed",
+      "sources": {
+        "ddp": {
+          "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+          "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+        },
+        "tuning": {
+          "numerical.py": "81f8b91a62ea1fa2bc7a86afdb319bf9ab44bf2e3e75597a6235628945340436",
+          "prepare_queue.py": "104f2683c840c6acdef28e64fa3caf46c681ce840ebb99132dd74791f6f0ac4a",
+          "report.py": "53f4fd0595a1d66fd8c38e8ef005d4142f2285a006b0afb37cea24326cacbd83",
+          "tune.py": "99825009bec10dc2b26b9d1fdae1d77d596297d076f7a503bc3d115f04c81165",
+          "tuned_preflight.py": "313f0ffcc36d036554b89eb95a21141d95cc19c06bcf1ea46c4a932163086cc9"
+        },
+        "plan": "0d138f9449294e03a5c9e4bf7fc41665daf3b38293ab2b4207395e85c3ce6120"
+      }
+    }
+  },
+  "failure": null
+}

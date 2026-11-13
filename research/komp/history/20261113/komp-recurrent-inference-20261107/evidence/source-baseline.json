@@ -1,0 +1,14 @@
+{
+  "captured": "2026-11-07T07:56:35.523716+00:00",
+  "source_root": "/Users/shom/Downloads/fla-komp",
+  "head": "439072f54a67cc35b6310651e43ce56b4ccbe4a7",
+  "status": " M examples/komp/README.md\n M examples/komp/train.py\n M fla/layers/__init__.py\n M fla/models/__init__.py\n M fla/models/komp/modeling_komp.py\n M fla/ops/komp/__init__.py\n?? examples/__init__.py\n?? examples/komp/__init__.py\n?? fla/layers/komp_value_decay.py\n?? fla/models/komp_value_decay/\n?? fla/ops/komp/VALUE_DECAY.md\n?? fla/ops/komp/value_decay.py\n?? fla/ops/komp/value_decay_hybrid.py\n?? fla/ops/komp/value_decay_naive.py\n?? research/komp/VALUE_DECAY_INTEGRATION.md\n?? research/komp/evidence/value-decay-20261106/\n?? tests/models/test_komp_value_decay.py\n?? tests/ops/test_komp_value_decay.py\n",
+  "reference_files": {
+    "fla/ops/gsa/fused_recurrent.py": "6a21933628bd12e4d425f21a2943679153f2c6f6a5b36ee8cf4f3074471da1a5",
+    "fla/layers/gsa.py": "bcb7ca71e2f0049aa74079abea8fc2996ed1c71a9f3e7da7c98b1da7f0f80b78",
+    "fla/ops/komp/block_reference.py": "094b1a4f7d095a6c7d2092ed30b827877815a85db8c50c8118aa92ba3cb1058e",
+    "fla/ops/komp/exact_komp/geometry.py": "00212994de44a5872daf9f6fd9fa86562b538aa388d5dbf356082b7b98e278f3",
+    "fla/ops/komp/block_fast.py": "cea04d17671192bf926fd5f166cb7a6f7aea5d47dd6cb65e30397d8d38a892a7",
+    "fla/modules/causal_conv1d/ops.py": "9b59b5004b843bdface81164c0850c0b0e791df688f046fcee1c1810e06f7b16"
+  }
+}

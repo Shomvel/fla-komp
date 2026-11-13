@@ -1,0 +1,54 @@
+apiVersion: batch.volcano.sh/v1alpha1
+kind: Job
+metadata:
+  name: komp-learned123-c128-opt-20261109
+  namespace: qiji
+  annotations:
+    JobAlias: komp-learned123-c128-opt-20261109
+    project: WeaverRSI
+spec:
+  minAvailable: 1
+  schedulerName: volcano
+  queue: proj-32
+  maxRetry: 0
+  policies:
+  - events: [PodFailed, PodEvicted]
+    action: AbortJob
+  tasks:
+  - replicas: 1
+    name: runner
+    template:
+      spec:
+        activeDeadlineSeconds: 21600
+        restartPolicy: Never
+        hostNetwork: true
+        dnsPolicy: ClusterFirstWithHostNet
+        automountServiceAccountToken: false
+        tolerations:
+        - {key: task-type, operator: Equal, value: rsi-weaver, effect: NoSchedule}
+        - {key: task-type, operator: Equal, value: weaver, effect: NoSchedule}
+        volumes:
+        - name: gpfs
+          hostPath: {path: /gpfs, type: Directory}
+        - name: shm
+          emptyDir: {medium: Memory, sizeLimit: 16Gi}
+        containers:
+        - name: runner
+          image: harbor.local.clusters/bp/weaver-trainer-megatron-bridge:v1.14.30@sha256:8e310d0cb124813a25683448b41df67331951aae06e17bddcfd3f7692f71520e
+          imagePullPolicy: IfNotPresent
+          resources:
+            requests: {nvidia.com/gpu: '1', cpu: '12', memory: 128Gi}
+            limits: {nvidia.com/gpu: '1', cpu: '12', memory: 128Gi}
+          volumeMounts:
+          - {name: gpfs, mountPath: /gpfs}
+          - {name: shm, mountPath: /dev/shm}
+          command: [/bin/bash, /gpfs/users/linlizhi/komp-learned123-c128-opt-20261109/runner.sh]
+          env:
+          - {name: HTTP_PROXY, value: ''}
+          - {name: HTTPS_PROXY, value: ''}
+          - {name: ALL_PROXY, value: ''}
+          - {name: http_proxy, value: ''}
+          - {name: https_proxy, value: ''}
+          - {name: all_proxy, value: ''}
+          - {name: NO_PROXY, value: '*'}
+          - {name: no_proxy, value: '*'}

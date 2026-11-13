@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "runs": 11,
+  "selected": {
+    "lr": 0.001,
+    "wd": 0.1,
+    "val_ce": 1.8667232051192393,
+    "trial": "gsa2-small-lr0.001-wd0.1-seed731"
+  }
+}

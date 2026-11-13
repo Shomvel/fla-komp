@@ -1,0 +1,16 @@
+{
+  "status": "cpu_properties_passed_gpu_not_run",
+  "tests": 23,
+  "duration_seconds": 26.86,
+  "command": "python -m pytest tests/test_native_chunk.py tests/test_diagnostic.py -q",
+  "original_r1_token_implementation_unchanged": {
+    "komp_inference/model.py": true,
+    "komp_inference/recurrent.py": true,
+    "komp_inference/triton_step.py": true,
+    "komp_inference/prefill.py": true
+  },
+  "training_eval_sources_untouched": true,
+  "gpu_queue_actions": 0,
+  "numeric_thresholds_unchanged": true,
+  "value_support": false
+}

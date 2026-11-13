@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "scope": "Final 18/18 selection confirms the same checkpoints used in earlier projection tests; no evaluation repeated",
+  "tasks": {
+    "depo2": {
+      "winner": "alpha0-0.995",
+      "checkpoint_sha256": "03c3663f55097dbffd773b45484f8f32ba77a657496a304d95dbfcd6e3e80516",
+      "migration_evidence_sha256": "c9284ea75c3ad69e58a902013fbd4082738f85a195b2f353202889cca19d1982",
+      "full_screen_winner_unchanged": true
+    },
+    "brevo2": {
+      "winner": "alpha0-0.995",
+      "checkpoint_sha256": "0574f57cd0707bc30de76044d26af819aa359ecbceadd215e3c9b807e7c0b9ba",
+      "migration_evidence_sha256": "00dfe1ff6eaac18a2f18d8f31d4aeb3a1735b93e7edf3614d01c7470970d11ba",
+      "full_screen_winner_unchanged": true
+    }
+  }
+}

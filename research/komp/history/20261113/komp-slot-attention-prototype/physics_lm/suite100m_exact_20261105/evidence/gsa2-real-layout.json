@@ -1,0 +1,918 @@
+{
+  "status": "completed",
+  "sources": {
+    "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+    "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+  },
+  "script_sha256": "7c8eee25f12c1e4eb69d3ce00925b5258fac484a9deccb3180117ecc38185a11",
+  "scope": "Forward-only localization on the exact real Depo rows used in failed gradient witness; zero optimizer steps",
+  "shape": [
+    17,
+    960
+  ],
+  "lengths": [
+    864,
+    306,
+    692,
+    267,
+    344,
+    577,
+    505,
+    336,
+    332,
+    162,
+    272,
+    771,
+    476,
+    958,
+    308,
+    112,
+    662
+  ],
+  "checks": {
+    "same_shape_repeat": [
+      {
+        "layer": 0,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 1,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 2,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 3,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 4,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 5,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 6,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 7,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 8,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 9,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 10,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 11,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 12,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 13,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 14,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": "final_norm",
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      }
+    ],
+    "dense_eval_same_chunk": [
+      {
+        "layer": 0,
+        "finite": true,
+        "rms_relative": 0.0003179949417244643,
+        "max_abs": 0.00830078125
+      },
+      {
+        "layer": 1,
+        "finite": true,
+        "rms_relative": 0.003072103951126337,
+        "max_abs": 0.040771484375
+      },
+      {
+        "layer": 2,
+        "finite": true,
+        "rms_relative": 0.010337984189391136,
+        "max_abs": 0.1806640625
+      },
+      {
+        "layer": 3,
+        "finite": true,
+        "rms_relative": 0.01987912319600582,
+        "max_abs": 0.4218749701976776
+      },
+      {
+        "layer": 4,
+        "finite": true,
+        "rms_relative": 0.03296013921499252,
+        "max_abs": 0.6920318603515625
+      },
+      {
+        "layer": 5,
+        "finite": true,
+        "rms_relative": 0.05063070356845856,
+        "max_abs": 0.7740478515625
+      },
+      {
+        "layer": 6,
+        "finite": true,
+        "rms_relative": 0.0721653550863266,
+        "max_abs": 0.95855712890625
+      },
+      {
+        "layer": 7,
+        "finite": true,
+        "rms_relative": 0.09681134670972824,
+        "max_abs": 1.141571044921875
+      },
+      {
+        "layer": 8,
+        "finite": true,
+        "rms_relative": 0.12578363716602325,
+        "max_abs": 1.4445762634277344
+      },
+      {
+        "layer": 9,
+        "finite": true,
+        "rms_relative": 0.15599259734153748,
+        "max_abs": 1.620102047920227
+      },
+      {
+        "layer": 10,
+        "finite": true,
+        "rms_relative": 0.18859650194644928,
+        "max_abs": 2.0549697875976562
+      },
+      {
+        "layer": 11,
+        "finite": true,
+        "rms_relative": 0.22394223511219025,
+        "max_abs": 2.0601806640625
+      },
+      {
+        "layer": 12,
+        "finite": true,
+        "rms_relative": 0.26048287749290466,
+        "max_abs": 2.373077392578125
+      },
+      {
+        "layer": 13,
+        "finite": true,
+        "rms_relative": 0.2963659465312958,
+        "max_abs": 3.0997161865234375
+      },
+      {
+        "layer": 14,
+        "finite": true,
+        "rms_relative": 0.331532746553421,
+        "max_abs": 3.117095947265625
+      },
+      {
+        "layer": "final_norm",
+        "finite": true,
+        "rms_relative": 0.3317706882953644,
+        "max_abs": 2.861929178237915
+      }
+    ],
+    "permutation": [
+      {
+        "layer": 0,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 1,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 2,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 3,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 4,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 5,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 6,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 7,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 8,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 9,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 10,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 11,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 12,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 13,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 14,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": "final_norm",
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      }
+    ],
+    "other_document_intervention": [
+      {
+        "layer": 0,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 1,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 2,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 3,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 4,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 5,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 6,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 7,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 8,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 9,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 10,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 11,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 12,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 13,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 14,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": "final_norm",
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      }
+    ],
+    "partition_global_pad": [
+      {
+        "layer": 0,
+        "finite": true,
+        "rms_relative": 4.418577373144217e-05,
+        "max_abs": 0.00439453125
+      },
+      {
+        "layer": 1,
+        "finite": true,
+        "rms_relative": 0.0008679323946125805,
+        "max_abs": 0.015625
+      },
+      {
+        "layer": 2,
+        "finite": true,
+        "rms_relative": 0.0039975508116185665,
+        "max_abs": 0.07666015625
+      },
+      {
+        "layer": 3,
+        "finite": true,
+        "rms_relative": 0.008473675698041916,
+        "max_abs": 0.17822265625
+      },
+      {
+        "layer": 4,
+        "finite": true,
+        "rms_relative": 0.01499153207987547,
+        "max_abs": 0.6094474792480469
+      },
+      {
+        "layer": 5,
+        "finite": true,
+        "rms_relative": 0.023787852376699448,
+        "max_abs": 0.5952149629592896
+      },
+      {
+        "layer": 6,
+        "finite": true,
+        "rms_relative": 0.034698281437158585,
+        "max_abs": 0.870361328125
+      },
+      {
+        "layer": 7,
+        "finite": true,
+        "rms_relative": 0.04772286117076874,
+        "max_abs": 1.0272331237792969
+      },
+      {
+        "layer": 8,
+        "finite": true,
+        "rms_relative": 0.062652088701725,
+        "max_abs": 1.2001190185546875
+      },
+      {
+        "layer": 9,
+        "finite": true,
+        "rms_relative": 0.07871951162815094,
+        "max_abs": 1.4380645751953125
+      },
+      {
+        "layer": 10,
+        "finite": true,
+        "rms_relative": 0.09676329791545868,
+        "max_abs": 1.78314208984375
+      },
+      {
+        "layer": 11,
+        "finite": true,
+        "rms_relative": 0.1173396110534668,
+        "max_abs": 1.8309173583984375
+      },
+      {
+        "layer": 12,
+        "finite": true,
+        "rms_relative": 0.1392994523048401,
+        "max_abs": 2.56634521484375
+      },
+      {
+        "layer": 13,
+        "finite": true,
+        "rms_relative": 0.16113142669200897,
+        "max_abs": 2.65057373046875
+      },
+      {
+        "layer": 14,
+        "finite": true,
+        "rms_relative": 0.1831495761871338,
+        "max_abs": 3.1829833984375
+      },
+      {
+        "layer": "final_norm",
+        "finite": true,
+        "rms_relative": 0.18337321281433105,
+        "max_abs": 2.8838086128234863
+      }
+    ],
+    "partition_global_pad_supervised": [
+      {
+        "layer": 0,
+        "finite": true,
+        "rms_relative": 6.328849121928215e-05,
+        "max_abs": 0.0029296875
+      },
+      {
+        "layer": 1,
+        "finite": true,
+        "rms_relative": 0.0009007802000269294,
+        "max_abs": 0.00689697265625
+      },
+      {
+        "layer": 2,
+        "finite": true,
+        "rms_relative": 0.004450064618140459,
+        "max_abs": 0.07666015625
+      },
+      {
+        "layer": 3,
+        "finite": true,
+        "rms_relative": 0.01018043328076601,
+        "max_abs": 0.17822265625
+      },
+      {
+        "layer": 4,
+        "finite": true,
+        "rms_relative": 0.01693563349545002,
+        "max_abs": 0.3251953125
+      },
+      {
+        "layer": 5,
+        "finite": true,
+        "rms_relative": 0.026473792269825935,
+        "max_abs": 0.42449951171875
+      },
+      {
+        "layer": 6,
+        "finite": true,
+        "rms_relative": 0.03728393837809563,
+        "max_abs": 0.51123046875
+      },
+      {
+        "layer": 7,
+        "finite": true,
+        "rms_relative": 0.05042620003223419,
+        "max_abs": 0.5985107421875
+      },
+      {
+        "layer": 8,
+        "finite": true,
+        "rms_relative": 0.06733086705207825,
+        "max_abs": 0.9246826171875
+      },
+      {
+        "layer": 9,
+        "finite": true,
+        "rms_relative": 0.08442210406064987,
+        "max_abs": 1.277313232421875
+      },
+      {
+        "layer": 10,
+        "finite": true,
+        "rms_relative": 0.10559135675430298,
+        "max_abs": 1.601531982421875
+      },
+      {
+        "layer": 11,
+        "finite": true,
+        "rms_relative": 0.12731976807117462,
+        "max_abs": 1.53204345703125
+      },
+      {
+        "layer": 12,
+        "finite": true,
+        "rms_relative": 0.15121687948703766,
+        "max_abs": 1.896453857421875
+      },
+      {
+        "layer": 13,
+        "finite": true,
+        "rms_relative": 0.1763797104358673,
+        "max_abs": 2.033660888671875
+      },
+      {
+        "layer": 14,
+        "finite": true,
+        "rms_relative": 0.2007504552602768,
+        "max_abs": 2.305511474609375
+      },
+      {
+        "layer": "final_norm",
+        "finite": true,
+        "rms_relative": 0.20101769268512726,
+        "max_abs": 2.045839548110962
+      }
+    ],
+    "partition_local_pad": [
+      {
+        "layer": 0,
+        "finite": true,
+        "rms_relative": 4.418577373144217e-05,
+        "max_abs": 0.00439453125
+      },
+      {
+        "layer": 1,
+        "finite": true,
+        "rms_relative": 0.0008679323946125805,
+        "max_abs": 0.015625
+      },
+      {
+        "layer": 2,
+        "finite": true,
+        "rms_relative": 0.0039975508116185665,
+        "max_abs": 0.07666015625
+      },
+      {
+        "layer": 3,
+        "finite": true,
+        "rms_relative": 0.008473675698041916,
+        "max_abs": 0.17822265625
+      },
+      {
+        "layer": 4,
+        "finite": true,
+        "rms_relative": 0.01499153207987547,
+        "max_abs": 0.6094474792480469
+      },
+      {
+        "layer": 5,
+        "finite": true,
+        "rms_relative": 0.023787852376699448,
+        "max_abs": 0.5952149629592896
+      },
+      {
+        "layer": 6,
+        "finite": true,
+        "rms_relative": 0.034698281437158585,
+        "max_abs": 0.870361328125
+      },
+      {
+        "layer": 7,
+        "finite": true,
+        "rms_relative": 0.04772286117076874,
+        "max_abs": 1.0272331237792969
+      },
+      {
+        "layer": 8,
+        "finite": true,
+        "rms_relative": 0.062652088701725,
+        "max_abs": 1.2001190185546875
+      },
+      {
+        "layer": 9,
+        "finite": true,
+        "rms_relative": 0.07871951162815094,
+        "max_abs": 1.4380645751953125
+      },
+      {
+        "layer": 10,
+        "finite": true,
+        "rms_relative": 0.09676329791545868,
+        "max_abs": 1.78314208984375
+      },
+      {
+        "layer": 11,
+        "finite": true,
+        "rms_relative": 0.1173396110534668,
+        "max_abs": 1.8309173583984375
+      },
+      {
+        "layer": 12,
+        "finite": true,
+        "rms_relative": 0.1392994523048401,
+        "max_abs": 2.56634521484375
+      },
+      {
+        "layer": 13,
+        "finite": true,
+        "rms_relative": 0.16113142669200897,
+        "max_abs": 2.65057373046875
+      },
+      {
+        "layer": 14,
+        "finite": true,
+        "rms_relative": 0.1831495761871338,
+        "max_abs": 3.1829833984375
+      },
+      {
+        "layer": "final_norm",
+        "finite": true,
+        "rms_relative": 0.18337321281433105,
+        "max_abs": 2.8838086128234863
+      }
+    ],
+    "partition_local_pad_supervised": [
+      {
+        "layer": 0,
+        "finite": true,
+        "rms_relative": 6.328849121928215e-05,
+        "max_abs": 0.0029296875
+      },
+      {
+        "layer": 1,
+        "finite": true,
+        "rms_relative": 0.0009007802000269294,
+        "max_abs": 0.00689697265625
+      },
+      {
+        "layer": 2,
+        "finite": true,
+        "rms_relative": 0.004450064618140459,
+        "max_abs": 0.07666015625
+      },
+      {
+        "layer": 3,
+        "finite": true,
+        "rms_relative": 0.01018043328076601,
+        "max_abs": 0.17822265625
+      },
+      {
+        "layer": 4,
+        "finite": true,
+        "rms_relative": 0.01693563349545002,
+        "max_abs": 0.3251953125
+      },
+      {
+        "layer": 5,
+        "finite": true,
+        "rms_relative": 0.026473792269825935,
+        "max_abs": 0.42449951171875
+      },
+      {
+        "layer": 6,
+        "finite": true,
+        "rms_relative": 0.03728393837809563,
+        "max_abs": 0.51123046875
+      },
+      {
+        "layer": 7,
+        "finite": true,
+        "rms_relative": 0.05042620003223419,
+        "max_abs": 0.5985107421875
+      },
+      {
+        "layer": 8,
+        "finite": true,
+        "rms_relative": 0.06733086705207825,
+        "max_abs": 0.9246826171875
+      },
+      {
+        "layer": 9,
+        "finite": true,
+        "rms_relative": 0.08442210406064987,
+        "max_abs": 1.277313232421875
+      },
+      {
+        "layer": 10,
+        "finite": true,
+        "rms_relative": 0.10559135675430298,
+        "max_abs": 1.601531982421875
+      },
+      {
+        "layer": 11,
+        "finite": true,
+        "rms_relative": 0.12731976807117462,
+        "max_abs": 1.53204345703125
+      },
+      {
+        "layer": 12,
+        "finite": true,
+        "rms_relative": 0.15121687948703766,
+        "max_abs": 1.896453857421875
+      },
+      {
+        "layer": 13,
+        "finite": true,
+        "rms_relative": 0.1763797104358673,
+        "max_abs": 2.033660888671875
+      },
+      {
+        "layer": 14,
+        "finite": true,
+        "rms_relative": 0.2007504552602768,
+        "max_abs": 2.305511474609375
+      },
+      {
+        "layer": "final_norm",
+        "finite": true,
+        "rms_relative": 0.20101769268512726,
+        "max_abs": 2.045839548110962
+      }
+    ],
+    "actual_rank_microbatch": [
+      {
+        "layer": 0,
+        "finite": true,
+        "rms_relative": 4.418577373144217e-05,
+        "max_abs": 0.00439453125
+      },
+      {
+        "layer": 1,
+        "finite": true,
+        "rms_relative": 0.0008679323946125805,
+        "max_abs": 0.015625
+      },
+      {
+        "layer": 2,
+        "finite": true,
+        "rms_relative": 0.0039975508116185665,
+        "max_abs": 0.07666015625
+      },
+      {
+        "layer": 3,
+        "finite": true,
+        "rms_relative": 0.008473675698041916,
+        "max_abs": 0.17822265625
+      },
+      {
+        "layer": 4,
+        "finite": true,
+        "rms_relative": 0.01499153207987547,
+        "max_abs": 0.6094474792480469
+      },
+      {
+        "layer": 5,
+        "finite": true,
+        "rms_relative": 0.023787852376699448,
+        "max_abs": 0.5952149629592896
+      },
+      {
+        "layer": 6,
+        "finite": true,
+        "rms_relative": 0.034698281437158585,
+        "max_abs": 0.870361328125
+      },
+      {
+        "layer": 7,
+        "finite": true,
+        "rms_relative": 0.04772286117076874,
+        "max_abs": 1.0272331237792969
+      },
+      {
+        "layer": 8,
+        "finite": true,
+        "rms_relative": 0.062652088701725,
+        "max_abs": 1.2001190185546875
+      },
+      {
+        "layer": 9,
+        "finite": true,
+        "rms_relative": 0.07871951162815094,
+        "max_abs": 1.4380645751953125
+      },
+      {
+        "layer": 10,
+        "finite": true,
+        "rms_relative": 0.09676329791545868,
+        "max_abs": 1.78314208984375
+      },
+      {
+        "layer": 11,
+        "finite": true,
+        "rms_relative": 0.1173396110534668,
+        "max_abs": 1.8309173583984375
+      },
+      {
+        "layer": 12,
+        "finite": true,
+        "rms_relative": 0.1392994523048401,
+        "max_abs": 2.56634521484375
+      },
+      {
+        "layer": 13,
+        "finite": true,
+        "rms_relative": 0.16113142669200897,
+        "max_abs": 2.65057373046875
+      },
+      {
+        "layer": 14,
+        "finite": true,
+        "rms_relative": 0.1831495761871338,
+        "max_abs": 3.1829833984375
+      },
+      {
+        "layer": "final_norm",
+        "finite": true,
+        "rms_relative": 0.18337321281433105,
+        "max_abs": 2.8838086128234863
+      }
+    ]
+  },
+  "microbatch_documents": 3,
+  "training_steps": 0
+}

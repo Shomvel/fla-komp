@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-6883ce83ab8a-20261031165745",
+    "user_def_name": "komp-physics-20261031-train-r2",
+    "status": "Completed",
+    "ready_status": "0/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 3
+  }
+]

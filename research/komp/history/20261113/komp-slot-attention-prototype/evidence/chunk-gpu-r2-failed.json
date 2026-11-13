@@ -1,0 +1,527 @@
+{
+  "checks": [
+    {
+      "name": "chunk16/case0/output",
+      "max_abs_error": 0.0,
+      "atol": 3e-05,
+      "rtol": 0.0003
+    },
+    {
+      "name": "chunk16/case0/state",
+      "max_abs_error": 0.0,
+      "atol": 3e-05,
+      "rtol": 0.0003
+    },
+    {
+      "name": "chunk16/case0/grad0",
+      "max_abs_error": 0.0,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case0/grad1",
+      "max_abs_error": 0.0,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case0/grad2",
+      "max_abs_error": 0.0,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case0/grad3",
+      "max_abs_error": 0.0,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case0/grad4",
+      "max_abs_error": 1.862645149230957e-09,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case0/grad5",
+      "max_abs_error": 7.450580596923828e-09,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case0/grad6",
+      "max_abs_error": 0.0,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case0/fused_output",
+      "max_abs_error": 1.4901161193847656e-08,
+      "atol": 3e-05,
+      "rtol": 0.0003
+    },
+    {
+      "name": "chunk16/case0/fused_state",
+      "max_abs_error": 1.4901161193847656e-08,
+      "atol": 3e-05,
+      "rtol": 0.0003
+    },
+    {
+      "name": "chunk16/case1/output",
+      "max_abs_error": 8.346512913703918e-06,
+      "atol": 3e-05,
+      "rtol": 0.0003
+    },
+    {
+      "name": "chunk16/case1/state",
+      "max_abs_error": 0.0,
+      "atol": 3e-05,
+      "rtol": 0.0003
+    },
+    {
+      "name": "chunk16/case1/grad0",
+      "max_abs_error": 1.0536983609199524e-05,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case1/grad1",
+      "max_abs_error": 2.5033950805664062e-05,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case1/grad2",
+      "max_abs_error": 9.500980377197266e-05,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case1/grad3",
+      "max_abs_error": 2.9325485229492188e-05,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case1/grad4",
+      "max_abs_error": 3.0993076507002115e-05,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case1/grad5",
+      "max_abs_error": 5.53131103515625e-05,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case1/grad6",
+      "max_abs_error": 0.0,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case1/fused_output",
+      "max_abs_error": 8.347444236278534e-06,
+      "atol": 3e-05,
+      "rtol": 0.0003
+    },
+    {
+      "name": "chunk16/case1/fused_state",
+      "max_abs_error": 0.0,
+      "atol": 3e-05,
+      "rtol": 0.0003
+    },
+    {
+      "name": "chunk16/case2/output",
+      "max_abs_error": 1.4901161193847656e-08,
+      "atol": 3e-05,
+      "rtol": 0.0003
+    },
+    {
+      "name": "chunk16/case2/state",
+      "max_abs_error": 5.3085386753082275e-08,
+      "atol": 3e-05,
+      "rtol": 0.0003
+    },
+    {
+      "name": "chunk16/case2/grad0",
+      "max_abs_error": 6.705522537231445e-08,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case2/grad1",
+      "max_abs_error": 3.5762786865234375e-07,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case2/grad2",
+      "max_abs_error": 4.76837158203125e-07,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case2/grad3",
+      "max_abs_error": 2.384185791015625e-07,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case2/grad4",
+      "max_abs_error": 3.5762786865234375e-07,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case2/grad5",
+      "max_abs_error": 9.5367431640625e-07,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case2/grad6",
+      "max_abs_error": 0.0,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case2/fused_output",
+      "max_abs_error": 1.4901161193847656e-08,
+      "atol": 3e-05,
+      "rtol": 0.0003
+    },
+    {
+      "name": "chunk16/case2/fused_state",
+      "max_abs_error": 4.470348358154297e-08,
+      "atol": 3e-05,
+      "rtol": 0.0003
+    },
+    {
+      "name": "chunk16/case3/output",
+      "max_abs_error": 7.916241884231567e-09,
+      "atol": 3e-05,
+      "rtol": 0.0003
+    },
+    {
+      "name": "chunk16/case3/state",
+      "max_abs_error": 2.9802322387695312e-08,
+      "atol": 3e-05,
+      "rtol": 0.0003
+    },
+    {
+      "name": "chunk16/case3/grad0",
+      "max_abs_error": 5.960464477539063e-08,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case3/grad1",
+      "max_abs_error": 1.7881393432617188e-07,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case3/grad2",
+      "max_abs_error": 2.384185791015625e-07,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case3/grad3",
+      "max_abs_error": 1.1920928955078125e-07,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case3/grad4",
+      "max_abs_error": 2.086162567138672e-07,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case3/grad5",
+      "max_abs_error": 4.76837158203125e-07,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case3/grad6",
+      "max_abs_error": 0.0,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case3/fused_output",
+      "max_abs_error": 1.4901161193847656e-08,
+      "atol": 3e-05,
+      "rtol": 0.0003
+    },
+    {
+      "name": "chunk16/case3/fused_state",
+      "max_abs_error": 5.960464477539063e-08,
+      "atol": 3e-05,
+      "rtol": 0.0003
+    },
+    {
+      "name": "chunk16/case4/output",
+      "max_abs_error": 5.587935447692871e-09,
+      "atol": 3e-05,
+      "rtol": 0.0003
+    },
+    {
+      "name": "chunk16/case4/state",
+      "max_abs_error": 1.4901161193847656e-08,
+      "atol": 3e-05,
+      "rtol": 0.0003
+    },
+    {
+      "name": "chunk16/case4/grad0",
+      "max_abs_error": 5.960464477539063e-08,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case4/grad1",
+      "max_abs_error": 2.384185791015625e-07,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case4/grad2",
+      "max_abs_error": 7.152557373046875e-07,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case4/grad3",
+      "max_abs_error": 5.960464477539063e-08,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case4/grad4",
+      "max_abs_error": 3.5762786865234375e-07,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case4/grad5",
+      "max_abs_error": 2.384185791015625e-07,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case4/grad6",
+      "max_abs_error": 0.0,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/case4/fused_output",
+      "max_abs_error": 7.450580596923828e-09,
+      "atol": 3e-05,
+      "rtol": 0.0003
+    },
+    {
+      "name": "chunk16/case4/fused_state",
+      "max_abs_error": 2.9802322387695312e-08,
+      "atol": 3e-05,
+      "rtol": 0.0003
+    },
+    {
+      "name": "chunk16/cotangent0/grad0",
+      "max_abs_error": 1.4901161193847656e-08,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/cotangent0/grad1",
+      "max_abs_error": 3.725290298461914e-08,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/cotangent0/grad2",
+      "max_abs_error": 1.7881393432617188e-07,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/cotangent0/grad3",
+      "max_abs_error": 2.9802322387695312e-08,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/cotangent0/grad4",
+      "max_abs_error": 5.960464477539063e-08,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/cotangent0/grad5",
+      "max_abs_error": 1.7881393432617188e-07,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/cotangent0/grad6",
+      "max_abs_error": 4.470348358154297e-08,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/cotangent1/grad0",
+      "max_abs_error": 1.4901161193847656e-08,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/cotangent1/grad1",
+      "max_abs_error": 2.9802322387695312e-08,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/cotangent1/grad2",
+      "max_abs_error": 0.0,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/cotangent1/grad3",
+      "max_abs_error": 2.9802322387695312e-08,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/cotangent1/grad4",
+      "max_abs_error": 1.1920928955078125e-07,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/cotangent1/grad5",
+      "max_abs_error": 1.1920928955078125e-07,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/cotangent1/grad6",
+      "max_abs_error": 9.822542779147625e-09,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk16/strided/output",
+      "max_abs_error": 3.725290298461914e-08,
+      "atol": 3e-05,
+      "rtol": 0.0003
+    },
+    {
+      "name": "chunk16/strided/state",
+      "max_abs_error": 2.9802322387695312e-08,
+      "atol": 3e-05,
+      "rtol": 0.0003
+    },
+    {
+      "name": "chunk32/case0/output",
+      "max_abs_error": 0.0,
+      "atol": 3e-05,
+      "rtol": 0.0003
+    },
+    {
+      "name": "chunk32/case0/state",
+      "max_abs_error": 0.0,
+      "atol": 3e-05,
+      "rtol": 0.0003
+    },
+    {
+      "name": "chunk32/case0/grad0",
+      "max_abs_error": 0.0,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk32/case0/grad1",
+      "max_abs_error": 0.0,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk32/case0/grad2",
+      "max_abs_error": 0.0,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk32/case0/grad3",
+      "max_abs_error": 0.0,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk32/case0/grad4",
+      "max_abs_error": 1.862645149230957e-09,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk32/case0/grad5",
+      "max_abs_error": 7.450580596923828e-09,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk32/case0/grad6",
+      "max_abs_error": 0.0,
+      "atol": 6e-05,
+      "rtol": 0.0006
+    },
+    {
+      "name": "chunk32/case0/fused_output",
+      "max_abs_error": 1.4901161193847656e-08,
+      "atol": 3e-05,
+      "rtol": 0.0003
+    },
+    {
+      "name": "chunk32/case0/fused_state",
+      "max_abs_error": 1.4901161193847656e-08,
+      "atol": 3e-05,
+      "rtol": 0.0003
+    },
+    {
+      "name": "chunk32/case1/output",
+      "max_abs_error": 2.1068379282951355e-05,
+      "atol": 3e-05,
+      "rtol": 0.0003
+    }
+  ],
+  "environment": {
+    "python": "3.12.3",
+    "torch": "2.10.0a0+b558c986e8.nv25.11",
+    "triton": "3.6.0",
+    "cuda": "13.0",
+    "protobuf": "5.29.6",
+    "protobuf_backend": "python",
+    "device": "NVIDIA H100 80GB HBM3",
+    "tf32": false,
+    "nan_poisoning": true
+  },
+  "source_sha256": {
+    "compile_cuda.py": "c0b5cd91b29fd043412aa7304778a56282d688b9cfe740c364eff044a858e8d9",
+    "komp_slot/__init__.py": "31ff68031942bcbd8efaa22724d4ccf0497cc44dd4bc6a729d43bfad48e2acfc",
+    "komp_slot/chunk.py": "c3d7d5ffe5fc76eeb04eb8d685f000b54486930dfb362eca200fc3addf6ebf65",
+    "komp_slot/kernels.py": "72f1750a8ada09d7d2323d682bb7b5a8c73960aff96618bf58e35b22ea5df08b",
+    "komp_slot/operator.py": "6a61640060f62b8c4f0c42f49851b4db11d7432b2c0731f86f359498e759b16f",
+    "komp_slot/reference.py": "34df4421b13bc0709defb191757e0d33f1fa54fb3189c834d672880d83ac29ee",
+    "validate.py": "55a51f3be4aa0c153add80563e71f31abb746c38087807e843e945b149cecee8",
+    "validate_chunk.py": "ed60667646992764c9895c602d0891d0451f6fccdbaeb1bdecd54c94286b4b1f",
+    "validate_triton_cpu.py": "5cd950d3036826e9f44c6421f9276b3a1e82c55df7458bdcbdf45b352b50e266"
+  },
+  "status": "failed",
+  "error": "AssertionError('Tensor-likes are not close!\\n\\nMismatched elements: 35 / 1110 (3.2%)\\nGreatest absolute difference: 0.00010250508785247803 at index (1, 0, 4, 12) (up to 3e-05 allowed)\\nGreatest relative difference: 0.06703179329633713 at index (0, 1, 4, 14) (up to 0.0003 allowed)')",
+  "elapsed_seconds": 19.04493974102661
+}

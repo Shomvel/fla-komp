@@ -1,0 +1,20 @@
+{
+  "captured_utc": "2026-11-07T23:51:55.135016+00:00",
+  "status": "pending_runtime_progress",
+  "old_batches_unchanged": 23191,
+  "acceptance_passed": 12,
+  "workers_with_new_batches": 9,
+  "new_batches": 28,
+  "new_samples": 52,
+  "awaiting_first_batch": [
+    "learned-s1",
+    "block123-s2",
+    "block-s2"
+  ],
+  "completed_models_not_restarted": [
+    "kda",
+    "value",
+    "exact123",
+    "exact_partial"
+  ]
+}

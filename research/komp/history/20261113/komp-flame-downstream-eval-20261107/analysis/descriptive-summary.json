@@ -1,0 +1,207 @@
+{
+  "verified_total_results": 163656,
+  "verified_items": 184,
+  "within_task_equal_weight_means_percent": {
+    "kda": {
+      "niah_single_1_": 19.349999999999998,
+      "niah_single_2_": 33.15,
+      "niah_single_3_": 0.7499999999999999,
+      "phonebook_": 21.457142857142856
+    },
+    "block": {
+      "niah_single_1_": 2.85,
+      "niah_single_2_": 4.3,
+      "niah_single_3_": 0.3,
+      "phonebook_": 22.6
+    },
+    "block123": {
+      "niah_single_1_": 15.950000000000001,
+      "niah_single_2_": 5.9,
+      "niah_single_3_": 0.7,
+      "phonebook_": 22.514285714285712
+    },
+    "learned": {
+      "niah_single_1_": 36.35,
+      "niah_single_2_": 39.3,
+      "niah_single_3_": 0.0,
+      "phonebook_": 24.385714285714283
+    },
+    "learned123": {
+      "niah_single_1_": 68.60000000000001,
+      "niah_single_2_": 50.7,
+      "niah_single_3_": 0.45,
+      "phonebook_": 23.842857142857145
+    },
+    "value": {
+      "niah_single_1_": 3.0500000000000003,
+      "niah_single_2_": 3.4,
+      "niah_single_3_": 0.0,
+      "phonebook_": 24.528571428571432
+    },
+    "exact123": {
+      "niah_single_1_": 7.000000000000001,
+      "niah_single_2_": 5.8500000000000005,
+      "niah_single_3_": 0.0,
+      "phonebook_": 16.414285714285715
+    },
+    "exact_partial": {
+      "niah_single_1_": 1.0,
+      "niah_single_2_": 8.0,
+      "niah_single_3_": 0.0,
+      "phonebook_": 3.4285714285714284
+    }
+  },
+  "case_winners_percent": {
+    "phonebook_100": {
+      "score": 35.9,
+      "models": [
+        "Learned",
+        "Value"
+      ]
+    },
+    "phonebook_128": {
+      "score": 25.7,
+      "models": [
+        "Learned"
+      ]
+    },
+    "phonebook_150": {
+      "score": 20.9,
+      "models": [
+        "Learned+123",
+        "Value"
+      ]
+    },
+    "phonebook_200": {
+      "score": 12.6,
+      "models": [
+        "Value"
+      ]
+    },
+    "phonebook_256": {
+      "score": 9.4,
+      "models": [
+        "Value"
+      ]
+    },
+    "phonebook_32": {
+      "score": 33.900000000000006,
+      "models": [
+        "Value"
+      ]
+    },
+    "phonebook_64": {
+      "score": 34.8,
+      "models": [
+        "KDA"
+      ]
+    },
+    "based_swde": {
+      "score": 8.1008100810081,
+      "models": [
+        "Learned+123"
+      ]
+    },
+    "based_fda": {
+      "score": 3.8112522686025407,
+      "models": [
+        "Block+123"
+      ]
+    },
+    "niah_single_1_1024": {
+      "score": 91.60000000000001,
+      "models": [
+        "Learned+123"
+      ]
+    },
+    "niah_single_1_2048": {
+      "score": 83.0,
+      "models": [
+        "Learned+123"
+      ]
+    },
+    "niah_single_1_4096": {
+      "score": 44.6,
+      "models": [
+        "Learned+123"
+      ]
+    },
+    "niah_single_1_8192": {
+      "score": 55.2,
+      "models": [
+        "Learned+123"
+      ]
+    },
+    "niah_single_2_1024": {
+      "score": 94.6,
+      "models": [
+        "Learned+123"
+      ]
+    },
+    "niah_single_2_2048": {
+      "score": 78.4,
+      "models": [
+        "Learned+123"
+      ]
+    },
+    "niah_single_2_4096": {
+      "score": 26.6,
+      "models": [
+        "Learned+123"
+      ]
+    },
+    "niah_single_2_8192": {
+      "score": 8.6,
+      "models": [
+        "Learned"
+      ]
+    },
+    "niah_single_3_1024": {
+      "score": 2.1999999999999997,
+      "models": [
+        "KDA"
+      ]
+    },
+    "niah_single_3_2048": {
+      "score": 1.6,
+      "models": [
+        "Block+123"
+      ]
+    },
+    "niah_single_3_4096": {
+      "score": 1.2,
+      "models": [
+        "Block+123"
+      ]
+    },
+    "niah_single_3_8192": {
+      "score": 0.0,
+      "models": [
+        "KDA",
+        "Block",
+        "Block+123",
+        "Learned",
+        "Learned+123",
+        "Value",
+        "Exact+123"
+      ]
+    },
+    "based_nq_1024": {
+      "score": 10.231232182451695,
+      "models": [
+        "KDA"
+      ]
+    },
+    "based_drop": {
+      "score": 15.52467656923814,
+      "models": [
+        "KDA"
+      ]
+    }
+  },
+  "provenance": {
+    "final_scores_sha256": "e7e4c89b2a716cd2efa49f29e554a66b46899008b2b2eb2b18ff022948448e7e",
+    "verification_sha256": "8aaa0275783c0715407d981c76b723e9445311208957752cd595099b9d0433b5",
+    "plan_sha": "2abeb5704dc2e10579a99e5b7aca858818851781d46471bb84c1c517b94aa741"
+  }
+}

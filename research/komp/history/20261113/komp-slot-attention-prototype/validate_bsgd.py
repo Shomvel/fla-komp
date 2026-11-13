@@ -1,0 +1,1 @@
+../../komp-slot-attention-prototype/evidence/bsgd-20261101-r1/work/validate_bsgd.py

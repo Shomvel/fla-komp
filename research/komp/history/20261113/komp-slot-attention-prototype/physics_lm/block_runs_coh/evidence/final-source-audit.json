@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "runs": 56,
+  "diagnostics": 8,
+  "source_files": 644,
+  "all_workers_completed": true,
+  "no_checkpoints": true,
+  "frozen_source_unchanged": true,
+  "deterministic_algorithms": true,
+  "tokens_per_run": 10001108,
+  "steps_per_run": 2231
+}

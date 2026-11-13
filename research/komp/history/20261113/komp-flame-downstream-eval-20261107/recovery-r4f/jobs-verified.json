@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-7551a320be07-20261108145549",
+    "user_def_name": "komp340m-downstream-eval-20261108-r4f-s1",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 8
+  }
+]

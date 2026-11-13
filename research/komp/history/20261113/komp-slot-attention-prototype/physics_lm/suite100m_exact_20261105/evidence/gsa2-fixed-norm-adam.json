@@ -1,0 +1,147 @@
+{
+  "status": "completed",
+  "sources": {
+    "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+    "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+  },
+  "cases": {
+    "gsa2/mano": {
+      "whole_loss": 10.486678123474121,
+      "partition_loss": 10.486678004264832,
+      "loss_abs": 1.1920928955078125e-07,
+      "gradient_rms": {
+        "embed.weight": 0.02105414681136608,
+        "layers.0.mix.layer.o_proj.weight": 0.01873765140771866,
+        "head.weight": 0.002033780561760068
+      },
+      "parameter_max_abs": {
+        "embed.weight": 0.00019999220967292786,
+        "layers.0.mix.layer.o_proj.weight": 0.00019989348948001862,
+        "head.weight": 5.0514936447143555e-06
+      },
+      "whole_grad_norm": 4920.35400390625,
+      "partition_grad_norm": 4875.88037109375,
+      "adam_witness": {
+        "embed.weight": {
+          "flat_index": 1745,
+          "whole_raw_gradient": 1.2276973724365234,
+          "partition_raw_gradient": -1.2694892883300781,
+          "whole_clipped_gradient": 0.00024951403317979663,
+          "partition_clipped_gradient": -0.0002603610407662539,
+          "whole_gradient_rms": 0.8956496715545654,
+          "parameter_difference": 0.00019999220967292786,
+          "parameter_rms_relative": 2.4454047888866626e-05,
+          "update_rms_relative": 0.12766484916210175,
+          "sign_disagreement_fraction": 6.16455099589075e-06
+        },
+        "layers.0.mix.layer.o_proj.weight": {
+          "flat_index": 140523,
+          "whole_raw_gradient": -0.07421875,
+          "partition_raw_gradient": 0.12158203125,
+          "whole_clipped_gradient": -1.5084026459477101e-05,
+          "partition_clipped_gradient": 2.49354007833854e-05,
+          "whole_gradient_rms": 2.0838565826416016,
+          "parameter_difference": -0.00019989348948001862,
+          "parameter_rms_relative": 0.0005402915412560105,
+          "update_rms_relative": 0.13794778287410736,
+          "sign_disagreement_fraction": 0.004909515380859375
+        },
+        "head.weight": {
+          "flat_index": 5119190,
+          "whole_raw_gradient": 0.000804901123046875,
+          "partition_raw_gradient": 0.00040221214294433594,
+          "whole_clipped_gradient": 1.635860188604887e-07,
+          "partition_clipped_gradient": 8.249015813561114e-08,
+          "whole_gradient_rms": 0.0009550594259053469,
+          "parameter_difference": 5.0514936447143555e-06,
+          "parameter_rms_relative": 4.196147529000882e-06,
+          "update_rms_relative": 0.007807768881320953,
+          "sign_disagreement_fraction": 0.0005557861877605319
+        }
+      },
+      "post_step_function": {
+        "whole_loss": 10.410899442784926,
+        "partition_loss": 10.43259474810432,
+        "loss_abs": 0.02169530531939401,
+        "hidden_rms_relative": 0.6706647872924805
+      },
+      "accepted": false,
+      "thresholds": {
+        "loss_abs": 0.005,
+        "gradient_rms": 0.02,
+        "parameter_max_abs": 0.0001
+      }
+    },
+    "gsa2/depo2": {
+      "whole_loss": 10.492290496826172,
+      "partition_loss": 10.492290198802948,
+      "loss_abs": 2.980232238769531e-07,
+      "gradient_rms": {
+        "embed.weight": 0.01699136756360531,
+        "layers.0.mix.layer.o_proj.weight": 0.01634274050593376,
+        "head.weight": 0.003303150413557887
+      },
+      "parameter_max_abs": {
+        "embed.weight": 0.00019999220967292786,
+        "layers.0.mix.layer.o_proj.weight": 0.00019991211593151093,
+        "head.weight": 0.0001488868147134781
+      },
+      "whole_grad_norm": 912.1752319335938,
+      "partition_grad_norm": 913.2657470703125,
+      "adam_witness": {
+        "embed.weight": {
+          "flat_index": 1832,
+          "whole_raw_gradient": -0.3481314778327942,
+          "partition_raw_gradient": 0.20808887481689453,
+          "whole_clipped_gradient": -0.0003816497809452563,
+          "partition_clipped_gradient": 0.0002278513951241208,
+          "whole_gradient_rms": 0.1690961718559265,
+          "parameter_difference": -0.00019999220967292786,
+          "parameter_rms_relative": 2.163190583814867e-05,
+          "update_rms_relative": 0.15799711644649506,
+          "sign_disagreement_fraction": 4.699707460531499e-06
+        },
+        "layers.0.mix.layer.o_proj.weight": {
+          "flat_index": 70785,
+          "whole_raw_gradient": 0.021240234375,
+          "partition_raw_gradient": -0.0205078125,
+          "whole_clipped_gradient": 2.3285256613129605e-05,
+          "partition_clipped_gradient": -2.2455470976911203e-05,
+          "whole_gradient_rms": 0.35260939598083496,
+          "parameter_difference": 0.00019991211593151093,
+          "parameter_rms_relative": 0.0005645633209496737,
+          "update_rms_relative": 0.14415132999420166,
+          "sign_disagreement_fraction": 0.005401611328125
+        },
+        "head.weight": {
+          "flat_index": 4864324,
+          "whole_raw_gradient": -3.0517578125e-05,
+          "partition_raw_gradient": 2.3365020751953125e-05,
+          "whole_clipped_gradient": -3.3455828467140235e-08,
+          "partition_clipped_gradient": 2.5584032688538153e-08,
+          "whole_gradient_rms": 0.00025604848633520305,
+          "parameter_difference": -0.0001488868147134781,
+          "parameter_rms_relative": 3.5113239391648676e-06,
+          "update_rms_relative": 0.003552505513653159,
+          "sign_disagreement_fraction": 0.0005333252483978868
+        }
+      },
+      "post_step_function": {
+        "whole_loss": 10.463077346555206,
+        "partition_loss": 10.451788143794884,
+        "loss_abs": 0.01128920276032197,
+        "hidden_rms_relative": 0.6777477264404297
+      },
+      "accepted": false,
+      "thresholds": {
+        "loss_abs": 0.005,
+        "gradient_rms": 0.02,
+        "parameter_max_abs": 0.0001
+      }
+    }
+  },
+  "accepted": false,
+  "verdict": "FAILED",
+  "scope": "BF16 training only; FP32 whole-batch shape sensitivity retained as a limitation",
+  "layout_sha256": "9fa2e887151e93b6a184632f3e97bfd0db377a4cd5538a56fdf48bac509074e4"
+}

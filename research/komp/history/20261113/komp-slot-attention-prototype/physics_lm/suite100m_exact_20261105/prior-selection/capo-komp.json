@@ -1,0 +1,63 @@
+{
+  "lr": 0.001,
+  "wd": 0.1,
+  "val_ce": 0.9375703837789273,
+  "run": "capo-komp-tune-lr0.001-wd0.1-seed731",
+  "criterion": "minimum final validation CE at 10M tokens",
+  "candidates": [
+    {
+      "lr": 0.00025,
+      "wd": 0.0,
+      "val_ce": 0.9935676527621801,
+      "run": "capo-komp-tune-lr0.00025-wd0-seed731"
+    },
+    {
+      "lr": 0.00025,
+      "wd": 0.01,
+      "val_ce": 0.9939329248166511,
+      "run": "capo-komp-tune-lr0.00025-wd0.01-seed731"
+    },
+    {
+      "lr": 0.00025,
+      "wd": 0.1,
+      "val_ce": 0.9944793882458831,
+      "run": "capo-komp-tune-lr0.00025-wd0.1-seed731"
+    },
+    {
+      "lr": 0.0005,
+      "wd": 0.0,
+      "val_ce": 0.9549879058181167,
+      "run": "capo-komp-tune-lr0.0005-wd0-seed731"
+    },
+    {
+      "lr": 0.0005,
+      "wd": 0.01,
+      "val_ce": 0.95322812935258,
+      "run": "capo-komp-tune-lr0.0005-wd0.01-seed731"
+    },
+    {
+      "lr": 0.0005,
+      "wd": 0.1,
+      "val_ce": 0.9564853530043309,
+      "run": "capo-komp-tune-lr0.0005-wd0.1-seed731"
+    },
+    {
+      "lr": 0.001,
+      "wd": 0.0,
+      "val_ce": 0.9394890085309437,
+      "run": "capo-komp-tune-lr0.001-wd0-seed731"
+    },
+    {
+      "lr": 0.001,
+      "wd": 0.01,
+      "val_ce": 0.9397786715803135,
+      "run": "capo-komp-tune-lr0.001-wd0.01-seed731"
+    },
+    {
+      "lr": 0.001,
+      "wd": 0.1,
+      "val_ce": 0.9375703837789273,
+      "run": "capo-komp-tune-lr0.001-wd0.1-seed731"
+    }
+  ]
+}

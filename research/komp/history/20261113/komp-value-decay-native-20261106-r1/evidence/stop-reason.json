@@ -1,0 +1,6 @@
+{
+  "status": "stopped_by_us",
+  "identity": "job-f2a8d8f8466a-20261106183322",
+  "reason": "GPFS cold-cache compilation overhead; rerun same frozen source and criteria using container-local cache",
+  "numerical_failure_observed": false
+}

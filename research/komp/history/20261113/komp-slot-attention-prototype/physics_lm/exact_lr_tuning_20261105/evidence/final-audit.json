@@ -1,0 +1,69 @@
+{
+  "status": "passed",
+  "new_runs": [
+    {
+      "task": "depo2",
+      "lr": 0.00025,
+      "tokens": 10001214,
+      "val": {
+        "ce": 1.0981660440337324,
+        "supervised_positions": 65627
+      },
+      "validation_points": 5,
+      "summary_sha256": "67b448031e69323351c165f0d2cadc34c39bc1b3aeb2744fcc023c8336ef5acf"
+    },
+    {
+      "task": "depo2",
+      "lr": 0.001,
+      "tokens": 10001214,
+      "val": {
+        "ce": 1.0944265390914871,
+        "supervised_positions": 65627
+      },
+      "validation_points": 5,
+      "summary_sha256": "2fa94dc4d416cc4b64e8524db69635a776bbb3dfaa14bb4c6166cb0309c303ff"
+    },
+    {
+      "task": "brevo2",
+      "lr": 0.0005,
+      "tokens": 10000577,
+      "val": {
+        "ce": 1.2950646066500275,
+        "supervised_positions": 36619
+      },
+      "validation_points": 5,
+      "summary_sha256": "19b3773d6e1913f7bf34464ed88aad5a3c2dc76b01e25f41ab8a1d0bda93631c"
+    },
+    {
+      "task": "brevo2",
+      "lr": 0.002,
+      "tokens": 10000577,
+      "val": {
+        "ce": 1.2398476708595854,
+        "supervised_positions": 36619
+      },
+      "validation_points": 5,
+      "summary_sha256": "0c399b9c75ee86e868918e94bd41c6c5258fad0f760ac6679760573fff4907ce"
+    }
+  ],
+  "new_training_positions": 40003582,
+  "reused_runs": [
+    {
+      "task": "depo2",
+      "lr": 0.0005,
+      "new_positions": 0,
+      "checkpoint_sha256": "03c3663f55097dbffd773b45484f8f32ba77a657496a304d95dbfcd6e3e80516"
+    },
+    {
+      "task": "brevo2",
+      "lr": 0.001,
+      "new_positions": 0,
+      "checkpoint_sha256": "0574f57cd0707bc30de76044d26af819aa359ecbceadd215e3c9b807e7c0b9ba"
+    }
+  ],
+  "selection": "final full validation CE only",
+  "winners": {
+    "depo2": 0.0005,
+    "brevo2": 0.002
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "run": "brevo2-komp-final-lr0.001-wd0.1-seed731",
+  "replayed_probes": 24,
+  "complete_record_exact_equality": true,
+  "adapter_sha256": "8f52f27fca8d2e7dada83e99ea60f8abcb5bcea8bfdaf66db6ccb71ae36e57d3",
+  "scorer_sha256": "7ce5ac0b4bb570cc927c37bf176f6769598d84b264181ffd6e4f104b48c8b917",
+  "records_sha256": "c1ff32c431824f7de1bcbdc02d48a80ca112c2f9d1f3984ea9f7c6d8d25ab711",
+  "precision": "unchanged BF16network, original FP32Blockstate/projection",
+  "scope": "Exact full recorded guesses/grade match for first24already-completed probes; no additional evaluation samples"
+}

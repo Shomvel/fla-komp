@@ -1,0 +1,78 @@
+{
+  "status": "passed",
+  "candidate_source": {
+    "source_manifest_sha256": "f0ebd0c1b3375e671d849a99e70c2019b3cf20be89d588982e4e5fe86dd050f8",
+    "file_count": 15
+  },
+  "started": "2026-11-07T09:30:49.046853+00:00",
+  "finished": "2026-11-07T09:40:37.304982+00:00",
+  "checks": 120,
+  "models": [
+    {
+      "model": "block",
+      "status": "passed",
+      "checks": 15,
+      "max_fp32_rmsrel": 0.0014434030642061838,
+      "max_bf16_rmsrel": 0.004016847766282403,
+      "receipt_sha256": "f731292786c839dc67927234a6283216d5f96579dff243a1ee657386993b2c7e"
+    },
+    {
+      "model": "block123",
+      "status": "passed",
+      "checks": 15,
+      "max_fp32_rmsrel": 0.0014434030642061838,
+      "max_bf16_rmsrel": 0.004016847766282403,
+      "receipt_sha256": "cfa8e5c8c2ecf4f86af26540c3feefb047a58fa0d18f676c08e0e256d4c6ad51"
+    },
+    {
+      "model": "exact",
+      "status": "passed",
+      "checks": 15,
+      "max_fp32_rmsrel": 1.9935789774627266e-05,
+      "max_bf16_rmsrel": 0.0001811076613525703,
+      "receipt_sha256": "825a7da74c481ed5fef51d256f24c39c8c98797ca86b46519899b640f773a0f7"
+    },
+    {
+      "model": "exact123",
+      "status": "passed",
+      "checks": 15,
+      "max_fp32_rmsrel": 1.9935789774627266e-05,
+      "max_bf16_rmsrel": 0.0001811076613525703,
+      "receipt_sha256": "65996d94199c028efc0ecfb0217feb08e0dc124dd369eab018b372caccaa1041"
+    },
+    {
+      "model": "learned",
+      "status": "passed",
+      "checks": 15,
+      "max_fp32_rmsrel": 0.0014434030642061838,
+      "max_bf16_rmsrel": 0.00396513349327539,
+      "receipt_sha256": "89dbb72cdd5a79ebfc6a9c563b81acb198f8866309ad03598b0fc986c47d1faf"
+    },
+    {
+      "model": "learned123",
+      "status": "passed",
+      "checks": 15,
+      "max_fp32_rmsrel": 0.0014434030642061838,
+      "max_bf16_rmsrel": 0.00396513349327539,
+      "receipt_sha256": "2532b7a6ae0892369199bc02bf28148c85efd0ef2de68a873629eb5cf6dac929"
+    },
+    {
+      "model": "value",
+      "status": "passed",
+      "checks": 15,
+      "max_fp32_rmsrel": 0.0014721417817233392,
+      "max_bf16_rmsrel": 0.004356159055676979,
+      "receipt_sha256": "5d61e2eaa3febb8b641a715002f5a734dce5b157b7ddb345257044f1f6e972e6"
+    },
+    {
+      "model": "value_learned123",
+      "status": "passed",
+      "checks": 15,
+      "max_fp32_rmsrel": 0.0014721417817233392,
+      "max_bf16_rmsrel": 0.004300335043545716,
+      "receipt_sha256": "5bc1f4479ede73aa4b8a671aafdd0ad3a43326e27fd7f67f21c9378ff1301715"
+    }
+  ],
+  "model_checkpoint_tests": "not_run",
+  "performance": "not_measured"
+}

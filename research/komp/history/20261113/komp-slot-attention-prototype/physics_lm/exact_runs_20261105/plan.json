@@ -1,0 +1,31 @@
+{
+  "variants": [
+    "exact_scalar_fifo",
+    "exact_slot_fifo",
+    "exact_slot_gate",
+    "exact_slot_learned"
+  ],
+  "seeds": [
+    731,
+    732,
+    733,
+    734,
+    735,
+    736,
+    737
+  ],
+  "control": {
+    "kind": "gdn",
+    "seed": 731
+  },
+  "training_tokens": 10001108,
+  "lr": 0.0005,
+  "compute_chunk": 16,
+  "compression_tokens": 1,
+  "steps": 2231,
+  "paired_bootstrap": {
+    "samples": 20000,
+    "seed": 91731
+  },
+  "historical_baselines": "block_runs_v4 and block_runs_v4/gsa2; not new runs except GDN seed731"
+}

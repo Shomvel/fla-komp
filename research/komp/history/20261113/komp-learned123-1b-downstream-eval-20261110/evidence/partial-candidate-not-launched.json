@@ -1,0 +1,12 @@
+{
+  "checkpoint": "/gpfs/users/linlizhi/komp-learned123-1b-50b-20261109-opt1/runs/block/checkpoint-031744/model.pt",
+  "checkpoint_sha": "0f1ce7e719f2388b01a7ca1afab309ce6d8e38d9fb92a9ea16aa4a2e452a4f21",
+  "step": 31744,
+  "tokens": 33285996544,
+  "partial": true,
+  "target_tokens": 50000000000,
+  "source_sha": "f513fda5a095ade64f330175bf51c14b93a3ad821f7ae7efcaf0c4505adb34ce",
+  "data_sha": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+  "validation_ce": 2.244476652733283,
+  "checkpoint_bytes": 12039012513
+}

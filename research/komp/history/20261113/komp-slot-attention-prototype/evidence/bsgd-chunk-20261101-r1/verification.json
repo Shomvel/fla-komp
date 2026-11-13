@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "validation_checks": 868,
+  "benchmark_rows": 24,
+  "frozen_source_verified": true,
+  "evidence_sha256": {
+    "work/evidence/bsgd-chunk-benchmark.json": "44da5ada77f052155433ee957c4ea43959c756672edc9d8f38bbbcd9357609b7",
+    "work/evidence/bsgd-chunk-validation.json": "7db8c1d790cabc1d47e285ea23897e4f98a2316dc084b8ea9218ea458db48577"
+  },
+  "job_cleanup_verified": true
+}

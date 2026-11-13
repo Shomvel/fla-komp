@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-53ea38bb9434-20261105140137",
+    "user_def_name": "komp-exact-triton-20261105-r1",
+    "status": "Completed",
+    "ready_status": "0/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  }
+]

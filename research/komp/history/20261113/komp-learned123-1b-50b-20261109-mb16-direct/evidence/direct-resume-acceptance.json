@@ -1,0 +1,72 @@
+{
+  "captured_utc": "2026-11-08T16:44:53.566606+00:00",
+  "alias": "komp-learned123-1b-50b-20261109-mb16-direct",
+  "job": "job-9c1dd6b7454e-20261109003948",
+  "source_sha": "84e4ac86514786ff8880287d49860319cc15d4f0fbf9205b26c7298f400a887f",
+  "preflight_skipped": true,
+  "parent_restore_count": 32,
+  "parent_restore_all_passed": true,
+  "parent_step": 1068,
+  "parent_tokens": 1119879168,
+  "formal_new_steps": 22,
+  "last_metrics": [
+    {
+      "kind": "block",
+      "step": 1088,
+      "effective_input_tokens": 1140850688,
+      "input_tokens": 1140850688,
+      "supervised_tokens": 1140850688,
+      "compute_tokens": 1140850688,
+      "loss": 3.930275872349739,
+      "lr": 8.159999999999999e-05,
+      "grad_norm": 2.883115768432617,
+      "seconds": 2.8374824710190296,
+      "peak_bytes": 70372114944,
+      "peak_reserved_bytes": 75625398272,
+      "documents": 29356,
+      "excluded_documents": 0
+    },
+    {
+      "kind": "block",
+      "step": 1089,
+      "effective_input_tokens": 1141899264,
+      "input_tokens": 1141899264,
+      "supervised_tokens": 1141899264,
+      "compute_tokens": 1141899264,
+      "loss": 3.871924415230751,
+      "lr": 8.167499999999999e-05,
+      "grad_norm": 3.9544026851654053,
+      "seconds": 2.914004208520055,
+      "peak_bytes": 70372114944,
+      "peak_reserved_bytes": 75625398272,
+      "documents": 29363,
+      "excluded_documents": 0
+    },
+    {
+      "kind": "block",
+      "step": 1090,
+      "effective_input_tokens": 1142947840,
+      "input_tokens": 1142947840,
+      "supervised_tokens": 1142947840,
+      "compute_tokens": 1142947840,
+      "loss": 3.8651833832263947,
+      "lr": 8.175e-05,
+      "grad_norm": 3.4277210235595703,
+      "seconds": 2.767436906695366,
+      "peak_bytes": 70372114944,
+      "peak_reserved_bytes": 75625398272,
+      "documents": 29386,
+      "excluded_documents": 0
+    }
+  ],
+  "recent_mean_seconds": 2.8396411954114833,
+  "peak_allocated_GiB": 65.53913927078247,
+  "peak_reserved_GiB": 70.431640625,
+  "node_exits": {
+    "0": null,
+    "1": null,
+    "2": null,
+    "3": null
+  },
+  "snapshot": "monitor-20261108T164453Z.json"
+}

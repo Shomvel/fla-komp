@@ -1,0 +1,1 @@
+../../../../snapshot/fla/models/komp/configuration_komp.py

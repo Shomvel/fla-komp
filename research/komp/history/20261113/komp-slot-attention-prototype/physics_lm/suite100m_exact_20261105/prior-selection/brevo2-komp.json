@@ -1,0 +1,63 @@
+{
+  "lr": 0.001,
+  "wd": 0.1,
+  "val_ce": 1.1483866602704065,
+  "run": "brevo2-komp-tune-lr0.001-wd0.1-seed731",
+  "criterion": "minimum final validation CE at 10M tokens",
+  "candidates": [
+    {
+      "lr": 0.00025,
+      "wd": 0.0,
+      "val_ce": 1.3389534372228509,
+      "run": "brevo2-komp-tune-lr0.00025-wd0-seed731"
+    },
+    {
+      "lr": 0.00025,
+      "wd": 0.01,
+      "val_ce": 1.3463048518506464,
+      "run": "brevo2-komp-tune-lr0.00025-wd0.01-seed731"
+    },
+    {
+      "lr": 0.00025,
+      "wd": 0.1,
+      "val_ce": 1.3412709711823256,
+      "run": "brevo2-komp-tune-lr0.00025-wd0.1-seed731"
+    },
+    {
+      "lr": 0.0005,
+      "wd": 0.0,
+      "val_ce": 1.2364195540293856,
+      "run": "brevo2-komp-tune-lr0.0005-wd0-seed731"
+    },
+    {
+      "lr": 0.0005,
+      "wd": 0.01,
+      "val_ce": 1.232612756902938,
+      "run": "brevo2-komp-tune-lr0.0005-wd0.01-seed731"
+    },
+    {
+      "lr": 0.0005,
+      "wd": 0.1,
+      "val_ce": 1.235066233061765,
+      "run": "brevo2-komp-tune-lr0.0005-wd0.1-seed731"
+    },
+    {
+      "lr": 0.001,
+      "wd": 0.0,
+      "val_ce": 1.1496307862970718,
+      "run": "brevo2-komp-tune-lr0.001-wd0-seed731"
+    },
+    {
+      "lr": 0.001,
+      "wd": 0.01,
+      "val_ce": 1.1605047930002819,
+      "run": "brevo2-komp-tune-lr0.001-wd0.01-seed731"
+    },
+    {
+      "lr": 0.001,
+      "wd": 0.1,
+      "val_ce": 1.1483866602704065,
+      "run": "brevo2-komp-tune-lr0.001-wd0.1-seed731"
+    }
+  ]
+}

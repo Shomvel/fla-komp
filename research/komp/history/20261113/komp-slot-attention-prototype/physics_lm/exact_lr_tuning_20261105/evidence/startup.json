@@ -1,0 +1,33 @@
+{
+  "status": "submitted_pending_project_queue",
+  "time_unix": 1793880363.955122,
+  "allocation_requested": {
+    "formal_gpus": 16,
+    "new_lr_gpus": 16,
+    "total_requested_gpus": 32
+  },
+  "jobs": [
+    {
+      "name": "job-8bfd7b50909f-20261105200330",
+      "user_def_name": "physics100m-exact-lr-brevo2-20261105",
+      "status": "Pending",
+      "ready_status": "0/1",
+      "namespace": "qiji",
+      "job_creator": "linlizhi",
+      "user_gpu": 8
+    },
+    {
+      "name": "job-bb64d761a165-20261105200328",
+      "user_def_name": "physics100m-exact-lr-depo2-20261105",
+      "status": "Pending",
+      "ready_status": "0/1",
+      "namespace": "qiji",
+      "job_creator": "linlizhi",
+      "user_gpu": 8
+    }
+  ],
+  "reason": "queue proj-32 is overused when considering either job",
+  "scheduler_receipt": "scheduler-first.json",
+  "new_lr_training_steps": 0,
+  "original_formal_jobs_untouched": true
+}

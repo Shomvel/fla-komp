@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-0e119491221b-20261101053823",
+    "user_def_name": "komp-block-exp-20261101",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  }
+]

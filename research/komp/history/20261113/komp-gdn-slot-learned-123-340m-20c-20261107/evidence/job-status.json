@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-37d366e64589-20261107025056",
+    "user_def_name": "komp340m-block-gdn-slot-learned123-20261107",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 8
+  }
+]

@@ -1,0 +1,1 @@
+../../komp-slot-attention-prototype/GSA2_BLOCK_KAPA_COMPARISON.md

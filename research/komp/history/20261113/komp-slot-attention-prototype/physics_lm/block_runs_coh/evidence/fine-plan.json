@@ -1,0 +1,21 @@
+{
+  "thresholds": [
+    0.995,
+    0.999
+  ],
+  "pilot_seed": 731,
+  "seeds": [
+    731,
+    732,
+    733,
+    734,
+    735,
+    736,
+    737
+  ],
+  "trigger": "User requested a near-one scan after original E1 completed; original .95/.80 results retained, no further runs there",
+  "screening": "Do not expand an arm if seed731 Brevo valid drops at least10 percentage points OR confirm content CE worsens at least0.15 versus same-seed FIFO off; otherwise expand to7seeds. Single-seed screening is a resource screen, not efficacy evidence.",
+  "selection": "After eligible arms reach7seeds, select lowest mean confirm content CE among .99/.995/.999; off compared separately. If winner changes, run gate/learned+new threshold with existing matched flex off controls.",
+  "max_concurrent_gpus": 16,
+  "original_e2": "Continue locked .99 experiments, preserve as supplemental if finer winner changes"
+}

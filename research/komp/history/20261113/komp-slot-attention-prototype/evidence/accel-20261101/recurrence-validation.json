@@ -1,0 +1,17 @@
+{
+  "checks": [],
+  "candidate": "fast",
+  "environment": {
+    "torch": "2.10.0a0+b558c986e8.nv25.11",
+    "triton": "3.7.1",
+    "python": "3.12.3",
+    "gpu": "NVIDIA H100 80GB HBM3"
+  },
+  "sources": {
+    "validate_recurrence.py": "e393688d86ea726615c1197b753747fc0c8c6f441cddc11f5c194a8cb3540aac",
+    "komp_slot/recurrence.py": "a48af7fa5ecc2dc3ab071ab4ccef267494ba5516396e3ef1112fbcae508ae41e",
+    "komp_slot/triton_chunk.py": "75197354e2f2cd816e6b77f8bf67a34f95cdf18eac8219a2709af7382c96476b"
+  },
+  "benchmark": [],
+  "status": "passed"
+}

@@ -1,0 +1,702 @@
+[
+  {
+    "arm": "fifo_proj_c64",
+    "seed": 731,
+    "train_loop_and_bookkeeping_seconds": 366.42427080497146,
+    "evaluation_seconds": 36.692396745085716,
+    "generation_seconds": 5.080232076346874,
+    "reload_evaluation_seconds": 4.49095912463963,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 408.19689962640405
+  },
+  {
+    "arm": "fifo_proj_c64",
+    "seed": 732,
+    "train_loop_and_bookkeeping_seconds": 372.60458431765437,
+    "evaluation_seconds": 37.2967734914273,
+    "generation_seconds": 4.918959576636553,
+    "reload_evaluation_seconds": 4.50980737619102,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 414.8203173857182
+  },
+  {
+    "arm": "fifo_proj_c64",
+    "seed": 733,
+    "train_loop_and_bookkeeping_seconds": 364.8317257221788,
+    "evaluation_seconds": 36.69726866111159,
+    "generation_seconds": 5.0729499235749245,
+    "reload_evaluation_seconds": 4.481816368177533,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 406.60194430686533
+  },
+  {
+    "arm": "fifo_proj_c64",
+    "seed": 734,
+    "train_loop_and_bookkeeping_seconds": 379.4241289012134,
+    "evaluation_seconds": 38.141343930736184,
+    "generation_seconds": 5.604126574471593,
+    "reload_evaluation_seconds": 4.665566923096776,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 423.1695994064212
+  },
+  {
+    "arm": "fifo_proj_c64",
+    "seed": 735,
+    "train_loop_and_bookkeeping_seconds": 366.5118037033826,
+    "evaluation_seconds": 37.03000166453421,
+    "generation_seconds": 5.329254675656557,
+    "reload_evaluation_seconds": 4.52231733314693,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 408.8710600435734
+  },
+  {
+    "arm": "fifo_proj_c64",
+    "seed": 736,
+    "train_loop_and_bookkeeping_seconds": 379.15923072583973,
+    "evaluation_seconds": 38.28477578051388,
+    "generation_seconds": 5.359012557193637,
+    "reload_evaluation_seconds": 4.688761198893189,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 422.80301906354725
+  },
+  {
+    "arm": "fifo_proj_c64",
+    "seed": 737,
+    "train_loop_and_bookkeeping_seconds": 364.6816464923322,
+    "evaluation_seconds": 36.529568400233984,
+    "generation_seconds": 4.644837191328406,
+    "reload_evaluation_seconds": 4.468930963426828,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 405.8560520838946
+  },
+  {
+    "arm": "fifo_noproj_c64",
+    "seed": 731,
+    "train_loop_and_bookkeeping_seconds": 274.79692239128053,
+    "evaluation_seconds": 28.29260683245957,
+    "generation_seconds": 3.646535485982895,
+    "reload_evaluation_seconds": 3.4373750425875187,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 306.736064709723
+  },
+  {
+    "arm": "fifo_noproj_c64",
+    "seed": 732,
+    "train_loop_and_bookkeeping_seconds": 272.9361010864377,
+    "evaluation_seconds": 28.036116026341915,
+    "generation_seconds": 3.661252159625292,
+    "reload_evaluation_seconds": 3.3666414692997932,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 304.6334692724049
+  },
+  {
+    "arm": "fifo_noproj_c64",
+    "seed": 733,
+    "train_loop_and_bookkeeping_seconds": 275.1176505163312,
+    "evaluation_seconds": 28.39856058731675,
+    "generation_seconds": 3.8177479971200228,
+    "reload_evaluation_seconds": 3.4627230148762465,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 307.33395910076797
+  },
+  {
+    "arm": "fifo_noproj_c64",
+    "seed": 734,
+    "train_loop_and_bookkeeping_seconds": 275.2688671890646,
+    "evaluation_seconds": 28.49792370200157,
+    "generation_seconds": 3.829312676563859,
+    "reload_evaluation_seconds": 3.3961224276572466,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 307.59610356763005
+  },
+  {
+    "arm": "fifo_noproj_c64",
+    "seed": 735,
+    "train_loop_and_bookkeeping_seconds": 275.5904128216207,
+    "evaluation_seconds": 28.35577384568751,
+    "generation_seconds": 3.7277203146368265,
+    "reload_evaluation_seconds": 3.4198631662875414,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 307.67390698194504
+  },
+  {
+    "arm": "fifo_noproj_c64",
+    "seed": 736,
+    "train_loop_and_bookkeeping_seconds": 273.2678090147674,
+    "evaluation_seconds": 28.061137763783336,
+    "generation_seconds": 3.6339977774769068,
+    "reload_evaluation_seconds": 3.3738413117825985,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 304.96294455602765
+  },
+  {
+    "arm": "fifo_noproj_c64",
+    "seed": 737,
+    "train_loop_and_bookkeeping_seconds": 276.43062845245004,
+    "evaluation_seconds": 28.675149124115705,
+    "generation_seconds": 3.6888899952173233,
+    "reload_evaluation_seconds": 3.4651871230453253,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 308.79466757178307
+  },
+  {
+    "arm": "learned_proj_c64",
+    "seed": 731,
+    "train_loop_and_bookkeeping_seconds": 369.36616003140807,
+    "evaluation_seconds": 36.84900509566069,
+    "generation_seconds": 6.018967127427459,
+    "reload_evaluation_seconds": 4.483720935881138,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 412.2341322544962
+  },
+  {
+    "arm": "learned_proj_c64",
+    "seed": 732,
+    "train_loop_and_bookkeeping_seconds": 404.0805929712951,
+    "evaluation_seconds": 37.60101714357734,
+    "generation_seconds": 5.48861101642251,
+    "reload_evaluation_seconds": 4.5385308135300875,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 447.17022113129497
+  },
+  {
+    "arm": "learned_proj_c64",
+    "seed": 733,
+    "train_loop_and_bookkeeping_seconds": 381.26066752895713,
+    "evaluation_seconds": 38.24726457707584,
+    "generation_seconds": 5.727490019053221,
+    "reload_evaluation_seconds": 4.63522307947278,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 425.2354221250862
+  },
+  {
+    "arm": "learned_proj_c64",
+    "seed": 734,
+    "train_loop_and_bookkeeping_seconds": 392.43971080705523,
+    "evaluation_seconds": 37.62842373736203,
+    "generation_seconds": 5.56464715488255,
+    "reload_evaluation_seconds": 4.581578740850091,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 435.6327816992998
+  },
+  {
+    "arm": "learned_proj_c64",
+    "seed": 735,
+    "train_loop_and_bookkeeping_seconds": 370.977546941489,
+    "evaluation_seconds": 37.26861131936312,
+    "generation_seconds": 5.4829915929585695,
+    "reload_evaluation_seconds": 4.527141371741891,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 413.72914985381067
+  },
+  {
+    "arm": "learned_proj_c64",
+    "seed": 736,
+    "train_loop_and_bookkeeping_seconds": 379.1419692337513,
+    "evaluation_seconds": 37.89738927036524,
+    "generation_seconds": 6.113599255681038,
+    "reload_evaluation_seconds": 4.632443983107805,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 423.1529577597976
+  },
+  {
+    "arm": "learned_proj_c64",
+    "seed": 737,
+    "train_loop_and_bookkeeping_seconds": 380.17476717196405,
+    "evaluation_seconds": 37.84091869182885,
+    "generation_seconds": 5.82253404147923,
+    "reload_evaluation_seconds": 4.627495504915714,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 423.8382199052721
+  },
+  {
+    "arm": "learned_noproj_c64",
+    "seed": 731,
+    "train_loop_and_bookkeeping_seconds": 290.47821044176817,
+    "evaluation_seconds": 27.85025918483734,
+    "generation_seconds": 3.664437174797058,
+    "reload_evaluation_seconds": 3.3649327158927917,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 321.99290680140257
+  },
+  {
+    "arm": "learned_noproj_c64",
+    "seed": 732,
+    "train_loop_and_bookkeeping_seconds": 278.0233292300254,
+    "evaluation_seconds": 28.260328060016036,
+    "generation_seconds": 5.148340938612819,
+    "reload_evaluation_seconds": 3.435934893786907,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 311.43199822865427
+  },
+  {
+    "arm": "learned_noproj_c64",
+    "seed": 733,
+    "train_loop_and_bookkeeping_seconds": 285.3471036851406,
+    "evaluation_seconds": 28.197329118847847,
+    "generation_seconds": 4.131911985576153,
+    "reload_evaluation_seconds": 3.328954592347145,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 317.6763447895646
+  },
+  {
+    "arm": "learned_noproj_c64",
+    "seed": 734,
+    "train_loop_and_bookkeeping_seconds": 299.0697145406157,
+    "evaluation_seconds": 29.202167566865683,
+    "generation_seconds": 4.210949059575796,
+    "reload_evaluation_seconds": 3.559051362797618,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 332.48283116705716
+  },
+  {
+    "arm": "learned_noproj_c64",
+    "seed": 735,
+    "train_loop_and_bookkeeping_seconds": 280.7291331216693,
+    "evaluation_seconds": 29.76423466205597,
+    "generation_seconds": 4.307423330843449,
+    "reload_evaluation_seconds": 3.432644262909889,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 314.8007911145687
+  },
+  {
+    "arm": "learned_noproj_c64",
+    "seed": 736,
+    "train_loop_and_bookkeeping_seconds": 276.74012722074986,
+    "evaluation_seconds": 28.17524259351194,
+    "generation_seconds": 3.934854520484805,
+    "reload_evaluation_seconds": 3.394312432035804,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 308.8502243347466
+  },
+  {
+    "arm": "learned_noproj_c64",
+    "seed": 737,
+    "train_loop_and_bookkeeping_seconds": 273.8246464803815,
+    "evaluation_seconds": 29.18461498618126,
+    "generation_seconds": 4.359609037637711,
+    "reload_evaluation_seconds": 3.309549555182457,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 307.36887050420046
+  },
+  {
+    "arm": "swa_w32",
+    "seed": 731,
+    "train_loop_and_bookkeeping_seconds": 51.52776347286999,
+    "evaluation_seconds": 4.827449660748243,
+    "generation_seconds": 0.44549545273184776,
+    "reload_evaluation_seconds": 0.550899188965559,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 56.80070858635008
+  },
+  {
+    "arm": "swa_w32",
+    "seed": 732,
+    "train_loop_and_bookkeeping_seconds": 51.59635530970991,
+    "evaluation_seconds": 4.784917825832963,
+    "generation_seconds": 0.4781576879322529,
+    "reload_evaluation_seconds": 0.5399566255509853,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 56.85943082347512
+  },
+  {
+    "arm": "swa_w32",
+    "seed": 733,
+    "train_loop_and_bookkeeping_seconds": 52.01456642895937,
+    "evaluation_seconds": 4.818864988163114,
+    "generation_seconds": 0.4986588917672634,
+    "reload_evaluation_seconds": 0.5494696814566851,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 57.33209030888975
+  },
+  {
+    "arm": "swa_w32",
+    "seed": 734,
+    "train_loop_and_bookkeeping_seconds": 51.56852656044066,
+    "evaluation_seconds": 4.805142706260085,
+    "generation_seconds": 0.466595072299242,
+    "reload_evaluation_seconds": 0.5457431580871344,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 56.84026433899999
+  },
+  {
+    "arm": "swa_w32",
+    "seed": 735,
+    "train_loop_and_bookkeeping_seconds": 51.82183873653412,
+    "evaluation_seconds": 4.820527359843254,
+    "generation_seconds": 0.46431101486086845,
+    "reload_evaluation_seconds": 0.5470721069723368,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 57.10667711123824
+  },
+  {
+    "arm": "swa_w32",
+    "seed": 736,
+    "train_loop_and_bookkeeping_seconds": 51.57259439304471,
+    "evaluation_seconds": 4.881008764728904,
+    "generation_seconds": 0.49120919592678547,
+    "reload_evaluation_seconds": 0.5481177847832441,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 56.9448123537004
+  },
+  {
+    "arm": "swa_w32",
+    "seed": 737,
+    "train_loop_and_bookkeeping_seconds": 51.61889670602977,
+    "evaluation_seconds": 4.884991694241762,
+    "generation_seconds": 0.46223461627960205,
+    "reload_evaluation_seconds": 0.5492912698537111,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 56.96612301655114
+  },
+  {
+    "arm": "swa_w96",
+    "seed": 731,
+    "train_loop_and_bookkeeping_seconds": 51.66821024566889,
+    "evaluation_seconds": 4.621027134358883,
+    "generation_seconds": 0.47373412549495697,
+    "reload_evaluation_seconds": 0.5230301395058632,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 56.76297150552273
+  },
+  {
+    "arm": "swa_w96",
+    "seed": 732,
+    "train_loop_and_bookkeeping_seconds": 51.536866676062346,
+    "evaluation_seconds": 4.7636759504675865,
+    "generation_seconds": 0.5201998595148325,
+    "reload_evaluation_seconds": 0.5464697647839785,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 56.820742486044765
+  },
+  {
+    "arm": "swa_w96",
+    "seed": 733,
+    "train_loop_and_bookkeeping_seconds": 50.60932548344135,
+    "evaluation_seconds": 4.552587077021599,
+    "generation_seconds": 0.4804803356528282,
+    "reload_evaluation_seconds": 0.5143239423632622,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 55.64239289611578
+  },
+  {
+    "arm": "swa_w96",
+    "seed": 734,
+    "train_loop_and_bookkeeping_seconds": 51.497515404596925,
+    "evaluation_seconds": 4.810673298314214,
+    "generation_seconds": 0.5816114563494921,
+    "reload_evaluation_seconds": 0.545551648363471,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 56.88980015926063
+  },
+  {
+    "arm": "swa_w96",
+    "seed": 735,
+    "train_loop_and_bookkeeping_seconds": 51.760530315339565,
+    "evaluation_seconds": 4.661961585283279,
+    "generation_seconds": 0.4751411899924278,
+    "reload_evaluation_seconds": 0.5282874330878258,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 56.89763309061527
+  },
+  {
+    "arm": "swa_w96",
+    "seed": 736,
+    "train_loop_and_bookkeeping_seconds": 51.655100628733635,
+    "evaluation_seconds": 4.880991030484438,
+    "generation_seconds": 0.5777893885970116,
+    "reload_evaluation_seconds": 0.541302552446723,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 57.113881047815084
+  },
+  {
+    "arm": "swa_w96",
+    "seed": 737,
+    "train_loop_and_bookkeeping_seconds": 50.916070997714996,
+    "evaluation_seconds": 5.156603492796421,
+    "generation_seconds": 0.5200383812189102,
+    "reload_evaluation_seconds": 0.5340132713317871,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 56.59271287173033
+  },
+  {
+    "arm": "swa_w96_nope",
+    "seed": 731,
+    "train_loop_and_bookkeeping_seconds": 41.15970417112112,
+    "evaluation_seconds": 3.4795410856604576,
+    "generation_seconds": 0.3634561449289322,
+    "reload_evaluation_seconds": 0.3791384696960449,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 45.00270140171051
+  },
+  {
+    "arm": "swa_w96_nope",
+    "seed": 732,
+    "train_loop_and_bookkeeping_seconds": 42.852154556661844,
+    "evaluation_seconds": 3.5839169956743717,
+    "generation_seconds": 0.3472677655518055,
+    "reload_evaluation_seconds": 0.4107398670166731,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 46.78333931788802
+  },
+  {
+    "arm": "swa_w96_nope",
+    "seed": 733,
+    "train_loop_and_bookkeeping_seconds": 42.794164441525936,
+    "evaluation_seconds": 3.521157629787922,
+    "generation_seconds": 0.35108359158039093,
+    "reload_evaluation_seconds": 0.3829622194170952,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 46.66640566289425
+  },
+  {
+    "arm": "swa_w96_nope",
+    "seed": 734,
+    "train_loop_and_bookkeeping_seconds": 42.62384829297662,
+    "evaluation_seconds": 3.589071176946163,
+    "generation_seconds": 0.41621754318475723,
+    "reload_evaluation_seconds": 0.4080706909298897,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 46.62913701310754
+  },
+  {
+    "arm": "swa_w96_nope",
+    "seed": 735,
+    "train_loop_and_bookkeeping_seconds": 40.319700948894024,
+    "evaluation_seconds": 3.383916676044464,
+    "generation_seconds": 0.41138961911201477,
+    "reload_evaluation_seconds": 0.37987446784973145,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 44.1150072440505
+  },
+  {
+    "arm": "swa_w96_nope",
+    "seed": 736,
+    "train_loop_and_bookkeeping_seconds": 42.69176018051803,
+    "evaluation_seconds": 3.619361948221922,
+    "generation_seconds": 0.3335148971527815,
+    "reload_evaluation_seconds": 0.40707812272012234,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 46.644637025892735
+  },
+  {
+    "arm": "swa_w96_nope",
+    "seed": 737,
+    "train_loop_and_bookkeeping_seconds": 40.63508525490761,
+    "evaluation_seconds": 3.66559686511755,
+    "generation_seconds": 0.32658132165670395,
+    "reload_evaluation_seconds": 0.3788822814822197,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 44.62726344168186
+  },
+  {
+    "arm": "full_attn",
+    "seed": 731,
+    "train_loop_and_bookkeeping_seconds": 49.3851862475276,
+    "evaluation_seconds": 4.674249567091465,
+    "generation_seconds": 0.579934298992157,
+    "reload_evaluation_seconds": 0.5383351296186447,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 54.63937011361122
+  },
+  {
+    "arm": "full_attn",
+    "seed": 732,
+    "train_loop_and_bookkeeping_seconds": 51.338263653218746,
+    "evaluation_seconds": 4.809717258438468,
+    "generation_seconds": 0.5388618800789118,
+    "reload_evaluation_seconds": 0.5415161773562431,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 56.686842791736126
+  },
+  {
+    "arm": "full_attn",
+    "seed": 733,
+    "train_loop_and_bookkeeping_seconds": 49.991672441363335,
+    "evaluation_seconds": 4.601806566119194,
+    "generation_seconds": 0.49160531908273697,
+    "reload_evaluation_seconds": 0.5197106003761292,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 55.085084326565266
+  },
+  {
+    "arm": "full_attn",
+    "seed": 734,
+    "train_loop_and_bookkeeping_seconds": 51.48913499340415,
+    "evaluation_seconds": 4.833438288420439,
+    "generation_seconds": 0.5100577641278505,
+    "reload_evaluation_seconds": 0.5539724249392748,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 56.83263104595244
+  },
+  {
+    "arm": "full_attn",
+    "seed": 735,
+    "train_loop_and_bookkeeping_seconds": 50.790534652769566,
+    "evaluation_seconds": 4.691050581634045,
+    "generation_seconds": 0.5431051328778267,
+    "reload_evaluation_seconds": 0.532414972782135,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 56.02469036728144
+  },
+  {
+    "arm": "full_attn",
+    "seed": 736,
+    "train_loop_and_bookkeeping_seconds": 51.35189279541373,
+    "evaluation_seconds": 4.773318246006966,
+    "generation_seconds": 0.5476318951696157,
+    "reload_evaluation_seconds": 0.5391849111765623,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 56.672842936590314
+  },
+  {
+    "arm": "full_attn",
+    "seed": 737,
+    "train_loop_and_bookkeeping_seconds": 50.37506482005119,
+    "evaluation_seconds": 4.88166818022728,
+    "generation_seconds": 0.5535972714424133,
+    "reload_evaluation_seconds": 0.5278781354427338,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 55.810330271720886
+  },
+  {
+    "arm": "fifo_proj_c128",
+    "seed": 731,
+    "train_loop_and_bookkeeping_seconds": 245.81116443686187,
+    "evaluation_seconds": 26.126159209758043,
+    "generation_seconds": 3.947429647669196,
+    "reload_evaluation_seconds": 3.1427315771579742,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 275.8847532942891
+  },
+  {
+    "arm": "fifo_proj_c128",
+    "seed": 732,
+    "train_loop_and_bookkeeping_seconds": 253.04472652636468,
+    "evaluation_seconds": 26.947303026914597,
+    "generation_seconds": 4.294228350743651,
+    "reload_evaluation_seconds": 3.262757286429405,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 284.28625790402293
+  },
+  {
+    "arm": "fifo_proj_c128",
+    "seed": 733,
+    "train_loop_and_bookkeeping_seconds": 249.37254695221782,
+    "evaluation_seconds": 26.493867456912994,
+    "generation_seconds": 3.6323540341109037,
+    "reload_evaluation_seconds": 3.2107688821852207,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 279.4987684432417
+  },
+  {
+    "arm": "fifo_proj_c128",
+    "seed": 734,
+    "train_loop_and_bookkeeping_seconds": 250.0797401741147,
+    "evaluation_seconds": 26.37610600888729,
+    "generation_seconds": 4.3446049913764,
+    "reload_evaluation_seconds": 3.1747390925884247,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 280.8004511743784
+  },
+  {
+    "arm": "fifo_proj_c128",
+    "seed": 735,
+    "train_loop_and_bookkeeping_seconds": 250.97198849357665,
+    "evaluation_seconds": 26.504333276301622,
+    "generation_seconds": 4.436175040900707,
+    "reload_evaluation_seconds": 3.285815767943859,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 281.912496810779
+  },
+  {
+    "arm": "fifo_proj_c128",
+    "seed": 736,
+    "train_loop_and_bookkeeping_seconds": 252.66088872402906,
+    "evaluation_seconds": 26.77455953322351,
+    "generation_seconds": 3.837897952646017,
+    "reload_evaluation_seconds": 3.3340412750840187,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 283.2733462098986
+  },
+  {
+    "arm": "fifo_proj_c128",
+    "seed": 737,
+    "train_loop_and_bookkeeping_seconds": 251.06320388056338,
+    "evaluation_seconds": 26.989200385287404,
+    "generation_seconds": 3.965088313445449,
+    "reload_evaluation_seconds": 3.2714003454893827,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 282.01749257929623
+  },
+  {
+    "arm": "fifo_noproj_c128",
+    "seed": 731,
+    "train_loop_and_bookkeeping_seconds": 192.97920325025916,
+    "evaluation_seconds": 20.58713929541409,
+    "generation_seconds": 2.953429915010929,
+    "reload_evaluation_seconds": 2.490553990006447,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 216.51977246068418
+  },
+  {
+    "arm": "fifo_noproj_c128",
+    "seed": 732,
+    "train_loop_and_bookkeeping_seconds": 187.72302410006523,
+    "evaluation_seconds": 19.74255219101906,
+    "generation_seconds": 2.457484968006611,
+    "reload_evaluation_seconds": 2.3586743772029877,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 209.9230612590909
+  },
+  {
+    "arm": "fifo_noproj_c128",
+    "seed": 733,
+    "train_loop_and_bookkeeping_seconds": 195.10047787427902,
+    "evaluation_seconds": 20.219818361103535,
+    "generation_seconds": 2.539821572601795,
+    "reload_evaluation_seconds": 2.382892608642578,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 217.86011780798435
+  },
+  {
+    "arm": "fifo_noproj_c128",
+    "seed": 734,
+    "train_loop_and_bookkeeping_seconds": 197.98745255172253,
+    "evaluation_seconds": 20.836322598159313,
+    "generation_seconds": 3.031387537717819,
+    "reload_evaluation_seconds": 2.5784536451101303,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 221.85516268759966
+  },
+  {
+    "arm": "fifo_noproj_c128",
+    "seed": 735,
+    "train_loop_and_bookkeeping_seconds": 196.43878863565624,
+    "evaluation_seconds": 20.782732598483562,
+    "generation_seconds": 2.931368090212345,
+    "reload_evaluation_seconds": 2.5165799725800753,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 220.15288932435215
+  },
+  {
+    "arm": "fifo_noproj_c128",
+    "seed": 736,
+    "train_loop_and_bookkeeping_seconds": 195.03414018265903,
+    "evaluation_seconds": 20.716337256133556,
+    "generation_seconds": 2.893280701711774,
+    "reload_evaluation_seconds": 2.449890185147524,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 218.64375814050436
+  },
+  {
+    "arm": "fifo_noproj_c128",
+    "seed": 737,
+    "train_loop_and_bookkeeping_seconds": 194.1941084805876,
+    "evaluation_seconds": 20.485756734386086,
+    "generation_seconds": 2.7793544493615627,
+    "reload_evaluation_seconds": 2.472583495080471,
+    "note": "CUDA synchronized wall time; training excludes measured validation/evaluation/generation but includes loop/logging overhead; not kernel timing",
+    "total_seconds": 217.45921966433525
+  }
+]

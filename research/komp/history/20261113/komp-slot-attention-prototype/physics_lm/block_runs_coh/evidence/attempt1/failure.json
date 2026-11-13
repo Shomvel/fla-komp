@@ -1,0 +1,5 @@
+{
+  "worker": 7,
+  "error": "RuntimeError('A worker failed; stop dependent work')",
+  "time": 1793515796.5648274
+}

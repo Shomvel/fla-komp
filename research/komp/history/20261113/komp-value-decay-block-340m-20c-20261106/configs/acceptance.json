@@ -1,0 +1,18 @@
+{
+  "operator_fp32_rmsrel": 0.003,
+  "operator_bf16_rmsrel": 0.025,
+  "operator_absolute_shortcut": 0.0003,
+  "initial_causal_absolute": 1e-05,
+  "updated_causal_rmsrel": 0.003,
+  "updated_causal_absolute_shortcut": 0.0003,
+  "aligned_loss_absolute": 0.005,
+  "replicas": "exact SHA256",
+  "max_allocated_gib": 72,
+  "full_model_adam_rng_loader_restore": true,
+  "full_tail_budgets_per_rank": [
+    65536,
+    63616
+  ],
+  "trial_tokens_counted": 0,
+  "native_streaming": "numerical tolerance only; not strict 1e-5 after updates; inherited coordinate centering/TF32 rounding"
+}

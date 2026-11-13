@@ -1,0 +1,26 @@
+{
+  "seeds": [
+    731,
+    732,
+    733,
+    734,
+    735,
+    736,
+    737
+  ],
+  "e1": [
+    "coh_fifo_off",
+    "coh_fifo_99",
+    "coh_fifo_95",
+    "coh_fifo_80"
+  ],
+  "workers": 16,
+  "e2": "gate off/best, learned off/best, after all E1 runs",
+  "selection": "lowest 7-seed confirm content CE among enabled thresholds; off separately",
+  "diagnostic": "seed731 per arm; first64 confirm full real documents, no padding; every block end, include partial",
+  "stats": "first/last224 optimizer steps; nonpadding token-head weighted",
+  "steps": 2231,
+  "tokens": 10001108,
+  "deterministic_algorithms": true,
+  "determinism_reason": "GPU scatter_add reduction noise reproduced with identical inputs; all-arm deterministic mode restores exact suffix invariance"
+}

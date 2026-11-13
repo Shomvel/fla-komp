@@ -1,0 +1,2439 @@
+{
+  "captured_utc": "2026-11-08T15:35:13.127134+00:00",
+  "job": "job-874b71e8ade5-20261108232310",
+  "alias": "komp-learned123-1b-50b-20261108-r1",
+  "source_sha": "3750920234e52a036297491de0958eb52ee5701a98216929ae4c4fb8d9b69aab",
+  "preflight": {
+    "status": "passed",
+    "kind": "block",
+    "source_sha": "3750920234e52a036297491de0958eb52ee5701a98216929ae4c4fb8d9b69aab",
+    "data_sha": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+    "batching_sha": "f779c119b564e84f591d4e054f7d7a1c3e035dd3aa74dcd0371b8a3a0119acb3",
+    "parameters": 1003181056,
+    "initial_model_sha": "e8bd30874db1514200bc41405f8f1cf416d692b7d69b59ae568527c5468a1f5c",
+    "initialization": "legacy seed42 shared FF3072 backbone; named combo gate seeds; mean logalpha=log(.995)",
+    "shared_backbone_initial_sha": "3b21cd26a4554a1b5fce0e1dfcb54c8b7c577a81ea4af9ddb0d1610c09f63be6",
+    "parameter_contract": [
+      {
+        "A_log_shape": [
+          32,
+          32
+        ],
+        "dt_bias_shape": [
+          32,
+          32
+        ],
+        "timescale_weight_decay": 0,
+        "initial_score_fixed_zero": true
+      },
+      {
+        "A_log_shape": [
+          32,
+          32
+        ],
+        "dt_bias_shape": [
+          32,
+          32
+        ],
+        "timescale_weight_decay": 0,
+        "initial_score_fixed_zero": true
+      },
+      {
+        "A_log_shape": [
+          32,
+          32
+        ],
+        "dt_bias_shape": [
+          32,
+          32
+        ],
+        "timescale_weight_decay": 0,
+        "initial_score_fixed_zero": true
+      },
+      {
+        "A_log_shape": [
+          32,
+          32
+        ],
+        "dt_bias_shape": [
+          32,
+          32
+        ],
+        "timescale_weight_decay": 0,
+        "initial_score_fixed_zero": true
+      },
+      {
+        "A_log_shape": [
+          32,
+          32
+        ],
+        "dt_bias_shape": [
+          32,
+          32
+        ],
+        "timescale_weight_decay": 0,
+        "initial_score_fixed_zero": true
+      },
+      {
+        "A_log_shape": [
+          32,
+          32
+        ],
+        "dt_bias_shape": [
+          32,
+          32
+        ],
+        "timescale_weight_decay": 0,
+        "initial_score_fixed_zero": true
+      },
+      {
+        "A_log_shape": [
+          32,
+          32
+        ],
+        "dt_bias_shape": [
+          32,
+          32
+        ],
+        "timescale_weight_decay": 0,
+        "initial_score_fixed_zero": true
+      },
+      {
+        "A_log_shape": [
+          32,
+          32
+        ],
+        "dt_bias_shape": [
+          32,
+          32
+        ],
+        "timescale_weight_decay": 0,
+        "initial_score_fixed_zero": true
+      },
+      {
+        "A_log_shape": [
+          32,
+          32
+        ],
+        "dt_bias_shape": [
+          32,
+          32
+        ],
+        "timescale_weight_decay": 0,
+        "initial_score_fixed_zero": true
+      },
+      {
+        "A_log_shape": [
+          32,
+          32
+        ],
+        "dt_bias_shape": [
+          32,
+          32
+        ],
+        "timescale_weight_decay": 0,
+        "initial_score_fixed_zero": true
+      },
+      {
+        "A_log_shape": [
+          32,
+          32
+        ],
+        "dt_bias_shape": [
+          32,
+          32
+        ],
+        "timescale_weight_decay": 0,
+        "initial_score_fixed_zero": true
+      },
+      {
+        "A_log_shape": [
+          32,
+          32
+        ],
+        "dt_bias_shape": [
+          32,
+          32
+        ],
+        "timescale_weight_decay": 0,
+        "initial_score_fixed_zero": true
+      },
+      {
+        "A_log_shape": [
+          32,
+          32
+        ],
+        "dt_bias_shape": [
+          32,
+          32
+        ],
+        "timescale_weight_decay": 0,
+        "initial_score_fixed_zero": true
+      },
+      {
+        "A_log_shape": [
+          32,
+          32
+        ],
+        "dt_bias_shape": [
+          32,
+          32
+        ],
+        "timescale_weight_decay": 0,
+        "initial_score_fixed_zero": true
+      },
+      {
+        "A_log_shape": [
+          32,
+          32
+        ],
+        "dt_bias_shape": [
+          32,
+          32
+        ],
+        "timescale_weight_decay": 0,
+        "initial_score_fixed_zero": true
+      },
+      {
+        "A_log_shape": [
+          32,
+          32
+        ],
+        "dt_bias_shape": [
+          32,
+          32
+        ],
+        "timescale_weight_decay": 0,
+        "initial_score_fixed_zero": true
+      },
+      {
+        "A_log_shape": [
+          32,
+          32
+        ],
+        "dt_bias_shape": [
+          32,
+          32
+        ],
+        "timescale_weight_decay": 0,
+        "initial_score_fixed_zero": true
+      },
+      {
+        "A_log_shape": [
+          32,
+          32
+        ],
+        "dt_bias_shape": [
+          32,
+          32
+        ],
+        "timescale_weight_decay": 0,
+        "initial_score_fixed_zero": true
+      },
+      {
+        "A_log_shape": [
+          32,
+          32
+        ],
+        "dt_bias_shape": [
+          32,
+          32
+        ],
+        "timescale_weight_decay": 0,
+        "initial_score_fixed_zero": true
+      },
+      {
+        "A_log_shape": [
+          32,
+          32
+        ],
+        "dt_bias_shape": [
+          32,
+          32
+        ],
+        "timescale_weight_decay": 0,
+        "initial_score_fixed_zero": true
+      },
+      {
+        "A_log_shape": [
+          32,
+          32
+        ],
+        "dt_bias_shape": [
+          32,
+          32
+        ],
+        "timescale_weight_decay": 0,
+        "initial_score_fixed_zero": true
+      },
+      {
+        "A_log_shape": [
+          32,
+          32
+        ],
+        "dt_bias_shape": [
+          32,
+          32
+        ],
+        "timescale_weight_decay": 0,
+        "initial_score_fixed_zero": true
+      },
+      {
+        "A_log_shape": [
+          32,
+          32
+        ],
+        "dt_bias_shape": [
+          32,
+          32
+        ],
+        "timescale_weight_decay": 0,
+        "initial_score_fixed_zero": true
+      },
+      {
+        "A_log_shape": [
+          32,
+          32
+        ],
+        "dt_bias_shape": [
+          32,
+          32
+        ],
+        "timescale_weight_decay": 0,
+        "initial_score_fixed_zero": true
+      }
+    ],
+    "initial_gates": {
+      "head_log_decay_max_error": 2.7939677238464355e-09,
+      "mean_log_alpha_error": 2.2764610769360205e-10,
+      "head_alpha": [
+        0.9990906715393066,
+        0.9990056753158569,
+        0.9989127516746521,
+        0.9988110661506653,
+        0.9986999034881592,
+        0.9985783100128174,
+        0.9984453916549683,
+        0.9983001351356506,
+        0.9981411695480347,
+        0.9979674816131592,
+        0.99777752161026,
+        0.9975698590278625,
+        0.9973428249359131,
+        0.9970945119857788,
+        0.9968231320381165,
+        0.9965264797210693,
+        0.9962021112442017,
+        0.9958474636077881,
+        0.9954598546028137,
+        0.9950361251831055,
+        0.9945729970932007,
+        0.9940667152404785,
+        0.9935134053230286,
+        0.9929086565971375,
+        0.9922477602958679,
+        0.9915255308151245,
+        0.9907363653182983,
+        0.9898740649223328,
+        0.9889319539070129,
+        0.9879027009010315,
+        0.9867783784866333,
+        0.9855504035949707
+      ],
+      "beta_max_error": 0.0,
+      "score_max_abs": 0.0
+    },
+    "cases": [
+      {
+        "case": "full",
+        "loss": 10.79470681399107,
+        "global_valid_tokens": 1048576,
+        "grad_norm": 16.859270095825195,
+        "seconds": 63.36616551876068,
+        "peak_bytes": 26361948672,
+        "replicas_identical": true,
+        "gate_learning": {
+          "model.layers.0.attn.A_log": {
+            "gradient_max_abs": 4.943068688589847e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.0.attn.dt_bias": {
+            "gradient_max_abs": 4.91800074087223e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002999305725097656
+          },
+          "model.layers.0.attn.gate.0.weight": {
+            "gradient_max_abs": 6.925847992533818e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030243396759033203
+          },
+          "model.layers.0.attn.gate.1.weight": {
+            "gradient_max_abs": 2.8139405912952498e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00031560659408569336
+          },
+          "model.layers.0.attn.decay.0.weight": {
+            "gradient_max_abs": 0.0,
+            "expected_zero_first_data_gradient": true,
+            "update_max_abs": 3.0174851417541504e-06,
+            "first_update_kind": "decoupled weight decay only",
+            "weight_decay_expected_max_error": 7.450580596923828e-09
+          },
+          "model.layers.0.attn.decay.1.weight": {
+            "gradient_max_abs": 1.382724690301984e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.0.attn.score.weight": {
+            "gradient_max_abs": 0.0003847564512398094,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.0.attn.score.bias": {
+            "gradient_max_abs": 9.173688158625737e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003000000142492354
+          },
+          "model.layers.1.attn.A_log": {
+            "gradient_max_abs": 1.3927487998444121e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.1.attn.dt_bias": {
+            "gradient_max_abs": 1.3873434454581002e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002999305725097656
+          },
+          "model.layers.1.attn.gate.0.weight": {
+            "gradient_max_abs": 0.00022452250414062291,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030277669429779053
+          },
+          "model.layers.1.attn.gate.1.weight": {
+            "gradient_max_abs": 5.678804882336408e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.000316619873046875
+          },
+          "model.layers.1.attn.decay.0.weight": {
+            "gradient_max_abs": 0.0,
+            "expected_zero_first_data_gradient": true,
+            "update_max_abs": 2.734363079071045e-06,
+            "first_update_kind": "decoupled weight decay only",
+            "weight_decay_expected_max_error": 7.450580596923828e-09
+          },
+          "model.layers.1.attn.decay.1.weight": {
+            "gradient_max_abs": 9.582167876942549e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.1.attn.score.weight": {
+            "gradient_max_abs": 2.940095691883471e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.1.attn.score.bias": {
+            "gradient_max_abs": 2.1414256480056792e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.2.attn.A_log": {
+            "gradient_max_abs": 8.610787745055859e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.2.attn.dt_bias": {
+            "gradient_max_abs": 8.580220764997648e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002999305725097656
+          },
+          "model.layers.2.attn.gate.0.weight": {
+            "gradient_max_abs": 0.00011266241199336946,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003027394413948059
+          },
+          "model.layers.2.attn.gate.1.weight": {
+            "gradient_max_abs": 4.566296047414653e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003159642219543457
+          },
+          "model.layers.2.attn.decay.0.weight": {
+            "gradient_max_abs": 0.0,
+            "expected_zero_first_data_gradient": true,
+            "update_max_abs": 2.7567148208618164e-06,
+            "first_update_kind": "decoupled weight decay only",
+            "weight_decay_expected_max_error": 7.450580596923828e-09
+          },
+          "model.layers.2.attn.decay.1.weight": {
+            "gradient_max_abs": 6.769815854568151e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.2.attn.score.weight": {
+            "gradient_max_abs": 1.3795963241136633e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.2.attn.score.bias": {
+            "gradient_max_abs": 1.0504484635021072e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.3.attn.A_log": {
+            "gradient_max_abs": 5.043050919084635e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.3.attn.dt_bias": {
+            "gradient_max_abs": 5.03346825553308e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002999305725097656
+          },
+          "model.layers.3.attn.gate.0.weight": {
+            "gradient_max_abs": 0.00011112185165984556,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030316412448883057
+          },
+          "model.layers.3.attn.gate.1.weight": {
+            "gradient_max_abs": 5.306359162204899e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00031638145446777344
+          },
+          "model.layers.3.attn.decay.0.weight": {
+            "gradient_max_abs": 0.0,
+            "expected_zero_first_data_gradient": true,
+            "update_max_abs": 2.779066562652588e-06,
+            "first_update_kind": "decoupled weight decay only",
+            "weight_decay_expected_max_error": 7.450580596923828e-09
+          },
+          "model.layers.3.attn.decay.1.weight": {
+            "gradient_max_abs": 3.8668204638270254e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.3.attn.score.weight": {
+            "gradient_max_abs": 1.3798709915135987e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.3.attn.score.bias": {
+            "gradient_max_abs": 9.227008376910817e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003000000142492354
+          },
+          "model.layers.4.attn.A_log": {
+            "gradient_max_abs": 6.46471846721397e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.4.attn.dt_bias": {
+            "gradient_max_abs": 6.425536867027404e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002999305725097656
+          },
+          "model.layers.4.attn.gate.0.weight": {
+            "gradient_max_abs": 9.259537182515487e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030275434255599976
+          },
+          "model.layers.4.attn.gate.1.weight": {
+            "gradient_max_abs": 3.185745299560949e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.000315248966217041
+          },
+          "model.layers.4.attn.decay.0.weight": {
+            "gradient_max_abs": 0.0,
+            "expected_zero_first_data_gradient": true,
+            "update_max_abs": 2.726912498474121e-06,
+            "first_update_kind": "decoupled weight decay only",
+            "weight_decay_expected_max_error": 7.450580596923828e-09
+          },
+          "model.layers.4.attn.decay.1.weight": {
+            "gradient_max_abs": 4.720764081866946e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.4.attn.score.weight": {
+            "gradient_max_abs": 1.0524855497351382e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.4.attn.score.bias": {
+            "gradient_max_abs": 6.897599178046221e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.5.attn.A_log": {
+            "gradient_max_abs": 5.598830057351734e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.5.attn.dt_bias": {
+            "gradient_max_abs": 5.567787297877658e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002999305725097656
+          },
+          "model.layers.5.attn.gate.0.weight": {
+            "gradient_max_abs": 9.485051850788295e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030256062746047974
+          },
+          "model.layers.5.attn.gate.1.weight": {
+            "gradient_max_abs": 4.629834074876271e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00031644105911254883
+          },
+          "model.layers.5.attn.decay.0.weight": {
+            "gradient_max_abs": 0.0,
+            "expected_zero_first_data_gradient": true,
+            "update_max_abs": 2.5331974029541016e-06,
+            "first_update_kind": "decoupled weight decay only",
+            "weight_decay_expected_max_error": 7.450580596923828e-09
+          },
+          "model.layers.5.attn.decay.1.weight": {
+            "gradient_max_abs": 4.291904076580977e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.5.attn.score.weight": {
+            "gradient_max_abs": 8.821996743790805e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.5.attn.score.bias": {
+            "gradient_max_abs": 6.378531907103024e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003000000142492354
+          },
+          "model.layers.6.attn.A_log": {
+            "gradient_max_abs": 6.576391342605348e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.6.attn.dt_bias": {
+            "gradient_max_abs": 6.532818588311784e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002999305725097656
+          },
+          "model.layers.6.attn.gate.0.weight": {
+            "gradient_max_abs": 8.673230331623927e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.000302635133266449
+          },
+          "model.layers.6.attn.gate.1.weight": {
+            "gradient_max_abs": 2.450885222060606e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00031703710556030273
+          },
+          "model.layers.6.attn.decay.0.weight": {
+            "gradient_max_abs": 0.0,
+            "expected_zero_first_data_gradient": true,
+            "update_max_abs": 2.8759241104125977e-06,
+            "first_update_kind": "decoupled weight decay only",
+            "weight_decay_expected_max_error": 7.450580596923828e-09
+          },
+          "model.layers.6.attn.decay.1.weight": {
+            "gradient_max_abs": 6.002939016980235e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.6.attn.score.weight": {
+            "gradient_max_abs": 5.810278253193246e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.6.attn.score.bias": {
+            "gradient_max_abs": 3.984863724326715e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003000000142492354
+          },
+          "model.layers.7.attn.A_log": {
+            "gradient_max_abs": 3.5286291222291766e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.7.attn.dt_bias": {
+            "gradient_max_abs": 3.507243206968269e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002999305725097656
+          },
+          "model.layers.7.attn.gate.0.weight": {
+            "gradient_max_abs": 9.103181946557015e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003026425838470459
+          },
+          "model.layers.7.attn.gate.1.weight": {
+            "gradient_max_abs": 2.368567220401019e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00031703710556030273
+          },
+          "model.layers.7.attn.decay.0.weight": {
+            "gradient_max_abs": 0.0,
+            "expected_zero_first_data_gradient": true,
+            "update_max_abs": 2.8312206268310547e-06,
+            "first_update_kind": "decoupled weight decay only",
+            "weight_decay_expected_max_error": 7.450580596923828e-09
+          },
+          "model.layers.7.attn.decay.1.weight": {
+            "gradient_max_abs": 3.650193889370712e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.7.attn.score.weight": {
+            "gradient_max_abs": 5.79054039917537e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.7.attn.score.bias": {
+            "gradient_max_abs": 4.212068233755417e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003000000142492354
+          },
+          "model.layers.8.attn.A_log": {
+            "gradient_max_abs": 4.1000797068591055e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.8.attn.dt_bias": {
+            "gradient_max_abs": 4.070385273280408e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002999305725097656
+          },
+          "model.layers.8.attn.gate.0.weight": {
+            "gradient_max_abs": 5.999390486977063e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030308961868286133
+          },
+          "model.layers.8.attn.gate.1.weight": {
+            "gradient_max_abs": 3.009704960277304e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003172159194946289
+          },
+          "model.layers.8.attn.decay.0.weight": {
+            "gradient_max_abs": 0.0,
+            "expected_zero_first_data_gradient": true,
+            "update_max_abs": 2.7418136596679688e-06,
+            "first_update_kind": "decoupled weight decay only",
+            "weight_decay_expected_max_error": 7.450580596923828e-09
+          },
+          "model.layers.8.attn.decay.1.weight": {
+            "gradient_max_abs": 3.034857058992202e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.8.attn.score.weight": {
+            "gradient_max_abs": 7.324759280891158e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.8.attn.score.bias": {
+            "gradient_max_abs": 5.110799520480214e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.9.attn.A_log": {
+            "gradient_max_abs": 4.826305826099997e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.9.attn.dt_bias": {
+            "gradient_max_abs": 4.799547923539649e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002999305725097656
+          },
+          "model.layers.9.attn.gate.0.weight": {
+            "gradient_max_abs": 6.558722088811919e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003027096390724182
+          },
+          "model.layers.9.attn.gate.1.weight": {
+            "gradient_max_abs": 2.2103045921539888e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00031644105911254883
+          },
+          "model.layers.9.attn.decay.0.weight": {
+            "gradient_max_abs": 0.0,
+            "expected_zero_first_data_gradient": true,
+            "update_max_abs": 2.8014183044433594e-06,
+            "first_update_kind": "decoupled weight decay only",
+            "weight_decay_expected_max_error": 7.450580596923828e-09
+          },
+          "model.layers.9.attn.decay.1.weight": {
+            "gradient_max_abs": 4.917749834021379e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.9.attn.score.weight": {
+            "gradient_max_abs": 5.573745056608459e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.9.attn.score.bias": {
+            "gradient_max_abs": 3.1852289339440176e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.10.attn.A_log": {
+            "gradient_max_abs": 4.629048930837598e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.10.attn.dt_bias": {
+            "gradient_max_abs": 4.607574339843268e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002999305725097656
+          },
+          "model.layers.10.attn.gate.0.weight": {
+            "gradient_max_abs": 8.14013255876489e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030272454023361206
+          },
+          "model.layers.10.attn.gate.1.weight": {
+            "gradient_max_abs": 3.0106439226074144e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003185272216796875
+          },
+          "model.layers.10.attn.decay.0.weight": {
+            "gradient_max_abs": 0.0,
+            "expected_zero_first_data_gradient": true,
+            "update_max_abs": 2.7045607566833496e-06,
+            "first_update_kind": "decoupled weight decay only",
+            "weight_decay_expected_max_error": 7.450580596923828e-09
+          },
+          "model.layers.10.attn.decay.1.weight": {
+            "gradient_max_abs": 5.039453867539123e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.10.attn.score.weight": {
+            "gradient_max_abs": 5.050350409874227e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.10.attn.score.bias": {
+            "gradient_max_abs": 3.475782705208985e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003000000142492354
+          },
+          "model.layers.11.attn.A_log": {
+            "gradient_max_abs": 3.131242749532248e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.11.attn.dt_bias": {
+            "gradient_max_abs": 3.115362403605104e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002999305725097656
+          },
+          "model.layers.11.attn.gate.0.weight": {
+            "gradient_max_abs": 4.610278847394511e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003025457262992859
+          },
+          "model.layers.11.attn.gate.1.weight": {
+            "gradient_max_abs": 3.479960287222639e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00031572580337524414
+          },
+          "model.layers.11.attn.decay.0.weight": {
+            "gradient_max_abs": 0.0,
+            "expected_zero_first_data_gradient": true,
+            "update_max_abs": 2.637505531311035e-06,
+            "first_update_kind": "decoupled weight decay only",
+            "weight_decay_expected_max_error": 7.450580596923828e-09
+          },
+          "model.layers.11.attn.decay.1.weight": {
+            "gradient_max_abs": 2.5363308964188036e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.11.attn.score.weight": {
+            "gradient_max_abs": 4.549031473288778e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.11.attn.score.bias": {
+            "gradient_max_abs": 2.8591293812496588e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.12.attn.A_log": {
+            "gradient_max_abs": 4.995439439881011e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.12.attn.dt_bias": {
+            "gradient_max_abs": 4.962342359249305e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002999305725097656
+          },
+          "model.layers.12.attn.gate.0.weight": {
+            "gradient_max_abs": 5.199854786042124e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003026127815246582
+          },
+          "model.layers.12.attn.gate.1.weight": {
+            "gradient_max_abs": 3.155651575070806e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003161430358886719
+          },
+          "model.layers.12.attn.decay.0.weight": {
+            "gradient_max_abs": 0.0,
+            "expected_zero_first_data_gradient": true,
+            "update_max_abs": 2.7939677238464355e-06,
+            "first_update_kind": "decoupled weight decay only",
+            "weight_decay_expected_max_error": 7.450580596923828e-09
+          },
+          "model.layers.12.attn.decay.1.weight": {
+            "gradient_max_abs": 3.703189577208832e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.12.attn.score.weight": {
+            "gradient_max_abs": 3.4264264741068473e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.12.attn.score.bias": {
+            "gradient_max_abs": 2.271616267535137e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.13.attn.A_log": {
+            "gradient_max_abs": 2.953775037894957e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.13.attn.dt_bias": {
+            "gradient_max_abs": 2.945752726191131e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002999305725097656
+          },
+          "model.layers.13.attn.gate.0.weight": {
+            "gradient_max_abs": 4.493676169659011e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030256807804107666
+          },
+          "model.layers.13.attn.gate.1.weight": {
+            "gradient_max_abs": 2.2373242245521396e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00031489133834838867
+          },
+          "model.layers.13.attn.decay.0.weight": {
+            "gradient_max_abs": 0.0,
+            "expected_zero_first_data_gradient": true,
+            "update_max_abs": 2.726912498474121e-06,
+            "first_update_kind": "decoupled weight decay only",
+            "weight_decay_expected_max_error": 7.450580596923828e-09
+          },
+          "model.layers.13.attn.decay.1.weight": {
+            "gradient_max_abs": 2.574695372459246e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.13.attn.score.weight": {
+            "gradient_max_abs": 4.4195144255354535e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.13.attn.score.bias": {
+            "gradient_max_abs": 2.7664505068969447e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.14.attn.A_log": {
+            "gradient_max_abs": 3.0088989433352253e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.14.attn.dt_bias": {
+            "gradient_max_abs": 2.9961316272419936e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002999305725097656
+          },
+          "model.layers.14.attn.gate.0.weight": {
+            "gradient_max_abs": 4.797700603376143e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030244141817092896
+          },
+          "model.layers.14.attn.gate.1.weight": {
+            "gradient_max_abs": 1.9936742319259793e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003160834312438965
+          },
+          "model.layers.14.attn.decay.0.weight": {
+            "gradient_max_abs": 0.0,
+            "expected_zero_first_data_gradient": true,
+            "update_max_abs": 2.6747584342956543e-06,
+            "first_update_kind": "decoupled weight decay only",
+            "weight_decay_expected_max_error": 7.450580596923828e-09
+          },
+          "model.layers.14.attn.decay.1.weight": {
+            "gradient_max_abs": 3.0523224836542795e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.14.attn.score.weight": {
+            "gradient_max_abs": 4.2686501728894655e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.14.attn.score.bias": {
+            "gradient_max_abs": 2.1424157239380293e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.15.attn.A_log": {
+            "gradient_max_abs": 6.025551897437254e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.15.attn.dt_bias": {
+            "gradient_max_abs": 5.989031137687562e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002999305725097656
+          },
+          "model.layers.15.attn.gate.0.weight": {
+            "gradient_max_abs": 5.498553582583554e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.000302828848361969
+          },
+          "model.layers.15.attn.gate.1.weight": {
+            "gradient_max_abs": 2.580446562205907e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003159642219543457
+          },
+          "model.layers.15.attn.decay.0.weight": {
+            "gradient_max_abs": 0.0,
+            "expected_zero_first_data_gradient": true,
+            "update_max_abs": 2.7641654014587402e-06,
+            "first_update_kind": "decoupled weight decay only",
+            "weight_decay_expected_max_error": 7.450580596923828e-09
+          },
+          "model.layers.15.attn.decay.1.weight": {
+            "gradient_max_abs": 4.135354174650274e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.15.attn.score.weight": {
+            "gradient_max_abs": 4.601612545229727e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.15.attn.score.bias": {
+            "gradient_max_abs": 3.4277147733519087e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003000000142492354
+          },
+          "model.layers.16.attn.A_log": {
+            "gradient_max_abs": 2.975274639993586e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.16.attn.dt_bias": {
+            "gradient_max_abs": 2.9696207093365956e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002999305725097656
+          },
+          "model.layers.16.attn.gate.0.weight": {
+            "gradient_max_abs": 3.940890746889636e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003025829792022705
+          },
+          "model.layers.16.attn.gate.1.weight": {
+            "gradient_max_abs": 2.0736135411425494e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003172159194946289
+          },
+          "model.layers.16.attn.decay.0.weight": {
+            "gradient_max_abs": 0.0,
+            "expected_zero_first_data_gradient": true,
+            "update_max_abs": 2.6598572731018066e-06,
+            "first_update_kind": "decoupled weight decay only",
+            "weight_decay_expected_max_error": 7.450580596923828e-09
+          },
+          "model.layers.16.attn.decay.1.weight": {
+            "gradient_max_abs": 1.894825771842079e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.16.attn.score.weight": {
+            "gradient_max_abs": 3.5723128348763566e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.16.attn.score.bias": {
+            "gradient_max_abs": 3.002593757628347e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.17.attn.A_log": {
+            "gradient_max_abs": 2.4682807975295873e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.17.attn.dt_bias": {
+            "gradient_max_abs": 2.4533204623367055e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002999305725097656
+          },
+          "model.layers.17.attn.gate.0.weight": {
+            "gradient_max_abs": 3.31254159391392e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030256807804107666
+          },
+          "model.layers.17.attn.gate.1.weight": {
+            "gradient_max_abs": 1.1981822353845928e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00031572580337524414
+          },
+          "model.layers.17.attn.decay.0.weight": {
+            "gradient_max_abs": 0.0,
+            "expected_zero_first_data_gradient": true,
+            "update_max_abs": 2.682209014892578e-06,
+            "first_update_kind": "decoupled weight decay only",
+            "weight_decay_expected_max_error": 7.450580596923828e-09
+          },
+          "model.layers.17.attn.decay.1.weight": {
+            "gradient_max_abs": 1.9987608368410292e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.17.attn.score.weight": {
+            "gradient_max_abs": 3.985967396147316e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.17.attn.score.bias": {
+            "gradient_max_abs": 2.584231424407335e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003000000142492354
+          },
+          "model.layers.18.attn.A_log": {
+            "gradient_max_abs": 2.0164353031759674e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.18.attn.dt_bias": {
+            "gradient_max_abs": 2.0062088879058138e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002999305725097656
+          },
+          "model.layers.18.attn.gate.0.weight": {
+            "gradient_max_abs": 4.4213546061655506e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030285120010375977
+          },
+          "model.layers.18.attn.gate.1.weight": {
+            "gradient_max_abs": 2.400501944066491e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00031703710556030273
+          },
+          "model.layers.18.attn.decay.0.weight": {
+            "gradient_max_abs": 0.0,
+            "expected_zero_first_data_gradient": true,
+            "update_max_abs": 2.682209014892578e-06,
+            "first_update_kind": "decoupled weight decay only",
+            "weight_decay_expected_max_error": 7.450580596923828e-09
+          },
+          "model.layers.18.attn.decay.1.weight": {
+            "gradient_max_abs": 1.4485061683444656e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.18.attn.score.weight": {
+            "gradient_max_abs": 2.6780874122778187e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.18.attn.score.bias": {
+            "gradient_max_abs": 1.826765583246015e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.19.attn.A_log": {
+            "gradient_max_abs": 3.2060992793958576e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.19.attn.dt_bias": {
+            "gradient_max_abs": 3.182879027008312e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002999305725097656
+          },
+          "model.layers.19.attn.gate.0.weight": {
+            "gradient_max_abs": 3.329715764266439e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030291080474853516
+          },
+          "model.layers.19.attn.gate.1.weight": {
+            "gradient_max_abs": 3.415659739403054e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003166794776916504
+          },
+          "model.layers.19.attn.decay.0.weight": {
+            "gradient_max_abs": 0.0,
+            "expected_zero_first_data_gradient": true,
+            "update_max_abs": 2.868473529815674e-06,
+            "first_update_kind": "decoupled weight decay only",
+            "weight_decay_expected_max_error": 7.450580596923828e-09
+          },
+          "model.layers.19.attn.decay.1.weight": {
+            "gradient_max_abs": 2.718983864724578e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.19.attn.score.weight": {
+            "gradient_max_abs": 2.869872105293325e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.19.attn.score.bias": {
+            "gradient_max_abs": 2.4353896606044145e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003000000142492354
+          },
+          "model.layers.20.attn.A_log": {
+            "gradient_max_abs": 3.9617302149963507e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.20.attn.dt_bias": {
+            "gradient_max_abs": 3.9416391928170924e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002999305725097656
+          },
+          "model.layers.20.attn.gate.0.weight": {
+            "gradient_max_abs": 2.6614437956595793e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030240416526794434
+          },
+          "model.layers.20.attn.gate.1.weight": {
+            "gradient_max_abs": 1.034674460242968e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00031632184982299805
+          },
+          "model.layers.20.attn.decay.0.weight": {
+            "gradient_max_abs": 0.0,
+            "expected_zero_first_data_gradient": true,
+            "update_max_abs": 2.689659595489502e-06,
+            "first_update_kind": "decoupled weight decay only",
+            "weight_decay_expected_max_error": 7.450580596923828e-09
+          },
+          "model.layers.20.attn.decay.1.weight": {
+            "gradient_max_abs": 2.51102079573684e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.20.attn.score.weight": {
+            "gradient_max_abs": 2.653814362929552e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.20.attn.score.bias": {
+            "gradient_max_abs": 2.0416400730027817e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.21.attn.A_log": {
+            "gradient_max_abs": 3.2885552059269685e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.21.attn.dt_bias": {
+            "gradient_max_abs": 3.2746012834650173e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002999305725097656
+          },
+          "model.layers.21.attn.gate.0.weight": {
+            "gradient_max_abs": 2.8317626856733114e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030271708965301514
+          },
+          "model.layers.21.attn.gate.1.weight": {
+            "gradient_max_abs": 9.858165867626667e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00031632184982299805
+          },
+          "model.layers.21.attn.decay.0.weight": {
+            "gradient_max_abs": 0.0,
+            "expected_zero_first_data_gradient": true,
+            "update_max_abs": 2.7641654014587402e-06,
+            "first_update_kind": "decoupled weight decay only",
+            "weight_decay_expected_max_error": 7.450580596923828e-09
+          },
+          "model.layers.21.attn.decay.1.weight": {
+            "gradient_max_abs": 2.3091459411261894e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.21.attn.score.weight": {
+            "gradient_max_abs": 2.8787007977371104e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.21.attn.score.bias": {
+            "gradient_max_abs": 1.7988039644478704e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003000000142492354
+          },
+          "model.layers.22.attn.A_log": {
+            "gradient_max_abs": 4.452573421076522e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.22.attn.dt_bias": {
+            "gradient_max_abs": 4.42032643377388e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002999305725097656
+          },
+          "model.layers.22.attn.gate.0.weight": {
+            "gradient_max_abs": 3.7098950997460634e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003024265170097351
+          },
+          "model.layers.22.attn.gate.1.weight": {
+            "gradient_max_abs": 2.271613630000502e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003160834312438965
+          },
+          "model.layers.22.attn.decay.0.weight": {
+            "gradient_max_abs": 0.0,
+            "expected_zero_first_data_gradient": true,
+            "update_max_abs": 2.518296241760254e-06,
+            "first_update_kind": "decoupled weight decay only",
+            "weight_decay_expected_max_error": 7.450580596923828e-09
+          },
+          "model.layers.22.attn.decay.1.weight": {
+            "gradient_max_abs": 4.059620266616548e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.22.attn.score.weight": {
+            "gradient_max_abs": 2.710964508878533e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.22.attn.score.bias": {
+            "gradient_max_abs": 1.9998255993414205e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.23.attn.A_log": {
+            "gradient_max_abs": 2.689960467705532e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.23.attn.dt_bias": {
+            "gradient_max_abs": 2.676318615613127e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002999305725097656
+          },
+          "model.layers.23.attn.gate.0.weight": {
+            "gradient_max_abs": 4.10877910326235e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030241161584854126
+          },
+          "model.layers.23.attn.gate.1.weight": {
+            "gradient_max_abs": 1.6059875633800402e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003165602684020996
+          },
+          "model.layers.23.attn.decay.0.weight": {
+            "gradient_max_abs": 0.0,
+            "expected_zero_first_data_gradient": true,
+            "update_max_abs": 2.644956111907959e-06,
+            "first_update_kind": "decoupled weight decay only",
+            "weight_decay_expected_max_error": 7.450580596923828e-09
+          },
+          "model.layers.23.attn.decay.1.weight": {
+            "gradient_max_abs": 1.7991250444993057e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.23.attn.score.weight": {
+            "gradient_max_abs": 2.2716585590387695e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          },
+          "model.layers.23.attn.score.bias": {
+            "gradient_max_abs": 1.3743474482907914e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030000004335306585
+          }
+        }
+      },
+      {
+        "case": "final_tail",
+        "loss": 10.164223352200663,
+        "global_valid_tokens": 750592,
+        "grad_norm": 212.5214385986328,
+        "seconds": 15.118255643174052,
+        "peak_bytes": 34388268032,
+        "replicas_identical": true,
+        "gate_learning": {
+          "model.layers.0.attn.A_log": {
+            "gradient_max_abs": 6.431841370613256e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010772052221
+          },
+          "model.layers.0.attn.dt_bias": {
+            "gradient_max_abs": 6.409026127585093e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003008842468261719
+          },
+          "model.layers.0.attn.gate.0.weight": {
+            "gradient_max_abs": 2.829771074175369e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003027915954589844
+          },
+          "model.layers.0.attn.gate.1.weight": {
+            "gradient_max_abs": 1.616146619198844e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003127157688140869
+          },
+          "model.layers.0.attn.decay.0.weight": {
+            "gradient_max_abs": 1.5663941255184e-09,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002354159951210022
+          },
+          "model.layers.0.attn.decay.1.weight": {
+            "gradient_max_abs": 1.2264214888091374e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.0.attn.score.weight": {
+            "gradient_max_abs": 0.00013179572124499828,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.0.attn.score.bias": {
+            "gradient_max_abs": 3.209448550478555e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003007795021403581
+          },
+          "model.layers.1.attn.A_log": {
+            "gradient_max_abs": 9.680651373855653e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010880609508604
+          },
+          "model.layers.1.attn.dt_bias": {
+            "gradient_max_abs": 9.643118801250239e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003008842468261719
+          },
+          "model.layers.1.attn.gate.0.weight": {
+            "gradient_max_abs": 0.00018073558749165386,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003027208149433136
+          },
+          "model.layers.1.attn.gate.1.weight": {
+            "gradient_max_abs": 0.00015749072190374136,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.000314861536026001
+          },
+          "model.layers.1.attn.decay.0.weight": {
+            "gradient_max_abs": 4.599747249756092e-09,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00023546814918518066
+          },
+          "model.layers.1.attn.decay.1.weight": {
+            "gradient_max_abs": 1.8903634781963774e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.1.attn.score.weight": {
+            "gradient_max_abs": 3.250480858696392e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030108547070994973
+          },
+          "model.layers.1.attn.score.bias": {
+            "gradient_max_abs": 1.6357330423488747e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002869502059184015
+          },
+          "model.layers.2.attn.A_log": {
+            "gradient_max_abs": 3.921981033272459e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030109446379356086
+          },
+          "model.layers.2.attn.dt_bias": {
+            "gradient_max_abs": 3.9180011413009197e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003008842468261719
+          },
+          "model.layers.2.attn.gate.0.weight": {
+            "gradient_max_abs": 0.00019550819706637412,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030328333377838135
+          },
+          "model.layers.2.attn.gate.1.weight": {
+            "gradient_max_abs": 0.0001126658171415329,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00031447410583496094
+          },
+          "model.layers.2.attn.decay.0.weight": {
+            "gradient_max_abs": 5.276959313960106e-09,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00023549050092697144
+          },
+          "model.layers.2.attn.decay.1.weight": {
+            "gradient_max_abs": 7.721331485299743e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.2.attn.score.weight": {
+            "gradient_max_abs": 3.011711669387296e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.2.attn.score.bias": {
+            "gradient_max_abs": 1.458630208617251e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002949111512862146
+          },
+          "model.layers.3.attn.A_log": {
+            "gradient_max_abs": 3.811549902366096e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030109271756373346
+          },
+          "model.layers.3.attn.dt_bias": {
+            "gradient_max_abs": 3.8083001641098235e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003008842468261719
+          },
+          "model.layers.3.attn.gate.0.weight": {
+            "gradient_max_abs": 0.0002482444397173822,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030297785997390747
+          },
+          "model.layers.3.attn.gate.1.weight": {
+            "gradient_max_abs": 0.00011480182729428634,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00031745433807373047
+          },
+          "model.layers.3.attn.decay.0.weight": {
+            "gradient_max_abs": 5.091389976286109e-09,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00023530423641204834
+          },
+          "model.layers.3.attn.decay.1.weight": {
+            "gradient_max_abs": 8.81074299741158e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.3.attn.score.weight": {
+            "gradient_max_abs": 5.1903180064982735e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.3.attn.score.bias": {
+            "gradient_max_abs": 2.1690175344701856e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00029978068778291345
+          },
+          "model.layers.4.attn.A_log": {
+            "gradient_max_abs": 4.238785891175212e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010909422300756
+          },
+          "model.layers.4.attn.dt_bias": {
+            "gradient_max_abs": 4.2153070012318494e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003008842468261719
+          },
+          "model.layers.4.attn.gate.0.weight": {
+            "gradient_max_abs": 0.00014515029033645988,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.000303119421005249
+          },
+          "model.layers.4.attn.gate.1.weight": {
+            "gradient_max_abs": 9.398465772392228e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00031384825706481934
+          },
+          "model.layers.4.attn.decay.0.weight": {
+            "gradient_max_abs": 5.316614704042877e-09,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002351999282836914
+          },
+          "model.layers.4.attn.decay.1.weight": {
+            "gradient_max_abs": 8.935543860388862e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.4.attn.score.weight": {
+            "gradient_max_abs": 4.277779680705862e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.4.attn.score.bias": {
+            "gradient_max_abs": 1.624485321372049e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00029485419509001076
+          },
+          "model.layers.5.attn.A_log": {
+            "gradient_max_abs": 6.258367193368031e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030109426006674767
+          },
+          "model.layers.5.attn.dt_bias": {
+            "gradient_max_abs": 6.233998988136591e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003008842468261719
+          },
+          "model.layers.5.attn.gate.0.weight": {
+            "gradient_max_abs": 0.0002260585897602141,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003033280372619629
+          },
+          "model.layers.5.attn.gate.1.weight": {
+            "gradient_max_abs": 6.885058246552944e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00031703710556030273
+          },
+          "model.layers.5.attn.decay.0.weight": {
+            "gradient_max_abs": 5.39073941041579e-09,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002352595329284668
+          },
+          "model.layers.5.attn.decay.1.weight": {
+            "gradient_max_abs": 1.0471479754414759e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.5.attn.score.weight": {
+            "gradient_max_abs": 3.68903261005471e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030108552891761065
+          },
+          "model.layers.5.attn.score.bias": {
+            "gradient_max_abs": 2.013249286392238e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00029850745340809226
+          },
+          "model.layers.6.attn.A_log": {
+            "gradient_max_abs": 3.054744297514844e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030109434737823904
+          },
+          "model.layers.6.attn.dt_bias": {
+            "gradient_max_abs": 3.0529326977557503e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003008842468261719
+          },
+          "model.layers.6.attn.gate.0.weight": {
+            "gradient_max_abs": 0.00015006402099970728,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030335038900375366
+          },
+          "model.layers.6.attn.gate.1.weight": {
+            "gradient_max_abs": 0.000126150538562797,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003135800361633301
+          },
+          "model.layers.6.attn.decay.0.weight": {
+            "gradient_max_abs": 3.4873142151781167e-09,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00023560971021652222
+          },
+          "model.layers.6.attn.decay.1.weight": {
+            "gradient_max_abs": 6.26047494733939e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.6.attn.score.weight": {
+            "gradient_max_abs": 3.0050155146454927e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.6.attn.score.bias": {
+            "gradient_max_abs": 1.446611918254348e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002968399494420737
+          },
+          "model.layers.7.attn.A_log": {
+            "gradient_max_abs": 4.886119313596282e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010942891705781
+          },
+          "model.layers.7.attn.dt_bias": {
+            "gradient_max_abs": 4.883469273408991e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003008842468261719
+          },
+          "model.layers.7.attn.gate.0.weight": {
+            "gradient_max_abs": 9.357630187878385e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030303001403808594
+          },
+          "model.layers.7.attn.gate.1.weight": {
+            "gradient_max_abs": 6.885283073643222e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003167390823364258
+          },
+          "model.layers.7.attn.decay.0.weight": {
+            "gradient_max_abs": 4.0256806776994836e-09,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00023556500673294067
+          },
+          "model.layers.7.attn.decay.1.weight": {
+            "gradient_max_abs": 1.1366039416316198e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.7.attn.score.weight": {
+            "gradient_max_abs": 2.5550634745741263e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030108552891761065
+          },
+          "model.layers.7.attn.score.bias": {
+            "gradient_max_abs": 9.505917546448472e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00029907573480159044
+          },
+          "model.layers.8.attn.A_log": {
+            "gradient_max_abs": 4.0498770204067114e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030109426006674767
+          },
+          "model.layers.8.attn.dt_bias": {
+            "gradient_max_abs": 4.027363900149794e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003008842468261719
+          },
+          "model.layers.8.attn.gate.0.weight": {
+            "gradient_max_abs": 0.00016563090321142226,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030300021171569824
+          },
+          "model.layers.8.attn.gate.1.weight": {
+            "gradient_max_abs": 0.00016120630607474595,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003160238265991211
+          },
+          "model.layers.8.attn.decay.0.weight": {
+            "gradient_max_abs": 3.862955288980174e-09,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002354755997657776
+          },
+          "model.layers.8.attn.decay.1.weight": {
+            "gradient_max_abs": 9.896002666209824e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030108552891761065
+          },
+          "model.layers.8.attn.score.weight": {
+            "gradient_max_abs": 1.7212129250765429e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.8.attn.score.bias": {
+            "gradient_max_abs": 8.106450763989415e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030099539435468614
+          },
+          "model.layers.9.attn.A_log": {
+            "gradient_max_abs": 4.577632637392526e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030109440558589995
+          },
+          "model.layers.9.attn.dt_bias": {
+            "gradient_max_abs": 4.5473316845345835e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003008842468261719
+          },
+          "model.layers.9.attn.gate.0.weight": {
+            "gradient_max_abs": 0.00013984166434966028,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030313432216644287
+          },
+          "model.layers.9.attn.gate.1.weight": {
+            "gradient_max_abs": 0.00012174836592748761,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003122687339782715
+          },
+          "model.layers.9.attn.decay.0.weight": {
+            "gradient_max_abs": 5.886775067409644e-09,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002354159951210022
+          },
+          "model.layers.9.attn.decay.1.weight": {
+            "gradient_max_abs": 8.509633175890485e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.9.attn.score.weight": {
+            "gradient_max_abs": 1.9864432942995336e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030108552891761065
+          },
+          "model.layers.9.attn.score.bias": {
+            "gradient_max_abs": 7.270107289514272e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003005315666086972
+          },
+          "model.layers.10.attn.A_log": {
+            "gradient_max_abs": 3.391735390323447e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010930959135294
+          },
+          "model.layers.10.attn.dt_bias": {
+            "gradient_max_abs": 3.3853100944725156e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003008842468261719
+          },
+          "model.layers.10.attn.gate.0.weight": {
+            "gradient_max_abs": 0.00013994039909448475,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030324608087539673
+          },
+          "model.layers.10.attn.gate.1.weight": {
+            "gradient_max_abs": 0.00012553126725833863,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003134310245513916
+          },
+          "model.layers.10.attn.decay.0.weight": {
+            "gradient_max_abs": 4.328304381573389e-09,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00023543834686279297
+          },
+          "model.layers.10.attn.decay.1.weight": {
+            "gradient_max_abs": 7.30209251287306e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030108552891761065
+          },
+          "model.layers.10.attn.score.weight": {
+            "gradient_max_abs": 2.7190999389858916e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.10.attn.score.bias": {
+            "gradient_max_abs": 1.0194165724897175e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002932095667347312
+          },
+          "model.layers.11.attn.A_log": {
+            "gradient_max_abs": 1.8368309895322454e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010944346897304
+          },
+          "model.layers.11.attn.dt_bias": {
+            "gradient_max_abs": 1.835524585658277e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003008842468261719
+          },
+          "model.layers.11.attn.gate.0.weight": {
+            "gradient_max_abs": 0.00018990789249073714,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003032982349395752
+          },
+          "model.layers.11.attn.gate.1.weight": {
+            "gradient_max_abs": 8.039224485401064e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003146529197692871
+          },
+          "model.layers.11.attn.decay.0.weight": {
+            "gradient_max_abs": 2.8821440789528197e-09,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00023537129163742065
+          },
+          "model.layers.11.attn.decay.1.weight": {
+            "gradient_max_abs": 5.211703069107898e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030108547070994973
+          },
+          "model.layers.11.attn.score.weight": {
+            "gradient_max_abs": 1.915727807499934e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.11.attn.score.bias": {
+            "gradient_max_abs": 8.495625252180616e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003006797342095524
+          },
+          "model.layers.12.attn.A_log": {
+            "gradient_max_abs": 3.3194223192367645e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010944928973913
+          },
+          "model.layers.12.attn.dt_bias": {
+            "gradient_max_abs": 3.3174495683852e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003008842468261719
+          },
+          "model.layers.12.attn.gate.0.weight": {
+            "gradient_max_abs": 0.00012020469148410484,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003030449151992798
+          },
+          "model.layers.12.attn.gate.1.weight": {
+            "gradient_max_abs": 7.269406341947615e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00031450390815734863
+          },
+          "model.layers.12.attn.decay.0.weight": {
+            "gradient_max_abs": 4.474767667517199e-09,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00023552775382995605
+          },
+          "model.layers.12.attn.decay.1.weight": {
+            "gradient_max_abs": 6.461543762270594e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.12.attn.score.weight": {
+            "gradient_max_abs": 3.072158961003879e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.12.attn.score.bias": {
+            "gradient_max_abs": 1.317878286499763e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002992319059558213
+          },
+          "model.layers.13.attn.A_log": {
+            "gradient_max_abs": 4.781948632626154e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010940854437649
+          },
+          "model.layers.13.attn.dt_bias": {
+            "gradient_max_abs": 4.761654111007374e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003008842468261719
+          },
+          "model.layers.13.attn.gate.0.weight": {
+            "gradient_max_abs": 9.880863944999874e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003033652901649475
+          },
+          "model.layers.13.attn.gate.1.weight": {
+            "gradient_max_abs": 6.567124364664778e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00031444430351257324
+          },
+          "model.layers.13.attn.decay.0.weight": {
+            "gradient_max_abs": 4.056634583804453e-09,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00023517757654190063
+          },
+          "model.layers.13.attn.decay.1.weight": {
+            "gradient_max_abs": 1.373976374452468e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.13.attn.score.weight": {
+            "gradient_max_abs": 1.5214785662465147e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030108552891761065
+          },
+          "model.layers.13.attn.score.bias": {
+            "gradient_max_abs": 5.250560661806958e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030018313555046916
+          },
+          "model.layers.14.attn.A_log": {
+            "gradient_max_abs": 2.9981600846440415e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010864311363548
+          },
+          "model.layers.14.attn.dt_bias": {
+            "gradient_max_abs": 2.996384580455924e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003008842468261719
+          },
+          "model.layers.14.attn.gate.0.weight": {
+            "gradient_max_abs": 0.0001637192617636174,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003032684326171875
+          },
+          "model.layers.14.attn.gate.1.weight": {
+            "gradient_max_abs": 5.1998053095303476e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00031366944313049316
+          },
+          "model.layers.14.attn.decay.0.weight": {
+            "gradient_max_abs": 4.170577661000152e-09,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00023514032363891602
+          },
+          "model.layers.14.attn.decay.1.weight": {
+            "gradient_max_abs": 7.471521143997961e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.14.attn.score.weight": {
+            "gradient_max_abs": 1.6554703279325622e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.14.attn.score.bias": {
+            "gradient_max_abs": 7.285044034688326e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003000177093781531
+          },
+          "model.layers.15.attn.A_log": {
+            "gradient_max_abs": 4.081194333593885e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030109399813227355
+          },
+          "model.layers.15.attn.dt_bias": {
+            "gradient_max_abs": 4.077398898516549e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003008842468261719
+          },
+          "model.layers.15.attn.gate.0.weight": {
+            "gradient_max_abs": 0.00014348994591273367,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030297040939331055
+          },
+          "model.layers.15.attn.gate.1.weight": {
+            "gradient_max_abs": 5.198234794079326e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003153383731842041
+          },
+          "model.layers.15.attn.decay.0.weight": {
+            "gradient_max_abs": 5.525052859667312e-09,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002351999282836914
+          },
+          "model.layers.15.attn.decay.1.weight": {
+            "gradient_max_abs": 8.573852028348483e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.15.attn.score.weight": {
+            "gradient_max_abs": 1.8679963886825135e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.15.attn.score.bias": {
+            "gradient_max_abs": 1.0471741234141518e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002912572817876935
+          },
+          "model.layers.16.attn.A_log": {
+            "gradient_max_abs": 2.1746672018707613e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010943764820695
+          },
+          "model.layers.16.attn.dt_bias": {
+            "gradient_max_abs": 2.1712195064083062e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003008842468261719
+          },
+          "model.layers.16.attn.gate.0.weight": {
+            "gradient_max_abs": 0.00012665311805903912,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030285492539405823
+          },
+          "model.layers.16.attn.gate.1.weight": {
+            "gradient_max_abs": 6.293167098192498e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003127157688140869
+          },
+          "model.layers.16.attn.decay.0.weight": {
+            "gradient_max_abs": 2.372287921659222e-09,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00023539364337921143
+          },
+          "model.layers.16.attn.decay.1.weight": {
+            "gradient_max_abs": 5.436693299998296e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030108547070994973
+          },
+          "model.layers.16.attn.score.weight": {
+            "gradient_max_abs": 1.3423124300970812e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.16.attn.score.bias": {
+            "gradient_max_abs": 5.614032829726057e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003005994367413223
+          },
+          "model.layers.17.attn.A_log": {
+            "gradient_max_abs": 3.056818229651981e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010944346897304
+          },
+          "model.layers.17.attn.dt_bias": {
+            "gradient_max_abs": 3.055293689158134e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003008842468261719
+          },
+          "model.layers.17.attn.gate.0.weight": {
+            "gradient_max_abs": 0.00010868097888305783,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030278414487838745
+          },
+          "model.layers.17.attn.gate.1.weight": {
+            "gradient_max_abs": 5.507418609340675e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003135800361633301
+          },
+          "model.layers.17.attn.decay.0.weight": {
+            "gradient_max_abs": 5.1894910590988275e-09,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002354159951210022
+          },
+          "model.layers.17.attn.decay.1.weight": {
+            "gradient_max_abs": 5.982373068036395e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.17.attn.score.weight": {
+            "gradient_max_abs": 2.4949733870016644e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.17.attn.score.bias": {
+            "gradient_max_abs": 1.2858569107265794e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00029810197884216905
+          },
+          "model.layers.18.attn.A_log": {
+            "gradient_max_abs": 2.9228198172859265e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030109178624115884
+          },
+          "model.layers.18.attn.dt_bias": {
+            "gradient_max_abs": 2.9213632046776183e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003008842468261719
+          },
+          "model.layers.18.attn.gate.0.weight": {
+            "gradient_max_abs": 0.00012984368368051946,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003030821681022644
+          },
+          "model.layers.18.attn.gate.1.weight": {
+            "gradient_max_abs": 5.394110849010758e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003152191638946533
+          },
+          "model.layers.18.attn.decay.0.weight": {
+            "gradient_max_abs": 2.7774407218572605e-09,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00023522228002548218
+          },
+          "model.layers.18.attn.decay.1.weight": {
+            "gradient_max_abs": 5.562151841331797e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030108552891761065
+          },
+          "model.layers.18.attn.score.weight": {
+            "gradient_max_abs": 1.1717096413121908e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030108552891761065
+          },
+          "model.layers.18.attn.score.bias": {
+            "gradient_max_abs": 5.892491117265308e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030108814826235175
+          },
+          "model.layers.19.attn.A_log": {
+            "gradient_max_abs": 2.8404122076608473e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030109373619779944
+          },
+          "model.layers.19.attn.dt_bias": {
+            "gradient_max_abs": 2.8383865924297424e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003008842468261719
+          },
+          "model.layers.19.attn.gate.0.weight": {
+            "gradient_max_abs": 0.00012558960588648915,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030318647623062134
+          },
+          "model.layers.19.attn.gate.1.weight": {
+            "gradient_max_abs": 4.388590969028883e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003128945827484131
+          },
+          "model.layers.19.attn.decay.0.weight": {
+            "gradient_max_abs": 4.566940159378419e-09,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002356022596359253
+          },
+          "model.layers.19.attn.decay.1.weight": {
+            "gradient_max_abs": 6.066100013413234e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.19.attn.score.weight": {
+            "gradient_max_abs": 1.7988226090892567e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.19.attn.score.bias": {
+            "gradient_max_abs": 8.731536240702553e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00028878863668069243
+          },
+          "model.layers.20.attn.A_log": {
+            "gradient_max_abs": 2.0436627323761059e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010943764820695
+          },
+          "model.layers.20.attn.dt_bias": {
+            "gradient_max_abs": 2.0357215646527038e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003008842468261719
+          },
+          "model.layers.20.attn.gate.0.weight": {
+            "gradient_max_abs": 0.00012012840306852013,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003029555082321167
+          },
+          "model.layers.20.attn.gate.1.weight": {
+            "gradient_max_abs": 8.147820335580036e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00031438469886779785
+          },
+          "model.layers.20.attn.decay.0.weight": {
+            "gradient_max_abs": 2.854008807062769e-09,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00023542344570159912
+          },
+          "model.layers.20.attn.decay.1.weight": {
+            "gradient_max_abs": 5.072018893770291e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.20.attn.score.weight": {
+            "gradient_max_abs": 1.133162868427462e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.20.attn.score.bias": {
+            "gradient_max_abs": 5.557279791901237e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030103448079898953
+          },
+          "model.layers.21.attn.A_log": {
+            "gradient_max_abs": 4.0427025282951945e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010943764820695
+          },
+          "model.layers.21.attn.dt_bias": {
+            "gradient_max_abs": 4.040297767460288e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003008842468261719
+          },
+          "model.layers.21.attn.gate.0.weight": {
+            "gradient_max_abs": 0.00012988856178708375,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030306726694107056
+          },
+          "model.layers.21.attn.gate.1.weight": {
+            "gradient_max_abs": 5.6909542763605714e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003153085708618164
+          },
+          "model.layers.21.attn.decay.0.weight": {
+            "gradient_max_abs": 6.472526958845037e-09,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00023549795150756836
+          },
+          "model.layers.21.attn.decay.1.weight": {
+            "gradient_max_abs": 1.0228607152384939e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.21.attn.score.weight": {
+            "gradient_max_abs": 2.3310340111493133e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.21.attn.score.bias": {
+            "gradient_max_abs": 1.1671753554765019e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002994912210851908
+          },
+          "model.layers.22.attn.A_log": {
+            "gradient_max_abs": 4.941160227645014e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030109265935607255
+          },
+          "model.layers.22.attn.dt_bias": {
+            "gradient_max_abs": 4.916020088785444e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003008842468261719
+          },
+          "model.layers.22.attn.gate.0.weight": {
+            "gradient_max_abs": 0.00010932268196484074,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030294060707092285
+          },
+          "model.layers.22.attn.gate.1.weight": {
+            "gradient_max_abs": 4.2042698623845354e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00031316280364990234
+          },
+          "model.layers.22.attn.decay.0.weight": {
+            "gradient_max_abs": 7.839096483053254e-09,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0002352297306060791
+          },
+          "model.layers.22.attn.decay.1.weight": {
+            "gradient_max_abs": 1.2395069006743142e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.22.attn.score.weight": {
+            "gradient_max_abs": 1.3140490864316234e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.22.attn.score.bias": {
+            "gradient_max_abs": 5.128056841385842e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00030109318322502077
+          },
+          "model.layers.23.attn.A_log": {
+            "gradient_max_abs": 2.4647764007568185e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010944346897304
+          },
+          "model.layers.23.attn.dt_bias": {
+            "gradient_max_abs": 2.4636520379317517e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003008842468261719
+          },
+          "model.layers.23.attn.gate.0.weight": {
+            "gradient_max_abs": 0.00013882751227356493,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.000302925705909729
+          },
+          "model.layers.23.attn.gate.1.weight": {
+            "gradient_max_abs": 4.624741632142104e-05,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00031363964080810547
+          },
+          "model.layers.23.attn.decay.0.weight": {
+            "gradient_max_abs": 2.92572632787369e-09,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00023520737886428833
+          },
+          "model.layers.23.attn.decay.1.weight": {
+            "gradient_max_abs": 5.014266548641899e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854416061193
+          },
+          "model.layers.23.attn.score.weight": {
+            "gradient_max_abs": 1.6131597249113838e-06,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.0003010854998137802
+          },
+          "model.layers.23.attn.score.bias": {
+            "gradient_max_abs": 4.480061761569232e-07,
+            "expected_zero_first_data_gradient": false,
+            "update_max_abs": 0.00028536032186821103
+          }
+        }
+      }
+    ],
+    "causal_absolute": 0.0,
+    "updated_causal_absolute": 0.0,
+    "updated_causal_rmsrel": 0.0,
+    "native_causality_contract": "initial and updated prefix absolute difference <1e-5",
+    "causal_cases": [
+      {
+        "prefix": 1024,
+        "absolute": 0.0,
+        "rmsrel": 0.0,
+        "passed": true
+      },
+      {
+        "prefix": 1031,
+        "absolute": 0.0,
+        "rmsrel": 0.0,
+        "passed": true
+      }
+    ],
+    "updated_causal_cases": [
+      {
+        "prefix": 1024,
+        "absolute": 0.0,
+        "rmsrel": 0.0,
+        "passed": true
+      },
+      {
+        "prefix": 1031,
+        "absolute": 0.0,
+        "rmsrel": 0.0,
+        "passed": true
+      }
+    ],
+    "aligned_full_tail_ce": true,
+    "all_gradients_parameters_finite": true,
+    "full_model_adam_rng_loader_restore": true,
+    "replicas_identical": true,
+    "trial_tokens_counted": 0,
+    "formal_start": "Fresh seed42 model and original data cursor, not trial checkpoint"
+  },
+  "restore_count": 32,
+  "restore_all_passed": true,
+  "restore_model_sha_identical": true,
+  "restore_optimizer_sha_identical": true,
+  "metrics": [
+    {
+      "kind": "block",
+      "step": 5,
+      "effective_input_tokens": 5242880,
+      "input_tokens": 5242880,
+      "supervised_tokens": 5242880,
+      "compute_tokens": 5242880,
+      "loss": 10.63980457931757,
+      "lr": 3.7499999999999996e-07,
+      "grad_norm": 21.35193634033203,
+      "seconds": 3.526209296658635,
+      "peak_bytes": 34387723264,
+      "peak_reserved_bytes": 35951476736,
+      "documents": 151,
+      "excluded_documents": 0
+    },
+    {
+      "kind": "block",
+      "step": 6,
+      "effective_input_tokens": 6291456,
+      "input_tokens": 6291456,
+      "supervised_tokens": 6291456,
+      "compute_tokens": 6291456,
+      "loss": 10.58581017702818,
+      "lr": 4.5e-07,
+      "grad_norm": 21.35284996032715,
+      "seconds": 2.847024170681834,
+      "peak_bytes": 34387723264,
+      "peak_reserved_bytes": 35951476736,
+      "documents": 177,
+      "excluded_documents": 0
+    },
+    {
+      "kind": "block",
+      "step": 7,
+      "effective_input_tokens": 7340032,
+      "input_tokens": 7340032,
+      "supervised_tokens": 7340032,
+      "compute_tokens": 7340032,
+      "loss": 10.51879896223545,
+      "lr": 5.25e-07,
+      "grad_norm": 21.116933822631836,
+      "seconds": 2.8635221030563116,
+      "peak_bytes": 34387723264,
+      "peak_reserved_bytes": 35951476736,
+      "documents": 196,
+      "excluded_documents": 0
+    }
+  ],
+  "failures": [],
+  "node_exits": {
+    "0": null,
+    "1": null,
+    "2": null,
+    "3": null
+  },
+  "snapshot": "monitor-20261108T153513Z.json"
+}

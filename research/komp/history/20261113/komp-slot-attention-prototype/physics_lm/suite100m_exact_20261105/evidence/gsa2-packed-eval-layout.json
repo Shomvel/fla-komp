@@ -1,0 +1,918 @@
+{
+  "status": "completed",
+  "sources": {
+    "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+    "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+  },
+  "script_sha256": "58f8b53ec78c2ffcd5bf3ba33583946a5a9619efdc7ef04b1e6d3751889097ce",
+  "scope": "Forward-only localization on the exact real Depo rows used in failed gradient witness; zero optimizer steps",
+  "shape": [
+    17,
+    960
+  ],
+  "lengths": [
+    864,
+    306,
+    692,
+    267,
+    344,
+    577,
+    505,
+    336,
+    332,
+    162,
+    272,
+    771,
+    476,
+    958,
+    308,
+    112,
+    662
+  ],
+  "checks": {
+    "same_shape_repeat": [
+      {
+        "layer": 0,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 1,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 2,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 3,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 4,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 5,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 6,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 7,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 8,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 9,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 10,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 11,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 12,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 13,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 14,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": "final_norm",
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      }
+    ],
+    "dense_eval_same_chunk": [
+      {
+        "layer": 0,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 1,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 2,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 3,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 4,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 5,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 6,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 7,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 8,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 9,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 10,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 11,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 12,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 13,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 14,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": "final_norm",
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      }
+    ],
+    "permutation": [
+      {
+        "layer": 0,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 1,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 2,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 3,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 4,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 5,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 6,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 7,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 8,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 9,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 10,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 11,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 12,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 13,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 14,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": "final_norm",
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      }
+    ],
+    "other_document_intervention": [
+      {
+        "layer": 0,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 1,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 2,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 3,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 4,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 5,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 6,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 7,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 8,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 9,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 10,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 11,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 12,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 13,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 14,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": "final_norm",
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      }
+    ],
+    "partition_global_pad": [
+      {
+        "layer": 0,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 1,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 2,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 3,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 4,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 5,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 6,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 7,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 8,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 9,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 10,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 11,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 12,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 13,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 14,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": "final_norm",
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      }
+    ],
+    "partition_global_pad_supervised": [
+      {
+        "layer": 0,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 1,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 2,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 3,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 4,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 5,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 6,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 7,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 8,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 9,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 10,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 11,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 12,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 13,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 14,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": "final_norm",
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      }
+    ],
+    "partition_local_pad": [
+      {
+        "layer": 0,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 1,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 2,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 3,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 4,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 5,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 6,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 7,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 8,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 9,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 10,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 11,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 12,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 13,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 14,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": "final_norm",
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      }
+    ],
+    "partition_local_pad_supervised": [
+      {
+        "layer": 0,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 1,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 2,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 3,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 4,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 5,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 6,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 7,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 8,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 9,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 10,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 11,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 12,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 13,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 14,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": "final_norm",
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      }
+    ],
+    "actual_rank_microbatch": [
+      {
+        "layer": 0,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 1,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 2,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 3,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 4,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 5,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 6,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 7,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 8,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 9,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 10,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 11,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 12,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 13,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": 14,
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": "final_norm",
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0
+      }
+    ]
+  },
+  "microbatch_documents": 3,
+  "training_steps": 0
+}

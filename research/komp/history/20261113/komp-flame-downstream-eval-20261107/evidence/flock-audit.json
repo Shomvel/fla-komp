@@ -1,0 +1,12 @@
+{
+  "status": "failed",
+  "test": "BP SSH node acquired exclusive flock on all24 running worker locks",
+  "workers": 24,
+  "held_cross_node": 0,
+  "old_jobs_confirmed_absent": [
+    "job-0094247693fa-20261107142805",
+    "job-802600c95a0f-20261107142846",
+    "job-cc0315970933-20261107142927"
+  ],
+  "note": "Root-owned old directories copied to archive; old originals left unchanged. No duplicate jobs submitted; atomic completed batches retained."
+}

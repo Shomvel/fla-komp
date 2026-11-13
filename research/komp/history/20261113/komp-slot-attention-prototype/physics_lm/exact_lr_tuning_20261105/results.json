@@ -1,0 +1,53 @@
+{
+  "tasks": {
+    "depo2": {
+      "rows": [
+        {
+          "lr": 0.00025,
+          "source": "new10M run",
+          "status": "completed",
+          "ce": 1.0981660440337324
+        },
+        {
+          "lr": 0.0005,
+          "source": "reused original alpha0-.995",
+          "status": "completed",
+          "ce": 1.0889589048498938
+        },
+        {
+          "lr": 0.001,
+          "source": "new10M run",
+          "status": "completed",
+          "ce": 1.0944265390914871
+        }
+      ],
+      "winner_lr": 0.0005
+    },
+    "brevo2": {
+      "rows": [
+        {
+          "lr": 0.0005,
+          "source": "new10M run",
+          "status": "completed",
+          "ce": 1.2950646066500275
+        },
+        {
+          "lr": 0.001,
+          "source": "reused original alpha0-.995",
+          "status": "completed",
+          "ce": 1.257567770903855
+        },
+        {
+          "lr": 0.002,
+          "source": "new10M run",
+          "status": "completed",
+          "ce": 1.2398476708595854
+        }
+      ],
+      "winner_lr": 0.002
+    }
+  },
+  "nominal_new_training_positions": 40000000,
+  "new_completed": 4,
+  "status": "completed"
+}

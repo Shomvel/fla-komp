@@ -1,0 +1,182 @@
+{
+  "status": "released_with_limitations",
+  "implementation_label": "GSA2 numerically-stabilized implementation",
+  "sources": {
+    "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+    "inherited_ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2",
+    "ddp_train": "b463fc337f09d7da36374d609f67902243e5e9bc687b8cd4b3fc880fe7e314b6",
+    "candidate": {
+      "gsa2_fixed_norm_candidate.py": "168d5c488f2350bcd7ddcffa2c4c890d65d761e05cdabad1f61e484bb5d44257",
+      "gsa2_packed_eval_candidate.py": "76e92c87723e58c1e9c4db0bd7ab5076031e3cb6f36c8297c2dff95ef31856d8",
+      "gsa2_consistent_candidate.py": "8d5eb48775c766ed4a80d24bac252b1f74ae867d20c4d8cb5ba111ee4c446dda",
+      "gsa2_candidate_preflight.py": "4a85de43e19da46747d8a4ba3902691ac9d27e7b1d49953161604559fbadd263"
+    }
+  },
+  "preflight_sha256": "995acf1e330abc7586db7661a4646823b0f5f43cc35d10bf74a728d2dfcf2385",
+  "preflight_identity": "job-413b379d860d-20261105213200",
+  "accepted_boundary": "same-rank-local-shape single GPU accumulation versus 8GPU DDP; not wholebatch Adam equivalence",
+  "new_source_forward_layout": {
+    "shape": [
+      17,
+      960
+    ],
+    "documents": 17,
+    "precision": "BF16",
+    "checks": {
+      "whole_vs_rank_partition": [
+        {
+          "layer": 0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 1,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 2,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 3,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 4,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 5,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 6,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 7,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 8,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 9,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 10,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 11,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 12,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 13,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 14,
+          "max_abs": 0.0
+        },
+        {
+          "layer": "final_norm",
+          "max_abs": 0.0
+        }
+      ],
+      "train_vs_eval": [
+        {
+          "layer": 0,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 1,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 2,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 3,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 4,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 5,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 6,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 7,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 8,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 9,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 10,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 11,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 12,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 13,
+          "max_abs": 0.0
+        },
+        {
+          "layer": 14,
+          "max_abs": 0.0
+        },
+        {
+          "layer": "final_norm",
+          "max_abs": 0.0
+        }
+      ]
+    },
+    "scope": "Seed731 real Depo 17-document initial-model witness; not all checkpoints or arbitrary lengths"
+  },
+  "strict_wholebatch_adam_status": "FAILED; unchanged and not claimed equivalent",
+  "strict_failed_evidence_sha256": "bec2bbcdafc844722fc9238a6eb7168df00cac2499854de9e3eb7ba24593f941",
+  "shared_cotangent_evidence_sha256": "da057ee41ec1befac7356d6ff12922211ff9b01a5d0f135965a710dc04f54742",
+  "shared_cotangent_scope": "Initial real-Depo witness with fixed gated RMSNorm/L2Norm and packed evaluation; same cotangent, no optimizer; direct new-source DDP witness is the release gate",
+  "precision": "Original BF16 network and linear head; no FP32-head candidate",
+  "hyperparameters": "Original per-task selected LR/WD, seed731, original architecture/initialization",
+  "runs": [
+    {
+      "task": "depo2",
+      "positions": 100000997,
+      "lr": 0.001,
+      "wd": 0.01
+    },
+    {
+      "task": "brevo2",
+      "positions": 100000590,
+      "lr": 0.001,
+      "wd": 0.1
+    }
+  ],
+  "other_twelve_runs_repeated": false
+}

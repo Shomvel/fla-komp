@@ -1,0 +1,189 @@
+{
+  "captured_utc": "2026-11-06T08:17:13.614760+00:00",
+  "status": "passed",
+  "scope": "source/data hashes, contiguous retained metric lineage, exact effective token budget, final evaluations, checkpoint file hashes and serialized state keys, prior dynamic recovery receipt; no new final-checkpoint GPU restore performed",
+  "complete": {
+    "status": "completed",
+    "step": 12970,
+    "effective_input_tokens": 6800000000,
+    "input_tokens": 6800000000,
+    "supervised_tokens": 6800000000,
+    "compute_tokens": 6800015360,
+    "validation": {
+      "cross_entropy": 2.60012479472789,
+      "supervised_tokens": 4194304,
+      "perplexity": 13.46541834337078
+    },
+    "test": {
+      "cross_entropy": 2.595598921761848,
+      "supervised_tokens": 4194304,
+      "perplexity": 13.40461327231953
+    },
+    "source_sha": "1dde0fbb5668f1105425de6774a4d188535b278819d3af3f1c569a987359f5ea",
+    "data_sha": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f"
+  },
+  "checkpoint": {
+    "path": "/gpfs/users/linlizhi/komp-flame-340m-20c-20261106/migration-fla-mb16/runtime/runs/block/checkpoint-012970",
+    "step": 12970,
+    "tokens": 6800000000
+  },
+  "checkpoint_files": {
+    "model.pt": {
+      "bytes": 4080172637,
+      "sha256": "29e57526867e236c4f5792d56915e6ffd000be44a40cc4d427979e0f4dada297"
+    },
+    "rank0.pt": {
+      "bytes": 74285,
+      "sha256": "27699a2b0492cac1e3e7fd356b93b4db7d252b6edefc12751dfd501a17350f9b"
+    },
+    "rank1.pt": {
+      "bytes": 15213,
+      "sha256": "f3ad30fbde18beba7ba81f87c147ed83a0c6ddb93a38a4cc1db7b924bce10037"
+    },
+    "rank2.pt": {
+      "bytes": 17453,
+      "sha256": "b67db4e48db294c7f01a3106a2fc0d4e30542e1f6757c2fce9926b5ba81fb31a"
+    },
+    "rank3.pt": {
+      "bytes": 25325,
+      "sha256": "c907de36abc2de670083d8ede10b3615fb4a7b64dc6a6e8d415ea2b469a38c1b"
+    },
+    "rank4.pt": {
+      "bytes": 68013,
+      "sha256": "6f38e9d3c9b3165c33c22201babf37e8fcf2a44a4d47b43ecd3e48492a709f5b"
+    },
+    "rank5.pt": {
+      "bytes": 25901,
+      "sha256": "07e535c3e1b2f954424cfc4be081f24ad6aa2a290fd7f1be414fb9644616a4b5"
+    },
+    "rank6.pt": {
+      "bytes": 30637,
+      "sha256": "5a44d3cf6334c49e243a3b88948ea5536db1af2eddb1cfcf1d213c70600ee736"
+    },
+    "rank7.pt": {
+      "bytes": 22125,
+      "sha256": "7d8a129dafc9c033bcdeaffb067684c1c09a895d26b4b0ce54e5a968dd13ff3d"
+    },
+    "complete.json": {
+      "bytes": 228,
+      "sha256": "4815301019c7e68de2b4a59eb6db9ec33a160983fca0d78a6bac4504039d4076"
+    }
+  },
+  "lineage": [
+    {
+      "prefix": "runs",
+      "first": 1,
+      "last": 4096,
+      "count": 4096
+    },
+    {
+      "prefix": "migration-mb32/runtime/runs",
+      "first": 4097,
+      "last": 4458,
+      "count": 362
+    },
+    {
+      "prefix": "migration-fla-mb16/runtime/runs",
+      "first": 4459,
+      "last": 12970,
+      "count": 8512
+    }
+  ],
+  "tail_effective_tokens": 508928,
+  "unbudgeted_padding_tokens": 15360,
+  "migration_receipt": {
+    "status": "passed",
+    "native_training_acceptance": "passed",
+    "strict_trajectory_compatibility": "failed",
+    "acceptance_policy_sha": "54e42512e70b666a68456092e197d3616aab68e3ca3aa97d201c8fd8e2d68552",
+    "source_sha": "1dde0fbb5668f1105425de6774a4d188535b278819d3af3f1c569a987359f5ea",
+    "data_sha": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+    "batching_sha": "b3c81f746e8a44511f1f9f71340c324352c7863139d60eeec4f6345adfb1d1de",
+    "previous_source_sha": "3e3125acd34a2a3284952aae679fff9d2b55a104a0c4c825fc5a1bb038a76ee4",
+    "previous_batching_sha": "3fda43d7a9a66b18bdaddef69dd24f9a7b06b33b16b0672b3710ed0d5cca8b24",
+    "source_checkpoint": "/gpfs/users/linlizhi/komp-flame-340m-20c-20261106/migration-mb32/runtime/runs/block/checkpoint-004458",
+    "source_checkpoint_hashes": {
+      "checkpoint": "/gpfs/users/linlizhi/komp-flame-340m-20c-20261106/migration-mb32/runtime/runs/block/checkpoint-004458",
+      "step": 4458,
+      "files": {
+        "rank4.pt": "5087271d00856e3802e2097574f4415ec500cb61a9814b112de8dfdb58be94ce",
+        "rank3.pt": "42b2ad39f3780718574da13388d33b66cee86a434b0a7751f2160644fa190200",
+        "model.pt": "a7a210cd2486bdee04f0698774a227844182433201636c50ed263f2462e926c9",
+        "complete.json": "655b247d578441a0cb7347df25af67f48a89830b94b72641f2ab34afcb83c414",
+        "rank1.pt": "39c189090b768da0ed0e2980d50e6d36707c110461e39edfc8b4479779ef1f35",
+        "rank5.pt": "839e85b8bd00faec8da780bdc3be09ed7e0e9995f97f64a8523d87ae0da14a3e",
+        "rank7.pt": "9ae805c3c44ecaa4b2fe8e81214fa9c95e44924be16085993e14c5717b21a615",
+        "rank0.pt": "c0224406db8544229edc0d7ff4a4b990fcfa7363ff4db7647de4b7b0045f12c3",
+        "rank2.pt": "14b2f97fff82394a14db9f4369011ac29ad95408598beaf0314850fddd2fa5fb",
+        "rank6.pt": "33c2785c39e0fda252c331e452d0f2324726ea1481560c024cf1f62e0f13913a"
+      }
+    },
+    "previous_final_logged_step": 4458,
+    "rollback_steps": 0,
+    "rollback_tokens": 0,
+    "rollback_authorization": "No complete-step rollback: graceful pause checkpoint",
+    "model_mapping": "legacy parameter renaming plus split up weight and Adam moments",
+    "compatibility_receipt_sha": "760809111216643cda8c70129bddba19802dfd836043869f0ac29c3355f675d8",
+    "cutover_step": 4458,
+    "cutover_tokens": 2337275904,
+    "initial_model_hash": "d747e6eec949ddc54dfd736fecf0030803198f54154807933adc2b4ffed35787",
+    "microbatch": 16,
+    "accumulation": 2,
+    "global_batch": 256,
+    "trial_loss": 2.8338289856910706,
+    "trial_seconds": 5.354168586432934,
+    "peak_bytes": 35515019776,
+    "grad_norm": 0.19766554236412048,
+    "trial_tokens_counted": 0,
+    "model_adam_rng_loader_restored": true,
+    "shape_change_bitwise_equivalence_claimed": false
+  },
+  "config": {
+    "model": {
+      "kind": "block",
+      "parameters": 339966848,
+      "width": 1024,
+      "layers": 24,
+      "ff": 1824,
+      "heads": 16,
+      "head_dim": 64,
+      "slots": 32,
+      "alpha0": 0.995,
+      "beta0": 0.2,
+      "model_definition": "registered FLA KOMPModel/KOMPForCausalLM; native GatedDeltaNetBlock.forward/FLAModel.forward",
+      "fuse_norm": false,
+      "fuse_swiglu": false,
+      "fused_linear_cross_entropy": true,
+      "checkpoint_policy": "mixer_only",
+      "head_checkpoint": false,
+      "projection": "float32",
+      "state_compute": "float32",
+      "chunk_tape": "bfloat16"
+    },
+    "source_sha": "1dde0fbb5668f1105425de6774a4d188535b278819d3af3f1c569a987359f5ea",
+    "data_sha": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+    "target_input_tokens": 6800000000,
+    "target_supervised_tokens": 6800000000,
+    "global_sequences": 256,
+    "sequence_length": 2048,
+    "microbatch": 16,
+    "accumulation": 2,
+    "batching_sha": "b3c81f746e8a44511f1f9f71340c324352c7863139d60eeec4f6345adfb1d1de",
+    "world_size": 8,
+    "optimizer": {
+      "lr": 0.0003,
+      "betas": [
+        0.8,
+        0.95
+      ],
+      "eps": 1e-15,
+      "weight_decay": 0.1
+    },
+    "warmup_steps": 1024,
+    "cosine_min_ratio": 0.1,
+    "packing": "2049 IDs, 2048 inputs and next-token targets; shared boundary token",
+    "final_padding": "unbudgeted trailing compute positions masked from loss",
+    "checkpoint_retention": "latest two complete checkpoints in this new run only"
+  },
+  "source_file_count": 658
+}

@@ -1,0 +1,149 @@
+{
+  "code": 0,
+  "data": {
+    "models": [
+      {
+        "active_jobs": 15,
+        "alloc_pct": 87.5,
+        "avg_gpu_util": 0.0078125,
+        "avg_mem_pct": 60.42175028059218,
+        "avg_power_pct": 15.758376674107142,
+        "avg_sm_active": 0,
+        "avg_temp_c": 31.31640625,
+        "gpu_allocated": 56,
+        "gpu_idle": 8,
+        "gpu_total": 64,
+        "model": "nvidia.com/b300",
+        "node_count": 8,
+        "serving_allocated": 0,
+        "training_allocated": 56
+      },
+      {
+        "active_jobs": 68,
+        "alloc_pct": 90.57203389830508,
+        "avg_gpu_util": 36.567134533898304,
+        "avg_mem_pct": 50.67889682317184,
+        "avg_power_pct": 27.781089550544806,
+        "avg_sm_active": 0.14920676324152568,
+        "avg_temp_c": 32.215836864406775,
+        "gpu_allocated": 1710,
+        "gpu_idle": 178,
+        "gpu_total": 1888,
+        "model": "nvidia.com/gpu",
+        "node_count": 236,
+        "serving_allocated": 642,
+        "training_allocated": 659
+      }
+    ],
+    "pending_requests": [
+      {
+        "creator": "linlizhi",
+        "gpu_count": 8,
+        "gpu_type": "",
+        "job_name": "job-bb64d761a165-20261105200328",
+        "pod_count": 1,
+        "queue": "proj-32",
+        "status": "Pending",
+        "tenant": "qiji",
+        "user_def_name": "physics100m-exact-lr-depo2-20261105",
+        "wait_secs": 940
+      },
+      {
+        "creator": "linlizhi",
+        "gpu_count": 8,
+        "gpu_type": "",
+        "job_name": "job-8bfd7b50909f-20261105200330",
+        "pod_count": 1,
+        "queue": "proj-32",
+        "status": "Pending",
+        "tenant": "qiji",
+        "user_def_name": "physics100m-exact-lr-brevo2-20261105",
+        "wait_secs": 938
+      }
+    ],
+    "queues": [
+      {
+        "gpu_used": 16,
+        "pod_count": 4,
+        "queue": "proj-32",
+        "task_count": 4,
+        "user_count": 1
+      }
+    ],
+    "summary": {
+      "alloc_pct": 90.47131147540983,
+      "avg_gpu_util": 35.36846823770492,
+      "avg_mem_pct": 51.73854251642602,
+      "avg_power_pct": 27.017742701247176,
+      "avg_sm_active": 0.14431473821721336,
+      "avg_temp_c": 32.18634733606557,
+      "gpu_allocated": 1766,
+      "gpu_idle": 186,
+      "gpu_total": 1952,
+      "node_full": 208,
+      "node_idle": 16,
+      "node_total": 244,
+      "pending_total": 2,
+      "power_tdp_w": 1411200,
+      "power_w": 381274.3850000001,
+      "serving_allocated": 642,
+      "task_total": 5005,
+      "training_allocated": 715
+    },
+    "tasks": [
+      {
+        "avg_gpu_util": 1.28125,
+        "avg_sm_active": 0.0011526875,
+        "avg_temp_c": 27,
+        "creator": "linlizhi",
+        "gpu_count": 8,
+        "gpu_model": "nvidia.com/gpu",
+        "job_name": "job-45fd89de1bc6-20261105194756",
+        "job_type": "training",
+        "node_count": 1,
+        "nodes": [
+          "node178"
+        ],
+        "pod_count": 1,
+        "power_tdp_w": 5600,
+        "power_w": 888.129,
+        "queue": "proj-32",
+        "running_pod_count": 1,
+        "status": "Running",
+        "tenant": "qiji",
+        "uptime_secs": 1872,
+        "user_def_name": "physics100m-exact-ddp-brevo2-20261105",
+        "wanted_gpu": 8
+      },
+      {
+        "avg_gpu_util": 0,
+        "avg_sm_active": 0.0010797500000000002,
+        "avg_temp_c": 27.125,
+        "creator": "linlizhi",
+        "gpu_count": 8,
+        "gpu_model": "nvidia.com/gpu",
+        "job_name": "job-e1dbaa38dc49-20261105195024",
+        "job_type": "training",
+        "node_count": 1,
+        "nodes": [
+          "node024"
+        ],
+        "pod_count": 1,
+        "power_tdp_w": 5600,
+        "power_w": 889.427,
+        "queue": "proj-32",
+        "running_pod_count": 1,
+        "status": "Running",
+        "tenant": "qiji",
+        "uptime_secs": 1724,
+        "user_def_name": "physics100m-exact-ddp-depo2-20261105",
+        "wanted_gpu": 8
+      }
+    ],
+    "tenants": [],
+    "users": []
+  },
+  "err_detail": "",
+  "err_msg": "",
+  "request_id": "ReqID-20261105-201904-5489-fd99"
+}

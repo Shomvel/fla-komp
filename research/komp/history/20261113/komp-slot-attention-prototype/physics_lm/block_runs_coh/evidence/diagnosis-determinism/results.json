@@ -1,0 +1,509 @@
+{
+  "status": "passed",
+  "rows": [
+    {
+      "deterministic": false,
+      "kind": "coh_fifo_80",
+      "same_input_model": [
+        0.010892629623413086,
+        0.022530436515808105,
+        0.022530436515808105,
+        0.009176254272460938,
+        0.022530436515808105
+      ],
+      "suffix": [
+        {
+          "cut": 31,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 63,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 64,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 65,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 127,
+          "max_abs": 0.002193242311477661
+        },
+        {
+          "cut": 128,
+          "max_abs": 0.004911340773105621
+        },
+        {
+          "cut": 129,
+          "max_abs": 0.004911340773105621
+        }
+      ],
+      "same_input_operator": [
+        {
+          "output": 4.470348358154297e-08,
+          "state": 2.384185791015625e-07
+        },
+        {
+          "output": 4.470348358154297e-08,
+          "state": 2.086162567138672e-07
+        },
+        {
+          "output": 4.470348358154297e-08,
+          "state": 2.086162567138672e-07
+        },
+        {
+          "output": 4.470348358154297e-08,
+          "state": 2.086162567138672e-07
+        },
+        {
+          "output": 4.470348358154297e-08,
+          "state": 2.384185791015625e-07
+        }
+      ]
+    },
+    {
+      "deterministic": false,
+      "kind": "coh_fifo_95",
+      "same_input_model": [
+        0.0,
+        0.0,
+        0.0076552629470825195,
+        0.0076552629470825195,
+        0.015280008316040039
+      ],
+      "suffix": [
+        {
+          "cut": 31,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 63,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 64,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 65,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 127,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 128,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 129,
+          "max_abs": 8.225440979003906e-06
+        }
+      ],
+      "same_input_operator": [
+        {
+          "output": 4.470348358154297e-08,
+          "state": 2.384185791015625e-07
+        },
+        {
+          "output": 4.470348358154297e-08,
+          "state": 2.384185791015625e-07
+        },
+        {
+          "output": 4.470348358154297e-08,
+          "state": 2.384185791015625e-07
+        },
+        {
+          "output": 4.470348358154297e-08,
+          "state": 2.384185791015625e-07
+        },
+        {
+          "output": 4.470348358154297e-08,
+          "state": 1.7881393432617188e-07
+        }
+      ]
+    },
+    {
+      "deterministic": false,
+      "kind": "coh_fifo_99",
+      "same_input_model": [
+        0.016332626342773438,
+        0.016332626342773438,
+        0.016332626342773438,
+        0.009189307689666748,
+        0.00012546777725219727
+      ],
+      "suffix": [
+        {
+          "cut": 31,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 63,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 64,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 65,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 127,
+          "max_abs": 7.987022399902344e-06
+        },
+        {
+          "cut": 128,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 129,
+          "max_abs": 0.0
+        }
+      ],
+      "same_input_operator": [
+        {
+          "output": 3.725290298461914e-08,
+          "state": 2.384185791015625e-07
+        },
+        {
+          "output": 4.470348358154297e-08,
+          "state": 2.682209014892578e-07
+        },
+        {
+          "output": 4.470348358154297e-08,
+          "state": 1.7881393432617188e-07
+        },
+        {
+          "output": 4.470348358154297e-08,
+          "state": 2.384185791015625e-07
+        },
+        {
+          "output": 3.725290298461914e-08,
+          "state": 1.7881393432617188e-07
+        }
+      ]
+    },
+    {
+      "deterministic": false,
+      "kind": "coh_fifo_off",
+      "same_input_model": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "suffix": [
+        {
+          "cut": 31,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 63,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 64,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 65,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 127,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 128,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 129,
+          "max_abs": 0.0
+        }
+      ],
+      "same_input_operator": [
+        {
+          "output": 0.0,
+          "state": 0.0
+        },
+        {
+          "output": 0.0,
+          "state": 0.0
+        },
+        {
+          "output": 0.0,
+          "state": 0.0
+        },
+        {
+          "output": 0.0,
+          "state": 0.0
+        },
+        {
+          "output": 0.0,
+          "state": 0.0
+        }
+      ]
+    },
+    {
+      "deterministic": true,
+      "kind": "coh_fifo_80",
+      "same_input_model": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "suffix": [
+        {
+          "cut": 31,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 63,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 64,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 65,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 127,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 128,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 129,
+          "max_abs": 0.0
+        }
+      ],
+      "same_input_operator": [
+        {
+          "output": 0.0,
+          "state": 0.0
+        },
+        {
+          "output": 0.0,
+          "state": 0.0
+        },
+        {
+          "output": 0.0,
+          "state": 0.0
+        },
+        {
+          "output": 0.0,
+          "state": 0.0
+        },
+        {
+          "output": 0.0,
+          "state": 0.0
+        }
+      ]
+    },
+    {
+      "deterministic": true,
+      "kind": "coh_fifo_95",
+      "same_input_model": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "suffix": [
+        {
+          "cut": 31,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 63,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 64,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 65,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 127,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 128,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 129,
+          "max_abs": 0.0
+        }
+      ],
+      "same_input_operator": [
+        {
+          "output": 0.0,
+          "state": 0.0
+        },
+        {
+          "output": 0.0,
+          "state": 0.0
+        },
+        {
+          "output": 0.0,
+          "state": 0.0
+        },
+        {
+          "output": 0.0,
+          "state": 0.0
+        },
+        {
+          "output": 0.0,
+          "state": 0.0
+        }
+      ]
+    },
+    {
+      "deterministic": true,
+      "kind": "coh_fifo_99",
+      "same_input_model": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "suffix": [
+        {
+          "cut": 31,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 63,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 64,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 65,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 127,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 128,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 129,
+          "max_abs": 0.0
+        }
+      ],
+      "same_input_operator": [
+        {
+          "output": 0.0,
+          "state": 0.0
+        },
+        {
+          "output": 0.0,
+          "state": 0.0
+        },
+        {
+          "output": 0.0,
+          "state": 0.0
+        },
+        {
+          "output": 0.0,
+          "state": 0.0
+        },
+        {
+          "output": 0.0,
+          "state": 0.0
+        }
+      ]
+    },
+    {
+      "deterministic": true,
+      "kind": "coh_fifo_off",
+      "same_input_model": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "suffix": [
+        {
+          "cut": 31,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 63,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 64,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 65,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 127,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 128,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 129,
+          "max_abs": 0.0
+        }
+      ],
+      "same_input_operator": [
+        {
+          "output": 0.0,
+          "state": 0.0
+        },
+        {
+          "output": 0.0,
+          "state": 0.0
+        },
+        {
+          "output": 0.0,
+          "state": 0.0
+        },
+        {
+          "output": 0.0,
+          "state": 0.0
+        },
+        {
+          "output": 0.0,
+          "state": 0.0
+        }
+      ]
+    }
+  ]
+}

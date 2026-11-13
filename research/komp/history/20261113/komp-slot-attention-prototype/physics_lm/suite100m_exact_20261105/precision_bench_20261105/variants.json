@@ -1,0 +1,31 @@
+{
+  "source": {
+    "__init__.py": "e5ca7eef4e205d3331b8d24ddb87e0cc12148beddd28fe1e7a9c668f4d2d1058",
+    "chunk_backward.py": "654a29b52abdda49d49d88dd66eb3a6db36d5c31a5ac2d5d69f247f8df454337",
+    "geometry.py": "c3ed25d0557b4bc417ef39f2df1653c4d3e978321590f0cf4abc430ea46ee389",
+    "hierarchical.py": "100517a5611d0db3c82b8584340c76207b39f688d38128c3dbca698937103b68",
+    "operator.py": "d3878b96551a16aef4323ace9bec652604d7dd37534b1fb42b0cbd5b94ca12d0",
+    "recurrence.py": "41bd96f432f2c7424e8831aaa3340495510369609fe90b308baa3646353dd6bd",
+    "versioned.py": "78e15ea818ee0f04ddc551c800b5bb31a34e57212f5c0b7e7f028022a99bd94d"
+  },
+  "variants": {
+    "bf16_projection/__init__.py": "e5ca7eef4e205d3331b8d24ddb87e0cc12148beddd28fe1e7a9c668f4d2d1058",
+    "bf16_projection/chunk_backward.py": "654a29b52abdda49d49d88dd66eb3a6db36d5c31a5ac2d5d69f247f8df454337",
+    "bf16_projection/geometry.py": "ba59858ca47fbd37b20339f39b24ce56bc6d5cdc37706d1e5bd6962035d516df",
+    "bf16_projection/hierarchical.py": "100517a5611d0db3c82b8584340c76207b39f688d38128c3dbca698937103b68",
+    "bf16_projection/operator.py": "4f43a1e966e472059c0c9d903063d7e940029281614986ce14bd6388924eb308",
+    "bf16_projection/recurrence.py": "41bd96f432f2c7424e8831aaa3340495510369609fe90b308baa3646353dd6bd",
+    "bf16_projection/versioned.py": "78e15ea818ee0f04ddc551c800b5bb31a34e57212f5c0b7e7f028022a99bd94d",
+    "bf16_projection_mixed/__init__.py": "e5ca7eef4e205d3331b8d24ddb87e0cc12148beddd28fe1e7a9c668f4d2d1058",
+    "bf16_projection_mixed/chunk_backward.py": "654a29b52abdda49d49d88dd66eb3a6db36d5c31a5ac2d5d69f247f8df454337",
+    "bf16_projection_mixed/geometry.py": "e603072dc5ad272aa14874a262295ed5a6a1ca71262dfe083717b66c2670afe1",
+    "bf16_projection_mixed/hierarchical.py": "100517a5611d0db3c82b8584340c76207b39f688d38128c3dbca698937103b68",
+    "bf16_projection_mixed/operator.py": "4f43a1e966e472059c0c9d903063d7e940029281614986ce14bd6388924eb308",
+    "bf16_projection_mixed/recurrence.py": "41bd96f432f2c7424e8831aaa3340495510369609fe90b308baa3646353dd6bd",
+    "bf16_projection_mixed/versioned.py": "78e15ea818ee0f04ddc551c800b5bb31a34e57212f5c0b7e7f028022a99bd94d"
+  },
+  "semantics": {
+    "bf16_projection": "BF16 Gram/RHS/P/H/R/N; BF16-rounded elimination, including regularized diagonal. FP32 normalization, reductions, state, geometry adjoint. Approximate backward through rounded geometry.",
+    "bf16_projection_mixed": "BF16 Gram/RHS/P/H/R/N; ridge addition and solve FP32. FP32 normalization/state/geometry adjoint. Approximate backward through rounded geometry; not a pure BF16 solve."
+  }
+}

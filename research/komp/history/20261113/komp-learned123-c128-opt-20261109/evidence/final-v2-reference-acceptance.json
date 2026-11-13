@@ -1,0 +1,1293 @@
+{
+  "passed": true,
+  "absolute_fp64_reference_passed": false,
+  "acceptance": "No added FP64 failures or numerical worsening versus immutable original baseline; existing failures remain explicitly recorded",
+  "paired_numeric_tolerance": "candidate error <= baseline error * 1.02 + 1e-6 for absolute and RMS separately",
+  "candidate_sha256": "9ab491fcbc7b356aeb74d90f95dd1f85bcfac74b2fe52f33dd68f85ef98a456b",
+  "raw_evidence_sha256": "8c5938fe4df43c7171c1535b586769a70991e93b2bac5e8ffc9dc5dce043f7fa",
+  "known_original_limitations": [
+    {
+      "case": "torch.float32-nearTrue",
+      "field": "dg",
+      "candidate": {
+        "tensor": "dg",
+        "absolute": 0.015209565255706103,
+        "rmsrel": 0.003208877881552691,
+        "passed": false
+      },
+      "baseline": {
+        "tensor": "dg",
+        "absolute": 0.015209803674285205,
+        "rmsrel": 0.0032088917919980203,
+        "passed": false
+      }
+    },
+    {
+      "case": "torch.float32-nearTrue",
+      "field": "ds0",
+      "candidate": {
+        "tensor": "ds0",
+        "absolute": 0.004996655319777776,
+        "rmsrel": 0.006806200613679581,
+        "passed": false
+      },
+      "baseline": {
+        "tensor": "ds0",
+        "absolute": 0.004996655319777776,
+        "rmsrel": 0.006806200613679581,
+        "passed": false
+      }
+    }
+  ],
+  "checks": [
+    {
+      "case": "torch.float32-nearFalse",
+      "field": "out",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "out",
+        "absolute": 0.0009515635669464784,
+        "rmsrel": 0.0016030575685617742,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "out",
+        "absolute": 0.0009515635669464784,
+        "rmsrel": 0.0016030575685617742,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.float32-nearFalse",
+      "field": "keys",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "keys",
+        "absolute": 4.330904562754867e-08,
+        "rmsrel": 5.271276359403537e-08,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "keys",
+        "absolute": 4.330904562754867e-08,
+        "rmsrel": 5.271276359403537e-08,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.float32-nearFalse",
+      "field": "state",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "state",
+        "absolute": 0.0012999748930873078,
+        "rmsrel": 0.0014572532031251687,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "state",
+        "absolute": 0.0012999748930873078,
+        "rmsrel": 0.0014572532031251687,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.float32-nearFalse",
+      "field": "dq",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "dq",
+        "absolute": 0.0006003168746039622,
+        "rmsrel": 0.002240220168573583,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "dq",
+        "absolute": 0.0006003168746039622,
+        "rmsrel": 0.002240220168573583,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.float32-nearFalse",
+      "field": "dk",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "dk",
+        "absolute": 0.0006089441901507009,
+        "rmsrel": 0.001505654297838261,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "dk",
+        "absolute": 0.0006089441901507009,
+        "rmsrel": 0.00150565423859459,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.float32-nearFalse",
+      "field": "dv",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "dv",
+        "absolute": 0.0019476321024938237,
+        "rmsrel": 0.0016210931247213516,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "dv",
+        "absolute": 0.0019476321024938237,
+        "rmsrel": 0.0016210931247213516,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.float32-nearFalse",
+      "field": "dg",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "dg",
+        "absolute": 0.010192843142169394,
+        "rmsrel": 0.0014735819649035157,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "dg",
+        "absolute": 0.010191889467852988,
+        "rmsrel": 0.0014735770763206254,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.float32-nearFalse",
+      "field": "dbeta",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "dbeta",
+        "absolute": 0.02880727384320636,
+        "rmsrel": 0.0016529509658573093,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "dbeta",
+        "absolute": 0.02880727384320636,
+        "rmsrel": 0.0016529547620519826,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.float32-nearFalse",
+      "field": "dk0",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "dk0",
+        "absolute": 0.00021373237825086933,
+        "rmsrel": 0.0009393999405024952,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "dk0",
+        "absolute": 0.00021376218057325702,
+        "rmsrel": 0.0009394002343584497,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.float32-nearFalse",
+      "field": "ds0",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "ds0",
+        "absolute": 0.0018947639828210683,
+        "rmsrel": 0.0008747691504078906,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "ds0",
+        "absolute": 0.0018947639828210683,
+        "rmsrel": 0.0008747691504078906,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.float32-nearTrue",
+      "field": "out",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "out",
+        "absolute": 0.0007619282423264317,
+        "rmsrel": 0.002144743545828921,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "out",
+        "absolute": 0.0007619282423264317,
+        "rmsrel": 0.002144743545828921,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.float32-nearTrue",
+      "field": "keys",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "keys",
+        "absolute": 4.3469167099186024e-08,
+        "rmsrel": 5.525536206485141e-08,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "keys",
+        "absolute": 4.3469167099186024e-08,
+        "rmsrel": 5.525536206485141e-08,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.float32-nearTrue",
+      "field": "state",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "state",
+        "absolute": 0.001650223264727524,
+        "rmsrel": 0.0021638029783301767,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "state",
+        "absolute": 0.001650223264727524,
+        "rmsrel": 0.0021638029783301767,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.float32-nearTrue",
+      "field": "dq",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "dq",
+        "absolute": 0.0003504655357270403,
+        "rmsrel": 0.0026471023406287424,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "dq",
+        "absolute": 0.0003504655357270403,
+        "rmsrel": 0.0026471023406287424,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.float32-nearTrue",
+      "field": "dk",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "dk",
+        "absolute": 0.10738201982022133,
+        "rmsrel": 0.0022375798352090195,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "dk",
+        "absolute": 0.10738201982022133,
+        "rmsrel": 0.0022375794011586,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.float32-nearTrue",
+      "field": "dv",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "dv",
+        "absolute": 0.0019576718325439724,
+        "rmsrel": 0.002086777393314087,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "dv",
+        "absolute": 0.0019576718325439724,
+        "rmsrel": 0.002086777393314087,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.float32-nearTrue",
+      "field": "dg",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "dg",
+        "absolute": 0.015209565255706103,
+        "rmsrel": 0.003208877881552691,
+        "passed": false
+      },
+      "baseline": {
+        "tensor": "dg",
+        "absolute": 0.015209803674285205,
+        "rmsrel": 0.0032088917919980203,
+        "passed": false
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.float32-nearTrue",
+      "field": "dbeta",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "dbeta",
+        "absolute": 0.05990716394961515,
+        "rmsrel": 0.0023482582628649665,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "dbeta",
+        "absolute": 0.05990716394961515,
+        "rmsrel": 0.0023482614188108267,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.float32-nearTrue",
+      "field": "dk0",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "dk0",
+        "absolute": 0.0927440299646154,
+        "rmsrel": 0.0024717423000505567,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "dk0",
+        "absolute": 0.0927440299646154,
+        "rmsrel": 0.00247174251214672,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.float32-nearTrue",
+      "field": "ds0",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "ds0",
+        "absolute": 0.004996655319777776,
+        "rmsrel": 0.006806200613679581,
+        "passed": false
+      },
+      "baseline": {
+        "tensor": "ds0",
+        "absolute": 0.004996655319777776,
+        "rmsrel": 0.006806200613679581,
+        "passed": false
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.bfloat16-nearFalse",
+      "field": "out",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "out",
+        "absolute": 0.0018755972842565138,
+        "rmsrel": 0.003648197546104789,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "out",
+        "absolute": 0.0018755972842565138,
+        "rmsrel": 0.003648197546104789,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.bfloat16-nearFalse",
+      "field": "keys",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "keys",
+        "absolute": 5.4438878127616164e-08,
+        "rmsrel": 5.538179164929284e-08,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "keys",
+        "absolute": 5.4438878127616164e-08,
+        "rmsrel": 5.538179164929284e-08,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.bfloat16-nearFalse",
+      "field": "state",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "state",
+        "absolute": 0.0007671488824582129,
+        "rmsrel": 0.001164556436460296,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "state",
+        "absolute": 0.0007671488824582129,
+        "rmsrel": 0.001164556436460296,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.bfloat16-nearFalse",
+      "field": "dq",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "dq",
+        "absolute": 0.0008568807329068784,
+        "rmsrel": 0.0035363977837062173,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "dq",
+        "absolute": 0.0008568807329068784,
+        "rmsrel": 0.0035363977837062173,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.bfloat16-nearFalse",
+      "field": "dk",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "dk",
+        "absolute": 0.0013337261664188027,
+        "rmsrel": 0.0027084595343813936,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "dk",
+        "absolute": 0.0013337261664188027,
+        "rmsrel": 0.0027084595343813936,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.bfloat16-nearFalse",
+      "field": "dv",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "dv",
+        "absolute": 0.0037371026239947924,
+        "rmsrel": 0.003582812420829736,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "dv",
+        "absolute": 0.0037371026239947924,
+        "rmsrel": 0.003582812420829736,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.bfloat16-nearFalse",
+      "field": "dg",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "dg",
+        "absolute": 0.012789317616046292,
+        "rmsrel": 0.002536429833561731,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "dg",
+        "absolute": 0.012789913662494046,
+        "rmsrel": 0.0025364542328340017,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.bfloat16-nearFalse",
+      "field": "dbeta",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "dbeta",
+        "absolute": 0.03823332668647694,
+        "rmsrel": 0.0026810810084942588,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "dbeta",
+        "absolute": 0.03823428036079335,
+        "rmsrel": 0.002681082065762332,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.bfloat16-nearFalse",
+      "field": "dk0",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "dk0",
+        "absolute": 0.0005832068785756872,
+        "rmsrel": 0.001691708068635251,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "dk0",
+        "absolute": 0.0005832068785756872,
+        "rmsrel": 0.001691708710580967,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.bfloat16-nearFalse",
+      "field": "ds0",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "ds0",
+        "absolute": 0.008666754548275368,
+        "rmsrel": 0.0034823567897428118,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "ds0",
+        "absolute": 0.008666754548275368,
+        "rmsrel": 0.0034823567897428118,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.bfloat16-nearTrue",
+      "field": "out",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "out",
+        "absolute": 0.0032079104128200364,
+        "rmsrel": 0.007345044595317537,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "out",
+        "absolute": 0.0032079104128200364,
+        "rmsrel": 0.007345044595317537,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.bfloat16-nearTrue",
+      "field": "keys",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "keys",
+        "absolute": 4.076622867055235e-08,
+        "rmsrel": 4.669505850018366e-08,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "keys",
+        "absolute": 4.076622867055235e-08,
+        "rmsrel": 4.669505850018366e-08,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.bfloat16-nearTrue",
+      "field": "state",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "state",
+        "absolute": 0.002083399740192171,
+        "rmsrel": 0.00257839060253697,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "state",
+        "absolute": 0.002083399740192171,
+        "rmsrel": 0.00257839060253697,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.bfloat16-nearTrue",
+      "field": "dq",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "dq",
+        "absolute": 0.0012328900512167257,
+        "rmsrel": 0.010488405763957901,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "dq",
+        "absolute": 0.0012328900512167257,
+        "rmsrel": 0.010488405763957901,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.bfloat16-nearTrue",
+      "field": "dk",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "dk",
+        "absolute": 0.1530059396572625,
+        "rmsrel": 0.0038857634632143622,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "dk",
+        "absolute": 0.1530059396572625,
+        "rmsrel": 0.0038857634632143622,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.bfloat16-nearTrue",
+      "field": "dv",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "dv",
+        "absolute": 0.0028148161033512142,
+        "rmsrel": 0.0054434052021874015,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "dv",
+        "absolute": 0.0028148161033512142,
+        "rmsrel": 0.0054434052021874015,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.bfloat16-nearTrue",
+      "field": "dg",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "dg",
+        "absolute": 0.01990427059485389,
+        "rmsrel": 0.0047004790689726145,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "dg",
+        "absolute": 0.01990415138556434,
+        "rmsrel": 0.004700512232401799,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.bfloat16-nearTrue",
+      "field": "dbeta",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "dbeta",
+        "absolute": 0.07092282436455921,
+        "rmsrel": 0.004911346987472318,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "dbeta",
+        "absolute": 0.0709218706902428,
+        "rmsrel": 0.0049113382869690626,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.bfloat16-nearTrue",
+      "field": "dk0",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "dk0",
+        "absolute": 0.12505221932727828,
+        "rmsrel": 0.003910254367379791,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "dk0",
+        "absolute": 0.12505221932727828,
+        "rmsrel": 0.003910254832907892,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "case": "torch.bfloat16-nearTrue",
+      "field": "ds0",
+      "finite": true,
+      "no_new_failure": true,
+      "within_baseline_two_percent_plus_1e6": true,
+      "candidate": {
+        "tensor": "ds0",
+        "absolute": 0.008419164114911504,
+        "rmsrel": 0.008436252047317554,
+        "passed": true
+      },
+      "baseline": {
+        "tensor": "ds0",
+        "absolute": 0.008419164114911504,
+        "rmsrel": 0.008436252047317554,
+        "passed": true
+      },
+      "passed": true
+    }
+  ],
+  "ranking": [
+    {
+      "case": "ties_newest",
+      "passed": true,
+      "retained_pool_rows": [
+        [
+          [
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264,
+            265,
+            266,
+            267,
+            268,
+            269,
+            270,
+            271,
+            272,
+            273,
+            274,
+            275,
+            276,
+            277,
+            278,
+            279,
+            280,
+            281,
+            282,
+            283,
+            284,
+            285,
+            286,
+            287,
+            288
+          ],
+          [
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264,
+            265,
+            266,
+            267,
+            268,
+            269,
+            270,
+            271,
+            272,
+            273,
+            274,
+            275,
+            276,
+            277,
+            278,
+            279,
+            280,
+            281,
+            282,
+            283,
+            284,
+            285,
+            286,
+            287,
+            288
+          ]
+        ]
+      ],
+      "expected_pool_rows": [
+        [
+          [
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264,
+            265,
+            266,
+            267,
+            268,
+            269,
+            270,
+            271,
+            272,
+            273,
+            274,
+            275,
+            276,
+            277,
+            278,
+            279,
+            280,
+            281,
+            282,
+            283,
+            284,
+            285,
+            286,
+            287,
+            288
+          ],
+          [
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264,
+            265,
+            266,
+            267,
+            268,
+            269,
+            270,
+            271,
+            272,
+            273,
+            274,
+            275,
+            276,
+            277,
+            278,
+            279,
+            280,
+            281,
+            282,
+            283,
+            284,
+            285,
+            286,
+            287,
+            288
+          ]
+        ]
+      ],
+      "differs_from_fifo": false
+    },
+    {
+      "case": "retain_early",
+      "passed": true,
+      "retained_pool_rows": [
+        [
+          [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ],
+          [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ]
+        ]
+      ],
+      "expected_pool_rows": [
+        [
+          [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ],
+          [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ]
+        ]
+      ],
+      "differs_from_fifo": true
+    },
+    {
+      "case": "retain_initial",
+      "passed": true,
+      "retained_pool_rows": [
+        [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ]
+        ]
+      ],
+      "expected_pool_rows": [
+        [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ]
+        ]
+      ],
+      "differs_from_fifo": true
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "status": "passed",
+  "captured_utc": "2026-11-06T09:21:29.971105+00:00",
+  "scope": "hashes, serialized state keys, contiguous lineage, final budget/evaluation and prior preflight recovery; no fresh final checkpoint GPU restore",
+  "complete": {
+    "status": "completed",
+    "step": 12970,
+    "effective_input_tokens": 6800000000,
+    "input_tokens": 6800000000,
+    "supervised_tokens": 6800000000,
+    "compute_tokens": 6800015360,
+    "validation": {
+      "cross_entropy": 2.527196307084523,
+      "supervised_tokens": 4194304,
+      "perplexity": 12.51835925400466
+    },
+    "test": {
+      "cross_entropy": 2.5229215873987414,
+      "supervised_tokens": 4194304,
+      "perplexity": 12.464960989886482
+    },
+    "source_sha": "74fda6e3f1ad46e50997b1c35396503d947e69ca73ff06dad2b18e8fa1ef2362",
+    "data_sha": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f"
+  },
+  "checkpoint": {
+    "path": "/gpfs/users/linlizhi/kda-flame-340m-20c-20261106/runs/kda/checkpoint-012970",
+    "step": 12970,
+    "tokens": 6800000000
+  },
+  "checkpoint_files": {
+    "model.pt": {
+      "bytes": 4061802845,
+      "sha256": "af6ab3adc0c5202aca6fd3ac22f6d6d7e2f48bc2f53a80773630aa8106f6bd98"
+    },
+    "rank0.pt": {
+      "bytes": 74285,
+      "sha256": "6e76c81bd4051da3013b6fdcd82501252b6f0682509e2155f0adabd62bba5fa7"
+    },
+    "rank1.pt": {
+      "bytes": 15213,
+      "sha256": "705f5d29c3183468750b9ff8f1d8ce1d7d80f79b5cc8e6f1f47612d1fad72ad2"
+    },
+    "rank2.pt": {
+      "bytes": 17453,
+      "sha256": "f84fd7871e2b3fde3836480a0d694d37f897803c29e6fd002f7291ec1839b763"
+    },
+    "rank3.pt": {
+      "bytes": 25325,
+      "sha256": "3587fa80b49269dca3bcf7a6a91f8831484b0a6aff8cba85f30433de00d5bde9"
+    },
+    "rank4.pt": {
+      "bytes": 68077,
+      "sha256": "07d91093c51e5c0c8b179dc56e2f9e2e07c193f0acd643358171b230da388d11"
+    },
+    "rank5.pt": {
+      "bytes": 25837,
+      "sha256": "2518158f6bc91298131549a3852a7244401ce8fa10e14b6200f2490fc7519b6c"
+    },
+    "rank6.pt": {
+      "bytes": 30701,
+      "sha256": "811451297e8b95fa1ba2374bd71a152c66a1ade91dc67d19f5151b0bc4621caf"
+    },
+    "rank7.pt": {
+      "bytes": 22061,
+      "sha256": "0716cdbd3922000c2fcea6c1367fceeab758231e65a36436043ec1e74e65a2c2"
+    },
+    "complete.json": {
+      "bytes": 228,
+      "sha256": "b9eb51862f6f95a45dfd147072fa1f9ba60cf0e1d36949b2dce092cf6cd27436"
+    }
+  },
+  "preflight": {
+    "status": "passed",
+    "source_sha": "74fda6e3f1ad46e50997b1c35396503d947e69ca73ff06dad2b18e8fa1ef2362",
+    "data_sha": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+    "batching_sha": "1db5c1ce5cee0fc4f389b3c0a897c767767a6eefc40e65a74209ea7bffd38f1b",
+    "parameters": 338430848,
+    "initial_model_sha": "137d38213b574b1d38b2d74ef0dfd179bc69275f473815faa321e6c25ed0a393",
+    "cases": [
+      {
+        "case": "full",
+        "loss": 10.578272521495819,
+        "global_valid_tokens": 524288,
+        "grad_norm": 2.6404316425323486,
+        "seconds": 144.75803911685944,
+        "peak_bytes": 33476953600,
+        "replicas_identical": true
+      },
+      {
+        "case": "final_tail",
+        "loss": 9.730251197124153,
+        "global_valid_tokens": 508928,
+        "grad_norm": 3.050142765045166,
+        "seconds": 5.833983242511749,
+        "peak_bytes": 36201421824,
+        "replicas_identical": true
+      }
+    ],
+    "causal_absolute": 0.0,
+    "aligned_full_tail_ce": true,
+    "all_gradients_parameters_finite": true,
+    "full_model_adam_rng_loader_restore": true,
+    "replicas_identical": true,
+    "trial_tokens_counted": 0,
+    "formal_start": "Fresh seed42 model and original data cursor, not trial checkpoint"
+  },
+  "source_files": 615,
+  "metric_rows": 12970,
+  "compute_padding_unbudgeted": 15360
+}

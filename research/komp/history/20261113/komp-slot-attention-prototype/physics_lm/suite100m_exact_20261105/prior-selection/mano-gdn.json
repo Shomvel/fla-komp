@@ -1,0 +1,63 @@
+{
+  "lr": 0.0005,
+  "wd": 0.1,
+  "val_ce": 1.5460542454384267,
+  "run": "mano-gdn-tune-lr0.0005-wd0.1-seed731",
+  "criterion": "minimum final validation CE at 10M tokens",
+  "candidates": [
+    {
+      "lr": 0.00025,
+      "wd": 0.0,
+      "val_ce": 1.5911625621374696,
+      "run": "mano-gdn-tune-lr0.00025-wd0-seed731"
+    },
+    {
+      "lr": 0.00025,
+      "wd": 0.01,
+      "val_ce": 1.575063168304041,
+      "run": "mano-gdn-tune-lr0.00025-wd0.01-seed731"
+    },
+    {
+      "lr": 0.00025,
+      "wd": 0.1,
+      "val_ce": 1.602507843868807,
+      "run": "mano-gdn-tune-lr0.00025-wd0.1-seed731"
+    },
+    {
+      "lr": 0.0005,
+      "wd": 0.0,
+      "val_ce": 1.5477638086304069,
+      "run": "mano-gdn-tune-lr0.0005-wd0-seed731"
+    },
+    {
+      "lr": 0.0005,
+      "wd": 0.01,
+      "val_ce": 1.5679585617035627,
+      "run": "mano-gdn-tune-lr0.0005-wd0.01-seed731"
+    },
+    {
+      "lr": 0.0005,
+      "wd": 0.1,
+      "val_ce": 1.5460542454384267,
+      "run": "mano-gdn-tune-lr0.0005-wd0.1-seed731"
+    },
+    {
+      "lr": 0.001,
+      "wd": 0.0,
+      "val_ce": 1.5496452725492418,
+      "run": "mano-gdn-tune-lr0.001-wd0-seed731"
+    },
+    {
+      "lr": 0.001,
+      "wd": 0.01,
+      "val_ce": 1.5477459190879017,
+      "run": "mano-gdn-tune-lr0.001-wd0.01-seed731"
+    },
+    {
+      "lr": 0.001,
+      "wd": 0.1,
+      "val_ce": 1.5477234821300954,
+      "run": "mano-gdn-tune-lr0.001-wd0.1-seed731"
+    }
+  ]
+}

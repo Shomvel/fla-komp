@@ -1,0 +1,118 @@
+{
+  "scope": "Observed end-to-end training plus final validation, includes cold compilation and concurrent job effects; not a warm-kernel speed benchmark",
+  "world_size": 8,
+  "records": [
+    {
+      "task": "depo2",
+      "kind": "gdn",
+      "train_seconds": 496.18919617682695,
+      "positions": 100000997,
+      "positions_per_second": 201538.0378503095,
+      "peak_bytes_rank0": 2709323264
+    },
+    {
+      "task": "depo2",
+      "kind": "full",
+      "train_seconds": 469.45073691383004,
+      "positions": 100000997,
+      "positions_per_second": 213017.0199697773,
+      "peak_bytes_rank0": 2723546624
+    },
+    {
+      "task": "depo2",
+      "kind": "swa",
+      "train_seconds": 467.5176166445017,
+      "positions": 100000997,
+      "positions_per_second": 213897.8156967298,
+      "peak_bytes_rank0": 2725643776
+    },
+    {
+      "task": "depo2",
+      "kind": "gsa",
+      "train_seconds": 691.7147040553391,
+      "positions": 100000997,
+      "positions_per_second": 144569.71409415005,
+      "peak_bytes_rank0": 2778970112
+    },
+    {
+      "task": "depo2",
+      "kind": "gsa2",
+      "train_seconds": 1296.820558547999,
+      "positions": 100000997,
+      "positions_per_second": 77112.43960534318,
+      "peak_bytes_rank0": 3045144064
+    },
+    {
+      "task": "depo2",
+      "kind": "komp",
+      "train_seconds": 3500.9213945306838,
+      "positions": 100000997,
+      "positions_per_second": 28564.19374517423,
+      "peak_bytes_rank0": 2992470528
+    },
+    {
+      "task": "depo2",
+      "kind": "exact",
+      "train_seconds": 957.2642574720085,
+      "positions": 100000997,
+      "positions_per_second": 104465.40359094537,
+      "peak_bytes_rank0": 2969656832
+    },
+    {
+      "task": "brevo2",
+      "kind": "gdn",
+      "train_seconds": 737.5054216235876,
+      "positions": 100000590,
+      "positions_per_second": 135593.0235466647,
+      "peak_bytes_rank0": 2649582080
+    },
+    {
+      "task": "brevo2",
+      "kind": "full",
+      "train_seconds": 699.1747984476388,
+      "positions": 100000590,
+      "positions_per_second": 143026.59395337038,
+      "peak_bytes_rank0": 2665471488
+    },
+    {
+      "task": "brevo2",
+      "kind": "swa",
+      "train_seconds": 683.3146583642811,
+      "positions": 100000590,
+      "positions_per_second": 146346.3263606571,
+      "peak_bytes_rank0": 2664758272
+    },
+    {
+      "task": "brevo2",
+      "kind": "gsa",
+      "train_seconds": 832.6892874706537,
+      "positions": 100000590,
+      "positions_per_second": 120093.52288385757,
+      "peak_bytes_rank0": 2724481536
+    },
+    {
+      "task": "brevo2",
+      "kind": "gsa2",
+      "train_seconds": 1773.1254177708179,
+      "positions": 100000590,
+      "positions_per_second": 56397.9225596581,
+      "peak_bytes_rank0": 2954338816
+    },
+    {
+      "task": "brevo2",
+      "kind": "komp",
+      "train_seconds": 3115.192656300962,
+      "positions": 100000590,
+      "positions_per_second": 32100.932761809527,
+      "peak_bytes_rank0": 2944530944
+    },
+    {
+      "task": "brevo2",
+      "kind": "exact",
+      "train_seconds": 959.1052676811814,
+      "positions": 100000590,
+      "positions_per_second": 104264.45706191393,
+      "peak_bytes_rank0": 2884069376
+    }
+  ]
+}

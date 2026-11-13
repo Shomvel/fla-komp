@@ -1,0 +1,11 @@
+{
+  "name": "coh_gate_99-seed735",
+  "started": 1793518976.8369284,
+  "command": [
+    "block_coherence.py",
+    "--kind",
+    "coh_gate_99",
+    "--seed",
+    "735"
+  ]
+}

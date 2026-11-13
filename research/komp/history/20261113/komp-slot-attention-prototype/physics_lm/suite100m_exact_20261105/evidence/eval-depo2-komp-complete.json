@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-0da21f912e2d-20261105221538",
+    "user_def_name": "physics100m-eval-depo2-komp-20261105",
+    "status": "Completed",
+    "ready_status": "0/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  }
+]

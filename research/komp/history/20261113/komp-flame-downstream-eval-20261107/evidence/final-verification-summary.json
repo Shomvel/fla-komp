@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "captured_utc": "2026-11-08T19:56:36.757796+00:00",
+  "plan_sha": "2abeb5704dc2e10579a99e5b7aca858818851781d46471bb84c1c517b94aa741",
+  "total_results": 163656,
+  "total_items": 184,
+  "old_artifacts_unchanged": 26820,
+  "old_batches_unchanged": 26731,
+  "complete_batches": 34000,
+  "checkpoint_hashes_verified": 8
+}

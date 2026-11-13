@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-bce0d9b52f0f-20261031193208",
+    "user_def_name": "komp-decay-20261031-train-r1",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 3
+  }
+]

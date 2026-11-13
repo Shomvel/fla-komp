@@ -1,0 +1,40 @@
+[
+  {
+    "name": "job-8d9684bc47e3-20261105141403",
+    "user_def_name": "nextron-flash1017-optimize-20261105-r18",
+    "namespace": "qiji",
+    "labels": {
+      "reclaimableByVolcano": "true"
+    },
+    "job_type": "",
+    "status": "Running",
+    "ready_status": "1/1",
+    "age": "0h 1m 42s",
+    "create_time": "2026-11-05 14:14:03",
+    "node_count": 1,
+    "volume": "linlizhi: /gpfs/users/linlizhi, share: /gpfs/shared_data, share-readonly: /gpfs/envs",
+    "queue": "proj-32",
+    "node_num": "",
+    "gpu_type": "nvidia.com/gpu",
+    "priority": "None",
+    "project": "WeaverRSI",
+    "project_exists": true,
+    "user_in_project": true,
+    "priority_mismatch": false,
+    "operations": "",
+    "restart_count": 0,
+    "job_creator": "linlizhi",
+    "user_gpu": 8,
+    "command": "",
+    "working_dir": "",
+    "environment": null,
+    "tolerations": null,
+    "remark": "",
+    "gpu_util": 0,
+    "sm_active": 0,
+    "quota_state": "in-quota",
+    "reclaim_state": "",
+    "reclaim_deadline": "",
+    "reclaim_for": ""
+  }
+]

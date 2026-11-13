@@ -1,0 +1,37 @@
+{
+  "captured_utc": "2026-11-10T09:27:45.539082+00:00",
+  "done": 0,
+  "total": 20457,
+  "complete_cases": 0,
+  "acceptances": 0,
+  "failures": {},
+  "jobs": [],
+  "watcher": {
+    "config.json": {
+      "runroot": "/gpfs/users/linlizhi/komp-learned123-1b-50b-20261110-resume1",
+      "training_alias": "komp-learned123-1b-50b-20261110-resume1",
+      "training_identity": "job-35a0f599ed70-20261110172046",
+      "source_sha": "1970918eed171dd8956297b3545df550a13a995864706f5793d1ecc6be098add",
+      "data_sha": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f"
+    },
+    "launch.json": {
+      "pid": 53835,
+      "time": "2026-11-10T09:22:27.868748+00:00",
+      "command": "python3 -u watch_after_training.py"
+    },
+    "status.json": {
+      "status": "waiting_for_50b_training",
+      "time": "2026-11-10T09:27:28.935584+00:00",
+      "job": {
+        "name": "job-35a0f599ed70-20261110172046",
+        "user_def_name": "komp-learned123-1b-50b-20261110-resume1",
+        "status": "Running",
+        "ready_status": "4/4",
+        "namespace": "qiji",
+        "job_creator": "linlizhi",
+        "user_gpu": 32
+      },
+      "runroot": "/gpfs/users/linlizhi/komp-learned123-1b-50b-20261110-resume1"
+    }
+  }
+}

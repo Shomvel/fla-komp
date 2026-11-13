@@ -1,0 +1,63 @@
+{
+  "lr": 0.0005,
+  "wd": 0.0,
+  "val_ce": 0.9964013946697561,
+  "run": "capo-gsa-tune-lr0.0005-wd0-seed731",
+  "criterion": "minimum final validation CE at 10M tokens",
+  "candidates": [
+    {
+      "lr": 0.00025,
+      "wd": 0.0,
+      "val_ce": 1.1046200445344598,
+      "run": "capo-gsa-tune-lr0.00025-wd0-seed731"
+    },
+    {
+      "lr": 0.00025,
+      "wd": 0.01,
+      "val_ce": 1.1030703338001593,
+      "run": "capo-gsa-tune-lr0.00025-wd0.01-seed731"
+    },
+    {
+      "lr": 0.00025,
+      "wd": 0.1,
+      "val_ce": 1.1025176826309342,
+      "run": "capo-gsa-tune-lr0.00025-wd0.1-seed731"
+    },
+    {
+      "lr": 0.0005,
+      "wd": 0.0,
+      "val_ce": 0.9964013946697561,
+      "run": "capo-gsa-tune-lr0.0005-wd0-seed731"
+    },
+    {
+      "lr": 0.0005,
+      "wd": 0.01,
+      "val_ce": 0.9986382852498815,
+      "run": "capo-gsa-tune-lr0.0005-wd0.01-seed731"
+    },
+    {
+      "lr": 0.0005,
+      "wd": 0.1,
+      "val_ce": 0.9999666347353324,
+      "run": "capo-gsa-tune-lr0.0005-wd0.1-seed731"
+    },
+    {
+      "lr": 0.001,
+      "wd": 0.0,
+      "val_ce": 1.0070498628093678,
+      "run": "capo-gsa-tune-lr0.001-wd0-seed731"
+    },
+    {
+      "lr": 0.001,
+      "wd": 0.01,
+      "val_ce": 1.006612072798205,
+      "run": "capo-gsa-tune-lr0.001-wd0.01-seed731"
+    },
+    {
+      "lr": 0.001,
+      "wd": 0.1,
+      "val_ce": 1.0102576617821162,
+      "run": "capo-gsa-tune-lr0.001-wd0.1-seed731"
+    }
+  ]
+}

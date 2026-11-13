@@ -6,6 +6,8 @@ This fork contains Exact KOMP, Block KOMP, their variants and optimizations, and
 - [KOMP340M trainer and checkpoint conversion](examples/komp/README.md)
 - [Research variants, original trainers and source inventory](research/komp/README.md)
 - [Validation status and historical H100 results](research/komp/VALIDATION.md)
+- [Recent KOMP kernel changes and benchmark results](research/komp/RECENT_RESULTS.md)
+- [Complete 340M downstream score tables](research/komp/results/20261113/MODEL_RESULTS.md)
 
 The upstream Flash Linear Attention documentation follows.
 

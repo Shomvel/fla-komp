@@ -1,0 +1,11 @@
+{
+  "python": "3.14.6",
+  "torch": "2.12.1",
+  "device": "CPU",
+  "dtype": "float64",
+  "source_sha256": {
+    "validate.py": "7e8fa64dd5e7899f6d2daf5578776bdafb867ffa56181f5c7059881bb7aef803",
+    "prototype.py": "a39319efcd9e11712050cc8d9c7045034a633548ccafbfbbd9945923248d5047"
+  },
+  "frozen_reference_sha256": "b19d6c25bac9cdc596b97125f18abf777ec09f7def0b9cbf39c35827ebe0aa10"
+}

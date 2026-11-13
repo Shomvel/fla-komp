@@ -1,0 +1,36 @@
+{
+  "status": "released_with_limitations",
+  "formal_models": [
+    "gdn",
+    "exact",
+    "full",
+    "komp",
+    "gsa",
+    "swa"
+  ],
+  "held_models": [
+    "gsa2"
+  ],
+  "scope": "Original frozen configurations and 100M positions per model per task; no BF16 projection deployment, no adoption of tuning winners",
+  "exact_limitations": {
+    "projection_dtype": "float32",
+    "alpha0": 0.98,
+    "strict_near_collinear_dkeys0_rms": 0.0130098,
+    "strict_rms_gate": 0.005,
+    "real_checkpoint_keyproj_grad_rms_max": 0.036637,
+    "real_checkpoint_outputs_and_gradients_finite": true,
+    "training_trajectory_equivalence": "not established"
+  },
+  "gsa2_hold": {
+    "reason": "Real Depo BF16 batch-partition gradient and post-update function mismatch",
+    "gradient_rms_embed": 1.116263747215271,
+    "post_step_hidden_rms": 1.2352397441864014,
+    "evidence": "gsa2-bf16-adam-witness.json"
+  },
+  "authorization": "Parent decision: continue original authorized frozen recipes, isolate GSA2 only if functional mismatch remains",
+  "sources": {
+    "gsa2-bf16-adam-witness.json": "bec2bbcdafc844722fc9238a6eb7168df00cac2499854de9e3eb7ba24593f941",
+    "operator-shared-grad-correction.json": "1211612baf144a327214fd3848572d782e0d4d1681cd4f5a6f5dd4201fb7ad76",
+    "snapshot-sha256.json": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd"
+  }
+}

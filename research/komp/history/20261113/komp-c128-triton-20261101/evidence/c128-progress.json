@@ -1,0 +1,3062 @@
+{
+  "checks": [
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotFalse/fifo/nearFalse/out",
+      "rms_relative": 0.0007096774493490705,
+      "max_abs": 4.848884057105651e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotFalse/fifo/nearFalse/keys",
+      "rms_relative": 3.102428432520793e-08,
+      "max_abs": 3.0885568602645463e-08,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotFalse/fifo/nearFalse/values",
+      "rms_relative": 0.0009013501034797493,
+      "max_abs": 0.00047461763192258033,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotFalse/fifo/nearFalse/dq",
+      "rms_relative": 0.0009369203717581884,
+      "max_abs": 1.9360273563922767e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotFalse/fifo/nearFalse/dk",
+      "rms_relative": 8.743490063714912e-05,
+      "max_abs": 7.816193638121582e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotFalse/fifo/nearFalse/dv",
+      "rms_relative": 0.0011800084442513273,
+      "max_abs": 0.0010852020101687065,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotFalse/fifo/nearFalse/dg",
+      "rms_relative": 0.0006953180421566202,
+      "max_abs": 0.000264075526686558,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotFalse/fifo/nearFalse/dbeta",
+      "rms_relative": 0.0004395417796160903,
+      "max_abs": 0.0005915470960173863,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotFalse/fifo/nearFalse/dk0",
+      "rms_relative": 6.024962142664954e-05,
+      "max_abs": 5.2647867475469345e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotFalse/fifo/nearFalse/dv0",
+      "rms_relative": 0.0005086398808644192,
+      "max_abs": 0.0011163827058471298,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotFalse/learned/nearFalse/out",
+      "rms_relative": 0.0007096774493489237,
+      "max_abs": 4.8488840571042635e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotFalse/learned/nearFalse/keys",
+      "rms_relative": 4.5117867874643966e-08,
+      "max_abs": 4.570291456396092e-08,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotFalse/learned/nearFalse/values",
+      "rms_relative": 0.00088843536484224,
+      "max_abs": 0.00046852589331541905,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotFalse/learned/nearFalse/dq",
+      "rms_relative": 0.0017486920350869046,
+      "max_abs": 2.190949292556893e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotFalse/learned/nearFalse/dk",
+      "rms_relative": 8.247948126613597e-05,
+      "max_abs": 4.354845450749156e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotFalse/learned/nearFalse/dv",
+      "rms_relative": 0.0008900732684853403,
+      "max_abs": 0.00043665563356937165,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotFalse/learned/nearFalse/dg",
+      "rms_relative": 0.0007913949177308717,
+      "max_abs": 0.0005881644118221896,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotFalse/learned/nearFalse/dbeta",
+      "rms_relative": 0.0008728556766665039,
+      "max_abs": 0.0013864085884316424,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotFalse/learned/nearFalse/dk0",
+      "rms_relative": 4.7256979485608774e-05,
+      "max_abs": 2.8712249350699992e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotFalse/learned/nearFalse/dv0",
+      "rms_relative": 0.0005992179341833735,
+      "max_abs": 0.002139871309730701,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotFalse/fifo/nearFalse/out",
+      "rms_relative": 0.003231530778265147,
+      "max_abs": 0.00019843741673178372,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotFalse/fifo/nearFalse/keys",
+      "rms_relative": 4.216633454278756e-08,
+      "max_abs": 4.81705915156283e-08,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotFalse/fifo/nearFalse/values",
+      "rms_relative": 0.000611762436603514,
+      "max_abs": 0.0002811731840858811,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotFalse/fifo/nearFalse/dq",
+      "rms_relative": 0.0036448953317448542,
+      "max_abs": 6.132197900227728e-05,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotFalse/fifo/nearFalse/dk",
+      "rms_relative": 0.0017437374456231683,
+      "max_abs": 0.001806406368473068,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotFalse/fifo/nearFalse/dv",
+      "rms_relative": 0.002025094528533415,
+      "max_abs": 0.0018844109174844803,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotFalse/fifo/nearFalse/dg",
+      "rms_relative": 0.004705188810860685,
+      "max_abs": 0.0017869366306204615,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotFalse/fifo/nearFalse/dbeta",
+      "rms_relative": 0.0019369148351170416,
+      "max_abs": 0.002611233664961743,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotFalse/fifo/nearFalse/dk0",
+      "rms_relative": 0.00034543065738039196,
+      "max_abs": 0.00032610372536562553,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotFalse/fifo/nearFalse/dv0",
+      "rms_relative": 0.0011353914238196744,
+      "max_abs": 0.0019662057159021973,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotFalse/learned/nearFalse/out",
+      "rms_relative": 0.003231530778265231,
+      "max_abs": 0.00019843741673179066,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotFalse/learned/nearFalse/keys",
+      "rms_relative": 4.066422289546402e-08,
+      "max_abs": 4.81705915156283e-08,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotFalse/learned/nearFalse/values",
+      "rms_relative": 0.000609485102078162,
+      "max_abs": 0.00027465820925659523,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotFalse/learned/nearFalse/dq",
+      "rms_relative": 0.004729520509582906,
+      "max_abs": 7.77570831679503e-05,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotFalse/learned/nearFalse/dk",
+      "rms_relative": 0.001893445333437079,
+      "max_abs": 0.0015719629242225697,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotFalse/learned/nearFalse/dv",
+      "rms_relative": 0.0010347924462019565,
+      "max_abs": 0.000529450053245728,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotFalse/learned/nearFalse/dg",
+      "rms_relative": 0.0006566963314057879,
+      "max_abs": 0.0004880126228268278,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotFalse/learned/nearFalse/dbeta",
+      "rms_relative": 0.00120420151704332,
+      "max_abs": 0.0019144442342757806,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotFalse/learned/nearFalse/dk0",
+      "rms_relative": 0.0001313647424412105,
+      "max_abs": 8.685613842984719e-05,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotFalse/learned/nearFalse/dv0",
+      "rms_relative": 0.0007798331113795587,
+      "max_abs": 0.0020225579937109828,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotTrue/fifo/nearFalse/out",
+      "rms_relative": 0.000703323036346917,
+      "max_abs": 4.440199607324419e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotTrue/fifo/nearFalse/keys",
+      "rms_relative": 3.102428432520793e-08,
+      "max_abs": 3.0885568602645463e-08,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotTrue/fifo/nearFalse/values",
+      "rms_relative": 0.000979505446965642,
+      "max_abs": 0.00047369433252880677,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotTrue/fifo/nearFalse/dq",
+      "rms_relative": 0.0009675317355763623,
+      "max_abs": 1.6305320606747192e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotTrue/fifo/nearFalse/dk",
+      "rms_relative": 6.50988568720708e-05,
+      "max_abs": 5.852269509576402e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotTrue/fifo/nearFalse/dv",
+      "rms_relative": 0.0011800084442513273,
+      "max_abs": 0.0010852020101687065,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotTrue/fifo/nearFalse/dg",
+      "rms_relative": 0.0006144285375721358,
+      "max_abs": 0.00016286004614490812,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotTrue/fifo/nearFalse/dbeta",
+      "rms_relative": 0.00043378092588773024,
+      "max_abs": 0.0005776662939003252,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotTrue/fifo/nearFalse/dk0",
+      "rms_relative": 5.3838128299219646e-05,
+      "max_abs": 4.8053295870348345e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotTrue/fifo/nearFalse/dv0",
+      "rms_relative": 0.0007244127449214507,
+      "max_abs": 0.0010294584293231157,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotTrue/learned/nearFalse/out",
+      "rms_relative": 0.0007033230363469193,
+      "max_abs": 4.440199607324419e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotTrue/learned/nearFalse/keys",
+      "rms_relative": 4.5117867874643966e-08,
+      "max_abs": 4.570291456396092e-08,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotTrue/learned/nearFalse/values",
+      "rms_relative": 0.0009752881727583588,
+      "max_abs": 0.0004689280556399722,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotTrue/learned/nearFalse/dq",
+      "rms_relative": 0.0015889688253950941,
+      "max_abs": 1.99071787648393e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotTrue/learned/nearFalse/dk",
+      "rms_relative": 7.931985172565454e-05,
+      "max_abs": 4.493833198360164e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotTrue/learned/nearFalse/dv",
+      "rms_relative": 0.0008900732684853403,
+      "max_abs": 0.00043665563356937165,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotTrue/learned/nearFalse/dg",
+      "rms_relative": 0.0006799765739380403,
+      "max_abs": 0.0003113373226245053,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotTrue/learned/nearFalse/dbeta",
+      "rms_relative": 0.0008717135348934006,
+      "max_abs": 0.0013960134682813319,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotTrue/learned/nearFalse/dk0",
+      "rms_relative": 4.3936265129659425e-05,
+      "max_abs": 2.823594115888839e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.float32/slotTrue/learned/nearFalse/dv0",
+      "rms_relative": 0.0008079371307843387,
+      "max_abs": 0.0016255615113722754,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotTrue/fifo/nearFalse/out",
+      "rms_relative": 0.0035399948933135966,
+      "max_abs": 0.0001852075749251593,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotTrue/fifo/nearFalse/keys",
+      "rms_relative": 4.216633454278756e-08,
+      "max_abs": 4.81705915156283e-08,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotTrue/fifo/nearFalse/values",
+      "rms_relative": 0.0006455414254962588,
+      "max_abs": 0.0002686573722806562,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotTrue/fifo/nearFalse/dq",
+      "rms_relative": 0.0052746254813745485,
+      "max_abs": 7.530315703219853e-05,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotTrue/fifo/nearFalse/dk",
+      "rms_relative": 0.0011691151053823232,
+      "max_abs": 0.0008580651240118198,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotTrue/fifo/nearFalse/dv",
+      "rms_relative": 0.002025094528533415,
+      "max_abs": 0.0018844109174844803,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotTrue/fifo/nearFalse/dg",
+      "rms_relative": 0.0024185275986156798,
+      "max_abs": 0.0005822686098984758,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotTrue/fifo/nearFalse/dbeta",
+      "rms_relative": 0.002010778812649279,
+      "max_abs": 0.0026824381068295544,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotTrue/fifo/nearFalse/dk0",
+      "rms_relative": 0.0003200405540285675,
+      "max_abs": 0.0002908443919419808,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotTrue/fifo/nearFalse/dv0",
+      "rms_relative": 0.0012365986412630678,
+      "max_abs": 0.0014989045073544038,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotTrue/learned/nearFalse/out",
+      "rms_relative": 0.0035399948933135302,
+      "max_abs": 0.00018520757492515583,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotTrue/learned/nearFalse/keys",
+      "rms_relative": 4.066422289546402e-08,
+      "max_abs": 4.81705915156283e-08,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotTrue/learned/nearFalse/values",
+      "rms_relative": 0.0006678088430847263,
+      "max_abs": 0.0002643966478238502,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotTrue/learned/nearFalse/dq",
+      "rms_relative": 0.004060306543062429,
+      "max_abs": 5.9671994434192834e-05,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotTrue/learned/nearFalse/dk",
+      "rms_relative": 0.0006762892895415695,
+      "max_abs": 0.0004573441267856637,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotTrue/learned/nearFalse/dv",
+      "rms_relative": 0.0010347924462019565,
+      "max_abs": 0.000529450053245728,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotTrue/learned/nearFalse/dg",
+      "rms_relative": 0.0018953295802436104,
+      "max_abs": 0.0010365776378923885,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotTrue/learned/nearFalse/dbeta",
+      "rms_relative": 0.0012201974029508404,
+      "max_abs": 0.0019558473479022176,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotTrue/learned/nearFalse/dk0",
+      "rms_relative": 0.00011049017905661686,
+      "max_abs": 8.806812889816662e-05,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotTrue/learned/nearFalse/dv0",
+      "rms_relative": 0.0008994737430144562,
+      "max_abs": 0.0015749070012316402,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotFalse/fifo/nearFalse/out",
+      "rms_relative": 0.0016968232982922829,
+      "max_abs": 0.0006069940635529125,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotFalse/fifo/nearFalse/keys",
+      "rms_relative": 5.342930071151008e-08,
+      "max_abs": 4.5361815970146324e-08,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotFalse/fifo/nearFalse/values",
+      "rms_relative": 0.0008668193613487588,
+      "max_abs": 0.0008788516024412774,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotFalse/fifo/nearFalse/dq",
+      "rms_relative": 0.0023418758901981138,
+      "max_abs": 0.00036642756756116723,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotFalse/fifo/nearFalse/dk",
+      "rms_relative": 0.0012104142617385793,
+      "max_abs": 0.00037558272754106836,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotFalse/fifo/nearFalse/dv",
+      "rms_relative": 0.0015453040050585835,
+      "max_abs": 0.0018706423178238563,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotFalse/fifo/nearFalse/dg",
+      "rms_relative": 0.001827520360272089,
+      "max_abs": 0.003471132437620872,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotFalse/fifo/nearFalse/dbeta",
+      "rms_relative": 0.001713673496019154,
+      "max_abs": 0.0050700816281277206,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotFalse/fifo/nearFalse/dk0",
+      "rms_relative": 0.001929060303396133,
+      "max_abs": 4.3264229166010276e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotFalse/fifo/nearFalse/dv0",
+      "rms_relative": 0.0013588313996232323,
+      "max_abs": 0.001568050456938197,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotFalse/learned/nearFalse/out",
+      "rms_relative": 0.0016968232982922681,
+      "max_abs": 0.000606994063552968,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotFalse/learned/nearFalse/keys",
+      "rms_relative": 5.1395079614747985e-08,
+      "max_abs": 4.5361815970146324e-08,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotFalse/learned/nearFalse/values",
+      "rms_relative": 0.0007412934399493137,
+      "max_abs": 0.00046651603797109864,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotFalse/learned/nearFalse/dq",
+      "rms_relative": 0.0023375533080713354,
+      "max_abs": 0.0004505122425322583,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotFalse/learned/nearFalse/dk",
+      "rms_relative": 0.0012903195444397045,
+      "max_abs": 0.00043906806711491164,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotFalse/learned/nearFalse/dv",
+      "rms_relative": 0.0015574696688956716,
+      "max_abs": 0.001787097717925401,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotFalse/learned/nearFalse/dg",
+      "rms_relative": 0.0014322683236550344,
+      "max_abs": 0.002592016222705107,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotFalse/learned/nearFalse/dbeta",
+      "rms_relative": 0.0017747376062135429,
+      "max_abs": 0.0064933558030284555,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotFalse/learned/nearFalse/dk0",
+      "rms_relative": 0.0019019485250217566,
+      "max_abs": 4.996478844859764e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotFalse/learned/nearFalse/dv0",
+      "rms_relative": 0.0011869410929725634,
+      "max_abs": 0.0012331344429243885,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotFalse/fifo/nearFalse/out",
+      "rms_relative": 0.003380656952352089,
+      "max_abs": 0.0012120209584229047,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotFalse/fifo/nearFalse/keys",
+      "rms_relative": 4.750865978044496e-08,
+      "max_abs": 3.737203974063519e-08,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotFalse/fifo/nearFalse/values",
+      "rms_relative": 0.0007378142976129186,
+      "max_abs": 0.0005114720060982458,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotFalse/fifo/nearFalse/dq",
+      "rms_relative": 0.0034091661998490873,
+      "max_abs": 0.0006317536571984611,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotFalse/fifo/nearFalse/dk",
+      "rms_relative": 0.0022936628122263037,
+      "max_abs": 0.001878132052210879,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotFalse/fifo/nearFalse/dv",
+      "rms_relative": 0.003251311325392687,
+      "max_abs": 0.0038938300729212116,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotFalse/fifo/nearFalse/dg",
+      "rms_relative": 0.0034240541265173246,
+      "max_abs": 0.006926724758978375,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotFalse/fifo/nearFalse/dbeta",
+      "rms_relative": 0.0024617035702255985,
+      "max_abs": 0.006321117982563629,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotFalse/fifo/nearFalse/dk0",
+      "rms_relative": 0.003497197787171857,
+      "max_abs": 8.53495712821381e-05,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotFalse/fifo/nearFalse/dv0",
+      "rms_relative": 0.002681962890679983,
+      "max_abs": 0.0020299019918106342,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotFalse/learned/nearFalse/out",
+      "rms_relative": 0.003380656952352082,
+      "max_abs": 0.0012120209584228908,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotFalse/learned/nearFalse/keys",
+      "rms_relative": 4.70319919095281e-08,
+      "max_abs": 3.907535467417844e-08,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotFalse/learned/nearFalse/values",
+      "rms_relative": 0.0006966694230938188,
+      "max_abs": 0.000511677352595219,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotFalse/learned/nearFalse/dq",
+      "rms_relative": 0.003463727095235802,
+      "max_abs": 0.0007500819626584804,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotFalse/learned/nearFalse/dk",
+      "rms_relative": 0.002447413630534515,
+      "max_abs": 0.0018026467092834286,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotFalse/learned/nearFalse/dv",
+      "rms_relative": 0.003281929001474564,
+      "max_abs": 0.003604636706551645,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotFalse/learned/nearFalse/dg",
+      "rms_relative": 0.0034512104197367897,
+      "max_abs": 0.005703073228323197,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotFalse/learned/nearFalse/dbeta",
+      "rms_relative": 0.0025631966476167807,
+      "max_abs": 0.007187670112375644,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotFalse/learned/nearFalse/dk0",
+      "rms_relative": 0.003539415854634839,
+      "max_abs": 0.00010034026775630756,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotFalse/learned/nearFalse/dv0",
+      "rms_relative": 0.0027417320305037755,
+      "max_abs": 0.0022683010871458187,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotTrue/fifo/nearFalse/out",
+      "rms_relative": 0.0016554998908985923,
+      "max_abs": 0.0004559081533577203,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotTrue/fifo/nearFalse/keys",
+      "rms_relative": 5.342930071151008e-08,
+      "max_abs": 4.5361815970146324e-08,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotTrue/fifo/nearFalse/values",
+      "rms_relative": 0.000917626563594562,
+      "max_abs": 0.0006493876426433842,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotTrue/fifo/nearFalse/dq",
+      "rms_relative": 0.002363539318316393,
+      "max_abs": 0.0003200158262753744,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotTrue/fifo/nearFalse/dk",
+      "rms_relative": 0.00070406227783559,
+      "max_abs": 0.0002337300807234849,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotTrue/fifo/nearFalse/dv",
+      "rms_relative": 0.0014868291940969048,
+      "max_abs": 0.0014589101739606036,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotTrue/fifo/nearFalse/dg",
+      "rms_relative": 0.001675138359379196,
+      "max_abs": 0.0013949314097837506,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotTrue/fifo/nearFalse/dbeta",
+      "rms_relative": 0.0016261102882312226,
+      "max_abs": 0.0031697182980310323,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotTrue/fifo/nearFalse/dk0",
+      "rms_relative": 0.001822595181961198,
+      "max_abs": 3.688582006423566e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotTrue/fifo/nearFalse/dv0",
+      "rms_relative": 0.0012115800017641742,
+      "max_abs": 0.0008728335143352584,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotTrue/learned/nearFalse/out",
+      "rms_relative": 0.0016554998908985853,
+      "max_abs": 0.0004559081533577203,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotTrue/learned/nearFalse/keys",
+      "rms_relative": 5.1395079614747985e-08,
+      "max_abs": 4.5361815970146324e-08,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotTrue/learned/nearFalse/values",
+      "rms_relative": 0.0009853510648288807,
+      "max_abs": 0.00024824131783626746,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotTrue/learned/nearFalse/dq",
+      "rms_relative": 0.0023913371883024824,
+      "max_abs": 0.0004448194473978817,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotTrue/learned/nearFalse/dk",
+      "rms_relative": 0.0008274021119297218,
+      "max_abs": 0.00038041878740453783,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotTrue/learned/nearFalse/dv",
+      "rms_relative": 0.0016311220895148626,
+      "max_abs": 0.0012748305217227252,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotTrue/learned/nearFalse/dg",
+      "rms_relative": 0.0015673624184720147,
+      "max_abs": 0.0009655603834373139,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotTrue/learned/nearFalse/dbeta",
+      "rms_relative": 0.0017863252850835662,
+      "max_abs": 0.006436290412878076,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotTrue/learned/nearFalse/dk0",
+      "rms_relative": 0.0020096813220880348,
+      "max_abs": 4.752784101240415e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.float32/slotTrue/learned/nearFalse/dv0",
+      "rms_relative": 0.0011051846296044432,
+      "max_abs": 0.0007037403136275211,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotTrue/fifo/nearFalse/out",
+      "rms_relative": 0.0031595974805413893,
+      "max_abs": 0.0011589547468980888,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotTrue/fifo/nearFalse/keys",
+      "rms_relative": 4.750865978044496e-08,
+      "max_abs": 3.737203974063519e-08,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotTrue/fifo/nearFalse/values",
+      "rms_relative": 0.000539954268174724,
+      "max_abs": 0.00027545665632572325,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotTrue/fifo/nearFalse/dq",
+      "rms_relative": 0.00342063730740272,
+      "max_abs": 0.0005032942547894409,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotTrue/fifo/nearFalse/dk",
+      "rms_relative": 0.0018451146545687338,
+      "max_abs": 0.0016664668710221209,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotTrue/fifo/nearFalse/dv",
+      "rms_relative": 0.003002668595158776,
+      "max_abs": 0.003599138075632169,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotTrue/fifo/nearFalse/dg",
+      "rms_relative": 0.0022120105980748947,
+      "max_abs": 0.0017257803480706935,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotTrue/fifo/nearFalse/dbeta",
+      "rms_relative": 0.001877223864582462,
+      "max_abs": 0.004963634832552355,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotTrue/fifo/nearFalse/dk0",
+      "rms_relative": 0.0049588546784633605,
+      "max_abs": 0.00010069298482387815,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotTrue/fifo/nearFalse/dv0",
+      "rms_relative": 0.004156899031558673,
+      "max_abs": 0.003329981245116964,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotTrue/learned/nearFalse/out",
+      "rms_relative": 0.0031595974805413694,
+      "max_abs": 0.001158954746898061,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotTrue/learned/nearFalse/keys",
+      "rms_relative": 4.70319919095281e-08,
+      "max_abs": 3.907535467417844e-08,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotTrue/learned/nearFalse/values",
+      "rms_relative": 0.0007291049541930464,
+      "max_abs": 0.00026989528018961373,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotTrue/learned/nearFalse/dq",
+      "rms_relative": 0.0034263445642256796,
+      "max_abs": 0.0007272136662830608,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotTrue/learned/nearFalse/dk",
+      "rms_relative": 0.0020464380046703082,
+      "max_abs": 0.001734408959407685,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotTrue/learned/nearFalse/dv",
+      "rms_relative": 0.003265439251965361,
+      "max_abs": 0.0031484435843492364,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotTrue/learned/nearFalse/dg",
+      "rms_relative": 0.0019934013181037535,
+      "max_abs": 0.0015211438019018253,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotTrue/learned/nearFalse/dbeta",
+      "rms_relative": 0.002327630929722855,
+      "max_abs": 0.006569516046149637,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotTrue/learned/nearFalse/dk0",
+      "rms_relative": 0.0048113708053311504,
+      "max_abs": 0.00013988322432280723,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotTrue/learned/nearFalse/dv0",
+      "rms_relative": 0.004180870406097983,
+      "max_abs": 0.003217196192180194,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearFalse/out",
+      "rms_relative": 0.0016245044458426143,
+      "max_abs": 0.0005832985173988003,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearFalse/keys",
+      "rms_relative": 5.659125192263437e-08,
+      "max_abs": 4.1539459483264096e-08,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearFalse/values",
+      "rms_relative": 0.0007986875504266367,
+      "max_abs": 0.0006283865754060369,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearFalse/dq",
+      "rms_relative": 0.0022593751048579883,
+      "max_abs": 0.0004005870050408089,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearFalse/dk",
+      "rms_relative": 0.0007501417227136846,
+      "max_abs": 0.00035195969154247497,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearFalse/dv",
+      "rms_relative": 0.001340070242224259,
+      "max_abs": 0.0017079030903595083,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearFalse/dg",
+      "rms_relative": 0.0014099592217051216,
+      "max_abs": 0.005655442139640421,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearFalse/dbeta",
+      "rms_relative": 0.0013433302588079228,
+      "max_abs": 0.008552888575528605,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearFalse/dk0",
+      "rms_relative": 0.0015646579360999707,
+      "max_abs": 7.810166925795864e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearFalse/dv0",
+      "rms_relative": 0.0007867006263679604,
+      "max_abs": 0.0010731510560392232,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotFalse/learned/nearFalse/out",
+      "rms_relative": 0.0016245044458425967,
+      "max_abs": 0.0005832985173988003,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotFalse/learned/nearFalse/keys",
+      "rms_relative": 5.3251066524048544e-08,
+      "max_abs": 5.4460715437354423e-08,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotFalse/learned/nearFalse/values",
+      "rms_relative": 0.0007448048217085561,
+      "max_abs": 0.0005016171629880772,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotFalse/learned/nearFalse/dq",
+      "rms_relative": 0.002255125073488234,
+      "max_abs": 0.0002791558290793916,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotFalse/learned/nearFalse/dk",
+      "rms_relative": 0.0007417145074566523,
+      "max_abs": 0.0004159666065456369,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotFalse/learned/nearFalse/dv",
+      "rms_relative": 0.0015557577812147527,
+      "max_abs": 0.0016784163173596545,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotFalse/learned/nearFalse/dg",
+      "rms_relative": 0.0015410482221738658,
+      "max_abs": 0.005603026797606603,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotFalse/learned/nearFalse/dbeta",
+      "rms_relative": 0.0016478582529255474,
+      "max_abs": 0.006461723299285627,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotFalse/learned/nearFalse/dk0",
+      "rms_relative": 0.0015502965186041879,
+      "max_abs": 8.768178020088918e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotFalse/learned/nearFalse/dv0",
+      "rms_relative": 0.0007900111088053167,
+      "max_abs": 0.0014134980277269449,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotFalse/fifo/nearFalse/out",
+      "rms_relative": 0.0035507622559010498,
+      "max_abs": 0.0013609989250943089,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotFalse/fifo/nearFalse/keys",
+      "rms_relative": 5.535866678429823e-08,
+      "max_abs": 5.6679340498799746e-08,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotFalse/fifo/nearFalse/values",
+      "rms_relative": 0.000580010398080858,
+      "max_abs": 0.0005648890965908593,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotFalse/fifo/nearFalse/dq",
+      "rms_relative": 0.0035730055467176583,
+      "max_abs": 0.0005816778477902296,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotFalse/fifo/nearFalse/dk",
+      "rms_relative": 0.0019374179141639896,
+      "max_abs": 0.0019523978733811953,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotFalse/fifo/nearFalse/dv",
+      "rms_relative": 0.0032794665363311878,
+      "max_abs": 0.008811309351942187,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotFalse/fifo/nearFalse/dg",
+      "rms_relative": 0.0031333555004882945,
+      "max_abs": 0.013406584113396125,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotFalse/fifo/nearFalse/dbeta",
+      "rms_relative": 0.00225302110246865,
+      "max_abs": 0.015023447117941124,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotFalse/fifo/nearFalse/dk0",
+      "rms_relative": 0.0035003774098099393,
+      "max_abs": 0.00015881231029572784,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotFalse/fifo/nearFalse/dv0",
+      "rms_relative": 0.003076846890605601,
+      "max_abs": 0.0036757045777983666,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotFalse/learned/nearFalse/out",
+      "rms_relative": 0.0035507622559010493,
+      "max_abs": 0.0013609989250942534,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotFalse/learned/nearFalse/keys",
+      "rms_relative": 6.185472935662585e-08,
+      "max_abs": 5.742226788507665e-08,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotFalse/learned/nearFalse/values",
+      "rms_relative": 0.0005483902443375268,
+      "max_abs": 0.00033268796159918734,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotFalse/learned/nearFalse/dq",
+      "rms_relative": 0.0035397193484482006,
+      "max_abs": 0.0006600978479212594,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotFalse/learned/nearFalse/dk",
+      "rms_relative": 0.002000298291728352,
+      "max_abs": 0.0019681992469745557,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotFalse/learned/nearFalse/dv",
+      "rms_relative": 0.003459667753920018,
+      "max_abs": 0.006360942223611277,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotFalse/learned/nearFalse/dg",
+      "rms_relative": 0.004023260632771371,
+      "max_abs": 0.012861433723047266,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotFalse/learned/nearFalse/dbeta",
+      "rms_relative": 0.0026805450660991113,
+      "max_abs": 0.01514978955392543,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotFalse/learned/nearFalse/dk0",
+      "rms_relative": 0.0035571958911592475,
+      "max_abs": 0.0002034692131091323,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotFalse/learned/nearFalse/dv0",
+      "rms_relative": 0.00319766270308207,
+      "max_abs": 0.0042785739122324085,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearFalse/out",
+      "rms_relative": 0.001616667763926997,
+      "max_abs": 0.0004679440756782949,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearFalse/keys",
+      "rms_relative": 5.659125192263437e-08,
+      "max_abs": 4.1539459483264096e-08,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearFalse/values",
+      "rms_relative": 0.0007683639874040952,
+      "max_abs": 0.0005748576817469209,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearFalse/dq",
+      "rms_relative": 0.0022560088801514477,
+      "max_abs": 0.00022170927428777354,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearFalse/dk",
+      "rms_relative": 0.00039252942237264074,
+      "max_abs": 0.00025110097299047007,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearFalse/dv",
+      "rms_relative": 0.001371992160733948,
+      "max_abs": 0.001315716306436454,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearFalse/dg",
+      "rms_relative": 0.001209932949803054,
+      "max_abs": 0.0013143751180868524,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearFalse/dbeta",
+      "rms_relative": 0.0014198947178868427,
+      "max_abs": 0.005460361445519091,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearFalse/dk0",
+      "rms_relative": 0.001478115750564398,
+      "max_abs": 3.6212273331205636e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearFalse/dv0",
+      "rms_relative": 0.0007485033047329696,
+      "max_abs": 0.0006319547126166225,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotTrue/learned/nearFalse/out",
+      "rms_relative": 0.0016166677639269994,
+      "max_abs": 0.0004679440756782949,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotTrue/learned/nearFalse/keys",
+      "rms_relative": 5.3251066524048544e-08,
+      "max_abs": 5.4460715437354423e-08,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotTrue/learned/nearFalse/values",
+      "rms_relative": 0.0007670630804879761,
+      "max_abs": 0.00016585096695398427,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotTrue/learned/nearFalse/dq",
+      "rms_relative": 0.0022327530665993585,
+      "max_abs": 0.0001765307775907013,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotTrue/learned/nearFalse/dk",
+      "rms_relative": 0.0003855825610210846,
+      "max_abs": 0.0002482177605241387,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotTrue/learned/nearFalse/dv",
+      "rms_relative": 0.0016082980017714692,
+      "max_abs": 0.001009829257549666,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotTrue/learned/nearFalse/dg",
+      "rms_relative": 0.0015014503949065242,
+      "max_abs": 0.0020165435979242474,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotTrue/learned/nearFalse/dbeta",
+      "rms_relative": 0.0016779418373648455,
+      "max_abs": 0.005313480211134092,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotTrue/learned/nearFalse/dk0",
+      "rms_relative": 0.0015273963244899836,
+      "max_abs": 4.3866961544940936e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.float32/slotTrue/learned/nearFalse/dv0",
+      "rms_relative": 0.0007866396101181845,
+      "max_abs": 0.0006953293286274809,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotTrue/fifo/nearFalse/out",
+      "rms_relative": 0.003244582044999824,
+      "max_abs": 0.0013181737691518036,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotTrue/fifo/nearFalse/keys",
+      "rms_relative": 5.535866678429823e-08,
+      "max_abs": 5.6679340498799746e-08,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotTrue/fifo/nearFalse/values",
+      "rms_relative": 0.0004538643707196157,
+      "max_abs": 0.00030691404799509936,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotTrue/fifo/nearFalse/dq",
+      "rms_relative": 0.0034794711552723007,
+      "max_abs": 0.0006099357218651222,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotTrue/fifo/nearFalse/dk",
+      "rms_relative": 0.0016942734302049828,
+      "max_abs": 0.0010025116549147173,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotTrue/fifo/nearFalse/dv",
+      "rms_relative": 0.003319700823423227,
+      "max_abs": 0.00716516075813578,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotTrue/fifo/nearFalse/dg",
+      "rms_relative": 0.0020341730238296832,
+      "max_abs": 0.007008206777347814,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotTrue/fifo/nearFalse/dbeta",
+      "rms_relative": 0.0022990103865070935,
+      "max_abs": 0.014034407360319578,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotTrue/fifo/nearFalse/dk0",
+      "rms_relative": 0.0033023050840487915,
+      "max_abs": 0.00012836646253809592,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotTrue/fifo/nearFalse/dv0",
+      "rms_relative": 0.0027508238307027105,
+      "max_abs": 0.002600837810580736,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotTrue/learned/nearFalse/out",
+      "rms_relative": 0.0032445820449998265,
+      "max_abs": 0.0013181737691517759,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotTrue/learned/nearFalse/keys",
+      "rms_relative": 6.185472935662585e-08,
+      "max_abs": 5.742226788507665e-08,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotTrue/learned/nearFalse/values",
+      "rms_relative": 0.0005220279427108513,
+      "max_abs": 0.0001360123349886666,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotTrue/learned/nearFalse/dq",
+      "rms_relative": 0.0034345158611049265,
+      "max_abs": 0.00036222025357536547,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotTrue/learned/nearFalse/dk",
+      "rms_relative": 0.00178212622908945,
+      "max_abs": 0.001057028712428354,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotTrue/learned/nearFalse/dv",
+      "rms_relative": 0.003234875011882394,
+      "max_abs": 0.0031316789118099875,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotTrue/learned/nearFalse/dg",
+      "rms_relative": 0.0024058623736336617,
+      "max_abs": 0.002686518023890916,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotTrue/learned/nearFalse/dbeta",
+      "rms_relative": 0.0022332544093113258,
+      "max_abs": 0.008916469278915207,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotTrue/learned/nearFalse/dk0",
+      "rms_relative": 0.0034728553921098376,
+      "max_abs": 0.00010719737807168145,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotTrue/learned/nearFalse/dv0",
+      "rms_relative": 0.002786705341264234,
+      "max_abs": 0.0020913849447755095,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotFalse/fifo/nearFalse/out",
+      "rms_relative": 0.0017373269060736323,
+      "max_abs": 0.0010106232358768064,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotFalse/fifo/nearFalse/keys",
+      "rms_relative": 5.151285934850001e-08,
+      "max_abs": 6.442752764623805e-08,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotFalse/fifo/nearFalse/values",
+      "rms_relative": 0.0014712960237628107,
+      "max_abs": 0.0014435927359119916,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotFalse/fifo/nearFalse/dq",
+      "rms_relative": 0.0023441578887900046,
+      "max_abs": 0.0007597069062039719,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotFalse/fifo/nearFalse/dk",
+      "rms_relative": 0.0008070512014385031,
+      "max_abs": 0.0008146426152972341,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotFalse/fifo/nearFalse/dv",
+      "rms_relative": 0.0016439529199171168,
+      "max_abs": 0.0032110678727435005,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotFalse/fifo/nearFalse/dg",
+      "rms_relative": 0.001688361742956706,
+      "max_abs": 0.007874183214011232,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotFalse/fifo/nearFalse/dbeta",
+      "rms_relative": 0.0016577041454644223,
+      "max_abs": 0.010756537782437903,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotFalse/fifo/nearFalse/dk0",
+      "rms_relative": 0.0015169144770568839,
+      "max_abs": 0.00010402367289891884,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotFalse/fifo/nearFalse/dv0",
+      "rms_relative": 0.00090463827365807,
+      "max_abs": 0.0008712392303699135,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotFalse/learned/nearFalse/out",
+      "rms_relative": 0.0017365626566022726,
+      "max_abs": 0.0010106232358766953,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotFalse/learned/nearFalse/keys",
+      "rms_relative": 5.1454241712152294e-08,
+      "max_abs": 6.362044624452778e-08,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotFalse/learned/nearFalse/values",
+      "rms_relative": 0.0013403240637625197,
+      "max_abs": 0.0010750719838764078,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotFalse/learned/nearFalse/dq",
+      "rms_relative": 0.0023303291144959873,
+      "max_abs": 0.0009702246105162682,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotFalse/learned/nearFalse/dk",
+      "rms_relative": 0.0008304774570836843,
+      "max_abs": 0.0007119866039507483,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotFalse/learned/nearFalse/dv",
+      "rms_relative": 0.0016766729060671507,
+      "max_abs": 0.002579993429510097,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotFalse/learned/nearFalse/dg",
+      "rms_relative": 0.001751644757660838,
+      "max_abs": 0.006790248931030973,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotFalse/learned/nearFalse/dbeta",
+      "rms_relative": 0.001654595947871643,
+      "max_abs": 0.009804917267405955,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotFalse/learned/nearFalse/dk0",
+      "rms_relative": 0.0004584525558303184,
+      "max_abs": 9.978446232939558e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotFalse/learned/nearFalse/dv0",
+      "rms_relative": 0.000936397777980496,
+      "max_abs": 0.0013654555744562202,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotFalse/fifo/nearFalse/out",
+      "rms_relative": 0.003461094329234807,
+      "max_abs": 0.0025648831428710106,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotFalse/fifo/nearFalse/keys",
+      "rms_relative": 5.6117735487363393e-08,
+      "max_abs": 6.681678998976537e-08,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotFalse/fifo/nearFalse/values",
+      "rms_relative": 0.0011801021108974073,
+      "max_abs": 0.0012435284551282066,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotFalse/fifo/nearFalse/dq",
+      "rms_relative": 0.0035258780700047772,
+      "max_abs": 0.001188228324752627,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotFalse/fifo/nearFalse/dk",
+      "rms_relative": 0.0019500201473914018,
+      "max_abs": 0.001942086348036276,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotFalse/fifo/nearFalse/dv",
+      "rms_relative": 0.0032755323357693007,
+      "max_abs": 0.007364530786190926,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotFalse/fifo/nearFalse/dg",
+      "rms_relative": 0.004217015605360511,
+      "max_abs": 0.016296393153126587,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotFalse/fifo/nearFalse/dbeta",
+      "rms_relative": 0.00234339743895372,
+      "max_abs": 0.01739024062195238,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotFalse/fifo/nearFalse/dk0",
+      "rms_relative": 0.0032959455269084338,
+      "max_abs": 0.00018903156927671527,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotFalse/fifo/nearFalse/dv0",
+      "rms_relative": 0.0024676726261562303,
+      "max_abs": 0.002186840952243141,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotFalse/learned/nearFalse/out",
+      "rms_relative": 0.0034586691520805284,
+      "max_abs": 0.0025648831428710106,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotFalse/learned/nearFalse/keys",
+      "rms_relative": 5.702522106727792e-08,
+      "max_abs": 6.331799573544572e-08,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotFalse/learned/nearFalse/values",
+      "rms_relative": 0.0011708484768089133,
+      "max_abs": 0.0010555041885151883,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotFalse/learned/nearFalse/dq",
+      "rms_relative": 0.003440781685987218,
+      "max_abs": 0.0010949857350857628,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotFalse/learned/nearFalse/dk",
+      "rms_relative": 0.0020010812598144686,
+      "max_abs": 0.0024469824521613504,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotFalse/learned/nearFalse/dv",
+      "rms_relative": 0.003408695332387699,
+      "max_abs": 0.009159676557850327,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotFalse/learned/nearFalse/dg",
+      "rms_relative": 0.0029269945810163,
+      "max_abs": 0.012413756510038731,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotFalse/learned/nearFalse/dbeta",
+      "rms_relative": 0.0026355730650275736,
+      "max_abs": 0.02446118110195261,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotFalse/learned/nearFalse/dk0",
+      "rms_relative": 0.0009030428143879922,
+      "max_abs": 0.0001965695545568802,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotFalse/learned/nearFalse/dv0",
+      "rms_relative": 0.0024448741504838217,
+      "max_abs": 0.0029285135221288616,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotTrue/fifo/nearFalse/out",
+      "rms_relative": 0.0016635851002150912,
+      "max_abs": 0.0006377157195337491,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotTrue/fifo/nearFalse/keys",
+      "rms_relative": 5.151285934850001e-08,
+      "max_abs": 6.442752764623805e-08,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotTrue/fifo/nearFalse/values",
+      "rms_relative": 0.001275337227353036,
+      "max_abs": 0.0009941570044040282,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotTrue/fifo/nearFalse/dq",
+      "rms_relative": 0.0024004490233327366,
+      "max_abs": 0.0005848624689205051,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotTrue/fifo/nearFalse/dk",
+      "rms_relative": 0.0004203674470414769,
+      "max_abs": 0.0004854009499073719,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotTrue/fifo/nearFalse/dv",
+      "rms_relative": 0.001543886048924775,
+      "max_abs": 0.002274236297899579,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotTrue/fifo/nearFalse/dg",
+      "rms_relative": 0.0016402737749264067,
+      "max_abs": 0.0027018558978739726,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotTrue/fifo/nearFalse/dbeta",
+      "rms_relative": 0.0016774678756112085,
+      "max_abs": 0.009871923612585043,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotTrue/fifo/nearFalse/dk0",
+      "rms_relative": 0.0015551641634381505,
+      "max_abs": 7.977322897126382e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotTrue/fifo/nearFalse/dv0",
+      "rms_relative": 0.0008417295665258295,
+      "max_abs": 0.0006385764809371808,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotTrue/learned/nearFalse/out",
+      "rms_relative": 0.0016643446496818718,
+      "max_abs": 0.0006377157195338046,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotTrue/learned/nearFalse/keys",
+      "rms_relative": 5.1454241712152294e-08,
+      "max_abs": 6.362044624452778e-08,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotTrue/learned/nearFalse/values",
+      "rms_relative": 0.0013912485108662238,
+      "max_abs": 0.0009435651650842036,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotTrue/learned/nearFalse/dq",
+      "rms_relative": 0.0023619827564908937,
+      "max_abs": 0.0008960731885432893,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotTrue/learned/nearFalse/dk",
+      "rms_relative": 0.0004366905041521041,
+      "max_abs": 0.0005109758412270571,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotTrue/learned/nearFalse/dv",
+      "rms_relative": 0.0016335889749242423,
+      "max_abs": 0.0016069440587089812,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotTrue/learned/nearFalse/dg",
+      "rms_relative": 0.0015672513449993654,
+      "max_abs": 0.0027069501723180345,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotTrue/learned/nearFalse/dbeta",
+      "rms_relative": 0.0016425505847923393,
+      "max_abs": 0.008295268997848382,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotTrue/learned/nearFalse/dk0",
+      "rms_relative": 0.00033869271012018973,
+      "max_abs": 8.72581448164711e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.float32/slotTrue/learned/nearFalse/dv0",
+      "rms_relative": 0.0008766029887188221,
+      "max_abs": 0.0009970264864203049,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotTrue/fifo/nearFalse/out",
+      "rms_relative": 0.003151342623921363,
+      "max_abs": 0.0021196826041240957,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotTrue/fifo/nearFalse/keys",
+      "rms_relative": 5.6117735487363393e-08,
+      "max_abs": 6.681678998976537e-08,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotTrue/fifo/nearFalse/values",
+      "rms_relative": 0.0009578062935690681,
+      "max_abs": 0.0006874833123404755,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotTrue/fifo/nearFalse/dq",
+      "rms_relative": 0.0035032647814700973,
+      "max_abs": 0.0008929518094532019,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotTrue/fifo/nearFalse/dk",
+      "rms_relative": 0.0017454036026659972,
+      "max_abs": 0.0019266632272852968,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotTrue/fifo/nearFalse/dv",
+      "rms_relative": 0.003037043509577962,
+      "max_abs": 0.004992856957270142,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotTrue/fifo/nearFalse/dg",
+      "rms_relative": 0.0023329417137882137,
+      "max_abs": 0.005021306358777178,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotTrue/fifo/nearFalse/dbeta",
+      "rms_relative": 0.0021461935230289897,
+      "max_abs": 0.012380356193686604,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotTrue/fifo/nearFalse/dk0",
+      "rms_relative": 0.0032104213121293126,
+      "max_abs": 0.00013405265911430736,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotTrue/fifo/nearFalse/dv0",
+      "rms_relative": 0.0026856543294371377,
+      "max_abs": 0.002009205082757537,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotTrue/learned/nearFalse/out",
+      "rms_relative": 0.0031549542600568733,
+      "max_abs": 0.002119682604124151,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotTrue/learned/nearFalse/keys",
+      "rms_relative": 5.702522106727792e-08,
+      "max_abs": 6.331799573544572e-08,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotTrue/learned/nearFalse/values",
+      "rms_relative": 0.0011479790147538424,
+      "max_abs": 0.0008934039637955582,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotTrue/learned/nearFalse/dq",
+      "rms_relative": 0.0033465200443251455,
+      "max_abs": 0.0007751921905763404,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotTrue/learned/nearFalse/dk",
+      "rms_relative": 0.0017591461603814044,
+      "max_abs": 0.0019373543368067514,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotTrue/learned/nearFalse/dv",
+      "rms_relative": 0.003131701037572141,
+      "max_abs": 0.006552469056207544,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotTrue/learned/nearFalse/dg",
+      "rms_relative": 0.0021285994028247554,
+      "max_abs": 0.002623561951335396,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotTrue/learned/nearFalse/dbeta",
+      "rms_relative": 0.00206810275983422,
+      "max_abs": 0.012686133148840817,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotTrue/learned/nearFalse/dk0",
+      "rms_relative": 0.0007145242695941387,
+      "max_abs": 0.00023013314889993447,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotTrue/learned/nearFalse/dv0",
+      "rms_relative": 0.002633546917314695,
+      "max_abs": 0.002763649679066782,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotFalse/fifo/nearFalse/out",
+      "rms_relative": 0.0015865290388115503,
+      "max_abs": 0.0006698178360173834,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotFalse/fifo/nearFalse/keys",
+      "rms_relative": 5.358111017512239e-08,
+      "max_abs": 4.200283260091808e-08,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotFalse/fifo/nearFalse/values",
+      "rms_relative": 0.0014125191741833343,
+      "max_abs": 0.001204120066390535,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotFalse/fifo/nearFalse/dq",
+      "rms_relative": 0.002256545175059855,
+      "max_abs": 0.0003355791169702138,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotFalse/fifo/nearFalse/dk",
+      "rms_relative": 0.0007502626793653261,
+      "max_abs": 0.0004723995403740078,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotFalse/fifo/nearFalse/dv",
+      "rms_relative": 0.0015798581681341758,
+      "max_abs": 0.0020834146474816295,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotFalse/fifo/nearFalse/dg",
+      "rms_relative": 0.0016244792838050876,
+      "max_abs": 0.012334458746481758,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotFalse/fifo/nearFalse/dbeta",
+      "rms_relative": 0.0016330752056489877,
+      "max_abs": 0.011450656750909616,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotFalse/fifo/nearFalse/dk0",
+      "rms_relative": 0.0015509642264055809,
+      "max_abs": 7.733283001160746e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotFalse/fifo/nearFalse/dv0",
+      "rms_relative": 0.0008138200295064259,
+      "max_abs": 0.0014554602304659436,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotFalse/learned/nearFalse/out",
+      "rms_relative": 0.0015860671880760402,
+      "max_abs": 0.000669784100478743,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotFalse/learned/nearFalse/keys",
+      "rms_relative": 5.6199791143948706e-08,
+      "max_abs": 4.988524010540729e-08,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotFalse/learned/nearFalse/values",
+      "rms_relative": 0.001296204170891021,
+      "max_abs": 0.0007324900174592308,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotFalse/learned/nearFalse/dq",
+      "rms_relative": 0.0022214097175530033,
+      "max_abs": 0.00031111416137810655,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotFalse/learned/nearFalse/dk",
+      "rms_relative": 0.0007514401803064574,
+      "max_abs": 0.00041769293985569056,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotFalse/learned/nearFalse/dv",
+      "rms_relative": 0.0015853013415722099,
+      "max_abs": 0.0017400442227964996,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotFalse/learned/nearFalse/dg",
+      "rms_relative": 0.0014862051316745018,
+      "max_abs": 0.007240393614449392,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotFalse/learned/nearFalse/dbeta",
+      "rms_relative": 0.0015410241099814545,
+      "max_abs": 0.009707486228034412,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotFalse/learned/nearFalse/dk0",
+      "rms_relative": 0.00159681078322459,
+      "max_abs": 9.423785466076279e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotFalse/learned/nearFalse/dv0",
+      "rms_relative": 0.0007912134416658892,
+      "max_abs": 0.0013030245507056337,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotFalse/fifo/nearFalse/out",
+      "rms_relative": 0.0034093503932703852,
+      "max_abs": 0.0013315383352249244,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotFalse/fifo/nearFalse/keys",
+      "rms_relative": 5.61972676074721e-08,
+      "max_abs": 4.796504260440315e-08,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotFalse/fifo/nearFalse/values",
+      "rms_relative": 0.0011312383318797783,
+      "max_abs": 0.000942489330524432,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotFalse/fifo/nearFalse/dq",
+      "rms_relative": 0.003541088381280965,
+      "max_abs": 0.0006226165202936618,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotFalse/fifo/nearFalse/dk",
+      "rms_relative": 0.0019104964182011844,
+      "max_abs": 0.0011270313206726001,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotFalse/fifo/nearFalse/dv",
+      "rms_relative": 0.0032820937802312622,
+      "max_abs": 0.005398686685153309,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotFalse/fifo/nearFalse/dg",
+      "rms_relative": 0.0024151584512360595,
+      "max_abs": 0.012888927408835738,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotFalse/fifo/nearFalse/dbeta",
+      "rms_relative": 0.0024809808848285184,
+      "max_abs": 0.013683426222545592,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotFalse/fifo/nearFalse/dk0",
+      "rms_relative": 0.003459873398121198,
+      "max_abs": 0.00019979691573587116,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotFalse/fifo/nearFalse/dv0",
+      "rms_relative": 0.0031254101306581227,
+      "max_abs": 0.004287972726196854,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotFalse/learned/nearFalse/out",
+      "rms_relative": 0.00339608229464954,
+      "max_abs": 0.0013315383352250632,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotFalse/learned/nearFalse/keys",
+      "rms_relative": 5.577367295282096e-08,
+      "max_abs": 5.718489892725387e-08,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotFalse/learned/nearFalse/values",
+      "rms_relative": 0.0010361790655701601,
+      "max_abs": 0.0005645855247225495,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotFalse/learned/nearFalse/dq",
+      "rms_relative": 0.0035552285784126044,
+      "max_abs": 0.0005832830849463733,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotFalse/learned/nearFalse/dk",
+      "rms_relative": 0.001966197619396488,
+      "max_abs": 0.001729754362553959,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotFalse/learned/nearFalse/dv",
+      "rms_relative": 0.0033003851030867747,
+      "max_abs": 0.004274036523158831,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotFalse/learned/nearFalse/dg",
+      "rms_relative": 0.0035357316127156394,
+      "max_abs": 0.01413409651075348,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotFalse/learned/nearFalse/dbeta",
+      "rms_relative": 0.0022263125585825147,
+      "max_abs": 0.010106138158276767,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotFalse/learned/nearFalse/dk0",
+      "rms_relative": 0.00357713568034392,
+      "max_abs": 0.0002187252826102333,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotFalse/learned/nearFalse/dv0",
+      "rms_relative": 0.002987345495230842,
+      "max_abs": 0.005022716536960736,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotTrue/fifo/nearFalse/out",
+      "rms_relative": 0.0015637469464698619,
+      "max_abs": 0.0004688033674515313,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotTrue/fifo/nearFalse/keys",
+      "rms_relative": 5.358111017512239e-08,
+      "max_abs": 4.200283260091808e-08,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotTrue/fifo/nearFalse/values",
+      "rms_relative": 0.0010338619362603176,
+      "max_abs": 0.0004529644598044169,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotTrue/fifo/nearFalse/dq",
+      "rms_relative": 0.002331009344033673,
+      "max_abs": 0.00030951925402059044,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotTrue/fifo/nearFalse/dk",
+      "rms_relative": 0.0003935228804957479,
+      "max_abs": 0.00035549798072059824,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotTrue/fifo/nearFalse/dv",
+      "rms_relative": 0.0015252210522377953,
+      "max_abs": 0.00116380056239207,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotTrue/fifo/nearFalse/dg",
+      "rms_relative": 0.001518096273168618,
+      "max_abs": 0.0021429241419519407,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotTrue/fifo/nearFalse/dbeta",
+      "rms_relative": 0.001689614827620728,
+      "max_abs": 0.0063319329727340445,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotTrue/fifo/nearFalse/dk0",
+      "rms_relative": 0.0015222158066449856,
+      "max_abs": 3.8158948767002404e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotTrue/fifo/nearFalse/dv0",
+      "rms_relative": 0.0008570059416765312,
+      "max_abs": 0.0010719291092028405,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotTrue/learned/nearFalse/out",
+      "rms_relative": 0.001563770180528815,
+      "max_abs": 0.000468803367451448,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotTrue/learned/nearFalse/keys",
+      "rms_relative": 5.6199791143948706e-08,
+      "max_abs": 4.988524010540729e-08,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotTrue/learned/nearFalse/values",
+      "rms_relative": 0.0009901388204445628,
+      "max_abs": 0.00047434246349975506,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotTrue/learned/nearFalse/dq",
+      "rms_relative": 0.002227704176880217,
+      "max_abs": 0.00024044298247859197,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotTrue/learned/nearFalse/dk",
+      "rms_relative": 0.0003775743948120767,
+      "max_abs": 0.00026224341760676395,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotTrue/learned/nearFalse/dv",
+      "rms_relative": 0.0015433335062086657,
+      "max_abs": 0.0011780789885713627,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotTrue/learned/nearFalse/dg",
+      "rms_relative": 0.001418070001692604,
+      "max_abs": 0.0020684709068006235,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotTrue/learned/nearFalse/dbeta",
+      "rms_relative": 0.0015207725741618386,
+      "max_abs": 0.006338537937845334,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotTrue/learned/nearFalse/dk0",
+      "rms_relative": 0.001570433505141379,
+      "max_abs": 4.641974381062314e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.float32/slotTrue/learned/nearFalse/dv0",
+      "rms_relative": 0.0008356697443848193,
+      "max_abs": 0.001231456230775363,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotTrue/fifo/nearFalse/out",
+      "rms_relative": 0.0030179422187373924,
+      "max_abs": 0.0009737941776386261,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotTrue/fifo/nearFalse/keys",
+      "rms_relative": 5.61972676074721e-08,
+      "max_abs": 4.796504260440315e-08,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotTrue/fifo/nearFalse/values",
+      "rms_relative": 0.0007335033498101117,
+      "max_abs": 0.00029299498028473314,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotTrue/fifo/nearFalse/dq",
+      "rms_relative": 0.003537599024751021,
+      "max_abs": 0.0006275515562585016,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotTrue/fifo/nearFalse/dk",
+      "rms_relative": 0.0017547316492383127,
+      "max_abs": 0.0010725944990384595,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotTrue/fifo/nearFalse/dv",
+      "rms_relative": 0.0029650055612989467,
+      "max_abs": 0.0037317133035342787,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotTrue/fifo/nearFalse/dg",
+      "rms_relative": 0.002078132967830999,
+      "max_abs": 0.0027688774919626263,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotTrue/fifo/nearFalse/dbeta",
+      "rms_relative": 0.002153893042847888,
+      "max_abs": 0.009716718355105236,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotTrue/fifo/nearFalse/dk0",
+      "rms_relative": 0.0034743928477678435,
+      "max_abs": 0.00010450709650003387,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotTrue/fifo/nearFalse/dv0",
+      "rms_relative": 0.002864026780825555,
+      "max_abs": 0.002716930593282041,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotTrue/learned/nearFalse/out",
+      "rms_relative": 0.0030170068072509614,
+      "max_abs": 0.0009737941125810418,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotTrue/learned/nearFalse/keys",
+      "rms_relative": 5.577367295282096e-08,
+      "max_abs": 5.718489892725387e-08,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotTrue/learned/nearFalse/values",
+      "rms_relative": 0.0006743593854250632,
+      "max_abs": 0.0002676747481921149,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotTrue/learned/nearFalse/dq",
+      "rms_relative": 0.003574156106088719,
+      "max_abs": 0.000401049787514568,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotTrue/learned/nearFalse/dk",
+      "rms_relative": 0.0017065518089708499,
+      "max_abs": 0.001076550817681765,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotTrue/learned/nearFalse/dv",
+      "rms_relative": 0.0030134238120445543,
+      "max_abs": 0.003928582045673923,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotTrue/learned/nearFalse/dg",
+      "rms_relative": 0.0021041331004654855,
+      "max_abs": 0.002991579531927746,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotTrue/learned/nearFalse/dbeta",
+      "rms_relative": 0.001936081273348401,
+      "max_abs": 0.007211900288500939,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotTrue/learned/nearFalse/dk0",
+      "rms_relative": 0.0035173862818093852,
+      "max_abs": 0.0001201606762464523,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotTrue/learned/nearFalse/dv0",
+      "rms_relative": 0.0026378371055926397,
+      "max_abs": 0.002871117323120287,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotFalse/fifo/nearFalse/out",
+      "rms_relative": 0.0015868476697819191,
+      "max_abs": 0.0004997257133405042,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotFalse/fifo/nearFalse/keys",
+      "rms_relative": 6.073764647320235e-08,
+      "max_abs": 4.214175902683692e-08,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotFalse/fifo/nearFalse/values",
+      "rms_relative": 0.0012456894590717367,
+      "max_abs": 0.0009014839403592712,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotFalse/fifo/nearFalse/dq",
+      "rms_relative": 0.002229914190219828,
+      "max_abs": 0.00023562816584064838,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotFalse/fifo/nearFalse/dk",
+      "rms_relative": 0.0011230636243786507,
+      "max_abs": 0.0002630090884764985,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotFalse/fifo/nearFalse/dv",
+      "rms_relative": 0.0015435584572975926,
+      "max_abs": 0.001868470340567585,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotFalse/fifo/nearFalse/dg",
+      "rms_relative": 0.0015603288858637753,
+      "max_abs": 0.012999258323961982,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotFalse/fifo/nearFalse/dbeta",
+      "rms_relative": 0.0015071097588522774,
+      "max_abs": 0.01542512160880527,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotFalse/fifo/nearFalse/dk0",
+      "rms_relative": 0.0015879637597415385,
+      "max_abs": 5.0888069762510674e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotFalse/fifo/nearFalse/dv0",
+      "rms_relative": 0.0008200963598553907,
+      "max_abs": 0.0005793764301162962,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotFalse/learned/nearFalse/out",
+      "rms_relative": 0.001586714048051699,
+      "max_abs": 0.0004996716523735234,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotFalse/learned/nearFalse/keys",
+      "rms_relative": 5.569485459316961e-08,
+      "max_abs": 3.13793244721694e-08,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotFalse/learned/nearFalse/values",
+      "rms_relative": 0.0013512738286008117,
+      "max_abs": 0.0008083700970379359,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotFalse/learned/nearFalse/dq",
+      "rms_relative": 0.002230157194434855,
+      "max_abs": 0.0002057219642387087,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotFalse/learned/nearFalse/dk",
+      "rms_relative": 0.0011663572651802552,
+      "max_abs": 0.00029424768639232934,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotFalse/learned/nearFalse/dv",
+      "rms_relative": 0.0015723371406109845,
+      "max_abs": 0.0017488305682166194,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotFalse/learned/nearFalse/dg",
+      "rms_relative": 0.0013749081178363884,
+      "max_abs": 0.008535742925243284,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotFalse/learned/nearFalse/dbeta",
+      "rms_relative": 0.0015232804440546619,
+      "max_abs": 0.008597718033848345,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotFalse/learned/nearFalse/dk0",
+      "rms_relative": 0.0016265045189656963,
+      "max_abs": 3.547861214616907e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotFalse/learned/nearFalse/dv0",
+      "rms_relative": 0.0008366460143227863,
+      "max_abs": 0.0006693392759272165,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotFalse/fifo/nearFalse/out",
+      "rms_relative": 0.0035239870868370364,
+      "max_abs": 0.001523594672737827,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotFalse/fifo/nearFalse/keys",
+      "rms_relative": 5.930393362406913e-08,
+      "max_abs": 3.9002992668901726e-08,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotFalse/fifo/nearFalse/values",
+      "rms_relative": 0.0009553533233056648,
+      "max_abs": 0.0006524169228607768,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotFalse/fifo/nearFalse/dq",
+      "rms_relative": 0.0035739143266920077,
+      "max_abs": 0.00045628003862842326,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotFalse/fifo/nearFalse/dk",
+      "rms_relative": 0.0022980307890792012,
+      "max_abs": 0.0009560031001525915,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotFalse/fifo/nearFalse/dv",
+      "rms_relative": 0.003462292615226142,
+      "max_abs": 0.005793015957131553,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotFalse/fifo/nearFalse/dg",
+      "rms_relative": 0.0033268037272588227,
+      "max_abs": 0.024684354204339787,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotFalse/fifo/nearFalse/dbeta",
+      "rms_relative": 0.0025539813763943665,
+      "max_abs": 0.01833072797556934,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotFalse/fifo/nearFalse/dk0",
+      "rms_relative": 0.0037278187045242297,
+      "max_abs": 0.00013522401281772928,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotFalse/fifo/nearFalse/dv0",
+      "rms_relative": 0.002665313905886778,
+      "max_abs": 0.00222533603367725,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotFalse/learned/nearFalse/out",
+      "rms_relative": 0.003487079401781316,
+      "max_abs": 0.0015235946727377714,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotFalse/learned/nearFalse/keys",
+      "rms_relative": 5.7709406999165505e-08,
+      "max_abs": 3.6842071948761657e-08,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotFalse/learned/nearFalse/values",
+      "rms_relative": 0.0010559596818607198,
+      "max_abs": 0.0005292742052488419,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotFalse/learned/nearFalse/dq",
+      "rms_relative": 0.003548655000256519,
+      "max_abs": 0.0004955947588902582,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotFalse/learned/nearFalse/dk",
+      "rms_relative": 0.0023454149755133195,
+      "max_abs": 0.001003724146149243,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotFalse/learned/nearFalse/dv",
+      "rms_relative": 0.00344028180518205,
+      "max_abs": 0.005389784273890141,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotFalse/learned/nearFalse/dg",
+      "rms_relative": 0.0031663785844599154,
+      "max_abs": 0.017661416153070153,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotFalse/learned/nearFalse/dbeta",
+      "rms_relative": 0.0025535279230540974,
+      "max_abs": 0.019115447700066568,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotFalse/learned/nearFalse/dk0",
+      "rms_relative": 0.003213437276188551,
+      "max_abs": 7.031239539707218e-05,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotFalse/learned/nearFalse/dv0",
+      "rms_relative": 0.0026183851894399576,
+      "max_abs": 0.002199000696045228,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotTrue/fifo/nearFalse/out",
+      "rms_relative": 0.001547142296624773,
+      "max_abs": 0.0004989573291580562,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotTrue/fifo/nearFalse/keys",
+      "rms_relative": 6.073764647320235e-08,
+      "max_abs": 4.214175902683692e-08,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotTrue/fifo/nearFalse/values",
+      "rms_relative": 0.0011639587712165898,
+      "max_abs": 0.0007457420050634433,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotTrue/fifo/nearFalse/dq",
+      "rms_relative": 0.002226715800800837,
+      "max_abs": 0.00018869655616091108,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotTrue/fifo/nearFalse/dk",
+      "rms_relative": 0.0006099539990670681,
+      "max_abs": 0.00017896576902898254,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotTrue/fifo/nearFalse/dv",
+      "rms_relative": 0.0015233888770253639,
+      "max_abs": 0.0015047725013601632,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotTrue/fifo/nearFalse/dg",
+      "rms_relative": 0.0014374102092702362,
+      "max_abs": 0.003572887300466121,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotTrue/fifo/nearFalse/dbeta",
+      "rms_relative": 0.001485108012673833,
+      "max_abs": 0.009277143280688627,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotTrue/fifo/nearFalse/dk0",
+      "rms_relative": 0.0016687062748175184,
+      "max_abs": 4.391094861257508e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotTrue/fifo/nearFalse/dv0",
+      "rms_relative": 0.0007629165627809717,
+      "max_abs": 0.0005417963430565109,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotTrue/learned/nearFalse/out",
+      "rms_relative": 0.0015473292242284677,
+      "max_abs": 0.000498957329158084,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotTrue/learned/nearFalse/keys",
+      "rms_relative": 5.569485459316961e-08,
+      "max_abs": 3.13793244721694e-08,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotTrue/learned/nearFalse/values",
+      "rms_relative": 0.0013561915351097671,
+      "max_abs": 0.0005313463316326539,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotTrue/learned/nearFalse/dq",
+      "rms_relative": 0.00219156062722021,
+      "max_abs": 0.00017662562127870873,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotTrue/learned/nearFalse/dk",
+      "rms_relative": 0.0006362974277160759,
+      "max_abs": 0.000175468670746165,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotTrue/learned/nearFalse/dv",
+      "rms_relative": 0.0015469140586959,
+      "max_abs": 0.0013143292214046198,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotTrue/learned/nearFalse/dg",
+      "rms_relative": 0.0014368577328836769,
+      "max_abs": 0.00239093495563103,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotTrue/learned/nearFalse/dbeta",
+      "rms_relative": 0.0015251818881178861,
+      "max_abs": 0.006985052185528584,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotTrue/learned/nearFalse/dk0",
+      "rms_relative": 0.0014667351498364937,
+      "max_abs": 2.953316926691124e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.float32/slotTrue/learned/nearFalse/dv0",
+      "rms_relative": 0.0007743780347641601,
+      "max_abs": 0.0005862852625429515,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotTrue/fifo/nearFalse/out",
+      "rms_relative": 0.0031379978027668383,
+      "max_abs": 0.001076385087424192,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotTrue/fifo/nearFalse/keys",
+      "rms_relative": 5.930393362406913e-08,
+      "max_abs": 3.9002992668901726e-08,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotTrue/fifo/nearFalse/values",
+      "rms_relative": 0.0008095804432892642,
+      "max_abs": 0.000535433167458299,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotTrue/fifo/nearFalse/dq",
+      "rms_relative": 0.0035197661307297848,
+      "max_abs": 0.0004768449082115378,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotTrue/fifo/nearFalse/dk",
+      "rms_relative": 0.0018397090973417674,
+      "max_abs": 0.0008738797158983624,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotTrue/fifo/nearFalse/dv",
+      "rms_relative": 0.0031106259313743436,
+      "max_abs": 0.00578393873288241,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotTrue/fifo/nearFalse/dg",
+      "rms_relative": 0.002085607461674065,
+      "max_abs": 0.005777193552584103,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotTrue/fifo/nearFalse/dbeta",
+      "rms_relative": 0.0020377307159748126,
+      "max_abs": 0.008429329950045972,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotTrue/fifo/nearFalse/dk0",
+      "rms_relative": 0.0035175733606548623,
+      "max_abs": 0.0001079740235169803,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotTrue/fifo/nearFalse/dv0",
+      "rms_relative": 0.0024164038926491756,
+      "max_abs": 0.0017508282657290875,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotTrue/learned/nearFalse/out",
+      "rms_relative": 0.0031344941731102365,
+      "max_abs": 0.001076385087424192,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotTrue/learned/nearFalse/keys",
+      "rms_relative": 5.7709406999165505e-08,
+      "max_abs": 3.6842071948761657e-08,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotTrue/learned/nearFalse/values",
+      "rms_relative": 0.0010439990421122671,
+      "max_abs": 0.00033246922478158414,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotTrue/learned/nearFalse/dq",
+      "rms_relative": 0.003497800578598018,
+      "max_abs": 0.00038921935490707216,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotTrue/learned/nearFalse/dk",
+      "rms_relative": 0.0018962111599134922,
+      "max_abs": 0.0009332374231322271,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotTrue/learned/nearFalse/dv",
+      "rms_relative": 0.0031509916204397756,
+      "max_abs": 0.002708564722481821,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotTrue/learned/nearFalse/dg",
+      "rms_relative": 0.002081169898779786,
+      "max_abs": 0.0038825334733130212,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotTrue/learned/nearFalse/dbeta",
+      "rms_relative": 0.002056190155077473,
+      "max_abs": 0.012957753570360886,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotTrue/learned/nearFalse/dk0",
+      "rms_relative": 0.0038229823130702216,
+      "max_abs": 7.736906845843584e-05,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotTrue/learned/nearFalse/dv0",
+      "rms_relative": 0.00241468611670156,
+      "max_abs": 0.0017301084046333348,
+      "tolerance": 0.01
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearTrue/out",
+      "rms_relative": 0.0017072611630663806,
+      "max_abs": 0.000510985066906694,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearTrue/keys",
+      "rms_relative": 5.512341411166248e-08,
+      "max_abs": 4.131647785010628e-08,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearTrue/values",
+      "rms_relative": 0.001659851358293341,
+      "max_abs": 0.001302168748452348,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearTrue/dq",
+      "rms_relative": 0.002308893776616864,
+      "max_abs": 0.00020497137502537705,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearTrue/dk",
+      "rms_relative": 0.002518362697396714,
+      "max_abs": 0.018123779846926702,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearTrue/dv",
+      "rms_relative": 0.0016851625235448906,
+      "max_abs": 0.0029563137969927933,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearTrue/dg",
+      "rms_relative": 0.0018054822780054788,
+      "max_abs": 0.013651257343429535,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearTrue/dbeta",
+      "rms_relative": 0.0018325618011345508,
+      "max_abs": 0.015734626121982842,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearTrue/dk0",
+      "rms_relative": 0.0015801172280193623,
+      "max_abs": 6.725309981386873e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearTrue/dv0",
+      "rms_relative": 0.003686636718938884,
+      "max_abs": 0.0016001078372436806,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearTrue/out",
+      "rms_relative": 0.001532315087913826,
+      "max_abs": 0.00046723180993468727,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearTrue/keys",
+      "rms_relative": 5.512341411166248e-08,
+      "max_abs": 4.131647785010628e-08,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearTrue/values",
+      "rms_relative": 0.0014676663281808133,
+      "max_abs": 0.00065460937430456,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearTrue/dq",
+      "rms_relative": 0.0021221139405832555,
+      "max_abs": 0.00017102752474461302,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearTrue/dk",
+      "rms_relative": 0.0005655671465916058,
+      "max_abs": 0.00019238147014453977,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearTrue/dv",
+      "rms_relative": 0.0015072199009314377,
+      "max_abs": 0.001112551453788413,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearTrue/dg",
+      "rms_relative": 0.0014493660806649288,
+      "max_abs": 0.002315624026663521,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearTrue/dbeta",
+      "rms_relative": 0.0012273801631758805,
+      "max_abs": 0.007605397304594419,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearTrue/dk0",
+      "rms_relative": 0.0015553119098664003,
+      "max_abs": 3.522261103634794e-05,
+      "tolerance": 0.005
+    },
+    {
+      "name": "(1, 257, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearTrue/dv0",
+      "rms_relative": 0.0012079748071241359,
+      "max_abs": 0.0005554749704335671,
+      "tolerance": 0.005
+    }
+  ],
+  "cases": [
+    "(1, 1, 1, 8, 8, 4)/torch.float32/slotFalse/fifo/nearFalse",
+    "(1, 1, 1, 8, 8, 4)/torch.float32/slotFalse/learned/nearFalse",
+    "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotFalse/fifo/nearFalse",
+    "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotFalse/learned/nearFalse",
+    "(1, 1, 1, 8, 8, 4)/torch.float32/slotTrue/fifo/nearFalse",
+    "(1, 1, 1, 8, 8, 4)/torch.float32/slotTrue/learned/nearFalse",
+    "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotTrue/fifo/nearFalse",
+    "(1, 1, 1, 8, 8, 4)/torch.bfloat16/slotTrue/learned/nearFalse",
+    "(1, 127, 2, 33, 17, 5)/torch.float32/slotFalse/fifo/nearFalse",
+    "(1, 127, 2, 33, 17, 5)/torch.float32/slotFalse/learned/nearFalse",
+    "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotFalse/fifo/nearFalse",
+    "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotFalse/learned/nearFalse",
+    "(1, 127, 2, 33, 17, 5)/torch.float32/slotTrue/fifo/nearFalse",
+    "(1, 127, 2, 33, 17, 5)/torch.float32/slotTrue/learned/nearFalse",
+    "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotTrue/fifo/nearFalse",
+    "(1, 127, 2, 33, 17, 5)/torch.bfloat16/slotTrue/learned/nearFalse",
+    "(1, 128, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearFalse",
+    "(1, 128, 2, 64, 64, 32)/torch.float32/slotFalse/learned/nearFalse",
+    "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotFalse/fifo/nearFalse",
+    "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotFalse/learned/nearFalse",
+    "(1, 128, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearFalse",
+    "(1, 128, 2, 64, 64, 32)/torch.float32/slotTrue/learned/nearFalse",
+    "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotTrue/fifo/nearFalse",
+    "(1, 128, 2, 64, 64, 32)/torch.bfloat16/slotTrue/learned/nearFalse",
+    "(2, 129, 2, 32, 48, 48)/torch.float32/slotFalse/fifo/nearFalse",
+    "(2, 129, 2, 32, 48, 48)/torch.float32/slotFalse/learned/nearFalse",
+    "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotFalse/fifo/nearFalse",
+    "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotFalse/learned/nearFalse",
+    "(2, 129, 2, 32, 48, 48)/torch.float32/slotTrue/fifo/nearFalse",
+    "(2, 129, 2, 32, 48, 48)/torch.float32/slotTrue/learned/nearFalse",
+    "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotTrue/fifo/nearFalse",
+    "(2, 129, 2, 32, 48, 48)/torch.bfloat16/slotTrue/learned/nearFalse",
+    "(1, 257, 2, 64, 64, 64)/torch.float32/slotFalse/fifo/nearFalse",
+    "(1, 257, 2, 64, 64, 64)/torch.float32/slotFalse/learned/nearFalse",
+    "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotFalse/fifo/nearFalse",
+    "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotFalse/learned/nearFalse",
+    "(1, 257, 2, 64, 64, 64)/torch.float32/slotTrue/fifo/nearFalse",
+    "(1, 257, 2, 64, 64, 64)/torch.float32/slotTrue/learned/nearFalse",
+    "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotTrue/fifo/nearFalse",
+    "(1, 257, 2, 64, 64, 64)/torch.bfloat16/slotTrue/learned/nearFalse",
+    "(1, 385, 2, 128, 128, 32)/torch.float32/slotFalse/fifo/nearFalse",
+    "(1, 385, 2, 128, 128, 32)/torch.float32/slotFalse/learned/nearFalse",
+    "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotFalse/fifo/nearFalse",
+    "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotFalse/learned/nearFalse",
+    "(1, 385, 2, 128, 128, 32)/torch.float32/slotTrue/fifo/nearFalse",
+    "(1, 385, 2, 128, 128, 32)/torch.float32/slotTrue/learned/nearFalse",
+    "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotTrue/fifo/nearFalse",
+    "(1, 385, 2, 128, 128, 32)/torch.bfloat16/slotTrue/learned/nearFalse",
+    "(1, 257, 2, 64, 64, 32)/torch.float32/slotFalse/fifo/nearTrue",
+    "(1, 257, 2, 64, 64, 32)/torch.float32/slotTrue/fifo/nearTrue"
+  ],
+  "environment": {
+    "torch": "2.10.0a0+b558c986e8.nv25.11",
+    "triton": "3.7.1",
+    "python": "3.12.3",
+    "gpu": "NVIDIA H100 80GB HBM3"
+  }
+}

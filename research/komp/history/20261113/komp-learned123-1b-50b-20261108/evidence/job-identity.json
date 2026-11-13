@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-e72852fdf8d4-20261108230824",
+    "user_def_name": "komp-learned123-1b-50b-20261108",
+    "status": "Running",
+    "ready_status": "4/4",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 32
+  }
+]

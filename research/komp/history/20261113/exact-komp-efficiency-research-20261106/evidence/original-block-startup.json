@@ -1,0 +1,35 @@
+{
+  "captured_steps": 36,
+  "first": {
+    "step": 4459,
+    "effective_input_tokens": 2337800192,
+    "input_tokens": 2337800192,
+    "supervised_tokens": 2337800192,
+    "compute_tokens": 2337800192,
+    "loss": 2.8338289856910706,
+    "lr": 0.0002485628100127437,
+    "grad_norm": 0.19766554236412048,
+    "seconds": 3.538689710199833,
+    "peak_bytes": 35515019264,
+    "documents": 240825,
+    "excluded_documents": 11
+  },
+  "latest": {
+    "step": 4494,
+    "effective_input_tokens": 2356150272,
+    "input_tokens": 2356150272,
+    "supervised_tokens": 2356150272,
+    "compute_tokens": 2356150272,
+    "loss": 2.861054018139839,
+    "lr": 0.0002475833438075613,
+    "grad_norm": 0.21887817978858948,
+    "seconds": 2.5402628667652607,
+    "peak_bytes": 35515019264,
+    "documents": 242729,
+    "excluded_documents": 11
+  },
+  "warm_samples": 20,
+  "warm_median_seconds": 2.545749492943287,
+  "tokens_per_second": 205946.42224354943,
+  "peak_bytes": 35515019264
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-786c51b87f10-20261105215810",
+    "user_def_name": "physics100m-gsa2-consistent-brevo2-20261105",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 8
+  }
+]

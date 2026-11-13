@@ -1,0 +1,14 @@
+{
+  "status": "prepared_not_released",
+  "formal_training_started": false,
+  "requires": "new-source 8GPU same-rank-shape DDP preflight and explicit release decision; never reuse old preflight tickets",
+  "precision": "BF16 network, unchanged original loss head",
+  "original_parameters_hyperparameters_and_budget_unchanged": true,
+  "result_directory": "runs-gsa2-consistent",
+  "sources": {
+    "ddp_train_gsa2_candidate.py": "9b9b8ff2031e5db406c2af008476ae1bdf315a64099a215eec3e1224dbd95694",
+    "gsa2_fixed_norm_candidate.py": "168d5c488f2350bcd7ddcffa2c4c890d65d761e05cdabad1f61e484bb5d44257",
+    "gsa2_packed_eval_candidate.py": "76e92c87723e58c1e9c4db0bd7ab5076031e3cb6f36c8297c2dff95ef31856d8",
+    "gsa2_consistent_candidate.py": "8d5eb48775c766ed4a80d24bac252b1f74ae867d20c4d8cb5ba111ee4c446dda"
+  }
+}

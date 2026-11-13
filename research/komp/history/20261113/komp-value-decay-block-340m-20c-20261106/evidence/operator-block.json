@@ -1,0 +1,206 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "case": "random-tail-torch.float32",
+      "tolerance": 0.003,
+      "rows": [
+        {
+          "tensor": "out",
+          "absolute": 0.0018553522694230162,
+          "rmsrel": 0.0016161627039059379,
+          "passed": true
+        },
+        {
+          "tensor": "keys",
+          "absolute": 4.068753334252051e-08,
+          "rmsrel": 5.512106441176578e-08,
+          "passed": true
+        },
+        {
+          "tensor": "state",
+          "absolute": 0.003951710211177906,
+          "rmsrel": 0.0012954594566914957,
+          "passed": true
+        },
+        {
+          "tensor": "dq",
+          "absolute": 0.0009458583809932586,
+          "rmsrel": 0.002204648309402915,
+          "passed": true
+        },
+        {
+          "tensor": "dk",
+          "absolute": 0.0012503060652488962,
+          "rmsrel": 0.0016805058629703372,
+          "passed": true
+        },
+        {
+          "tensor": "dv",
+          "absolute": 0.003798690222774459,
+          "rmsrel": 0.0014875433464915297,
+          "passed": true
+        },
+        {
+          "tensor": "dg",
+          "absolute": 0.009397939905801067,
+          "rmsrel": 0.0020836205947228534,
+          "passed": true
+        },
+        {
+          "tensor": "dbeta",
+          "absolute": 0.022687437015887824,
+          "rmsrel": 0.0015249352385223354,
+          "passed": true
+        },
+        {
+          "tensor": "dk0",
+          "absolute": 8.131398640294496e-05,
+          "rmsrel": 0.0015539764328568392,
+          "passed": true
+        },
+        {
+          "tensor": "ds0",
+          "absolute": 0.0010289854993197345,
+          "rmsrel": 0.0009022281292634206,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "random-tail-torch.bfloat16",
+      "tolerance": 0.025,
+      "rows": [
+        {
+          "tensor": "out",
+          "absolute": 0.0045230697291411825,
+          "rmsrel": 0.004019565904825276,
+          "passed": true
+        },
+        {
+          "tensor": "keys",
+          "absolute": 4.6524294361471874e-08,
+          "rmsrel": 5.466596355499594e-08,
+          "passed": true
+        },
+        {
+          "tensor": "state",
+          "absolute": 0.0034843069022187922,
+          "rmsrel": 0.001667061136200878,
+          "passed": true
+        },
+        {
+          "tensor": "dq",
+          "absolute": 0.0019793541319650387,
+          "rmsrel": 0.004286700099234992,
+          "passed": true
+        },
+        {
+          "tensor": "dk",
+          "absolute": 0.0029675826481668777,
+          "rmsrel": 0.0033771626905262763,
+          "passed": true
+        },
+        {
+          "tensor": "dv",
+          "absolute": 0.01063274516275503,
+          "rmsrel": 0.003654996002785234,
+          "passed": true
+        },
+        {
+          "tensor": "dg",
+          "absolute": 0.020796514883347557,
+          "rmsrel": 0.009449486246010629,
+          "passed": true
+        },
+        {
+          "tensor": "dbeta",
+          "absolute": 0.048908095383990435,
+          "rmsrel": 0.00390273454198729,
+          "passed": true
+        },
+        {
+          "tensor": "dk0",
+          "absolute": 0.000370761130208723,
+          "rmsrel": 0.004063377026595697,
+          "passed": true
+        },
+        {
+          "tensor": "ds0",
+          "absolute": 0.003643323728112269,
+          "rmsrel": 0.003231063064598344,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "real-first-layer-tail",
+      "tolerance": 0.025,
+      "rows": [
+        {
+          "tensor": "out",
+          "absolute": 0.0009059444638613856,
+          "rmsrel": 0.002784905546450098,
+          "passed": true
+        },
+        {
+          "tensor": "keys",
+          "absolute": 5.7374375750374185e-08,
+          "rmsrel": 5.062393501019121e-08,
+          "passed": true
+        },
+        {
+          "tensor": "state",
+          "absolute": 0.0002528126690504173,
+          "rmsrel": 0.0010657106378166572,
+          "passed": true
+        },
+        {
+          "tensor": "dq",
+          "absolute": 0.0014908831296205904,
+          "rmsrel": 0.0031482417617235666,
+          "passed": true
+        },
+        {
+          "tensor": "dk",
+          "absolute": 0.007776803085303374,
+          "rmsrel": 0.0017396743803178292,
+          "passed": true
+        },
+        {
+          "tensor": "dv",
+          "absolute": 0.005357366485433168,
+          "rmsrel": 0.0037332186905305906,
+          "passed": true
+        },
+        {
+          "tensor": "dg",
+          "absolute": 0.004231733638996982,
+          "rmsrel": 0.0036562171692433344,
+          "passed": true
+        },
+        {
+          "tensor": "dbeta",
+          "absolute": 0.011145104983460663,
+          "rmsrel": 0.0026576850314466893,
+          "passed": true
+        },
+        {
+          "tensor": "dk0",
+          "absolute": 0.0,
+          "rmsrel": 0.0,
+          "passed": true
+        },
+        {
+          "tensor": "ds0",
+          "absolute": 0.011274981944274065,
+          "rmsrel": 0.0047885215935957815,
+          "passed": true
+        }
+      ],
+      "passed": true
+    }
+  ]
+}

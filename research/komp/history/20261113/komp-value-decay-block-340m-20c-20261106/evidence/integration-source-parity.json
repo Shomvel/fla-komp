@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "files": 659,
+  "prior_receipt": "prior-integration.json",
+  "scope": "all packaged FLA Python sources byte-identical to 34-test H100 integration"
+}

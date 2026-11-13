@@ -1,0 +1,17 @@
+{
+  "source_sha": "3e861451b240e3d4a3479fb0827bf26a10fee320895215dfa419f3a6026c0f6e",
+  "project": "WeaverRSI",
+  "queue": "proj-32",
+  "jobs": {
+    "exact": {
+      "alias": "komp340m-exact-kda123-ff2272-20261106",
+      "identity": "job-f827c97546c2-20261106152808",
+      "gpu": 8
+    },
+    "block": {
+      "alias": "komp340m-block-kda123-ff2272-20261106",
+      "identity": "job-3a6bbfbfecbe-20261106152826",
+      "gpu": 8
+    }
+  }
+}

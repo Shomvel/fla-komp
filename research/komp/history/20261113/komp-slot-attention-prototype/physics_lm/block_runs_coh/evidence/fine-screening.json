@@ -1,0 +1,31 @@
+{
+  "status": "locked",
+  "rule": "expand if delta CE < .15 and delta Brevo > -10pp vs same-seed off",
+  "base_sha256": "0631911531ea1673f7abf73796a6c0b2792395d024cb68ab3e6adcefdb5400b1",
+  "rows": [
+    {
+      "tag": "995",
+      "ce": 2.1554682707449633,
+      "brevo": 35.9375,
+      "depo": 3.90625,
+      "delta_ce": -0.0002484547250825031,
+      "delta_brevo_pp": -1.5625,
+      "expand": true,
+      "summary_sha256": "faa78a17bf081612e5cc261522cf921c95d765ecc82a1107697d55726369005c"
+    },
+    {
+      "tag": "999",
+      "ce": 2.1337787486679174,
+      "brevo": 35.9375,
+      "depo": 3.125,
+      "delta_ce": -0.02193797680212839,
+      "delta_brevo_pp": -1.5625,
+      "expand": true,
+      "summary_sha256": "adeaaa8ab59b2f10865ec4d0957d8e7ecedb323dbfbdf235fab9d6fa2f7c93dd"
+    }
+  ],
+  "expand_tags": [
+    "995",
+    "999"
+  ]
+}

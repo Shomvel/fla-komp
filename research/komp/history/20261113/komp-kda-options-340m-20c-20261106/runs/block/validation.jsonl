@@ -1,0 +1,2 @@
+{"cross_entropy": 4.691272344673052, "supervised_tokens": 4194304, "perplexity": 108.99176671735098, "step": 512, "input_tokens": 268435456}
+{"cross_entropy": 3.6197773669846356, "supervised_tokens": 4194304, "perplexity": 37.329256172001244, "step": 1024, "input_tokens": 536870912}

@@ -1,0 +1,10 @@
+{
+  "/Users/shom/Downloads/physics100m-komp-variants-20261102/suite100m/variants.py": "27a6c70884ef9e060278f43a131a79e448cb46e757b18ba1e838430a42ce611a",
+  "/Users/shom/Downloads/komp-slot-attention-prototype/komp_slot/block_fast.py": "79629c0cf0096624c7004a7cab9bd7d41acffb6de93b2a70ded0ed6d0275a9e7",
+  "/Users/shom/Downloads/komp-slot-attention-prototype/komp_slot/block_flex.py": "0d1700ec29eb179c8ed0205c425a29696b4345f0a62a02cb69a5f56437c29bfe",
+  "snapshot/fla/ops/komp/block_fast.py": "cea04d17671192bf926fd5f166cb7a6f7aea5d47dd6cb65e30397d8d38a892a7",
+  "snapshot/fla/ops/komp/block_flex.py": "06bab30cc2a579412d66765ab43f3c0ffc7a3d19e934718e88c47a4f3a4e17d7",
+  "/Users/shom/Downloads/komp-gdn-slot-learned-340m-20c-20261107/source-manifest.json": "d0238bb7a8a390f1ee1c834aef79bec02680775dd66fb150f9f93e24e846b9e9",
+  "/Users/shom/Downloads/komp-kda-options-ff2272-340m-20c-20261106/mixer_options.py": "a894cff0c7354fe29a1b956517a4e782482a9b2a6e27a571121c8e48183b755e",
+  "/Users/shom/Downloads/komp-kda-options-ff2272-340m-20c-20261106/source-manifest.json": "3e861451b240e3d4a3479fb0827bf26a10fee320895215dfa419f3a6026c0f6e"
+}

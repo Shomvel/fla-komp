@@ -1,0 +1,30 @@
+{
+  "status": "superseded single-GPU partial runs; excluded from 14 DDP runs",
+  "evidence": "metrics collected after both exact owned pods were terminated; confirmed by worker",
+  "records": [
+    {
+      "run": "brevo2-exact-final-lr0.001-wd0.1-seed731",
+      "last_logged_step": 1,
+      "last_logged_tokens": 46742,
+      "completed_token_lower_bound": 46742,
+      "conservative_processed_token_upper_bound": 3232406,
+      "max_additional_steps_including_interrupted_logging": 24,
+      "max_document_length": 1038,
+      "documents_per_step": 128
+    },
+    {
+      "run": "brevo2-full-final-lr0.001-wd0.1-seed731",
+      "last_logged_step": 500,
+      "last_logged_tokens": 18394673,
+      "completed_token_lower_bound": 18394673,
+      "conservative_processed_token_upper_bound": 21713073,
+      "max_additional_steps_including_interrupted_logging": 25,
+      "max_document_length": 1038,
+      "documents_per_step": 128
+    }
+  ],
+  "total_lower_bound": 18441415,
+  "total_upper_bound": 24945479,
+  "scope": "nonpadding next-token positions in formal commands only; excludes preflight and does not claim actual exact token total",
+  "bound_method": "At most next logging step inclusive \u00d7 128 documents \u00d7 (max_length1038 \u2212 1) beyond last durable record; partial batch and log interruption conservatively included."
+}

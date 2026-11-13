@@ -1,0 +1,11 @@
+{
+  "name": "coh_fifo_995-seed731-diagnose",
+  "command": [
+    "block_coherence.py",
+    "--diagnose",
+    "--kind",
+    "coh_fifo_995",
+    "--seed",
+    "731"
+  ]
+}

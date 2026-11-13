@@ -1,0 +1,10 @@
+{
+  "alias": "komp-value-decay-triton-20261106-r1",
+  "identity": "job-08c6ca1e979c-20261106173133",
+  "project": "WeaverRSI",
+  "queue": "proj-32",
+  "gpus": 1,
+  "purpose": "short operator acceptance and benchmark, no training",
+  "initial_status": "Pending",
+  "max_runtime_seconds": 3600
+}

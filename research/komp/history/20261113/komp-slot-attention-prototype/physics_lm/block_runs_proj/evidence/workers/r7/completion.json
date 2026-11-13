@@ -1,0 +1,28 @@
+{
+  "status": "completed",
+  "main": [
+    [
+      "swa_w96_nope",
+      731
+    ],
+    [
+      "swa_w96_nope",
+      733
+    ],
+    [
+      "swa_w96_nope",
+      735
+    ],
+    [
+      "swa_w96_nope",
+      737
+    ]
+  ],
+  "optional": [
+    [
+      "fifo_proj_c128",
+      734
+    ]
+  ],
+  "source_verified": true
+}

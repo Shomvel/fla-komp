@@ -1,0 +1,20 @@
+{
+  "baseline_report": "/Users/shom/Downloads/komp-slot-attention-prototype/evidence/fla-comparison.json",
+  "baseline_status": "passed",
+  "baseline_environment": {
+    "python": "3.12.3",
+    "torch": "2.10.0a0+b558c986e8.nv25.11",
+    "triton": "3.7.1",
+    "cuda": "13.0",
+    "gpu": "NVIDIA H100 80GB HBM3",
+    "driver": "535.154.05",
+    "protobuf": "5.29.6",
+    "protobuf_backend": "python",
+    "fla_sha": "97874af2400916e2885c33ea30559a70ff686b66",
+    "fla_import": "operator namespaces only; unchanged upstream operator and utility files",
+    "fla_dispatch": "native Triton (FLA_DISABLE_BACKEND_DISPATCH=1)",
+    "tensor_cache": "disabled",
+    "nan_poisoning": false
+  },
+  "matched_files": 595
+}

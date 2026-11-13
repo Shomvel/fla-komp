@@ -1,0 +1,1 @@
+../../../komp-exact-opt2-20261105/queue/05-solve-only.sh

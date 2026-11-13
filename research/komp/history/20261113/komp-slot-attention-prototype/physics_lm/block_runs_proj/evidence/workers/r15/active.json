@@ -1,0 +1,11 @@
+{
+  "name": "swa_w96_nope-seed736",
+  "started": 1793521270.6225972,
+  "command": [
+    "block_ablation.py",
+    "--kind",
+    "swa_w96_nope",
+    "--seed",
+    "736"
+  ]
+}

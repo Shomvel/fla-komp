@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-caeb9129c5a5-20261101191223",
+    "user_def_name": "komp-c128-triton-20261101-r1",
+    "status": "Completed",
+    "ready_status": "0/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  }
+]

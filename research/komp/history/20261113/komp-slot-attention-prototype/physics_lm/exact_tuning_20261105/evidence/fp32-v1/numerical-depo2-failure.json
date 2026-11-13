@@ -1,0 +1,156 @@
+{
+  "sources": {
+    "ddp": {
+      "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+      "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+    },
+    "tuning": {
+      "numerical.py": "2b9f5ea674fcc374647bf9bed6eab1bef0cb70d60d8acefbde804233b06ef256",
+      "prepare_queue.py": "5ec1b610bbca5664ede39c8dc47cbb337f1b768fddb1bb212e1c555413adab6d",
+      "report.py": "53f4fd0595a1d66fd8c38e8ef005d4142f2285a006b0afb37cea24326cacbd83",
+      "tune.py": "faffd0d4338b5a55df77b499f5208712edb7a26e7d8f042a284aec96f6dd70e3"
+    },
+    "plan": "fec17369334ffd93575561c5f8e136717864781200aa256d4aef0e74dc941abb"
+  },
+  "checks": [
+    {
+      "name": "baseline/random/torch.float32/output",
+      "rms_relative": 3.7918544704148587e-07,
+      "normalized_max": 1.2789753589537156e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "baseline/random/torch.float32/keys",
+      "rms_relative": 5.669364927819944e-08,
+      "normalized_max": 3.522006108980236e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "baseline/random/torch.float32/state",
+      "rms_relative": 3.5825726861817864e-07,
+      "normalized_max": 2.4069182896768737e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "baseline/random/torch.float32/dq",
+      "rms_relative": 5.287480220309579e-07,
+      "normalized_max": 9.229772883478926e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "baseline/random/torch.float32/dk",
+      "rms_relative": 3.0458854259851206e-07,
+      "normalized_max": 1.814830070667739e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "baseline/random/torch.float32/dv",
+      "rms_relative": 4.3626668203934506e-07,
+      "normalized_max": 3.411198264968718e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "baseline/random/torch.float32/dg",
+      "rms_relative": 7.267899761851679e-07,
+      "normalized_max": 5.796538129438988e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "baseline/random/torch.float32/dbeta",
+      "rms_relative": 4.097330830994616e-07,
+      "normalized_max": 3.1942019899721815e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "baseline/random/torch.float32/dkeys0",
+      "rms_relative": 5.355963858637192e-07,
+      "normalized_max": 2.9229211252757015e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "baseline/random/torch.float32/dstate0",
+      "rms_relative": 4.4187633801936835e-07,
+      "normalized_max": 5.88885963629391e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "baseline/near/torch.float32/output",
+      "rms_relative": 7.779706607916553e-07,
+      "normalized_max": 1.7195177425682884e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "baseline/near/torch.float32/keys",
+      "rms_relative": 6.085556782594698e-08,
+      "normalized_max": 4.847360118853672e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "baseline/near/torch.float32/state",
+      "rms_relative": 0.0006574654459123347,
+      "normalized_max": 0.00038025824039414347,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "baseline/near/torch.float32/dq",
+      "rms_relative": 2.3241812257844047e-06,
+      "normalized_max": 1.557257213813737e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "baseline/near/torch.float32/dk",
+      "rms_relative": 0.0021205560147479832,
+      "normalized_max": 0.0022364389925417453,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "baseline/near/torch.float32/dv",
+      "rms_relative": 0.0005792637974746828,
+      "normalized_max": 0.0004693768135657292,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "baseline/near/torch.float32/dg",
+      "rms_relative": 0.0013301432965882613,
+      "normalized_max": 0.0010545829874554166,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "baseline/near/torch.float32/dbeta",
+      "rms_relative": 0.0007132595143963665,
+      "normalized_max": 0.0010164009211686732,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "baseline/near/torch.float32/dkeys0",
+      "rms_relative": 0.013009800043968983,
+      "normalized_max": 0.0018478268793029884,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    }
+  ],
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "torch": "2.10.0a0+b558c986e8.nv25.11",
+  "scope": "M32 K64 T65, forward/final state/all seven input gradients",
+  "status": "failed",
+  "error": "Traceback (most recent call last):\n  File \"/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/numerical.py\", line 70, in main\n    run_case(candidate,pattern,dtype,checks)\n  File \"/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/numerical.py\", line 54, in run_case\n    check(name+'/'+label,a,e,dtype==torch.bfloat16,checks)\n  File \"/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/numerical.py\", line 21, in check\n    assert torch.isfinite(a).all() and rms <= rt and maximum <= mt, row\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: {'name': 'baseline/near/torch.float32/dkeys0', 'rms_relative': 0.013009800043968983, 'normalized_max': 0.0018478268793029884, 'rms_tolerance': 0.005, 'max_tolerance': 0.005}\n",
+  "seconds": 16.367689661681652
+}

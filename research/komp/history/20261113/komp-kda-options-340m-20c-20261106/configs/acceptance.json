@@ -1,0 +1,15 @@
+{
+  "operator_float32_relative_rms": 0.005,
+  "operator_float32_normalized_max": 0.005,
+  "operator_bfloat16_relative_rms": 0.035,
+  "operator_bfloat16_normalized_max": 0.04,
+  "causal_absolute": 1e-05,
+  "aligned_loss_absolute": 0.005,
+  "replicas": "exact SHA256",
+  "max_allocated_gib": 72,
+  "full_model_adam_rng_loader_restore": true,
+  "same_data_initialization_for_both_kinds": true,
+  "options_off_legacy_forward": "exact",
+  "all_option_combinations_finite_gradients": true,
+  "training_token_budget_each": 6800000000
+}

@@ -1,0 +1,179 @@
+{
+  "status": "passed",
+  "steps_per_variant": 12,
+  "variants": [
+    "fifo",
+    "learned"
+  ],
+  "device": "NVIDIA H100 80GB HBM3",
+  "records": [
+    {
+      "step": 0,
+      "learned": false,
+      "triton": 0.3864562511444092,
+      "reference": 0.3864562213420868,
+      "parameter_max_abs": 6.973743438720703e-06
+    },
+    {
+      "step": 1,
+      "learned": false,
+      "triton": 0.3787020444869995,
+      "reference": 0.3787020444869995,
+      "parameter_max_abs": 1.3947486877441406e-05
+    },
+    {
+      "step": 2,
+      "learned": false,
+      "triton": 0.3714289665222168,
+      "reference": 0.3714289665222168,
+      "parameter_max_abs": 2.092123031616211e-05
+    },
+    {
+      "step": 3,
+      "learned": false,
+      "triton": 0.36454811692237854,
+      "reference": 0.36454811692237854,
+      "parameter_max_abs": 2.7894973754882812e-05
+    },
+    {
+      "step": 4,
+      "learned": false,
+      "triton": 0.35797494649887085,
+      "reference": 0.35797494649887085,
+      "parameter_max_abs": 3.4868717193603516e-05
+    },
+    {
+      "step": 5,
+      "learned": false,
+      "triton": 0.3516315519809723,
+      "reference": 0.3516315519809723,
+      "parameter_max_abs": 4.184246063232422e-05
+    },
+    {
+      "step": 6,
+      "learned": false,
+      "triton": 0.3454534113407135,
+      "reference": 0.3454533815383911,
+      "parameter_max_abs": 4.881620407104492e-05
+    },
+    {
+      "step": 7,
+      "learned": false,
+      "triton": 0.33939045667648315,
+      "reference": 0.33939045667648315,
+      "parameter_max_abs": 5.5789947509765625e-05
+    },
+    {
+      "step": 8,
+      "learned": false,
+      "triton": 0.333403617143631,
+      "reference": 0.3334035873413086,
+      "parameter_max_abs": 6.276369094848633e-05
+    },
+    {
+      "step": 9,
+      "learned": false,
+      "triton": 0.3274601101875305,
+      "reference": 0.3274601399898529,
+      "parameter_max_abs": 6.973743438720703e-05
+    },
+    {
+      "step": 10,
+      "learned": false,
+      "triton": 0.3215319514274597,
+      "reference": 0.3215319514274597,
+      "parameter_max_abs": 7.671117782592773e-05
+    },
+    {
+      "step": 11,
+      "learned": false,
+      "triton": 0.31559625267982483,
+      "reference": 0.31559625267982483,
+      "parameter_max_abs": 8.368492126464844e-05
+    },
+    {
+      "step": 0,
+      "learned": true,
+      "triton": 0.4437476396560669,
+      "reference": 0.4437476396560669,
+      "parameter_max_abs": 1.4901161193847656e-08
+    },
+    {
+      "step": 1,
+      "learned": true,
+      "triton": 0.434059202671051,
+      "reference": 0.434059202671051,
+      "parameter_max_abs": 1.4901161193847656e-08
+    },
+    {
+      "step": 2,
+      "learned": true,
+      "triton": 0.42762020230293274,
+      "reference": 0.42762020230293274,
+      "parameter_max_abs": 1.4901161193847656e-08
+    },
+    {
+      "step": 3,
+      "learned": true,
+      "triton": 0.42159274220466614,
+      "reference": 0.42159271240234375,
+      "parameter_max_abs": 2.9802322387695312e-08
+    },
+    {
+      "step": 4,
+      "learned": true,
+      "triton": 0.41547691822052,
+      "reference": 0.41547691822052,
+      "parameter_max_abs": 5.21540641784668e-08
+    },
+    {
+      "step": 5,
+      "learned": true,
+      "triton": 0.40869787335395813,
+      "reference": 0.40869787335395813,
+      "parameter_max_abs": 5.960464477539063e-08
+    },
+    {
+      "step": 6,
+      "learned": true,
+      "triton": 0.4038148820400238,
+      "reference": 0.4038148820400238,
+      "parameter_max_abs": 5.960464477539063e-08
+    },
+    {
+      "step": 7,
+      "learned": true,
+      "triton": 0.3972484767436981,
+      "reference": 0.3972484767436981,
+      "parameter_max_abs": 5.960464477539063e-08
+    },
+    {
+      "step": 8,
+      "learned": true,
+      "triton": 0.38897058367729187,
+      "reference": 0.38897058367729187,
+      "parameter_max_abs": 5.960464477539063e-08
+    },
+    {
+      "step": 9,
+      "learned": true,
+      "triton": 0.3816758394241333,
+      "reference": 0.3816758394241333,
+      "parameter_max_abs": 5.960464477539063e-08
+    },
+    {
+      "step": 10,
+      "learned": true,
+      "triton": 0.37412548065185547,
+      "reference": 0.37412548065185547,
+      "parameter_max_abs": 5.960464477539063e-08
+    },
+    {
+      "step": 11,
+      "learned": true,
+      "triton": 0.364767462015152,
+      "reference": 0.3647674322128296,
+      "parameter_max_abs": 5.960464477539063e-08
+    }
+  ]
+}

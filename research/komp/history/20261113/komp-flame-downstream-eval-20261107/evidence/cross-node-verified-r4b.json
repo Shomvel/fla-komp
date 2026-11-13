@@ -1,0 +1,174 @@
+{
+  "status": "passed",
+  "probe_node": "job-0dc574aee3c7-20260222155823-859d8b9558-6d2pk",
+  "workers": [
+    {
+      "worker": "block-s0",
+      "job_identity": "job-bdaafde6397e-20261107143915",
+      "host": "job-bdaafde6397e-20261107143915-runner-0",
+      "mkdir_rejected": true,
+      "publication_overwrite_rejected": true
+    },
+    {
+      "worker": "block-s1",
+      "job_identity": "job-ed375f508254-20261107143937",
+      "host": "job-ed375f508254-20261107143937-runner-0",
+      "mkdir_rejected": true,
+      "publication_overwrite_rejected": true
+    },
+    {
+      "worker": "block-s2",
+      "job_identity": "job-01a5e891f391-20261107143959",
+      "host": "job-01a5e891f391-20261107143959-runner-0",
+      "mkdir_rejected": true,
+      "publication_overwrite_rejected": true
+    },
+    {
+      "worker": "block123-s0",
+      "job_identity": "job-bdaafde6397e-20261107143915",
+      "host": "job-bdaafde6397e-20261107143915-runner-0",
+      "mkdir_rejected": true,
+      "publication_overwrite_rejected": true
+    },
+    {
+      "worker": "block123-s1",
+      "job_identity": "job-ed375f508254-20261107143937",
+      "host": "job-ed375f508254-20261107143937-runner-0",
+      "mkdir_rejected": true,
+      "publication_overwrite_rejected": true
+    },
+    {
+      "worker": "block123-s2",
+      "job_identity": "job-01a5e891f391-20261107143959",
+      "host": "job-01a5e891f391-20261107143959-runner-0",
+      "mkdir_rejected": true,
+      "publication_overwrite_rejected": true
+    },
+    {
+      "worker": "exact123-s0",
+      "job_identity": "job-bdaafde6397e-20261107143915",
+      "host": "job-bdaafde6397e-20261107143915-runner-0",
+      "mkdir_rejected": true,
+      "publication_overwrite_rejected": true
+    },
+    {
+      "worker": "exact123-s1",
+      "job_identity": "job-ed375f508254-20261107143937",
+      "host": "job-ed375f508254-20261107143937-runner-0",
+      "mkdir_rejected": true,
+      "publication_overwrite_rejected": true
+    },
+    {
+      "worker": "exact123-s2",
+      "job_identity": "job-01a5e891f391-20261107143959",
+      "host": "job-01a5e891f391-20261107143959-runner-0",
+      "mkdir_rejected": true,
+      "publication_overwrite_rejected": true
+    },
+    {
+      "worker": "exact_partial-s0",
+      "job_identity": "job-bdaafde6397e-20261107143915",
+      "host": "job-bdaafde6397e-20261107143915-runner-0",
+      "mkdir_rejected": true,
+      "publication_overwrite_rejected": true
+    },
+    {
+      "worker": "exact_partial-s1",
+      "job_identity": "job-ed375f508254-20261107143937",
+      "host": "job-ed375f508254-20261107143937-runner-0",
+      "mkdir_rejected": true,
+      "publication_overwrite_rejected": true
+    },
+    {
+      "worker": "exact_partial-s2",
+      "job_identity": "job-01a5e891f391-20261107143959",
+      "host": "job-01a5e891f391-20261107143959-runner-0",
+      "mkdir_rejected": true,
+      "publication_overwrite_rejected": true
+    },
+    {
+      "worker": "kda-s0",
+      "job_identity": "job-bdaafde6397e-20261107143915",
+      "host": "job-bdaafde6397e-20261107143915-runner-0",
+      "mkdir_rejected": true,
+      "publication_overwrite_rejected": true
+    },
+    {
+      "worker": "kda-s1",
+      "job_identity": "job-ed375f508254-20261107143937",
+      "host": "job-ed375f508254-20261107143937-runner-0",
+      "mkdir_rejected": true,
+      "publication_overwrite_rejected": true
+    },
+    {
+      "worker": "kda-s2",
+      "job_identity": "job-01a5e891f391-20261107143959",
+      "host": "job-01a5e891f391-20261107143959-runner-0",
+      "mkdir_rejected": true,
+      "publication_overwrite_rejected": true
+    },
+    {
+      "worker": "learned-s0",
+      "job_identity": "job-bdaafde6397e-20261107143915",
+      "host": "job-bdaafde6397e-20261107143915-runner-0",
+      "mkdir_rejected": true,
+      "publication_overwrite_rejected": true
+    },
+    {
+      "worker": "learned-s1",
+      "job_identity": "job-ed375f508254-20261107143937",
+      "host": "job-ed375f508254-20261107143937-runner-0",
+      "mkdir_rejected": true,
+      "publication_overwrite_rejected": true
+    },
+    {
+      "worker": "learned-s2",
+      "job_identity": "job-01a5e891f391-20261107143959",
+      "host": "job-01a5e891f391-20261107143959-runner-0",
+      "mkdir_rejected": true,
+      "publication_overwrite_rejected": true
+    },
+    {
+      "worker": "learned123-s0",
+      "job_identity": "job-bdaafde6397e-20261107143915",
+      "host": "job-bdaafde6397e-20261107143915-runner-0",
+      "mkdir_rejected": true,
+      "publication_overwrite_rejected": true
+    },
+    {
+      "worker": "learned123-s1",
+      "job_identity": "job-ed375f508254-20261107143937",
+      "host": "job-ed375f508254-20261107143937-runner-0",
+      "mkdir_rejected": true,
+      "publication_overwrite_rejected": true
+    },
+    {
+      "worker": "learned123-s2",
+      "job_identity": "job-01a5e891f391-20261107143959",
+      "host": "job-01a5e891f391-20261107143959-runner-0",
+      "mkdir_rejected": true,
+      "publication_overwrite_rejected": true
+    },
+    {
+      "worker": "value-s0",
+      "job_identity": "job-bdaafde6397e-20261107143915",
+      "host": "job-bdaafde6397e-20261107143915-runner-0",
+      "mkdir_rejected": true,
+      "publication_overwrite_rejected": true
+    },
+    {
+      "worker": "value-s1",
+      "job_identity": "job-ed375f508254-20261107143937",
+      "host": "job-ed375f508254-20261107143937-runner-0",
+      "mkdir_rejected": true,
+      "publication_overwrite_rejected": true
+    },
+    {
+      "worker": "value-s2",
+      "job_identity": "job-01a5e891f391-20261107143959",
+      "host": "job-01a5e891f391-20261107143959-runner-0",
+      "mkdir_rejected": true,
+      "publication_overwrite_rejected": true
+    }
+  ]
+}

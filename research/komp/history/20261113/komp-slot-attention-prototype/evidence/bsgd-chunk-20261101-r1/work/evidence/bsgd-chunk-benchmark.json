@@ -1,0 +1,390 @@
+{
+  "rows": [
+    {
+      "config": [
+        2,
+        256,
+        4,
+        32,
+        32,
+        16
+      ],
+      "slot_decay": false,
+      "mode": "serial",
+      "fwd_ms": 0.27818880081176756,
+      "extra_train_gib": 0.00839996337890625,
+      "fwd_bwd_ms": 0.8443231582641602,
+      "status": "passed"
+    },
+    {
+      "config": [
+        2,
+        256,
+        4,
+        32,
+        32,
+        16
+      ],
+      "slot_decay": false,
+      "mode": "chunk16",
+      "fwd_ms": 0.03231039941310883,
+      "extra_train_gib": 0.00620269775390625,
+      "fwd_bwd_ms": 0.0902239978313446,
+      "status": "passed"
+    },
+    {
+      "config": [
+        2,
+        256,
+        4,
+        32,
+        32,
+        16
+      ],
+      "slot_decay": false,
+      "mode": "chunk32",
+      "fwd_ms": 0.035209599137306216,
+      "extra_train_gib": 0.00577545166015625,
+      "fwd_bwd_ms": 0.11596479415893554,
+      "status": "passed"
+    },
+    {
+      "config": [
+        2,
+        256,
+        4,
+        32,
+        32,
+        16
+      ],
+      "slot_decay": false,
+      "mode": "chunk64",
+      "fwd_ms": 0.07650880217552185,
+      "extra_train_gib": 0.00556182861328125,
+      "fwd_bwd_ms": 0.20543038845062256,
+      "status": "passed"
+    },
+    {
+      "config": [
+        2,
+        256,
+        4,
+        32,
+        32,
+        16
+      ],
+      "slot_decay": false,
+      "mode": "block64",
+      "fwd_ms": 0.04309119880199432,
+      "extra_train_gib": 0.006159782409667969,
+      "fwd_bwd_ms": 0.09355199933052064,
+      "status": "passed"
+    },
+    {
+      "config": [
+        2,
+        256,
+        4,
+        32,
+        32,
+        16
+      ],
+      "slot_decay": true,
+      "mode": "chunk16",
+      "fwd_ms": 0.03202239871025085,
+      "extra_train_gib": 0.00643157958984375,
+      "fwd_bwd_ms": 0.09008640050888062,
+      "status": "passed"
+    },
+    {
+      "config": [
+        2,
+        256,
+        4,
+        32,
+        32,
+        16
+      ],
+      "slot_decay": true,
+      "mode": "chunk32",
+      "fwd_ms": 0.034892800450325015,
+      "extra_train_gib": 0.00600433349609375,
+      "fwd_bwd_ms": 0.11521279811859131,
+      "status": "passed"
+    },
+    {
+      "config": [
+        2,
+        256,
+        4,
+        32,
+        32,
+        16
+      ],
+      "slot_decay": true,
+      "mode": "chunk64",
+      "fwd_ms": 0.07390080094337463,
+      "extra_train_gib": 0.00579071044921875,
+      "fwd_bwd_ms": 0.20298240184783936,
+      "status": "passed"
+    },
+    {
+      "config": [
+        2,
+        2048,
+        4,
+        64,
+        64,
+        32
+      ],
+      "slot_decay": false,
+      "mode": "serial",
+      "fwd_ms": 3.177814483642578,
+      "extra_train_gib": 0.25836181640625,
+      "fwd_bwd_ms": 13.755503845214843,
+      "status": "passed"
+    },
+    {
+      "config": [
+        2,
+        2048,
+        4,
+        64,
+        64,
+        32
+      ],
+      "slot_decay": false,
+      "mode": "chunk16",
+      "fwd_ms": 0.17461440563201905,
+      "extra_train_gib": 0.17437744140625,
+      "fwd_bwd_ms": 0.514031982421875,
+      "status": "passed"
+    },
+    {
+      "config": [
+        2,
+        2048,
+        4,
+        64,
+        64,
+        32
+      ],
+      "slot_decay": false,
+      "mode": "chunk32",
+      "fwd_ms": 0.18315839767456055,
+      "extra_train_gib": 0.16070556640625,
+      "fwd_bwd_ms": 0.5385791778564453,
+      "status": "passed"
+    },
+    {
+      "config": [
+        2,
+        2048,
+        4,
+        64,
+        64,
+        32
+      ],
+      "slot_decay": false,
+      "mode": "chunk64",
+      "fwd_ms": 0.24386560916900635,
+      "extra_train_gib": 0.15386962890625,
+      "fwd_bwd_ms": 0.697811222076416,
+      "status": "passed"
+    },
+    {
+      "config": [
+        2,
+        2048,
+        4,
+        64,
+        64,
+        32
+      ],
+      "slot_decay": false,
+      "mode": "block64",
+      "fwd_ms": 0.1137727975845337,
+      "extra_train_gib": 0.0835886001586914,
+      "fwd_bwd_ms": 0.3012671947479248,
+      "status": "passed"
+    },
+    {
+      "config": [
+        2,
+        2048,
+        4,
+        64,
+        64,
+        32
+      ],
+      "slot_decay": true,
+      "mode": "chunk16",
+      "fwd_ms": 0.17768640518188478,
+      "extra_train_gib": 0.17816162109375,
+      "fwd_bwd_ms": 0.5277184009552002,
+      "status": "passed"
+    },
+    {
+      "config": [
+        2,
+        2048,
+        4,
+        64,
+        64,
+        32
+      ],
+      "slot_decay": true,
+      "mode": "chunk32",
+      "fwd_ms": 0.18664000034332276,
+      "extra_train_gib": 0.16448974609375,
+      "fwd_bwd_ms": 0.5619167804718017,
+      "status": "passed"
+    },
+    {
+      "config": [
+        2,
+        2048,
+        4,
+        64,
+        64,
+        32
+      ],
+      "slot_decay": true,
+      "mode": "chunk64",
+      "fwd_ms": 0.2471168041229248,
+      "extra_train_gib": 0.15765380859375,
+      "fwd_bwd_ms": 0.7306560039520263,
+      "status": "passed"
+    },
+    {
+      "config": [
+        64,
+        192,
+        8,
+        64,
+        64,
+        32
+      ],
+      "slot_decay": false,
+      "mode": "serial",
+      "fwd_ms": 0.6660927772521973,
+      "extra_train_gib": 1.5643310546875,
+      "fwd_bwd_ms": 3.133987236022949,
+      "status": "passed"
+    },
+    {
+      "config": [
+        64,
+        192,
+        8,
+        64,
+        64,
+        32
+      ],
+      "slot_decay": false,
+      "mode": "chunk16",
+      "fwd_ms": 0.8111424446105957,
+      "extra_train_gib": 1.0604248046875,
+      "fwd_bwd_ms": 2.5459327697753906,
+      "status": "passed"
+    },
+    {
+      "config": [
+        64,
+        192,
+        8,
+        64,
+        64,
+        32
+      ],
+      "slot_decay": false,
+      "mode": "chunk32",
+      "fwd_ms": 0.7932831764221191,
+      "extra_train_gib": 0.9783935546875,
+      "fwd_bwd_ms": 2.459129524230957,
+      "status": "passed"
+    },
+    {
+      "config": [
+        64,
+        192,
+        8,
+        64,
+        64,
+        32
+      ],
+      "slot_decay": false,
+      "mode": "chunk64",
+      "fwd_ms": 1.3724384307861328,
+      "extra_train_gib": 0.9373779296875,
+      "fwd_bwd_ms": 3.127804756164551,
+      "status": "passed"
+    },
+    {
+      "config": [
+        64,
+        192,
+        8,
+        64,
+        64,
+        32
+      ],
+      "slot_decay": false,
+      "mode": "block64",
+      "fwd_ms": 0.5583487987518311,
+      "extra_train_gib": 0.5227670669555664,
+      "fwd_bwd_ms": 1.520467185974121,
+      "status": "passed"
+    },
+    {
+      "config": [
+        64,
+        192,
+        8,
+        64,
+        64,
+        32
+      ],
+      "slot_decay": true,
+      "mode": "chunk16",
+      "fwd_ms": 0.8159711837768555,
+      "extra_train_gib": 1.0831298828125,
+      "fwd_bwd_ms": 2.611952018737793,
+      "status": "passed"
+    },
+    {
+      "config": [
+        64,
+        192,
+        8,
+        64,
+        64,
+        32
+      ],
+      "slot_decay": true,
+      "mode": "chunk32",
+      "fwd_ms": 0.8220159530639648,
+      "extra_train_gib": 1.0010986328125,
+      "fwd_bwd_ms": 2.542470359802246,
+      "status": "passed"
+    },
+    {
+      "config": [
+        64,
+        192,
+        8,
+        64,
+        64,
+        32
+      ],
+      "slot_decay": true,
+      "mode": "chunk64",
+      "fwd_ms": 1.3907679557800292,
+      "extra_train_gib": 0.9600830078125,
+      "fwd_bwd_ms": 3.2169727325439452,
+      "status": "passed"
+    }
+  ],
+  "note": "Same GPU, BF16 q/k/v; FP32 gate/state. Chunk BSGD is mathematically equivalent to gated serial BSGD; block KOMP is a different rule.",
+  "status": "passed"
+}

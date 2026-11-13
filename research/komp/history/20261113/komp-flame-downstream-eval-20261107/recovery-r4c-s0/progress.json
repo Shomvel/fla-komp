@@ -1,0 +1,13 @@
+{
+  "time": "2026-11-07T11:34:27.241072+00:00",
+  "new_samples_per_model": {
+    "exact_partial": 25,
+    "block123": 2,
+    "value": 28,
+    "learned123": 2,
+    "block": 4,
+    "exact123": 42
+  },
+  "total_new_samples": 103,
+  "failure_files": []
+}

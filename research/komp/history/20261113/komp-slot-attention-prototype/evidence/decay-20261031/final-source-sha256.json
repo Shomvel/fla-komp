@@ -1,0 +1,19 @@
+{
+  "komp_slot/__init__.py": "31ff68031942bcbd8efaa22724d4ccf0497cc44dd4bc6a729d43bfad48e2acfc",
+  "komp_slot/chunk.py": "c869f89c55e04930abb12879ece418a59034fed3fff56428129043d1c61df092",
+  "komp_slot/decay.py": "a831b7effa5907bd2b183f902f74ea521f02c28496cd3846de02743389e61e40",
+  "komp_slot/geometry.py": "74faed0b02fd51d739a75a6766fa37e15920d96ec5aea430dfc42be58fabde14",
+  "komp_slot/kernels.py": "72f1750a8ada09d7d2323d682bb7b5a8c73960aff96618bf58e35b22ea5df08b",
+  "komp_slot/operator.py": "daeaa5dacff6a9b7a935da2d13794557baea14661c1ec714cbfc430d7525bdb4",
+  "komp_slot/reference.py": "d2941e97714c35bd5245a675e0b232be3355f939a62e8723ab80af3d73582bd7",
+  "komp_slot/triton_chunk.py": "1f8d937754e6ea929efc816c5a2d5d7ad52eec344e4f97c224385345a38ee6df",
+  "komp_slot/utils.py": "0861344f151287a70501001231dc13a3f95a11dbc2ce2aeede55996aaecb0ada",
+  "validate_decay_gate.py": "bf04096dacfa655ccde4681f751abc2fb42a5c03278b2fc2783f31b429a53554",
+  "validate_slot_decay.py": "12b141752eed976cbe51c0713c9805700bc557d9c0cafb25e2935494f1298d21",
+  "validate_routes_parallel.py": "d8327d2866e21eb46b826566dd5a3cd7ed6ec7061a5f7e247189c0df16b0dd10",
+  "validate_geometry_fast.py": "db8a5e71f87c61debbcfc85c854d5b8ed4a8c271037eca49ae45b76764766d0b",
+  "benchmark_geometry.py": "43b34f89ae07a0d0668c69421020cb6542cca1f1fd0a045d1dc93136eef6f92f",
+  "physics_lm/decay_experiment.py": "130a2e053196552076b57d4f60977bbfd19d544a293bbd3ac28439c6f6f55fed",
+  "physics_lm/decay_launch.py": "97f5dc7b4de22fe5944ef2b6abbb70eba6bc2e8e81654441fd315d69507ef1b9",
+  "physics_lm/experiment.py": "3963e05767c6a83daa5b3b3e0f1e8a559632a5c239841c8c218c22afe066a060"
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-1d0cf6ee30fb-20261101083900",
+    "user_def_name": "kapa-geometry-20261101-r1",
+    "status": "Aborted",
+    "ready_status": "0/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  }
+]

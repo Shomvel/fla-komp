@@ -1,0 +1,1058 @@
+[
+  {
+    "name": "normalize_rows_kernel",
+    "shared": 0,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "proj_kernel",
+    "shared": 16384,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "att_kernel",
+    "shared": 73728,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "ut_kernel",
+    "shared": 40960,
+    "warps": 2,
+    "stages": 3
+  },
+  {
+    "name": "compose_kernel",
+    "shared": 163840,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_compose_kernel",
+    "shared": 49152,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "group_scan_kernel",
+    "shared": 12288,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_expand_kernel",
+    "shared": 122880,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "final_rows_kernel",
+    "shared": 0,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_compose_kernel",
+    "shared": 49152,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "group_scan_kernel",
+    "shared": 12288,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_expand_kernel",
+    "shared": 49152,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "block_mapgrad_kernel",
+    "shared": 163840,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "proj_bwd_a_kernel",
+    "shared": 98304,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "proj_bwd_b_kernel",
+    "shared": 32768,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "out_bwd_kernel",
+    "shared": 245760,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "ut_bwd_kernel",
+    "shared": 196608,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "decay_bwd_kernel",
+    "shared": 2048,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "keygrad_kernel",
+    "shared": 172032,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "pool_norm_bwd_kernel",
+    "shared": 0,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "normalize_rows_kernel",
+    "shared": 0,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "att_kernel",
+    "shared": 65536,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "ut_kernel",
+    "shared": 40960,
+    "warps": 2,
+    "stages": 3
+  },
+  {
+    "name": "dict_scan_kernel",
+    "shared": 8192,
+    "warps": 8,
+    "stages": 3
+  },
+  {
+    "name": "proj_kernel",
+    "shared": 16384,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "att_kernel",
+    "shared": 73728,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "compose_kernel",
+    "shared": 163840,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_compose_kernel",
+    "shared": 49152,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "group_scan_kernel",
+    "shared": 12288,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_expand_kernel",
+    "shared": 122880,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "final_idx_kernel",
+    "shared": 0,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_compose_kernel",
+    "shared": 49152,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "group_scan_kernel",
+    "shared": 12288,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_expand_kernel",
+    "shared": 49152,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "block_mapgrad_kernel",
+    "shared": 163840,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "proj_bwd_a_kernel",
+    "shared": 98304,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "proj_bwd_b_kernel",
+    "shared": 32768,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "out_bwd_kernel",
+    "shared": 245760,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "ut_bwd_kernel",
+    "shared": 196608,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "decay_bwd_kernel",
+    "shared": 2048,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "zero_kernel",
+    "shared": 0,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "keygrad_kernel",
+    "shared": 172032,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "final_idx_kernel",
+    "shared": 0,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "pool_norm_bwd_kernel",
+    "shared": 0,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "normalize_rows_kernel",
+    "shared": 4096,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "proj_kernel",
+    "shared": 16384,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "att_kernel",
+    "shared": 36864,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "ut_kernel",
+    "shared": 40960,
+    "warps": 2,
+    "stages": 3
+  },
+  {
+    "name": "compose_kernel",
+    "shared": 151552,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_compose_kernel",
+    "shared": 16384,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "group_scan_kernel",
+    "shared": 12288,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_expand_kernel",
+    "shared": 61440,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "final_rows_kernel",
+    "shared": 0,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_compose_kernel",
+    "shared": 16384,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "group_scan_kernel",
+    "shared": 12288,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_expand_kernel",
+    "shared": 16384,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "block_mapgrad_kernel",
+    "shared": 98304,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "proj_bwd_a_kernel",
+    "shared": 65536,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "proj_bwd_b_kernel",
+    "shared": 32768,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "out_bwd_kernel",
+    "shared": 245760,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "ut_bwd_kernel",
+    "shared": 131072,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "decay_bwd_kernel",
+    "shared": 2048,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "keygrad_kernel",
+    "shared": 118784,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "pool_norm_bwd_kernel",
+    "shared": 4096,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "normalize_rows_kernel",
+    "shared": 4096,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "att_kernel",
+    "shared": 32768,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "ut_kernel",
+    "shared": 40960,
+    "warps": 2,
+    "stages": 3
+  },
+  {
+    "name": "dict_scan_kernel",
+    "shared": 8192,
+    "warps": 8,
+    "stages": 3
+  },
+  {
+    "name": "proj_kernel",
+    "shared": 16384,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "att_kernel",
+    "shared": 32768,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "compose_kernel",
+    "shared": 151552,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_compose_kernel",
+    "shared": 16384,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "group_scan_kernel",
+    "shared": 12288,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_expand_kernel",
+    "shared": 61440,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "final_idx_kernel",
+    "shared": 0,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_compose_kernel",
+    "shared": 16384,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "group_scan_kernel",
+    "shared": 12288,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_expand_kernel",
+    "shared": 16384,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "block_mapgrad_kernel",
+    "shared": 98304,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "proj_bwd_a_kernel",
+    "shared": 65536,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "proj_bwd_b_kernel",
+    "shared": 32768,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "out_bwd_kernel",
+    "shared": 245760,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "ut_bwd_kernel",
+    "shared": 131072,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "decay_bwd_kernel",
+    "shared": 2048,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "zero_kernel",
+    "shared": 0,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "keygrad_kernel",
+    "shared": 118784,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "final_idx_kernel",
+    "shared": 0,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "pool_norm_bwd_kernel",
+    "shared": 4096,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "normalize_rows_kernel",
+    "shared": 0,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "proj_kernel",
+    "shared": 16384,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "att_kernel",
+    "shared": 73728,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "ut_kernel",
+    "shared": 40960,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "compose_kernel",
+    "shared": 147456,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_compose_kernel",
+    "shared": 49152,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "group_scan_kernel",
+    "shared": 12288,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_expand_kernel",
+    "shared": 122880,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "final_rows_kernel",
+    "shared": 0,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_compose_kernel",
+    "shared": 49152,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "group_scan_kernel",
+    "shared": 12288,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_expand_kernel",
+    "shared": 49152,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "block_mapgrad_kernel",
+    "shared": 163840,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "proj_bwd_a_kernel",
+    "shared": 98304,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "proj_bwd_b_kernel",
+    "shared": 32768,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "out_bwd_kernel",
+    "shared": 245760,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "ut_bwd_kernel",
+    "shared": 196608,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "decay_bwd_kernel",
+    "shared": 90112,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "keygrad_kernel",
+    "shared": 172032,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "pool_norm_bwd_kernel",
+    "shared": 0,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "normalize_rows_kernel",
+    "shared": 0,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "att_kernel",
+    "shared": 65536,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "ut_kernel",
+    "shared": 40960,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "dict_scan_kernel",
+    "shared": 8192,
+    "warps": 8,
+    "stages": 3
+  },
+  {
+    "name": "proj_kernel",
+    "shared": 16384,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "att_kernel",
+    "shared": 73728,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "compose_kernel",
+    "shared": 147456,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_compose_kernel",
+    "shared": 49152,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "group_scan_kernel",
+    "shared": 12288,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_expand_kernel",
+    "shared": 122880,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "final_idx_kernel",
+    "shared": 0,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_compose_kernel",
+    "shared": 49152,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "group_scan_kernel",
+    "shared": 12288,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_expand_kernel",
+    "shared": 49152,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "block_mapgrad_kernel",
+    "shared": 163840,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "proj_bwd_a_kernel",
+    "shared": 98304,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "proj_bwd_b_kernel",
+    "shared": 32768,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "out_bwd_kernel",
+    "shared": 245760,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "ut_bwd_kernel",
+    "shared": 196608,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "decay_bwd_kernel",
+    "shared": 90112,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "zero_kernel",
+    "shared": 0,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "keygrad_kernel",
+    "shared": 172032,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "final_idx_kernel",
+    "shared": 0,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "pool_norm_bwd_kernel",
+    "shared": 0,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "normalize_rows_kernel",
+    "shared": 4096,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "proj_kernel",
+    "shared": 16384,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "att_kernel",
+    "shared": 36864,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "ut_kernel",
+    "shared": 40960,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "compose_kernel",
+    "shared": 114688,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_compose_kernel",
+    "shared": 16384,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "group_scan_kernel",
+    "shared": 12288,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_expand_kernel",
+    "shared": 61440,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "final_rows_kernel",
+    "shared": 0,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_compose_kernel",
+    "shared": 16384,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "group_scan_kernel",
+    "shared": 12288,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_expand_kernel",
+    "shared": 16384,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "block_mapgrad_kernel",
+    "shared": 98304,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "proj_bwd_a_kernel",
+    "shared": 65536,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "proj_bwd_b_kernel",
+    "shared": 32768,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "out_bwd_kernel",
+    "shared": 245760,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "ut_bwd_kernel",
+    "shared": 131072,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "decay_bwd_kernel",
+    "shared": 90112,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "keygrad_kernel",
+    "shared": 118784,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "pool_norm_bwd_kernel",
+    "shared": 4096,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "normalize_rows_kernel",
+    "shared": 4096,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "att_kernel",
+    "shared": 32768,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "ut_kernel",
+    "shared": 40960,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "dict_scan_kernel",
+    "shared": 8192,
+    "warps": 8,
+    "stages": 3
+  },
+  {
+    "name": "proj_kernel",
+    "shared": 16384,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "att_kernel",
+    "shared": 32768,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "compose_kernel",
+    "shared": 114688,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_compose_kernel",
+    "shared": 16384,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "group_scan_kernel",
+    "shared": 12288,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_expand_kernel",
+    "shared": 61440,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "final_idx_kernel",
+    "shared": 0,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_compose_kernel",
+    "shared": 16384,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "group_scan_kernel",
+    "shared": 12288,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "bscan_expand_kernel",
+    "shared": 16384,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "block_mapgrad_kernel",
+    "shared": 98304,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "proj_bwd_a_kernel",
+    "shared": 65536,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "proj_bwd_b_kernel",
+    "shared": 32768,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "out_bwd_kernel",
+    "shared": 245760,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "ut_bwd_kernel",
+    "shared": 131072,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "decay_bwd_kernel",
+    "shared": 90112,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "zero_kernel",
+    "shared": 0,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "keygrad_kernel",
+    "shared": 118784,
+    "warps": 4,
+    "stages": 1
+  },
+  {
+    "name": "final_idx_kernel",
+    "shared": 0,
+    "warps": 4,
+    "stages": 3
+  },
+  {
+    "name": "pool_norm_bwd_kernel",
+    "shared": 4096,
+    "warps": 4,
+    "stages": 3
+  }
+]

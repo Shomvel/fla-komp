@@ -1,0 +1,1 @@
+../../../komp-slot-attention-prototype/decay_research/SLOT_IMPLEMENTATION.md

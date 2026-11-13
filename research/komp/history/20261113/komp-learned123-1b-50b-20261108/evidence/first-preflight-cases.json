@@ -1,0 +1,28 @@
+{
+  "source": "remote nodes/0/worker.log",
+  "source_manifest_sha": "5df4b9a9f7d0e2d42730e4c8e26214af3ac7e606b099403f431f0078fe935a27",
+  "cases": [
+    {
+      "case": "full",
+      "loss": 10.79470681399107,
+      "global_valid_tokens": 1048576,
+      "grad_norm": 16.85922622680664,
+      "seconds": 63.83426257222891,
+      "peak_bytes": 26362997248,
+      "replicas_identical": true,
+      "peak_GiB": 24.552454471588135
+    },
+    {
+      "case": "final_tail",
+      "loss": 10.16086279646599,
+      "global_valid_tokens": 750592,
+      "grad_norm": 212.40370178222656,
+      "seconds": 15.893215499818325,
+      "peak_bytes": 34388268032,
+      "replicas_identical": true,
+      "peak_GiB": 32.026570320129395
+    }
+  ],
+  "formal_steps": 0,
+  "whole_preflight_passed": false
+}

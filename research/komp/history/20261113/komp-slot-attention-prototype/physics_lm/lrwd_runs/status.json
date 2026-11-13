@@ -1,0 +1,14 @@
+{
+  "stage": "large",
+  "completed": [
+    "gdn-large-lr0.001-wd0.1-seed731",
+    "gsa-large-lr0.001-wd0.01-seed731",
+    "komp_slot-large-lr0.001-wd0.1-seed731"
+  ],
+  "running": {},
+  "pending": {
+    "0": [],
+    "1": [],
+    "2": []
+  }
+}

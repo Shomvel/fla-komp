@@ -1,0 +1,12 @@
+{
+  "output_sigmoid": true,
+  "low_rank_gates": true,
+  "multi_timescale_init": true,
+  "gate_rank": 64,
+  "timescale_spread": 4.0,
+  "timescale_axis": "head",
+  "alpha_geometric_mean": 0.995,
+  "beta0": 0.2,
+  "ff": 2272,
+  "seed": 42
+}

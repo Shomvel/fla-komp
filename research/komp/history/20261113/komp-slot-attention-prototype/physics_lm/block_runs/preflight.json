@@ -1,0 +1,88 @@
+{
+  "variants": {
+    "block_c16": {
+      "losses": [
+        10.361064910888672,
+        9.560504913330078,
+        8.969000816345215,
+        8.526317596435547,
+        8.20072078704834,
+        7.938826560974121,
+        7.724760055541992,
+        7.536182880401611,
+        7.353847026824951,
+        7.17912483215332,
+        7.0242743492126465,
+        6.845117568969727,
+        6.663429260253906,
+        6.479609966278076,
+        6.286558628082275,
+        6.092268943786621
+      ],
+      "causality": "passed"
+    },
+    "block_c32": {
+      "losses": [
+        10.361600875854492,
+        9.558845520019531,
+        8.966231346130371,
+        8.525361061096191,
+        8.198030471801758,
+        7.936525821685791,
+        7.722342014312744,
+        7.535059928894043,
+        7.34962272644043,
+        7.175184726715088,
+        7.029676914215088,
+        6.851165771484375,
+        6.666775226593018,
+        6.479597091674805,
+        6.303984642028809,
+        6.103899955749512
+      ],
+      "causality": "passed"
+    },
+    "block_c64": {
+      "losses": [
+        10.361498832702637,
+        9.559980392456055,
+        8.965946197509766,
+        8.525996208190918,
+        8.198747634887695,
+        7.937350273132324,
+        7.7224907875061035,
+        7.534157752990723,
+        7.350532531738281,
+        7.1731486320495605,
+        7.022655010223389,
+        6.853392601013184,
+        6.668325901031494,
+        6.4758100509643555,
+        6.304612636566162,
+        6.125011920928955
+      ],
+      "causality": "passed"
+    }
+  },
+  "status": "passed",
+  "source_sha256": {
+    "physics_lm/block_experiment.py": "ec1a08437f18d074adaaf60009d68c1964f64c608a4b8e7d97afc380a869f582",
+    "physics_lm/experiment.py": "3963e05767c6a83daa5b3b3e0f1e8a559632a5c239841c8c218c22afe066a060",
+    "komp_slot/__init__.py": "31ff68031942bcbd8efaa22724d4ccf0497cc44dd4bc6a729d43bfad48e2acfc",
+    "komp_slot/block_fast.py": "101120a61218bafc24334e1d0f9d71b02af021a2295d63963ff6aca238a17e55",
+    "komp_slot/block_komp.py": "ec8a65636d99703fc4aa589a5ec65ae0fa1b07285a069c28ec5020f557cfc299",
+    "komp_slot/block_reference.py": "3fde4969881d517623fb7e0b8bff5c2374798009e9aa0fa2f5ab84ba24890d04",
+    "komp_slot/chunk.py": "c869f89c55e04930abb12879ece418a59034fed3fff56428129043d1c61df092",
+    "komp_slot/decay.py": "a831b7effa5907bd2b183f902f74ea521f02c28496cd3846de02743389e61e40",
+    "komp_slot/fast_chunk.py": "0a6fa0c812791aab05e66d136a5261cceedcdad76c659a0eac0946cf592ac592",
+    "komp_slot/geometry.py": "74faed0b02fd51d739a75a6766fa37e15920d96ec5aea430dfc42be58fabde14",
+    "komp_slot/geometry_chunk.py": "34e6039108dcf1f1bbf3a25767f00c2752d61123cae790a8dfc7e2070ccdb126",
+    "komp_slot/kernels.py": "72f1750a8ada09d7d2323d682bb7b5a8c73960aff96618bf58e35b22ea5df08b",
+    "komp_slot/operator.py": "6a79a87acf157b484eafec3eaf78719c0d20969d8addd339d3a224818dfc371e",
+    "komp_slot/recurrence.py": "a48af7fa5ecc2dc3ab071ab4ccef267494ba5516396e3ef1112fbcae508ae41e",
+    "komp_slot/reference.py": "d2941e97714c35bd5245a675e0b232be3355f939a62e8723ab80af3d73582bd7",
+    "komp_slot/scan.py": "578bed48108b182127feae67c7db33102d90fe5dee0f2db2d25d453514fa346e",
+    "komp_slot/triton_chunk.py": "75197354e2f2cd816e6b77f8bf67a34f95cdf18eac8219a2709af7382c96476b",
+    "komp_slot/utils.py": "0861344f151287a70501001231dc13a3f95a11dbc2ce2aeede55996aaecb0ada"
+  }
+}

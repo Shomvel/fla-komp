@@ -1,0 +1,54 @@
+{
+  "frozen_shortconv_checks": "passed",
+  "checks": [
+    {
+      "kind": "komp_slot",
+      "initialization": "matched previous",
+      "optimizer_groups": "passed",
+      "loss": 10.410542488098145
+    },
+    {
+      "kind": "gsa",
+      "initialization": "matched previous",
+      "optimizer_groups": "passed",
+      "loss": 10.404868125915527
+    },
+    {
+      "kind": "gdn",
+      "initialization": "matched previous",
+      "optimizer_groups": "passed",
+      "loss": 10.418583869934082
+    }
+  ],
+  "status": "passed",
+  "environment": {
+    "torch": "2.10.0a0+b558c986e8.nv25.11",
+    "triton": "3.7.1",
+    "cuda": "13.0",
+    "gpu": "NVIDIA H100 80GB HBM3",
+    "python": "3.12.3",
+    "protobuf": "5.29.6",
+    "protobuf_backend": "python"
+  },
+  "sources": {
+    "physics_lm/shortconv_experiment.py": "748d55dfd0a90105a30bf030e386b59d51e309c7de1c42970369619c96e2e284",
+    "physics_lm/experiment.py": "3963e05767c6a83daa5b3b3e0f1e8a559632a5c239841c8c218c22afe066a060",
+    "physics_lm/decay_experiment.py": "130a2e053196552076b57d4f60977bbfd19d544a293bbd3ac28439c6f6f55fed",
+    "benchmark_fla.py": "6c838b20e2a424a9a01103770857cb010a8c1b4077bd3740e5cf9e8dcfde3d56",
+    "physics_lm/shortconv_launch.py": "b559e947cce223e302e926e4c23837bfd615af16c4b10d9b8425546fda45dcd8",
+    "physics_lm/validate_data.py": "591674052f775554b09d3ea45779c4cc1c604c3896e63b2067af6197cb89d2d4",
+    "physics_lm/physics_port.py": "55847905097b5a7a15f691c34a065861c260bb63bef614e5dac35732d2d41319",
+    "komp_slot/__init__.py": "31ff68031942bcbd8efaa22724d4ccf0497cc44dd4bc6a729d43bfad48e2acfc",
+    "komp_slot/chunk.py": "c869f89c55e04930abb12879ece418a59034fed3fff56428129043d1c61df092",
+    "komp_slot/decay.py": "a831b7effa5907bd2b183f902f74ea521f02c28496cd3846de02743389e61e40",
+    "komp_slot/geometry.py": "e8d6604f96090c54cec87b6c4e26367900bef43b13be0f4262418062facb72a7",
+    "komp_slot/kernels.py": "72f1750a8ada09d7d2323d682bb7b5a8c73960aff96618bf58e35b22ea5df08b",
+    "komp_slot/operator.py": "daeaa5dacff6a9b7a935da2d13794557baea14661c1ec714cbfc430d7525bdb4",
+    "komp_slot/reference.py": "d2941e97714c35bd5245a675e0b232be3355f939a62e8723ab80af3d73582bd7",
+    "komp_slot/triton_chunk.py": "1f8d937754e6ea929efc816c5a2d5d7ad52eec344e4f97c224385345a38ee6df",
+    "komp_slot/utils.py": "0861344f151287a70501001231dc13a3f95a11dbc2ce2aeede55996aaecb0ada",
+    "physics_lm/lrwd_experiment.py": "62db1b1b366a877ec49f71a001e2c04031978de1058efe4c8035efcf98d7dde1",
+    "physics_lm/lrwd_launch.py": "4e5ed4dd47897a95863198f5681a734e81cb6533dd4af97bec256b04e8d2a560",
+    "physics_lm/prepare_100m.py": "6e3c6a1308a9e05ddd6b0a298fbb0a9201ed091cd936df4166141370dd046711"
+  }
+}

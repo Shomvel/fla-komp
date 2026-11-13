@@ -1,0 +1,13 @@
+{
+  "B": 1,
+  "H": 2,
+  "T": 8192,
+  "M": 32,
+  "accepted_tokens": 392,
+  "sparse_windows": 495,
+  "dense_windows": 17,
+  "factorizations_per_pass": 1241,
+  "previous_factorizations_per_pass": 16384,
+  "fraction_saved": 0.92425537109375,
+  "note": "FP32 forward and backward each rebuild factors. Reuse is bounded to 32-token windows."
+}

@@ -1,0 +1,63 @@
+{
+  "lr": 0.001,
+  "wd": 0.1,
+  "val_ce": 1.1133489562699042,
+  "run": "depo2-swa-tune-lr0.001-wd0.1-seed731",
+  "criterion": "minimum final validation CE at 10M tokens",
+  "candidates": [
+    {
+      "lr": 0.00025,
+      "wd": 0.0,
+      "val_ce": 1.2077570147118135,
+      "run": "depo2-swa-tune-lr0.00025-wd0-seed731"
+    },
+    {
+      "lr": 0.00025,
+      "wd": 0.01,
+      "val_ce": 1.2108769121887475,
+      "run": "depo2-swa-tune-lr0.00025-wd0.01-seed731"
+    },
+    {
+      "lr": 0.00025,
+      "wd": 0.1,
+      "val_ce": 1.229050385255744,
+      "run": "depo2-swa-tune-lr0.00025-wd0.1-seed731"
+    },
+    {
+      "lr": 0.0005,
+      "wd": 0.0,
+      "val_ce": 1.1562268575691323,
+      "run": "depo2-swa-tune-lr0.0005-wd0-seed731"
+    },
+    {
+      "lr": 0.0005,
+      "wd": 0.01,
+      "val_ce": 1.168018456911462,
+      "run": "depo2-swa-tune-lr0.0005-wd0.01-seed731"
+    },
+    {
+      "lr": 0.0005,
+      "wd": 0.1,
+      "val_ce": 1.21928893842082,
+      "run": "depo2-swa-tune-lr0.0005-wd0.1-seed731"
+    },
+    {
+      "lr": 0.001,
+      "wd": 0.0,
+      "val_ce": 1.1543170459812475,
+      "run": "depo2-swa-tune-lr0.001-wd0-seed731"
+    },
+    {
+      "lr": 0.001,
+      "wd": 0.01,
+      "val_ce": 1.1721415741396006,
+      "run": "depo2-swa-tune-lr0.001-wd0.01-seed731"
+    },
+    {
+      "lr": 0.001,
+      "wd": 0.1,
+      "val_ce": 1.1133489562699042,
+      "run": "depo2-swa-tune-lr0.001-wd0.1-seed731"
+    }
+  ]
+}

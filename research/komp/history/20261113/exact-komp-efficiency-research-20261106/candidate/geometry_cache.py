@@ -1,0 +1,1 @@
+../../../exact-komp-efficiency-research-20261106/candidate/geometry_cache.py

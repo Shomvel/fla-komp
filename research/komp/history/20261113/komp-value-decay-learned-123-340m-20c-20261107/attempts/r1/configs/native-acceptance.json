@@ -1,0 +1,14 @@
+{
+  "operator_fp32_rmsrel": 0.003,
+  "operator_bf16_rmsrel": 0.025,
+  "operator_abs": 0.0003,
+  "causal_initial_abs": 1e-05,
+  "causal_updated_abs": 0.0003,
+  "loss_aligned_abs": 0.005,
+  "replica": "identical after DDP update",
+  "restore": "model/Adam/RNG/loader exact",
+  "peak_bytes_limit": 77309411328,
+  "trial_tokens_counted": 0,
+  "causal_updated_rmsrel": 0.003,
+  "causal_updated_rule": "absolute or RMSrel; inherited value-decay numerical contract"
+}

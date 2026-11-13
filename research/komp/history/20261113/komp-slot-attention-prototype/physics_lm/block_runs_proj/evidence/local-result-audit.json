@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "runs": 70,
+  "frozen_files": 32,
+  "same_all_shared_initialization": true,
+  "same_data": true,
+  "no_checkpoints": true,
+  "timing_adds_up": true,
+  "tokens_per_run": 10001108,
+  "steps_per_run": 2231
+}

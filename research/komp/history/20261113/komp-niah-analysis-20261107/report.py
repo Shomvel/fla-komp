@@ -1,0 +1,20 @@
+import json
+from pathlib import Path
+r=Path(__file__).resolve().parent;d=json.loads((r/'analysis.json').read_text());s={(x['model'],x['case']):x for x in d['stats']}
+labels={'kda':'KDA','exact123':'Exact+123','value':'旧 Value','exact_partial':'原 Exact partial'}
+lines=['# NIAH 2048 低分诊断','',f"原始样本采集时间：{d['captured_utc']}。只读分析既有正式生成，不重新训练或占用GPU。",'', '结论：当前证据最强的是明显的距离敏感性，加上任意字符串的精确复制失败。2048是训练窗口长度，并不意味着模型已学会跨2048 token保存和读回随机值。未发现这批分数由答案缺失、输入截断或严格输出格式造成。具体内部原因（衰减、投影压缩、写入干扰、数值误差各占多少）尚未隔离。','', '## 先排除输入和评分误解','', '- 6000条NIAH请求用冻结tokenizer重新编码，逐token与正式input_ids一致；每条答案在输入中恰好出现一次。','- 完整分项均核对500个唯一request ID；实际prompt长度一致、truncated_prompt_tokens全部为0，评分独立复算一致。','- single1：重复句子背景、7位随机数字，2048档实际1831–1849 token。single2：自然文章背景、7位随机数字，实际1436–1458 token。single3：自然文章背景、UUID，实际1462–1482 token。','- 2048档的prompt加128生成预算仍在2048以内，不是长度外推。正式NIAH context cap为65536，没有把needle从左侧裁掉。','- 官方评分忽略大小写，只要生成内容包含完整答案就得分，不要求回答只含答案。额外去掉所有非字母数字字符，完整2048分项也没有救回任何错例。','- 数字答案需要7个token；UUID需要29–36个token。128生成预算足够容纳答案。所有已分析完整分项均生成到128上限，无空输出；多种错例一开始已输出错误数字、重复或错误UUID。继续增加生成长度未必解决问题，尚未做此干预。','', '## 最强证据：答案越远，成功率越低','', '以下距离按“答案最后一个token到开始生成”计算。single2／2048，各列使用相同请求，分母一致。','', '| 距离（token） | 样本数 | KDA | Exact+123 | 旧 Value |','|---|---:|---:|---:|---:|']
+for b in ['0-128','128-256','256-512','512-1024','1024-2048']:
+ a=s['kda','niah_single_2_2048']['distance_bins'][b]
+ vals=[]
+ for m in ['kda','exact123','value']:
+  x=s[m,'niah_single_2_2048']['distance_bins'][b];vals.append(f"{x['correct']}/{x['n']}（{x['accuracy']:.1%}）")
+ lines.append(f"| {b} | {a['n']} | "+' | '.join(vals)+' |')
+lines+=['','KDA近距离能完成这套数字问答，远距离几乎失败；Exact+123和旧Value更早衰减。这支持“读回能力随距离损失”，不能单凭此表断言某个gate或kernel是唯一原因。位置由原数据生成随机插入；本轮不是保持同一答案、文本、长度的受控移动实验。','', 'single1／2048中，KDA在输入前半段的273条全错，后半段227条答对88条；Exact+123的8个正确全部在最后四分之一。重复文本背景也可能增加干扰，但single1的实际输入比single2更长，不能把两者差异全部归因重复文本。','', '## 复制失败是另一项瓶颈','', 'UUID不是“把数字题加长一点”：需要连续正确输出29–36个token，而数字只有7个。KDA在UUID的1024档也只有11/500，2048档3/500；旧Value两档均0/500。即使needle很近也会错，因此仅延长记忆时间常数未必解决。','', '来自正式输出的例子：','', '| 模型 / 请求 | 距离 | 正确答案 | 输出开头 |','|---|---:|---|---|']
+wanted=[('exact123','niah_single_1_2048:577'),('value','niah_single_1_2048:606'),('kda','niah_single_3_2048:784'),('kda','niah_single_3_2048:937')]
+for m,i in wanted:
+ x=next(x for x in d['examples'] if x['model']==m and x['id']==i)
+ text=x['prediction'][:85].replace('\n',' ').replace('|','\\|')
+ lines.append(f"| {labels[m]} / {i} | {x['distance']} | `{x['label']}` | `{text}` |")
+lines+=['','数字错例也有只差末位或少一位，说明部分信息已读出，但连续复制不稳定。UUID按完整字符串命中记分会把这类“接近正确”计为0；这是任务真实要求，不是评分器误杀。','', '## 很多错误退化为常见数字或重复续写','', 'single1／2048的KDA有412个错例，其中346个输出里第一个数字是1；Exact+123为431/492，旧Value为446/495。这些统计只描述生成行为，不能证明隐藏状态完全没有答案信息。常见模式是回答1后重复问题，或将数字/UUID的局部片段反复续写。','', '评测采用base预训练模型、zero-shot、greedy，并已提供“The special magic number ... is”答题前缀。近距离数字成功率高，说明不能只归因于不懂指令；远距离读回和精确复制能力不足，与退回常见语言续写相符。','', '## 与架构、训练目标的关系：合理解释，尚非因果证明','', '1. FineWeb-Edu自然文本的next-token训练主要优化平均语言预测。随机数字/UUID跨很远后的逐字复制，和常见语言续写不是同一能力。低val CE不能保证高NIAH。约340M参数、6.8B token与单seed也限制了当前结论；未跑同setup Transformer，所以无法把全部缺口归因线性注意力。','2. KOMP的32-slot状态需要压缩旧信息；FIFO淘汰时将旧系数投影到保留字典，不是“32 token之外硬删除”。Exact+123频繁压缩、旧Value按chunk压缩，再叠加输入依赖的衰减和delta写入，可能损害早期随机值的可恢复性。KDA也有压缩递归状态，但没有相同FIFO字典替换路径，观测上记忆范围更长。尚未测逐层投影误差、gate乘积或信息覆盖率。','3. 初始alpha=.995只作为尺度直觉：若固定不变，直接衰减1000步后约0.00665。但当前模型门控已训练、存在多时间尺度与24层信息传递，不能把初值当作最终有效记忆长度，KDA也不使用这个初始化契约。','4. BF16、KOMP投影及近共线时的数值问题仍是候选因素。此次没有对最终checkpoint做FP32/reference生成对拍，不能排除其贡献；KDA也表现明显距离退化，说明现象不只出现在KOMP路径。','', '## 最能区分原因的下一步','', '这些是建议实验，本轮未启动GPU任务。','', '1. 固定2048实际输入、同一key/value和背景，只移动needle；同时换repeat/essay背景，画准确率对绝对距离曲线，消除长度/内容混杂。','2. 对同一批样本同时测free generation和teacher-forced正确答案逐token NLL/top1；若第一位就错，优先查读回；若前半正确而后半退化，优先查复制与生成误差积累。再加一个短答案四选一版本区分识别和完整复制。','3. 对代表性near/far错例做正式BF16与稳定reference/FP32路径的logit及greedy差分，排除数值问题。','4. 再测逐层gate累计衰减、压缩前后needle相关状态可恢复性；根据证据选择更长时间尺度、改变字典更新、增加slot或加入短距离精确attention。不要仅凭当前分数直接扩大M或调alpha。','', '原始数据与复现：raw.json.gz、tokenizer.json、fetch.py、analyze.py、analysis.json；任务定义位于source/。本轮完整分项分析不混入未完成分项。','']
+(r/'REPORT.md').write_text('\n'.join(lines))
+print(r/'REPORT.md')

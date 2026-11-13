@@ -1,0 +1,86 @@
+{
+  "status": "passed",
+  "model": {
+    "kind": "gsa",
+    "parameters": 100713472,
+    "width": 512,
+    "layers": 15,
+    "ff": 2176,
+    "heads": 8,
+    "head_dim": 64,
+    "short_conv": true,
+    "conv_size": 4,
+    "block_chunk": null,
+    "block_slots": null,
+    "exact_compute_chunk": null,
+    "compression_tokens": null,
+    "eviction": null,
+    "projection_dtype": null,
+    "gsa_slots": 32,
+    "rope_base": null,
+    "swa_window": null
+  },
+  "world_size": 8,
+  "sources": {
+    "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+    "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+  },
+  "checks": [
+    "full-model causality",
+    "FP32 one-GPU rank-shaped accumulation vs8GPU global objective and update",
+    "uneven17-document batch",
+    "3-document tail with dummy ranks",
+    "replica equality after each step",
+    "all-rank RNG and model/optimizer checkpoint restore",
+    "real long Depo2 BF16 update"
+  ],
+  "fp32_gradient_rms": {
+    "embed.weight": 6.46781117552564e-08,
+    "layers.0.mix.layer.o_proj.weight": 6.552159703687721e-08,
+    "head.weight": 6.270197872026984e-08
+  },
+  "parameter_max_abs": {
+    "embed.weight": 3.725290298461914e-09,
+    "layers.0.mix.layer.o_proj.weight": 6.05359673500061e-08,
+    "head.weight": 7.450580596923828e-09
+  },
+  "short_batch": {
+    "loss": 10.398935317993164,
+    "tokens": 389,
+    "supervised": 34,
+    "microsteps": 1,
+    "global_documents": 17,
+    "grad_norm": 23.734041213989258
+  },
+  "tail_batch": {
+    "loss": 8.701788902282715,
+    "tokens": 77,
+    "supervised": 6,
+    "microsteps": 1,
+    "global_documents": 3,
+    "grad_norm": 21.8497314453125
+  },
+  "real_batch": {
+    "loss": 10.190820443994053,
+    "tokens": 7927,
+    "supervised": 1114,
+    "microsteps": 1,
+    "global_documents": 17,
+    "grad_norm": 21.211694717407227
+  },
+  "whole_batch_native_numerics": {
+    "loss": 10.398935317993164,
+    "partitioned_loss": 10.39893627166748,
+    "loss_abs": 9.5367431640625e-07,
+    "gradient_rms": {
+      "embed.weight": 6.292413559094712e-07,
+      "layers.0.mix.layer.o_proj.weight": 6.889094947837293e-07,
+      "head.weight": 4.1690492480483954e-07
+    },
+    "gradient_sign_disagreement_fraction": {
+      "embed.weight": 0.0,
+      "layers.0.mix.layer.o_proj.weight": 0.0,
+      "head.weight": 1.8310547034161573e-07
+    }
+  }
+}

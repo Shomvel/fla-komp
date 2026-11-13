@@ -1,0 +1,12 @@
+{
+  "decay_axis": "value_column",
+  "parameters": 341970176,
+  "learned123_parameters": 341159168,
+  "parameter_increase": 811008,
+  "parameter_increase_pct": 0.23772129729194322,
+  "reference_shared_backbone_sha": "bb75bbc333c113ed94243df3df38086bd5ce49e229a8096bee1717b5e3133955",
+  "native_transform": "mean scalar decay plus value-column coordinate scaling; scalar projection commutes with learned key selection",
+  "fallback": "inverse-free Triton scan with learned PyTorch key geometry",
+  "causality": "numerical value-decay contract; no bitwise claim",
+  "source_sha": "3a30d117f36d6b24410ac2f3fe28ef7478f623e44be1fe7403edf75665dcb0b2"
+}

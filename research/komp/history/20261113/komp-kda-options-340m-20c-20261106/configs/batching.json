@@ -1,0 +1,8 @@
+{
+  "microbatch": 16,
+  "accumulation": 2,
+  "world_size": 8,
+  "global_sequences": 256,
+  "sequence_length": 2048,
+  "target_tokens": 6800000000
+}

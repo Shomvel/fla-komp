@@ -1,0 +1,12 @@
+{
+  "small_selected": {
+    "komp_slot": true,
+    "gsa": true,
+    "gdn": true
+  },
+  "large": {
+    "komp_slot": true,
+    "gsa": true,
+    "gdn": true
+  }
+}

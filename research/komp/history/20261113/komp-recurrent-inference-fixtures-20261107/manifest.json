@@ -1,0 +1,164 @@
+{
+  "fixtures_sha256": "64ff2d5b5b18c0b243adf46ab0fe58d30c0f17af38504390ecbf309b319d41f1",
+  "fixture_bytes": 2674769,
+  "requests": 192,
+  "batches": 161,
+  "source_plan_sha256": "2abeb5704dc2e10579a99e5b7aca858818851781d46471bb84c1c517b94aa741",
+  "models": {
+    "kda": {
+      "golden": 23,
+      "input_only": 0,
+      "cases": [
+        "based_fda",
+        "based_swde",
+        "niah_single_1_1024",
+        "niah_single_1_8192",
+        "niah_single_3_2048",
+        "phonebook_256",
+        "phonebook_32"
+      ],
+      "events": [
+        "left_truncation",
+        "max_generation",
+        "mixed_stop_lengths",
+        "stop_string"
+      ]
+    },
+    "block123": {
+      "golden": 7,
+      "input_only": 9,
+      "cases": [
+        "based_fda",
+        "based_swde",
+        "niah_single_1_1024",
+        "niah_single_1_8192",
+        "niah_single_3_2048",
+        "phonebook_256",
+        "phonebook_32"
+      ],
+      "events": [
+        "mixed_stop_lengths",
+        "stop_string"
+      ]
+    },
+    "exact123": {
+      "golden": 12,
+      "input_only": 9,
+      "cases": [
+        "based_fda",
+        "based_swde",
+        "niah_single_1_1024",
+        "niah_single_1_8192",
+        "niah_single_3_2048",
+        "phonebook_256",
+        "phonebook_32"
+      ],
+      "events": [
+        "max_generation",
+        "mixed_stop_lengths",
+        "stop_string"
+      ]
+    },
+    "learned": {
+      "golden": 6,
+      "input_only": 10,
+      "cases": [
+        "based_fda",
+        "based_swde",
+        "niah_single_1_1024",
+        "niah_single_1_8192",
+        "niah_single_3_2048",
+        "phonebook_256",
+        "phonebook_32"
+      ],
+      "events": [
+        "mixed_stop_lengths",
+        "stop_string"
+      ]
+    },
+    "learned123": {
+      "golden": 6,
+      "input_only": 10,
+      "cases": [
+        "based_fda",
+        "based_swde",
+        "niah_single_1_1024",
+        "niah_single_1_8192",
+        "niah_single_3_2048",
+        "phonebook_256",
+        "phonebook_32"
+      ],
+      "events": [
+        "mixed_stop_lengths",
+        "stop_string"
+      ]
+    },
+    "block": {
+      "golden": 4,
+      "input_only": 10,
+      "cases": [
+        "based_fda",
+        "based_swde",
+        "niah_single_1_1024",
+        "niah_single_1_8192",
+        "niah_single_3_2048",
+        "phonebook_256",
+        "phonebook_32"
+      ],
+      "events": [
+        "stop_string"
+      ]
+    },
+    "value": {
+      "golden": 18,
+      "input_only": 4,
+      "cases": [
+        "based_fda",
+        "based_swde",
+        "niah_single_1_1024",
+        "niah_single_1_8192",
+        "niah_single_3_2048",
+        "phonebook_256",
+        "phonebook_32"
+      ],
+      "events": [
+        "left_truncation",
+        "max_generation",
+        "mixed_stop_lengths",
+        "stop_string"
+      ]
+    },
+    "exact_partial": {
+      "golden": 10,
+      "input_only": 9,
+      "cases": [
+        "based_fda",
+        "based_swde",
+        "niah_single_1_1024",
+        "niah_single_1_8192",
+        "niah_single_3_2048",
+        "phonebook_256",
+        "phonebook_32"
+      ],
+      "events": [
+        "max_generation",
+        "mixed_stop_lengths",
+        "stop_string"
+      ]
+    },
+    "value_learned123": {
+      "golden": 0,
+      "input_only": 14,
+      "cases": [
+        "based_fda",
+        "based_swde",
+        "niah_single_1_1024",
+        "niah_single_1_8192",
+        "niah_single_3_2048",
+        "phonebook_256",
+        "phonebook_32"
+      ],
+      "events": []
+    }
+  }
+}

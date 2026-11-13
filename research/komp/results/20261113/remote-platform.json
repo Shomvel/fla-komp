@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-35a0f599ed70-20261110172046",
+    "user_def_name": "komp-learned123-1b-50b-20261110-resume1",
+    "status": "Aborted",
+    "ready_status": "0/4",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 32
+  }
+]

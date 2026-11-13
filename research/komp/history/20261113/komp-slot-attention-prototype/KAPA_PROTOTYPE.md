@@ -1,0 +1,1 @@
+../../komp-slot-attention-prototype/KAPA_PROTOTYPE.md

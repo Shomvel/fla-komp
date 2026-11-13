@@ -1,0 +1,63 @@
+{
+  "lr": 0.001,
+  "wd": 0.0,
+  "val_ce": 1.5427870589774102,
+  "run": "mano-gsa2-tune-lr0.001-wd0-seed731",
+  "criterion": "minimum final validation CE at 10M tokens",
+  "candidates": [
+    {
+      "lr": 0.00025,
+      "wd": 0.0,
+      "val_ce": 1.578096351120621,
+      "run": "mano-gsa2-tune-lr0.00025-wd0-seed731"
+    },
+    {
+      "lr": 0.00025,
+      "wd": 0.01,
+      "val_ce": 1.5663630256894976,
+      "run": "mano-gsa2-tune-lr0.00025-wd0.01-seed731"
+    },
+    {
+      "lr": 0.00025,
+      "wd": 0.1,
+      "val_ce": 1.554731477284804,
+      "run": "mano-gsa2-tune-lr0.00025-wd0.1-seed731"
+    },
+    {
+      "lr": 0.0005,
+      "wd": 0.0,
+      "val_ce": 1.5561845507472754,
+      "run": "mano-gsa2-tune-lr0.0005-wd0-seed731"
+    },
+    {
+      "lr": 0.0005,
+      "wd": 0.01,
+      "val_ce": 1.551049058092758,
+      "run": "mano-gsa2-tune-lr0.0005-wd0.01-seed731"
+    },
+    {
+      "lr": 0.0005,
+      "wd": 0.1,
+      "val_ce": 1.5557667023967952,
+      "run": "mano-gsa2-tune-lr0.0005-wd0.1-seed731"
+    },
+    {
+      "lr": 0.001,
+      "wd": 0.0,
+      "val_ce": 1.5427870589774102,
+      "run": "mano-gsa2-tune-lr0.001-wd0-seed731"
+    },
+    {
+      "lr": 0.001,
+      "wd": 0.01,
+      "val_ce": 1.544112342176959,
+      "run": "mano-gsa2-tune-lr0.001-wd0.01-seed731"
+    },
+    {
+      "lr": 0.001,
+      "wd": 0.1,
+      "val_ce": 1.546760803554207,
+      "run": "mano-gsa2-tune-lr0.001-wd0.1-seed731"
+    }
+  ]
+}

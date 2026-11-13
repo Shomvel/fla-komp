@@ -1,0 +1,7 @@
+{
+  "komp_slot/exact_komp/recurrence.py": "e9f0e06f189768e7cccb98cfdeab0d732aa9b5f49ea264b9f9c3b11c2e023b05",
+  "komp_slot/exact_komp/operator.py": "e64599fc6a056d1d8040d22f8c6552472ad659ad85c9c44831d9abafb7d358e9",
+  "komp_slot/exact_komp/__init__.py": "e5ca7eef4e205d3331b8d24ddb87e0cc12148beddd28fe1e7a9c668f4d2d1058",
+  "komp_slot/exact_komp/geometry.py": "9b90895e7d4307b8a77dc768e0d1c1de125be2cbce1bee9dd21efa8dcfbe49c8",
+  "komp_slot/exact_komp/chunk_backward.py": "b378db59adca5056bb7e010c4fbc8e508524f76ee73561acc835597031312591"
+}

@@ -1,0 +1,31 @@
+{
+  "captured_utc": "2026-11-08T10:36:54.668219+00:00",
+  "status": "restarted_acceptance_passed_first_batches_in_progress",
+  "acceptance_passed": 12,
+  "new_batches": 58,
+  "new_samples": 138,
+  "workers_with_new_batches": 5,
+  "awaiting_first_batch": [
+    "learned-s0",
+    "learned123-s0",
+    "block123-s1",
+    "learned-s1",
+    "learned123-s1",
+    "learned-s2",
+    "learned123-s2"
+  ],
+  "failure_workers": [],
+  "old_batches_unchanged": 26731,
+  "completed_models_not_restarted": [
+    "kda",
+    "value",
+    "exact123",
+    "exact_partial"
+  ],
+  "identities": {
+    "0": "job-555935e78289-20261108183216",
+    "1": "job-2f01a6119448-20261108183228",
+    "2": "job-573d9d01ad05-20261108183240"
+  },
+  "audit_captured_utc": "2026-11-08T10:35:10.500021+00:00"
+}

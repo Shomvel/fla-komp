@@ -1,0 +1,39 @@
+{
+  "observations": [
+    {
+      "user_def_name": "physics100m-exact-ddp-depo2-20261105",
+      "job_name": "job-2e6613bef320-20261105170455",
+      "nodes": [
+        "node062"
+      ],
+      "gpu_count": 8,
+      "avg_gpu_util": 87.5,
+      "avg_sm_active": 0.0066285625,
+      "power_w": 895.778,
+      "power_tdp_w": 5600,
+      "uptime_secs": 1035,
+      "status": "Running"
+    },
+    {
+      "user_def_name": "physics100m-exact-ddp-brevo2-20261105",
+      "job_name": "job-6989d1bf3d79-20261105170511",
+      "nodes": [
+        "node063"
+      ],
+      "gpu_count": 8,
+      "avg_gpu_util": 87.5,
+      "avg_sm_active": 0.006628500000000001,
+      "power_w": 885.298,
+      "power_tdp_w": 5600,
+      "uptime_secs": 1019,
+      "status": "Running"
+    }
+  ],
+  "interpretation": "Consistent with seven ranks busy-waiting on collectives and one rank not joining; not a proven root cause without process stacks. No progress files or training metrics at observation.",
+  "limits": [
+    "Default kubectl Unauthorized; no credential changes attempted.",
+    "Node hostname not resolvable from SSH host; no direct process stack obtained.",
+    "No assumption that Running or reported GPU util proves useful training."
+  ],
+  "owner": "physics_100m_training performs source-level diagnosis and owns retries"
+}

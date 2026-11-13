@@ -1,0 +1,6 @@
+{
+  "project": "WeaverRSI",
+  "queue": "proj-32",
+  "source": "read-only /api/get_jobs; existing WeaverRSI jobs include nextron-flash1017-optimize-20261105-r17",
+  "date": "2026-11-05"
+}

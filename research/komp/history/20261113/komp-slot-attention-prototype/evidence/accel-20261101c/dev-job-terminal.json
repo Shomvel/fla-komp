@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-af3736f1d775-20261101075555",
+    "user_def_name": "komp-accel-20261101-dev",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  }
+]

@@ -1,0 +1,843 @@
+{
+  "status": "completed",
+  "source_sha256": {
+    "/gpfs/users/linlizhi/physics100m-exact-20261105/verify_operator_shared_grad.py": "1c0b9c4c14622c67a410b1c4b846cacd5e3737385127f1e505d001327e27dcc6",
+    "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/bench_projection.py": "de0e682266cee11a3c9a94400b35a4db4ff3fe31752727fb3332962f88334a29",
+    "/gpfs/users/linlizhi/physics100m-exact-20261105/precision_bench_20261105/variants.json": "848fa0dd55c51261347721ddd94d2368a66af89e4f20120bfaaf5a10cf14b0e8"
+  },
+  "scope": "Replaces ONLY operator-results.json 8k_or_1k_difference_vs_fp64 fields: old loop sampled a new upstream weight per mode. Stress/model results and timings remain valid. All KOMP modes here share identical inputs and upstream weights within each shape.",
+  "shapes": [
+    {
+      "T": 8192,
+      "H": 2,
+      "mode": "fp64",
+      "weights_sha256": [
+        "73ae969f0f42183d0c81e50c2919ffbed612f0f0f2464459aeddd9c210d951d3",
+        "9b9db7606879ffe799486c1d8637e5014ea7578ea0b68fa0175e632bcb02224c",
+        "5743aa4d450b12dde5983e47e0a0a9a228de2cfd69bbcb3b6af78029f5070960"
+      ],
+      "finite": true,
+      "checks": [
+        {
+          "name": "output",
+          "finite": true,
+          "rms_relative": 0.0,
+          "normalized_max": 0.0,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "keys",
+          "finite": true,
+          "rms_relative": 0.0,
+          "normalized_max": 0.0,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "state",
+          "finite": true,
+          "rms_relative": 0.0,
+          "normalized_max": 0.0,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dq",
+          "finite": true,
+          "rms_relative": 0.0,
+          "normalized_max": 0.0,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dk",
+          "finite": true,
+          "rms_relative": 0.0,
+          "normalized_max": 0.0,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dv",
+          "finite": true,
+          "rms_relative": 0.0,
+          "normalized_max": 0.0,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dg",
+          "finite": true,
+          "rms_relative": 0.0,
+          "normalized_max": 0.0,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dbeta",
+          "finite": true,
+          "rms_relative": 0.0,
+          "normalized_max": 0.0,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dkeys0",
+          "finite": true,
+          "rms_relative": 0.0,
+          "normalized_max": 0.0,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dstate0",
+          "finite": true,
+          "rms_relative": 0.0,
+          "normalized_max": 0.0,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        }
+      ],
+      "verdict": "PASSED"
+    },
+    {
+      "T": 8192,
+      "H": 2,
+      "mode": "fp32",
+      "weights_sha256": [
+        "73ae969f0f42183d0c81e50c2919ffbed612f0f0f2464459aeddd9c210d951d3",
+        "9b9db7606879ffe799486c1d8637e5014ea7578ea0b68fa0175e632bcb02224c",
+        "5743aa4d450b12dde5983e47e0a0a9a228de2cfd69bbcb3b6af78029f5070960"
+      ],
+      "finite": true,
+      "checks": [
+        {
+          "name": "output",
+          "finite": true,
+          "rms_relative": 3.193271195851913e-05,
+          "normalized_max": 0.0009765625,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "keys",
+          "finite": true,
+          "rms_relative": 6.339235206296663e-08,
+          "normalized_max": 5.960464477539063e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "state",
+          "finite": true,
+          "rms_relative": 1.5747876300304658e-07,
+          "normalized_max": 1.4901161193847656e-07,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dq",
+          "finite": true,
+          "rms_relative": 3.0146042764036506e-05,
+          "normalized_max": 3.814697265625e-06,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dk",
+          "finite": true,
+          "rms_relative": 3.496907399530818e-05,
+          "normalized_max": 3.814697265625e-06,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dv",
+          "finite": true,
+          "rms_relative": 3.256665582241317e-05,
+          "normalized_max": 7.62939453125e-06,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dg",
+          "finite": true,
+          "rms_relative": 5.292882660754544e-07,
+          "normalized_max": 4.7497451305389404e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dbeta",
+          "finite": true,
+          "rms_relative": 3.306332197749241e-07,
+          "normalized_max": 5.960464477539063e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dkeys0",
+          "finite": true,
+          "rms_relative": 4.0769802651457677e-07,
+          "normalized_max": 1.6007106751203537e-10,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dstate0",
+          "finite": true,
+          "rms_relative": 4.271018789240378e-07,
+          "normalized_max": 6.984919309616089e-09,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        }
+      ],
+      "verdict": "PASSED"
+    },
+    {
+      "T": 8192,
+      "H": 2,
+      "mode": "bf16_projection",
+      "weights_sha256": [
+        "73ae969f0f42183d0c81e50c2919ffbed612f0f0f2464459aeddd9c210d951d3",
+        "9b9db7606879ffe799486c1d8637e5014ea7578ea0b68fa0175e632bcb02224c",
+        "5743aa4d450b12dde5983e47e0a0a9a228de2cfd69bbcb3b6af78029f5070960"
+      ],
+      "finite": true,
+      "checks": [
+        {
+          "name": "output",
+          "finite": true,
+          "rms_relative": 0.0032913305885052474,
+          "normalized_max": 0.001953125,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "keys",
+          "finite": true,
+          "rms_relative": 6.339235206296663e-08,
+          "normalized_max": 5.960464477539063e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "state",
+          "finite": true,
+          "rms_relative": 0.0019850487864584284,
+          "normalized_max": 0.002077333629131317,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dq",
+          "finite": true,
+          "rms_relative": 0.0032406816196464848,
+          "normalized_max": 1.52587890625e-05,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dk",
+          "finite": true,
+          "rms_relative": 0.004110218652435562,
+          "normalized_max": 1.52587890625e-05,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dv",
+          "finite": true,
+          "rms_relative": 0.003289347054607825,
+          "normalized_max": 3.0517578125e-05,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dg",
+          "finite": true,
+          "rms_relative": 0.0036180845350115417,
+          "normalized_max": 0.00031264591962099075,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dbeta",
+          "finite": true,
+          "rms_relative": 0.002496157974693238,
+          "normalized_max": 0.0004838183522224426,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dkeys0",
+          "finite": true,
+          "rms_relative": 0.004586434884830105,
+          "normalized_max": 1.3866520021110773e-06,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dstate0",
+          "finite": true,
+          "rms_relative": 0.002625996962407709,
+          "normalized_max": 4.38932329416275e-05,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        }
+      ],
+      "verdict": "PASSED"
+    },
+    {
+      "T": 8192,
+      "H": 2,
+      "mode": "bf16_projection_mixed",
+      "weights_sha256": [
+        "73ae969f0f42183d0c81e50c2919ffbed612f0f0f2464459aeddd9c210d951d3",
+        "9b9db7606879ffe799486c1d8637e5014ea7578ea0b68fa0175e632bcb02224c",
+        "5743aa4d450b12dde5983e47e0a0a9a228de2cfd69bbcb3b6af78029f5070960"
+      ],
+      "finite": true,
+      "checks": [
+        {
+          "name": "output",
+          "finite": true,
+          "rms_relative": 0.0030591513352989834,
+          "normalized_max": 0.001953125,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "keys",
+          "finite": true,
+          "rms_relative": 6.339235206296663e-08,
+          "normalized_max": 5.960464477539063e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "state",
+          "finite": true,
+          "rms_relative": 0.0006404836278920016,
+          "normalized_max": 0.00043315067887306213,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dq",
+          "finite": true,
+          "rms_relative": 0.0027097805415148175,
+          "normalized_max": 1.52587890625e-05,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dk",
+          "finite": true,
+          "rms_relative": 0.002791770320088792,
+          "normalized_max": 1.52587890625e-05,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dv",
+          "finite": true,
+          "rms_relative": 0.0030575318315436166,
+          "normalized_max": 3.0517578125e-05,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dg",
+          "finite": true,
+          "rms_relative": 0.002534356418469956,
+          "normalized_max": 0.0002565290778875351,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dbeta",
+          "finite": true,
+          "rms_relative": 0.0022094095390391174,
+          "normalized_max": 0.000367727130651474,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dkeys0",
+          "finite": true,
+          "rms_relative": 0.0022275477652890924,
+          "normalized_max": 7.085545803420246e-07,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dstate0",
+          "finite": true,
+          "rms_relative": 0.0019378143280664364,
+          "normalized_max": 3.4221913665533066e-05,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        }
+      ],
+      "verdict": "PASSED"
+    },
+    {
+      "T": 1024,
+      "H": 8,
+      "mode": "fp64",
+      "weights_sha256": [
+        "e77f0bb02d514acd7ce8d59b83acf8c0f801c65d805c8d11ee3638f9ec46156b",
+        "6584c19375320620ca532d2023efb942136a2c7387281cdf78e44155e1b15e5e",
+        "6e66e932df60023e64270abbbbc0b61ede766531a4748665d1489e21cbbdbef2"
+      ],
+      "finite": true,
+      "checks": [
+        {
+          "name": "output",
+          "finite": true,
+          "rms_relative": 0.0,
+          "normalized_max": 0.0,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "keys",
+          "finite": true,
+          "rms_relative": 0.0,
+          "normalized_max": 0.0,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "state",
+          "finite": true,
+          "rms_relative": 0.0,
+          "normalized_max": 0.0,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dq",
+          "finite": true,
+          "rms_relative": 0.0,
+          "normalized_max": 0.0,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dk",
+          "finite": true,
+          "rms_relative": 0.0,
+          "normalized_max": 0.0,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dv",
+          "finite": true,
+          "rms_relative": 0.0,
+          "normalized_max": 0.0,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dg",
+          "finite": true,
+          "rms_relative": 0.0,
+          "normalized_max": 0.0,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dbeta",
+          "finite": true,
+          "rms_relative": 0.0,
+          "normalized_max": 0.0,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dkeys0",
+          "finite": true,
+          "rms_relative": 0.0,
+          "normalized_max": 0.0,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dstate0",
+          "finite": true,
+          "rms_relative": 0.0,
+          "normalized_max": 0.0,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        }
+      ],
+      "verdict": "PASSED"
+    },
+    {
+      "T": 1024,
+      "H": 8,
+      "mode": "fp32",
+      "weights_sha256": [
+        "e77f0bb02d514acd7ce8d59b83acf8c0f801c65d805c8d11ee3638f9ec46156b",
+        "6584c19375320620ca532d2023efb942136a2c7387281cdf78e44155e1b15e5e",
+        "6e66e932df60023e64270abbbbc0b61ede766531a4748665d1489e21cbbdbef2"
+      ],
+      "finite": true,
+      "checks": [
+        {
+          "name": "output",
+          "finite": true,
+          "rms_relative": 3.210645503190252e-05,
+          "normalized_max": 0.0009765625,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "keys",
+          "finite": true,
+          "rms_relative": 6.27891633430372e-08,
+          "normalized_max": 5.960464477539063e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "state",
+          "finite": true,
+          "rms_relative": 1.6753751526564974e-07,
+          "normalized_max": 1.564621925354004e-07,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dq",
+          "finite": true,
+          "rms_relative": 4.4279791253403545e-05,
+          "normalized_max": 7.62939453125e-06,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dk",
+          "finite": true,
+          "rms_relative": 4.1006438842198156e-05,
+          "normalized_max": 7.62939453125e-06,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dv",
+          "finite": true,
+          "rms_relative": 3.523603574924591e-05,
+          "normalized_max": 1.52587890625e-05,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dg",
+          "finite": true,
+          "rms_relative": 5.586757627512739e-07,
+          "normalized_max": 4.842877388000488e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dbeta",
+          "finite": true,
+          "rms_relative": 3.210773792526731e-07,
+          "normalized_max": 7.450580596923828e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dkeys0",
+          "finite": true,
+          "rms_relative": 4.552591426650371e-07,
+          "normalized_max": 1.6370904631912708e-10,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dstate0",
+          "finite": true,
+          "rms_relative": 4.655903280235775e-07,
+          "normalized_max": 9.778887033462524e-09,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        }
+      ],
+      "verdict": "PASSED"
+    },
+    {
+      "T": 1024,
+      "H": 8,
+      "mode": "bf16_projection",
+      "weights_sha256": [
+        "e77f0bb02d514acd7ce8d59b83acf8c0f801c65d805c8d11ee3638f9ec46156b",
+        "6584c19375320620ca532d2023efb942136a2c7387281cdf78e44155e1b15e5e",
+        "6e66e932df60023e64270abbbbc0b61ede766531a4748665d1489e21cbbdbef2"
+      ],
+      "finite": true,
+      "checks": [
+        {
+          "name": "output",
+          "finite": true,
+          "rms_relative": 0.0032997791527878792,
+          "normalized_max": 0.00390625,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "keys",
+          "finite": true,
+          "rms_relative": 6.27891633430372e-08,
+          "normalized_max": 5.960464477539063e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "state",
+          "finite": true,
+          "rms_relative": 0.0018784992300845897,
+          "normalized_max": 0.001489102840423584,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dq",
+          "finite": true,
+          "rms_relative": 0.0032211944627277187,
+          "normalized_max": 7.62939453125e-06,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dk",
+          "finite": true,
+          "rms_relative": 0.003737129415991407,
+          "normalized_max": 3.0517578125e-05,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dv",
+          "finite": true,
+          "rms_relative": 0.003228497258585646,
+          "normalized_max": 3.0517578125e-05,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dg",
+          "finite": true,
+          "rms_relative": 0.00363907842045563,
+          "normalized_max": 0.00032123737037181854,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dbeta",
+          "finite": true,
+          "rms_relative": 0.002431053932164229,
+          "normalized_max": 0.0004994720220565796,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dkeys0",
+          "finite": true,
+          "rms_relative": 0.004877278535109185,
+          "normalized_max": 1.5333498595282435e-06,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dstate0",
+          "finite": true,
+          "rms_relative": 0.002652573603234357,
+          "normalized_max": 5.833525210618973e-05,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        }
+      ],
+      "verdict": "PASSED"
+    },
+    {
+      "T": 1024,
+      "H": 8,
+      "mode": "bf16_projection_mixed",
+      "weights_sha256": [
+        "e77f0bb02d514acd7ce8d59b83acf8c0f801c65d805c8d11ee3638f9ec46156b",
+        "6584c19375320620ca532d2023efb942136a2c7387281cdf78e44155e1b15e5e",
+        "6e66e932df60023e64270abbbbc0b61ede766531a4748665d1489e21cbbdbef2"
+      ],
+      "finite": true,
+      "checks": [
+        {
+          "name": "output",
+          "finite": true,
+          "rms_relative": 0.0030655325858436264,
+          "normalized_max": 0.00390625,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "keys",
+          "finite": true,
+          "rms_relative": 6.27891633430372e-08,
+          "normalized_max": 5.960464477539063e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "state",
+          "finite": true,
+          "rms_relative": 0.0006427669287726016,
+          "normalized_max": 0.00047763437032699585,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dq",
+          "finite": true,
+          "rms_relative": 0.0027000621016601274,
+          "normalized_max": 7.62939453125e-06,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dk",
+          "finite": true,
+          "rms_relative": 0.0024270078054046853,
+          "normalized_max": 3.0517578125e-05,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dv",
+          "finite": true,
+          "rms_relative": 0.0029753127512030307,
+          "normalized_max": 3.0517578125e-05,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dg",
+          "finite": true,
+          "rms_relative": 0.0026498957871092326,
+          "normalized_max": 0.00023655034601688385,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dbeta",
+          "finite": true,
+          "rms_relative": 0.0021426711045519392,
+          "normalized_max": 0.00035727769136428833,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dkeys0",
+          "finite": true,
+          "rms_relative": 0.002293983420381379,
+          "normalized_max": 7.858870958443731e-07,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "dstate0",
+          "finite": true,
+          "rms_relative": 0.0019822759365515927,
+          "normalized_max": 3.8026941183488816e-05,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        }
+      ],
+      "verdict": "PASSED"
+    }
+  ]
+}

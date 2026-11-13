@@ -1,0 +1,1 @@
+{"name": "ddp-preflight-gdn", "task": "depo2", "exit_code": 1, "seconds": 43.005908250808716, "command": ["/opt/venv/bin/python", "-m", "torch.distributed.run", "--standalone", "--nproc_per_node=8", "/gpfs/users/linlizhi/physics100m-exact-20261105/ddp_train.py", "--preflight", "--kind", "gdn"]}

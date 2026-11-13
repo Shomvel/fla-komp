@@ -1,0 +1,78 @@
+{
+  "status": "completed_and_audited",
+  "new_training_complete": 6,
+  "new_heldout_complete": 6,
+  "reused_baselines": 2,
+  "additional_positions": 600004761,
+  "generation_probes_independently_regraded": 1536,
+  "source_manifest_sha256": "4ecce2e40bdff496772c27f785fb09db08d2277d83b1cd7abd25f77a5f354a8d",
+  "results_sha256": "3566825e3aaaf3362d9083a49ce97204404ebd448d81d8ec9431b1415bd2e101",
+  "checkpoint_manifest_sha256": "d5464956c0cc3462e37654d83ca9095ecc7d2e19d9979e442b1df90cf72ea25b",
+  "artifacts": {
+    "depo2-exact-beta0.1-m32-final-lr0.001-wd0.1-seed731": {
+      "checkpoint_sha256": "d1a506eb9c82a09fa63224a9762d94328c514a396792fd3c61a1d58c70d74c6a",
+      "summary_sha256": "776778da1b23c5871703b99acf3617b10f2c1002e67b5332092e53c2890b4ec0",
+      "heldout_sha256": "7b2e398c437f2b7deff82e07b92b000436182c2542dbff7faf475edc8d8e1d19",
+      "generations_sha256": "ffaf284397466887c38e83fa3aeb05a6ac381d3b4a4a1105af4773cb4a0b347d",
+      "numerical_sha256": "3e5a8c2f4b948227538537657ad0370a4d658b0113dd92ae1eedee0262022859",
+      "ddp_sha256": "79e1781c5841536f13692c2d0a82eb69ee65b58364e933fc71d04005fe6e1b89"
+    },
+    "depo2-exact-beta0.2-m64-final-lr0.001-wd0.1-seed731": {
+      "checkpoint_sha256": "e0f881ecbc927979f954d22832b361150b175c9bef2fbf01ae8e7c357a489b0a",
+      "summary_sha256": "bacc77675f2f2b3c85c26399eae3a7ec7f202b69c0dac497252150ced4571e41",
+      "heldout_sha256": "c1b568fda6b98ee26ce63366543b765e51109217b0ccf68c21dfe55394f950ea",
+      "generations_sha256": "e46239a282418d5c144e1d2edc685d03ce652c12733a74d727ef56537cabc66d",
+      "numerical_sha256": "d6793b97a077a030127f5414992a5a1ba274e1adcaf4d534666a64a0e568b443",
+      "ddp_sha256": "196a9ac10a7c96b15fd89dcdb8367b3bfd13ee05511153b2a4410ff314e3bdf7"
+    },
+    "depo2-exact-beta0.1-m64-final-lr0.001-wd0.1-seed731": {
+      "checkpoint_sha256": "ddce05f4e4cc929674a403e6cb5984a29e53f8bd87f9edfdb7bcdc9face95d4e",
+      "summary_sha256": "ed951f573be287ba697cc2fb744b7cdd490280fd4cbfe02baf6a1b9381b00974",
+      "heldout_sha256": "dd4b15455a0793012219f69a1e8f61a94622c1efb837402e37b6204c0bd8c4b0",
+      "generations_sha256": "c78814249d764a1c6e93e9829399174509ae504c5352e10c8243a1ccc91e1f3c",
+      "numerical_sha256": "ebc1907e5f93029eb9a737369843c2b55f0e20a718ef2a6b9ed89ea2058f025a",
+      "ddp_sha256": "7deab32c1f7f9ac8df1aa572590faaace555a9d3719a1af51ffd799fce5abdf6"
+    },
+    "brevo2-exact-beta0.1-m32-final-lr0.002-wd0.1-seed731": {
+      "checkpoint_sha256": "e715ea9b29498c92e0217325b99b2353f2d75b758ffdb58b6746c416d9da1647",
+      "summary_sha256": "109bc23c5262a57916f516c342036bfb3a81e10d56eea40df9dbcab753bd7b1a",
+      "heldout_sha256": "4362749631fe9f9d6db3bf0c0feab19d6cf63c1c6535efa7d7e3fb415495d27f",
+      "generations_sha256": "ea07cd528feeb21b2509c5fe171d4c1db64fcfcf729ed3a1802957aa7c7b2d6e",
+      "numerical_sha256": "1857926938f84e677ff80a749de698c1929535b39c8e994fc799ffb250c6e813",
+      "ddp_sha256": "c5d188f7a7838118359eb58411ab3c079e638e67363d275c7ad8bba322322df8"
+    },
+    "brevo2-exact-beta0.2-m64-final-lr0.002-wd0.1-seed731": {
+      "checkpoint_sha256": "10fbbbde12a6831faa9d1284b105a13e8944d990d69bb0335920180b270d09c2",
+      "summary_sha256": "9b4c463168af6d244f926b81c108164cb1d6d92929cae364a1305906cbddb0ed",
+      "heldout_sha256": "5d94b0b991fe165bcda49de9652bff42f928ed91f2e87dc9f4dcbb1462fe4899",
+      "generations_sha256": "5ec6abaf5f662e43bb015dfce2c4a4c7c41f2f22ec0555df25e527ad53b86255",
+      "numerical_sha256": "6c1fe71cfd872789e3bfab5cb075caab2ad4d8768145ba0834b8dae45f4dd9c4",
+      "ddp_sha256": "4a496e97da5edf41ae65da964c2c9e6d0697e894fee7c6f0f3c3c678f4a2950d"
+    },
+    "brevo2-exact-beta0.1-m64-final-lr0.002-wd0.1-seed731": {
+      "checkpoint_sha256": "000666f4f0d578572ce6438f1bdff846e007276c4341ba4da08a3dc25df29be0",
+      "summary_sha256": "8f06f33218c740de57c1cbb34b0e5abbfb453f0a8831fd3f94cdb4584eb08429",
+      "heldout_sha256": "8b689ee3f1c1b8ee23ed3355e81cfddda46009c0e3f1b234a58d7425ab3c12fb",
+      "generations_sha256": "00ede6af61f4504193895a518aa0da47e735c33beda43e8d8cabeae7e1f10888",
+      "numerical_sha256": "863e146957db47adc8b0983bfcec76fdfa8ac7dab6cbacbbfb098b652afbe086",
+      "ddp_sha256": "94dfeda42242788e908a16d77fe189f29da3dfce93c80ebc723f8ae7aa3fc81c"
+    }
+  },
+  "validation_only_winners": {
+    "depo2": {
+      "beta0": 0.1,
+      "slots": 64,
+      "validation_ce": 0.5711007879179516
+    },
+    "brevo2": {
+      "beta0": 0.2,
+      "slots": 64,
+      "validation_ce": 0.7079059019078068
+    }
+  },
+  "allocations": "Training and heldout jobs terminal, deleted by exact alias, and absent in final prefix query.",
+  "limitations": [
+    "Original near-collinear FP32 stress failure remains; representative shape and DDP preflights do not imply all-stress acceptance",
+    "One seed; fixed backbone (M64 adds parameters); fixed best prior LR; warm synthetic fwd/bwd and observed training throughput (which may still include shape compilation) reported separately."
+  ]
+}

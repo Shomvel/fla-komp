@@ -1,0 +1,292 @@
+{
+  "captured_utc": "2026-11-10T09:14:42.599230+00:00",
+  "errors": {
+    "3": [
+      {
+        "line": 96,
+        "message": "[rank24]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      },
+      {
+        "line": 107,
+        "message": "[rank28]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      },
+      {
+        "line": 118,
+        "message": "[rank27]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      },
+      {
+        "line": 129,
+        "message": "[rank26]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      },
+      {
+        "line": 140,
+        "message": "[rank31]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      },
+      {
+        "line": 151,
+        "message": "[rank30]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      },
+      {
+        "line": 162,
+        "message": "[rank25]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      },
+      {
+        "line": 173,
+        "message": "[rank29]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      }
+    ],
+    "2": [
+      {
+        "line": 96,
+        "message": "[rank19]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      },
+      {
+        "line": 107,
+        "message": "[rank16]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      },
+      {
+        "line": 118,
+        "message": "[rank17]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      },
+      {
+        "line": 129,
+        "message": "[rank22]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      },
+      {
+        "line": 140,
+        "message": "[rank21]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      },
+      {
+        "line": 151,
+        "message": "[rank20]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      },
+      {
+        "line": 162,
+        "message": "[rank23]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      },
+      {
+        "line": 173,
+        "message": "[rank18]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      }
+    ],
+    "1": [
+      {
+        "line": 96,
+        "message": "[rank8]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      },
+      {
+        "line": 107,
+        "message": "[rank11]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      },
+      {
+        "line": 118,
+        "message": "[rank9]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      },
+      {
+        "line": 129,
+        "message": "[rank10]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      },
+      {
+        "line": 140,
+        "message": "[rank13]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      },
+      {
+        "line": 151,
+        "message": "[rank15]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      },
+      {
+        "line": 162,
+        "message": "[rank14]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      },
+      {
+        "line": 173,
+        "message": "[rank12]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      }
+    ],
+    "0": [
+      {
+        "line": 19944,
+        "message": "[rank0]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      },
+      {
+        "line": 19955,
+        "message": "[rank6]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      },
+      {
+        "line": 19966,
+        "message": "[rank7]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      },
+      {
+        "line": 19977,
+        "message": "[rank3]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      },
+      {
+        "line": 19988,
+        "message": "[rank1]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      },
+      {
+        "line": 19999,
+        "message": "[rank5]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      },
+      {
+        "line": 20010,
+        "message": "[rank4]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      },
+      {
+        "line": 20021,
+        "message": "[rank2]: AssertionError: Insufficient GPFS space for atomic checkpoint"
+      }
+    ]
+  },
+  "checkpoint": "/gpfs/users/linlizhi/komp-learned123-1b-50b-20261109-opt1/runs/block/checkpoint-031744",
+  "complete": {
+    "step": 31744,
+    "tokens": 33285996544,
+    "world_size": 32,
+    "source_sha": "f513fda5a095ade64f330175bf51c14b93a3ad821f7ae7efcaf0c4505adb34ce",
+    "data_sha": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f"
+  },
+  "model_sha256": "0f1ce7e719f2388b01a7ca1afab309ce6d8e38d9fb92a9ea16aa4a2e452a4f21",
+  "model_bytes": 12039012513,
+  "rank_files": {
+    "rank0.pt": {
+      "bytes": 20461,
+      "sha256": "567c12bae383fe3fa409c7ab59491a60e38218b15b93f9ae3ff0ed470289c1a8"
+    },
+    "rank1.pt": {
+      "bytes": 15789,
+      "sha256": "c5cf1bb0638ce7df24e9bcd192503804d07063f95dfbb2391bf7a8a68c74d97f"
+    },
+    "rank2.pt": {
+      "bytes": 15149,
+      "sha256": "f43eadecdd6835d312a487dc32fcd9ca21c1815ef63d5546b4c6e45896bbe04f"
+    },
+    "rank3.pt": {
+      "bytes": 23469,
+      "sha256": "ca6dc0ec6914922200c88af8157495e91b17937986ef122ddc2163ef7d5aa179"
+    },
+    "rank4.pt": {
+      "bytes": 15661,
+      "sha256": "c362ff92158fa5425f89761f01996f5cde788ec926e74c929f0266f719435131"
+    },
+    "rank5.pt": {
+      "bytes": 17581,
+      "sha256": "f510edda953c1d2976fd94b5b4933686da174d48c9d22fddc0e2302a97760e6c"
+    },
+    "rank6.pt": {
+      "bytes": 16301,
+      "sha256": "dddcac3ba78de293556d239d80d86851868032ba1ddd99c937a43e2559c85546"
+    },
+    "rank7.pt": {
+      "bytes": 15149,
+      "sha256": "dfd331b63999d57e371e140a97b958d31dd12387ea926ccc043561b4af3b6445"
+    },
+    "rank8.pt": {
+      "bytes": 21101,
+      "sha256": "da42746e62e7c75d498c060fc3ac0966ccd48f3860dc4d539fedf5a6d2f5e533"
+    },
+    "rank9.pt": {
+      "bytes": 15917,
+      "sha256": "522007f244f2813d87dfd1afc61280733fab0790898a7c4503c8fd9ae1e61cb8"
+    },
+    "rank10.pt": {
+      "bytes": 15669,
+      "sha256": "cbf87d851edc3e48c7fdc455eb3be4c2144687301a9e3faee06afbfe0f0d3066"
+    },
+    "rank11.pt": {
+      "bytes": 15221,
+      "sha256": "f90c796b2d714338c6f1a7c837ad235ace92427747c69f3fcc50fa8aa8cb0e92"
+    },
+    "rank12.pt": {
+      "bytes": 20469,
+      "sha256": "2bb1a3880d42acca6236974eabbaa7f8d3f83de0e33cea8efc056cfcd6682fb7"
+    },
+    "rank13.pt": {
+      "bytes": 22197,
+      "sha256": "591bf163386e94a4940533fccefc447311ca3bb241c3e6880428c43f071c02c5"
+    },
+    "rank14.pt": {
+      "bytes": 24245,
+      "sha256": "91efa5220fe782791cd8312a0080369d2a7a49b6390bcef2ad986ed33a534b0a"
+    },
+    "rank15.pt": {
+      "bytes": 16437,
+      "sha256": "abaf9b6552d69cc23690a88e2f186805b4fb9f228ec60e3c8663d60ae0ebabb9"
+    },
+    "rank16.pt": {
+      "bytes": 15541,
+      "sha256": "7a58576f24d458b9522b6f41a71a7f5ce5ae647650bedeffd534fbb1488c6cab"
+    },
+    "rank17.pt": {
+      "bytes": 15221,
+      "sha256": "78d2d5930843325b1b3d4bf72505d15c8926a1d9b6d00051c72601b110d1e3f6"
+    },
+    "rank18.pt": {
+      "bytes": 18485,
+      "sha256": "e4fb618a8560e6b09f5072093043e844e391df04ba43e66ab2fa0f5900893ffb"
+    },
+    "rank19.pt": {
+      "bytes": 15285,
+      "sha256": "3c79c0ec493810e6160c6db3fae32533fd1624d959ee6db42027f5a9576056e8"
+    },
+    "rank20.pt": {
+      "bytes": 16821,
+      "sha256": "17dbe1115018156b1a5a5b419ae3e23687c5ef0618b0f16b41731bd817d29f9a"
+    },
+    "rank21.pt": {
+      "bytes": 15221,
+      "sha256": "5acef792832c9771573cd3ffac4336bd1c207a9a3fb0c552477ab1c67124c4b5"
+    },
+    "rank22.pt": {
+      "bytes": 23989,
+      "sha256": "4efc6ed097649ac81ae7a6c09d6e034b0a06f144aa9f25ab9f981c0f58356c0b"
+    },
+    "rank23.pt": {
+      "bytes": 35637,
+      "sha256": "5c81843a85f45cf8f40ddf9648fc59f20ffc97b0693a462a3b3783bb74fbb935"
+    },
+    "rank24.pt": {
+      "bytes": 15989,
+      "sha256": "5d94a7d7a1a6a33b0e3d9ff26654f7a7fa02057eddd24688f77e438ef79e22ff"
+    },
+    "rank25.pt": {
+      "bytes": 17909,
+      "sha256": "f1c1154322605d4cda28f9cfb1618f41d94f47ab1a3e904668e5830aa55feea6"
+    },
+    "rank26.pt": {
+      "bytes": 17845,
+      "sha256": "e747cbb9a047b280b44803d93dc98da05fbeb7a796f0a9455cbccfc277d48e69"
+    },
+    "rank27.pt": {
+      "bytes": 17653,
+      "sha256": "5749a9b9d53099f47f60d4b009c630d6c14cdd57a18579dbd2c41447a554703f"
+    },
+    "rank28.pt": {
+      "bytes": 15797,
+      "sha256": "0efad841ce7f93e00e662e280f3f62e7c616cf21a539a740a16ce8336ca70e78"
+    },
+    "rank29.pt": {
+      "bytes": 18869,
+      "sha256": "0b56149820b5a6ff1cc893e63033587293064daa68523ca11ebc671730a05d7f"
+    },
+    "rank30.pt": {
+      "bytes": 27445,
+      "sha256": "32c6ab3fb0b3c05bd631c23d7efa05f2d7a6d8870ceb321757843229b8e0fe2d"
+    },
+    "rank31.pt": {
+      "bytes": 18677,
+      "sha256": "f7832a409baf3c3262b901dd5eda5b1b99de21ad33aa3b6c8666244029415484"
+    }
+  },
+  "checkpoint_validation": [
+    {
+      "cross_entropy": 2.244476652733283,
+      "supervised_tokens": 4194304,
+      "perplexity": 9.435476233385561,
+      "step": 31744,
+      "input_tokens": 33285996544
+    }
+  ],
+  "checkpoint32768_exists": false,
+  "free_bytes_now": 3780863066112
+}

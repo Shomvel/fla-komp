@@ -1,0 +1,17 @@
+{
+  "old_identity": "job-bdaafde6397e-20261107143915",
+  "new_identity": "job-de184fdde2fc-20261107192117",
+  "models": [
+    "block123",
+    "exact123",
+    "learned",
+    "learned123",
+    "block",
+    "value",
+    "exact_partial"
+  ],
+  "shard": 0,
+  "kda_skipped": true,
+  "verified_before_files": 4821,
+  "method": "explicit owner migration after platform Aborted and zero instances; no TTL takeover"
+}

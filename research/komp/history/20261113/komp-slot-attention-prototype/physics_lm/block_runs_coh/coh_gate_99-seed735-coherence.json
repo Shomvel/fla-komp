@@ -1,0 +1,63 @@
+{
+  "kind": "coh_gate_99",
+  "seed": 735,
+  "coherence": 0.99,
+  "status": "completed",
+  "steps": 2231,
+  "training_tokens": 10001108,
+  "denominator": "nonpadding token-heads",
+  "windows": {
+    "first10pct": {
+      "0": {
+        "tokens": 1993838,
+        "merged": 1428122,
+        "calls": 224,
+        "fraction": 0.7162678211569846
+      },
+      "1": {
+        "tokens": 1993838,
+        "merged": 538279,
+        "calls": 224,
+        "fraction": 0.2699712815183581
+      },
+      "2": {
+        "tokens": 1993838,
+        "merged": 714450,
+        "calls": 224,
+        "fraction": 0.3583290116850015
+      },
+      "3": {
+        "tokens": 1993838,
+        "merged": 1034405,
+        "calls": 224,
+        "fraction": 0.5188009256519336
+      }
+    },
+    "last10pct": {
+      "0": {
+        "tokens": 2005490,
+        "merged": 1435398,
+        "calls": 224,
+        "fraction": 0.7157343093209141
+      },
+      "1": {
+        "tokens": 2005490,
+        "merged": 685307,
+        "calls": 224,
+        "fraction": 0.3417154909772674
+      },
+      "2": {
+        "tokens": 2005490,
+        "merged": 340826,
+        "calls": 224,
+        "fraction": 0.16994649686610255
+      },
+      "3": {
+        "tokens": 2005490,
+        "merged": 891267,
+        "calls": 224,
+        "fraction": 0.4444135847099711
+      }
+    }
+  }
+}

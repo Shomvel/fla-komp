@@ -1,0 +1,113 @@
+{
+  "model": "exact123",
+  "status": "passed",
+  "torch": "2.10.0a0+b558c986e8.nv25.11",
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "torch_matmul_allow_tf32": true,
+  "source": "/gpfs/users/linlizhi/komp-kda-options-ff2272-340m-20c-20261106",
+  "started": 1794044060.3565385,
+  "candidate_source": {
+    "source_manifest_sha256": "f0ebd0c1b3375e671d849a99e70c2019b3cf20be89d588982e4e5fe86dd050f8",
+    "file_count": 15
+  },
+  "frozen": {
+    "model": "exact123",
+    "source": "/gpfs/users/linlizhi/komp-kda-options-ff2272-340m-20c-20261106",
+    "source_manifest_sha256": "3e861451b240e3d4a3479fb0827bf26a10fee320895215dfa419f3a6026c0f6e",
+    "data_manifest_sha256": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+    "source_file_count": 651
+  },
+  "operators": [
+    {
+      "label": "exact-slot-learnedFalse-B1-T33-torch.float32-output",
+      "absolute": 5.302950739860535e-06,
+      "rmsrel": 6.258647575393931e-06,
+      "passed": true
+    },
+    {
+      "label": "exact-slot-learnedFalse-B1-T33-torch.float32-keys",
+      "absolute": 5.960464477539063e-08,
+      "rmsrel": 6.648445609150891e-08,
+      "passed": true
+    },
+    {
+      "label": "exact-slot-learnedFalse-B1-T33-torch.float32-coefficients",
+      "absolute": 6.092339754104614e-05,
+      "rmsrel": 1.9935789774627266e-05,
+      "passed": true
+    },
+    {
+      "label": "exact-slot-learnedFalse-B1-T33-torch.float32-torch-stream",
+      "absolute": 2.2351741790771484e-07,
+      "rmsrel": 3.100614919244974e-07,
+      "passed": true
+    },
+    {
+      "label": "exact-slot-learnedFalse-B1-T33-torch.float32-open-state",
+      "absolute": 9.5367431640625e-07,
+      "rmsrel": 4.0060598358424423e-07,
+      "passed": true
+    },
+    {
+      "label": "exact-slot-learnedFalse-B2-T129-torch.bfloat16-output",
+      "absolute": 0.001953125,
+      "rmsrel": 0.0001811076613525703,
+      "passed": true
+    },
+    {
+      "label": "exact-slot-learnedFalse-B2-T129-torch.bfloat16-keys",
+      "absolute": 5.960464477539063e-08,
+      "rmsrel": 6.649329550348788e-08,
+      "passed": true
+    },
+    {
+      "label": "exact-slot-learnedFalse-B2-T129-torch.bfloat16-coefficients",
+      "absolute": 7.596611976623535e-05,
+      "rmsrel": 3.242679467572456e-05,
+      "passed": true
+    },
+    {
+      "label": "exact-slot-learnedFalse-B2-T129-torch.bfloat16-torch-stream",
+      "absolute": 0.0009765625,
+      "rmsrel": 3.070216269933163e-05,
+      "passed": true
+    },
+    {
+      "label": "exact-slot-learnedFalse-B2-T129-torch.bfloat16-open-state",
+      "absolute": 7.748603820800781e-07,
+      "rmsrel": 3.8528796967703187e-07,
+      "passed": true
+    },
+    {
+      "label": "exact-slot-learnedFalse-B1-T259-torch.bfloat16-output",
+      "absolute": 0.001953125,
+      "rmsrel": 0.00017877637547196088,
+      "passed": true
+    },
+    {
+      "label": "exact-slot-learnedFalse-B1-T259-torch.bfloat16-keys",
+      "absolute": 5.960464477539063e-08,
+      "rmsrel": 6.664257546358823e-08,
+      "passed": true
+    },
+    {
+      "label": "exact-slot-learnedFalse-B1-T259-torch.bfloat16-coefficients",
+      "absolute": 7.013976573944092e-05,
+      "rmsrel": 3.257033090215941e-05,
+      "passed": true
+    },
+    {
+      "label": "exact-slot-learnedFalse-B1-T259-torch.bfloat16-torch-stream",
+      "absolute": 0.0009765625,
+      "rmsrel": 4.033220911547665e-05,
+      "passed": true
+    },
+    {
+      "label": "exact-slot-learnedFalse-B1-T259-torch.bfloat16-open-state",
+      "absolute": 8.344650268554688e-07,
+      "rmsrel": 3.9035660503764996e-07,
+      "passed": true
+    }
+  ],
+  "finished": 1794044063.1668637
+}

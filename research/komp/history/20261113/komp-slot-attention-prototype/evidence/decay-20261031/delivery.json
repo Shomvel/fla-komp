@@ -1,0 +1,32 @@
+{
+  "checks": {
+    "routes-default-final.json": {
+      "status": "passed",
+      "checks": 63,
+      "routes": 18
+    },
+    "all-triton-final.json": {
+      "status": "passed",
+      "checks": 341,
+      "routes": 0
+    },
+    "slot-decay-final.json": {
+      "status": "passed",
+      "checks": 182,
+      "routes": 0
+    }
+  },
+  "training_runs": 8,
+  "seeds": [
+    731,
+    732
+  ],
+  "tokens_each": 10001108,
+  "training_source_archive": "training-source.tgz",
+  "checkpoints_remote": "/gpfs/users/linlizhi/komp-decay-20261031-train-r1/physics_lm/decay_runs/results/",
+  "training_report": "physics_lm/decay_runs/RESULTS.md",
+  "performance_report": "DECAY_ACCELERATION_RESULTS.md",
+  "default_geometry": "parallel integer routes for T>=192 and M>=16; original IEEE solver",
+  "training_geometry": "frozen original serial/IEEE; optimization independently validated",
+  "status": "passed"
+}

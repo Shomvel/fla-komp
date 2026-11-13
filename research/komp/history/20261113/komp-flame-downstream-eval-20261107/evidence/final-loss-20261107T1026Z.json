@@ -1,0 +1,142 @@
+{
+  "block": {
+    "status": "completed",
+    "step": 12970,
+    "effective_input_tokens": 6800000000,
+    "input_tokens": 6800000000,
+    "supervised_tokens": 6800000000,
+    "compute_tokens": 6800015360,
+    "validation": {
+      "cross_entropy": 2.60012479472789,
+      "supervised_tokens": 4194304,
+      "perplexity": 13.46541834337078
+    },
+    "test": {
+      "cross_entropy": 2.595598921761848,
+      "supervised_tokens": 4194304,
+      "perplexity": 13.40461327231953
+    },
+    "source_sha": "1dde0fbb5668f1105425de6774a4d188535b278819d3af3f1c569a987359f5ea",
+    "data_sha": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f"
+  },
+  "kda": {
+    "status": "completed",
+    "step": 12970,
+    "effective_input_tokens": 6800000000,
+    "input_tokens": 6800000000,
+    "supervised_tokens": 6800000000,
+    "compute_tokens": 6800015360,
+    "validation": {
+      "cross_entropy": 2.527196307084523,
+      "supervised_tokens": 4194304,
+      "perplexity": 12.51835925400466
+    },
+    "test": {
+      "cross_entropy": 2.5229215873987414,
+      "supervised_tokens": 4194304,
+      "perplexity": 12.464960989886482
+    },
+    "source_sha": "74fda6e3f1ad46e50997b1c35396503d947e69ca73ff06dad2b18e8fa1ef2362",
+    "data_sha": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f"
+  },
+  "block123": {
+    "status": "completed",
+    "step": 12970,
+    "effective_input_tokens": 6800000000,
+    "input_tokens": 6800000000,
+    "supervised_tokens": 6800000000,
+    "compute_tokens": 6800015360,
+    "validation": {
+      "cross_entropy": 2.5660057461063843,
+      "supervised_tokens": 4194304,
+      "perplexity": 13.01374030865824
+    },
+    "test": {
+      "cross_entropy": 2.5608628056943417,
+      "supervised_tokens": 4194304,
+      "perplexity": 12.946983228697926
+    },
+    "source_sha": "3e861451b240e3d4a3479fb0827bf26a10fee320895215dfa419f3a6026c0f6e",
+    "data_sha": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f"
+  },
+  "exact123": {
+    "status": "completed",
+    "step": 12970,
+    "effective_input_tokens": 6800000000,
+    "input_tokens": 6800000000,
+    "supervised_tokens": 6800000000,
+    "compute_tokens": 6800015360,
+    "validation": {
+      "cross_entropy": 2.573282427212689,
+      "supervised_tokens": 4194304,
+      "perplexity": 13.108782523454868
+    },
+    "test": {
+      "cross_entropy": 2.5684407318476588,
+      "supervised_tokens": 4194304,
+      "perplexity": 13.045467192329015
+    },
+    "source_sha": "3e861451b240e3d4a3479fb0827bf26a10fee320895215dfa419f3a6026c0f6e",
+    "data_sha": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f"
+  },
+  "learned": {
+    "status": "completed",
+    "step": 12970,
+    "effective_input_tokens": 6800000000,
+    "input_tokens": 6800000000,
+    "supervised_tokens": 6800000000,
+    "compute_tokens": 6800015360,
+    "validation": {
+      "cross_entropy": 2.5932204253040254,
+      "supervised_tokens": 4194304,
+      "perplexity": 13.372768333682593
+    },
+    "test": {
+      "cross_entropy": 2.587376969109755,
+      "supervised_tokens": 4194304,
+      "perplexity": 13.294853016806886
+    },
+    "source_sha": "d0238bb7a8a390f1ee1c834aef79bec02680775dd66fb150f9f93e24e846b9e9",
+    "data_sha": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f"
+  },
+  "learned123": {
+    "status": "completed",
+    "step": 12970,
+    "effective_input_tokens": 6800000000,
+    "input_tokens": 6800000000,
+    "supervised_tokens": 6800000000,
+    "compute_tokens": 6800015360,
+    "validation": {
+      "cross_entropy": 2.5545634536247235,
+      "supervised_tokens": 4194304,
+      "perplexity": 12.865681964592513
+    },
+    "test": {
+      "cross_entropy": 2.5494471489218995,
+      "supervised_tokens": 4194304,
+      "perplexity": 12.800025318378038
+    },
+    "source_sha": "b5828e0262452ac518840be596e26406620e19b2b68bc5e8d590d8037699ecd7",
+    "data_sha": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f"
+  },
+  "value": {
+    "status": "completed",
+    "step": 12970,
+    "effective_input_tokens": 6800000000,
+    "input_tokens": 6800000000,
+    "supervised_tokens": 6800000000,
+    "compute_tokens": 6800015360,
+    "validation": {
+      "cross_entropy": 2.6395275016257074,
+      "supervised_tokens": 4194304,
+      "perplexity": 14.006583955820867
+    },
+    "test": {
+      "cross_entropy": 2.6350999214337207,
+      "supervised_tokens": 4194304,
+      "perplexity": 13.944705768544374
+    },
+    "source_sha": "211b49fdea7eb41c878491735332303db14d8dc4f6486bbcf7dad62752e305be",
+    "data_sha": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f"
+  }
+}

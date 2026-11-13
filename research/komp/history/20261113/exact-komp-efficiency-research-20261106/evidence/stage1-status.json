@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-0e764ac07769-20261106110059",
+    "user_def_name": "exact-efficiency-stage1-20261106",
+    "status": "Aborted",
+    "ready_status": "0/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  }
+]

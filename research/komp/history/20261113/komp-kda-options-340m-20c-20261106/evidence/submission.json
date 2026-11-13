@@ -1,0 +1,9 @@
+{
+  "source_sha": "c3d706d01cdb0560ffcbba07747bfcc17d00db18a80c8f9bc73e6de6074f2c46",
+  "project": "WeaverRSI",
+  "queue": "proj-32",
+  "jobs": {
+    "exact": {"alias": "komp340m-exact-kda123-20261106", "identity": "job-1e604a996bb9-20261106142704", "request_id": "ReqID-20261106-142704-9082-670a", "gpu": 8},
+    "block": {"alias": "komp340m-block-kda123-20261106", "identity": "job-b115cf684a19-20261106142728", "request_id": "ReqID-20261106-142727-9566-26aa", "gpu": 8}
+  }
+}

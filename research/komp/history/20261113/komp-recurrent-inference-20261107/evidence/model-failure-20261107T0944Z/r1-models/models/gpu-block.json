@@ -1,0 +1,28 @@
+{
+  "model": "block",
+  "status": "failed",
+  "torch": "2.10.0a0+b558c986e8.nv25.11",
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "torch_matmul_allow_tf32": true,
+  "source": "/gpfs/users/linlizhi/komp-flame-340m-20c-20261106/migration-fla-mb16/runtime",
+  "started": 1794044475.383879,
+  "candidate_source": {
+    "source_manifest_sha256": "f0ebd0c1b3375e671d849a99e70c2019b3cf20be89d588982e4e5fe86dd050f8",
+    "file_count": 15
+  },
+  "frozen": {
+    "model": "block",
+    "source": "/gpfs/users/linlizhi/komp-flame-340m-20c-20261106/migration-fla-mb16/runtime",
+    "source_manifest_sha256": "1dde0fbb5668f1105425de6774a4d188535b278819d3af3f1c569a987359f5ea",
+    "data_manifest_sha256": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+    "source_file_count": 658,
+    "checkpoint": "/gpfs/users/linlizhi/komp-flame-340m-20c-20261106/migration-fla-mb16/runtime/runs/block/checkpoint-012970/model.pt",
+    "checkpoint_sha256": "29e57526867e236c4f5792d56915e6ffd000be44a40cc4d427979e0f4dada297",
+    "step": 12970,
+    "tokens": 6800000000,
+    "completion_marker_sha256": "4815301019c7e68de2b4a59eb6db9ec33a160983fca0d78a6bac4504039d4076"
+  },
+  "operator_receipt_sha256": "f731292786c839dc67927234a6283216d5f96579dff243a1ee657386993b2c7e",
+  "error": "AssertionError({'label': 'model-prefill-31', 'absolute': 0.0625, 'rmsrel': 0.003007770501277965, 'passed': False})",
+  "finished": 1794044521.5183582
+}

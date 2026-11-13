@@ -1,0 +1,8 @@
+{
+  "lr": 0.001,
+  "wd": 0.1,
+  "criterion": "preexisting validation-selected recipe; no new search",
+  "prior_path": "/Users/shom/Downloads/komp-slot-attention-prototype/physics_lm/suite100m_exact_20261105/prior-selection/brevo2-gsa2.json",
+  "prior_sha256": "2997850c9d630283e3191273cb477869fab90a3bb2b18ea3ce3d8ff3d92637b3",
+  "exact_transfer_from_block": false
+}

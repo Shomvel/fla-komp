@@ -1,0 +1,15 @@
+{
+  "source": "/gpfs/users/linlizhi/komp-flame-340m-20c-20261106/migration-fla-mb16/runtime/runs/exact/checkpoint-003072",
+  "files": {
+    "model.pt": "192d36ed1594d6938f8f29638c02eadd67c724d5d2057570311c15a679fccc06",
+    "rank0.pt": "c1c685ad7644af369e03fcc677b8f132b4647e07763784e19d640cb706664a19",
+    "rank1.pt": "b95c05e32a08b380bbc1b3236209ddfbdc5f1f85ae9400e1b41ff785a4f8bbe2",
+    "rank2.pt": "a1a38a11b97e92e30ade82e01fcca6d8db2ce375c03ab1b5e08a65c96650905e",
+    "rank3.pt": "f65d10501053fbeb4e88a8181e0e995d956c25cb91ff56da7f77d7ad06b47d1d",
+    "rank4.pt": "f7ddd1d26081e392413dcd9399233abdc23ffdfc3a0d057ddadf5e35ebdfb3e8",
+    "rank5.pt": "6360c69481f49f28b5423a10591992715294cd2dc9903cf62a4783d68d23eda2",
+    "rank6.pt": "ba0d2e9a669fd1e6872fb662cb43d99f83985d1ff7d261b4b89dfe81f7a2bd1a",
+    "rank7.pt": "0e6086d4336db3f1ca3eb4f8e7c29be8b20371a6e8273e18836b0b1e6165f2ff",
+    "complete.json": "f01f7f1c40b42837db2972802af9b964b0e31c69e5335cca7293b483b370dd3b"
+  }
+}

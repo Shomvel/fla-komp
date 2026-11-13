@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "order": [
+    "block",
+    "exact",
+    "block123",
+    "exact123",
+    "learned",
+    "learned123",
+    "value",
+    "value_learned123"
+  ],
+  "models": {
+    "block": {
+      "folder": "komp-flame-340m-20c-20261106/migration-fla-mb16/runtime",
+      "kind": "block",
+      "decay_axis": "slot",
+      "learned": false,
+      "source_manifest_sha256": "1dde0fbb5668f1105425de6774a4d188535b278819d3af3f1c569a987359f5ea",
+      "data_manifest_sha256": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+      "checkpoint_relative": "komp-flame-340m-20c-20261106/migration-fla-mb16/runtime/runs/block/checkpoint-012970/model.pt",
+      "checkpoint_sha256": "29e57526867e236c4f5792d56915e6ffd000be44a40cc4d427979e0f4dada297",
+      "step": 12970,
+      "tokens": 6800000000
+    },
+    "exact": {
+      "folder": "komp-flame-340m-20c-20261106/migration-fla-mb16/runtime",
+      "kind": "exact",
+      "decay_axis": "slot",
+      "learned": false,
+      "source_manifest_sha256": "1dde0fbb5668f1105425de6774a4d188535b278819d3af3f1c569a987359f5ea",
+      "data_manifest_sha256": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+      "checkpoint_relative": "komp-flame-340m-20c-20261106/migration-fla-mb16/runtime/runs/exact/checkpoint-007168/model.pt",
+      "checkpoint_sha256": "a5a98ba050f08b226f22ce834ddda7d52d7775ab8fc7218a9fe5c3af1335cec0",
+      "step": 7168,
+      "tokens": 3758096384
+    },
+    "block123": {
+      "folder": "komp-kda-options-ff2272-340m-20c-20261106",
+      "kind": "block",
+      "decay_axis": "slot",
+      "learned": false,
+      "source_manifest_sha256": "3e861451b240e3d4a3479fb0827bf26a10fee320895215dfa419f3a6026c0f6e",
+      "data_manifest_sha256": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+      "checkpoint_relative": "komp-kda-options-ff2272-340m-20c-20261106/runs/block/checkpoint-012970/model.pt",
+      "checkpoint_sha256": "1d628bb4de8c2867d63941098995cd6489d61140d7fd1642b2ee589c6fa60a8e",
+      "step": 12970,
+      "tokens": 6800000000
+    },
+    "exact123": {
+      "folder": "komp-kda-options-ff2272-340m-20c-20261106",
+      "kind": "exact",
+      "decay_axis": "slot",
+      "learned": false,
+      "source_manifest_sha256": "3e861451b240e3d4a3479fb0827bf26a10fee320895215dfa419f3a6026c0f6e",
+      "data_manifest_sha256": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+      "checkpoint_relative": "komp-kda-options-ff2272-340m-20c-20261106/runs/exact/checkpoint-012970/model.pt",
+      "checkpoint_sha256": "3d59e7416e0ab6037bfe0781db54cbaaa7f338a66c9497826b92795e9dda11c7",
+      "step": 12970,
+      "tokens": 6800000000
+    },
+    "learned": {
+      "folder": "komp-gdn-slot-learned-340m-20c-20261107",
+      "kind": "block",
+      "decay_axis": "slot",
+      "learned": true,
+      "source_manifest_sha256": "d0238bb7a8a390f1ee1c834aef79bec02680775dd66fb150f9f93e24e846b9e9",
+      "data_manifest_sha256": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+      "checkpoint_relative": "komp-gdn-slot-learned-340m-20c-20261107/runs/block/checkpoint-012970/model.pt",
+      "checkpoint_sha256": "cb6647f43d2eca4ea91c9cb066e802989dd8cd4ff795db825c000a849a82545c",
+      "step": 12970,
+      "tokens": 6800000000
+    },
+    "learned123": {
+      "folder": "komp-gdn-slot-learned-123-340m-20c-20261107",
+      "kind": "block",
+      "decay_axis": "slot",
+      "learned": true,
+      "source_manifest_sha256": "b5828e0262452ac518840be596e26406620e19b2b68bc5e8d590d8037699ecd7",
+      "data_manifest_sha256": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+      "checkpoint_relative": "komp-gdn-slot-learned-123-340m-20c-20261107/runs/block/checkpoint-012970/model.pt",
+      "checkpoint_sha256": "40bbcda57338b61e1d32ed932dc503701ee63e2d8e2e75cb72b04188f2d0706b",
+      "step": 12970,
+      "tokens": 6800000000
+    },
+    "value": {
+      "folder": "komp-value-decay-block-340m-20c-20261106",
+      "kind": "block",
+      "decay_axis": "value",
+      "learned": false,
+      "source_manifest_sha256": "211b49fdea7eb41c878491735332303db14d8dc4f6486bbcf7dad62752e305be",
+      "data_manifest_sha256": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+      "checkpoint_relative": "komp-value-decay-block-340m-20c-20261106/runs/block/checkpoint-012970/model.pt",
+      "checkpoint_sha256": "375421019f3aaf365b0a9761ab8a56d1ec2abff5bead19fd15d19d52c0c2e946",
+      "step": 12970,
+      "tokens": 6800000000
+    },
+    "value_learned123": {
+      "folder": "komp-value-decay-learned-123-340m-20c-20261107",
+      "kind": "block",
+      "decay_axis": "value",
+      "learned": true,
+      "source_manifest_sha256": "0b906d5b3e39c017e862c13c6e7474a741a00ccfbde9be654f10e1265fc8f763",
+      "data_manifest_sha256": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+      "checkpoint_relative": "komp-value-decay-learned-123-340m-20c-20261107/runs/block/checkpoint-001792/model.pt",
+      "step": 1792,
+      "tokens": 939524096,
+      "checkpoint_sha256": "dd381260e7aaced707d1be708416a8cf0225dc53b20111bceec841e5652ab37e"
+    }
+  },
+  "numerical_gates": {
+    "operator_fp32_rmsrel": 0.003,
+    "operator_bf16_rmsrel": 0.025,
+    "operator_abs": 0.0003,
+    "model_rmsrel": 0.003,
+    "model_abs": 0.0003,
+    "model_greedy_top1": "identical"
+  },
+  "fixture_sha256": "64ff2d5b5b18c0b243adf46ab0fe58d30c0f17af38504390ecbf309b319d41f1"
+}

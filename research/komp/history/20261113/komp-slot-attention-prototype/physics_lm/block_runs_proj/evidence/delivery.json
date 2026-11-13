@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "runs": 70,
+  "main_runs": 56,
+  "optional_runs": 14,
+  "seeds": [
+    731,
+    732,
+    733,
+    734,
+    735,
+    736,
+    737
+  ],
+  "jobs_deleted": 16,
+  "report_sha256": "af396c1d022474a882db507c1a35886c30509676dd2d7e8da531d7334a06cf62",
+  "table_sha256": "5e5abeb405568470cc3dcb46e660a2fd0e72cd952b6a3d539b0562f766c81adf",
+  "no_checkpoints": true
+}

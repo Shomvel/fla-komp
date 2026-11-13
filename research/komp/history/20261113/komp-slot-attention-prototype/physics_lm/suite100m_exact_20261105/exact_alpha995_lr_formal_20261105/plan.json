@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    "depo2",
+    "brevo2"
+  ],
+  "alpha0": 0.995,
+  "projection_dtype": "float32",
+  "state_dtype": "float32",
+  "network_dtype": "bfloat16",
+  "seed": 731,
+  "wd": 0.1,
+  "positions_per_run": {
+    "depo2": 100000997,
+    "brevo2": 100000590
+  },
+  "new_lrs": {
+    "depo2": [
+      0.00025,
+      0.001
+    ],
+    "brevo2": [
+      0.002,
+      0.0005
+    ]
+  },
+  "reused_lrs": {
+    "depo2": 0.0005,
+    "brevo2": 0.001
+  },
+  "new_runs": 4,
+  "additional_actual_positions": 400003174,
+  "selection": "final full-validation CE only; heldout does not rank LR",
+  "scope": "100M-token formal LR sweep, separate from10M FP64pilot; original alpha995100M center checkpoints reused without training"
+}

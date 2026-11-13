@@ -1,0 +1,10 @@
+{
+  "prior-gsa2-selection.json": {
+    "source": "/Users/shom/Downloads/komp-slot-attention-prototype/physics_lm/gsa2_runs/selection.json",
+    "sha256": "4e0a41f5d11be61716b244050564e51ee36b475a0447f07d9e6b9534d514c5d9"
+  },
+  "prior-gsa2-plan.md": {
+    "source": "/Users/shom/Downloads/komp-slot-attention-prototype/physics_lm/gsa2_runs/PLAN.md",
+    "sha256": "98dbdf05b7cb899d73290ad7b54aa669a23a76296ea44f000401c14d9d4d90ca"
+  }
+}

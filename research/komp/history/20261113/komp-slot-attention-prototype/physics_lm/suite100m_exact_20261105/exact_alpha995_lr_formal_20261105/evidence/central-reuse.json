@@ -1,0 +1,33 @@
+{
+  "status": "bound",
+  "runs": [
+    {
+      "task": "depo2",
+      "lr": 0.0005,
+      "new_training_positions": 0,
+      "directory": "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_alpha995_formal_20261105/runs-ddp/results/depo2-exact-final-lr0.0005-wd0.1-seed731",
+      "checkpoint_sha256": "1b59622d5c5a78480d02d505d6276146c76828417700447d45a79c409c468fe5",
+      "summary_sha256": "f5195525f376ddc7acea64118dc40e2e5b9c175b5a0db9fc3bdd52d09fb00191",
+      "source": {
+        "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+        "ddp_train": "08588e36fe4dc692b714d317c8462aebb8e485f541fb20b9941b5813ce064c58",
+        "alpha_models": "fd3f7c0615a71a7fcbe1504fdf08d6f7f48a5dfdcdd2d7389cbd61d490ee88ae"
+      },
+      "validation_ce": 0.6695572929539848
+    },
+    {
+      "task": "brevo2",
+      "lr": 0.001,
+      "new_training_positions": 0,
+      "directory": "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_alpha995_formal_20261105/runs-ddp/results/brevo2-exact-final-lr0.001-wd0.1-seed731",
+      "checkpoint_sha256": "cd7767d3a56c4358812ae38b08464f18d54326621ac9301de54b1a49ef4ff021",
+      "summary_sha256": "c358bbabd349daf3678a5dc42652c022d40c74c0d701f8be8cd21020bc5ab929",
+      "source": {
+        "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+        "ddp_train": "08588e36fe4dc692b714d317c8462aebb8e485f541fb20b9941b5813ce064c58",
+        "alpha_models": "fd3f7c0615a71a7fcbe1504fdf08d6f7f48a5dfdcdd2d7389cbd61d490ee88ae"
+      },
+      "validation_ce": 0.7348304093575835
+    }
+  ]
+}

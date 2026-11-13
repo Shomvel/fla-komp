@@ -1,0 +1,633 @@
+{
+  "captured_utc": "2026-11-06T21:45:12.559633+00:00",
+  "models": {
+    "exact": {
+      "preflight": {
+        "status": "passed",
+        "kind": "exact",
+        "source_sha": "3e861451b240e3d4a3479fb0827bf26a10fee320895215dfa419f3a6026c0f6e",
+        "data_sha": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+        "batching_sha": "1db5c1ce5cee0fc4f389b3c0a897c767767a6eefc40e65a74209ea7bffd38f1b",
+        "parameters": 340753280,
+        "initial_model_sha": "241d4c79cb256b230f3642387de571f1b6cb0ffe1e1a2b779d18ee0456c80580",
+        "shared_backbone_initial_sha": "bb75bbc333c113ed94243df3df38086bd5ce49e229a8096bee1717b5e3133955",
+        "cases": [
+          {
+            "case": "full",
+            "loss": 10.574809610843658,
+            "global_valid_tokens": 524288,
+            "grad_norm": 13.07048511505127,
+            "seconds": 19.725523421540856,
+            "peak_bytes": 34434340352,
+            "replicas_identical": true
+          },
+          {
+            "case": "final_tail",
+            "loss": 9.60245733433806,
+            "global_valid_tokens": 508928,
+            "grad_norm": 23.728994369506836,
+            "seconds": 10.014148462563753,
+            "peak_bytes": 37167336448,
+            "replicas_identical": true
+          }
+        ],
+        "causal_absolute": 0.0,
+        "aligned_full_tail_ce": true,
+        "all_gradients_parameters_finite": true,
+        "full_model_adam_rng_loader_restore": true,
+        "replicas_identical": true,
+        "trial_tokens_counted": 0,
+        "formal_start": "Fresh seed42 model and original data cursor, not trial checkpoint"
+      },
+      "latest": {
+        "kind": "exact",
+        "step": 9329,
+        "effective_input_tokens": 4891082752,
+        "input_tokens": 4891082752,
+        "supervised_tokens": 4891082752,
+        "compute_tokens": 4891082752,
+        "loss": 2.6502269953489304,
+        "lr": 8.730022916920445e-05,
+        "grad_norm": 0.2163899838924408,
+        "seconds": 5.390727577731013,
+        "peak_bytes": 37171776512,
+        "peak_reserved_bytes": 41211133952,
+        "documents": 503596,
+        "excluded_documents": 15
+      },
+      "validation": [
+        {
+          "cross_entropy": 4.612506395904347,
+          "supervised_tokens": 4194304,
+          "perplexity": 100.73631858308657,
+          "step": 512,
+          "input_tokens": 268435456
+        },
+        {
+          "cross_entropy": 3.6070147247519344,
+          "supervised_tokens": 4194304,
+          "perplexity": 36.85586352684542,
+          "step": 1024,
+          "input_tokens": 536870912
+        },
+        {
+          "cross_entropy": 3.2306694883154705,
+          "supervised_tokens": 4194304,
+          "perplexity": 25.29658707254429,
+          "step": 1536,
+          "input_tokens": 805306368
+        },
+        {
+          "cross_entropy": 3.075522393162828,
+          "supervised_tokens": 4194304,
+          "perplexity": 21.661194616381234,
+          "step": 2048,
+          "input_tokens": 1073741824
+        },
+        {
+          "cross_entropy": 2.9878595960326493,
+          "supervised_tokens": 4194304,
+          "perplexity": 19.84316461681257,
+          "step": 2560,
+          "input_tokens": 1342177280
+        },
+        {
+          "cross_entropy": 2.915830362268025,
+          "supervised_tokens": 4194304,
+          "perplexity": 18.464137962458715,
+          "step": 3072,
+          "input_tokens": 1610612736
+        },
+        {
+          "cross_entropy": 2.8678655252733734,
+          "supervised_tokens": 4194304,
+          "perplexity": 17.599412578638272,
+          "step": 3584,
+          "input_tokens": 1879048192
+        },
+        {
+          "cross_entropy": 2.8311687436071225,
+          "supervised_tokens": 4194304,
+          "perplexity": 16.9652773014841,
+          "step": 4096,
+          "input_tokens": 2147483648
+        },
+        {
+          "cross_entropy": 2.7944620044436306,
+          "supervised_tokens": 4194304,
+          "perplexity": 16.353828099166133,
+          "step": 4608,
+          "input_tokens": 2415919104
+        },
+        {
+          "cross_entropy": 2.7693430526414886,
+          "supervised_tokens": 4194304,
+          "perplexity": 15.948153470294146,
+          "step": 5120,
+          "input_tokens": 2684354560
+        },
+        {
+          "cross_entropy": 2.743268509337213,
+          "supervised_tokens": 4194304,
+          "perplexity": 15.537687266853222,
+          "step": 5632,
+          "input_tokens": 2952790016
+        },
+        {
+          "cross_entropy": 2.7205815618508495,
+          "supervised_tokens": 4194304,
+          "perplexity": 15.189153108853047,
+          "step": 6144,
+          "input_tokens": 3221225472
+        },
+        {
+          "cross_entropy": 2.700611970591126,
+          "supervised_tokens": 4194304,
+          "perplexity": 14.88884046995008,
+          "step": 6656,
+          "input_tokens": 3489660928
+        },
+        {
+          "cross_entropy": 2.683447702671401,
+          "supervised_tokens": 4194304,
+          "perplexity": 14.635465144682422,
+          "step": 7168,
+          "input_tokens": 3758096384
+        },
+        {
+          "cross_entropy": 2.6665686070628,
+          "supervised_tokens": 4194304,
+          "perplexity": 14.39050489875053,
+          "step": 7680,
+          "input_tokens": 4026531840
+        },
+        {
+          "cross_entropy": 2.652141650702106,
+          "supervised_tokens": 4194304,
+          "perplexity": 14.184384135299483,
+          "step": 8192,
+          "input_tokens": 4294967296
+        },
+        {
+          "cross_entropy": 2.6379059013561346,
+          "supervised_tokens": 4194304,
+          "perplexity": 13.983889281320593,
+          "step": 8704,
+          "input_tokens": 4563402752
+        },
+        {
+          "cross_entropy": 2.624676228442695,
+          "supervised_tokens": 4194304,
+          "perplexity": 13.800105381059955,
+          "step": 9216,
+          "input_tokens": 4831838208
+        }
+      ],
+      "complete": null,
+      "checkpoint": {
+        "path": "/gpfs/users/linlizhi/komp-kda-options-ff2272-340m-20c-20261106/runs/exact/checkpoint-009216",
+        "step": 9216,
+        "tokens": 4831838208
+      },
+      "warm_last20_median_seconds": 5.39198502805084,
+      "same_token_validation": [
+        {
+          "tokens": 268435456,
+          "baseline_ce": 4.347470311098732,
+          "combo_ce": 4.612506395904347,
+          "delta_combo_minus_baseline": 0.26503608480561525
+        },
+        {
+          "tokens": 536870912,
+          "baseline_ce": 3.629989707027562,
+          "combo_ce": 3.6070147247519344,
+          "delta_combo_minus_baseline": -0.022974982275627553
+        },
+        {
+          "tokens": 805306368,
+          "baseline_ce": 3.2636173782520927,
+          "combo_ce": 3.2306694883154705,
+          "delta_combo_minus_baseline": -0.03294788993662223
+        },
+        {
+          "tokens": 1073741824,
+          "baseline_ce": 3.1061997705255635,
+          "combo_ce": 3.075522393162828,
+          "delta_combo_minus_baseline": -0.03067737736273557
+        },
+        {
+          "tokens": 1342177280,
+          "baseline_ce": 3.0204502365086228,
+          "combo_ce": 2.9878595960326493,
+          "delta_combo_minus_baseline": -0.03259064047597349
+        },
+        {
+          "tokens": 1610612736,
+          "baseline_ce": 2.9488456373801455,
+          "combo_ce": 2.915830362268025,
+          "delta_combo_minus_baseline": -0.033015275112120435
+        },
+        {
+          "tokens": 1879048192,
+          "baseline_ce": 2.8999041273491457,
+          "combo_ce": 2.8678655252733734,
+          "delta_combo_minus_baseline": -0.03203860207577236
+        },
+        {
+          "tokens": 2147483648,
+          "baseline_ce": 2.864169648848474,
+          "combo_ce": 2.8311687436071225,
+          "delta_combo_minus_baseline": -0.033000905241351575
+        },
+        {
+          "tokens": 2415919104,
+          "baseline_ce": 2.8268427746661473,
+          "combo_ce": 2.7944620044436306,
+          "delta_combo_minus_baseline": -0.03238077022251673
+        },
+        {
+          "tokens": 2684354560,
+          "baseline_ce": 2.802528331114445,
+          "combo_ce": 2.7693430526414886,
+          "delta_combo_minus_baseline": -0.03318527847295627
+        },
+        {
+          "tokens": 2952790016,
+          "baseline_ce": 2.7769836062798277,
+          "combo_ce": 2.743268509337213,
+          "delta_combo_minus_baseline": -0.033715096942614764
+        },
+        {
+          "tokens": 3221225472,
+          "baseline_ce": 2.7542122833256144,
+          "combo_ce": 2.7205815618508495,
+          "delta_combo_minus_baseline": -0.03363072147476487
+        },
+        {
+          "tokens": 3489660928,
+          "baseline_ce": 2.7344413177634124,
+          "combo_ce": 2.700611970591126,
+          "delta_combo_minus_baseline": -0.03382934717228636
+        },
+        {
+          "tokens": 3758096384,
+          "baseline_ce": 2.7172337773663457,
+          "combo_ce": 2.683447702671401,
+          "delta_combo_minus_baseline": -0.033786074694944546
+        }
+      ]
+    },
+    "block": {
+      "preflight": {
+        "status": "passed",
+        "kind": "block",
+        "source_sha": "3e861451b240e3d4a3479fb0827bf26a10fee320895215dfa419f3a6026c0f6e",
+        "data_sha": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+        "batching_sha": "1db5c1ce5cee0fc4f389b3c0a897c767767a6eefc40e65a74209ea7bffd38f1b",
+        "parameters": 340753280,
+        "initial_model_sha": "241d4c79cb256b230f3642387de571f1b6cb0ffe1e1a2b779d18ee0456c80580",
+        "shared_backbone_initial_sha": "bb75bbc333c113ed94243df3df38086bd5ce49e229a8096bee1717b5e3133955",
+        "cases": [
+          {
+            "case": "full",
+            "loss": 10.57058310508728,
+            "global_valid_tokens": 524288,
+            "grad_norm": 16.583145141601562,
+            "seconds": 41.643629079684615,
+            "peak_bytes": 35525548544,
+            "replicas_identical": true
+          },
+          {
+            "case": "final_tail",
+            "loss": 9.637751680984344,
+            "global_valid_tokens": 508928,
+            "grad_norm": 26.753671646118164,
+            "seconds": 7.272211631760001,
+            "peak_bytes": 38262390272,
+            "replicas_identical": true
+          }
+        ],
+        "causal_absolute": 0.0,
+        "aligned_full_tail_ce": true,
+        "all_gradients_parameters_finite": true,
+        "full_model_adam_rng_loader_restore": true,
+        "replicas_identical": true,
+        "trial_tokens_counted": 0,
+        "formal_start": "Fresh seed42 model and original data cursor, not trial checkpoint"
+      },
+      "latest": {
+        "kind": "block",
+        "step": 11347,
+        "effective_input_tokens": 5949095936,
+        "input_tokens": 5949095936,
+        "supervised_tokens": 5949095936,
+        "compute_tokens": 5949095936,
+        "loss": 2.554293230175972,
+        "lr": 4.211097137415607e-05,
+        "grad_norm": 0.2141488641500473,
+        "seconds": 2.588368894532323,
+        "peak_bytes": 38262252544,
+        "peak_reserved_bytes": 39676018688,
+        "documents": 611929,
+        "excluded_documents": 16
+      },
+      "validation": [
+        {
+          "cross_entropy": 4.681072396808304,
+          "supervised_tokens": 4194304,
+          "perplexity": 107.8857068450878,
+          "step": 512,
+          "input_tokens": 268435456
+        },
+        {
+          "cross_entropy": 3.5893503251718357,
+          "supervised_tokens": 4194304,
+          "perplexity": 36.210543204561496,
+          "step": 1024,
+          "input_tokens": 536870912
+        },
+        {
+          "cross_entropy": 3.2201678454875946,
+          "supervised_tokens": 4194304,
+          "perplexity": 25.032321390940396,
+          "step": 1536,
+          "input_tokens": 805306368
+        },
+        {
+          "cross_entropy": 3.0679862309480086,
+          "supervised_tokens": 4194304,
+          "perplexity": 21.49856590783992,
+          "step": 2048,
+          "input_tokens": 1073741824
+        },
+        {
+          "cross_entropy": 2.9816741804243065,
+          "supervised_tokens": 4194304,
+          "perplexity": 19.72080520868512,
+          "step": 2560,
+          "input_tokens": 1342177280
+        },
+        {
+          "cross_entropy": 2.9098541963030584,
+          "supervised_tokens": 4194304,
+          "perplexity": 18.35412227303436,
+          "step": 3072,
+          "input_tokens": 1610612736
+        },
+        {
+          "cross_entropy": 2.861880877899239,
+          "supervised_tokens": 4194304,
+          "perplexity": 17.494400842892386,
+          "step": 3584,
+          "input_tokens": 1879048192
+        },
+        {
+          "cross_entropy": 2.8248242316767573,
+          "supervised_tokens": 4194304,
+          "perplexity": 16.857981626500543,
+          "step": 4096,
+          "input_tokens": 2147483648
+        },
+        {
+          "cross_entropy": 2.788443099387223,
+          "supervised_tokens": 4194304,
+          "perplexity": 16.25569159394971,
+          "step": 4608,
+          "input_tokens": 2415919104
+        },
+        {
+          "cross_entropy": 2.7625913550728,
+          "supervised_tokens": 4194304,
+          "perplexity": 15.840839046215873,
+          "step": 5120,
+          "input_tokens": 2684354560
+        },
+        {
+          "cross_entropy": 2.7368743230763357,
+          "supervised_tokens": 4194304,
+          "perplexity": 15.43865335845557,
+          "step": 5632,
+          "input_tokens": 2952790016
+        },
+        {
+          "cross_entropy": 2.7139288779580966,
+          "supervised_tokens": 4194304,
+          "perplexity": 15.088439852798096,
+          "step": 6144,
+          "input_tokens": 3221225472
+        },
+        {
+          "cross_entropy": 2.6933535121788736,
+          "supervised_tokens": 4194304,
+          "perplexity": 14.781161704269769,
+          "step": 6656,
+          "input_tokens": 3489660928
+        },
+        {
+          "cross_entropy": 2.675796954659745,
+          "supervised_tokens": 4194304,
+          "perplexity": 14.523920134307179,
+          "step": 7168,
+          "input_tokens": 3758096384
+        },
+        {
+          "cross_entropy": 2.6589827208663337,
+          "supervised_tokens": 4194304,
+          "perplexity": 14.281753176887168,
+          "step": 7680,
+          "input_tokens": 4026531840
+        },
+        {
+          "cross_entropy": 2.644656712509459,
+          "supervised_tokens": 4194304,
+          "perplexity": 14.078611242349659,
+          "step": 8192,
+          "input_tokens": 4294967296
+        },
+        {
+          "cross_entropy": 2.630553831200814,
+          "supervised_tokens": 4194304,
+          "perplexity": 13.881455756911253,
+          "step": 8704,
+          "input_tokens": 4563402752
+        },
+        {
+          "cross_entropy": 2.617100876668701,
+          "supervised_tokens": 4194304,
+          "perplexity": 13.695959696419836,
+          "step": 9216,
+          "input_tokens": 4831838208
+        },
+        {
+          "cross_entropy": 2.6062314397713635,
+          "supervised_tokens": 4194304,
+          "perplexity": 13.547898455625523,
+          "step": 9728,
+          "input_tokens": 5100273664
+        },
+        {
+          "cross_entropy": 2.596325854945462,
+          "supervised_tokens": 4194304,
+          "perplexity": 13.414361073091364,
+          "step": 10240,
+          "input_tokens": 5368709120
+        },
+        {
+          "cross_entropy": 2.5883378090220504,
+          "supervised_tokens": 4194304,
+          "perplexity": 13.307633381172373,
+          "step": 10752,
+          "input_tokens": 5637144576
+        },
+        {
+          "cross_entropy": 2.5808777521015145,
+          "supervised_tokens": 4194304,
+          "perplexity": 13.208727060759069,
+          "step": 11264,
+          "input_tokens": 5905580032
+        }
+      ],
+      "complete": null,
+      "checkpoint": {
+        "path": "/gpfs/users/linlizhi/komp-kda-options-ff2272-340m-20c-20261106/runs/block/checkpoint-011264",
+        "step": 11264,
+        "tokens": 5905580032
+      },
+      "warm_last20_median_seconds": 2.582428455352783,
+      "same_token_validation": [
+        {
+          "tokens": 268435456,
+          "baseline_ce": 4.341555325547233,
+          "combo_ce": 4.681072396808304,
+          "delta_combo_minus_baseline": 0.33951707126107067
+        },
+        {
+          "tokens": 536870912,
+          "baseline_ce": 3.567831137101166,
+          "combo_ce": 3.5893503251718357,
+          "delta_combo_minus_baseline": 0.02151918807066977
+        },
+        {
+          "tokens": 805306368,
+          "baseline_ce": 3.2489615406957455,
+          "combo_ce": 3.2201678454875946,
+          "delta_combo_minus_baseline": -0.028793695208150893
+        },
+        {
+          "tokens": 1073741824,
+          "baseline_ce": 3.0971927842474543,
+          "combo_ce": 3.0679862309480086,
+          "delta_combo_minus_baseline": -0.02920655329944566
+        },
+        {
+          "tokens": 1342177280,
+          "baseline_ce": 3.008152940601576,
+          "combo_ce": 2.9816741804243065,
+          "delta_combo_minus_baseline": -0.026478760177269578
+        },
+        {
+          "tokens": 1610612736,
+          "baseline_ce": 2.935277542070253,
+          "combo_ce": 2.9098541963030584,
+          "delta_combo_minus_baseline": -0.025423345767194405
+        },
+        {
+          "tokens": 1879048192,
+          "baseline_ce": 2.8877755101711955,
+          "combo_ce": 2.861880877899239,
+          "delta_combo_minus_baseline": -0.025894632271956652
+        },
+        {
+          "tokens": 2147483648,
+          "baseline_ce": 2.851172508264426,
+          "combo_ce": 2.8248242316767573,
+          "delta_combo_minus_baseline": -0.026348276587668806
+        },
+        {
+          "tokens": 2415919104,
+          "baseline_ce": 2.8138707204198,
+          "combo_ce": 2.788443099387223,
+          "delta_combo_minus_baseline": -0.025427621032577008
+        },
+        {
+          "tokens": 2684354560,
+          "baseline_ce": 2.7894354189920705,
+          "combo_ce": 2.7625913550728,
+          "delta_combo_minus_baseline": -0.02684406391927041
+        },
+        {
+          "tokens": 2952790016,
+          "baseline_ce": 2.7644577749888413,
+          "combo_ce": 2.7368743230763357,
+          "delta_combo_minus_baseline": -0.027583451912505552
+        },
+        {
+          "tokens": 3221225472,
+          "baseline_ce": 2.7414562701887917,
+          "combo_ce": 2.7139288779580966,
+          "delta_combo_minus_baseline": -0.027527392230695114
+        },
+        {
+          "tokens": 3489660928,
+          "baseline_ce": 2.722580194385955,
+          "combo_ce": 2.6933535121788736,
+          "delta_combo_minus_baseline": -0.029226682207081467
+        },
+        {
+          "tokens": 3758096384,
+          "baseline_ce": 2.7052088725031354,
+          "combo_ce": 2.675796954659745,
+          "delta_combo_minus_baseline": -0.029411917843390256
+        },
+        {
+          "tokens": 4026531840,
+          "baseline_ce": 2.689533196913544,
+          "combo_ce": 2.6589827208663337,
+          "delta_combo_minus_baseline": -0.030550476047210395
+        },
+        {
+          "tokens": 4294967296,
+          "baseline_ce": 2.6757957519148476,
+          "combo_ce": 2.644656712509459,
+          "delta_combo_minus_baseline": -0.031139039405388758
+        },
+        {
+          "tokens": 4563402752,
+          "baseline_ce": 2.661755207896931,
+          "combo_ce": 2.630553831200814,
+          "delta_combo_minus_baseline": -0.031201376696117222
+        },
+        {
+          "tokens": 4831838208,
+          "baseline_ce": 2.648976943688467,
+          "combo_ce": 2.617100876668701,
+          "delta_combo_minus_baseline": -0.0318760670197662
+        },
+        {
+          "tokens": 5100273664,
+          "baseline_ce": 2.6384699662739877,
+          "combo_ce": 2.6062314397713635,
+          "delta_combo_minus_baseline": -0.032238526502624154
+        },
+        {
+          "tokens": 5368709120,
+          "baseline_ce": 2.6293783923902083,
+          "combo_ce": 2.596325854945462,
+          "delta_combo_minus_baseline": -0.03305253744474612
+        },
+        {
+          "tokens": 5637144576,
+          "baseline_ce": 2.62168632101384,
+          "combo_ce": 2.5883378090220504,
+          "delta_combo_minus_baseline": -0.033348511991789564
+        },
+        {
+          "tokens": 5905580032,
+          "baseline_ce": 2.6144054901087657,
+          "combo_ce": 2.5808777521015145,
+          "delta_combo_minus_baseline": -0.03352773800725117
+        }
+      ]
+    }
+  }
+}

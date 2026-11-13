@@ -1,0 +1,288 @@
+{
+  "status": "passed",
+  "beta0": 0.1,
+  "slots": 64,
+  "checks": [
+    {
+      "name": "torch.float32/random65/output",
+      "relative_rms": 4.4317066016447556e-07,
+      "normalized_max": 1.8348883744356836e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "torch.float32/random65/keys",
+      "relative_rms": 5.1142274126816466e-08,
+      "normalized_max": 4.535310099695877e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "torch.float32/random65/state",
+      "relative_rms": 5.161681014924282e-07,
+      "normalized_max": 3.758761524252918e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "torch.float32/random65/dq",
+      "relative_rms": 4.1598608055147237e-07,
+      "normalized_max": 5.3444527348817106e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "torch.float32/random65/dk",
+      "relative_rms": 3.139750393685568e-07,
+      "normalized_max": 3.4398972692528673e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "torch.float32/random65/dv",
+      "relative_rms": 2.3800169955235202e-07,
+      "normalized_max": 2.1114014797651848e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "torch.float32/random65/dg",
+      "relative_rms": 6.393606915756678e-07,
+      "normalized_max": 6.906387706406079e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "torch.float32/random65/dbeta",
+      "relative_rms": 2.2901338141284115e-07,
+      "normalized_max": 2.4795836022894606e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "torch.float32/random65/dk0",
+      "relative_rms": 1.186693393614338e-06,
+      "normalized_max": 1.2606430930262036e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "torch.float32/random65/ds0",
+      "relative_rms": 5.693552146994915e-07,
+      "normalized_max": 7.694222945094191e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "torch.bfloat16/random65/output",
+      "relative_rms": 0.0016452514869661234,
+      "normalized_max": 0.0008765418444990902,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "torch.bfloat16/random65/keys",
+      "relative_rms": 5.506404667613322e-08,
+      "normalized_max": 4.7426411020623505e-08,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "torch.bfloat16/random65/state",
+      "relative_rms": 4.900050680205947e-07,
+      "normalized_max": 1.9176618584748617e-07,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "torch.bfloat16/random65/dq",
+      "relative_rms": 0.0023594995677112475,
+      "normalized_max": 0.0003607690738519076,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "torch.bfloat16/random65/dk",
+      "relative_rms": 0.0017122639653410626,
+      "normalized_max": 0.0010065919857231154,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "torch.bfloat16/random65/dv",
+      "relative_rms": 0.001864961769449312,
+      "normalized_max": 0.0010136964608388754,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "torch.bfloat16/random65/dg",
+      "relative_rms": 0.000942040348350159,
+      "normalized_max": 0.0007738880001594045,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "torch.bfloat16/random65/dbeta",
+      "relative_rms": 0.0008265381082169801,
+      "normalized_max": 0.000675877641145335,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "torch.bfloat16/random65/dk0",
+      "relative_rms": 0.0012947303863283638,
+      "normalized_max": 0.0010892568504856236,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "torch.bfloat16/random65/ds0",
+      "relative_rms": 0.001592212941181418,
+      "normalized_max": 0.0016099998594260102,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "real_first_layer/output",
+      "relative_rms": 0.0016440676228722708,
+      "normalized_max": 1.3995084848123472e-05,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "real_first_layer/keys",
+      "relative_rms": 5.855680150032543e-08,
+      "normalized_max": 6.550839154462196e-08,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "real_first_layer/state",
+      "relative_rms": 2.601813926668175e-06,
+      "normalized_max": 4.2130580736772505e-08,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "real_first_layer/dq",
+      "relative_rms": 0.0025259609336295208,
+      "normalized_max": 0.000639497655346738,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "real_first_layer/dk",
+      "relative_rms": 0.0016324648356890216,
+      "normalized_max": 0.0021357704407865817,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "real_first_layer/dv",
+      "relative_rms": 0.0019328106773540553,
+      "normalized_max": 0.0010911637701488397,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "real_first_layer/dg",
+      "relative_rms": 0.0008301764176007539,
+      "normalized_max": 2.499167156751539e-05,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "real_first_layer/dbeta",
+      "relative_rms": 0.0009171935714052103,
+      "normalized_max": 0.00022408854775364528,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "real_first_layer/dk0",
+      "relative_rms": 0.0,
+      "normalized_max": 0.0,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "real_first_layer/ds0",
+      "relative_rms": 0.0019997165288935465,
+      "normalized_max": 0.002239545375171465,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "hierarchical_vs_streamed/0",
+      "relative_rms": 7.262631280588635e-08,
+      "normalized_max": 5.21540641784668e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "hierarchical_vs_streamed/1",
+      "relative_rms": 0.0,
+      "normalized_max": 0.0,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "hierarchical_vs_streamed/2",
+      "relative_rms": 1.3779607921135954e-07,
+      "normalized_max": 1.4901161193847656e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "hierarchical_vs_streamed/3",
+      "relative_rms": 1.2819549172648451e-07,
+      "normalized_max": 3.725290298461914e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "hierarchical_vs_streamed/4",
+      "relative_rms": 2.048771618283701e-07,
+      "normalized_max": 1.7881393432617188e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "hierarchical_vs_streamed/5",
+      "relative_rms": 7.855455255635617e-08,
+      "normalized_max": 1.043081283569336e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "hierarchical_vs_streamed/6",
+      "relative_rms": 1.0992309538471316e-07,
+      "normalized_max": 3.0797412770947936e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "hierarchical_vs_streamed/7",
+      "relative_rms": 9.741210866008967e-08,
+      "normalized_max": 1.2537458506711188e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "hierarchical_vs_streamed/8",
+      "relative_rms": 0.0,
+      "normalized_max": 0.0,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "hierarchical_vs_streamed/9",
+      "relative_rms": 8.859125649504208e-08,
+      "normalized_max": 1.8187780466942164e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    }
+  ],
+  "scope": "Representative random and real activation forward/state/gradient checks plus hierarchical streaming consistency; original near-collinear FP32 stress failure retained."
+}

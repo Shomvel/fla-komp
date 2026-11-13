@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "microbatch": 16,
+  "accumulation": 1,
+  "global_sequences": 512,
+  "model_data_operator_source_unchanged": true,
+  "full_local_tokens": 32768,
+  "tail_local_tokens": 23456,
+  "full_microsteps": 1,
+  "tail_microsteps": 1,
+  "total_steps": 47684,
+  "total_supervised_tokens": 50000000000,
+  "tail_compute_padding": 297984,
+  "local_import_scope_audit": true,
+  "parent_step": 1068,
+  "parent_tokens": 1119879168
+}

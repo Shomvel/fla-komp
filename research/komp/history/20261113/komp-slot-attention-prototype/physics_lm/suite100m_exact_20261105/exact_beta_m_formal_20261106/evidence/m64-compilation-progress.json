@@ -1,0 +1,85 @@
+{
+  "time": 1793897237.7394762,
+  "files": [
+    {
+      "path": "FJBLBDE5R2IYBRGIOGGS5WLD6LR7NH7O5WIEDHOQQJNUHG7PNTJA/maps.json",
+      "seconds_ago": 1.3,
+      "size": 1116
+    },
+    {
+      "path": "FJBLBDE5R2IYBRGIOGGS5WLD6LR7NH7O5WIEDHOQQJNUHG7PNTJA/__grp__maps.json",
+      "seconds_ago": 1.3,
+      "size": 1003
+    },
+    {
+      "path": "FJBLBDE5R2IYBRGIOGGS5WLD6LR7NH7O5WIEDHOQQJNUHG7PNTJA/maps.cubin",
+      "seconds_ago": 1.3,
+      "size": 343984
+    },
+    {
+      "path": "FJBLBDE5R2IYBRGIOGGS5WLD6LR7NH7O5WIEDHOQQJNUHG7PNTJA/maps.ptx",
+      "seconds_ago": 1.9,
+      "size": 321574
+    },
+    {
+      "path": "FJBLBDE5R2IYBRGIOGGS5WLD6LR7NH7O5WIEDHOQQJNUHG7PNTJA/maps.llir",
+      "seconds_ago": 2.3,
+      "size": 832348
+    },
+    {
+      "path": "FJBLBDE5R2IYBRGIOGGS5WLD6LR7NH7O5WIEDHOQQJNUHG7PNTJA/maps.ttgir",
+      "seconds_ago": 3.1,
+      "size": 110260
+    },
+    {
+      "path": "FJBLBDE5R2IYBRGIOGGS5WLD6LR7NH7O5WIEDHOQQJNUHG7PNTJA/maps.source",
+      "seconds_ago": 3.5,
+      "size": 131673
+    },
+    {
+      "path": "FJBLBDE5R2IYBRGIOGGS5WLD6LR7NH7O5WIEDHOQQJNUHG7PNTJA/maps.ttir",
+      "seconds_ago": 3.5,
+      "size": 72273
+    },
+    {
+      "path": "2L3L6RNISJCMZTLG5NURLD2EEOSKZRM7XHYU3TUFNZUUZDNIRY5Q/state_scan.json",
+      "seconds_ago": 3.6,
+      "size": 1122
+    },
+    {
+      "path": "2L3L6RNISJCMZTLG5NURLD2EEOSKZRM7XHYU3TUFNZUUZDNIRY5Q/__grp__state_scan.json",
+      "seconds_ago": 3.6,
+      "size": 1087
+    },
+    {
+      "path": "2L3L6RNISJCMZTLG5NURLD2EEOSKZRM7XHYU3TUFNZUUZDNIRY5Q/state_scan.cubin",
+      "seconds_ago": 3.6,
+      "size": 119424
+    },
+    {
+      "path": "2L3L6RNISJCMZTLG5NURLD2EEOSKZRM7XHYU3TUFNZUUZDNIRY5Q/state_scan.ptx",
+      "seconds_ago": 3.8,
+      "size": 104262
+    },
+    {
+      "path": "2L3L6RNISJCMZTLG5NURLD2EEOSKZRM7XHYU3TUFNZUUZDNIRY5Q/state_scan.llir",
+      "seconds_ago": 4.0,
+      "size": 361057
+    },
+    {
+      "path": "2L3L6RNISJCMZTLG5NURLD2EEOSKZRM7XHYU3TUFNZUUZDNIRY5Q/state_scan.ttgir",
+      "seconds_ago": 4.3,
+      "size": 64162
+    },
+    {
+      "path": "2L3L6RNISJCMZTLG5NURLD2EEOSKZRM7XHYU3TUFNZUUZDNIRY5Q/state_scan.ttir",
+      "seconds_ago": 4.5,
+      "size": 29058
+    },
+    {
+      "path": "2L3L6RNISJCMZTLG5NURLD2EEOSKZRM7XHYU3TUFNZUUZDNIRY5Q/state_scan.source",
+      "seconds_ago": 4.5,
+      "size": 53911
+    }
+  ]
+}

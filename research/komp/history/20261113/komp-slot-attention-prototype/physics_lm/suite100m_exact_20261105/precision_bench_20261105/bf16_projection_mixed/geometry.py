@@ -1,0 +1,1 @@
+../../../../../../komp-slot-attention-prototype/physics_lm/suite100m_exact_20261105/precision_bench_20261105/bf16_projection_mixed/geometry.py

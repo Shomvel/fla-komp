@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-24471d823738-20261105235511",
+    "user_def_name": "physics100m-alpha995-lr-eval-brevo2-0p002-20261105",
+    "status": "Completed",
+    "ready_status": "0/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  }
+]

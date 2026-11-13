@@ -1,0 +1,39 @@
+{
+  "authorization": "1 H100, cumulative maximum45 minutes; Stage 2 not authorized",
+  "jobs": [
+    {
+      "identity": "job-0e764ac07769-20261106110059",
+      "phase": "Aborted",
+      "reported_running_time": "0h 0m 33s"
+    },
+    {
+      "identity": "job-272b90ec468f-20261106110439",
+      "phase": "Completed",
+      "reported_running_time": "0h 23m 29s"
+    }
+  ],
+  "reported_total_seconds": 1442,
+  "reported_single_gpu_hours": 0.40055555555555555,
+  "scope": "Platform-reported job durations including startup; not an active-SM meter",
+  "both_research_jobs_deleted": true,
+  "original_formal_jobs_unchanged": [
+    {
+      "name": "job-0cae6617a482-20261106094507",
+      "user_def_name": "komp340m-block-fla-mb16-20261106",
+      "status": "Running",
+      "ready_status": "1/1",
+      "namespace": "qiji",
+      "job_creator": "linlizhi",
+      "user_gpu": 8
+    },
+    {
+      "name": "job-fc9daba3ba43-20261106094504",
+      "user_def_name": "komp340m-exact-fla-mb16-20261106",
+      "status": "Running",
+      "ready_status": "1/1",
+      "namespace": "qiji",
+      "job_creator": "linlizhi",
+      "user_gpu": 8
+    }
+  ]
+}

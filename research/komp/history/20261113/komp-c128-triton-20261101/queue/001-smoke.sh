@@ -1,0 +1,1 @@
+../../../komp-c128-triton-20261101/queue/001-smoke.sh

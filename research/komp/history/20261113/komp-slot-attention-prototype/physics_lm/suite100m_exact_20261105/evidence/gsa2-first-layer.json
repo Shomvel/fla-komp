@@ -1,0 +1,795 @@
+{
+  "status": "completed",
+  "sources": {
+    "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+    "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+  },
+  "script_sha256": "4db56b02aa12a3f19b8527f0e0db18cef8747144e6a9bd2c57e319dfc7d7f2ad",
+  "scope": "First document of real Depo17-row witness; first block only, shared weights and exact document prefix, no training",
+  "length": 864,
+  "padded_length": 960,
+  "checks": {
+    "partition": {
+      "n1": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.9998469948768616
+      },
+      "mix.layer.q_proj": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5802647471427917
+      },
+      "mix.layer.q_conv1d": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.17487281560897827
+      },
+      "mix.layer.k_proj": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5676745176315308
+      },
+      "mix.layer.k_conv1d": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.17075391113758087
+      },
+      "mix.layer.v_proj": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5593653321266174
+      },
+      "mix.layer.v_conv1d": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.17255085706710815
+      },
+      "mix.layer.w_down": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5848101377487183
+      },
+      "mix.layer.w_up": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.34226730465888977
+      },
+      "mix.layer.w_conv1d": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.10167760401964188
+      },
+      "mix.layer.oja_gv_proj.0": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5903581380844116
+      },
+      "mix.layer.oja_gv_proj.1": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.34019842743873596
+      },
+      "mix.layer.oja_b_proj": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5828233957290649
+      },
+      "mix.layer.oja_c_proj": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5884717702865601
+      },
+      "mix.layer.gdn_g_proj.0": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5694714188575745
+      },
+      "mix.layer.gdn_g_proj.1": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.32436686754226685
+      },
+      "mix.layer.gdn_b_proj": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5640614032745361
+      },
+      "mix.layer.gdn_w_proj": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5789394378662109
+      },
+      "oja.q": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.17487281560897827
+      },
+      "oja.k": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.17075391113758087
+      },
+      "oja.v": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.12499983608722687
+      },
+      "oja.gv": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 3.1395089626312256
+      },
+      "oja.b": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5266327857971191
+      },
+      "oja.c": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5167609453201294
+      },
+      "oja.output": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.0012618883047252893
+      },
+      "gdn2.q": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.0006310081807896495
+      },
+      "gdn2.k": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.12500105798244476
+      },
+      "gdn2.v": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.17255085706710815
+      },
+      "gdn2.g": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.32436686754226685
+      },
+      "gdn2.b": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5171604156494141
+      },
+      "gdn2.w": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5200951099395752
+      },
+      "gdn2.output": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.012859744019806385
+      },
+      "mix.layer.g_proj.0": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5770962238311768
+      },
+      "mix.layer.g_proj.1": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.3347164988517761
+      },
+      "mix.layer.o_norm": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.48740020394325256
+      },
+      "mix.layer.o_proj": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.28160956501960754
+      },
+      "n2": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.9999992251396179
+      },
+      "up": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.45271188020706177
+      },
+      "down": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.07987960427999496
+      },
+      "block.output": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.2933172583580017
+      }
+    },
+    "single": {
+      "n1": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.9998469948768616
+      },
+      "mix.layer.q_proj": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5802647471427917
+      },
+      "mix.layer.q_conv1d": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.17487281560897827
+      },
+      "mix.layer.k_proj": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5676745176315308
+      },
+      "mix.layer.k_conv1d": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.17075391113758087
+      },
+      "mix.layer.v_proj": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5593653321266174
+      },
+      "mix.layer.v_conv1d": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.17255085706710815
+      },
+      "mix.layer.w_down": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5848101377487183
+      },
+      "mix.layer.w_up": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.34226730465888977
+      },
+      "mix.layer.w_conv1d": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.10167760401964188
+      },
+      "mix.layer.oja_gv_proj.0": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5903581380844116
+      },
+      "mix.layer.oja_gv_proj.1": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.34019842743873596
+      },
+      "mix.layer.oja_b_proj": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5828233957290649
+      },
+      "mix.layer.oja_c_proj": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5884717702865601
+      },
+      "mix.layer.gdn_g_proj.0": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5694714188575745
+      },
+      "mix.layer.gdn_g_proj.1": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.32436686754226685
+      },
+      "mix.layer.gdn_b_proj": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5640614032745361
+      },
+      "mix.layer.gdn_w_proj": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5789394378662109
+      },
+      "oja.q": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.17487281560897827
+      },
+      "oja.k": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.17075391113758087
+      },
+      "oja.v": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.12499983608722687
+      },
+      "oja.gv": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 3.1395089626312256
+      },
+      "oja.b": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5266327857971191
+      },
+      "oja.c": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5167609453201294
+      },
+      "oja.output": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.0012618883047252893
+      },
+      "gdn2.q": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.0006310081807896495
+      },
+      "gdn2.k": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.12500105798244476
+      },
+      "gdn2.v": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.17255085706710815
+      },
+      "gdn2.g": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.32436686754226685
+      },
+      "gdn2.b": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5171604156494141
+      },
+      "gdn2.w": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5200951099395752
+      },
+      "gdn2.output": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.012859744019806385
+      },
+      "mix.layer.g_proj.0": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5770962238311768
+      },
+      "mix.layer.g_proj.1": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.3347164988517761
+      },
+      "mix.layer.o_norm": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.48740020394325256
+      },
+      "mix.layer.o_proj": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.28160956501960754
+      },
+      "n2": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.9999992251396179
+      },
+      "up": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.45271188020706177
+      },
+      "down": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.07987960427999496
+      },
+      "block.output": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.2933172583580017
+      }
+    },
+    "dense": {
+      "n1": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.9998469948768616
+      },
+      "mix.layer.q_proj": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5802647471427917
+      },
+      "mix.layer.q_conv1d": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.17487281560897827
+      },
+      "mix.layer.k_proj": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5676745176315308
+      },
+      "mix.layer.k_conv1d": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.17075391113758087
+      },
+      "mix.layer.v_proj": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5593653321266174
+      },
+      "mix.layer.v_conv1d": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.17255085706710815
+      },
+      "mix.layer.w_down": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5848101377487183
+      },
+      "mix.layer.w_up": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.34226730465888977
+      },
+      "mix.layer.w_conv1d": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.10167760401964188
+      },
+      "mix.layer.oja_gv_proj.0": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5903581380844116
+      },
+      "mix.layer.oja_gv_proj.1": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.34019842743873596
+      },
+      "mix.layer.oja_b_proj": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5828233957290649
+      },
+      "mix.layer.oja_c_proj": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5884717702865601
+      },
+      "mix.layer.gdn_g_proj.0": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5694714188575745
+      },
+      "mix.layer.gdn_g_proj.1": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.32436686754226685
+      },
+      "mix.layer.gdn_b_proj": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5640614032745361
+      },
+      "mix.layer.gdn_w_proj": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5789394378662109
+      },
+      "oja.q": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.17487281560897827
+      },
+      "oja.k": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.17075391113758087
+      },
+      "oja.v": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.12499983608722687
+      },
+      "oja.gv": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 3.1395089626312256
+      },
+      "oja.b": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5266327857971191
+      },
+      "oja.c": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5167609453201294
+      },
+      "oja.output": {
+        "finite": true,
+        "rms_relative": 6.064298213459551e-05,
+        "max_abs": 3.0517578125e-05,
+        "reference_rms": 0.0012618883047252893
+      },
+      "gdn2.q": {
+        "finite": true,
+        "rms_relative": 6.063683031243272e-05,
+        "max_abs": 1.52587890625e-05,
+        "reference_rms": 0.0006310081807896495
+      },
+      "gdn2.k": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.12500105798244476
+      },
+      "gdn2.v": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.17255085706710815
+      },
+      "gdn2.g": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.32436686754226685
+      },
+      "gdn2.b": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5171604156494141
+      },
+      "gdn2.w": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5200951099395752
+      },
+      "gdn2.output": {
+        "finite": true,
+        "rms_relative": 0.00010088450653711334,
+        "max_abs": 0.00048828125,
+        "reference_rms": 0.012859744019806385
+      },
+      "mix.layer.g_proj.0": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.5770962238311768
+      },
+      "mix.layer.g_proj.1": {
+        "finite": true,
+        "rms_relative": 0.0,
+        "max_abs": 0.0,
+        "reference_rms": 0.3347164988517761
+      },
+      "mix.layer.o_norm": {
+        "finite": true,
+        "rms_relative": 0.00011247528163949028,
+        "max_abs": 0.0078125,
+        "reference_rms": 0.48740020394325256
+      },
+      "mix.layer.o_proj": {
+        "finite": true,
+        "rms_relative": 0.00022851189714856446,
+        "max_abs": 0.00390625,
+        "reference_rms": 0.28160956501960754
+      },
+      "n2": {
+        "finite": true,
+        "rms_relative": 0.0002285973314428702,
+        "max_abs": 0.015307426452636719,
+        "reference_rms": 0.9999992251396179
+      },
+      "up": {
+        "finite": true,
+        "rms_relative": 0.0004004913498647511,
+        "max_abs": 0.0078125,
+        "reference_rms": 0.45271188020706177
+      },
+      "down": {
+        "finite": true,
+        "rms_relative": 0.0007459110929630697,
+        "max_abs": 0.001953125,
+        "reference_rms": 0.07987960427999496
+      },
+      "block.output": {
+        "finite": true,
+        "rms_relative": 0.00029856315813958645,
+        "max_abs": 0.0048828125,
+        "reference_rms": 0.2933172583580017
+      }
+    },
+    "oja_same_input_dense_vs_packed": {
+      "finite": true,
+      "rms_relative": 0.0,
+      "max_abs": 0.0,
+      "reference_rms": 0.0012618883047252893
+    },
+    "gdn2_same_input_dense_vs_packed": {
+      "finite": true,
+      "rms_relative": 0.0,
+      "max_abs": 0.0,
+      "reference_rms": 0.012859744019806385
+    }
+  },
+  "norms": {
+    "oja.q": {
+      "min": 0.5359524488449097,
+      "p01": 0.9512849450111389,
+      "p50": 1.3677997589111328,
+      "max": 2.1461541652679443
+    },
+    "oja.k": {
+      "min": 0.5016036629676819,
+      "p01": 0.9032883048057556,
+      "p50": 1.3090450763702393,
+      "max": 2.2558891773223877
+    },
+    "oja.v": {
+      "min": 0.9999970197677612,
+      "p01": 0.9999982714653015,
+      "p50": 0.9999987483024597,
+      "max": 0.9999992251396179
+    },
+    "oja.output": {
+      "min": 9.96189410216175e-05,
+      "p01": 0.001175431883893907,
+      "p50": 0.00783984549343586,
+      "max": 0.03589274361729622
+    },
+    "gdn2.q": {
+      "min": 4.980947051080875e-05,
+      "p01": 0.0005877159419469535,
+      "p50": 0.003919629845768213,
+      "max": 0.018026726320385933
+    },
+    "gdn2.k": {
+      "min": 0.9982185363769531,
+      "p01": 0.9988752603530884,
+      "p50": 1.0000027418136597,
+      "max": 1.0019233226776123
+    },
+    "gdn2.output": {
+      "min": 0.0049224053509533405,
+      "p01": 0.03157594054937363,
+      "p50": 0.09717071801424026,
+      "max": 0.24792511761188507
+    }
+  }
+}

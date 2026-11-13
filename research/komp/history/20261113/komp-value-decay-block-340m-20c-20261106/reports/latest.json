@@ -1,0 +1,86 @@
+{
+  "latest": {
+    "kind": "block",
+    "step": 3036,
+    "effective_input_tokens": 1591738368,
+    "input_tokens": 1591738368,
+    "supervised_tokens": 1591738368,
+    "compute_tokens": 1591738368,
+    "loss": 3.0068841576576233,
+    "lr": 0.0002815387819460327,
+    "grad_norm": 0.1781633347272873,
+    "seconds": 4.8195799849927425,
+    "peak_bytes": 38818094592,
+    "peak_reserved_bytes": 40741371904,
+    "documents": 164082,
+    "excluded_documents": 3
+  },
+  "budget_percent": 23.407917176470587,
+  "warm_median_seconds": 4.910792274400592,
+  "warm_tokens_per_second": 106762.40628891073,
+  "validation": {
+    "cross_entropy": 3.1201317215454765,
+    "supervised_tokens": 4194304,
+    "perplexity": 22.649362855773816,
+    "step": 2560,
+    "input_tokens": 1342177280
+  },
+  "checkpoint": {
+    "path": "/gpfs/users/linlizhi/komp-value-decay-block-340m-20c-20261106/runs/block/checkpoint-002816",
+    "step": 2816,
+    "tokens": 1476395008
+  },
+  "complete": null,
+  "preflight": {
+    "status": "passed",
+    "kind": "block",
+    "source_sha": "211b49fdea7eb41c878491735332303db14d8dc4f6486bbcf7dad62752e305be",
+    "data_sha": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+    "batching_sha": "1db5c1ce5cee0fc4f389b3c0a897c767767a6eefc40e65a74209ea7bffd38f1b",
+    "parameters": 341552000,
+    "initial_model_sha": "de921fda86c2d22d840accb7ceb6b40ec5f2de82544d208ffd42e42b64e1da0c",
+    "initialization": "native seed42",
+    "cases": [
+      {
+        "case": "full",
+        "loss": 10.548085510730743,
+        "global_valid_tokens": 524288,
+        "grad_norm": 4.256167888641357,
+        "seconds": 46.98237547278404,
+        "peak_bytes": 36074162176,
+        "replicas_identical": true
+      },
+      {
+        "case": "final_tail",
+        "loss": 9.48579176474865,
+        "global_valid_tokens": 508928,
+        "grad_norm": 2.8666746616363525,
+        "seconds": 7.124264322221279,
+        "peak_bytes": 38820523008,
+        "replicas_identical": true
+      }
+    ],
+    "causal_absolute": 0.0,
+    "updated_causal_absolute": 0.022167980670928955,
+    "updated_causal_rmsrel": 0.0015204476658254862,
+    "native_causality_contract": "numerical only after updates",
+    "aligned_full_tail_ce": true,
+    "all_gradients_parameters_finite": true,
+    "full_model_adam_rng_loader_restore": true,
+    "replicas_identical": true,
+    "trial_tokens_counted": 0,
+    "formal_start": "Fresh seed42 model and original data cursor, not trial checkpoint"
+  },
+  "jobs": [
+    {
+      "name": "job-a8bbce53a014-20261106195012",
+      "user_def_name": "komp340m-block-value-decay-20261106",
+      "status": "Running",
+      "ready_status": "1/1",
+      "namespace": "qiji",
+      "job_creator": "linlizhi",
+      "user_gpu": 8
+    }
+  ],
+  "timestamp_utc": "2026-11-06T15:56:24.371340+00:00"
+}

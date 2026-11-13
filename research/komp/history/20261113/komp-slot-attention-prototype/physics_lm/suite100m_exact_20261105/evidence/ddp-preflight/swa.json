@@ -1,0 +1,86 @@
+{
+  "status": "passed",
+  "model": {
+    "kind": "swa",
+    "parameters": 99723712,
+    "width": 512,
+    "layers": 15,
+    "ff": 2048,
+    "heads": 8,
+    "head_dim": 64,
+    "short_conv": true,
+    "conv_size": 4,
+    "block_chunk": null,
+    "block_slots": null,
+    "exact_compute_chunk": null,
+    "compression_tokens": null,
+    "eviction": null,
+    "projection_dtype": null,
+    "gsa_slots": null,
+    "rope_base": 10000,
+    "swa_window": 96
+  },
+  "world_size": 8,
+  "sources": {
+    "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+    "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+  },
+  "checks": [
+    "full-model causality",
+    "FP32 one-GPU rank-shaped accumulation vs8GPU global objective and update",
+    "uneven17-document batch",
+    "3-document tail with dummy ranks",
+    "replica equality after each step",
+    "all-rank RNG and model/optimizer checkpoint restore",
+    "real long Depo2 BF16 update"
+  ],
+  "fp32_gradient_rms": {
+    "embed.weight": 6.847186995173615e-08,
+    "layers.0.mix.out.weight": 7.624561249031103e-08,
+    "head.weight": 7.038106275558675e-08
+  },
+  "parameter_max_abs": {
+    "embed.weight": 3.725290298461914e-09,
+    "layers.0.mix.out.weight": 1.4528632164001465e-07,
+    "head.weight": 7.450580596923828e-09
+  },
+  "short_batch": {
+    "loss": 10.463305305032168,
+    "tokens": 389,
+    "supervised": 34,
+    "microsteps": 1,
+    "global_documents": 17,
+    "grad_norm": 43.6356201171875
+  },
+  "tail_batch": {
+    "loss": 10.402045567830404,
+    "tokens": 77,
+    "supervised": 6,
+    "microsteps": 1,
+    "global_documents": 3,
+    "grad_norm": 95.51417541503906
+  },
+  "real_batch": {
+    "loss": 10.488752546601493,
+    "tokens": 7927,
+    "supervised": 1114,
+    "microsteps": 1,
+    "global_documents": 17,
+    "grad_norm": 46.40877151489258
+  },
+  "whole_batch_native_numerics": {
+    "loss": 10.463303565979004,
+    "partitioned_loss": 10.46330451965332,
+    "loss_abs": 9.5367431640625e-07,
+    "gradient_rms": {
+      "embed.weight": 4.905497007712256e-06,
+      "layers.0.mix.out.weight": 4.776801233674632e-06,
+      "head.weight": 3.119761231573648e-06
+    },
+    "gradient_sign_disagreement_fraction": {
+      "embed.weight": 0.0,
+      "layers.0.mix.out.weight": 7.62939453125e-06,
+      "head.weight": 7.934570476209046e-07
+    }
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "captured_utc": "2026-11-06T07:27:34.866109+00:00",
+  "models": {
+    "exact": {
+      "preflight": {
+        "status": "passed",
+        "kind": "exact",
+        "source_sha": "c3d706d01cdb0560ffcbba07747bfcc17d00db18a80c8f9bc73e6de6074f2c46",
+        "data_sha": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+        "batching_sha": "1db5c1ce5cee0fc4f389b3c0a897c767767a6eefc40e65a74209ea7bffd38f1b",
+        "parameters": 307723136,
+        "initial_model_sha": "a49d5e20907afa426ff7df274510a6145853f6dd643a4a231502450016d5e19f",
+        "shared_backbone_initial_sha": "7e27442d37035cfefb7b7083036162f33ba61b0acf32279d889d31bc77814611",
+        "cases": [
+          {
+            "case": "full",
+            "loss": 10.577132642269135,
+            "global_valid_tokens": 524288,
+            "grad_norm": 13.496383666992188,
+            "seconds": 19.511888098903,
+            "peak_bytes": 31297820672,
+            "replicas_identical": true
+          },
+          {
+            "case": "final_tail",
+            "loss": 9.61107299313459,
+            "global_valid_tokens": 508928,
+            "grad_norm": 19.919178009033203,
+            "seconds": 9.667277968022972,
+            "peak_bytes": 33776161280,
+            "replicas_identical": true
+          }
+        ],
+        "causal_absolute": 0.0,
+        "aligned_full_tail_ce": true,
+        "all_gradients_parameters_finite": true,
+        "full_model_adam_rng_loader_restore": true,
+        "replicas_identical": true,
+        "trial_tokens_counted": 0,
+        "formal_start": "Fresh seed42 model and original data cursor, not trial checkpoint"
+      },
+      "latest": {
+        "kind": "exact",
+        "step": 612,
+        "effective_input_tokens": 320864256,
+        "input_tokens": 320864256,
+        "supervised_tokens": 320864256,
+        "compute_tokens": 320864256,
+        "loss": 4.383353635668755,
+        "lr": 0.00017929687499999999,
+        "grad_norm": 3.7161948680877686,
+        "seconds": 5.36908546090126,
+        "peak_bytes": 33776607232,
+        "peak_reserved_bytes": 35592863744,
+        "documents": 32697,
+        "excluded_documents": 0
+      },
+      "validation": [
+        {
+          "cross_entropy": 4.634613446891308,
+          "supervised_tokens": 4194304,
+          "perplexity": 102.98809992964048,
+          "step": 512,
+          "input_tokens": 268435456
+        }
+      ],
+      "complete": null,
+      "checkpoint": {
+        "path": "/gpfs/users/linlizhi/komp-kda-options-340m-20c-20261106/runs/exact/checkpoint-000512",
+        "step": 512,
+        "tokens": 268435456
+      },
+      "warm_last20_median_seconds": 5.368125231470913,
+      "same_token_validation": [
+        {
+          "tokens": 268435456,
+          "baseline_ce": 4.347470311098732,
+          "combo_ce": 4.634613446891308,
+          "delta_combo_minus_baseline": 0.2871431357925758
+        }
+      ]
+    },
+    "block": {
+      "preflight": {
+        "status": "passed",
+        "kind": "block",
+        "source_sha": "c3d706d01cdb0560ffcbba07747bfcc17d00db18a80c8f9bc73e6de6074f2c46",
+        "data_sha": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+        "batching_sha": "1db5c1ce5cee0fc4f389b3c0a897c767767a6eefc40e65a74209ea7bffd38f1b",
+        "parameters": 307723136,
+        "initial_model_sha": "a49d5e20907afa426ff7df274510a6145853f6dd643a4a231502450016d5e19f",
+        "shared_backbone_initial_sha": "7e27442d37035cfefb7b7083036162f33ba61b0acf32279d889d31bc77814611",
+        "cases": [
+          {
+            "case": "full",
+            "loss": 10.576387405395508,
+            "global_valid_tokens": 524288,
+            "grad_norm": 16.876192092895508,
+            "seconds": 41.100751262158155,
+            "peak_bytes": 32385718784,
+            "replicas_identical": true
+          },
+          {
+            "case": "final_tail",
+            "loss": 9.627419607979911,
+            "global_valid_tokens": 508928,
+            "grad_norm": 20.754404067993164,
+            "seconds": 6.83006957732141,
+            "peak_bytes": 34849908736,
+            "replicas_identical": true
+          }
+        ],
+        "causal_absolute": 0.0,
+        "aligned_full_tail_ce": true,
+        "all_gradients_parameters_finite": true,
+        "full_model_adam_rng_loader_restore": true,
+        "replicas_identical": true,
+        "trial_tokens_counted": 0,
+        "formal_start": "Fresh seed42 model and original data cursor, not trial checkpoint"
+      },
+      "latest": {
+        "kind": "block",
+        "step": 1191,
+        "effective_input_tokens": 624427008,
+        "input_tokens": 624427008,
+        "supervised_tokens": 624427008,
+        "compute_tokens": 624427008,
+        "loss": 3.4637435972690582,
+        "lr": 0.00029986982614608543,
+        "grad_norm": 0.6906099915504456,
+        "seconds": 2.688862880691886,
+        "peak_bytes": 34850064384,
+        "peak_reserved_bytes": 35750150144,
+        "documents": 64562,
+        "excluded_documents": 0
+      },
+      "validation": [
+        {
+          "cross_entropy": 4.691272344673052,
+          "supervised_tokens": 4194304,
+          "perplexity": 108.99176671735098,
+          "step": 512,
+          "input_tokens": 268435456
+        },
+        {
+          "cross_entropy": 3.6197773669846356,
+          "supervised_tokens": 4194304,
+          "perplexity": 37.329256172001244,
+          "step": 1024,
+          "input_tokens": 536870912
+        }
+      ],
+      "complete": null,
+      "checkpoint": {
+        "path": "/gpfs/users/linlizhi/komp-kda-options-340m-20c-20261106/runs/block/checkpoint-001024",
+        "step": 1024,
+        "tokens": 536870912
+      },
+      "warm_last20_median_seconds": 2.5619794046506286,
+      "same_token_validation": [
+        {
+          "tokens": 268435456,
+          "baseline_ce": 4.341555325547233,
+          "combo_ce": 4.691272344673052,
+          "delta_combo_minus_baseline": 0.3497170191258192
+        },
+        {
+          "tokens": 536870912,
+          "baseline_ce": 3.567831137101166,
+          "combo_ce": 3.6197773669846356,
+          "delta_combo_minus_baseline": 0.05194622988346964
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "files": {
+    "DESIGN.md": "b9ed5bda6f4937edc818e7626a75a50634c558eeec7913ddb0f8fd9c2fe1b3a7",
+    "README.md": "df69069c27e9433fe7bcbe1e6cd919b4814ed259619bb010be22210148bfdb67",
+    "STATIC_DIAGNOSIS_R2.md": "904a18d8b7ace202daa469c91a17974288b5981a2fafff62e25d90179686addf",
+    "benchmark.py": "3bd6dab64d82119a7e4b2e725125b734a85ba44faa754a23d5294c89c19c490a",
+    "diagnose_model.py": "b6d5197e9d479f2e8e67d7f82094fdc15e824655afc67be5a12293fc5bd3067c",
+    "fixture_validate.py": "2811bddebb732e37270b1db3a82c3507e76f391653b23b48138b2099c8cff63d",
+    "freeze_sources.py": "50768f89d14e5c12603e2de1e7be0c89e707ad619af59489c095359983093aa4",
+    "gpu_entry.py": "ec6ae631e2bdc0a994739e32a3895c5019f672f6b192ff09271037fae65816b4",
+    "gpu_validate.py": "39cef3cec5623fdb848c04547b101810a5482f824aa89fbaf3e1399d45aa3087",
+    "komp_inference/__init__.py": "54ca8f5dd28e6d098dc64c1cd01eb1189d1a34122ca8de542b60452ddf9e472f",
+    "komp_inference/model.py": "4b53546fc486b91c985ca96e583cbb91336817a9a2634122e7750a36e49c2af2",
+    "komp_inference/native_chunk.py": "19dc17cc9df25c22dc8d8a6c009492e338f6604ca6a8618b87c0f1f5c5117022",
+    "komp_inference/native_model.py": "60f107c9f8227740cd1867e76a5deadda93addf972fb0de98f0690bfb6149773",
+    "komp_inference/prefill.py": "3543c0b848826485e38be662ab38e7afefd548588c0fb8ff45ef0fda2388c9b3",
+    "komp_inference/recurrent.py": "f23a7a7be3c9a42c938f4f03792580b90ed9035bcc469c074ace525a73275f7a",
+    "komp_inference/triton_step.py": "d5eabe46861ca2fcf66ba7d0b780729a5f61411a5f3efef32c3b9935a356da5e",
+    "tests/test_diagnostic.py": "250944a4107d7bfed84d1d73dbbbf082d673f1252bb82a05fe318739c347dfbc",
+    "tests/test_model.py": "c202e52965d9449f6ea041f64965dd82473cd08e43b84a7011aa6ea06785dec5",
+    "tests/test_native_chunk.py": "acd48cc466b759dbc018d0af710483b215bbc69bcef76c3e562bbaf80d035223",
+    "tests/test_recurrent.py": "811d442764bd625eda6982f13cf2f121d1ff9c982f67805fb9dfcf97404bc0eb",
+    "validation-plan.json": "d8ca82e47c039640e08a362eb9166690fbb0bd6ea4dcebd7a865169888f74a79",
+    "verify_sources.py": "ca2168fdbade4d65188119140ae8ec79c42081c13b9df22faffe5720e459f353"
+  }
+}

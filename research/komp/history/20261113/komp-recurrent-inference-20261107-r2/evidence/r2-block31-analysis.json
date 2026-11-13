@@ -1,0 +1,514 @@
+{
+  "status": "diagnosed_not_accepted",
+  "model": "block",
+  "length": 31,
+  "comparisons": 1216,
+  "source_manifest_sha256": "226bef160d973a34464604137e51f88ab62597044b4a3bbac862c513a052ce37",
+  "comparisons_sha256": "0969f8e1c1c08d51cb50b695ede8e530650a4ac96eeb2a1bef9260798d49dc72",
+  "controls": {
+    "conv_final_flag": {
+      "count": 72,
+      "all_equal": true,
+      "max_absolute": 0.0
+    },
+    "conv_cache": {
+      "count": 72,
+      "all_equal": true,
+      "max_absolute": 0.0
+    },
+    "operand_": {
+      "count": 168,
+      "all_equal": true,
+      "max_absolute": 0.0
+    },
+    "native_double_normalization": {
+      "count": 24,
+      "all_equal": true,
+      "max_absolute": 0.0
+    },
+    "attn_norm_control": {
+      "count": 24,
+      "all_equal": true,
+      "max_absolute": 0.0
+    },
+    "postprocess_control": {
+      "count": 24,
+      "all_equal": true,
+      "max_absolute": 0.0
+    },
+    "native_manual_layer_control": {
+      "count": 24,
+      "all_equal": true,
+      "max_absolute": 0.0
+    }
+  },
+  "logits": [
+    {
+      "label": "T31/r1_cascade/logits",
+      "shape": [
+        1,
+        1,
+        32000
+      ],
+      "actual_dtype": "torch.float32",
+      "expected_dtype": "torch.float32",
+      "finite": true,
+      "absolute": 0.0625,
+      "rmsrel": 0.003007770501277965,
+      "equal": false,
+      "within_frozen_model_numeric_gate": false,
+      "top1_equal": true,
+      "actual_top2_ids": [
+        [
+          349,
+          19463
+        ]
+      ],
+      "expected_top2_ids": [
+        [
+          349,
+          19463
+        ]
+      ],
+      "actual_top2_values": [
+        [
+          9.75,
+          8.9375
+        ]
+      ],
+      "expected_top2_values": [
+        [
+          9.75,
+          9.0
+        ]
+      ],
+      "actual_margin": [
+        0.8125
+      ],
+      "expected_margin": [
+        0.75
+      ]
+    },
+    {
+      "label": "T31/native_output_probe/logits",
+      "shape": [
+        1,
+        1,
+        32000
+      ],
+      "actual_dtype": "torch.float32",
+      "expected_dtype": "torch.float32",
+      "finite": true,
+      "absolute": 0.0,
+      "rmsrel": 0.0,
+      "equal": true,
+      "within_frozen_model_numeric_gate": true,
+      "top1_equal": true,
+      "actual_top2_ids": [
+        [
+          349,
+          19463
+        ]
+      ],
+      "expected_top2_ids": [
+        [
+          349,
+          19463
+        ]
+      ],
+      "actual_top2_values": [
+        [
+          9.75,
+          9.0
+        ]
+      ],
+      "expected_top2_values": [
+        [
+          9.75,
+          9.0
+        ]
+      ],
+      "actual_margin": [
+        0.75
+      ],
+      "expected_margin": [
+        0.75
+      ]
+    },
+    {
+      "label": "T31/decode0/r1",
+      "shape": [
+        1,
+        1,
+        32000
+      ],
+      "actual_dtype": "torch.float32",
+      "expected_dtype": "torch.float32",
+      "finite": true,
+      "absolute": 0.0625,
+      "rmsrel": 0.0028975925963850165,
+      "equal": false,
+      "within_frozen_model_numeric_gate": true,
+      "top1_equal": true,
+      "actual_top2_ids": [
+        [
+          5344,
+          272
+        ]
+      ],
+      "expected_top2_ids": [
+        [
+          5344,
+          272
+        ]
+      ],
+      "actual_top2_values": [
+        [
+          9.5625,
+          9.5625
+        ]
+      ],
+      "expected_top2_values": [
+        [
+          9.5625,
+          9.5
+        ]
+      ],
+      "actual_margin": [
+        0.0
+      ],
+      "expected_margin": [
+        0.0625
+      ]
+    },
+    {
+      "label": "T31/decode0/native_output_probe",
+      "shape": [
+        1,
+        1,
+        32000
+      ],
+      "actual_dtype": "torch.float32",
+      "expected_dtype": "torch.float32",
+      "finite": true,
+      "absolute": 0.0625,
+      "rmsrel": 0.002531254840323297,
+      "equal": false,
+      "within_frozen_model_numeric_gate": true,
+      "top1_equal": true,
+      "actual_top2_ids": [
+        [
+          5344,
+          272
+        ]
+      ],
+      "expected_top2_ids": [
+        [
+          5344,
+          272
+        ]
+      ],
+      "actual_top2_values": [
+        [
+          9.5625,
+          9.5
+        ]
+      ],
+      "expected_top2_values": [
+        [
+          9.5625,
+          9.5
+        ]
+      ],
+      "actual_margin": [
+        0.0625
+      ],
+      "expected_margin": [
+        0.0625
+      ]
+    },
+    {
+      "label": "T31/decode1/r1",
+      "shape": [
+        1,
+        1,
+        32000
+      ],
+      "actual_dtype": "torch.float32",
+      "expected_dtype": "torch.float32",
+      "finite": true,
+      "absolute": 0.0625,
+      "rmsrel": 0.002700055863613165,
+      "equal": false,
+      "within_frozen_model_numeric_gate": true,
+      "top1_equal": true,
+      "actual_top2_ids": [
+        [
+          28723,
+          13
+        ]
+      ],
+      "expected_top2_ids": [
+        [
+          28723,
+          13
+        ]
+      ],
+      "actual_top2_values": [
+        [
+          11.5625,
+          11.0625
+        ]
+      ],
+      "expected_top2_values": [
+        [
+          11.5625,
+          11.0625
+        ]
+      ],
+      "actual_margin": [
+        0.5
+      ],
+      "expected_margin": [
+        0.5
+      ]
+    },
+    {
+      "label": "T31/decode1/native_output_probe",
+      "shape": [
+        1,
+        1,
+        32000
+      ],
+      "actual_dtype": "torch.float32",
+      "expected_dtype": "torch.float32",
+      "finite": true,
+      "absolute": 0.0625,
+      "rmsrel": 0.0027886770457358186,
+      "equal": false,
+      "within_frozen_model_numeric_gate": true,
+      "top1_equal": true,
+      "actual_top2_ids": [
+        [
+          28723,
+          13
+        ]
+      ],
+      "expected_top2_ids": [
+        [
+          28723,
+          13
+        ]
+      ],
+      "actual_top2_values": [
+        [
+          11.5625,
+          11.0625
+        ]
+      ],
+      "expected_top2_values": [
+        [
+          11.5625,
+          11.0625
+        ]
+      ],
+      "actual_margin": [
+        0.5
+      ],
+      "expected_margin": [
+        0.5
+      ]
+    },
+    {
+      "label": "T31/decode2/r1",
+      "shape": [
+        1,
+        1,
+        32000
+      ],
+      "actual_dtype": "torch.float32",
+      "expected_dtype": "torch.float32",
+      "finite": true,
+      "absolute": 0.0625,
+      "rmsrel": 0.002465313628472864,
+      "equal": false,
+      "within_frozen_model_numeric_gate": true,
+      "top1_equal": true,
+      "actual_top2_ids": [
+        [
+          13,
+          415
+        ]
+      ],
+      "expected_top2_ids": [
+        [
+          13,
+          415
+        ]
+      ],
+      "actual_top2_values": [
+        [
+          12.5,
+          11.5
+        ]
+      ],
+      "expected_top2_values": [
+        [
+          12.5,
+          11.5
+        ]
+      ],
+      "actual_margin": [
+        1.0
+      ],
+      "expected_margin": [
+        1.0
+      ]
+    },
+    {
+      "label": "T31/decode2/native_output_probe",
+      "shape": [
+        1,
+        1,
+        32000
+      ],
+      "actual_dtype": "torch.float32",
+      "expected_dtype": "torch.float32",
+      "finite": true,
+      "absolute": 0.0625,
+      "rmsrel": 0.0029155732150543826,
+      "equal": false,
+      "within_frozen_model_numeric_gate": true,
+      "top1_equal": true,
+      "actual_top2_ids": [
+        [
+          13,
+          415
+        ]
+      ],
+      "expected_top2_ids": [
+        [
+          13,
+          415
+        ]
+      ],
+      "actual_top2_values": [
+        [
+          12.5,
+          11.5
+        ]
+      ],
+      "expected_top2_values": [
+        [
+          12.5,
+          11.5
+        ]
+      ],
+      "actual_margin": [
+        1.0
+      ],
+      "expected_margin": [
+        1.0
+      ]
+    },
+    {
+      "label": "T31/decode3/r1",
+      "shape": [
+        1,
+        1,
+        32000
+      ],
+      "actual_dtype": "torch.float32",
+      "expected_dtype": "torch.float32",
+      "finite": true,
+      "absolute": 0.0625,
+      "rmsrel": 0.003791147079340108,
+      "equal": false,
+      "within_frozen_model_numeric_gate": false,
+      "top1_equal": true,
+      "actual_top2_ids": [
+        [
+          1014,
+          28737
+        ]
+      ],
+      "expected_top2_ids": [
+        [
+          1014,
+          28737
+        ]
+      ],
+      "actual_top2_values": [
+        [
+          14.1875,
+          12.0625
+        ]
+      ],
+      "expected_top2_values": [
+        [
+          14.1875,
+          12.0625
+        ]
+      ],
+      "actual_margin": [
+        2.125
+      ],
+      "expected_margin": [
+        2.125
+      ]
+    },
+    {
+      "label": "T31/decode3/native_output_probe",
+      "shape": [
+        1,
+        1,
+        32000
+      ],
+      "actual_dtype": "torch.float32",
+      "expected_dtype": "torch.float32",
+      "finite": true,
+      "absolute": 0.0625,
+      "rmsrel": 0.004263823946532381,
+      "equal": false,
+      "within_frozen_model_numeric_gate": false,
+      "top1_equal": true,
+      "actual_top2_ids": [
+        [
+          1014,
+          28737
+        ]
+      ],
+      "expected_top2_ids": [
+        [
+          1014,
+          28737
+        ]
+      ],
+      "actual_top2_values": [
+        [
+          14.1875,
+          12.0625
+        ]
+      ],
+      "expected_top2_values": [
+        [
+          14.1875,
+          12.0625
+        ]
+      ],
+      "actual_margin": [
+        2.125
+      ],
+      "expected_margin": [
+        2.125
+      ]
+    }
+  ],
+  "top1_diagnostic_bug": {
+    "cause": "topk(2) first index is not argmax tie semantics",
+    "r1_decode0_proven_greedy_mismatch": true,
+    "proof": "actual 272 and 5344 share max9.5625, so argmax first index <=272; expected unique maximum5344 at9.5625 with runnerup272 at9.5",
+    "actual_exact_argmax_unknown": true,
+    "native_probe_recorded_positive_margin_all_steps": true
+  }
+}

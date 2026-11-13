@@ -1,0 +1,42 @@
+{
+  "block_fast.py": {
+    "identical_to_frozen_training": true,
+    "sha256": "79629c0cf0096624c7004a7cab9bd7d41acffb6de93b2a70ded0ed6d0275a9e7"
+  },
+  "block_komp.py": {
+    "identical_to_frozen_training": true,
+    "sha256": "4a3c4edb4434ce11480e968158b7813ce58293d9d69363ba5c3763ca22947231"
+  },
+  "scan.py": {
+    "identical_to_frozen_training": true,
+    "sha256": "1bbe108e5900fff570e70795f272cfab60ea42aa34f39342f5fdcc1af888ef4a"
+  },
+  "exact_komp/versioned.py": {
+    "identical_to_frozen_training": true,
+    "sha256": "78e15ea818ee0f04ddc551c800b5bb31a34e57212f5c0b7e7f028022a99bd94d"
+  },
+  "exact_komp/hierarchical.py": {
+    "identical_to_frozen_training": true,
+    "sha256": "100517a5611d0db3c82b8584340c76207b39f688d38128c3dbca698937103b68"
+  },
+  "exact_komp/recurrence.py": {
+    "identical_to_frozen_training": true,
+    "sha256": "41bd96f432f2c7424e8831aaa3340495510369609fe90b308baa3646353dd6bd"
+  },
+  "exact_komp/operator.py": {
+    "identical_to_frozen_training": true,
+    "sha256": "d3878b96551a16aef4323ace9bec652604d7dd37534b1fb42b0cbd5b94ca12d0"
+  },
+  "exact_komp/__init__.py": {
+    "identical_to_frozen_training": true,
+    "sha256": "e5ca7eef4e205d3331b8d24ddb87e0cc12148beddd28fe1e7a9c668f4d2d1058"
+  },
+  "exact_komp/geometry.py": {
+    "identical_to_frozen_training": true,
+    "sha256": "c3ed25d0557b4bc417ef39f2df1653c4d3e978321590f0cf4abc430ea46ee389"
+  },
+  "exact_komp/chunk_backward.py": {
+    "identical_to_frozen_training": true,
+    "sha256": "654a29b52abdda49d49d88dd66eb3a6db36d5c31a5ac2d5d69f247f8df454337"
+  }
+}

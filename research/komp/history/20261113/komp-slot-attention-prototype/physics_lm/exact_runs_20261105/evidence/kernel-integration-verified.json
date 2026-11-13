@@ -1,0 +1,30 @@
+{
+  "versioned.py": {
+    "sha256": "78e15ea818ee0f04ddc551c800b5bb31a34e57212f5c0b7e7f028022a99bd94d",
+    "matches_integrated": true
+  },
+  "hierarchical.py": {
+    "sha256": "100517a5611d0db3c82b8584340c76207b39f688d38128c3dbca698937103b68",
+    "matches_integrated": true
+  },
+  "recurrence.py": {
+    "sha256": "41bd96f432f2c7424e8831aaa3340495510369609fe90b308baa3646353dd6bd",
+    "matches_integrated": true
+  },
+  "operator.py": {
+    "sha256": "d3878b96551a16aef4323ace9bec652604d7dd37534b1fb42b0cbd5b94ca12d0",
+    "matches_integrated": true
+  },
+  "__init__.py": {
+    "sha256": "e5ca7eef4e205d3331b8d24ddb87e0cc12148beddd28fe1e7a9c668f4d2d1058",
+    "matches_integrated": true
+  },
+  "geometry.py": {
+    "sha256": "c3ed25d0557b4bc417ef39f2df1653c4d3e978321590f0cf4abc430ea46ee389",
+    "matches_integrated": true
+  },
+  "chunk_backward.py": {
+    "sha256": "654a29b52abdda49d49d88dd66eb3a6db36d5c31a5ac2d5d69f247f8df454337",
+    "matches_integrated": true
+  }
+}

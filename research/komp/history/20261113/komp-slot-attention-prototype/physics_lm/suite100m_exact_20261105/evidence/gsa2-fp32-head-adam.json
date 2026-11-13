@@ -1,0 +1,147 @@
+{
+  "status": "completed",
+  "sources": {
+    "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+    "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+  },
+  "cases": {
+    "gsa2/mano": {
+      "whole_loss": 10.487114906311035,
+      "partition_loss": 10.487114191055298,
+      "loss_abs": 7.152557373046875e-07,
+      "gradient_rms": {
+        "embed.weight": 0.017685020342469215,
+        "layers.0.mix.layer.o_proj.weight": 0.014324983581900597,
+        "head.weight": 1.244885368123505e-07
+      },
+      "parameter_max_abs": {
+        "embed.weight": 0.000199989415705204,
+        "layers.0.mix.layer.o_proj.weight": 0.00019991770386695862,
+        "head.weight": 8.137430995702744e-08
+      },
+      "whole_grad_norm": 4910.01611328125,
+      "partition_grad_norm": 4894.01513671875,
+      "adam_witness": {
+        "embed.weight": {
+          "flat_index": 1044,
+          "whole_raw_gradient": -1.644934892654419,
+          "partition_raw_gradient": 0.6442866325378418,
+          "whole_clipped_gradient": -0.0003350161902462945,
+          "partition_clipped_gradient": 0.00013164786262556666,
+          "whole_gradient_rms": 0.8938503861427307,
+          "parameter_difference": -0.000199989415705204,
+          "parameter_rms_relative": 2.8112612199038267e-05,
+          "update_rms_relative": 0.14676250517368317,
+          "sign_disagreement_fraction": 8.117675861285534e-06
+        },
+        "layers.0.mix.layer.o_proj.weight": {
+          "flat_index": 42828,
+          "whole_raw_gradient": -0.1318359375,
+          "partition_raw_gradient": 0.1015625,
+          "whole_clipped_gradient": -2.6850408314657583e-05,
+          "partition_clipped_gradient": 2.075238779243772e-05,
+          "whole_gradient_rms": 2.0795421600341797,
+          "parameter_difference": -0.00019991770386695862,
+          "parameter_rms_relative": 0.0005200572777539492,
+          "update_rms_relative": 0.13278332352638245,
+          "sign_disagreement_fraction": 0.004589080810546875
+        },
+        "head.weight": {
+          "flat_index": 2569363,
+          "whole_raw_gradient": 4.4026968680555e-05,
+          "partition_raw_gradient": 4.402697231853381e-05,
+          "whole_clipped_gradient": 8.966766636976683e-09,
+          "partition_clipped_gradient": 8.996084212983477e-09,
+          "whole_gradient_rms": 0.0009548261296004057,
+          "parameter_difference": -8.137430995702744e-08,
+          "parameter_rms_relative": 1.452132437407272e-06,
+          "update_rms_relative": 0.00269727548584342,
+          "sign_disagreement_fraction": 3.6621094068323146e-07
+        }
+      },
+      "post_step_function": {
+        "whole_loss": 10.430267333984375,
+        "partition_loss": 10.478113511029411,
+        "loss_abs": 0.04784617704503624,
+        "hidden_rms_relative": 0.5933003425598145
+      },
+      "accepted": false,
+      "thresholds": {
+        "loss_abs": 0.005,
+        "gradient_rms": 0.02,
+        "parameter_max_abs": 0.0001
+      }
+    },
+    "gsa2/depo2": {
+      "whole_loss": 10.492342948913574,
+      "partition_loss": 10.492343544960022,
+      "loss_abs": 5.960464477539062e-07,
+      "gradient_rms": {
+        "embed.weight": 0.019353093579411507,
+        "layers.0.mix.layer.o_proj.weight": 0.017548447474837303,
+        "head.weight": 2.5244477797059517e-07
+      },
+      "parameter_max_abs": {
+        "embed.weight": 0.00019999034702777863,
+        "layers.0.mix.layer.o_proj.weight": 0.0001999232918024063,
+        "head.weight": 5.4016709327697754e-08
+      },
+      "whole_grad_norm": 915.6172485351562,
+      "partition_grad_norm": 915.0120849609375,
+      "adam_witness": {
+        "embed.weight": {
+          "flat_index": 1012,
+          "whole_raw_gradient": -0.13732078671455383,
+          "partition_raw_gradient": 0.2686898708343506,
+          "whole_clipped_gradient": -0.00014997619014306396,
+          "partition_clipped_gradient": 0.0002936462533739922,
+          "whole_gradient_rms": 0.16976992785930634,
+          "parameter_difference": -0.00019999034702777863,
+          "parameter_rms_relative": 2.1788175217807293e-05,
+          "update_rms_relative": 0.15913642942905426,
+          "sign_disagreement_fraction": 4.760742285725428e-06
+        },
+        "layers.0.mix.layer.o_proj.weight": {
+          "flat_index": 31639,
+          "whole_raw_gradient": -0.019287109375,
+          "partition_raw_gradient": 0.03033447265625,
+          "whole_clipped_gradient": -2.1064598100125077e-05,
+          "partition_clipped_gradient": 3.315199123779115e-05,
+          "whole_gradient_rms": 0.3534237742424011,
+          "parameter_difference": -0.0001999232918024063,
+          "parameter_rms_relative": 0.0005836804048158228,
+          "update_rms_relative": 0.14903508126735687,
+          "sign_disagreement_fraction": 0.00579071044921875
+        },
+        "head.weight": {
+          "flat_index": 4864263,
+          "whole_raw_gradient": 1.8589198589324951e-06,
+          "partition_raw_gradient": 1.8506543710827827e-06,
+          "whole_clipped_gradient": 2.03023682644275e-09,
+          "partition_clipped_gradient": 2.022546367941405e-09,
+          "whole_gradient_rms": 0.0002563597809057683,
+          "parameter_difference": 5.4016709327697754e-08,
+          "parameter_rms_relative": 4.76648892799858e-07,
+          "update_rms_relative": 0.00048354759928770363,
+          "sign_disagreement_fraction": 6.103515914901436e-08
+        }
+      },
+      "post_step_function": {
+        "whole_loss": 10.461163669771095,
+        "partition_loss": 10.453142532540395,
+        "loss_abs": 0.008021137230699082,
+        "hidden_rms_relative": 0.6789637804031372
+      },
+      "accepted": false,
+      "thresholds": {
+        "loss_abs": 0.005,
+        "gradient_rms": 0.02,
+        "parameter_max_abs": 0.0001
+      }
+    }
+  },
+  "accepted": false,
+  "verdict": "FAILED",
+  "scope": "BF16 network with FP32 loss head, fixed normalization configs and packed long cache-free eval; isolated candidate, not formal acceptance",
+  "layout_sha256": "9fa2e887151e93b6a184632f3e97bfd0db377a4cd5538a56fdf48bac509074e4"
+}

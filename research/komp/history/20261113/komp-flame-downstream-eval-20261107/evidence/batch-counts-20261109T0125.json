@@ -1,0 +1,38 @@
+{
+  "captured_utc": "2026-11-08T17:27:29.563478+00:00",
+  "models": {
+    "kda": {
+      "complete_batch_files": 4250,
+      "last_mtime": 1794039784.4764097
+    },
+    "block123": {
+      "complete_batch_files": 4250,
+      "last_mtime": 1794158260.423439
+    },
+    "exact123": {
+      "complete_batch_files": 4250,
+      "last_mtime": 1794080557.8942535
+    },
+    "learned": {
+      "complete_batch_files": 3774,
+      "last_mtime": 1794158824.953595
+    },
+    "learned123": {
+      "complete_batch_files": 3766,
+      "last_mtime": 1794158834.759306
+    },
+    "block": {
+      "complete_batch_files": 4250,
+      "last_mtime": 1794157432.830067
+    },
+    "value": {
+      "complete_batch_files": 4250,
+      "last_mtime": 1794062964.107682
+    },
+    "exact_partial": {
+      "complete_batch_files": 4250,
+      "last_mtime": 1794080533.1617823
+    }
+  },
+  "total_batch_files": 33040
+}

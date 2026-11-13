@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-cc613003a120-20261106222833",
+    "user_def_name": "komp340m-block-kda123-ff2272-resume1-20261106",
+    "status": "Running",
+    "ready_status": "1/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 8
+  }
+]

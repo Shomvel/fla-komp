@@ -1,0 +1,928 @@
+{
+  "variants": {
+    "coh_fifo_off": {
+      "losses": [
+        10.361680030822754,
+        9.560525894165039,
+        8.967421531677246,
+        8.527189254760742,
+        8.19896411895752,
+        7.938041687011719,
+        7.72291374206543,
+        7.534600734710693,
+        7.351253032684326,
+        7.173309326171875,
+        7.00822639465332,
+        6.859527111053467,
+        6.6630964279174805,
+        6.493088245391846,
+        6.310924530029297,
+        6.110437870025635
+      ],
+      "causality": "passed",
+      "cuts": [
+        {
+          "cut": 31,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 32,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 33,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 40,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 63,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 64,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 65,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 127,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 128,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 129,
+          "max_abs": 0.0
+        }
+      ],
+      "trained_causality": "passed",
+      "score_gradient_norms": []
+    },
+    "coh_fifo_99": {
+      "losses": [
+        10.361604690551758,
+        9.55986499786377,
+        8.968293190002441,
+        8.526611328125,
+        8.199396133422852,
+        7.938531398773193,
+        7.723764419555664,
+        7.536168575286865,
+        7.351601600646973,
+        7.178092956542969,
+        7.032360076904297,
+        6.851633071899414,
+        6.66763973236084,
+        6.479284286499023,
+        6.290224075317383,
+        6.098280429840088
+      ],
+      "causality": "passed",
+      "cuts": [
+        {
+          "cut": 31,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 32,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 33,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 40,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 63,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 64,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 65,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 127,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 128,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 129,
+          "max_abs": 0.0
+        }
+      ],
+      "trained_causality": "passed",
+      "score_gradient_norms": []
+    },
+    "coh_fifo_95": {
+      "losses": [
+        10.3607759475708,
+        9.560234069824219,
+        8.96676254272461,
+        8.525803565979004,
+        8.199422836303711,
+        7.938233375549316,
+        7.725011825561523,
+        7.537224769592285,
+        7.353977203369141,
+        7.1810221672058105,
+        7.030301570892334,
+        6.85036039352417,
+        6.662412166595459,
+        6.479410171508789,
+        6.283873558044434,
+        6.094428062438965
+      ],
+      "causality": "passed",
+      "cuts": [
+        {
+          "cut": 31,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 32,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 33,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 40,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 63,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 64,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 65,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 127,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 128,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 129,
+          "max_abs": 0.0
+        }
+      ],
+      "trained_causality": "passed",
+      "score_gradient_norms": []
+    },
+    "coh_fifo_80": {
+      "losses": [
+        10.362892150878906,
+        9.553751945495605,
+        8.959100723266602,
+        8.517996788024902,
+        8.193603515625,
+        7.9354119300842285,
+        7.721336841583252,
+        7.53273344039917,
+        7.350231170654297,
+        7.171264171600342,
+        6.998330116271973,
+        6.831550121307373,
+        6.648678302764893,
+        6.492464065551758,
+        6.302712440490723,
+        6.101672172546387
+      ],
+      "causality": "passed",
+      "cuts": [
+        {
+          "cut": 31,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 32,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 33,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 40,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 63,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 64,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 65,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 127,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 128,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 129,
+          "max_abs": 0.0
+        }
+      ],
+      "trained_causality": "passed",
+      "score_gradient_norms": []
+    },
+    "coh_gate_off": {
+      "losses": [
+        10.361680030822754,
+        9.561535835266113,
+        8.968459129333496,
+        8.527473449707031,
+        8.199579238891602,
+        7.937929630279541,
+        7.723801136016846,
+        7.53556489944458,
+        7.35204553604126,
+        7.178492546081543,
+        7.031186580657959,
+        6.83617639541626,
+        6.674663066864014,
+        6.490424156188965,
+        6.286520481109619,
+        6.106109619140625
+      ],
+      "causality": "passed",
+      "cuts": [
+        {
+          "cut": 31,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 32,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 33,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 40,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 63,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 64,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 65,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 127,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 128,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 129,
+          "max_abs": 0.0
+        }
+      ],
+      "trained_causality": "passed",
+      "score_gradient_norms": [
+        0.03080936335027218,
+        0.01971510797739029,
+        0.012057110667228699,
+        0.010820204392075539
+      ]
+    },
+    "coh_gate_99": {
+      "losses": [
+        10.361604690551758,
+        9.561076164245605,
+        8.969636917114258,
+        8.527613639831543,
+        8.200284004211426,
+        7.938146591186523,
+        7.723548889160156,
+        7.535984992980957,
+        7.352907180786133,
+        7.179163455963135,
+        7.031232833862305,
+        6.839016914367676,
+        6.6888580322265625,
+        6.488631725311279,
+        6.2939019203186035,
+        6.11006498336792
+      ],
+      "causality": "passed",
+      "cuts": [
+        {
+          "cut": 31,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 32,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 33,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 40,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 63,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 64,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 65,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 127,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 128,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 129,
+          "max_abs": 0.0
+        }
+      ],
+      "trained_causality": "passed",
+      "score_gradient_norms": [
+        0.030880676582455635,
+        0.01974114216864109,
+        0.01210737507790327,
+        0.010817998088896275
+      ]
+    },
+    "coh_gate_95": {
+      "losses": [
+        10.3607759475708,
+        9.561280250549316,
+        8.967979431152344,
+        8.52614688873291,
+        8.199570655822754,
+        7.938071250915527,
+        7.724409103393555,
+        7.537814140319824,
+        7.353898525238037,
+        7.182156562805176,
+        7.029053211212158,
+        6.848933696746826,
+        6.662752151489258,
+        6.479549884796143,
+        6.283931732177734,
+        6.094699382781982
+      ],
+      "causality": "passed",
+      "cuts": [
+        {
+          "cut": 31,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 32,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 33,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 40,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 63,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 64,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 65,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 127,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 128,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 129,
+          "max_abs": 0.0
+        }
+      ],
+      "trained_causality": "passed",
+      "score_gradient_norms": [
+        0.030888758599758148,
+        0.019763067364692688,
+        0.012147422879934311,
+        0.010792674496769905
+      ]
+    },
+    "coh_gate_80": {
+      "losses": [
+        10.362892150878906,
+        9.554753303527832,
+        8.9599609375,
+        8.520498275756836,
+        8.195993423461914,
+        7.937016487121582,
+        7.722766399383545,
+        7.534847259521484,
+        7.350254058837891,
+        7.172902584075928,
+        7.007572174072266,
+        6.854355335235596,
+        6.662899494171143,
+        6.470201015472412,
+        6.297358512878418,
+        6.116866588592529
+      ],
+      "causality": "passed",
+      "cuts": [
+        {
+          "cut": 31,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 32,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 33,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 40,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 63,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 64,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 65,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 127,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 128,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 129,
+          "max_abs": 0.0
+        }
+      ],
+      "trained_causality": "passed",
+      "score_gradient_norms": [
+        0.03081163950264454,
+        0.020016970112919807,
+        0.012129226699471474,
+        0.011040201410651207
+      ]
+    },
+    "coh_learned_off": {
+      "losses": [
+        10.361680030822754,
+        9.582639694213867,
+        8.984288215637207,
+        8.543156623840332,
+        8.213293075561523,
+        7.950656890869141,
+        7.735621452331543,
+        7.546116352081299,
+        7.360680103302002,
+        7.19061803817749,
+        7.035210132598877,
+        6.843657493591309,
+        6.666747093200684,
+        6.480649471282959,
+        6.311887264251709,
+        6.109068870544434
+      ],
+      "causality": "passed",
+      "cuts": [
+        {
+          "cut": 31,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 32,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 33,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 40,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 63,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 64,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 65,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 127,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 128,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 129,
+          "max_abs": 0.0
+        }
+      ],
+      "trained_causality": "passed",
+      "score_gradient_norms": [
+        0.03080936335027218,
+        0.01971510797739029,
+        0.012057110667228699,
+        0.010820204392075539
+      ]
+    },
+    "coh_learned_99": {
+      "losses": [
+        10.361604690551758,
+        9.569442749023438,
+        8.975258827209473,
+        8.53315544128418,
+        8.206915855407715,
+        7.943359375,
+        7.728977680206299,
+        7.5400071144104,
+        7.357841968536377,
+        7.183897495269775,
+        7.037744998931885,
+        6.844115257263184,
+        6.6800761222839355,
+        6.488831520080566,
+        6.291052341461182,
+        6.103487014770508
+      ],
+      "causality": "passed",
+      "cuts": [
+        {
+          "cut": 31,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 32,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 33,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 40,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 63,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 64,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 65,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 127,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 128,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 129,
+          "max_abs": 0.0
+        }
+      ],
+      "trained_causality": "passed",
+      "score_gradient_norms": [
+        0.030880676582455635,
+        0.01974114216864109,
+        0.01210737507790327,
+        0.010817998088896275
+      ]
+    },
+    "coh_learned_95": {
+      "losses": [
+        10.3607759475708,
+        9.568604469299316,
+        8.975914001464844,
+        8.534889221191406,
+        8.205936431884766,
+        7.9438581466674805,
+        7.728810787200928,
+        7.5417704582214355,
+        7.356691360473633,
+        7.182362079620361,
+        7.027625560760498,
+        6.859223365783691,
+        6.671953201293945,
+        6.488090515136719,
+        6.30063533782959,
+        6.103133201599121
+      ],
+      "causality": "passed",
+      "cuts": [
+        {
+          "cut": 31,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 32,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 33,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 40,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 63,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 64,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 65,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 127,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 128,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 129,
+          "max_abs": 0.0
+        }
+      ],
+      "trained_causality": "passed",
+      "score_gradient_norms": [
+        0.030888758599758148,
+        0.019763067364692688,
+        0.012147422879934311,
+        0.010792674496769905
+      ]
+    },
+    "coh_learned_80": {
+      "losses": [
+        10.362892150878906,
+        9.563580513000488,
+        8.96782398223877,
+        8.531050682067871,
+        8.205296516418457,
+        7.944070816040039,
+        7.729368686676025,
+        7.53840970993042,
+        7.353357791900635,
+        7.177682876586914,
+        7.018291473388672,
+        6.8480401039123535,
+        6.659204006195068,
+        6.47529935836792,
+        6.338329792022705,
+        6.106884479522705
+      ],
+      "causality": "passed",
+      "cuts": [
+        {
+          "cut": 31,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 32,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 33,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 40,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 63,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 64,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 65,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 127,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 128,
+          "max_abs": 0.0
+        },
+        {
+          "cut": 129,
+          "max_abs": 0.0
+        }
+      ],
+      "trained_causality": "passed",
+      "score_gradient_norms": [
+        0.03081163950264454,
+        0.020016970112919807,
+        0.012129226699471474,
+        0.011040201410651207
+      ]
+    }
+  },
+  "status": "passed",
+  "source_sha256": {
+    "physics_lm/block_experiment.py": "ab75ce8bbcb69ed650f616204cf652425836e00bf8dbfbac0798b0bd31517ed8",
+    "physics_lm/experiment.py": "3963e05767c6a83daa5b3b3e0f1e8a559632a5c239841c8c218c22afe066a060",
+    "komp_slot/__init__.py": "31ff68031942bcbd8efaa22724d4ccf0497cc44dd4bc6a729d43bfad48e2acfc",
+    "komp_slot/block_fast.py": "a8e4c72527473bb1928841df26c5e4625e9441f5b7f2b309f420cabf8d0c74ce",
+    "komp_slot/block_flex.py": "04e049363c3adcc4e675f2076b9977e585c3ce655e8566ffaad14519964c3144",
+    "komp_slot/block_komp.py": "bcde52ca1270099a05b716954ce012bd2a145de21a28ae6cc77bd1e023e1ff17",
+    "komp_slot/block_reference.py": "c36873c0ec4a9987bb1a8c3760289091a93c8ac47ce0bca4191c6a1d30cd5a24",
+    "komp_slot/bsgd.py": "6ea0889a577a253078019fc499d9707dea4bd76044d3bd4d9f7d9b888a71707a",
+    "komp_slot/bsgd_chunk.py": "76c576b71779b53bccf557a33d2714eafffec9e285255398a29b0a33a0a9ded2",
+    "komp_slot/bsgd_reference.py": "1bfec79de41bc7c1a94a90de43f66688b45983a02314887e194b06d07a81c1a3",
+    "komp_slot/chunk.py": "c869f89c55e04930abb12879ece418a59034fed3fff56428129043d1c61df092",
+    "komp_slot/decay.py": "a831b7effa5907bd2b183f902f74ea521f02c28496cd3846de02743389e61e40",
+    "komp_slot/fast_chunk.py": "0a6fa0c812791aab05e66d136a5261cceedcdad76c659a0eac0946cf592ac592",
+    "komp_slot/geometry.py": "74faed0b02fd51d739a75a6766fa37e15920d96ec5aea430dfc42be58fabde14",
+    "komp_slot/geometry_chunk.py": "34e6039108dcf1f1bbf3a25767f00c2752d61123cae790a8dfc7e2070ccdb126",
+    "komp_slot/kapa.py": "bf0f1f73e2b831a88d8774b2215e554e2719d6c358c0aca55957e2014cdfe0fa",
+    "komp_slot/kapa_chunk.py": "a23efd2bda07d67b8a50a5a3d9a42fae114d4a8a239a0a5a7cac6b1d67e6e396",
+    "komp_slot/kapa_geometry.py": "cbc184c9cdcfbedd0fffe237bb913532bc4c41374acd25e2006676ecb3ff7a82",
+    "komp_slot/kapa_reference.py": "3575757ebe150876c980acc558edbcf3d8f7fae4cd15885832a080599ce42413",
+    "komp_slot/kernels.py": "72f1750a8ada09d7d2323d682bb7b5a8c73960aff96618bf58e35b22ea5df08b",
+    "komp_slot/operator.py": "6a79a87acf157b484eafec3eaf78719c0d20969d8addd339d3a224818dfc371e",
+    "komp_slot/recurrence.py": "78b5e2469ff96fb5be096e2af0e165837191ae03c2a4767f04f80bc435ac844e",
+    "komp_slot/reference.py": "d2941e97714c35bd5245a675e0b232be3355f939a62e8723ab80af3d73582bd7",
+    "komp_slot/scan.py": "1bbe108e5900fff570e70795f272cfab60ea42aa34f39342f5fdcc1af888ef4a",
+    "komp_slot/triton_chunk.py": "75197354e2f2cd816e6b77f8bf67a34f95cdf18eac8219a2709af7382c96476b",
+    "komp_slot/utils.py": "0861344f151287a70501001231dc13a3f95a11dbc2ce2aeede55996aaecb0ada",
+    "physics_lm/block_coherence.py": "b87fa5769a8bb54ac27a0083f84522d60b133a02e40bfd277ae05cf18675b0f2"
+  },
+  "additional_checks": [
+    {
+      "kind": "coh_fifo_off",
+      "future_gradient": 0,
+      "train_only_masked_statistics": true,
+      "diagnostic_trace_bitwise_neutral": true
+    },
+    {
+      "kind": "coh_fifo_99",
+      "future_gradient": 0,
+      "train_only_masked_statistics": true,
+      "diagnostic_trace_bitwise_neutral": true
+    },
+    {
+      "kind": "coh_fifo_95",
+      "future_gradient": 0,
+      "train_only_masked_statistics": true,
+      "diagnostic_trace_bitwise_neutral": true
+    },
+    {
+      "kind": "coh_fifo_80",
+      "future_gradient": 0,
+      "train_only_masked_statistics": true,
+      "diagnostic_trace_bitwise_neutral": true
+    },
+    {
+      "kind": "coh_gate_off",
+      "future_gradient": 0,
+      "train_only_masked_statistics": true,
+      "diagnostic_trace_bitwise_neutral": true
+    },
+    {
+      "kind": "coh_gate_99",
+      "future_gradient": 0,
+      "train_only_masked_statistics": true,
+      "diagnostic_trace_bitwise_neutral": true
+    },
+    {
+      "kind": "coh_gate_95",
+      "future_gradient": 0,
+      "train_only_masked_statistics": true,
+      "diagnostic_trace_bitwise_neutral": true
+    },
+    {
+      "kind": "coh_gate_80",
+      "future_gradient": 0,
+      "train_only_masked_statistics": true,
+      "diagnostic_trace_bitwise_neutral": true
+    },
+    {
+      "kind": "coh_learned_off",
+      "future_gradient": 0,
+      "train_only_masked_statistics": true,
+      "diagnostic_trace_bitwise_neutral": true
+    },
+    {
+      "kind": "coh_learned_99",
+      "future_gradient": 0,
+      "train_only_masked_statistics": true,
+      "diagnostic_trace_bitwise_neutral": true
+    },
+    {
+      "kind": "coh_learned_95",
+      "future_gradient": 0,
+      "train_only_masked_statistics": true,
+      "diagnostic_trace_bitwise_neutral": true
+    },
+    {
+      "kind": "coh_learned_80",
+      "future_gradient": 0,
+      "train_only_masked_statistics": true,
+      "diagnostic_trace_bitwise_neutral": true
+    }
+  ]
+}

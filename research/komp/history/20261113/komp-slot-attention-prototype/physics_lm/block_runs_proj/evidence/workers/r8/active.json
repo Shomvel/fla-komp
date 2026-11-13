@@ -1,0 +1,11 @@
+{
+  "name": "fifo_noproj_c128-seed734",
+  "started": 1793522870.7633617,
+  "command": [
+    "block_ablation.py",
+    "--kind",
+    "fifo_noproj_c128",
+    "--seed",
+    "734"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "completed_runs": 21,
+  "checked_generations": 5376,
+  "method": "Depo dictionary hop execution; Brevo ancestors recomputed from input DAG, no gold-node shortcut",
+  "runs": [
+    "results/gsa2_native_lr1e3-seed731/summary.json",
+    "results/gsa2_native_lr1e3-seed732/summary.json",
+    "results/gsa2_native_lr1e3-seed733/summary.json",
+    "results/gsa2_native_lr1e3-seed734/summary.json",
+    "results/gsa2_native_lr1e3-seed735/summary.json",
+    "results/gsa2_native_lr1e3-seed736/summary.json",
+    "results/gsa2_native_lr1e3-seed737/summary.json",
+    "results/gsa2_native_lr5e4-seed731/summary.json",
+    "results/gsa2_native_lr5e4-seed732/summary.json",
+    "results/gsa2_native_lr5e4-seed733/summary.json",
+    "results/gsa2_native_lr5e4-seed734/summary.json",
+    "results/gsa2_native_lr5e4-seed735/summary.json",
+    "results/gsa2_native_lr5e4-seed736/summary.json",
+    "results/gsa2_native_lr5e4-seed737/summary.json",
+    "results/gsa2_noconv_lr5e4-seed731/summary.json",
+    "results/gsa2_noconv_lr5e4-seed732/summary.json",
+    "results/gsa2_noconv_lr5e4-seed733/summary.json",
+    "results/gsa2_noconv_lr5e4-seed734/summary.json",
+    "results/gsa2_noconv_lr5e4-seed735/summary.json",
+    "results/gsa2_noconv_lr5e4-seed736/summary.json",
+    "results/gsa2_noconv_lr5e4-seed737/summary.json"
+  ]
+}

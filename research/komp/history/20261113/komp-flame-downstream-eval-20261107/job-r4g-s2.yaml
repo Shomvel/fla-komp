@@ -1,0 +1,70 @@
+apiVersion: batch.volcano.sh/v1alpha1
+kind: Job
+metadata:
+  name: komp340m-downstream-eval-20261108-r4g-s2
+  namespace: qiji
+  annotations:
+    JobAlias: komp340m-downstream-eval-20261108-r4g-s2
+    project: WeaverRSI
+spec:
+  minAvailable: 1
+  schedulerName: volcano
+  queue: proj-32
+  maxRetry: 0
+  policies:
+    - {event: PodFailed, action: AbortJob}
+    - {event: PodEvicted, action: AbortJob}
+  tasks:
+    - replicas: 1
+      name: runner
+      template:
+        spec:
+          activeDeadlineSeconds: 604800
+          restartPolicy: Never
+          tolerations:
+            - {key: task-type, operator: Equal, value: rsi-weaver, effect: NoSchedule}
+            - {key: task-type, operator: Equal, value: weaver, effect: NoSchedule}
+            - {key: task-type, operator: Equal, value: infra-dev-weaver, effect: NoSchedule}
+          volumes:
+            - name: gpfs
+              hostPath: {path: /gpfs, type: Directory}
+            - name: shm
+              emptyDir: {medium: Memory, sizeLimit: 32Gi}
+          containers:
+            - name: runner
+              image: harbor.local.clusters/bp/weaver-trainer-megatron-bridge:v1.14.30@sha256:8e310d0cb124813a25683448b41df67331951aae06e17bddcfd3f7692f71520e
+              resources:
+                requests: {nvidia.com/gpu: '8', cpu: '32', memory: 256Gi}
+                limits: {nvidia.com/gpu: '8', cpu: '32', memory: 256Gi}
+              volumeMounts:
+                - {name: gpfs, mountPath: /gpfs}
+                - {name: shm, mountPath: /dev/shm}
+              command: [/bin/bash, -lc]
+              args:
+                - |
+                  set -euo pipefail
+                  task_dir=/gpfs/users/linlizhi/komp-flame-downstream-eval-20261107
+                  export PYTHONUNBUFFERED=1 OMP_NUM_THREADS=2 TOKENIZERS_PARALLELISM=false
+                  export TRITON_CACHE_DIR=/tmp/komp-gdn-slot-learned123-340m-cache
+                  export CUBLAS_WORKSPACE_CONFIG=:4096:8
+                  export PYTHONPATH="$task_dir/snapshot:/gpfs/users/linlizhi/fla-komp-value-integration-20261106-r1/deps:/gpfs/users/linlizhi/komp-gsa-gdn-20261031-env/triton371"
+                  export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python FLA_CI_ENV=0
+                  export FLA_DISABLE_BACKEND_DISPATCH=1 FLA_DISABLE_TENSOR_CACHE=1
+                  cd "$task_dir"
+                  exec >> "$task_dir/logs/launcher-r4g-s2.log" 2>&1
+                  export EVAL_JOB_ALIAS=komp340m-downstream-eval-20261108-r4g-s2
+                  export EVAL_JOB_RECEIPT="$task_dir/sharded/job-r4g-s2.json"
+                  until test -f "$EVAL_JOB_RECEIPT"; do sleep 2; done
+                  python recovery-r4g/migrate_claims.py --shard 2
+                  python -c 'import sys,json,torch,google.protobuf;from google.protobuf.internal import api_implementation;print(json.dumps(dict(python=sys.version,protobuf=google.protobuf.__version__,protobuf_implementation=api_implementation.Type(),torch=torch.__version__,gpu_count=torch.cuda.device_count(),gpus=[torch.cuda.get_device_name(i) for i in range(torch.cuda.device_count())])))' > "$task_dir/recovery-r4g/runtime-s2.json"
+                  nvidia-smi --query-gpu=uuid,name,driver_version --format=csv > "$task_dir/recovery-r4g/gpus-s2.csv"
+                  pids=()
+                  for i in 1 3 4 5; do
+                    python evaluate_sharded.py --shard 2 --index "$i" > "$task_dir/logs/model-r4g-s2-$i.log" 2>&1 &
+                    pids+=("$!")
+                  done
+                  failure=0
+                  for pid in "${pids[@]}"; do
+                    wait "$pid" || failure=1
+                  done
+                  exit "$failure"

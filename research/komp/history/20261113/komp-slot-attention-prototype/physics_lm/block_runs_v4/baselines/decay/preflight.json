@@ -1,0 +1,259 @@
+{
+  "status": "passed",
+  "variants": {
+    "sigmoid": {
+      "losses": [
+        10.359307289123535,
+        9.654095649719238,
+        9.205029487609863,
+        8.85947322845459,
+        8.592989921569824,
+        8.374056816101074,
+        8.189995765686035,
+        8.036298751831055,
+        7.898768424987793,
+        7.778575897216797,
+        7.668071746826172,
+        7.565229415893555,
+        7.471750736236572,
+        7.398823261260986,
+        7.301638126373291,
+        7.228132247924805
+      ],
+      "slot_gradient_std": null,
+      "causality": "passed",
+      "initial_gates": [
+        {
+          "alpha_mean": 0.9799999594688416,
+          "alpha_max_error": 5.960464477539063e-08,
+          "beta_mean": 0.20000001788139343,
+          "beta_max_error": 0.0
+        },
+        {
+          "alpha_mean": 0.9799999594688416,
+          "alpha_max_error": 5.960464477539063e-08,
+          "beta_mean": 0.20000001788139343,
+          "beta_max_error": 0.0
+        },
+        {
+          "alpha_mean": 0.9799999594688416,
+          "alpha_max_error": 5.960464477539063e-08,
+          "beta_mean": 0.20000001788139343,
+          "beta_max_error": 0.0
+        },
+        {
+          "alpha_mean": 0.9799999594688416,
+          "alpha_max_error": 5.960464477539063e-08,
+          "beta_mean": 0.20000001788139343,
+          "beta_max_error": 0.0
+        }
+      ]
+    },
+    "gdn_scalar": {
+      "losses": [
+        10.359307289123535,
+        9.654241561889648,
+        9.205493927001953,
+        8.859837532043457,
+        8.59295654296875,
+        8.374098777770996,
+        8.189709663391113,
+        8.036202430725098,
+        7.898069858551025,
+        7.778023719787598,
+        7.666861057281494,
+        7.567171096801758,
+        7.495906352996826,
+        7.389355659484863,
+        7.325892925262451,
+        7.219821929931641
+      ],
+      "slot_gradient_std": null,
+      "causality": "passed",
+      "initial_gates": [
+        {
+          "alpha_mean": 0.9799999594688416,
+          "alpha_max_error": 5.960464477539063e-08,
+          "beta_mean": 0.20000001788139343,
+          "beta_max_error": 0.0
+        },
+        {
+          "alpha_mean": 0.9799999594688416,
+          "alpha_max_error": 5.960464477539063e-08,
+          "beta_mean": 0.20000001788139343,
+          "beta_max_error": 0.0
+        },
+        {
+          "alpha_mean": 0.9799999594688416,
+          "alpha_max_error": 5.960464477539063e-08,
+          "beta_mean": 0.20000001788139343,
+          "beta_max_error": 0.0
+        },
+        {
+          "alpha_mean": 0.9799999594688416,
+          "alpha_max_error": 5.960464477539063e-08,
+          "beta_mean": 0.20000001788139343,
+          "beta_max_error": 0.0
+        }
+      ]
+    },
+    "gsa_scalar": {
+      "losses": [
+        10.359307289123535,
+        9.65415096282959,
+        9.204802513122559,
+        8.859779357910156,
+        8.593225479125977,
+        8.374284744262695,
+        8.189369201660156,
+        8.035625457763672,
+        7.898316383361816,
+        7.778589248657227,
+        7.668649673461914,
+        7.567201614379883,
+        7.471209526062012,
+        7.391444206237793,
+        7.323429107666016,
+        7.233323097229004
+      ],
+      "slot_gradient_std": null,
+      "causality": "passed",
+      "initial_gates": [
+        {
+          "alpha_mean": 0.9799999594688416,
+          "alpha_max_error": 5.960464477539063e-08,
+          "beta_mean": 0.20000001788139343,
+          "beta_max_error": 0.0
+        },
+        {
+          "alpha_mean": 0.9799999594688416,
+          "alpha_max_error": 5.960464477539063e-08,
+          "beta_mean": 0.20000001788139343,
+          "beta_max_error": 0.0
+        },
+        {
+          "alpha_mean": 0.9799999594688416,
+          "alpha_max_error": 5.960464477539063e-08,
+          "beta_mean": 0.20000001788139343,
+          "beta_max_error": 0.0
+        },
+        {
+          "alpha_mean": 0.9799999594688416,
+          "alpha_max_error": 5.960464477539063e-08,
+          "beta_mean": 0.20000001788139343,
+          "beta_max_error": 0.0
+        }
+      ]
+    },
+    "gsa_slot": {
+      "losses": [
+        10.359315872192383,
+        9.65443229675293,
+        9.20505428314209,
+        8.85986042022705,
+        8.59235954284668,
+        8.373648643493652,
+        8.188953399658203,
+        8.035994529724121,
+        7.898606300354004,
+        7.778530597686768,
+        7.668401718139648,
+        7.568637847900391,
+        7.495406150817871,
+        7.388830184936523,
+        7.326650142669678,
+        7.2207136154174805
+      ],
+      "slot_gradient_std": [
+        [
+          8.282226917799562e-05,
+          0.00012889453500974923
+        ],
+        [
+          6.578080501640216e-05,
+          5.442590554594062e-05
+        ],
+        [
+          4.827480734093115e-05,
+          5.752812649006955e-05
+        ],
+        [
+          2.867072180379182e-05,
+          4.345079287304543e-05
+        ]
+      ],
+      "causality": "passed",
+      "initial_gates": [
+        {
+          "alpha_mean": 0.9799997210502625,
+          "alpha_max_error": 5.960464477539063e-08,
+          "beta_mean": 0.20000001788139343,
+          "beta_max_error": 0.0
+        },
+        {
+          "alpha_mean": 0.9799997210502625,
+          "alpha_max_error": 5.960464477539063e-08,
+          "beta_mean": 0.20000001788139343,
+          "beta_max_error": 0.0
+        },
+        {
+          "alpha_mean": 0.9799997210502625,
+          "alpha_max_error": 5.960464477539063e-08,
+          "beta_mean": 0.20000001788139343,
+          "beta_max_error": 0.0
+        },
+        {
+          "alpha_mean": 0.9799997210502625,
+          "alpha_max_error": 5.960464477539063e-08,
+          "beta_mean": 0.20000001788139343,
+          "beta_max_error": 0.0
+        }
+      ]
+    }
+  },
+  "initial_equivalence": {
+    "gdn_scalar": {
+      "fp32_max_abs": 0.0,
+      "bf16_max_abs": 0.0,
+      "bf16_rms_relative": 0.0
+    },
+    "gsa_scalar": {
+      "fp32_max_abs": 0.0,
+      "bf16_max_abs": 0.0,
+      "bf16_rms_relative": 0.0
+    },
+    "gsa_slot": {
+      "fp32_max_abs": 0.00016422569751739502,
+      "bf16_max_abs": 0.01826179027557373,
+      "bf16_rms_relative": 0.001710544223897159
+    }
+  },
+  "source_sha256": {
+    "physics_lm/decay_experiment.py": "130a2e053196552076b57d4f60977bbfd19d544a293bbd3ac28439c6f6f55fed",
+    "physics_lm/experiment.py": "3963e05767c6a83daa5b3b3e0f1e8a559632a5c239841c8c218c22afe066a060",
+    "komp_slot/__init__.py": "31ff68031942bcbd8efaa22724d4ccf0497cc44dd4bc6a729d43bfad48e2acfc",
+    "komp_slot/block_fast.py": "a8e4c72527473bb1928841df26c5e4625e9441f5b7f2b309f420cabf8d0c74ce",
+    "komp_slot/block_flex.py": "86156aac40d2115d74500ddacd239a26045925046b0973e754ee95e7c8fe2658",
+    "komp_slot/block_komp.py": "bcde52ca1270099a05b716954ce012bd2a145de21a28ae6cc77bd1e023e1ff17",
+    "komp_slot/block_reference.py": "b19d6c25bac9cdc596b97125f18abf777ec09f7def0b9cbf39c35827ebe0aa10",
+    "komp_slot/bsgd.py": "6ea0889a577a253078019fc499d9707dea4bd76044d3bd4d9f7d9b888a71707a",
+    "komp_slot/bsgd_chunk.py": "76c576b71779b53bccf557a33d2714eafffec9e285255398a29b0a33a0a9ded2",
+    "komp_slot/bsgd_reference.py": "1bfec79de41bc7c1a94a90de43f66688b45983a02314887e194b06d07a81c1a3",
+    "komp_slot/chunk.py": "c869f89c55e04930abb12879ece418a59034fed3fff56428129043d1c61df092",
+    "komp_slot/decay.py": "a831b7effa5907bd2b183f902f74ea521f02c28496cd3846de02743389e61e40",
+    "komp_slot/fast_chunk.py": "0a6fa0c812791aab05e66d136a5261cceedcdad76c659a0eac0946cf592ac592",
+    "komp_slot/geometry.py": "74faed0b02fd51d739a75a6766fa37e15920d96ec5aea430dfc42be58fabde14",
+    "komp_slot/geometry_chunk.py": "34e6039108dcf1f1bbf3a25767f00c2752d61123cae790a8dfc7e2070ccdb126",
+    "komp_slot/kapa.py": "bf0f1f73e2b831a88d8774b2215e554e2719d6c358c0aca55957e2014cdfe0fa",
+    "komp_slot/kapa_chunk.py": "a23efd2bda07d67b8a50a5a3d9a42fae114d4a8a239a0a5a7cac6b1d67e6e396",
+    "komp_slot/kapa_geometry.py": "cbc184c9cdcfbedd0fffe237bb913532bc4c41374acd25e2006676ecb3ff7a82",
+    "komp_slot/kapa_reference.py": "3575757ebe150876c980acc558edbcf3d8f7fae4cd15885832a080599ce42413",
+    "komp_slot/kernels.py": "72f1750a8ada09d7d2323d682bb7b5a8c73960aff96618bf58e35b22ea5df08b",
+    "komp_slot/operator.py": "6a79a87acf157b484eafec3eaf78719c0d20969d8addd339d3a224818dfc371e",
+    "komp_slot/recurrence.py": "78b5e2469ff96fb5be096e2af0e165837191ae03c2a4767f04f80bc435ac844e",
+    "komp_slot/reference.py": "d2941e97714c35bd5245a675e0b232be3355f939a62e8723ab80af3d73582bd7",
+    "komp_slot/scan.py": "1bbe108e5900fff570e70795f272cfab60ea42aa34f39342f5fdcc1af888ef4a",
+    "komp_slot/triton_chunk.py": "75197354e2f2cd816e6b77f8bf67a34f95cdf18eac8219a2709af7382c96476b",
+    "komp_slot/utils.py": "0861344f151287a70501001231dc13a3f95a11dbc2ce2aeede55996aaecb0ada"
+  }
+}

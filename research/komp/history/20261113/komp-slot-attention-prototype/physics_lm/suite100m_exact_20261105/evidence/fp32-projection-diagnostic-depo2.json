@@ -1,0 +1,770 @@
+{
+  "status": "completed",
+  "verdict": "FAILED",
+  "task": "depo2",
+  "sources": {
+    "ddp": {
+      "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+      "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+    },
+    "tuning": {
+      "numerical.py": "81f8b91a62ea1fa2bc7a86afdb319bf9ab44bf2e3e75597a6235628945340436",
+      "prepare_queue.py": "104f2683c840c6acdef28e64fa3caf46c681ce840ebb99132dd74791f6f0ac4a",
+      "report.py": "53f4fd0595a1d66fd8c38e8ef005d4142f2285a006b0afb37cea24326cacbd83",
+      "tune.py": "99825009bec10dc2b26b9d1fdae1d77d596297d076f7a503bc3d115f04c81165",
+      "tuned_preflight.py": "313f0ffcc36d036554b89eb95a21141d95cc19c06bcf1ea46c4a932163086cc9"
+    },
+    "plan": "0d138f9449294e03a5c9e4bf7fc41665daf3b38293ab2b4207395e85c3ce6120"
+  },
+  "script_sha256": "a68051a1a46e3faf3e672f7fe49d3ba4b6b6c2b0d1b67469234d9403014cc96a",
+  "candidate": {
+    "name": "baseline",
+    "alpha0": 0.98,
+    "beta0": 0.2,
+    "temperature": 0.5,
+    "ridge": 0.0001,
+    "slots": 32,
+    "decay_normalizer": 8,
+    "eviction": "fifo",
+    "score_write_gate": false,
+    "compute_chunk": 16,
+    "projection_dtype": "float32",
+    "decay_bias": 1.7405981254553757,
+    "beta_bias": -1.3862943611198906
+  },
+  "seed": 917,
+  "shape": {
+    "B": 1,
+    "T": 65,
+    "H": 1,
+    "M": 32,
+    "K": 64,
+    "V": 64
+  },
+  "checks": [
+    {
+      "name": "baseline/random/torch.float32/output",
+      "finite": true,
+      "rms_relative": 3.7918544704148587e-07,
+      "normalized_max": 1.2789753589537156e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/random/torch.float32/keys",
+      "finite": true,
+      "rms_relative": 5.669364927819944e-08,
+      "normalized_max": 3.522006108980236e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/random/torch.float32/state",
+      "finite": true,
+      "rms_relative": 3.5825726861817864e-07,
+      "normalized_max": 2.4069182896768737e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/random/torch.float32/dq",
+      "finite": true,
+      "rms_relative": 5.287480220309579e-07,
+      "normalized_max": 9.229772883478926e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/random/torch.float32/dk",
+      "finite": true,
+      "rms_relative": 3.051036083485612e-07,
+      "normalized_max": 1.4906242051804242e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/random/torch.float32/dv",
+      "finite": true,
+      "rms_relative": 4.3626668203934506e-07,
+      "normalized_max": 3.411198264968718e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/random/torch.float32/dg",
+      "finite": true,
+      "rms_relative": 7.267899761851679e-07,
+      "normalized_max": 5.796538129438988e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/random/torch.float32/dbeta",
+      "finite": true,
+      "rms_relative": 4.03131449763807e-07,
+      "normalized_max": 3.1942019899721815e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/random/torch.float32/dkeys0",
+      "finite": true,
+      "rms_relative": 5.398656178513693e-07,
+      "normalized_max": 3.667979184968084e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/random/torch.float32/dstate0",
+      "finite": true,
+      "rms_relative": 4.4187633801936835e-07,
+      "normalized_max": 5.88885963629391e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/near/torch.float32/output",
+      "finite": true,
+      "rms_relative": 7.779706607916553e-07,
+      "normalized_max": 1.7195177425682884e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/near/torch.float32/keys",
+      "finite": true,
+      "rms_relative": 6.085556782594698e-08,
+      "normalized_max": 4.847360118853672e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/near/torch.float32/state",
+      "finite": true,
+      "rms_relative": 0.0006574654459123347,
+      "normalized_max": 0.00038025824039414347,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/near/torch.float32/dq",
+      "finite": true,
+      "rms_relative": 2.3241812257844047e-06,
+      "normalized_max": 1.557257213813737e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/near/torch.float32/dk",
+      "finite": true,
+      "rms_relative": 0.0021205544091961273,
+      "normalized_max": 0.0022364721083891572,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/near/torch.float32/dv",
+      "finite": true,
+      "rms_relative": 0.0005792637974746828,
+      "normalized_max": 0.0004693768135657292,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/near/torch.float32/dg",
+      "finite": true,
+      "rms_relative": 0.0013301432965882613,
+      "normalized_max": 0.0010545829874554166,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/near/torch.float32/dbeta",
+      "finite": true,
+      "rms_relative": 0.000713262043309818,
+      "normalized_max": 0.0010164041101938088,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/near/torch.float32/dkeys0",
+      "finite": true,
+      "rms_relative": 0.013009798704623193,
+      "normalized_max": 0.0018478306045932869,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": false
+    },
+    {
+      "name": "baseline/near/torch.float32/dstate0",
+      "finite": true,
+      "rms_relative": 0.00014733694027615365,
+      "normalized_max": 0.00015838727224856686,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/duplicate/torch.float32/output",
+      "finite": true,
+      "rms_relative": 3.8885612128451526e-07,
+      "normalized_max": 9.06861223615163e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/duplicate/torch.float32/keys",
+      "finite": true,
+      "rms_relative": 4.551148674551305e-08,
+      "normalized_max": 2.1688852380741253e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/duplicate/torch.float32/state",
+      "finite": true,
+      "rms_relative": 5.03723720956332e-07,
+      "normalized_max": 1.0766605061107715e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/duplicate/torch.float32/dq",
+      "finite": true,
+      "rms_relative": 5.593645824533023e-07,
+      "normalized_max": 4.506695324563159e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/duplicate/torch.float32/dk",
+      "finite": true,
+      "rms_relative": 3.9137589934274934e-07,
+      "normalized_max": 4.16168658388949e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/duplicate/torch.float32/dv",
+      "finite": true,
+      "rms_relative": 5.867086483495818e-07,
+      "normalized_max": 9.717848188650624e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/duplicate/torch.float32/dg",
+      "finite": true,
+      "rms_relative": 1.0171243298723603e-06,
+      "normalized_max": 1.0258396646046651e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/duplicate/torch.float32/dbeta",
+      "finite": true,
+      "rms_relative": 5.71185128123198e-07,
+      "normalized_max": 6.894835217787597e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/duplicate/torch.float32/dkeys0",
+      "finite": true,
+      "rms_relative": 5.72555630905925e-07,
+      "normalized_max": 2.8556295175730106e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/duplicate/torch.float32/dstate0",
+      "finite": true,
+      "rms_relative": 6.111476379124452e-07,
+      "normalized_max": 3.899752941821655e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/strong/torch.float32/output",
+      "finite": true,
+      "rms_relative": 2.875398903227568e-07,
+      "normalized_max": 6.881875423692119e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/strong/torch.float32/keys",
+      "finite": true,
+      "rms_relative": 5.669364927819944e-08,
+      "normalized_max": 3.522006108980236e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/strong/torch.float32/state",
+      "finite": true,
+      "rms_relative": 1.4231173882995797e-07,
+      "normalized_max": 7.192568329816851e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/strong/torch.float32/dq",
+      "finite": true,
+      "rms_relative": 2.71282703660939e-07,
+      "normalized_max": 1.7162524072050767e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/strong/torch.float32/dk",
+      "finite": true,
+      "rms_relative": 1.042318917429184e-07,
+      "normalized_max": 8.42382167909328e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/strong/torch.float32/dv",
+      "finite": true,
+      "rms_relative": 1.3483098988618266e-07,
+      "normalized_max": 3.740987519068595e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/strong/torch.float32/dg",
+      "finite": true,
+      "rms_relative": 2.74585471283861e-07,
+      "normalized_max": 1.7898135290517203e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/strong/torch.float32/dbeta",
+      "finite": true,
+      "rms_relative": 1.7744374729461483e-07,
+      "normalized_max": 1.6997643670503317e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/strong/torch.float32/dkeys0",
+      "finite": true,
+      "rms_relative": 2.5693982915365086e-07,
+      "normalized_max": 4.001536780748327e-09,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/strong/torch.float32/dstate0",
+      "finite": true,
+      "rms_relative": 2.216925120777507e-07,
+      "normalized_max": 1.1318354031786271e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "name": "baseline/random/torch.bfloat16/output",
+      "finite": true,
+      "rms_relative": 0.0016576431957321335,
+      "normalized_max": 0.0009338145454588775,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/random/torch.bfloat16/keys",
+      "finite": true,
+      "rms_relative": 6.222149959477307e-08,
+      "normalized_max": 4.47513132662003e-08,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/random/torch.bfloat16/state",
+      "finite": true,
+      "rms_relative": 3.6005768553108503e-07,
+      "normalized_max": 2.0997191330085485e-07,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/random/torch.bfloat16/dq",
+      "finite": true,
+      "rms_relative": 0.002344490560544024,
+      "normalized_max": 0.000344049009108352,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/random/torch.bfloat16/dk",
+      "finite": true,
+      "rms_relative": 0.0017556619338221372,
+      "normalized_max": 0.000977596444286466,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/random/torch.bfloat16/dv",
+      "finite": true,
+      "rms_relative": 0.0020138591369941623,
+      "normalized_max": 0.001999786500417766,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/random/torch.bfloat16/dg",
+      "finite": true,
+      "rms_relative": 0.001266180233602628,
+      "normalized_max": 0.0009217779752344751,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/random/torch.bfloat16/dbeta",
+      "finite": true,
+      "rms_relative": 0.0010680028969479042,
+      "normalized_max": 0.0008933619175410701,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/random/torch.bfloat16/dkeys0",
+      "finite": true,
+      "rms_relative": 0.002291536847179447,
+      "normalized_max": 0.0001470079931358767,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/random/torch.bfloat16/dstate0",
+      "finite": true,
+      "rms_relative": 0.0015315971781804736,
+      "normalized_max": 0.0017408385257092875,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/near/torch.bfloat16/output",
+      "finite": true,
+      "rms_relative": 0.0016643163745588263,
+      "normalized_max": 0.0004863219996984469,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/near/torch.bfloat16/keys",
+      "finite": true,
+      "rms_relative": 7.154862744927333e-08,
+      "normalized_max": 4.536555076040116e-08,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/near/torch.bfloat16/state",
+      "finite": true,
+      "rms_relative": 0.00068338338632096,
+      "normalized_max": 0.000530699181214872,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/near/torch.bfloat16/dq",
+      "finite": true,
+      "rms_relative": 0.0021760181107481507,
+      "normalized_max": 0.0003251294750995365,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/near/torch.bfloat16/dk",
+      "finite": true,
+      "rms_relative": 0.002756136363053315,
+      "normalized_max": 0.0034481069497534797,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/near/torch.bfloat16/dv",
+      "finite": true,
+      "rms_relative": 0.0018583465213786812,
+      "normalized_max": 0.0019603096032272394,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/near/torch.bfloat16/dg",
+      "finite": true,
+      "rms_relative": 0.001185367268169381,
+      "normalized_max": 0.0009015508430074527,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/near/torch.bfloat16/dbeta",
+      "finite": true,
+      "rms_relative": 0.0008833070411311809,
+      "normalized_max": 0.0009007564777755802,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/near/torch.bfloat16/dkeys0",
+      "finite": true,
+      "rms_relative": 0.01390341673751344,
+      "normalized_max": 0.0020575583894619637,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/near/torch.bfloat16/dstate0",
+      "finite": true,
+      "rms_relative": 0.0016301299495266066,
+      "normalized_max": 0.0009047789911503998,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/duplicate/torch.bfloat16/output",
+      "finite": true,
+      "rms_relative": 0.0016534240934429631,
+      "normalized_max": 0.00048476323452009695,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/duplicate/torch.bfloat16/keys",
+      "finite": true,
+      "rms_relative": 2.9464445294606514e-08,
+      "normalized_max": 1.7002945273958403e-08,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/duplicate/torch.bfloat16/state",
+      "finite": true,
+      "rms_relative": 5.038610625453127e-07,
+      "normalized_max": 1.08393061645784e-06,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/duplicate/torch.bfloat16/dq",
+      "finite": true,
+      "rms_relative": 0.00218809761257934,
+      "normalized_max": 0.00035625626286733825,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/duplicate/torch.bfloat16/dk",
+      "finite": true,
+      "rms_relative": 0.0017426221429236732,
+      "normalized_max": 0.000983963793432685,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/duplicate/torch.bfloat16/dv",
+      "finite": true,
+      "rms_relative": 0.0017403658355128059,
+      "normalized_max": 0.001943480142095222,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/duplicate/torch.bfloat16/dg",
+      "finite": true,
+      "rms_relative": 0.0006216761885633501,
+      "normalized_max": 0.0004468086387428766,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/duplicate/torch.bfloat16/dbeta",
+      "finite": true,
+      "rms_relative": 0.0006527297158816243,
+      "normalized_max": 0.00037687095997044083,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/duplicate/torch.bfloat16/dkeys0",
+      "finite": true,
+      "rms_relative": 0.0023910514242615932,
+      "normalized_max": 0.00010956218954657343,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/duplicate/torch.bfloat16/dstate0",
+      "finite": true,
+      "rms_relative": 0.0016111858884128017,
+      "normalized_max": 0.0008913574994020707,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/strong/torch.bfloat16/output",
+      "finite": true,
+      "rms_relative": 0.0016008101211975273,
+      "normalized_max": 0.00028481845781064274,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/strong/torch.bfloat16/keys",
+      "finite": true,
+      "rms_relative": 6.222149959477307e-08,
+      "normalized_max": 4.47513132662003e-08,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/strong/torch.bfloat16/state",
+      "finite": true,
+      "rms_relative": 1.2239207270887205e-07,
+      "normalized_max": 5.870841274235872e-08,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/strong/torch.bfloat16/dq",
+      "finite": true,
+      "rms_relative": 0.00250165208766442,
+      "normalized_max": 0.00014920399571569098,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/strong/torch.bfloat16/dk",
+      "finite": true,
+      "rms_relative": 0.0017361569942230734,
+      "normalized_max": 0.0010131652309210981,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/strong/torch.bfloat16/dv",
+      "finite": true,
+      "rms_relative": 0.0022848820160919605,
+      "normalized_max": 0.001940170221344295,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/strong/torch.bfloat16/dg",
+      "finite": true,
+      "rms_relative": 0.0015810507803215616,
+      "normalized_max": 0.0006951552227476565,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/strong/torch.bfloat16/dbeta",
+      "finite": true,
+      "rms_relative": 0.0013082714041482476,
+      "normalized_max": 0.0007048728603733556,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/strong/torch.bfloat16/dkeys0",
+      "finite": true,
+      "rms_relative": 0.002149995891361477,
+      "normalized_max": 3.435169436190669e-05,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    },
+    {
+      "name": "baseline/strong/torch.bfloat16/dstate0",
+      "finite": true,
+      "rms_relative": 0.0015692670078212222,
+      "normalized_max": 0.0010218128388267689,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03,
+      "passed": true
+    }
+  ],
+  "passed_checks": 79,
+  "total_checks": 80,
+  "seconds": 3.0091556645929813,
+  "scope": "Diagnostic only; inherited numerical tolerances unchanged. The inherited run_case PASS line denotes execution completion; per-metric passed/verdict here is authoritative."
+}

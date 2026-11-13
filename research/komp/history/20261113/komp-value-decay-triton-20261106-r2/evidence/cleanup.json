@@ -1,0 +1,16 @@
+{
+  "before": [
+    {
+      "name": "job-3098d01e2eee-20261106173556",
+      "user_def_name": "komp-value-decay-triton-20261106-r2",
+      "status": "Completed",
+      "ready_status": "0/1",
+      "namespace": "qiji",
+      "job_creator": "linlizhi",
+      "user_gpu": 1
+    }
+  ],
+  "delete_output": "{\"name\": \"job-3098d01e2eee-20261106173556\", \"alias\": \"komp-value-decay-triton-20261106-r2\", \"response\": {\"success\": true}}\n",
+  "after": [],
+  "status": "absent_verified"
+}

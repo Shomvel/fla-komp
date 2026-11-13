@@ -1,0 +1,10 @@
+{
+  "shard": 0,
+  "alias": "komp340m-downstream-eval-20261107-r4c-s0",
+  "identity": "job-de184fdde2fc-20261107192117",
+  "gpus": 8,
+  "replaces": "job-bdaafde6397e-20261107143915",
+  "skip_models": [
+    "kda"
+  ]
+}

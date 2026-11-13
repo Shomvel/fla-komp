@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "raw_results_sha256": "e5e6450484566d5fa63b531a017a34b613407cc2913c6bb4a897430c71d51b4a",
+  "correction_sha256": "1211612baf144a327214fd3848572d782e0d4d1681cd4f5a6f5dd4201fb7ad76",
+  "invalid_fields": "benchmark[*].8k_or_1k_difference_vs_fp64 indices 3 through 9 (gradient metrics only)",
+  "reason": "Old benchmark drew a different upstream cotangent for each mode. Cross-mode gradient differences were therefore invalid.",
+  "replacement": "/Users/shom/Downloads/komp-slot-attention-prototype/physics_lm/suite100m_exact_20261105/evidence/operator-shared-grad-correction.json",
+  "valid_original_fields": [
+    "timings",
+    "stress checks",
+    "output differences (indices 0 through 2)",
+    "same-mode finite checks"
+  ],
+  "method": "One forward/backward per mode per shape, all modes share identical upstream cotangent, hashes retained; no speed measurement repeated."
+}

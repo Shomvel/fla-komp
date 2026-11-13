@@ -1,0 +1,511 @@
+{
+  "captured_utc": "2026-11-13T01:57:43.272588+00:00",
+  "mode": "read_only_filesystem_snapshot",
+  "runs": {
+    "komp-learned123-1b-50b-20261110-resume1": {
+      "exists": true,
+      "files": {
+        "runs/block/latest.json": {
+          "path": "/gpfs/users/linlizhi/komp-learned123-1b-50b-20261110-resume1/runs/block/checkpoint-039936",
+          "step": 39936,
+          "tokens": 41875931136
+        },
+        "runs/block/config.json": {
+          "model": {
+            "kind": "block",
+            "parameters": 1003181056,
+            "config": {
+              "attn_mode": "chunk",
+              "hidden_size": 2048,
+              "expand_v": 1.0,
+              "use_gate": true,
+              "output_gate_activation": "swish",
+              "use_short_conv": true,
+              "conv_size": 4,
+              "head_dim": 64,
+              "num_heads": 32,
+              "num_v_heads": null,
+              "max_position_embeddings": 2048,
+              "hidden_ratio": 4,
+              "intermediate_size": 3072,
+              "hidden_act": "swish",
+              "num_hidden_layers": 24,
+              "norm_eps": 1e-06,
+              "attn": null,
+              "use_cache": false,
+              "initializer_range": 0.02,
+              "fuse_norm": false,
+              "fuse_swiglu": false,
+              "fuse_cross_entropy": false,
+              "fuse_linear_cross_entropy": true,
+              "use_l2warp": false,
+              "vocab_size": 32000,
+              "allow_neg_eigval": false,
+              "attnres_block_size": null,
+              "transformers_version": "5.6.2",
+              "architectures": null,
+              "output_hidden_states": false,
+              "return_dict": true,
+              "dtype": null,
+              "chunk_size_feed_forward": 0,
+              "is_encoder_decoder": false,
+              "id2label": {
+                "0": "LABEL_0",
+                "1": "LABEL_1"
+              },
+              "label2id": {
+                "LABEL_0": 0,
+                "LABEL_1": 1
+              },
+              "problem_type": null,
+              "_name_or_path": "",
+              "pad_token_id": null,
+              "bos_token_id": 1,
+              "eos_token_id": 2,
+              "tie_word_embeddings": false,
+              "output_sigmoid": true,
+              "low_rank_gates": true,
+              "multi_timescale_init": true,
+              "gate_rank": 64,
+              "timescale_spread": 4.0,
+              "kind": "block",
+              "checkpoint_mixer": true,
+              "cache_geometry": false,
+              "num_slots": 32,
+              "alpha0": 0.995,
+              "beta0": 0.2,
+              "kernel_temperature": 0.5,
+              "ridge": 0.0001,
+              "decay_formula": "-exp(A_log)*softplus(W_up W_down x+dt_bias)",
+              "eviction": "learned",
+              "score_write_gate": true,
+              "initial_score": "fixed_zero",
+              "chunk_size": 128,
+              "initialization": "legacy seed42 shared FF3072 backbone; named combo gate seeds; mean logalpha=log(.995)",
+              "model_type": "komp",
+              "output_attentions": false
+            },
+            "width": 2048,
+            "layers": 24,
+            "ff": 3072,
+            "heads": 32,
+            "head_dim": 64,
+            "slots": 32,
+            "options": {
+              "output_sigmoid": true,
+              "low_rank_gates": true,
+              "multi_timescale_init": true,
+              "gate_rank": 64,
+              "timescale_spread": 4.0
+            },
+            "alpha0": 0.995,
+            "beta0": 0.2,
+            "decay_axis": "physical_slot",
+            "decay_formula": "-exp(A_log)*softplus(W_up W_down x+dt_bias)",
+            "eviction": "learned top-M score; ties prefer newer keys",
+            "score_write_gate": "beta*2*sigmoid(score)",
+            "score_projection": "full Linear(D,H)",
+            "initial_score": "fixed zero buffer, not trainable",
+            "selection_gradient": false,
+            "score_gradient": "through write strength",
+            "initialization": "legacy seed42 shared FF3072 backbone; named combo gate seeds; mean logalpha=log(.995)",
+            "shared_backbone_initial_sha": "3b21cd26a4554a1b5fce0e1dfcb54c8b7c577a81ea4af9ddb0d1610c09f63be6",
+            "shared_backbone_tensor_count": 384,
+            "initial_head_log_decays": [
+              -0.0009096909921057141,
+              -0.0009948015983256549,
+              -0.0010878751450979233,
+              -0.0011896566444140457,
+              -0.0013009608115194986,
+              -0.001422678586343791,
+              -0.0015557842650749454,
+              -0.0017013432989634399,
+              -0.0018605208227815333,
+              -0.0020345909812044686,
+              -0.002224947127767051,
+              -0.00243311297803367,
+              -0.002660754806257891,
+              -0.002909694783160415,
+              -0.0031819255615883092,
+              -0.0034796262268072028,
+              -0.0038051797391013527,
+              -0.004161192008301789,
+              -0.004550512752925565,
+              -0.004976258310894177,
+              -0.005441836584420714,
+              -0.005950974318738386,
+              -0.006507746933024385,
+              -0.007116611142302275,
+              -0.0077824406314465884,
+              -0.008510565066844037,
+              -0.009306812757982185,
+              -0.010177557310452473,
+              -0.011129768643803937,
+              -0.012171068782622684,
+              -0.013309792867419637,
+              -0.014555055873691426
+            ],
+            "checkpoint_policy": "mixer_only",
+            "head_checkpoint": false,
+            "projection": "float32",
+            "state_compute": "float32",
+            "chunk_tape": "bfloat16",
+            "output_gate": "rank64 Linear x Linear, no bias/nonlinearity; sigmoid",
+            "decay_projection": "rank64, no bias/nonlinearity, random down and zero up",
+            "no_weight_decay": [
+              "vectors",
+              "keys",
+              "A_log",
+              "dt_bias"
+            ],
+            "comparison_limit": "GDN slot+learned+write gate+three options; not a single-switch ablation; FF differs from original"
+          },
+          "source_sha": "1970918eed171dd8956297b3545df550a13a995864706f5793d1ecc6be098add",
+          "data_sha": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+          "target_input_tokens": 50000000000,
+          "target_supervised_tokens": 50000000000,
+          "global_sequences": 512,
+          "sequence_length": 2048,
+          "microbatch": 16,
+          "accumulation": 1,
+          "batching_sha": "8f648539cfaf201ec10671e07e98fc860ddf4d619dae26a4c406a45af16a6666",
+          "world_size": 32,
+          "optimizer": {
+            "lr": 0.0003,
+            "betas": [
+              0.8,
+              0.95
+            ],
+            "eps": 1e-15,
+            "weight_decay": 0.1
+          },
+          "warmup_steps": 4000,
+          "cosine_min_ratio": 0.1,
+          "packing": "2049 IDs, 2048 inputs and next-token targets; shared boundary token",
+          "final_padding": "unbudgeted trailing compute positions masked from loss",
+          "checkpoint_retention": "latest two complete checkpoints in this new run only"
+        }
+      },
+      "inventory": [
+        {
+          "path": "evidence/data-audit.json",
+          "size": 2262
+        },
+        {
+          "path": "evidence/interruption-audit-20261110.json",
+          "size": 9310
+        },
+        {
+          "path": "evidence/parent-resume-rank0.json",
+          "size": 364
+        },
+        {
+          "path": "evidence/parent-resume-rank1.json",
+          "size": 364
+        },
+        {
+          "path": "evidence/parent-resume-rank10.json",
+          "size": 365
+        },
+        {
+          "path": "evidence/parent-resume-rank11.json",
+          "size": 365
+        },
+        {
+          "path": "evidence/parent-resume-rank12.json",
+          "size": 365
+        },
+        {
+          "path": "evidence/parent-resume-rank13.json",
+          "size": 365
+        },
+        {
+          "path": "evidence/parent-resume-rank14.json",
+          "size": 365
+        },
+        {
+          "path": "evidence/parent-resume-rank15.json",
+          "size": 365
+        },
+        {
+          "path": "evidence/parent-resume-rank16.json",
+          "size": 365
+        },
+        {
+          "path": "evidence/parent-resume-rank17.json",
+          "size": 365
+        },
+        {
+          "path": "evidence/parent-resume-rank18.json",
+          "size": 365
+        },
+        {
+          "path": "evidence/parent-resume-rank19.json",
+          "size": 365
+        },
+        {
+          "path": "evidence/parent-resume-rank2.json",
+          "size": 364
+        },
+        {
+          "path": "evidence/parent-resume-rank20.json",
+          "size": 365
+        },
+        {
+          "path": "evidence/parent-resume-rank21.json",
+          "size": 365
+        },
+        {
+          "path": "evidence/parent-resume-rank22.json",
+          "size": 365
+        },
+        {
+          "path": "evidence/parent-resume-rank23.json",
+          "size": 365
+        },
+        {
+          "path": "evidence/parent-resume-rank24.json",
+          "size": 365
+        },
+        {
+          "path": "evidence/parent-resume-rank25.json",
+          "size": 365
+        },
+        {
+          "path": "evidence/parent-resume-rank26.json",
+          "size": 365
+        },
+        {
+          "path": "evidence/parent-resume-rank27.json",
+          "size": 365
+        },
+        {
+          "path": "evidence/parent-resume-rank28.json",
+          "size": 365
+        },
+        {
+          "path": "evidence/parent-resume-rank29.json",
+          "size": 365
+        },
+        {
+          "path": "evidence/parent-resume-rank3.json",
+          "size": 364
+        },
+        {
+          "path": "evidence/parent-resume-rank30.json",
+          "size": 365
+        },
+        {
+          "path": "evidence/parent-resume-rank31.json",
+          "size": 365
+        },
+        {
+          "path": "evidence/parent-resume-rank4.json",
+          "size": 364
+        },
+        {
+          "path": "evidence/parent-resume-rank5.json",
+          "size": 364
+        },
+        {
+          "path": "evidence/parent-resume-rank6.json",
+          "size": 364
+        },
+        {
+          "path": "evidence/parent-resume-rank7.json",
+          "size": 364
+        },
+        {
+          "path": "evidence/parent-resume-rank8.json",
+          "size": 364
+        },
+        {
+          "path": "evidence/parent-resume-rank9.json",
+          "size": 364
+        },
+        {
+          "path": "evidence/resume-contract-regression.json",
+          "size": 348
+        },
+        {
+          "path": "evidence/startup-policy.json",
+          "size": 352
+        }
+      ],
+      "metrics": {
+        "count": 8835,
+        "first": {
+          "kind": "block",
+          "step": 31745,
+          "effective_input_tokens": 33287045120,
+          "input_tokens": 33287045120,
+          "supervised_tokens": 33287045120,
+          "compute_tokens": 33287045120,
+          "loss": 2.242785334587097,
+          "lr": 0.00010939388663744654,
+          "grad_norm": 0.1513596624135971,
+          "seconds": 63.806330824270844,
+          "peak_bytes": 71973290496,
+          "peak_reserved_bytes": 75650564096,
+          "documents": 856719,
+          "excluded_documents": 26
+        },
+        "last": {
+          "kind": "block",
+          "step": 40579,
+          "effective_input_tokens": 42550165504,
+          "input_tokens": 42550165504,
+          "supervised_tokens": 42550165504,
+          "compute_tokens": 42550165504,
+          "loss": 2.235164098441601,
+          "lr": 4.724204519656659e-05,
+          "grad_norm": 0.16088831424713135,
+          "seconds": 1.6747551579028368,
+          "peak_bytes": 71973290496,
+          "peak_reserved_bytes": 75650564096,
+          "documents": 1097630,
+          "excluded_documents": 30
+        },
+        "nonfinite_steps": [],
+        "mean_step_seconds_last100": 1.648553953524679
+      },
+      "validations": [
+        {
+          "cross_entropy": 2.2392196701839566,
+          "supervised_tokens": 4194304,
+          "perplexity": 9.386004250091867,
+          "step": 32768,
+          "input_tokens": 34359738368
+        },
+        {
+          "cross_entropy": 2.2342771435105533,
+          "supervised_tokens": 4194304,
+          "perplexity": 9.339728128416889,
+          "step": 33792,
+          "input_tokens": 35433480192
+        },
+        {
+          "cross_entropy": 2.229216203722899,
+          "supervised_tokens": 4194304,
+          "perplexity": 9.29257973495083,
+          "step": 34816,
+          "input_tokens": 36507222016
+        },
+        {
+          "cross_entropy": 2.2248565120244166,
+          "supervised_tokens": 4194304,
+          "perplexity": 9.252155135646758,
+          "step": 35840,
+          "input_tokens": 37580963840
+        },
+        {
+          "cross_entropy": 2.220432773410721,
+          "supervised_tokens": 4194304,
+          "perplexity": 9.211316416222617,
+          "step": 36864,
+          "input_tokens": 38654705664
+        },
+        {
+          "cross_entropy": 2.2162893675122177,
+          "supervised_tokens": 4194304,
+          "perplexity": 9.173229153434873,
+          "step": 37888,
+          "input_tokens": 39728447488
+        },
+        {
+          "cross_entropy": 2.2123252668570785,
+          "supervised_tokens": 4194304,
+          "perplexity": 9.136937529088078,
+          "step": 38912,
+          "input_tokens": 40802189312
+        },
+        {
+          "cross_entropy": 2.208300353900995,
+          "supervised_tokens": 4194304,
+          "perplexity": 9.100236060503272,
+          "step": 39936,
+          "input_tokens": 41875931136
+        }
+      ],
+      "node_exits": {
+        "nodes/0/exit.txt": "0",
+        "nodes/1/exit.txt": "0",
+        "nodes/2/exit.txt": "0",
+        "nodes/3/exit.txt": "0"
+      },
+      "parent_resume_receipt_count": 32
+    },
+    "komp-learned123-1b-downstream-eval-20261110": {
+      "exists": true,
+      "files": {
+        "watcher/status.json": {
+          "status": "waiting_for_50b_training",
+          "time": "2026-11-10T13:32:12.757015+00:00",
+          "job": {
+            "name": "job-35a0f599ed70-20261110172046",
+            "user_def_name": "komp-learned123-1b-50b-20261110-resume1",
+            "status": "Aborted",
+            "ready_status": "0/4",
+            "namespace": "qiji",
+            "job_creator": "linlizhi",
+            "user_gpu": 32
+          },
+          "runroot": "/gpfs/users/linlizhi/komp-learned123-1b-50b-20261110-resume1"
+        },
+        "watcher/failure.json": {
+          "time": "2026-11-10T13:32:12.760218+00:00",
+          "exception_type": "RuntimeError",
+          "error": "Training terminated without completion: Aborted"
+        }
+      },
+      "inventory": [
+        {
+          "path": "watcher/claim/owner.json",
+          "size": 119
+        },
+        {
+          "path": "watcher/config.json",
+          "size": 367
+        },
+        {
+          "path": "watcher/failure.json",
+          "size": 139
+        },
+        {
+          "path": "watcher/launch.json",
+          "size": 116
+        },
+        {
+          "path": "watcher/status.json",
+          "size": 378
+        },
+        {
+          "path": "evidence/generation-contract-audit.json",
+          "size": 10130
+        },
+        {
+          "path": "evidence/handoff-guard-tests.json",
+          "size": 276
+        },
+        {
+          "path": "evidence/inference-parity-static.json",
+          "size": 229
+        },
+        {
+          "path": "evidence/partial-candidate-not-launched.json",
+          "size": 538
+        },
+        {
+          "path": "evidence/requests-manifest.json",
+          "size": 5946
+        },
+        {
+          "path": "evidence/watcher-started.json",
+          "size": 1196
+        }
+      ],
+      "node_exits": {},
+      "parent_resume_receipt_count": 0
+    }
+  }
+}

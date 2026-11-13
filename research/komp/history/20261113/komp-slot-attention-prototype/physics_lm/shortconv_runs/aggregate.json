@@ -1,0 +1,50 @@
+[
+  {
+    "mixer": "komp_slot",
+    "conv": false,
+    "content_ce": 2.303620875494765,
+    "depo": 0.046875,
+    "brevo": 0.30859375,
+    "step_ms": 27.315854988992214
+  },
+  {
+    "mixer": "komp_slot",
+    "conv": true,
+    "content_ce": 1.9876387278828276,
+    "depo": 0.1015625,
+    "brevo": 0.22265625,
+    "step_ms": 34.62747596204281
+  },
+  {
+    "mixer": "gsa",
+    "conv": false,
+    "content_ce": 2.7194432810558884,
+    "depo": 0.015625,
+    "brevo": 0.03125,
+    "step_ms": 31.402068892493844
+  },
+  {
+    "mixer": "gsa",
+    "conv": true,
+    "content_ce": 2.6383978011479567,
+    "depo": 0.0390625,
+    "brevo": 0.08984375,
+    "step_ms": 39.76927734911442
+  },
+  {
+    "mixer": "gdn",
+    "conv": false,
+    "content_ce": 2.4143635957638065,
+    "depo": 0.03125,
+    "brevo": 0.10546875,
+    "step_ms": 29.22683338244115
+  },
+  {
+    "mixer": "gdn",
+    "conv": true,
+    "content_ce": 1.9926401537481657,
+    "depo": 0.12109375,
+    "brevo": 0.1875,
+    "step_ms": 37.32287251390517
+  }
+]

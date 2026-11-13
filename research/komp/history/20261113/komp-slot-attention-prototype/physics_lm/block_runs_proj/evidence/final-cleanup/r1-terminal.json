@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-e431b5d89db9-20261101161457",
+    "user_def_name": "komp-proj-swa-20261101-r1",
+    "status": "Completed",
+    "ready_status": "0/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  }
+]

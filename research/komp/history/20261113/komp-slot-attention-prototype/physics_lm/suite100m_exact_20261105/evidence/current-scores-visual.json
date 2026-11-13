@@ -1,0 +1,271 @@
+{
+  "timestamp": "11-06 03:41",
+  "rows": [
+    {
+      "task": "brevo2",
+      "kind": "exact",
+      "label": "Exact 原版",
+      "val": 0.7741052325775389,
+      "test": 0.7790923566446583,
+      "acc": 0.11328125,
+      "progress": null,
+      "lr": 0.001,
+      "wd": 0.1
+    },
+    {
+      "task": "brevo2",
+      "kind": "full",
+      "label": "Full",
+      "val": 0.763569783069314,
+      "test": 0.7691766231074691,
+      "acc": 0.05859375,
+      "progress": null,
+      "lr": 0.001,
+      "wd": 0.1
+    },
+    {
+      "task": "brevo2",
+      "kind": "gdn",
+      "label": "GDN",
+      "val": 0.6683962709011283,
+      "test": 0.6714316177460373,
+      "acc": 0.1484375,
+      "progress": null,
+      "lr": 0.0005,
+      "wd": 0.1
+    },
+    {
+      "task": "brevo2",
+      "kind": "gsa",
+      "label": "GSA",
+      "val": 0.830668208216191,
+      "test": 0.836600894122172,
+      "acc": 0.0703125,
+      "progress": null,
+      "lr": 0.0005,
+      "wd": 0.01
+    },
+    {
+      "task": "brevo2",
+      "kind": "komp",
+      "label": "Block-KOMP",
+      "val": 0.7003588979464752,
+      "test": 0.7043215568484491,
+      "acc": 0.140625,
+      "progress": null,
+      "lr": 0.001,
+      "wd": 0.1
+    },
+    {
+      "task": "brevo2",
+      "kind": "swa",
+      "label": "SWA",
+      "val": 0.9110204129226999,
+      "test": 0.9191563450812755,
+      "acc": 0.0546875,
+      "progress": null,
+      "lr": 0.001,
+      "wd": 0.0
+    },
+    {
+      "task": "depo2",
+      "kind": "exact",
+      "label": "Exact 原版",
+      "val": 0.757860016688033,
+      "test": 0.7629591705604344,
+      "acc": 0.04296875,
+      "progress": null,
+      "lr": 0.0005,
+      "wd": 0.1
+    },
+    {
+      "task": "depo2",
+      "kind": "full",
+      "label": "Full",
+      "val": 0.7448952925233022,
+      "test": 0.7481239850720998,
+      "acc": 0.0390625,
+      "progress": null,
+      "lr": 0.0005,
+      "wd": 0.0
+    },
+    {
+      "task": "depo2",
+      "kind": "gdn",
+      "label": "GDN",
+      "val": 0.5113474973634732,
+      "test": 0.5137908087365732,
+      "acc": 0.06640625,
+      "progress": null,
+      "lr": 0.0005,
+      "wd": 0.0
+    },
+    {
+      "task": "depo2",
+      "kind": "gsa",
+      "label": "GSA",
+      "val": 0.9182115566115262,
+      "test": 0.9196145078456314,
+      "acc": 0.0234375,
+      "progress": null,
+      "lr": 0.001,
+      "wd": 0.0
+    },
+    {
+      "task": "depo2",
+      "kind": "komp",
+      "label": "Block-KOMP",
+      "val": 0.697052747024354,
+      "test": 0.7003645799889956,
+      "acc": 0.05078125,
+      "progress": null,
+      "lr": 0.0005,
+      "wd": 0.1
+    },
+    {
+      "task": "depo2",
+      "kind": "swa",
+      "label": "SWA",
+      "val": 0.9119999879295904,
+      "test": 0.9147785355739824,
+      "acc": 0.0390625,
+      "progress": null,
+      "lr": 0.001,
+      "wd": 0.1
+    },
+    {
+      "task": "brevo2",
+      "kind": "gsa2",
+      "label": "GSA2*",
+      "val": 0.683094099428103,
+      "test": 0.6890974089111479,
+      "acc": 0.12890625,
+      "progress": null,
+      "lr": 0.001,
+      "wd": 0.1
+    },
+    {
+      "task": "depo2",
+      "kind": "gsa2",
+      "label": "GSA2*",
+      "val": 0.6506032886615859,
+      "test": 0.6518424397992827,
+      "acc": 0.04296875,
+      "progress": null,
+      "lr": 0.001,
+      "wd": 0.01
+    },
+    {
+      "task": "depo2",
+      "kind": "exact995",
+      "label": "Exact 改 α",
+      "val": 0.6695572929539848,
+      "test": 0.6712530436160062,
+      "acc": 0.0546875,
+      "progress": null,
+      "lr": 0.0005,
+      "wd": 0.1
+    },
+    {
+      "task": "brevo2",
+      "kind": "exact995",
+      "label": "Exact 改 α",
+      "val": 0.7348304093575835,
+      "test": 0.7420737431210905,
+      "acc": 0.109375,
+      "progress": null,
+      "lr": 0.001,
+      "wd": 0.1
+    },
+    {
+      "task": "depo2",
+      "kind": "exactbest",
+      "label": "Exact 最佳 LR",
+      "val": 0.6308049911361147,
+      "test": 0.6310219546911575,
+      "acc": 0.078125,
+      "progress": null,
+      "lr": 0.001,
+      "wd": 0.1
+    },
+    {
+      "task": "brevo2",
+      "kind": "exactbest",
+      "label": "Exact 最佳 LR",
+      "val": 0.7088655219547753,
+      "test": 0.7110036372997552,
+      "acc": 0.1171875,
+      "progress": null,
+      "lr": 0.002,
+      "wd": 0.1
+    },
+    {
+      "task": "depo2",
+      "kind": "beta0.1-m32",
+      "label": "β0.1 / M32",
+      "val": 0.6628669264337376,
+      "test": 0.6631713633305185,
+      "acc": 0.06640625,
+      "progress": null,
+      "lr": 0.001,
+      "wd": 0.1
+    },
+    {
+      "task": "depo2",
+      "kind": "beta0.2-m64",
+      "label": "β0.2 / M64",
+      "val": 0.620200824739002,
+      "test": 0.6217718003613416,
+      "acc": 0.04296875,
+      "progress": null,
+      "lr": 0.001,
+      "wd": 0.1
+    },
+    {
+      "task": "depo2",
+      "kind": "beta0.1-m64",
+      "label": "β0.1 / M64",
+      "val": 0.5711007879179516,
+      "test": 0.5718754844557916,
+      "acc": 0.0625,
+      "progress": null,
+      "lr": 0.001,
+      "wd": 0.1
+    },
+    {
+      "task": "brevo2",
+      "kind": "beta0.1-m32",
+      "label": "β0.1 / M32",
+      "val": 0.7449057075704458,
+      "test": 0.750314802325992,
+      "acc": 0.125,
+      "progress": null,
+      "lr": 0.002,
+      "wd": 0.1
+    },
+    {
+      "task": "brevo2",
+      "kind": "beta0.2-m64",
+      "label": "β0.2 / M64",
+      "val": 0.7079059019078068,
+      "test": 0.7089973068626633,
+      "acc": 0.12109375,
+      "progress": null,
+      "lr": 0.002,
+      "wd": 0.1
+    },
+    {
+      "task": "brevo2",
+      "kind": "beta0.1-m64",
+      "label": "β0.1 / M64",
+      "val": 0.7270207106765985,
+      "test": 0.734298770396263,
+      "acc": 0.13671875,
+      "progress": null,
+      "lr": 0.002,
+      "wd": 0.1
+    }
+  ],
+  "originalEvaluated": 14,
+  "lrEvaluated": 4
+}

@@ -1,0 +1,317 @@
+{
+  "error": "CompilationError(\"def project(QN,Pool,IDs,Drop,Cross,P,DP,DPool,T:tl.constexpr,M:tl.constexpr,D:tl.constexpr,\\n            BM:tl.constexpr,BD:tl.constexpr,TAU:tl.constexpr,RIDGE:tl.constexpr,BACKWARD:tl.constexpr):\\n    window,bh=tl.program_id(0).to(tl.int64),tl.program_id(1).to(tl.int64)\\n    c=tl.arange(0,32);m=tl.arange(0,BM);d=tl.arange(0,BD)\\n    t=window*32+c;base=bh*(T+M)\\n    ds=tl.load(Drop+bh*T+t,t<T,-1)\\n    if tl.sum((ds>=0).to(tl.int32),0)<=4:\\n        pos=0\\n        limit=tl.minimum(32,T-window*32)\\n        while pos<limit:\\n            end=tl.min(tl.where((c>pos)&(ds>=0)&(t<T),c,limit),0)\\n            first=window*32+pos\\n            old,kept,unused_drop,gram,unused_c,unused_h,unused_r,unused_n=geometry_values(\\n                QN,Pool,IDs,Drop,first,bh,T,M,D,BM,BD,TAU,RIDGE)\\n            factor=factor_ldlt(gram+tl.where(m[:,None]==m[None,:],RIDGE,0.),M,BM)\\n            active=(c>=pos)&(c<end)&(t<T)\\n            mask=(m[:,None]<M)&active[None,:]\\n            cross=tl.load(Cross+(bh*T+t[None,:])*M+m[:,None],mask,0)\\n            if BACKWARD:\\n                rhs=tl.load(DP+(bh*T+t[None,:])*M+m[:,None],mask,0)\\n            else:\\n                rhs=cross\\n            z=solve_ldlt_multi(factor,rhs,M,BM,32)\\n            if BACKWARD:\\n                p=tl.load(P+(bh*T+t[None,:])*M+m[:,None],mask,0)\\n                dc=z*cross/TAU\\n                zp=tl.dot(z,tl.trans(p),input_precision='tf32x3')\\n                dmat=-(zp+tl.trans(zp))*gram/TAU\\n                nk=tl.load(Pool+(base+kept[:,None])*D+d[None,:],(m[:,None]<M)&(d[None,:]<D),0)\\n                dropped=tl.load(IDs+(bh*(T+1)+t)*M+tl.maximum(ds,0),active&(ds>=0),0)\\n                dropped=tl.where(ds>=0,dropped,M+t)\\n                dk=tl.load(Pool+(base+dropped[:,None])*D+d[None,:],active[:,None]&(d[None,:]<D),0)\\n                anchor=tl.sum(tl.where(m[:,None]==0,nk,0.),0)\\n                nc=nk-anchor[None,:];dd=dk-anchor[None,:]\\n                dkeep=tl.dot(dmat,nc,input_precision='tf32x3')-tl.sum(dmat,1)[:,None]*nc\\n                dkeep+=tl.dot(dc,dd,input_precision='tf32x3')-tl.sum(dc,1)[:,None]*nc\\n                dkeep+=tl.where((tl.sum(nk*nk,1)<.99999)[:,None],(tl.sum(dmat,1)+tl.sum(dc,1))[:,None]*nk,0.)\\n                ddrop=tl.dot(tl.trans(dc),nc,input_precision='tf32x3')-tl.sum(dc,0)[:,None]*dd\\n                ddrop+=tl.where((tl.sum(dk*dk,1)<.99999)[:,None],tl.sum(dc,0)[:,None]*dk,0.)\\n                tl.atomic_add(DPool+(base+kept[:,None])*D+d[None,:],dkeep,(m[:,None]<M)&(d[None,:]<D),sem='relaxed')\\n                tl.atomic_add(DPool+(base+dropped[:,None])*D+d[None,:],ddrop,active[:,None]&(d[None,:]<D),sem='relaxed')\\n            else:\\n                tl.store(P+(bh*T+t[None,:])*M+m[:,None],z,mask)\\n            pos=end\\n\", <ast.While object at 0x7f4822381010>, \"AssertionError('Loop-carried variable pos has initial type int32 but is re-assigned to int64 in loop! Please make sure that the type stays consistent.')\")",
+  "checks": [
+    {
+      "name": "affine/nc32/m7/v11/revFalse/entry",
+      "rms_relative": 4.885043833903694e-07,
+      "normalized_max": 5.697557650698383e-07,
+      "max_abs": 1.7063005417483623e-06,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "affine/nc32/m7/v11/revFalse/final",
+      "rms_relative": 1.1151265302562266e-06,
+      "normalized_max": 1.023479834981551e-06,
+      "max_abs": 1.0541665621532914e-06,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "affine/nc32/m7/v11/revTrue/entry",
+      "rms_relative": 4.6431291697049975e-07,
+      "normalized_max": 5.12249378991651e-07,
+      "max_abs": 1.5340808228181402e-06,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "affine/nc32/m7/v11/revTrue/final",
+      "rms_relative": 1.0241815974364148e-06,
+      "normalized_max": 1.284009079283166e-06,
+      "max_abs": 1.284009079283166e-06,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "affine/nc33/m32/v64/revFalse/entry",
+      "rms_relative": 1.2076380057044767e-06,
+      "normalized_max": 1.517759245370077e-06,
+      "max_abs": 5.516263111182695e-06,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "affine/nc33/m32/v64/revFalse/final",
+      "rms_relative": 2.746882525356565e-06,
+      "normalized_max": 3.523425369340219e-06,
+      "max_abs": 4.511876924073732e-06,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "affine/nc33/m32/v64/revTrue/entry",
+      "rms_relative": 1.1677210372091e-06,
+      "normalized_max": 1.3879207414022145e-06,
+      "max_abs": 5.038254700107103e-06,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "affine/nc33/m32/v64/revTrue/final",
+      "rms_relative": 2.6069123853848265e-06,
+      "normalized_max": 3.876065814061797e-06,
+      "max_abs": 4.705136360749762e-06,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "affine/nc63/m64/v128/revFalse/entry",
+      "rms_relative": 2.7020682247889784e-06,
+      "normalized_max": 2.234747986577152e-06,
+      "max_abs": 9.204940715878962e-06,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "affine/nc63/m64/v128/revFalse/final",
+      "rms_relative": 4.968573782420813e-06,
+      "normalized_max": 5.665298157320198e-06,
+      "max_abs": 5.665298157320198e-06,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "affine/nc63/m64/v128/revTrue/entry",
+      "rms_relative": 2.709045109548326e-06,
+      "normalized_max": 2.2844829650840247e-06,
+      "max_abs": 9.409799398563123e-06,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "affine/nc63/m64/v128/revTrue/final",
+      "rms_relative": 4.978361359496752e-06,
+      "normalized_max": 5.51023996642197e-06,
+      "max_abs": 5.51023996642197e-06,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "affine/nc129/m32/v64/revFalse/entry",
+      "rms_relative": 1.6319272231104717e-06,
+      "normalized_max": 1.362783923398821e-06,
+      "max_abs": 5.3759121592111825e-06,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "affine/nc129/m32/v64/revFalse/final",
+      "rms_relative": 1.6565864282751845e-06,
+      "normalized_max": 1.7270346138742454e-06,
+      "max_abs": 1.7270346138742454e-06,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "affine/nc129/m32/v64/revTrue/entry",
+      "rms_relative": 1.6075529792907124e-06,
+      "normalized_max": 1.4173592648263268e-06,
+      "max_abs": 5.591201051702299e-06,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "affine/nc129/m32/v64/revTrue/final",
+      "rms_relative": 1.6801743220635868e-06,
+      "normalized_max": 1.4518768925442238e-06,
+      "max_abs": 1.4518768925442238e-06,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "tail/t513/c16/lFalse/0",
+      "rms_relative": 5.658812394861577e-08,
+      "normalized_max": 7.869516491398107e-08,
+      "max_abs": 1.1920928955078125e-07,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "tail/t513/c16/lFalse/1",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "tail/t513/c16/lFalse/2",
+      "rms_relative": 7.359606053291904e-08,
+      "normalized_max": 6.167212115463531e-08,
+      "max_abs": 1.1920928955078125e-07,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "tail/t513/c16/lFalse/3",
+      "rms_relative": 2.0626295924964074e-07,
+      "normalized_max": 2.969417376555381e-07,
+      "max_abs": 4.76837158203125e-07,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "tail/t513/c16/lFalse/4",
+      "rms_relative": 2.4361837629650917e-07,
+      "normalized_max": 2.9490928767256766e-07,
+      "max_abs": 5.960464477539062e-07,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "tail/t513/c16/lFalse/5",
+      "rms_relative": 5.819291000592441e-08,
+      "normalized_max": 1.1677473779400376e-07,
+      "max_abs": 2.384185791015625e-07,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "tail/t513/c16/lFalse/6",
+      "rms_relative": 2.57199330211058e-07,
+      "normalized_max": 1.403623994958432e-07,
+      "max_abs": 1.0728836059570312e-06,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "tail/t513/c16/lFalse/7",
+      "rms_relative": 9.688496102408376e-08,
+      "normalized_max": 1.0621814849658302e-07,
+      "max_abs": 9.5367431640625e-07,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "tail/t513/c16/lFalse/8",
+      "rms_relative": 3.034339175770622e-07,
+      "normalized_max": 6.705522537231445e-08,
+      "max_abs": 6.705522537231445e-08,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "tail/t513/c16/lFalse/9",
+      "rms_relative": 9.590875098664877e-08,
+      "normalized_max": 7.177970603134107e-08,
+      "max_abs": 1.043081283569336e-07,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "tail/t513/c16/lFalse/10",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "tail/t1025/c32/lFalse/0",
+      "rms_relative": 6.357335057491551e-08,
+      "normalized_max": 1.0770954784824328e-07,
+      "max_abs": 1.7881393432617188e-07,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "tail/t1025/c32/lFalse/1",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "tail/t1025/c32/lFalse/2",
+      "rms_relative": 9.25050490773482e-08,
+      "normalized_max": 1.451697909504201e-07,
+      "max_abs": 2.384185791015625e-07,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "tail/t1025/c32/lFalse/3",
+      "rms_relative": 2.330472919861436e-07,
+      "normalized_max": 2.301703099174172e-07,
+      "max_abs": 4.76837158203125e-07,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "tail/t1025/c32/lFalse/4",
+      "rms_relative": 2.66910572093068e-07,
+      "normalized_max": 3.4576945690836617e-07,
+      "max_abs": 1.0728836059570312e-06,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "tail/t1025/c32/lFalse/5",
+      "rms_relative": 6.054566936417489e-08,
+      "normalized_max": 1.243457470801287e-07,
+      "max_abs": 2.384185791015625e-07,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "tail/t1025/c32/lFalse/6",
+      "rms_relative": 3.5234686201403523e-07,
+      "normalized_max": 4.305255718412855e-07,
+      "max_abs": 2.384185791015625e-06,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "tail/t1025/c32/lFalse/7",
+      "rms_relative": 9.644998567659174e-08,
+      "normalized_max": 1.0486703866221203e-07,
+      "max_abs": 1.1920928955078125e-06,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "tail/t1025/c32/lFalse/8",
+      "rms_relative": 2.180647660554919e-07,
+      "normalized_max": 4.470348358154297e-08,
+      "max_abs": 4.470348358154297e-08,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "tail/t1025/c32/lFalse/9",
+      "rms_relative": 1.1493243855688495e-07,
+      "normalized_max": 9.116543983814852e-08,
+      "max_abs": 1.1920928955078125e-07,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "tail/t1025/c32/lFalse/10",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.0001,
+      "max_tolerance": 0.0001
+    },
+    {
+      "name": "8k/prefix/lFalse",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.0,
+      "max_tolerance": 0.0
+    }
+  ]
+}

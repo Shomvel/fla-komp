@@ -1,0 +1,65 @@
+{
+  "status": "passed",
+  "candidate": {
+    "source_manifest_sha256": "f0ebd0c1b3375e671d849a99e70c2019b3cf20be89d588982e4e5fe86dd050f8",
+    "file_count": 15
+  },
+  "models": [
+    {
+      "model": "block",
+      "source": "/Users/shom/Downloads/komp-flame-340m-20c-20261106/migration-fla-mb16/runtime",
+      "source_manifest_sha256": "1dde0fbb5668f1105425de6774a4d188535b278819d3af3f1c569a987359f5ea",
+      "data_manifest_sha256": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+      "source_file_count": 658
+    },
+    {
+      "model": "exact",
+      "source": "/Users/shom/Downloads/komp-flame-340m-20c-20261106/migration-fla-mb16/runtime",
+      "source_manifest_sha256": "1dde0fbb5668f1105425de6774a4d188535b278819d3af3f1c569a987359f5ea",
+      "data_manifest_sha256": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+      "source_file_count": 658
+    },
+    {
+      "model": "block123",
+      "source": "/Users/shom/Downloads/komp-kda-options-ff2272-340m-20c-20261106",
+      "source_manifest_sha256": "3e861451b240e3d4a3479fb0827bf26a10fee320895215dfa419f3a6026c0f6e",
+      "data_manifest_sha256": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+      "source_file_count": 651
+    },
+    {
+      "model": "exact123",
+      "source": "/Users/shom/Downloads/komp-kda-options-ff2272-340m-20c-20261106",
+      "source_manifest_sha256": "3e861451b240e3d4a3479fb0827bf26a10fee320895215dfa419f3a6026c0f6e",
+      "data_manifest_sha256": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+      "source_file_count": 651
+    },
+    {
+      "model": "learned",
+      "source": "/Users/shom/Downloads/komp-gdn-slot-learned-340m-20c-20261107",
+      "source_manifest_sha256": "d0238bb7a8a390f1ee1c834aef79bec02680775dd66fb150f9f93e24e846b9e9",
+      "data_manifest_sha256": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+      "source_file_count": 834
+    },
+    {
+      "model": "learned123",
+      "source": "/Users/shom/Downloads/komp-gdn-slot-learned-123-340m-20c-20261107",
+      "source_manifest_sha256": "b5828e0262452ac518840be596e26406620e19b2b68bc5e8d590d8037699ecd7",
+      "data_manifest_sha256": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+      "source_file_count": 835
+    },
+    {
+      "model": "value",
+      "source": "/Users/shom/Downloads/komp-value-decay-block-340m-20c-20261106",
+      "source_manifest_sha256": "211b49fdea7eb41c878491735332303db14d8dc4f6486bbcf7dad62752e305be",
+      "data_manifest_sha256": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+      "source_file_count": 833
+    },
+    {
+      "model": "value_learned123",
+      "source": "/Users/shom/Downloads/komp-value-decay-learned-123-340m-20c-20261107",
+      "source_manifest_sha256": "0b906d5b3e39c017e862c13c6e7474a741a00ccfbde9be654f10e1265fc8f763",
+      "data_manifest_sha256": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+      "source_file_count": 836
+    }
+  ]
+}

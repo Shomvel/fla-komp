@@ -1,0 +1,246 @@
+{
+  "status": "completed",
+  "task": "brevo2",
+  "candidate": {
+    "name": "alpha0-0.995",
+    "alpha0": 0.995,
+    "beta0": 0.2,
+    "temperature": 0.5,
+    "ridge": 0.0001,
+    "slots": 32,
+    "decay_normalizer": 8,
+    "eviction": "fifo",
+    "score_write_gate": false,
+    "compute_chunk": 16,
+    "projection_dtype": "float64",
+    "decay_bias": 3.1962534329240757,
+    "beta_bias": -1.3862943611198906
+  },
+  "selection_scope": "fixed previously selected alpha.995 checkpoint, not necessarily final winner",
+  "checkpoint": "/gpfs/users/linlizhi/physics100m-exact-20261105/exact_tuning_20261105/results/brevo2/alpha0-0.995/checkpoint.pt",
+  "checkpoint_sha256": "0574f57cd0707bc30de76044d26af819aa359ecbceadd215e3c9b807e7c0b9ba",
+  "sources": {
+    "ddp": {
+      "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+      "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+    },
+    "tuning": {
+      "numerical.py": "81f8b91a62ea1fa2bc7a86afdb319bf9ab44bf2e3e75597a6235628945340436",
+      "prepare_queue.py": "104f2683c840c6acdef28e64fa3caf46c681ce840ebb99132dd74791f6f0ac4a",
+      "report.py": "53f4fd0595a1d66fd8c38e8ef005d4142f2285a006b0afb37cea24326cacbd83",
+      "tune.py": "99825009bec10dc2b26b9d1fdae1d77d596297d076f7a503bc3d115f04c81165",
+      "tuned_preflight.py": "313f0ffcc36d036554b89eb95a21141d95cc19c06bcf1ea46c4a932163086cc9"
+    },
+    "plan": "0d138f9449294e03a5c9e4bf7fc41665daf3b38293ab2b4207395e85c3ce6120"
+  },
+  "script_sha256": "a0896d1bcd4171086d452011f3534fc9cc63ba10f91da0fb0af0b011e9894d58",
+  "variants": {
+    "source": {
+      "__init__.py": "e5ca7eef4e205d3331b8d24ddb87e0cc12148beddd28fe1e7a9c668f4d2d1058",
+      "chunk_backward.py": "654a29b52abdda49d49d88dd66eb3a6db36d5c31a5ac2d5d69f247f8df454337",
+      "geometry.py": "c3ed25d0557b4bc417ef39f2df1653c4d3e978321590f0cf4abc430ea46ee389",
+      "hierarchical.py": "100517a5611d0db3c82b8584340c76207b39f688d38128c3dbca698937103b68",
+      "operator.py": "d3878b96551a16aef4323ace9bec652604d7dd37534b1fb42b0cbd5b94ca12d0",
+      "recurrence.py": "41bd96f432f2c7424e8831aaa3340495510369609fe90b308baa3646353dd6bd",
+      "versioned.py": "78e15ea818ee0f04ddc551c800b5bb31a34e57212f5c0b7e7f028022a99bd94d"
+    },
+    "variants": {
+      "bf16_projection/__init__.py": "e5ca7eef4e205d3331b8d24ddb87e0cc12148beddd28fe1e7a9c668f4d2d1058",
+      "bf16_projection/chunk_backward.py": "654a29b52abdda49d49d88dd66eb3a6db36d5c31a5ac2d5d69f247f8df454337",
+      "bf16_projection/geometry.py": "ba59858ca47fbd37b20339f39b24ce56bc6d5cdc37706d1e5bd6962035d516df",
+      "bf16_projection/hierarchical.py": "100517a5611d0db3c82b8584340c76207b39f688d38128c3dbca698937103b68",
+      "bf16_projection/operator.py": "4f43a1e966e472059c0c9d903063d7e940029281614986ce14bd6388924eb308",
+      "bf16_projection/recurrence.py": "41bd96f432f2c7424e8831aaa3340495510369609fe90b308baa3646353dd6bd",
+      "bf16_projection/versioned.py": "78e15ea818ee0f04ddc551c800b5bb31a34e57212f5c0b7e7f028022a99bd94d",
+      "bf16_projection_mixed/__init__.py": "e5ca7eef4e205d3331b8d24ddb87e0cc12148beddd28fe1e7a9c668f4d2d1058",
+      "bf16_projection_mixed/chunk_backward.py": "654a29b52abdda49d49d88dd66eb3a6db36d5c31a5ac2d5d69f247f8df454337",
+      "bf16_projection_mixed/geometry.py": "e603072dc5ad272aa14874a262295ed5a6a1ca71262dfe083717b66c2670afe1",
+      "bf16_projection_mixed/hierarchical.py": "100517a5611d0db3c82b8584340c76207b39f688d38128c3dbca698937103b68",
+      "bf16_projection_mixed/operator.py": "4f43a1e966e472059c0c9d903063d7e940029281614986ce14bd6388924eb308",
+      "bf16_projection_mixed/recurrence.py": "41bd96f432f2c7424e8831aaa3340495510369609fe90b308baa3646353dd6bd",
+      "bf16_projection_mixed/versioned.py": "78e15ea818ee0f04ddc551c800b5bb31a34e57212f5c0b7e7f028022a99bd94d"
+    },
+    "semantics": {
+      "bf16_projection": "BF16 Gram/RHS/P/H/R/N; BF16-rounded elimination, including regularized diagonal. FP32 normalization, reductions, state, geometry adjoint. Approximate backward through rounded geometry.",
+      "bf16_projection_mixed": "BF16 Gram/RHS/P/H/R/N; ridge addition and solve FP32. FP32 normalization/state/geometry adjoint. Approximate backward through rounded geometry; not a pure BF16 solve."
+    }
+  },
+  "local_shapes_by_rank": [
+    [
+      2,
+      32
+    ],
+    [
+      2,
+      224
+    ],
+    [
+      2,
+      144
+    ],
+    [
+      2,
+      528
+    ],
+    [
+      2,
+      368
+    ],
+    [
+      2,
+      528
+    ],
+    [
+      2,
+      752
+    ],
+    [
+      2,
+      464
+    ]
+  ],
+  "world_size": 8,
+  "training_steps": 0,
+  "training_tokens": 0,
+  "modes": {
+    "fp64": {
+      "status": "finite_evaluated",
+      "validation": {
+        "ce": 1.257567770903855,
+        "supervised_positions": 36619
+      },
+      "validation_seconds_single_pass_including_compile": 3.0371222496032715,
+      "fixed_batch_loss": 1.3017196197509766,
+      "supervised_hidden_vs_fp64": null,
+      "gradients_vs_fp64": {},
+      "timing": {
+        "forward": {
+          "status": "measured",
+          "median_ms": 47.62102508544922,
+          "rank_max_ms_each_round": [
+            48.01946258544922,
+            47.618675231933594,
+            47.62102508544922
+          ],
+          "warmup": 5,
+          "rounds": 3,
+          "iterations_per_round": 10,
+          "includes": "LM backbone plus masked head CE; gradient zero+backward for fwd_bwd; no optimizer or DDP gradient communication"
+        },
+        "forward_backward": {
+          "status": "measured",
+          "median_ms": 190.9198760986328,
+          "rank_max_ms_each_round": [
+            188.8673858642578,
+            190.9198760986328,
+            197.58401489257812
+          ],
+          "warmup": 5,
+          "rounds": 3,
+          "iterations_per_round": 10,
+          "includes": "LM backbone plus masked head CE; gradient zero+backward for fwd_bwd; no optimizer or DDP gradient communication"
+        }
+      }
+    },
+    "fp32": {
+      "status": "finite_evaluated",
+      "validation": {
+        "ce": 1.2575364858339335,
+        "supervised_positions": 36619
+      },
+      "validation_seconds_single_pass_including_compile": 2.0762715339660645,
+      "fixed_batch_loss": 1.3010797454833984,
+      "supervised_hidden_vs_fp64": {
+        "rms_relative": 0.001744423128666912,
+        "normalized_max": 0.002445167861878872
+      },
+      "gradients_vs_fp64": {
+        "embed.weight": {
+          "finite": true,
+          "rms_relative": 0.008811702020466328,
+          "normalized_max": 0.008957933634519577
+        },
+        "layers.0.mix.keys": {
+          "finite": true,
+          "rms_relative": 0.0,
+          "normalized_max": 0.0
+        },
+        "layers.0.mix.k.weight": {
+          "finite": true,
+          "rms_relative": 0.01661858707666397,
+          "normalized_max": 0.010528206825256348
+        },
+        "layers.0.mix.out.weight": {
+          "finite": true,
+          "rms_relative": 0.01028407271951437,
+          "normalized_max": 0.011268028989434242
+        },
+        "layers.0.mix.decay.weight": {
+          "finite": true,
+          "rms_relative": 0.012015420012176037,
+          "normalized_max": 0.014843818731606007
+        },
+        "layers.0.mix.decay.bias": {
+          "finite": true,
+          "rms_relative": 0.011399423703551292,
+          "normalized_max": 0.012290881015360355
+        },
+        "layers.0.mix.beta.weight": {
+          "finite": true,
+          "rms_relative": 0.005349176004528999,
+          "normalized_max": 0.007420568261295557
+        },
+        "layers.14.mix.keys": {
+          "finite": true,
+          "rms_relative": 0.0,
+          "normalized_max": 0.0
+        },
+        "head.weight": {
+          "finite": true,
+          "rms_relative": 0.005526610184460878,
+          "normalized_max": 0.006477732677012682
+        }
+      },
+      "timing": {
+        "forward": {
+          "status": "measured",
+          "median_ms": 44.13179016113281,
+          "rank_max_ms_each_round": [
+            44.13179016113281,
+            44.21180725097656,
+            43.37332534790039
+          ],
+          "warmup": 5,
+          "rounds": 3,
+          "iterations_per_round": 10,
+          "includes": "LM backbone plus masked head CE; gradient zero+backward for fwd_bwd; no optimizer or DDP gradient communication"
+        },
+        "forward_backward": {
+          "status": "measured",
+          "median_ms": 200.50115966796875,
+          "rank_max_ms_each_round": [
+            203.12472534179688,
+            183.1811065673828,
+            200.50115966796875
+          ],
+          "warmup": 5,
+          "rounds": 3,
+          "iterations_per_round": 10,
+          "includes": "LM backbone plus masked head CE; gradient zero+backward for fwd_bwd; no optimizer or DDP gradient communication"
+        }
+      }
+    },
+    "bf16_projection": {
+      "status": "rejected",
+      "reason": "nonfinite supervised hidden on fixed real batch",
+      "timing": null
+    },
+    "bf16_projection_mixed": {
+      "status": "rejected",
+      "reason": "nonfinite supervised hidden on fixed real batch",
+      "timing": null
+    }
+  },
+  "weights_unchanged": true,
+  "scope": "Projection-only exploratory kernels. Fixed checkpoint inference and gradients do not establish training equivalence. Timing is fixed local batch without DDP/optimizer, not an8K single-operator benchmark."
+}

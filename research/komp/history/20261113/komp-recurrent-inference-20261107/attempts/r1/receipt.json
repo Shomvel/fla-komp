@@ -1,0 +1,170 @@
+{
+  "status": "passed",
+  "candidate_source": {
+    "source_manifest_sha256": "f0ebd0c1b3375e671d849a99e70c2019b3cf20be89d588982e4e5fe86dd050f8",
+    "file_count": 15
+  },
+  "models": [
+    "block",
+    "exact",
+    "block123",
+    "exact123",
+    "learned",
+    "learned123",
+    "value",
+    "value_learned123"
+  ],
+  "stages": [
+    "operators"
+  ],
+  "started": "2026-11-07T09:30:49.046853+00:00",
+  "cuda_visible_devices": "GPU-a23fed83-576f-fcd6-f472-b74160734f00",
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "commands": [
+    {
+      "stage": "operators",
+      "model": "block",
+      "command": [
+        "/opt/venv/bin/python",
+        "/gpfs/users/linlizhi/komp-recurrent-inference-20261107/gpu_validate.py",
+        "--operators-only",
+        "--model",
+        "block",
+        "--base",
+        "/gpfs/users/linlizhi",
+        "--evidence-dir",
+        "/gpfs/users/linlizhi/komp-recurrent-inference-20261107/attempts/r1/operators"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "log_sha256": "71ed47a4fe0839520ddc809197d04ea303d253bdd786d12609853990b596eef5"
+    },
+    {
+      "stage": "operators",
+      "model": "exact",
+      "command": [
+        "/opt/venv/bin/python",
+        "/gpfs/users/linlizhi/komp-recurrent-inference-20261107/gpu_validate.py",
+        "--operators-only",
+        "--model",
+        "exact",
+        "--base",
+        "/gpfs/users/linlizhi",
+        "--evidence-dir",
+        "/gpfs/users/linlizhi/komp-recurrent-inference-20261107/attempts/r1/operators"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "log_sha256": "329cbba4086c579e58d125ef9d320587c86aa31fd708f87d45fa12243ff71b6a"
+    },
+    {
+      "stage": "operators",
+      "model": "block123",
+      "command": [
+        "/opt/venv/bin/python",
+        "/gpfs/users/linlizhi/komp-recurrent-inference-20261107/gpu_validate.py",
+        "--operators-only",
+        "--model",
+        "block123",
+        "--base",
+        "/gpfs/users/linlizhi",
+        "--evidence-dir",
+        "/gpfs/users/linlizhi/komp-recurrent-inference-20261107/attempts/r1/operators"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "log_sha256": "71ed47a4fe0839520ddc809197d04ea303d253bdd786d12609853990b596eef5"
+    },
+    {
+      "stage": "operators",
+      "model": "exact123",
+      "command": [
+        "/opt/venv/bin/python",
+        "/gpfs/users/linlizhi/komp-recurrent-inference-20261107/gpu_validate.py",
+        "--operators-only",
+        "--model",
+        "exact123",
+        "--base",
+        "/gpfs/users/linlizhi",
+        "--evidence-dir",
+        "/gpfs/users/linlizhi/komp-recurrent-inference-20261107/attempts/r1/operators"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "log_sha256": "329cbba4086c579e58d125ef9d320587c86aa31fd708f87d45fa12243ff71b6a"
+    },
+    {
+      "stage": "operators",
+      "model": "learned",
+      "command": [
+        "/opt/venv/bin/python",
+        "/gpfs/users/linlizhi/komp-recurrent-inference-20261107/gpu_validate.py",
+        "--operators-only",
+        "--model",
+        "learned",
+        "--base",
+        "/gpfs/users/linlizhi",
+        "--evidence-dir",
+        "/gpfs/users/linlizhi/komp-recurrent-inference-20261107/attempts/r1/operators"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "log_sha256": "ad1344fe738edbe828437c61463600f45e92904269d0a77e9355adb2ded9fb87"
+    },
+    {
+      "stage": "operators",
+      "model": "learned123",
+      "command": [
+        "/opt/venv/bin/python",
+        "/gpfs/users/linlizhi/komp-recurrent-inference-20261107/gpu_validate.py",
+        "--operators-only",
+        "--model",
+        "learned123",
+        "--base",
+        "/gpfs/users/linlizhi",
+        "--evidence-dir",
+        "/gpfs/users/linlizhi/komp-recurrent-inference-20261107/attempts/r1/operators"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "log_sha256": "ad1344fe738edbe828437c61463600f45e92904269d0a77e9355adb2ded9fb87"
+    },
+    {
+      "stage": "operators",
+      "model": "value",
+      "command": [
+        "/opt/venv/bin/python",
+        "/gpfs/users/linlizhi/komp-recurrent-inference-20261107/gpu_validate.py",
+        "--operators-only",
+        "--model",
+        "value",
+        "--base",
+        "/gpfs/users/linlizhi",
+        "--evidence-dir",
+        "/gpfs/users/linlizhi/komp-recurrent-inference-20261107/attempts/r1/operators"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "log_sha256": "3a6a1f9371d1111e2ea7d735a74cb29f27cf3791d18181c9587e24b2221d2cb2"
+    },
+    {
+      "stage": "operators",
+      "model": "value_learned123",
+      "command": [
+        "/opt/venv/bin/python",
+        "/gpfs/users/linlizhi/komp-recurrent-inference-20261107/gpu_validate.py",
+        "--operators-only",
+        "--model",
+        "value_learned123",
+        "--base",
+        "/gpfs/users/linlizhi",
+        "--evidence-dir",
+        "/gpfs/users/linlizhi/komp-recurrent-inference-20261107/attempts/r1/operators"
+      ],
+      "status": "passed",
+      "exit_code": 0,
+      "log_sha256": "8e647d4db0157d7477bb1b6c720ce0fd56e26d0208fcdcb0bc0d8b273775617b"
+    }
+  ],
+  "finished": "2026-11-07T09:40:37.304982+00:00"
+}

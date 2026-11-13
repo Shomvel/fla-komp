@@ -1,0 +1,68 @@
+{
+  "status": "authorized",
+  "authorization": "User explicitly requested LR sweep and approved two additional8GPU groups (32GPU total with ongoing formal jobs)",
+  "fixed_candidate": {
+    "name": "alpha0-0.995",
+    "alpha0": 0.995,
+    "beta0": 0.2,
+    "temperature": 0.5,
+    "ridge": 0.0001,
+    "slots": 32,
+    "decay_normalizer": 8,
+    "eviction": "fifo",
+    "score_write_gate": false,
+    "compute_chunk": 16,
+    "projection_dtype": "float64",
+    "decay_bias": 3.1962534329240757,
+    "beta_bias": -1.3862943611198906
+  },
+  "new_runs": {
+    "depo2": [
+      {
+        "name": "lr-0.00025",
+        "lr": 0.00025,
+        "multiplier": 0.5
+      },
+      {
+        "name": "lr-0.001",
+        "lr": 0.001,
+        "multiplier": 2.0
+      }
+    ],
+    "brevo2": [
+      {
+        "name": "lr-0.0005",
+        "lr": 0.0005,
+        "multiplier": 0.5
+      },
+      {
+        "name": "lr-0.002",
+        "lr": 0.002,
+        "multiplier": 2.0
+      }
+    ]
+  },
+  "reuse": {
+    "depo2": {
+      "lr": 0.0005,
+      "candidate": "alpha0-0.995"
+    },
+    "brevo2": {
+      "lr": 0.001,
+      "candidate": "alpha0-0.995"
+    }
+  },
+  "new_nominal_training_positions": 40000000,
+  "new_runs_count": 4,
+  "world_size_per_run": 8,
+  "parallel_groups": 2,
+  "additional_gpus": 16,
+  "seed": 731,
+  "batch_documents": 128,
+  "weight_decay": 0.1,
+  "data_order_seed": 12345,
+  "schedule": "5% warmup cosine to10%; independent10M horizon",
+  "selection": "final full-validation masked CE only;5validation points; no heldout/test selection",
+  "inherited_numerical_gate": "Same frozen alpha .995 FP64 geometry/FP32state operator and BF16 model, reuse original numerical and8GPU preflight evidence with source hashes; LR does not change operator equations",
+  "original_formal_recipes_unchanged": true
+}

@@ -1,0 +1,16 @@
+{
+  "reason": "FF2272 user-requested fresh restart; old artifacts retained",
+  "sha256": {
+    "source-manifest.json": "c3d706d01cdb0560ffcbba07747bfcc17d00db18a80c8f9bc73e6de6074f2c46",
+    "logs/train-block.log": "29858b42157eeab3ad1088a9f41c02797adb52e779d2a4393da402fbc3121db0",
+    "logs/train-exact.log": "81c3cf8df225dfe79c66397236ccb220d5bfea59a05b0570e2758de0d93a8891",
+    "runs/block/config.json": "2263072aa69756beaba9e77d8fcd3dd57dc5f0fa242a5916b3972e37403870e5",
+    "runs/block/latest.json": "be6dc39a6d9b9612fdc0d5e4edc0d64d6744c2fc9eb7ee8e75b3238b29db0440",
+    "runs/block/metrics.jsonl": "569479192448c31560712c7d4d441583fff62ef6f73b5b66cb1287781f019781",
+    "runs/block/validation.jsonl": "9b7efe056e2caabd58d28889d2654579cd2502da938d92dc634a23e75f00a190",
+    "runs/exact/config.json": "f1c4553785284d94724904e51e2b3fe8a835f8d987c70c0ee98ad387a17105cf",
+    "runs/exact/latest.json": "6aef76a44aaa7f0b964a4cf3d2d3def9a0f18cfc0d0d10f7f2bf73e8174ed721",
+    "runs/exact/metrics.jsonl": "80fbf901ada786b63c8f3119a64663403134e9e331e00207ff757cf540aff6ef",
+    "runs/exact/validation.jsonl": "a3dae86fc75602499f13b709a213325da8f18db16f7e65fd997f7425ed70dbc8"
+  }
+}

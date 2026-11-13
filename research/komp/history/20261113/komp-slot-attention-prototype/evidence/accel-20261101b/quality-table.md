@@ -1,0 +1,1 @@
+../../../../komp-slot-attention-prototype/evidence/accel-20261101b/quality-table.md

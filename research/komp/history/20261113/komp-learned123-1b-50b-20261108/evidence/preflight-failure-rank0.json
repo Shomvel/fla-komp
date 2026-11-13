@@ -1,0 +1,7 @@
+{
+  "status": "failed",
+  "exception_type": "UnboundLocalError",
+  "message": "cannot access local variable 'shutil' where it is not associated with a value",
+  "traceback": "Traceback (most recent call last):\n  File \"/gpfs/users/linlizhi/komp-learned123-1b-50b-20261108/preflight.py\", line 170, in <module>\n    try:main()\n        ^^^^^^\n  File \"/gpfs/users/linlizhi/komp-learned123-1b-50b-20261108/preflight.py\", line 152, in main\n    save(out,model,opt,stream,2,WORLD*(32768+23456),rank,source,data_sha)\n  File \"/gpfs/users/linlizhi/komp-learned123-1b-50b-20261108/train.py\", line 21, in save\n    assert shutil.disk_usage(out).free>20*2**30,'Insufficient GPFS space for atomic checkpoint'\n           ^^^^^^\nUnboundLocalError: cannot access local variable 'shutil' where it is not associated with a value\n",
+  "source_manifest_sha": "5df4b9a9f7d0e2d42730e4c8e26214af3ac7e606b099403f431f0078fe935a27"
+}

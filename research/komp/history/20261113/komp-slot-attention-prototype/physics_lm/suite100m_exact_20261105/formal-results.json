@@ -1,0 +1,323 @@
+{
+  "training_complete": 14,
+  "heldout_complete": 14,
+  "test_ce_complete": 14,
+  "expected": 14,
+  "runs": [
+    {
+      "task": "depo2",
+      "kind": "gdn",
+      "training_status": "completed",
+      "heldout_status": "completed",
+      "implementation": "original-frozen",
+      "validation_ce": 0.5113474973634732,
+      "positions": 100000997,
+      "parameters": 99846832,
+      "lr": 0.0005,
+      "wd": 0.0,
+      "source": {
+        "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+        "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+      },
+      "summary_path": "runs-ddp/results/depo2-gdn-final-lr0.0005-wd0-seed731/summary.json",
+      "test_ce": 0.5137908087365732,
+      "generation_probes_completed": 256,
+      "generation_accuracy": 0.06640625,
+      "n_generation": 256
+    },
+    {
+      "task": "depo2",
+      "kind": "full",
+      "training_status": "completed",
+      "heldout_status": "completed",
+      "implementation": "original-frozen",
+      "validation_ce": 0.7448952925233022,
+      "positions": 100000997,
+      "parameters": 99723712,
+      "lr": 0.0005,
+      "wd": 0.0,
+      "source": {
+        "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+        "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+      },
+      "summary_path": "runs-ddp/results/depo2-full-final-lr0.0005-wd0-seed731/summary.json",
+      "test_ce": 0.7481239850720998,
+      "generation_probes_completed": 256,
+      "generation_accuracy": 0.0390625,
+      "n_generation": 256
+    },
+    {
+      "task": "depo2",
+      "kind": "swa",
+      "training_status": "completed",
+      "heldout_status": "completed",
+      "implementation": "original-frozen",
+      "validation_ce": 0.9119999879295904,
+      "positions": 100000997,
+      "parameters": 99723712,
+      "lr": 0.001,
+      "wd": 0.1,
+      "source": {
+        "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+        "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+      },
+      "summary_path": "runs-ddp/results/depo2-swa-final-lr0.001-wd0.1-seed731/summary.json",
+      "test_ce": 0.9147785355739824,
+      "generation_probes_completed": 256,
+      "generation_accuracy": 0.0390625,
+      "n_generation": 256
+    },
+    {
+      "task": "depo2",
+      "kind": "gsa",
+      "training_status": "completed",
+      "heldout_status": "completed",
+      "implementation": "original-frozen",
+      "validation_ce": 0.9182115566115262,
+      "positions": 100000997,
+      "parameters": 100713472,
+      "lr": 0.001,
+      "wd": 0.0,
+      "source": {
+        "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+        "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+      },
+      "summary_path": "runs-ddp/results/depo2-gsa-final-lr0.001-wd0-seed731/summary.json",
+      "test_ce": 0.9196145078456314,
+      "generation_probes_completed": 256,
+      "generation_accuracy": 0.0234375,
+      "n_generation": 256
+    },
+    {
+      "task": "depo2",
+      "kind": "gsa2",
+      "training_status": "completed",
+      "heldout_status": "completed",
+      "implementation": "numerically-stabilized",
+      "validation_ce": 0.6506032886615859,
+      "positions": 100000997,
+      "parameters": 99286192,
+      "lr": 0.001,
+      "wd": 0.01,
+      "source": {
+        "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+        "inherited_ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2",
+        "ddp_train": "b463fc337f09d7da36374d609f67902243e5e9bc687b8cd4b3fc880fe7e314b6",
+        "candidate": {
+          "gsa2_fixed_norm_candidate.py": "168d5c488f2350bcd7ddcffa2c4c890d65d761e05cdabad1f61e484bb5d44257",
+          "gsa2_packed_eval_candidate.py": "76e92c87723e58c1e9c4db0bd7ab5076031e3cb6f36c8297c2dff95ef31856d8",
+          "gsa2_consistent_candidate.py": "8d5eb48775c766ed4a80d24bac252b1f74ae867d20c4d8cb5ba111ee4c446dda",
+          "gsa2_candidate_preflight.py": "4a85de43e19da46747d8a4ba3902691ac9d27e7b1d49953161604559fbadd263"
+        }
+      },
+      "summary_path": "runs-gsa2-consistent/results/depo2-gsa2-final-lr0.001-wd0.01-seed731/summary.json",
+      "test_ce": 0.6518424397992827,
+      "generation_probes_completed": 256,
+      "generation_accuracy": 0.04296875,
+      "n_generation": 256
+    },
+    {
+      "task": "depo2",
+      "kind": "komp",
+      "training_status": "completed",
+      "heldout_status": "completed",
+      "implementation": "original-frozen",
+      "validation_ce": 0.697052747024354,
+      "positions": 100000997,
+      "parameters": 100526392,
+      "lr": 0.0005,
+      "wd": 0.1,
+      "source": {
+        "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+        "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+      },
+      "summary_path": "runs-ddp/results/depo2-komp-final-lr0.0005-wd0.1-seed731/summary.json",
+      "test_ce": 0.7003645799889956,
+      "generation_probes_completed": 256,
+      "generation_accuracy": 0.05078125,
+      "n_generation": 256
+    },
+    {
+      "task": "depo2",
+      "kind": "exact",
+      "training_status": "completed",
+      "heldout_status": "completed",
+      "implementation": "original-frozen",
+      "validation_ce": 0.757860016688033,
+      "positions": 100000997,
+      "parameters": 100526392,
+      "lr": 0.0005,
+      "wd": 0.1,
+      "source": {
+        "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+        "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+      },
+      "summary_path": "runs-ddp/results/depo2-exact-final-lr0.0005-wd0.1-seed731/summary.json",
+      "test_ce": 0.7629591705604344,
+      "generation_probes_completed": 256,
+      "generation_accuracy": 0.04296875,
+      "n_generation": 256
+    },
+    {
+      "task": "brevo2",
+      "kind": "gdn",
+      "training_status": "completed",
+      "heldout_status": "completed",
+      "implementation": "original-frozen",
+      "validation_ce": 0.6683962709011283,
+      "positions": 100000590,
+      "parameters": 99846832,
+      "lr": 0.0005,
+      "wd": 0.1,
+      "source": {
+        "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+        "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+      },
+      "summary_path": "runs-ddp/results/brevo2-gdn-final-lr0.0005-wd0.1-seed731/summary.json",
+      "test_ce": 0.6714316177460373,
+      "generation_probes_completed": 256,
+      "generation_accuracy": 0.1484375,
+      "n_generation": 256
+    },
+    {
+      "task": "brevo2",
+      "kind": "full",
+      "training_status": "completed",
+      "heldout_status": "completed",
+      "implementation": "original-frozen",
+      "validation_ce": 0.763569783069314,
+      "positions": 100000590,
+      "parameters": 99723712,
+      "lr": 0.001,
+      "wd": 0.1,
+      "source": {
+        "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+        "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+      },
+      "summary_path": "runs-ddp/results/brevo2-full-final-lr0.001-wd0.1-seed731/summary.json",
+      "test_ce": 0.7691766231074691,
+      "generation_probes_completed": 256,
+      "generation_accuracy": 0.05859375,
+      "n_generation": 256
+    },
+    {
+      "task": "brevo2",
+      "kind": "swa",
+      "training_status": "completed",
+      "heldout_status": "completed",
+      "implementation": "original-frozen",
+      "validation_ce": 0.9110204129226999,
+      "positions": 100000590,
+      "parameters": 99723712,
+      "lr": 0.001,
+      "wd": 0.0,
+      "source": {
+        "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+        "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+      },
+      "summary_path": "runs-ddp/results/brevo2-swa-final-lr0.001-wd0-seed731/summary.json",
+      "test_ce": 0.9191563450812755,
+      "generation_probes_completed": 256,
+      "generation_accuracy": 0.0546875,
+      "n_generation": 256
+    },
+    {
+      "task": "brevo2",
+      "kind": "gsa",
+      "training_status": "completed",
+      "heldout_status": "completed",
+      "implementation": "original-frozen",
+      "validation_ce": 0.830668208216191,
+      "positions": 100000590,
+      "parameters": 100713472,
+      "lr": 0.0005,
+      "wd": 0.01,
+      "source": {
+        "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+        "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+      },
+      "summary_path": "runs-ddp/results/brevo2-gsa-final-lr0.0005-wd0.01-seed731/summary.json",
+      "test_ce": 0.836600894122172,
+      "generation_probes_completed": 256,
+      "generation_accuracy": 0.0703125,
+      "n_generation": 256
+    },
+    {
+      "task": "brevo2",
+      "kind": "gsa2",
+      "training_status": "completed",
+      "heldout_status": "completed",
+      "implementation": "numerically-stabilized",
+      "validation_ce": 0.683094099428103,
+      "positions": 100000590,
+      "parameters": 99286192,
+      "lr": 0.001,
+      "wd": 0.1,
+      "source": {
+        "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+        "inherited_ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2",
+        "ddp_train": "b463fc337f09d7da36374d609f67902243e5e9bc687b8cd4b3fc880fe7e314b6",
+        "candidate": {
+          "gsa2_fixed_norm_candidate.py": "168d5c488f2350bcd7ddcffa2c4c890d65d761e05cdabad1f61e484bb5d44257",
+          "gsa2_packed_eval_candidate.py": "76e92c87723e58c1e9c4db0bd7ab5076031e3cb6f36c8297c2dff95ef31856d8",
+          "gsa2_consistent_candidate.py": "8d5eb48775c766ed4a80d24bac252b1f74ae867d20c4d8cb5ba111ee4c446dda",
+          "gsa2_candidate_preflight.py": "4a85de43e19da46747d8a4ba3902691ac9d27e7b1d49953161604559fbadd263"
+        }
+      },
+      "summary_path": "runs-gsa2-consistent/results/brevo2-gsa2-final-lr0.001-wd0.1-seed731/summary.json",
+      "test_ce": 0.6890974089111479,
+      "generation_probes_completed": 256,
+      "generation_accuracy": 0.12890625,
+      "n_generation": 256
+    },
+    {
+      "task": "brevo2",
+      "kind": "komp",
+      "training_status": "completed",
+      "heldout_status": "completed",
+      "implementation": "original-frozen",
+      "validation_ce": 0.7003588979464752,
+      "positions": 100000590,
+      "parameters": 100526392,
+      "lr": 0.001,
+      "wd": 0.1,
+      "source": {
+        "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+        "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+      },
+      "summary_path": "runs-ddp/results/brevo2-komp-final-lr0.001-wd0.1-seed731/summary.json",
+      "test_ce": 0.7043215568484491,
+      "generation_probes_completed": 256,
+      "generation_accuracy": 0.140625,
+      "n_generation": 256
+    },
+    {
+      "task": "brevo2",
+      "kind": "exact",
+      "training_status": "completed",
+      "heldout_status": "completed",
+      "implementation": "original-frozen",
+      "validation_ce": 0.7741052325775389,
+      "positions": 100000590,
+      "parameters": 100526392,
+      "lr": 0.001,
+      "wd": 0.1,
+      "source": {
+        "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+        "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+      },
+      "summary_path": "runs-ddp/results/brevo2-exact-final-lr0.001-wd0.1-seed731/summary.json",
+      "test_ce": 0.7790923566446583,
+      "generation_probes_completed": 256,
+      "generation_accuracy": 0.11328125,
+      "n_generation": 256
+    }
+  ],
+  "comparison_limits": [
+    "Each architecture retains its separately selected prior LR/WD; hyperparameters are not identical across models.",
+    "Original Exact formal alpha0=.98 and FP32 projection differ from the separate alpha0=.995 FP64 10M screen; screen wins are not formal-training results.",
+    "One seed (731) and two adapted PhysicsLM tasks; no multi-seed uncertainty estimate or general superiority claim.",
+    "GSA2 uses the separately source-bound stabilized implementation; wholebatch Adam functional equivalence remains failed."
+  ],
+  "scope": "~100M parameters, 100M nonpadding next-token positions per model/task, seed731, frozen prior-selected LR/WD. Exact formal alpha0=.98 FP32 projection; separate tuning winners not substituted. GSA2 candidate runtime is separately identified; wholebatch Adam equivalence remains failed."
+}

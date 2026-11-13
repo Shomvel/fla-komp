@@ -1,0 +1,24 @@
+{
+  "seeds": [
+    731,
+    732,
+    733,
+    734,
+    735,
+    736,
+    737
+  ],
+  "arms": [
+    "gsa2_native_lr5e4",
+    "gsa2_native_lr1e3",
+    "gsa2_noconv_lr5e4"
+  ],
+  "source": "prior validated GSA2 all file hashes matched",
+  "M": 64,
+  "steps": 2231,
+  "batch": 64,
+  "tokens": 10001108,
+  "comparison": "v4 frozen block/KAPA baselines, no rerun",
+  "native_mixer_state_per_head": 8192,
+  "block_state_per_head": 4096
+}

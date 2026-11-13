@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "new_gsa2_runs": 21,
+  "total_compared_runs": 91,
+  "seeds_per_arm": 7,
+  "generation_audit_count": 5376,
+  "fusion_checks": 505,
+  "fusion_gpu_training": false,
+  "job_alias": "komp-gsa2-trials-20261101-r1",
+  "job_terminal": "Completed",
+  "job_deleted": true,
+  "artifact_sha256": {
+    "GSA2_BLOCK_KAPA_COMPARISON.md": "195e9fd2cf25e30b89cb703252a0144e80c71a0cdf6a0db35cbcdb1d8c811513",
+    "KAPA_BLOCK_FUSION.md": "013756966cef1c65927fe561b991e1881a755a8f16a05d2f18556bf9a84ca953",
+    "physics_lm/gsa2_trials.py": "4424d28f2327558fd31e7d3dbc85169a6363908f0a669eca45a7e09c7771af18",
+    "physics_lm/gsa2_trials_report.py": "eb76d2f8fc6390d608561b317cae3f3035d6f37c4a105bed6d1790b8074c686f",
+    "physics_lm/gsa2_trials_plot.py": "42b09f7b67955d523a2d00bcd29798c485c2622edabd60980f6142c29fa05422",
+    "physics_lm/gsa2_comparison_document.py": "47b238ecf0c0c1a078da98ba8e8d674eb6ccfae19888cc039e243d77f83bca92",
+    "physics_lm/block_runs_v4/gsa2/TABLE.md": "053275aca5975402e798e9531e9ce91a7c0b20868acb1a833697ce2f96ddd914",
+    "physics_lm/block_runs_v4/gsa2/statistics.json": "33837c8de510dbdde1b45b7e88669a8a2cf020ba48f2fd5fe611255e427d687a",
+    "physics_lm/block_runs_v4/gsa2/COMPARISON.png": "718434168e0da4fc097574694af1e10ea3f76a896b3ac138387074b5c89b2dcf",
+    "physics_lm/block_runs_v4/gsa2/COMPARISON.svg": "13bb58a3fcc4b8bac0de4add6c05c4adc7ca4a7d1a6071a81ee860d7cca26f93",
+    "research/kapa_block_fusion/prototype.py": "a39319efcd9e11712050cc8d9c7045034a633548ccafbfbbd9945923248d5047",
+    "research/kapa_block_fusion/validate.py": "7e8fa64dd5e7899f6d2daf5578776bdafb867ffa56181f5c7059881bb7aef803",
+    "research/kapa_block_fusion/validation.json": "b3624f520f78d255b3cc28d08f99332ae2092c86c63212e4ebca8ddeff996e38"
+  }
+}

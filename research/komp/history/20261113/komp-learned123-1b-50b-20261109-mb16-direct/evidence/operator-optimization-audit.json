@@ -1,0 +1,33 @@
+{
+  "checked_utc": "2026-11-09T00:01:31.391359+00:00",
+  "operator": "fla.ops.komp.block_fast.block_komp_fast",
+  "block_fast_sha256": "cea04d17671192bf926fd5f166cb7a6f7aea5d47dd6cb65e30397d8d38a892a7",
+  "remote_sha_verified_equal_to_manifest": true,
+  "all_four_runtime_manifests": "84e4ac86514786ff8880287d49860319cc15d4f0fbf9205b26c7298f400a887f",
+  "configuration": {
+    "chunk_size": 128,
+    "evict": "learned",
+    "slots": 32,
+    "mixer_checkpoint": true
+  },
+  "historical_optimization_source": "/Users/shom/Downloads/komp-accel-scratch/round5_text.md",
+  "enabled_applicable": [
+    "learned Triton dict_scan",
+    "dictionary-free attention/UT overlap",
+    "fused state scan",
+    "BF16 tensor-core attention",
+    "BF16 state tape",
+    "BF16 normalized query",
+    "row-block normalization"
+  ],
+  "not_applicable": [
+    "FIFO SHARE_GRAM requires C=M and no learned scores",
+    "FIFO MERGE_KEYGRAD requires no learned scores",
+    "SLOT_GC_CACHE requires FIFO and C<=64"
+  ],
+  "disabled_by_C128": [
+    "fused chunk backward (C<=64 only)",
+    "BF16 dOV (C<=64 only)"
+  ],
+  "conclusion": "Uses optimized implementation with C128 extension; some old optimizations do not apply to learned/C128. No profile or measured attribution of 1B step time in this audit."
+}

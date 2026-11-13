@@ -1,0 +1,12 @@
+{
+  "evaluate_sharded.py": "2dbe825ce8c8e9403baa835e0b144e02c1d37003db002d5398c6a884ac7c5d6b",
+  "sharding.py": "8288d91757492c5a23b15cf55f25462c06a10393873ec6fcb2351ffcd98518d2",
+  "collect_sharded_remote.py": "6f02a4e1e0a828cb9f40ad7a7db5adc4dfb141a057f13d350b453381ddb3b5f4",
+  "collect.py": "f476579c7b19d997ccfcab605d7e24b9d19044514bae247b02d7682fd304013d",
+  "README.md": "0895ddc49127b08d76bd2bea2a300464c2a3d9b480170b5700a76225776b4367",
+  "job-r4b-s0.yaml": "52ff427d50f70bceecc5be6a04efd58703940406023760d78a46e4567816c0f8",
+  "job-r4b-s1.yaml": "ea1cd8c717dd8da606a340b5e7aab5ea6fcdd72c508edceee745b49a96c09252",
+  "job-r4b-s2.yaml": "d6f997fbba88d6a031b64da269239779f492c1ac9b42063a096485e239fcf9ea",
+  "sharded/plan.json": "2abeb5704dc2e10579a99e5b7aca858818851781d46471bb84c1c517b94aa741",
+  "sharded/cross-node-verified-r4b.json": "bec2acb5033c3aa11197db3cf440a20ca57f8aadabde4fa827935e086f9cd82e"
+}

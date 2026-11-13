@@ -1,0 +1,25 @@
+{
+  "hostname": "node058",
+  "node_rank": 2,
+  "hosts": "job-e72852fdf8d4-20261108230824-trainer-0.job-e72852fdf8d4-20261108230824,job-e72852fdf8d4-20261108230824-trainer-1.job-e72852fdf8d4-20261108230824,job-e72852fdf8d4-20261108230824-trainer-2.job-e72852fdf8d4-20261108230824,job-e72852fdf8d4-20261108230824-trainer-3.job-e72852fdf8d4-20261108230824",
+  "master_addr": "job-e72852fdf8d4-20261108230824-trainer-0.job-e72852fdf8d4-20261108230824",
+  "world_size": 32,
+  "python": "3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]",
+  "torch": "2.10.0a0+b558c986e8.nv25.11",
+  "cuda": "13.0",
+  "protobuf": "5.29.6",
+  "protobuf_backend": "python",
+  "gpus": [
+    "NVIDIA H100 80GB HBM3",
+    "NVIDIA H100 80GB HBM3",
+    "NVIDIA H100 80GB HBM3",
+    "NVIDIA H100 80GB HBM3",
+    "NVIDIA H100 80GB HBM3",
+    "NVIDIA H100 80GB HBM3",
+    "NVIDIA H100 80GB HBM3",
+    "NVIDIA H100 80GB HBM3"
+  ],
+  "network": "IB",
+  "free_bytes": 245668773888,
+  "source_sha": "5df4b9a9f7d0e2d42730e4c8e26214af3ac7e606b099403f431f0078fe935a27"
+}

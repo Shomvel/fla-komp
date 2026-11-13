@@ -1,0 +1,115 @@
+apiVersion: batch.volcano.sh/v1alpha1
+kind: Job
+metadata:
+  name: komp-learned123-1b-50b-20261108
+  namespace: qiji
+  annotations:
+    JobAlias: komp-learned123-1b-50b-20261108
+    project: WeaverRSI
+spec:
+  minAvailable: 4
+  schedulerName: volcano
+  queue: proj-32
+  tasks:
+  - replicas: 4
+    name: trainer
+    template:
+      spec:
+        tolerations:
+        - key: task-type
+          operator: Equal
+          value: rsi-weaver
+          effect: NoSchedule
+        - key: task-type
+          operator: Equal
+          value: weaver
+          effect: NoSchedule
+        activeDeadlineSeconds: 604800
+        restartPolicy: Never
+        volumes:
+        - name: gpfs
+          hostPath:
+            path: /gpfs
+            type: Directory
+        - name: shm
+          emptyDir:
+            medium: Memory
+            sizeLimit: 64Gi
+        containers:
+        - name: trainer
+          image: harbor.local.clusters/bp/weaver-trainer-megatron-bridge:v1.14.30@sha256:8e310d0cb124813a25683448b41df67331951aae06e17bddcfd3f7692f71520e
+          resources:
+            requests:
+              nvidia.com/gpu: '8'
+              cpu: '32'
+              memory: 256Gi
+              rdma/hca_shared_devices: '1'
+            limits:
+              nvidia.com/gpu: '8'
+              cpu: '32'
+              memory: 256Gi
+              rdma/hca_shared_devices: '1'
+          volumeMounts:
+          - name: gpfs
+            mountPath: /gpfs
+          - name: shm
+            mountPath: /dev/shm
+          command:
+          - /bin/bash
+          - /gpfs/users/linlizhi/komp-learned123-1b-50b-20261108/run_train.sh
+          securityContext:
+            capabilities:
+              add:
+              - IPC_LOCK
+          imagePullPolicy: IfNotPresent
+          env:
+          - name: NCCL_NET
+            value: IB
+          - name: NCCL_IB_DISABLE
+            value: '0'
+          - name: NCCL_DEBUG
+            value: INFO
+          - name: NCCL_SOCKET_IFNAME
+            value: =bond0
+          - name: GLOO_SOCKET_IFNAME
+            value: bond0
+          - name: HTTP_PROXY
+            value: ''
+          - name: HTTPS_PROXY
+            value: ''
+          - name: ALL_PROXY
+            value: ''
+          - name: http_proxy
+            value: ''
+          - name: https_proxy
+            value: ''
+          - name: all_proxy
+            value: ''
+          - name: NO_PROXY
+            value: '*'
+          - name: no_proxy
+            value: '*'
+        hostNetwork: true
+        dnsPolicy: ClusterFirstWithHostNet
+        automountServiceAccountToken: false
+        affinity:
+          podAntiAffinity:
+            requiredDuringSchedulingIgnoredDuringExecution:
+            - topologyKey: kubernetes.io/hostname
+              labelSelector:
+                matchLabels:
+                  nexspec-gang: komp-learned123-1b-50b-20261108
+      metadata:
+        labels:
+          nexspec-gang: komp-learned123-1b-50b-20261108
+    minAvailable: 4
+  maxRetry: 0
+  plugins:
+    env: []
+    svc:
+    - --publish-not-ready-addresses=true
+  policies:
+  - events:
+    - PodFailed
+    - PodEvicted
+    action: AbortJob

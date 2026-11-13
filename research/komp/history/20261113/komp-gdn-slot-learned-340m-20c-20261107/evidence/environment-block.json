@@ -1,0 +1,13 @@
+{
+  "python": "3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]",
+  "torch": "2.10.0a0+b558c986e8.nv25.11",
+  "cuda": "13.0",
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "protobuf": "python",
+  "versions": {
+    "triton": "3.7.1",
+    "transformers": "5.6.2",
+    "tokenizers": "0.22.2"
+  },
+  "tokenizer_gold_passed": 16
+}

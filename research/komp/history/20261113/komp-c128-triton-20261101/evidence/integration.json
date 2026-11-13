@@ -1,0 +1,95 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "dtype": "torch.float32",
+      "name": "out",
+      "rms_relative": 0.0015810467938625898
+    },
+    {
+      "dtype": "torch.float32",
+      "name": "dq",
+      "rms_relative": 0.0022745240792546705
+    },
+    {
+      "dtype": "torch.float32",
+      "name": "dk",
+      "rms_relative": 0.002291410415736217
+    },
+    {
+      "dtype": "torch.float32",
+      "name": "dv",
+      "rms_relative": 0.0015924976192382362
+    },
+    {
+      "dtype": "torch.float32",
+      "name": "dg",
+      "rms_relative": 0.001522354209578287
+    },
+    {
+      "dtype": "torch.float32",
+      "name": "dbeta",
+      "rms_relative": 0.0015937981701562695
+    },
+    {
+      "dtype": "torch.float32",
+      "name": "dk0",
+      "rms_relative": 0.0015523352590046534
+    },
+    {
+      "dtype": "torch.float32",
+      "name": "dv0",
+      "rms_relative": 0.0008181161047876997
+    },
+    {
+      "dtype": "torch.float32",
+      "name": "dscore",
+      "rms_relative": 0.0016000388439534308
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "name": "out",
+      "rms_relative": 0.0030937008570510027
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "name": "dq",
+      "rms_relative": 0.003500919849094554
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "name": "dk",
+      "rms_relative": 0.0035100746687154838
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "name": "dv",
+      "rms_relative": 0.0030832781346760547
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "name": "dg",
+      "rms_relative": 0.0021579840293195485
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "name": "dbeta",
+      "rms_relative": 0.0020084882862594594
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "name": "dk0",
+      "rms_relative": 0.003381560388688595
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "name": "dv0",
+      "rms_relative": 0.0025915876405154105
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "name": "dscore",
+      "rms_relative": 0.0020188701633871466
+    }
+  ]
+}

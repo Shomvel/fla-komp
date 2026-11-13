@@ -1,0 +1,1171 @@
+{
+  "status": "passed",
+  "source_sha": "0b906d5b3e39c017e862c13c6e7474a741a00ccfbde9be654f10e1265fc8f763",
+  "cases": [
+    {
+      "options": {
+        "output_sigmoid": false,
+        "low_rank_gates": false,
+        "multi_timescale_init": false
+      },
+      "initial": {
+        "head_log_decay_error": 9.313225746154785e-10,
+        "mean_log_alpha_error": 7.455132232034312e-10,
+        "beta_error": 0.0,
+        "score_error": 0.0,
+        "head_alpha": [
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716
+        ],
+        "negative_log_decay": true,
+        "initial_score_fixed_zero": true,
+        "passed": true
+      },
+      "low_rank_contract": {
+        "enabled": false,
+        "passed": true
+      },
+      "production_output": {
+        "tensor": "production_output_projection_input",
+        "absolute": 0.0,
+        "rmsrel": 0.0,
+        "passed": true,
+        "eviction": "learned",
+        "output_finite": true
+      },
+      "fp64_gate_comparison": {
+        "rows": [
+          {
+            "tensor": "g",
+            "absolute": 9.97972605274941e-08,
+            "rmsrel": 4.723939758011155e-06,
+            "passed": true
+          },
+          {
+            "tensor": "beta",
+            "absolute": 2.544429837603168e-06,
+            "rmsrel": 4.395625398789553e-06,
+            "passed": true
+          },
+          {
+            "tensor": "score",
+            "absolute": 2.5510353544087525e-05,
+            "rmsrel": 0.0002677965027105007,
+            "passed": true
+          },
+          {
+            "tensor": "output_gate",
+            "absolute": 4.2671154521476545e-05,
+            "rmsrel": 0.0002760190157307221,
+            "passed": true
+          },
+          {
+            "tensor": "grad:input",
+            "absolute": 0.0003288953766467373,
+            "rmsrel": 0.000283382014886268,
+            "passed": true
+          },
+          {
+            "tensor": "grad:A_log",
+            "absolute": 4.449170915067375e-07,
+            "rmsrel": 5.083243934319287e-06,
+            "passed": true
+          },
+          {
+            "tensor": "grad:dt_bias",
+            "absolute": 4.4199899998376146e-07,
+            "rmsrel": 5.077369252576313e-06,
+            "passed": true
+          },
+          {
+            "tensor": "grad:gate.weight",
+            "absolute": 0.000563112037493374,
+            "rmsrel": 0.000296209128825327,
+            "passed": true
+          },
+          {
+            "tensor": "grad:decay.weight",
+            "absolute": 5.2026755031301525e-06,
+            "rmsrel": 0.0002930734310927949,
+            "passed": true
+          },
+          {
+            "tensor": "grad:beta.weight",
+            "absolute": 0.00013257198636998369,
+            "rmsrel": 0.0003027194926688623,
+            "passed": true
+          },
+          {
+            "tensor": "grad:beta.bias",
+            "absolute": 6.026821030236107e-06,
+            "rmsrel": 4.103567643877401e-06,
+            "passed": true
+          },
+          {
+            "tensor": "grad:score.weight",
+            "absolute": 0.0006822421613275897,
+            "rmsrel": 0.0002876965346006766,
+            "passed": true
+          },
+          {
+            "tensor": "grad:score.bias",
+            "absolute": 9.981514810242231e-07,
+            "rmsrel": 9.182731053960916e-08,
+            "passed": true
+          }
+        ],
+        "passed": true,
+        "comparison": "FP32 production projections against FP64 composed-matrix and analytic gate formulas"
+      },
+      "selection_gradient": null,
+      "passed": true
+    },
+    {
+      "options": {
+        "output_sigmoid": false,
+        "low_rank_gates": false,
+        "multi_timescale_init": true
+      },
+      "initial": {
+        "head_log_decay_error": 2.7939677238464355e-09,
+        "mean_log_alpha_error": 1.634366140687571e-10,
+        "beta_error": 0.0,
+        "score_error": 0.0,
+        "head_alpha": [
+          0.9991081357002258,
+          0.9989271759986877,
+          0.9987094402313232,
+          0.9984476566314697,
+          0.9981327652931213,
+          0.9977540969848633,
+          0.9972988367080688,
+          0.9967511892318726,
+          0.9960929155349731,
+          0.9953015446662903,
+          0.9943503737449646,
+          0.9932072162628174,
+          0.9918338060379028,
+          0.9901840090751648,
+          0.9882029891014099,
+          0.9858248829841614
+        ],
+        "negative_log_decay": true,
+        "initial_score_fixed_zero": true,
+        "passed": true
+      },
+      "low_rank_contract": {
+        "enabled": false,
+        "passed": true
+      },
+      "production_output": {
+        "tensor": "production_output_projection_input",
+        "absolute": 0.0,
+        "rmsrel": 0.0,
+        "passed": true,
+        "eviction": "learned",
+        "output_finite": true
+      },
+      "fp64_gate_comparison": {
+        "rows": [
+          {
+            "tensor": "g",
+            "absolute": 2.3452223346306922e-07,
+            "rmsrel": 4.6943172518718376e-06,
+            "passed": true
+          },
+          {
+            "tensor": "beta",
+            "absolute": 2.544429837603168e-06,
+            "rmsrel": 4.395625398789553e-06,
+            "passed": true
+          },
+          {
+            "tensor": "score",
+            "absolute": 2.5510353544087525e-05,
+            "rmsrel": 0.0002677965027105007,
+            "passed": true
+          },
+          {
+            "tensor": "output_gate",
+            "absolute": 4.2671154521476545e-05,
+            "rmsrel": 0.0002760190157307221,
+            "passed": true
+          },
+          {
+            "tensor": "grad:input",
+            "absolute": 0.0003293616018406609,
+            "rmsrel": 0.00028339005376534884,
+            "passed": true
+          },
+          {
+            "tensor": "grad:A_log",
+            "absolute": 7.521584858560804e-07,
+            "rmsrel": 4.947439282796184e-06,
+            "passed": true
+          },
+          {
+            "tensor": "grad:dt_bias",
+            "absolute": 7.3918760393199e-07,
+            "rmsrel": 4.914026673515143e-06,
+            "passed": true
+          },
+          {
+            "tensor": "grad:gate.weight",
+            "absolute": 0.000563112037493374,
+            "rmsrel": 0.000296209128825327,
+            "passed": true
+          },
+          {
+            "tensor": "grad:decay.weight",
+            "absolute": 1.1481654865041352e-05,
+            "rmsrel": 0.00029763250876310574,
+            "passed": true
+          },
+          {
+            "tensor": "grad:beta.weight",
+            "absolute": 0.00013257198636998369,
+            "rmsrel": 0.0003027194926688623,
+            "passed": true
+          },
+          {
+            "tensor": "grad:beta.bias",
+            "absolute": 6.026821030236107e-06,
+            "rmsrel": 4.103567643877401e-06,
+            "passed": true
+          },
+          {
+            "tensor": "grad:score.weight",
+            "absolute": 0.0006822421613275897,
+            "rmsrel": 0.0002876965346006766,
+            "passed": true
+          },
+          {
+            "tensor": "grad:score.bias",
+            "absolute": 9.981514810242231e-07,
+            "rmsrel": 9.182731053960916e-08,
+            "passed": true
+          }
+        ],
+        "passed": true,
+        "comparison": "FP32 production projections against FP64 composed-matrix and analytic gate formulas"
+      },
+      "selection_gradient": null,
+      "passed": true
+    },
+    {
+      "options": {
+        "output_sigmoid": false,
+        "low_rank_gates": true,
+        "multi_timescale_init": false
+      },
+      "initial": {
+        "head_log_decay_error": 9.313225746154785e-10,
+        "mean_log_alpha_error": 7.455132232034312e-10,
+        "beta_error": 0.0,
+        "score_error": 0.0,
+        "head_alpha": [
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716
+        ],
+        "negative_log_decay": true,
+        "initial_score_fixed_zero": true,
+        "passed": true
+      },
+      "low_rank_contract": {
+        "enabled": true,
+        "passed": true,
+        "gate": {
+          "rank_upper_bound": 64,
+          "no_intermediate_nonlinearity": true,
+          "no_bias": true
+        },
+        "decay": {
+          "rank_upper_bound": 64,
+          "no_intermediate_nonlinearity": true,
+          "no_bias": true
+        },
+        "initial_decay_up_zero": true,
+        "initial_decay_down_nonzero": true
+      },
+      "production_output": {
+        "tensor": "production_output_projection_input",
+        "absolute": 0.0,
+        "rmsrel": 0.0,
+        "passed": true,
+        "eviction": "learned",
+        "output_finite": true
+      },
+      "fp64_gate_comparison": {
+        "rows": [
+          {
+            "tensor": "g",
+            "absolute": 5.329780313704374e-08,
+            "rmsrel": 2.150723690840823e-06,
+            "passed": true
+          },
+          {
+            "tensor": "beta",
+            "absolute": 2.8474491063079643e-06,
+            "rmsrel": 4.9634414515144034e-06,
+            "passed": true
+          },
+          {
+            "tensor": "score",
+            "absolute": 2.830702243513533e-05,
+            "rmsrel": 0.0003161790607022222,
+            "passed": true
+          },
+          {
+            "tensor": "output_gate",
+            "absolute": 6.14175772040964e-05,
+            "rmsrel": 0.00041007341285965554,
+            "passed": true
+          },
+          {
+            "tensor": "grad:input",
+            "absolute": 0.000590006073944771,
+            "rmsrel": 0.0004158329333581695,
+            "passed": true
+          },
+          {
+            "tensor": "grad:A_log",
+            "absolute": 1.7113735401377839e-07,
+            "rmsrel": 2.129658531167199e-06,
+            "passed": true
+          },
+          {
+            "tensor": "grad:dt_bias",
+            "absolute": 1.668212428907606e-07,
+            "rmsrel": 2.120473792854649e-06,
+            "passed": true
+          },
+          {
+            "tensor": "grad:gate.0.weight",
+            "absolute": 0.001811298818409135,
+            "rmsrel": 0.0004164900664779466,
+            "passed": true
+          },
+          {
+            "tensor": "grad:gate.1.weight",
+            "absolute": 0.0003289568894311312,
+            "rmsrel": 0.00041439269337054525,
+            "passed": true
+          },
+          {
+            "tensor": "grad:decay.0.weight",
+            "absolute": 1.4706445593667614e-06,
+            "rmsrel": 0.0004035686792830037,
+            "passed": true
+          },
+          {
+            "tensor": "grad:decay.1.weight",
+            "absolute": 3.894860996775992e-06,
+            "rmsrel": 0.0004149169608918153,
+            "passed": true
+          },
+          {
+            "tensor": "grad:beta.weight",
+            "absolute": 0.00012885582385582794,
+            "rmsrel": 0.0002912756600214813,
+            "passed": true
+          },
+          {
+            "tensor": "grad:beta.bias",
+            "absolute": 5.829735967743943e-06,
+            "rmsrel": 4.198730936022731e-06,
+            "passed": true
+          },
+          {
+            "tensor": "grad:score.weight",
+            "absolute": 0.0007377259931122815,
+            "rmsrel": 0.00029333024245870964,
+            "passed": true
+          },
+          {
+            "tensor": "grad:score.bias",
+            "absolute": 7.236968073698336e-07,
+            "rmsrel": 6.639798376862339e-08,
+            "passed": true
+          }
+        ],
+        "passed": true,
+        "comparison": "FP32 production projections against FP64 composed-matrix and analytic gate formulas"
+      },
+      "selection_gradient": null,
+      "passed": true
+    },
+    {
+      "options": {
+        "output_sigmoid": false,
+        "low_rank_gates": true,
+        "multi_timescale_init": true
+      },
+      "initial": {
+        "head_log_decay_error": 2.7939677238464355e-09,
+        "mean_log_alpha_error": 1.634366140687571e-10,
+        "beta_error": 0.0,
+        "score_error": 0.0,
+        "head_alpha": [
+          0.9991081357002258,
+          0.9989271759986877,
+          0.9987094402313232,
+          0.9984476566314697,
+          0.9981327652931213,
+          0.9977540969848633,
+          0.9972988367080688,
+          0.9967511892318726,
+          0.9960929155349731,
+          0.9953015446662903,
+          0.9943503737449646,
+          0.9932072162628174,
+          0.9918338060379028,
+          0.9901840090751648,
+          0.9882029891014099,
+          0.9858248829841614
+        ],
+        "negative_log_decay": true,
+        "initial_score_fixed_zero": true,
+        "passed": true
+      },
+      "low_rank_contract": {
+        "enabled": true,
+        "passed": true,
+        "gate": {
+          "rank_upper_bound": 64,
+          "no_intermediate_nonlinearity": true,
+          "no_bias": true
+        },
+        "decay": {
+          "rank_upper_bound": 64,
+          "no_intermediate_nonlinearity": true,
+          "no_bias": true
+        },
+        "initial_decay_up_zero": true,
+        "initial_decay_down_nonzero": true
+      },
+      "production_output": {
+        "tensor": "production_output_projection_input",
+        "absolute": 0.0,
+        "rmsrel": 0.0,
+        "passed": true,
+        "eviction": "learned",
+        "output_finite": true
+      },
+      "fp64_gate_comparison": {
+        "rows": [
+          {
+            "tensor": "g",
+            "absolute": 1.011914738044406e-07,
+            "rmsrel": 2.14015471828001e-06,
+            "passed": true
+          },
+          {
+            "tensor": "beta",
+            "absolute": 2.8474491063079643e-06,
+            "rmsrel": 4.9634414515144034e-06,
+            "passed": true
+          },
+          {
+            "tensor": "score",
+            "absolute": 2.830702243513533e-05,
+            "rmsrel": 0.0003161790607022222,
+            "passed": true
+          },
+          {
+            "tensor": "output_gate",
+            "absolute": 6.14175772040964e-05,
+            "rmsrel": 0.00041007341285965554,
+            "passed": true
+          },
+          {
+            "tensor": "grad:input",
+            "absolute": 0.0005896655026823572,
+            "rmsrel": 0.0004158420807893016,
+            "passed": true
+          },
+          {
+            "tensor": "grad:A_log",
+            "absolute": 3.252023948810412e-07,
+            "rmsrel": 2.0405545315585644e-06,
+            "passed": true
+          },
+          {
+            "tensor": "grad:dt_bias",
+            "absolute": 3.146418752694724e-07,
+            "rmsrel": 2.0272082633574613e-06,
+            "passed": true
+          },
+          {
+            "tensor": "grad:gate.0.weight",
+            "absolute": 0.001811298818409135,
+            "rmsrel": 0.0004164900664779466,
+            "passed": true
+          },
+          {
+            "tensor": "grad:gate.1.weight",
+            "absolute": 0.0003289568894311312,
+            "rmsrel": 0.00041439269337054525,
+            "passed": true
+          },
+          {
+            "tensor": "grad:decay.0.weight",
+            "absolute": 1.9264506433982163e-06,
+            "rmsrel": 0.00042408707165796983,
+            "passed": true
+          },
+          {
+            "tensor": "grad:decay.1.weight",
+            "absolute": 7.010633609322997e-06,
+            "rmsrel": 0.00041605662995812043,
+            "passed": true
+          },
+          {
+            "tensor": "grad:beta.weight",
+            "absolute": 0.00012885582385582794,
+            "rmsrel": 0.0002912756600214813,
+            "passed": true
+          },
+          {
+            "tensor": "grad:beta.bias",
+            "absolute": 5.829735967743943e-06,
+            "rmsrel": 4.198730936022731e-06,
+            "passed": true
+          },
+          {
+            "tensor": "grad:score.weight",
+            "absolute": 0.0007377259931122815,
+            "rmsrel": 0.00029333024245870964,
+            "passed": true
+          },
+          {
+            "tensor": "grad:score.bias",
+            "absolute": 7.236968073698336e-07,
+            "rmsrel": 6.639798376862339e-08,
+            "passed": true
+          }
+        ],
+        "passed": true,
+        "comparison": "FP32 production projections against FP64 composed-matrix and analytic gate formulas"
+      },
+      "selection_gradient": null,
+      "passed": true
+    },
+    {
+      "options": {
+        "output_sigmoid": true,
+        "low_rank_gates": false,
+        "multi_timescale_init": false
+      },
+      "initial": {
+        "head_log_decay_error": 9.313225746154785e-10,
+        "mean_log_alpha_error": 7.455132232034312e-10,
+        "beta_error": 0.0,
+        "score_error": 0.0,
+        "head_alpha": [
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716
+        ],
+        "negative_log_decay": true,
+        "initial_score_fixed_zero": true,
+        "passed": true
+      },
+      "low_rank_contract": {
+        "enabled": false,
+        "passed": true
+      },
+      "production_output": {
+        "tensor": "production_output_projection_input",
+        "absolute": 0.0,
+        "rmsrel": 0.0,
+        "passed": true,
+        "eviction": "learned",
+        "output_finite": true,
+        "sigmoid_range_valid": true
+      },
+      "fp64_gate_comparison": {
+        "rows": [
+          {
+            "tensor": "g",
+            "absolute": 9.97972605274941e-08,
+            "rmsrel": 4.723939758011155e-06,
+            "passed": true
+          },
+          {
+            "tensor": "beta",
+            "absolute": 2.544429837603168e-06,
+            "rmsrel": 4.395625398789553e-06,
+            "passed": true
+          },
+          {
+            "tensor": "score",
+            "absolute": 2.5510353544087525e-05,
+            "rmsrel": 0.0002677965027105007,
+            "passed": true
+          },
+          {
+            "tensor": "output_gate",
+            "absolute": 2.0205821749552655e-05,
+            "rmsrel": 7.971535255419218e-06,
+            "passed": true
+          },
+          {
+            "tensor": "grad:input",
+            "absolute": 0.00017269010946267815,
+            "rmsrel": 0.00027832158378807105,
+            "passed": true
+          },
+          {
+            "tensor": "grad:A_log",
+            "absolute": 4.449170915067375e-07,
+            "rmsrel": 5.083243934319287e-06,
+            "passed": true
+          },
+          {
+            "tensor": "grad:dt_bias",
+            "absolute": 4.4199899998376146e-07,
+            "rmsrel": 5.077369252576313e-06,
+            "passed": true
+          },
+          {
+            "tensor": "grad:gate.weight",
+            "absolute": 0.0003015352457501064,
+            "rmsrel": 0.00029373521875663725,
+            "passed": true
+          },
+          {
+            "tensor": "grad:decay.weight",
+            "absolute": 5.2026755031301525e-06,
+            "rmsrel": 0.0002930734310927949,
+            "passed": true
+          },
+          {
+            "tensor": "grad:beta.weight",
+            "absolute": 0.00013257198636998369,
+            "rmsrel": 0.0003027194926688623,
+            "passed": true
+          },
+          {
+            "tensor": "grad:beta.bias",
+            "absolute": 6.026821030236107e-06,
+            "rmsrel": 4.103567643877401e-06,
+            "passed": true
+          },
+          {
+            "tensor": "grad:score.weight",
+            "absolute": 0.0006822421613275897,
+            "rmsrel": 0.0002876965346006766,
+            "passed": true
+          },
+          {
+            "tensor": "grad:score.bias",
+            "absolute": 9.981514810242231e-07,
+            "rmsrel": 9.182731053960916e-08,
+            "passed": true
+          }
+        ],
+        "passed": true,
+        "comparison": "FP32 production projections against FP64 composed-matrix and analytic gate formulas"
+      },
+      "selection_gradient": null,
+      "passed": true
+    },
+    {
+      "options": {
+        "output_sigmoid": true,
+        "low_rank_gates": false,
+        "multi_timescale_init": true
+      },
+      "initial": {
+        "head_log_decay_error": 2.7939677238464355e-09,
+        "mean_log_alpha_error": 1.634366140687571e-10,
+        "beta_error": 0.0,
+        "score_error": 0.0,
+        "head_alpha": [
+          0.9991081357002258,
+          0.9989271759986877,
+          0.9987094402313232,
+          0.9984476566314697,
+          0.9981327652931213,
+          0.9977540969848633,
+          0.9972988367080688,
+          0.9967511892318726,
+          0.9960929155349731,
+          0.9953015446662903,
+          0.9943503737449646,
+          0.9932072162628174,
+          0.9918338060379028,
+          0.9901840090751648,
+          0.9882029891014099,
+          0.9858248829841614
+        ],
+        "negative_log_decay": true,
+        "initial_score_fixed_zero": true,
+        "passed": true
+      },
+      "low_rank_contract": {
+        "enabled": false,
+        "passed": true
+      },
+      "production_output": {
+        "tensor": "production_output_projection_input",
+        "absolute": 0.0,
+        "rmsrel": 0.0,
+        "passed": true,
+        "eviction": "learned",
+        "output_finite": true,
+        "sigmoid_range_valid": true
+      },
+      "fp64_gate_comparison": {
+        "rows": [
+          {
+            "tensor": "g",
+            "absolute": 2.3452223346306922e-07,
+            "rmsrel": 4.6943172518718376e-06,
+            "passed": true
+          },
+          {
+            "tensor": "beta",
+            "absolute": 2.544429837603168e-06,
+            "rmsrel": 4.395625398789553e-06,
+            "passed": true
+          },
+          {
+            "tensor": "score",
+            "absolute": 2.5510353544087525e-05,
+            "rmsrel": 0.0002677965027105007,
+            "passed": true
+          },
+          {
+            "tensor": "output_gate",
+            "absolute": 2.0205821749552655e-05,
+            "rmsrel": 7.971535255419218e-06,
+            "passed": true
+          },
+          {
+            "tensor": "grad:input",
+            "absolute": 0.00017266139203876707,
+            "rmsrel": 0.00027833690711489694,
+            "passed": true
+          },
+          {
+            "tensor": "grad:A_log",
+            "absolute": 7.521584858560804e-07,
+            "rmsrel": 4.947439282796184e-06,
+            "passed": true
+          },
+          {
+            "tensor": "grad:dt_bias",
+            "absolute": 7.3918760393199e-07,
+            "rmsrel": 4.914026673515143e-06,
+            "passed": true
+          },
+          {
+            "tensor": "grad:gate.weight",
+            "absolute": 0.0003015352457501064,
+            "rmsrel": 0.00029373521875663725,
+            "passed": true
+          },
+          {
+            "tensor": "grad:decay.weight",
+            "absolute": 1.1481654865041352e-05,
+            "rmsrel": 0.00029763250876310574,
+            "passed": true
+          },
+          {
+            "tensor": "grad:beta.weight",
+            "absolute": 0.00013257198636998369,
+            "rmsrel": 0.0003027194926688623,
+            "passed": true
+          },
+          {
+            "tensor": "grad:beta.bias",
+            "absolute": 6.026821030236107e-06,
+            "rmsrel": 4.103567643877401e-06,
+            "passed": true
+          },
+          {
+            "tensor": "grad:score.weight",
+            "absolute": 0.0006822421613275897,
+            "rmsrel": 0.0002876965346006766,
+            "passed": true
+          },
+          {
+            "tensor": "grad:score.bias",
+            "absolute": 9.981514810242231e-07,
+            "rmsrel": 9.182731053960916e-08,
+            "passed": true
+          }
+        ],
+        "passed": true,
+        "comparison": "FP32 production projections against FP64 composed-matrix and analytic gate formulas"
+      },
+      "selection_gradient": null,
+      "passed": true
+    },
+    {
+      "options": {
+        "output_sigmoid": true,
+        "low_rank_gates": true,
+        "multi_timescale_init": false
+      },
+      "initial": {
+        "head_log_decay_error": 9.313225746154785e-10,
+        "mean_log_alpha_error": 7.455132232034312e-10,
+        "beta_error": 0.0,
+        "score_error": 0.0,
+        "head_alpha": [
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716,
+          0.9950000047683716
+        ],
+        "negative_log_decay": true,
+        "initial_score_fixed_zero": true,
+        "passed": true
+      },
+      "low_rank_contract": {
+        "enabled": true,
+        "passed": true,
+        "gate": {
+          "rank_upper_bound": 64,
+          "no_intermediate_nonlinearity": true,
+          "no_bias": true
+        },
+        "decay": {
+          "rank_upper_bound": 64,
+          "no_intermediate_nonlinearity": true,
+          "no_bias": true
+        },
+        "initial_decay_up_zero": true,
+        "initial_decay_down_nonzero": true
+      },
+      "production_output": {
+        "tensor": "production_output_projection_input",
+        "absolute": 0.0,
+        "rmsrel": 0.0,
+        "passed": true,
+        "eviction": "learned",
+        "output_finite": true,
+        "sigmoid_range_valid": true
+      },
+      "fp64_gate_comparison": {
+        "rows": [
+          {
+            "tensor": "g",
+            "absolute": 5.329780313704374e-08,
+            "rmsrel": 2.150723690840823e-06,
+            "passed": true
+          },
+          {
+            "tensor": "beta",
+            "absolute": 2.8474491063079643e-06,
+            "rmsrel": 4.9634414515144034e-06,
+            "passed": true
+          },
+          {
+            "tensor": "score",
+            "absolute": 2.830702243513533e-05,
+            "rmsrel": 0.0003161790607022222,
+            "passed": true
+          },
+          {
+            "tensor": "output_gate",
+            "absolute": 2.9842316490835685e-05,
+            "rmsrel": 1.3387335109311949e-05,
+            "passed": true
+          },
+          {
+            "tensor": "grad:input",
+            "absolute": 0.0003328807749521101,
+            "rmsrel": 0.0004041643626312485,
+            "passed": true
+          },
+          {
+            "tensor": "grad:A_log",
+            "absolute": 1.7113735401377839e-07,
+            "rmsrel": 2.129658531167199e-06,
+            "passed": true
+          },
+          {
+            "tensor": "grad:dt_bias",
+            "absolute": 1.668212428907606e-07,
+            "rmsrel": 2.120473792854649e-06,
+            "passed": true
+          },
+          {
+            "tensor": "grad:gate.0.weight",
+            "absolute": 0.0009240153870089252,
+            "rmsrel": 0.0004070712410174592,
+            "passed": true
+          },
+          {
+            "tensor": "grad:gate.1.weight",
+            "absolute": 0.00015299380973347182,
+            "rmsrel": 0.00041046673906313205,
+            "passed": true
+          },
+          {
+            "tensor": "grad:decay.0.weight",
+            "absolute": 1.4706445593667614e-06,
+            "rmsrel": 0.0004035686792830037,
+            "passed": true
+          },
+          {
+            "tensor": "grad:decay.1.weight",
+            "absolute": 3.894860996775992e-06,
+            "rmsrel": 0.0004149169608918153,
+            "passed": true
+          },
+          {
+            "tensor": "grad:beta.weight",
+            "absolute": 0.00012885582385582794,
+            "rmsrel": 0.0002912756600214813,
+            "passed": true
+          },
+          {
+            "tensor": "grad:beta.bias",
+            "absolute": 5.829735967743943e-06,
+            "rmsrel": 4.198730936022731e-06,
+            "passed": true
+          },
+          {
+            "tensor": "grad:score.weight",
+            "absolute": 0.0007377259931122815,
+            "rmsrel": 0.00029333024245870964,
+            "passed": true
+          },
+          {
+            "tensor": "grad:score.bias",
+            "absolute": 7.236968073698336e-07,
+            "rmsrel": 6.639798376862339e-08,
+            "passed": true
+          }
+        ],
+        "passed": true,
+        "comparison": "FP32 production projections against FP64 composed-matrix and analytic gate formulas"
+      },
+      "selection_gradient": null,
+      "passed": true
+    },
+    {
+      "options": {
+        "output_sigmoid": true,
+        "low_rank_gates": true,
+        "multi_timescale_init": true
+      },
+      "initial": {
+        "head_log_decay_error": 2.7939677238464355e-09,
+        "mean_log_alpha_error": 1.634366140687571e-10,
+        "beta_error": 0.0,
+        "score_error": 0.0,
+        "head_alpha": [
+          0.9991081357002258,
+          0.9989271759986877,
+          0.9987094402313232,
+          0.9984476566314697,
+          0.9981327652931213,
+          0.9977540969848633,
+          0.9972988367080688,
+          0.9967511892318726,
+          0.9960929155349731,
+          0.9953015446662903,
+          0.9943503737449646,
+          0.9932072162628174,
+          0.9918338060379028,
+          0.9901840090751648,
+          0.9882029891014099,
+          0.9858248829841614
+        ],
+        "negative_log_decay": true,
+        "initial_score_fixed_zero": true,
+        "passed": true
+      },
+      "low_rank_contract": {
+        "enabled": true,
+        "passed": true,
+        "gate": {
+          "rank_upper_bound": 64,
+          "no_intermediate_nonlinearity": true,
+          "no_bias": true
+        },
+        "decay": {
+          "rank_upper_bound": 64,
+          "no_intermediate_nonlinearity": true,
+          "no_bias": true
+        },
+        "initial_decay_up_zero": true,
+        "initial_decay_down_nonzero": true
+      },
+      "production_output": {
+        "tensor": "production_output_projection_input",
+        "absolute": 0.0,
+        "rmsrel": 0.0,
+        "passed": true,
+        "eviction": "learned",
+        "output_finite": true,
+        "sigmoid_range_valid": true
+      },
+      "fp64_gate_comparison": {
+        "rows": [
+          {
+            "tensor": "g",
+            "absolute": 1.011914738044406e-07,
+            "rmsrel": 2.14015471828001e-06,
+            "passed": true
+          },
+          {
+            "tensor": "beta",
+            "absolute": 2.8474491063079643e-06,
+            "rmsrel": 4.9634414515144034e-06,
+            "passed": true
+          },
+          {
+            "tensor": "score",
+            "absolute": 2.830702243513533e-05,
+            "rmsrel": 0.0003161790607022222,
+            "passed": true
+          },
+          {
+            "tensor": "output_gate",
+            "absolute": 2.9842316490835685e-05,
+            "rmsrel": 1.3387335109311949e-05,
+            "passed": true
+          },
+          {
+            "tensor": "grad:input",
+            "absolute": 0.0003327484078063936,
+            "rmsrel": 0.0004041809256653375,
+            "passed": true
+          },
+          {
+            "tensor": "grad:A_log",
+            "absolute": 3.252023948810412e-07,
+            "rmsrel": 2.0405545315585644e-06,
+            "passed": true
+          },
+          {
+            "tensor": "grad:dt_bias",
+            "absolute": 3.146418752694724e-07,
+            "rmsrel": 2.0272082633574613e-06,
+            "passed": true
+          },
+          {
+            "tensor": "grad:gate.0.weight",
+            "absolute": 0.0009240153870089252,
+            "rmsrel": 0.0004070712410174592,
+            "passed": true
+          },
+          {
+            "tensor": "grad:gate.1.weight",
+            "absolute": 0.00015299380973347182,
+            "rmsrel": 0.00041046673906313205,
+            "passed": true
+          },
+          {
+            "tensor": "grad:decay.0.weight",
+            "absolute": 1.9264506433982163e-06,
+            "rmsrel": 0.00042408707165796983,
+            "passed": true
+          },
+          {
+            "tensor": "grad:decay.1.weight",
+            "absolute": 7.010633609322997e-06,
+            "rmsrel": 0.00041605662995812043,
+            "passed": true
+          },
+          {
+            "tensor": "grad:beta.weight",
+            "absolute": 0.00012885582385582794,
+            "rmsrel": 0.0002912756600214813,
+            "passed": true
+          },
+          {
+            "tensor": "grad:beta.bias",
+            "absolute": 5.829735967743943e-06,
+            "rmsrel": 4.198730936022731e-06,
+            "passed": true
+          },
+          {
+            "tensor": "grad:score.weight",
+            "absolute": 0.0007377259931122815,
+            "rmsrel": 0.00029333024245870964,
+            "passed": true
+          },
+          {
+            "tensor": "grad:score.bias",
+            "absolute": 7.236968073698336e-07,
+            "rmsrel": 6.639798376862339e-08,
+            "passed": true
+          }
+        ],
+        "passed": true,
+        "comparison": "FP32 production projections against FP64 composed-matrix and analytic gate formulas"
+      },
+      "selection_gradient": {
+        "hard_selection_score_gradient_absent": true,
+        "hard_selection_initial_score_gradient_absent": true,
+        "continuous_q_gradient_finite": true,
+        "score_write_gate_gradient_min_abs": 0.09974509477615356,
+        "passed": true
+      },
+      "passed": true
+    }
+  ],
+  "scope": "eight single-mixer configurations; full-model DDP trial separately in preflight",
+  "selection_gradient": "hard ranking detached; score learns through write strength",
+  "bitwise_equivalence_claimed": false
+}

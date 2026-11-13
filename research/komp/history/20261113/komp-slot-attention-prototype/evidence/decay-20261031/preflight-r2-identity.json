@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-694bbbcca448-20261031192717",
+    "user_def_name": "komp-decay-20261031-preflight-r2",
+    "status": "Aborted",
+    "ready_status": "0/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  }
+]

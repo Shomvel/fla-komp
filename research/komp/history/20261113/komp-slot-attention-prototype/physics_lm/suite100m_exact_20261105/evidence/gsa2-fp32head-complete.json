@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-f1eff1a14c84-20261105212400",
+    "user_def_name": "physics100m-gsa2-fp32head-20261105",
+    "status": "Completed",
+    "ready_status": "0/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  }
+]

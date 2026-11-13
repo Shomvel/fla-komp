@@ -1,0 +1,19 @@
+{
+  "sources": {
+    "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+    "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+  },
+  "candidate_sha256": "168d5c488f2350bcd7ddcffa2c4c890d65d761e05cdabad1f61e484bb5d44257",
+  "configuration": [
+    {
+      "kernel": "layer_norm_gated_fwd_kernel",
+      "BT": 32,
+      "num_warps": 4
+    },
+    {
+      "kernel": "layer_norm_gated_bwd_kernel",
+      "BT": 32,
+      "num_warps": 4
+    }
+  ]
+}

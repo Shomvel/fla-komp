@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-8bfd7b50909f-20261105200330",
+    "user_def_name": "physics100m-exact-lr-brevo2-20261105",
+    "status": "Completed",
+    "ready_status": "0/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 8
+  }
+]

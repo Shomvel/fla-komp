@@ -1,0 +1,1596 @@
+{
+  "depo2": {
+    "data_order_sha256": "adeeb571b3383ef06185e972a1e63c0f7ca45f651a952a6ab0126d495cb4789f",
+    "steps": [
+      {
+        "step": 1,
+        "positions": 21439,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            192
+          ]
+        ],
+        "new_shapes": 1,
+        "cumulative_unique_shapes": 1
+      },
+      {
+        "step": 2,
+        "positions": 36605,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            304
+          ]
+        ],
+        "new_shapes": 1,
+        "cumulative_unique_shapes": 2
+      },
+      {
+        "step": 3,
+        "positions": 204154,
+        "microsteps": 4,
+        "shapes": [
+          [
+            4,
+            1568
+          ],
+          [
+            4,
+            1584
+          ],
+          [
+            4,
+            1600
+          ],
+          [
+            4,
+            1632
+          ],
+          [
+            4,
+            1664
+          ],
+          [
+            4,
+            1680
+          ]
+        ],
+        "new_shapes": 6,
+        "cumulative_unique_shapes": 8
+      },
+      {
+        "step": 4,
+        "positions": 106312,
+        "microsteps": 2,
+        "shapes": [
+          [
+            8,
+            832
+          ],
+          [
+            8,
+            864
+          ]
+        ],
+        "new_shapes": 2,
+        "cumulative_unique_shapes": 10
+      },
+      {
+        "step": 5,
+        "positions": 129692,
+        "microsteps": 4,
+        "shapes": [
+          [
+            4,
+            1008
+          ],
+          [
+            4,
+            1024
+          ],
+          [
+            4,
+            1040
+          ],
+          [
+            4,
+            1056
+          ]
+        ],
+        "new_shapes": 4,
+        "cumulative_unique_shapes": 14
+      },
+      {
+        "step": 6,
+        "positions": 150114,
+        "microsteps": 4,
+        "shapes": [
+          [
+            4,
+            1152
+          ],
+          [
+            4,
+            1184
+          ],
+          [
+            4,
+            1200
+          ],
+          [
+            4,
+            1216
+          ],
+          [
+            4,
+            1232
+          ]
+        ],
+        "new_shapes": 5,
+        "cumulative_unique_shapes": 19
+      },
+      {
+        "step": 7,
+        "positions": 64870,
+        "microsteps": 2,
+        "shapes": [
+          [
+            8,
+            512
+          ],
+          [
+            8,
+            528
+          ]
+        ],
+        "new_shapes": 2,
+        "cumulative_unique_shapes": 21
+      },
+      {
+        "step": 8,
+        "positions": 49419,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            400
+          ],
+          [
+            16,
+            416
+          ]
+        ],
+        "new_shapes": 2,
+        "cumulative_unique_shapes": 23
+      },
+      {
+        "step": 9,
+        "positions": 45592,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            384
+          ]
+        ],
+        "new_shapes": 1,
+        "cumulative_unique_shapes": 24
+      },
+      {
+        "step": 10,
+        "positions": 39539,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            320
+          ],
+          [
+            16,
+            336
+          ]
+        ],
+        "new_shapes": 2,
+        "cumulative_unique_shapes": 26
+      },
+      {
+        "step": 11,
+        "positions": 53264,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            432
+          ]
+        ],
+        "new_shapes": 1,
+        "cumulative_unique_shapes": 27
+      },
+      {
+        "step": 12,
+        "positions": 161281,
+        "microsteps": 4,
+        "shapes": [
+          [
+            4,
+            1248
+          ],
+          [
+            4,
+            1264
+          ],
+          [
+            4,
+            1280
+          ],
+          [
+            4,
+            1312
+          ]
+        ],
+        "new_shapes": 4,
+        "cumulative_unique_shapes": 31
+      },
+      {
+        "step": 13,
+        "positions": 9967,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            96
+          ]
+        ],
+        "new_shapes": 1,
+        "cumulative_unique_shapes": 32
+      },
+      {
+        "step": 14,
+        "positions": 114652,
+        "microsteps": 2,
+        "shapes": [
+          [
+            8,
+            896
+          ],
+          [
+            8,
+            912
+          ],
+          [
+            8,
+            928
+          ]
+        ],
+        "new_shapes": 3,
+        "cumulative_unique_shapes": 35
+      },
+      {
+        "step": 15,
+        "positions": 25525,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            224
+          ]
+        ],
+        "new_shapes": 1,
+        "cumulative_unique_shapes": 36
+      },
+      {
+        "step": 16,
+        "positions": 56907,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            464
+          ]
+        ],
+        "new_shapes": 1,
+        "cumulative_unique_shapes": 37
+      },
+      {
+        "step": 17,
+        "positions": 122077,
+        "microsteps": 2,
+        "shapes": [
+          [
+            8,
+            960
+          ],
+          [
+            8,
+            992
+          ]
+        ],
+        "new_shapes": 2,
+        "cumulative_unique_shapes": 39
+      },
+      {
+        "step": 18,
+        "positions": 86393,
+        "microsteps": 2,
+        "shapes": [
+          [
+            8,
+            688
+          ],
+          [
+            8,
+            704
+          ]
+        ],
+        "new_shapes": 2,
+        "cumulative_unique_shapes": 41
+      },
+      {
+        "step": 19,
+        "positions": 99198,
+        "microsteps": 2,
+        "shapes": [
+          [
+            8,
+            784
+          ],
+          [
+            8,
+            816
+          ]
+        ],
+        "new_shapes": 2,
+        "cumulative_unique_shapes": 43
+      },
+      {
+        "step": 20,
+        "positions": 138645,
+        "microsteps": 4,
+        "shapes": [
+          [
+            4,
+            1072
+          ],
+          [
+            4,
+            1088
+          ],
+          [
+            4,
+            1104
+          ],
+          [
+            4,
+            1120
+          ],
+          [
+            4,
+            1136
+          ]
+        ],
+        "new_shapes": 5,
+        "cumulative_unique_shapes": 48
+      },
+      {
+        "step": 21,
+        "positions": 42508,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            352
+          ]
+        ],
+        "new_shapes": 1,
+        "cumulative_unique_shapes": 49
+      },
+      {
+        "step": 22,
+        "positions": 92841,
+        "microsteps": 2,
+        "shapes": [
+          [
+            8,
+            736
+          ],
+          [
+            8,
+            752
+          ]
+        ],
+        "new_shapes": 2,
+        "cumulative_unique_shapes": 51
+      },
+      {
+        "step": 23,
+        "positions": 75068,
+        "microsteps": 2,
+        "shapes": [
+          [
+            8,
+            592
+          ],
+          [
+            8,
+            608
+          ]
+        ],
+        "new_shapes": 2,
+        "cumulative_unique_shapes": 53
+      },
+      {
+        "step": 24,
+        "positions": 60763,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            496
+          ]
+        ],
+        "new_shapes": 1,
+        "cumulative_unique_shapes": 54
+      },
+      {
+        "step": 25,
+        "positions": 34179,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            288
+          ]
+        ],
+        "new_shapes": 1,
+        "cumulative_unique_shapes": 55
+      }
+    ],
+    "total_unique_shapes": 114,
+    "all_shapes": [
+      [
+        2,
+        1648
+      ],
+      [
+        2,
+        1664
+      ],
+      [
+        2,
+        1696
+      ],
+      [
+        3,
+        1696
+      ],
+      [
+        4,
+        912
+      ],
+      [
+        4,
+        928
+      ],
+      [
+        4,
+        976
+      ],
+      [
+        4,
+        992
+      ],
+      [
+        4,
+        1008
+      ],
+      [
+        4,
+        1024
+      ],
+      [
+        4,
+        1040
+      ],
+      [
+        4,
+        1056
+      ],
+      [
+        4,
+        1072
+      ],
+      [
+        4,
+        1088
+      ],
+      [
+        4,
+        1104
+      ],
+      [
+        4,
+        1120
+      ],
+      [
+        4,
+        1136
+      ],
+      [
+        4,
+        1152
+      ],
+      [
+        4,
+        1168
+      ],
+      [
+        4,
+        1184
+      ],
+      [
+        4,
+        1200
+      ],
+      [
+        4,
+        1216
+      ],
+      [
+        4,
+        1232
+      ],
+      [
+        4,
+        1248
+      ],
+      [
+        4,
+        1264
+      ],
+      [
+        4,
+        1280
+      ],
+      [
+        4,
+        1296
+      ],
+      [
+        4,
+        1312
+      ],
+      [
+        4,
+        1328
+      ],
+      [
+        4,
+        1344
+      ],
+      [
+        4,
+        1360
+      ],
+      [
+        4,
+        1376
+      ],
+      [
+        4,
+        1392
+      ],
+      [
+        4,
+        1408
+      ],
+      [
+        4,
+        1424
+      ],
+      [
+        4,
+        1440
+      ],
+      [
+        4,
+        1456
+      ],
+      [
+        4,
+        1472
+      ],
+      [
+        4,
+        1488
+      ],
+      [
+        4,
+        1504
+      ],
+      [
+        4,
+        1520
+      ],
+      [
+        4,
+        1536
+      ],
+      [
+        4,
+        1552
+      ],
+      [
+        4,
+        1568
+      ],
+      [
+        4,
+        1584
+      ],
+      [
+        4,
+        1600
+      ],
+      [
+        4,
+        1616
+      ],
+      [
+        4,
+        1632
+      ],
+      [
+        4,
+        1648
+      ],
+      [
+        4,
+        1664
+      ],
+      [
+        4,
+        1680
+      ],
+      [
+        4,
+        1696
+      ],
+      [
+        4,
+        1712
+      ],
+      [
+        8,
+        496
+      ],
+      [
+        8,
+        512
+      ],
+      [
+        8,
+        528
+      ],
+      [
+        8,
+        544
+      ],
+      [
+        8,
+        560
+      ],
+      [
+        8,
+        576
+      ],
+      [
+        8,
+        592
+      ],
+      [
+        8,
+        608
+      ],
+      [
+        8,
+        624
+      ],
+      [
+        8,
+        640
+      ],
+      [
+        8,
+        656
+      ],
+      [
+        8,
+        672
+      ],
+      [
+        8,
+        688
+      ],
+      [
+        8,
+        704
+      ],
+      [
+        8,
+        720
+      ],
+      [
+        8,
+        736
+      ],
+      [
+        8,
+        752
+      ],
+      [
+        8,
+        768
+      ],
+      [
+        8,
+        784
+      ],
+      [
+        8,
+        800
+      ],
+      [
+        8,
+        816
+      ],
+      [
+        8,
+        832
+      ],
+      [
+        8,
+        848
+      ],
+      [
+        8,
+        864
+      ],
+      [
+        8,
+        880
+      ],
+      [
+        8,
+        896
+      ],
+      [
+        8,
+        912
+      ],
+      [
+        8,
+        928
+      ],
+      [
+        8,
+        944
+      ],
+      [
+        8,
+        960
+      ],
+      [
+        8,
+        976
+      ],
+      [
+        8,
+        992
+      ],
+      [
+        8,
+        1008
+      ],
+      [
+        8,
+        1024
+      ],
+      [
+        16,
+        96
+      ],
+      [
+        16,
+        112
+      ],
+      [
+        16,
+        128
+      ],
+      [
+        16,
+        144
+      ],
+      [
+        16,
+        160
+      ],
+      [
+        16,
+        176
+      ],
+      [
+        16,
+        192
+      ],
+      [
+        16,
+        208
+      ],
+      [
+        16,
+        224
+      ],
+      [
+        16,
+        240
+      ],
+      [
+        16,
+        256
+      ],
+      [
+        16,
+        272
+      ],
+      [
+        16,
+        288
+      ],
+      [
+        16,
+        304
+      ],
+      [
+        16,
+        320
+      ],
+      [
+        16,
+        336
+      ],
+      [
+        16,
+        352
+      ],
+      [
+        16,
+        368
+      ],
+      [
+        16,
+        384
+      ],
+      [
+        16,
+        400
+      ],
+      [
+        16,
+        416
+      ],
+      [
+        16,
+        432
+      ],
+      [
+        16,
+        448
+      ],
+      [
+        16,
+        464
+      ],
+      [
+        16,
+        480
+      ],
+      [
+        16,
+        496
+      ],
+      [
+        16,
+        512
+      ]
+    ]
+  },
+  "brevo2": {
+    "data_order_sha256": "5d54cbfa072adb348f3dfefb89cab29c5be0572618eadbaa7678a3801ef1986d",
+    "steps": [
+      {
+        "step": 1,
+        "positions": 46742,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            384
+          ]
+        ],
+        "new_shapes": 1,
+        "cumulative_unique_shapes": 1
+      },
+      {
+        "step": 2,
+        "positions": 16354,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            144
+          ]
+        ],
+        "new_shapes": 1,
+        "cumulative_unique_shapes": 2
+      },
+      {
+        "step": 3,
+        "positions": 40290,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            336
+          ]
+        ],
+        "new_shapes": 1,
+        "cumulative_unique_shapes": 3
+      },
+      {
+        "step": 4,
+        "positions": 4133,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            48
+          ]
+        ],
+        "new_shapes": 1,
+        "cumulative_unique_shapes": 4
+      },
+      {
+        "step": 5,
+        "positions": 78351,
+        "microsteps": 2,
+        "shapes": [
+          [
+            8,
+            624
+          ],
+          [
+            8,
+            640
+          ]
+        ],
+        "new_shapes": 2,
+        "cumulative_unique_shapes": 6
+      },
+      {
+        "step": 6,
+        "positions": 3055,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            32
+          ]
+        ],
+        "new_shapes": 1,
+        "cumulative_unique_shapes": 7
+      },
+      {
+        "step": 7,
+        "positions": 54378,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            448
+          ]
+        ],
+        "new_shapes": 1,
+        "cumulative_unique_shapes": 8
+      },
+      {
+        "step": 8,
+        "positions": 50644,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            416
+          ]
+        ],
+        "new_shapes": 1,
+        "cumulative_unique_shapes": 9
+      },
+      {
+        "step": 9,
+        "positions": 31521,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            272
+          ]
+        ],
+        "new_shapes": 1,
+        "cumulative_unique_shapes": 10
+      },
+      {
+        "step": 10,
+        "positions": 9520,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            80
+          ]
+        ],
+        "new_shapes": 1,
+        "cumulative_unique_shapes": 11
+      },
+      {
+        "step": 11,
+        "positions": 43440,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            352
+          ],
+          [
+            16,
+            368
+          ]
+        ],
+        "new_shapes": 2,
+        "cumulative_unique_shapes": 13
+      },
+      {
+        "step": 12,
+        "positions": 26442,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            224
+          ]
+        ],
+        "new_shapes": 1,
+        "cumulative_unique_shapes": 14
+      },
+      {
+        "step": 13,
+        "positions": 11067,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            96
+          ]
+        ],
+        "new_shapes": 1,
+        "cumulative_unique_shapes": 15
+      },
+      {
+        "step": 14,
+        "positions": 90855,
+        "microsteps": 2,
+        "shapes": [
+          [
+            8,
+            720
+          ],
+          [
+            8,
+            752
+          ]
+        ],
+        "new_shapes": 2,
+        "cumulative_unique_shapes": 17
+      },
+      {
+        "step": 15,
+        "positions": 20075,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            176
+          ]
+        ],
+        "new_shapes": 1,
+        "cumulative_unique_shapes": 18
+      },
+      {
+        "step": 16,
+        "positions": 7898,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            80
+          ]
+        ],
+        "new_shapes": 0,
+        "cumulative_unique_shapes": 18
+      },
+      {
+        "step": 17,
+        "positions": 5244,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            48
+          ]
+        ],
+        "new_shapes": 0,
+        "cumulative_unique_shapes": 18
+      },
+      {
+        "step": 18,
+        "positions": 58284,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            480
+          ]
+        ],
+        "new_shapes": 1,
+        "cumulative_unique_shapes": 19
+      },
+      {
+        "step": 19,
+        "positions": 62790,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            512
+          ]
+        ],
+        "new_shapes": 1,
+        "cumulative_unique_shapes": 20
+      },
+      {
+        "step": 20,
+        "positions": 6489,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            64
+          ]
+        ],
+        "new_shapes": 1,
+        "cumulative_unique_shapes": 21
+      },
+      {
+        "step": 21,
+        "positions": 18164,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            160
+          ]
+        ],
+        "new_shapes": 1,
+        "cumulative_unique_shapes": 22
+      },
+      {
+        "step": 22,
+        "positions": 12759,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            112
+          ]
+        ],
+        "new_shapes": 1,
+        "cumulative_unique_shapes": 23
+      },
+      {
+        "step": 23,
+        "positions": 22068,
+        "microsteps": 1,
+        "shapes": [
+          [
+            16,
+            192
+          ]
+        ],
+        "new_shapes": 1,
+        "cumulative_unique_shapes": 24
+      },
+      {
+        "step": 24,
+        "positions": 102585,
+        "microsteps": 2,
+        "shapes": [
+          [
+            8,
+            800
+          ],
+          [
+            8,
+            896
+          ],
+          [
+            8,
+            912
+          ],
+          [
+            8,
+            928
+          ],
+          [
+            8,
+            1024
+          ]
+        ],
+        "new_shapes": 5,
+        "cumulative_unique_shapes": 29
+      },
+      {
+        "step": 25,
+        "positions": 72720,
+        "microsteps": 2,
+        "shapes": [
+          [
+            8,
+            576
+          ],
+          [
+            8,
+            592
+          ]
+        ],
+        "new_shapes": 2,
+        "cumulative_unique_shapes": 31
+      }
+    ],
+    "total_unique_shapes": 80,
+    "all_shapes": [
+      [
+        4,
+        768
+      ],
+      [
+        4,
+        784
+      ],
+      [
+        4,
+        800
+      ],
+      [
+        4,
+        816
+      ],
+      [
+        4,
+        832
+      ],
+      [
+        4,
+        848
+      ],
+      [
+        4,
+        864
+      ],
+      [
+        4,
+        880
+      ],
+      [
+        4,
+        896
+      ],
+      [
+        4,
+        912
+      ],
+      [
+        4,
+        928
+      ],
+      [
+        4,
+        944
+      ],
+      [
+        4,
+        960
+      ],
+      [
+        4,
+        992
+      ],
+      [
+        4,
+        1008
+      ],
+      [
+        4,
+        1024
+      ],
+      [
+        4,
+        1040
+      ],
+      [
+        5,
+        928
+      ],
+      [
+        8,
+        496
+      ],
+      [
+        8,
+        512
+      ],
+      [
+        8,
+        528
+      ],
+      [
+        8,
+        544
+      ],
+      [
+        8,
+        560
+      ],
+      [
+        8,
+        576
+      ],
+      [
+        8,
+        592
+      ],
+      [
+        8,
+        608
+      ],
+      [
+        8,
+        624
+      ],
+      [
+        8,
+        640
+      ],
+      [
+        8,
+        656
+      ],
+      [
+        8,
+        672
+      ],
+      [
+        8,
+        688
+      ],
+      [
+        8,
+        704
+      ],
+      [
+        8,
+        720
+      ],
+      [
+        8,
+        736
+      ],
+      [
+        8,
+        752
+      ],
+      [
+        8,
+        768
+      ],
+      [
+        8,
+        784
+      ],
+      [
+        8,
+        800
+      ],
+      [
+        8,
+        816
+      ],
+      [
+        8,
+        880
+      ],
+      [
+        8,
+        896
+      ],
+      [
+        8,
+        912
+      ],
+      [
+        8,
+        928
+      ],
+      [
+        8,
+        944
+      ],
+      [
+        8,
+        960
+      ],
+      [
+        8,
+        976
+      ],
+      [
+        8,
+        992
+      ],
+      [
+        8,
+        1008
+      ],
+      [
+        8,
+        1024
+      ],
+      [
+        16,
+        32
+      ],
+      [
+        16,
+        48
+      ],
+      [
+        16,
+        64
+      ],
+      [
+        16,
+        80
+      ],
+      [
+        16,
+        96
+      ],
+      [
+        16,
+        112
+      ],
+      [
+        16,
+        128
+      ],
+      [
+        16,
+        144
+      ],
+      [
+        16,
+        160
+      ],
+      [
+        16,
+        176
+      ],
+      [
+        16,
+        192
+      ],
+      [
+        16,
+        208
+      ],
+      [
+        16,
+        224
+      ],
+      [
+        16,
+        240
+      ],
+      [
+        16,
+        256
+      ],
+      [
+        16,
+        272
+      ],
+      [
+        16,
+        288
+      ],
+      [
+        16,
+        304
+      ],
+      [
+        16,
+        320
+      ],
+      [
+        16,
+        336
+      ],
+      [
+        16,
+        352
+      ],
+      [
+        16,
+        368
+      ],
+      [
+        16,
+        384
+      ],
+      [
+        16,
+        400
+      ],
+      [
+        16,
+        416
+      ],
+      [
+        16,
+        432
+      ],
+      [
+        16,
+        448
+      ],
+      [
+        16,
+        464
+      ],
+      [
+        16,
+        480
+      ],
+      [
+        16,
+        496
+      ],
+      [
+        16,
+        512
+      ]
+    ]
+  }
+}

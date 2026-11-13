@@ -1,0 +1,95 @@
+{
+  "archive_files": 5219,
+  "measurement_source_hash_checks": 126,
+  "downstream_models": 8,
+  "downstream_cases": 184,
+  "downstream_examples": 163656,
+  "downstream_score_scale": "fraction_0_to_1",
+  "descriptive_means": {
+    "kda": {
+      "single1_mean": 0.1935,
+      "single2_mean": 0.3315,
+      "single3_mean": 0.0075
+    },
+    "block": {
+      "single1_mean": 0.028499999999999998,
+      "single2_mean": 0.043000000000000003,
+      "single3_mean": 0.003
+    },
+    "block123": {
+      "single1_mean": 0.1595,
+      "single2_mean": 0.059,
+      "single3_mean": 0.007
+    },
+    "learned": {
+      "single1_mean": 0.3635,
+      "single2_mean": 0.39299999999999996,
+      "single3_mean": 0.0
+    },
+    "learned123": {
+      "single1_mean": 0.686,
+      "single2_mean": 0.507,
+      "single3_mean": 0.0045000000000000005
+    },
+    "value": {
+      "single1_mean": 0.0305,
+      "single2_mean": 0.034,
+      "single3_mean": 0.0
+    },
+    "exact123": {
+      "single1_mean": 0.07,
+      "single2_mean": 0.0585,
+      "single3_mean": 0.0
+    },
+    "exact_partial": {
+      "single1_mean": 0.01,
+      "single2_mean": 0.08,
+      "single3_mean": 0.0
+    }
+  },
+  "kernel_timing_rows": 215,
+  "learned123_single_h100": {
+    "baseline_seconds": 2.594976701773703,
+    "candidate_seconds": 1.4693674352020025,
+    "speedup": 1.766050233321631
+  },
+  "learned123_1b": {
+    "captured_utc": "2026-11-13T01:57:43.272588+00:00",
+    "platform_status": "Aborted",
+    "latest_metrics": {
+      "kind": "block",
+      "step": 40579,
+      "effective_input_tokens": 42550165504,
+      "input_tokens": 42550165504,
+      "supervised_tokens": 42550165504,
+      "compute_tokens": 42550165504,
+      "loss": 2.235164098441601,
+      "lr": 4.724204519656659e-05,
+      "grad_norm": 0.16088831424713135,
+      "seconds": 1.6747551579028368,
+      "peak_bytes": 71973290496,
+      "peak_reserved_bytes": 75650564096,
+      "documents": 1097630,
+      "excluded_documents": 30
+    },
+    "latest_checkpoint": {
+      "path": "/gpfs/users/linlizhi/komp-learned123-1b-50b-20261110-resume1/runs/block/checkpoint-039936",
+      "step": 39936,
+      "tokens": 41875931136
+    },
+    "latest_validation": {
+      "cross_entropy": 2.208300353900995,
+      "supervised_tokens": 4194304,
+      "perplexity": 9.100236060503272,
+      "step": 39936,
+      "input_tokens": 41875931136
+    },
+    "final_50b_complete": false,
+    "downstream_cases": 0,
+    "watcher_failure": {
+      "time": "2026-11-10T13:32:12.760218+00:00",
+      "exception_type": "RuntimeError",
+      "error": "Training terminated without completion: Aborted"
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "status": "both_running_actual_optimizer_steps",
+  "time": "2026-11-05T23:04:52.937659+08:00",
+  "runs": [
+    {
+      "task": "depo2",
+      "preflight": "passed",
+      "initialization_diff": {
+        "status": "passed",
+        "changed_parameters": [
+          "layers.0.mix.decay.bias",
+          "layers.1.mix.decay.bias",
+          "layers.2.mix.decay.bias",
+          "layers.3.mix.decay.bias",
+          "layers.4.mix.decay.bias",
+          "layers.5.mix.decay.bias",
+          "layers.6.mix.decay.bias",
+          "layers.7.mix.decay.bias",
+          "layers.8.mix.decay.bias",
+          "layers.9.mix.decay.bias",
+          "layers.10.mix.decay.bias",
+          "layers.11.mix.decay.bias",
+          "layers.12.mix.decay.bias",
+          "layers.13.mix.decay.bias",
+          "layers.14.mix.decay.bias"
+        ],
+        "all_other_tensors_identical": true,
+        "reference_alpha0": 0.98,
+        "new_alpha0": 0.995
+      },
+      "source": {
+        "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+        "ddp_train": "08588e36fe4dc692b714d317c8462aebb8e485f541fb20b9941b5813ce064c58",
+        "alpha_models": "fd3f7c0615a71a7fcbe1504fdf08d6f7f48a5dfdcdd2d7389cbd61d490ee88ae"
+      },
+      "first_step": {
+        "loss": 10.418331516947493,
+        "tokens": 21439,
+        "supervised": 5742,
+        "microsteps": 1,
+        "global_documents": 128,
+        "grad_norm": 26.053213119506836,
+        "step": 1,
+        "total": 1224,
+        "lr": 8.19672131147541e-06,
+        "seconds": 1.8351458497345448,
+        "world_size": 8
+      },
+      "latest": {
+        "loss": 1.0467030394311045,
+        "tokens": 16351776,
+        "supervised": 8976,
+        "microsteps": 2,
+        "global_documents": 128,
+        "grad_norm": 1.5463041067123413,
+        "step": 200,
+        "total": 1224,
+        "lr": 0.0004843247654234142,
+        "seconds": 114.81594306975603,
+        "world_size": 8
+      },
+      "original_data_order_matched": true
+    },
+    {
+      "task": "brevo2",
+      "preflight": "passed",
+      "initialization_diff": {
+        "status": "passed",
+        "changed_parameters": [
+          "layers.0.mix.decay.bias",
+          "layers.1.mix.decay.bias",
+          "layers.2.mix.decay.bias",
+          "layers.3.mix.decay.bias",
+          "layers.4.mix.decay.bias",
+          "layers.5.mix.decay.bias",
+          "layers.6.mix.decay.bias",
+          "layers.7.mix.decay.bias",
+          "layers.8.mix.decay.bias",
+          "layers.9.mix.decay.bias",
+          "layers.10.mix.decay.bias",
+          "layers.11.mix.decay.bias",
+          "layers.12.mix.decay.bias",
+          "layers.13.mix.decay.bias",
+          "layers.14.mix.decay.bias"
+        ],
+        "all_other_tensors_identical": true,
+        "reference_alpha0": 0.98,
+        "new_alpha0": 0.995
+      },
+      "source": {
+        "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+        "ddp_train": "08588e36fe4dc692b714d317c8462aebb8e485f541fb20b9941b5813ce064c58",
+        "alpha_models": "fd3f7c0615a71a7fcbe1504fdf08d6f7f48a5dfdcdd2d7389cbd61d490ee88ae"
+      },
+      "first_step": {
+        "loss": 10.452784626611825,
+        "tokens": 46742,
+        "supervised": 5797,
+        "microsteps": 1,
+        "global_documents": 128,
+        "grad_norm": 13.160472869873047,
+        "step": 1,
+        "total": 2705,
+        "lr": 7.4074074074074075e-06,
+        "seconds": 1.7510478069998499,
+        "world_size": 8
+      },
+      "latest": {
+        "loss": 1.121981961344915,
+        "tokens": 12843206,
+        "supervised": 4909,
+        "microsteps": 1,
+        "global_documents": 128,
+        "grad_norm": 2.5340211391448975,
+        "step": 350,
+        "total": 2705,
+        "lr": 0.0009845477527429354,
+        "seconds": 120.66409383399878,
+        "world_size": 8
+      },
+      "original_data_order_matched": true
+    }
+  ]
+}

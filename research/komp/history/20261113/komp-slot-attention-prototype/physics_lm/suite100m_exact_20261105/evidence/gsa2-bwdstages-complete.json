@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-56a9c0414a34-20261105211955",
+    "user_def_name": "physics100m-gsa2-bwdstages-20261105",
+    "status": "Completed",
+    "ready_status": "0/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  }
+]

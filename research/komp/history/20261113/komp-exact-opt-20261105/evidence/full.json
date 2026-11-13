@@ -1,0 +1,2354 @@
+{
+  "status": "passed",
+  "mode": "full",
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "torch": "2.10.0a0+b558c986e8.nv25.11",
+  "elapsed_seconds": 69.12688271701336,
+  "checks": [
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedFalse/C16/output",
+      "rms_relative": 2.4071177295119774e-07,
+      "normalized_max": 2.179368192578579e-07,
+      "max_abs": 2.179368192578579e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedFalse/C16/keys",
+      "rms_relative": 4.74302767970467e-08,
+      "normalized_max": 5.710099382216782e-08,
+      "max_abs": 5.710099382216782e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedFalse/C16/state",
+      "rms_relative": 1.541965049571552e-07,
+      "normalized_max": 1.3856891850378372e-07,
+      "max_abs": 3.17287415230183e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedFalse/C16/grad/q",
+      "rms_relative": 2.3658343794914027e-07,
+      "normalized_max": 1.2007459215812588e-07,
+      "max_abs": 1.2007459215812588e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedFalse/C16/grad/k",
+      "rms_relative": 1.7352638136853267e-07,
+      "normalized_max": 1.3589285408066587e-07,
+      "max_abs": 1.3589285408066587e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedFalse/C16/grad/v",
+      "rms_relative": 1.5205927564404305e-07,
+      "normalized_max": 1.3017914952536332e-07,
+      "max_abs": 3.136907178458159e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedFalse/C16/grad/g",
+      "rms_relative": 3.6231527904755667e-07,
+      "normalized_max": 6.390564563415036e-07,
+      "max_abs": 2.2472931084926984e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedFalse/C16/grad/beta",
+      "rms_relative": 1.698786511807268e-07,
+      "normalized_max": 1.0314044827828916e-07,
+      "max_abs": 1.5210200343673819e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedFalse/C16/grad/initial_keys",
+      "rms_relative": 1.94739075526584e-07,
+      "normalized_max": 1.882146968834597e-08,
+      "max_abs": 1.882146968834597e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedFalse/C16/grad/initial_coefficients",
+      "rms_relative": 3.732935659681641e-07,
+      "normalized_max": 3.238227720969711e-07,
+      "max_abs": 3.238227720969711e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedFalse/C16/grad/scores",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.0,
+      "max_tolerance": 0.0
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedFalse/C16/output",
+      "rms_relative": 2.4071177295119774e-07,
+      "normalized_max": 2.179368192578579e-07,
+      "max_abs": 2.179368192578579e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedFalse/C16/keys",
+      "rms_relative": 4.74302767970467e-08,
+      "normalized_max": 5.710099382216782e-08,
+      "max_abs": 5.710099382216782e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedFalse/C16/state",
+      "rms_relative": 1.541965049571552e-07,
+      "normalized_max": 1.3856891850378372e-07,
+      "max_abs": 3.17287415230183e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedFalse/C16/grad/q",
+      "rms_relative": 2.3658343794914027e-07,
+      "normalized_max": 1.2007459215812588e-07,
+      "max_abs": 1.2007459215812588e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedFalse/C16/grad/k",
+      "rms_relative": 1.7635478183447883e-07,
+      "normalized_max": 1.3525895221216944e-07,
+      "max_abs": 1.3525895221216944e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedFalse/C16/grad/v",
+      "rms_relative": 1.5205927564404305e-07,
+      "normalized_max": 1.3017914952536332e-07,
+      "max_abs": 3.136907178458159e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedFalse/C16/grad/g",
+      "rms_relative": 3.6231527904755667e-07,
+      "normalized_max": 6.390564563415036e-07,
+      "max_abs": 2.2472931084926984e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedFalse/C16/grad/beta",
+      "rms_relative": 1.627035295411523e-07,
+      "normalized_max": 1.0314044827828916e-07,
+      "max_abs": 1.5210200343673819e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedFalse/C16/grad/initial_keys",
+      "rms_relative": 1.8170865737524012e-07,
+      "normalized_max": 1.580319321931034e-08,
+      "max_abs": 1.580319321931034e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedFalse/C16/grad/initial_coefficients",
+      "rms_relative": 3.732935659681641e-07,
+      "normalized_max": 3.238227720969711e-07,
+      "max_abs": 3.238227720969711e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedFalse/C16/grad/scores",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.0,
+      "max_tolerance": 0.0
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedFalse/C16/output",
+      "rms_relative": 8.856768212652177e-06,
+      "normalized_max": 7.4163863914566974e-06,
+      "max_abs": 7.4163863914566974e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedFalse/C16/keys",
+      "rms_relative": 5.3435406537774666e-08,
+      "normalized_max": 4.357678329292014e-08,
+      "max_abs": 4.357678329292014e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedFalse/C16/state",
+      "rms_relative": 0.00025403948138651963,
+      "normalized_max": 0.00014995985463657385,
+      "max_abs": 0.0004163495816262852,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedFalse/C16/grad/q",
+      "rms_relative": 1.1950244895547623e-05,
+      "normalized_max": 7.108146147460914e-06,
+      "max_abs": 7.108146147460914e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedFalse/C16/grad/k",
+      "rms_relative": 0.00101025469352802,
+      "normalized_max": 0.0006166439542444123,
+      "max_abs": 0.01915761268287941,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedFalse/C16/grad/v",
+      "rms_relative": 0.00026898835593895404,
+      "normalized_max": 0.00031199950109534955,
+      "max_abs": 0.0006308871501513741,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedFalse/C16/grad/g",
+      "rms_relative": 0.00028829788118805007,
+      "normalized_max": 0.0001529793513880247,
+      "max_abs": 0.0013333533976418455,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedFalse/C16/grad/beta",
+      "rms_relative": 0.00015865779650390863,
+      "normalized_max": 0.00013309894398582167,
+      "max_abs": 0.001976646707396057,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedFalse/C16/grad/initial_keys",
+      "rms_relative": 0.0031920877143758225,
+      "normalized_max": 0.0006947372677595931,
+      "max_abs": 0.0006947372677595931,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedFalse/C16/grad/initial_coefficients",
+      "rms_relative": 0.0001654120695228039,
+      "normalized_max": 8.16126377912868e-05,
+      "max_abs": 8.16126377912868e-05,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedFalse/C16/grad/scores",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.0,
+      "max_tolerance": 0.0
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/strong/learnedFalse/C16/output",
+      "rms_relative": 2.4120444121454464e-07,
+      "normalized_max": 1.38062358739921e-07,
+      "max_abs": 1.38062358739921e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/strong/learnedFalse/C16/keys",
+      "rms_relative": 4.74302767970467e-08,
+      "normalized_max": 5.710099382216782e-08,
+      "max_abs": 5.710099382216782e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/strong/learnedFalse/C16/state",
+      "rms_relative": 9.91273496282694e-08,
+      "normalized_max": 1.4259260576219644e-07,
+      "max_abs": 3.44529749174427e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/strong/learnedFalse/C16/grad/q",
+      "rms_relative": 3.8276667305978367e-07,
+      "normalized_max": 1.6319209350523778e-07,
+      "max_abs": 1.6319209350523778e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/strong/learnedFalse/C16/grad/k",
+      "rms_relative": 1.3228074139150906e-07,
+      "normalized_max": 1.4114909013818178e-07,
+      "max_abs": 1.4114909013818178e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/strong/learnedFalse/C16/grad/v",
+      "rms_relative": 8.620742550408358e-08,
+      "normalized_max": 6.560183248793013e-08,
+      "max_abs": 1.58079738576955e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/strong/learnedFalse/C16/grad/g",
+      "rms_relative": 6.808362409918651e-07,
+      "normalized_max": 4.991469568782492e-07,
+      "max_abs": 4.991469568782492e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/strong/learnedFalse/C16/grad/beta",
+      "rms_relative": 6.253121394597522e-08,
+      "normalized_max": 4.3041320017379545e-08,
+      "max_abs": 6.594531631876066e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/strong/learnedFalse/C16/grad/initial_keys",
+      "rms_relative": 1.9628076421403858e-07,
+      "normalized_max": 7.09548732963361e-09,
+      "max_abs": 7.09548732963361e-09,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/strong/learnedFalse/C16/grad/initial_coefficients",
+      "rms_relative": 2.942860568601731e-07,
+      "normalized_max": 7.083846495503643e-08,
+      "max_abs": 7.083846495503643e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/strong/learnedFalse/C16/grad/scores",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.0,
+      "max_tolerance": 0.0
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/reject/learnedFalse/C16/output",
+      "rms_relative": 2.4071177295119774e-07,
+      "normalized_max": 2.179368192578579e-07,
+      "max_abs": 2.179368192578579e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/reject/learnedFalse/C16/keys",
+      "rms_relative": 4.74302767970467e-08,
+      "normalized_max": 5.710099382216782e-08,
+      "max_abs": 5.710099382216782e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/reject/learnedFalse/C16/state",
+      "rms_relative": 1.541965049571552e-07,
+      "normalized_max": 1.3856891850378372e-07,
+      "max_abs": 3.17287415230183e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/reject/learnedFalse/C16/grad/q",
+      "rms_relative": 2.3658343794914027e-07,
+      "normalized_max": 1.2007459215812588e-07,
+      "max_abs": 1.2007459215812588e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/reject/learnedFalse/C16/grad/k",
+      "rms_relative": 1.711762936452217e-07,
+      "normalized_max": 1.2667616278161375e-07,
+      "max_abs": 1.2667616278161375e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/reject/learnedFalse/C16/grad/v",
+      "rms_relative": 1.5205927564404305e-07,
+      "normalized_max": 1.3017914952536332e-07,
+      "max_abs": 3.136907178458159e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/reject/learnedFalse/C16/grad/g",
+      "rms_relative": 3.6231527904755667e-07,
+      "normalized_max": 6.390564563415036e-07,
+      "max_abs": 2.2472931084926984e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/reject/learnedFalse/C16/grad/beta",
+      "rms_relative": 1.5935634978032816e-07,
+      "normalized_max": 1.0314044827828916e-07,
+      "max_abs": 1.5210200343673819e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/reject/learnedFalse/C16/grad/initial_keys",
+      "rms_relative": 1.8150207903055375e-07,
+      "normalized_max": 1.580319321931034e-08,
+      "max_abs": 1.580319321931034e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/reject/learnedFalse/C16/grad/initial_coefficients",
+      "rms_relative": 3.732935659681641e-07,
+      "normalized_max": 3.238227720969711e-07,
+      "max_abs": 3.238227720969711e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/reject/learnedFalse/C16/grad/scores",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.0,
+      "max_tolerance": 0.0
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/replace/learnedFalse/C16/output",
+      "rms_relative": 2.4071177295119774e-07,
+      "normalized_max": 2.179368192578579e-07,
+      "max_abs": 2.179368192578579e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/replace/learnedFalse/C16/keys",
+      "rms_relative": 4.74302767970467e-08,
+      "normalized_max": 5.710099382216782e-08,
+      "max_abs": 5.710099382216782e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/replace/learnedFalse/C16/state",
+      "rms_relative": 1.541965049571552e-07,
+      "normalized_max": 1.3856891850378372e-07,
+      "max_abs": 3.17287415230183e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/replace/learnedFalse/C16/grad/q",
+      "rms_relative": 2.3658343794914027e-07,
+      "normalized_max": 1.2007459215812588e-07,
+      "max_abs": 1.2007459215812588e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/replace/learnedFalse/C16/grad/k",
+      "rms_relative": 1.7430304629586528e-07,
+      "normalized_max": 1.3589285408066587e-07,
+      "max_abs": 1.3589285408066587e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/replace/learnedFalse/C16/grad/v",
+      "rms_relative": 1.5205927564404305e-07,
+      "normalized_max": 1.3017914952536332e-07,
+      "max_abs": 3.136907178458159e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/replace/learnedFalse/C16/grad/g",
+      "rms_relative": 3.6231527904755667e-07,
+      "normalized_max": 6.390564563415036e-07,
+      "max_abs": 2.2472931084926984e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/replace/learnedFalse/C16/grad/beta",
+      "rms_relative": 1.5954287361052484e-07,
+      "normalized_max": 1.0314044827828916e-07,
+      "max_abs": 1.5210200343673819e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/replace/learnedFalse/C16/grad/initial_keys",
+      "rms_relative": 1.8221963831295761e-07,
+      "normalized_max": 1.580319321931034e-08,
+      "max_abs": 1.580319321931034e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/replace/learnedFalse/C16/grad/initial_coefficients",
+      "rms_relative": 3.732935659681641e-07,
+      "normalized_max": 3.238227720969711e-07,
+      "max_abs": 3.238227720969711e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/replace/learnedFalse/C16/grad/scores",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.0,
+      "max_tolerance": 0.0
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.float32/random/learnedFalse/C32/output",
+      "rms_relative": 2.7460990090970566e-07,
+      "normalized_max": 2.643238961042016e-07,
+      "max_abs": 2.643238961042016e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.float32/random/learnedFalse/C32/keys",
+      "rms_relative": 5.715215110398079e-08,
+      "normalized_max": 5.037686023889876e-08,
+      "max_abs": 5.037686023889876e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.float32/random/learnedFalse/C32/state",
+      "rms_relative": 2.0819387299258934e-07,
+      "normalized_max": 2.4555821554960746e-07,
+      "max_abs": 6.665114014037243e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.float32/random/learnedFalse/C32/grad/q",
+      "rms_relative": 2.7062066939653595e-07,
+      "normalized_max": 1.4947274742938e-07,
+      "max_abs": 1.4947274742938e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.float32/random/learnedFalse/C32/grad/k",
+      "rms_relative": 2.085684849512907e-07,
+      "normalized_max": 1.955065519476662e-07,
+      "max_abs": 1.955065519476662e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.float32/random/learnedFalse/C32/grad/v",
+      "rms_relative": 2.705252130021696e-07,
+      "normalized_max": 2.781168877884214e-07,
+      "max_abs": 6.737722839655902e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.float32/random/learnedFalse/C32/grad/g",
+      "rms_relative": 2.922758620428741e-07,
+      "normalized_max": 3.3036142971895013e-07,
+      "max_abs": 3.590066603109676e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.float32/random/learnedFalse/C32/grad/beta",
+      "rms_relative": 2.5360587290198126e-07,
+      "normalized_max": 2.676714345416524e-07,
+      "max_abs": 4.260553394530575e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.float32/random/learnedFalse/C32/grad/initial_keys",
+      "rms_relative": 5.455261673356423e-07,
+      "normalized_max": 2.8058462577559666e-08,
+      "max_abs": 2.8058462577559666e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.float32/random/learnedFalse/C32/grad/initial_coefficients",
+      "rms_relative": 4.875110784912629e-07,
+      "normalized_max": 5.894603166672862e-07,
+      "max_abs": 6.30892609265743e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.float32/random/learnedFalse/C32/grad/scores",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.0,
+      "max_tolerance": 0.0
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.float32/near/learnedFalse/C16/output",
+      "rms_relative": 7.819774965652854e-06,
+      "normalized_max": 7.171623912699543e-06,
+      "max_abs": 7.171623912699543e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.float32/near/learnedFalse/C16/keys",
+      "rms_relative": 6.29691795887061e-08,
+      "normalized_max": 4.7933127078625404e-08,
+      "max_abs": 4.7933127078625404e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.float32/near/learnedFalse/C16/state",
+      "rms_relative": 0.00027035044475098917,
+      "normalized_max": 0.00018844093145805308,
+      "max_abs": 0.00036417956776935156,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.float32/near/learnedFalse/C16/grad/q",
+      "rms_relative": 8.859106338237286e-06,
+      "normalized_max": 1.5538700303130426e-06,
+      "max_abs": 1.5538700303130426e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.float32/near/learnedFalse/C16/grad/k",
+      "rms_relative": 0.0021205040014419065,
+      "normalized_max": 0.002489122669779534,
+      "max_abs": 0.03724167291833069,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.float32/near/learnedFalse/C16/grad/v",
+      "rms_relative": 0.00025496645611887934,
+      "normalized_max": 0.00039088366375709385,
+      "max_abs": 0.0006685992611828381,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.float32/near/learnedFalse/C16/grad/g",
+      "rms_relative": 0.000393134039805947,
+      "normalized_max": 0.0002272703605637706,
+      "max_abs": 0.003084404967905685,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.float32/near/learnedFalse/C16/grad/beta",
+      "rms_relative": 0.0001529906332205441,
+      "normalized_max": 0.000146042981141206,
+      "max_abs": 0.0039400358818706405,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.float32/near/learnedFalse/C16/grad/initial_keys",
+      "rms_relative": 0.003411910922941157,
+      "normalized_max": 0.00027435087673883043,
+      "max_abs": 0.00027435087673883043,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.float32/near/learnedFalse/C16/grad/initial_coefficients",
+      "rms_relative": 0.0001976326706998863,
+      "normalized_max": 2.6064713298371012e-05,
+      "max_abs": 2.6064713298371012e-05,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.float32/near/learnedFalse/C16/grad/scores",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.0,
+      "max_tolerance": 0.0
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.bfloat16/random/learnedFalse/C32/output",
+      "rms_relative": 0.0016581494050103877,
+      "normalized_max": 0.0019124108499443127,
+      "max_abs": 0.0019124108499443127,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.bfloat16/random/learnedFalse/C32/keys",
+      "rms_relative": 6.001921350655738e-08,
+      "normalized_max": 6.997563595234624e-08,
+      "max_abs": 6.997563595234624e-08,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.bfloat16/random/learnedFalse/C32/state",
+      "rms_relative": 1.9718191375966703e-07,
+      "normalized_max": 2.281901629135482e-07,
+      "max_abs": 6.208242149252641e-07,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.bfloat16/random/learnedFalse/C32/grad/q",
+      "rms_relative": 0.002313425686846929,
+      "normalized_max": 0.0010656881600989432,
+      "max_abs": 0.0010656881600989432,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.bfloat16/random/learnedFalse/C32/grad/k",
+      "rms_relative": 0.0017457546167134095,
+      "normalized_max": 0.0017077487972398941,
+      "max_abs": 0.0017077487972398941,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.bfloat16/random/learnedFalse/C32/grad/v",
+      "rms_relative": 0.0018329437129510748,
+      "normalized_max": 0.002750306904097734,
+      "max_abs": 0.006667804690115187,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.bfloat16/random/learnedFalse/C32/grad/g",
+      "rms_relative": 0.0007757557306370804,
+      "normalized_max": 0.0007999769053580045,
+      "max_abs": 0.00870796405135632,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.bfloat16/random/learnedFalse/C32/grad/beta",
+      "rms_relative": 0.000868891445299738,
+      "normalized_max": 0.0007586114700344533,
+      "max_abs": 0.012062335269168223,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.bfloat16/random/learnedFalse/C32/grad/initial_keys",
+      "rms_relative": 0.002318977727233796,
+      "normalized_max": 0.00014567265299871013,
+      "max_abs": 0.00014567265299871013,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.bfloat16/random/learnedFalse/C32/grad/initial_coefficients",
+      "rms_relative": 0.0015808904607316442,
+      "normalized_max": 0.0017395620229211707,
+      "max_abs": 0.0018606628405272163,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.bfloat16/random/learnedFalse/C32/grad/scores",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.0,
+      "max_tolerance": 0.0
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.bfloat16/near/learnedFalse/C16/output",
+      "rms_relative": 0.001615013429067011,
+      "normalized_max": 0.0009714101308198608,
+      "max_abs": 0.0009714101308198608,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.bfloat16/near/learnedFalse/C16/keys",
+      "rms_relative": 6.789398555866068e-08,
+      "normalized_max": 6.488412113148101e-08,
+      "max_abs": 6.488412113148101e-08,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.bfloat16/near/learnedFalse/C16/state",
+      "rms_relative": 0.00026816348604864266,
+      "normalized_max": 0.0001736506196659392,
+      "max_abs": 0.0003360858548296722,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.bfloat16/near/learnedFalse/C16/grad/q",
+      "rms_relative": 0.0026075038582888985,
+      "normalized_max": 0.0004730222676839757,
+      "max_abs": 0.0004730222676839757,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.bfloat16/near/learnedFalse/C16/grad/k",
+      "rms_relative": 0.0025526592696681,
+      "normalized_max": 0.0026144737241645664,
+      "max_abs": 0.03640324188439692,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.bfloat16/near/learnedFalse/C16/grad/v",
+      "rms_relative": 0.0017630009034329168,
+      "normalized_max": 0.0022891782307894615,
+      "max_abs": 0.003914602769771847,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.bfloat16/near/learnedFalse/C16/grad/g",
+      "rms_relative": 0.0004591554783778372,
+      "normalized_max": 0.00028413926817993717,
+      "max_abs": 0.003858984726572645,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.bfloat16/near/learnedFalse/C16/grad/beta",
+      "rms_relative": 0.0004317581026899972,
+      "normalized_max": 0.0002739531515664007,
+      "max_abs": 0.007391510332616091,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.bfloat16/near/learnedFalse/C16/grad/initial_keys",
+      "rms_relative": 0.0036104654090149454,
+      "normalized_max": 0.0002336524508085823,
+      "max_abs": 0.0002336524508085823,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.bfloat16/near/learnedFalse/C16/grad/initial_coefficients",
+      "rms_relative": 0.0012804944123172457,
+      "normalized_max": 0.000140895699374588,
+      "max_abs": 0.000140895699374588,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.bfloat16/near/learnedFalse/C16/grad/scores",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.0,
+      "max_tolerance": 0.0
+    },
+    {
+      "name": "s14/B1T1H1M7K9V11/torch.float32/random/learnedFalse/C16/output",
+      "rms_relative": 2.2390317448632596e-07,
+      "normalized_max": 1.528688872709516e-08,
+      "max_abs": 1.528688872709516e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s14/B1T1H1M7K9V11/torch.float32/random/learnedFalse/C16/keys",
+      "rms_relative": 5.655251959589271e-08,
+      "normalized_max": 8.188103306494554e-08,
+      "max_abs": 8.188103306494554e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s14/B1T1H1M7K9V11/torch.float32/random/learnedFalse/C16/state",
+      "rms_relative": 8.55984002575479e-08,
+      "normalized_max": 4.52450222843126e-08,
+      "max_abs": 4.52450222843126e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s14/B1T1H1M7K9V11/torch.float32/random/learnedFalse/C16/grad/q",
+      "rms_relative": 1.4604008723868592e-07,
+      "normalized_max": 7.080335845399688e-09,
+      "max_abs": 7.080335845399688e-09,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s14/B1T1H1M7K9V11/torch.float32/random/learnedFalse/C16/grad/k",
+      "rms_relative": 1.1549962976527357e-07,
+      "normalized_max": 6.31076604307168e-08,
+      "max_abs": 6.31076604307168e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s14/B1T1H1M7K9V11/torch.float32/random/learnedFalse/C16/grad/v",
+      "rms_relative": 4.6113512126776594e-08,
+      "normalized_max": 2.8266979812396897e-08,
+      "max_abs": 2.8266979812396897e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s14/B1T1H1M7K9V11/torch.float32/random/learnedFalse/C16/grad/g",
+      "rms_relative": 8.156541631032392e-08,
+      "normalized_max": 4.0365383313645253e-08,
+      "max_abs": 4.0365383313645253e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s14/B1T1H1M7K9V11/torch.float32/random/learnedFalse/C16/grad/beta",
+      "rms_relative": 1.9029445142042996e-07,
+      "normalized_max": 8.69323942831457e-08,
+      "max_abs": 8.69323942831457e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s14/B1T1H1M7K9V11/torch.float32/random/learnedFalse/C16/grad/initial_keys",
+      "rms_relative": 5.976762136693877e-08,
+      "normalized_max": 5.963392357699604e-08,
+      "max_abs": 5.963392357699604e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s14/B1T1H1M7K9V11/torch.float32/random/learnedFalse/C16/grad/initial_coefficients",
+      "rms_relative": 1.1306795381612727e-07,
+      "normalized_max": 1.2306468888278364e-07,
+      "max_abs": 2.641235919975671e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s14/B1T1H1M7K9V11/torch.float32/random/learnedFalse/C16/grad/scores",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.0,
+      "max_tolerance": 0.0
+    },
+    {
+      "name": "s15/B1T31H1M64K128V128/torch.float32/random/learnedFalse/C32/output",
+      "rms_relative": 2.893550286609581e-07,
+      "normalized_max": 2.707781581179347e-07,
+      "max_abs": 2.707781581179347e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s15/B1T31H1M64K128V128/torch.float32/random/learnedFalse/C32/keys",
+      "rms_relative": 5.663131694142169e-08,
+      "normalized_max": 4.0181526023141956e-08,
+      "max_abs": 4.0181526023141956e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s15/B1T31H1M64K128V128/torch.float32/random/learnedFalse/C32/state",
+      "rms_relative": 1.7257421270170284e-07,
+      "normalized_max": 2.77844304802678e-07,
+      "max_abs": 7.449931889169648e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s15/B1T31H1M64K128V128/torch.float32/random/learnedFalse/C32/grad/q",
+      "rms_relative": 3.092017710140942e-07,
+      "normalized_max": 6.902930811680807e-08,
+      "max_abs": 6.902930811680807e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s15/B1T31H1M64K128V128/torch.float32/random/learnedFalse/C32/grad/k",
+      "rms_relative": 2.0233299742084052e-07,
+      "normalized_max": 1.3985928770665623e-07,
+      "max_abs": 1.3985928770665623e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s15/B1T31H1M64K128V128/torch.float32/random/learnedFalse/C32/grad/v",
+      "rms_relative": 2.348601271346336e-07,
+      "normalized_max": 2.13939034701649e-07,
+      "max_abs": 4.3945864025562997e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s15/B1T31H1M64K128V128/torch.float32/random/learnedFalse/C32/grad/g",
+      "rms_relative": 2.585846114112984e-07,
+      "normalized_max": 2.797243545008109e-07,
+      "max_abs": 3.97772514482142e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s15/B1T31H1M64K128V128/torch.float32/random/learnedFalse/C32/grad/beta",
+      "rms_relative": 2.482776805584918e-07,
+      "normalized_max": 3.220098692160252e-07,
+      "max_abs": 5.435204396775362e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s15/B1T31H1M64K128V128/torch.float32/random/learnedFalse/C32/grad/initial_keys",
+      "rms_relative": 2.4064707390188177e-07,
+      "normalized_max": 1.661021665488871e-07,
+      "max_abs": 1.661021665488871e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s15/B1T31H1M64K128V128/torch.float32/random/learnedFalse/C32/grad/initial_coefficients",
+      "rms_relative": 5.20984336855632e-07,
+      "normalized_max": 5.735916760850661e-07,
+      "max_abs": 7.315510328620434e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s15/B1T31H1M64K128V128/torch.float32/random/learnedFalse/C32/grad/scores",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.0,
+      "max_tolerance": 0.0
+    },
+    {
+      "name": "s16/B1T129H2M8K32V32/torch.float32/random/learnedFalse/C16/output",
+      "rms_relative": 3.054405969012092e-07,
+      "normalized_max": 3.291132952831788e-07,
+      "max_abs": 3.291132952831788e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s16/B1T129H2M8K32V32/torch.float32/random/learnedFalse/C16/keys",
+      "rms_relative": 5.6643855354665524e-08,
+      "normalized_max": 4.8475995884089684e-08,
+      "max_abs": 4.8475995884089684e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s16/B1T129H2M8K32V32/torch.float32/random/learnedFalse/C16/state",
+      "rms_relative": 2.435646865362273e-07,
+      "normalized_max": 3.357052738868806e-07,
+      "max_abs": 4.926613734745899e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedTrue/C16/output",
+      "rms_relative": 2.643920283512476e-07,
+      "normalized_max": 2.1908105041212877e-07,
+      "max_abs": 2.1908105041212877e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedTrue/C16/keys",
+      "rms_relative": 6.24374502009798e-08,
+      "normalized_max": 8.094054471108336e-08,
+      "max_abs": 8.094054471108336e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedTrue/C16/state",
+      "rms_relative": 1.6102162563110108e-07,
+      "normalized_max": 1.1646298012693533e-07,
+      "max_abs": 4.399246034125781e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedTrue/C16/grad/q",
+      "rms_relative": 2.7625834884838503e-07,
+      "normalized_max": 1.7762749826566449e-07,
+      "max_abs": 1.7762749826566449e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedTrue/C16/grad/k",
+      "rms_relative": 2.679534491704489e-07,
+      "normalized_max": 2.573198299993251e-07,
+      "max_abs": 2.573198299993251e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedTrue/C16/grad/v",
+      "rms_relative": 2.179311515325479e-07,
+      "normalized_max": 2.4367605752077223e-07,
+      "max_abs": 4.1883961798827585e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedTrue/C16/grad/g",
+      "rms_relative": 2.658890733841776e-07,
+      "normalized_max": 3.36371934641742e-07,
+      "max_abs": 1.3193739492045609e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedTrue/C16/grad/beta",
+      "rms_relative": 2.385390480043933e-07,
+      "normalized_max": 2.511637558314994e-07,
+      "max_abs": 1.3302910550905267e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedTrue/C16/grad/initial_keys",
+      "rms_relative": 2.9758846292977704e-07,
+      "normalized_max": 1.9389854144513663e-07,
+      "max_abs": 1.9389854144513663e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedTrue/C16/grad/initial_coefficients",
+      "rms_relative": 3.9553198783109857e-07,
+      "normalized_max": 5.125132840163717e-07,
+      "max_abs": 6.759410837720026e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedTrue/C16/grad/scores",
+      "rms_relative": 2.672851811961738e-07,
+      "normalized_max": 2.6657145594842805e-07,
+      "max_abs": 3.9781445448916486e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedTrue/C16/output",
+      "rms_relative": 2.4071177295119774e-07,
+      "normalized_max": 2.179368192578579e-07,
+      "max_abs": 2.179368192578579e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedTrue/C16/keys",
+      "rms_relative": 4.74302767970467e-08,
+      "normalized_max": 5.710099382216782e-08,
+      "max_abs": 5.710099382216782e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedTrue/C16/state",
+      "rms_relative": 1.541965049571552e-07,
+      "normalized_max": 1.3856891850378372e-07,
+      "max_abs": 3.17287415230183e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedTrue/C16/grad/q",
+      "rms_relative": 2.3658343794914027e-07,
+      "normalized_max": 1.2007459215812588e-07,
+      "max_abs": 1.2007459215812588e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedTrue/C16/grad/k",
+      "rms_relative": 1.8412038127918385e-07,
+      "normalized_max": 1.954974988560565e-07,
+      "max_abs": 1.954974988560565e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedTrue/C16/grad/v",
+      "rms_relative": 1.5205927564404305e-07,
+      "normalized_max": 1.3017914952536332e-07,
+      "max_abs": 3.136907178458159e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedTrue/C16/grad/g",
+      "rms_relative": 3.6231527904755667e-07,
+      "normalized_max": 6.390564563415036e-07,
+      "max_abs": 2.2472931084926984e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedTrue/C16/grad/beta",
+      "rms_relative": 1.6318724294948309e-07,
+      "normalized_max": 1.0314044827828916e-07,
+      "max_abs": 1.5210200343673819e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedTrue/C16/grad/initial_keys",
+      "rms_relative": 1.747354662395013e-07,
+      "normalized_max": 1.5096179389884057e-08,
+      "max_abs": 1.5096179389884057e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedTrue/C16/grad/initial_coefficients",
+      "rms_relative": 3.732935659681641e-07,
+      "normalized_max": 3.238227720969711e-07,
+      "max_abs": 3.238227720969711e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedTrue/C16/grad/scores",
+      "rms_relative": 1.2563383430958028e-07,
+      "normalized_max": 7.47387257739767e-08,
+      "max_abs": 4.1920039467457926e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedTrue/C16/output",
+      "rms_relative": 1.2041898960334436e-05,
+      "normalized_max": 6.509606711203875e-06,
+      "max_abs": 6.509606711203875e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedTrue/C16/keys",
+      "rms_relative": 5.462531885115695e-08,
+      "normalized_max": 6.881859671015178e-08,
+      "max_abs": 6.881859671015178e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedTrue/C16/state",
+      "rms_relative": 0.0004631594495960269,
+      "normalized_max": 0.00027042882901417065,
+      "max_abs": 0.0009515295982719385,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedTrue/C16/grad/q",
+      "rms_relative": 1.2224364468021366e-05,
+      "normalized_max": 4.942259495044343e-06,
+      "max_abs": 4.942259495044343e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedTrue/C16/grad/k",
+      "rms_relative": 0.0008438545501759334,
+      "normalized_max": 0.0008035884308890156,
+      "max_abs": 0.03171410941525643,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedTrue/C16/grad/v",
+      "rms_relative": 0.0005489936120124994,
+      "normalized_max": 0.00042212295504058214,
+      "max_abs": 0.0009764257466504112,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedTrue/C16/grad/g",
+      "rms_relative": 0.0007932783926270976,
+      "normalized_max": 0.0010079853278082292,
+      "max_abs": 0.00402193344173063,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedTrue/C16/grad/beta",
+      "rms_relative": 0.0003979768408769146,
+      "normalized_max": 0.00022268144006371032,
+      "max_abs": 0.0028849785304880804,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedTrue/C16/grad/initial_keys",
+      "rms_relative": 0.0010019675448392853,
+      "normalized_max": 0.0015521658106133762,
+      "max_abs": 0.04810340138029012,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedTrue/C16/grad/initial_coefficients",
+      "rms_relative": 0.0008274768902459136,
+      "normalized_max": 0.0007672242415696139,
+      "max_abs": 0.0007704604388843747,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedTrue/C16/grad/scores",
+      "rms_relative": 0.0005711410920049236,
+      "normalized_max": 0.00037229789700592354,
+      "max_abs": 0.0012766329820628197,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/strong/learnedTrue/C16/output",
+      "rms_relative": 2.672452942195042e-07,
+      "normalized_max": 1.4387837937723802e-07,
+      "max_abs": 1.4387837937723802e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/strong/learnedTrue/C16/keys",
+      "rms_relative": 6.24374502009798e-08,
+      "normalized_max": 8.094054471108336e-08,
+      "max_abs": 8.094054471108336e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/strong/learnedTrue/C16/state",
+      "rms_relative": 6.396606700566814e-08,
+      "normalized_max": 8.623665140343159e-08,
+      "max_abs": 3.253267819580685e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/strong/learnedTrue/C16/grad/q",
+      "rms_relative": 3.6645338991632343e-07,
+      "normalized_max": 1.2171104246672115e-07,
+      "max_abs": 1.2171104246672115e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/strong/learnedTrue/C16/grad/k",
+      "rms_relative": 1.8261158279883514e-07,
+      "normalized_max": 2.5773520406779937e-07,
+      "max_abs": 2.5773520406779937e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/strong/learnedTrue/C16/grad/v",
+      "rms_relative": 1.1113572658210004e-07,
+      "normalized_max": 9.355678426606371e-08,
+      "max_abs": 1.6080893699976784e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/strong/learnedTrue/C16/grad/g",
+      "rms_relative": 5.631943006387916e-07,
+      "normalized_max": 3.908214719627878e-07,
+      "max_abs": 3.908214719627878e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/strong/learnedTrue/C16/grad/beta",
+      "rms_relative": 1.714200911018231e-07,
+      "normalized_max": 1.9943505795316944e-07,
+      "max_abs": 1.296188679944521e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/strong/learnedTrue/C16/grad/initial_keys",
+      "rms_relative": 2.0587973716191346e-07,
+      "normalized_max": 2.4717139879282257e-07,
+      "max_abs": 2.4717139879282257e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/strong/learnedTrue/C16/grad/initial_coefficients",
+      "rms_relative": 3.158985222614631e-07,
+      "normalized_max": 9.899326147699838e-08,
+      "max_abs": 9.899326147699838e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/strong/learnedTrue/C16/grad/scores",
+      "rms_relative": 1.411602794646467e-07,
+      "normalized_max": 1.0571759695432448e-07,
+      "max_abs": 1.0571759695432448e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/reject/learnedTrue/C16/output",
+      "rms_relative": 2.510254375718346e-07,
+      "normalized_max": 7.363842416396871e-08,
+      "max_abs": 7.363842416396871e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/reject/learnedTrue/C16/keys",
+      "rms_relative": 5.169551674548907e-08,
+      "normalized_max": 6.813672037697671e-08,
+      "max_abs": 6.813672037697671e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/reject/learnedTrue/C16/state",
+      "rms_relative": 3.112698826386574e-07,
+      "normalized_max": 5.211287800593878e-08,
+      "max_abs": 5.211287800593878e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/reject/learnedTrue/C16/grad/q",
+      "rms_relative": 2.9845065943924877e-07,
+      "normalized_max": 6.021312735221551e-08,
+      "max_abs": 6.021312735221551e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/reject/learnedTrue/C16/grad/k",
+      "rms_relative": 3.223629912263478e-07,
+      "normalized_max": 4.236104015481468e-08,
+      "max_abs": 4.236104015481468e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/reject/learnedTrue/C16/grad/v",
+      "rms_relative": 2.6949587846110356e-07,
+      "normalized_max": 7.562269067895588e-08,
+      "max_abs": 7.562269067895588e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/reject/learnedTrue/C16/grad/g",
+      "rms_relative": 2.846021432555622e-07,
+      "normalized_max": 1.7409789104805284e-07,
+      "max_abs": 1.7409789104805284e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/reject/learnedTrue/C16/grad/beta",
+      "rms_relative": 4.07102169620265e-07,
+      "normalized_max": 3.2553589895956137e-07,
+      "max_abs": 3.2553589895956137e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/reject/learnedTrue/C16/grad/initial_keys",
+      "rms_relative": 1.6313291348611275e-07,
+      "normalized_max": 1.7911969085737667e-07,
+      "max_abs": 1.7911969085737667e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/reject/learnedTrue/C16/grad/initial_coefficients",
+      "rms_relative": 2.175098775900108e-07,
+      "normalized_max": 2.3285837820145157e-07,
+      "max_abs": 3.776855315162919e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/reject/learnedTrue/C16/grad/scores",
+      "rms_relative": 4.2138075853764133e-07,
+      "normalized_max": 1.2454450210030998e-07,
+      "max_abs": 1.2454450210030998e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/replace/learnedTrue/C16/output",
+      "rms_relative": 2.705252520862974e-07,
+      "normalized_max": 3.77167442255403e-07,
+      "max_abs": 4.888578279960143e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/replace/learnedTrue/C16/keys",
+      "rms_relative": 4.74302767970467e-08,
+      "normalized_max": 5.710099382216782e-08,
+      "max_abs": 5.710099382216782e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/replace/learnedTrue/C16/state",
+      "rms_relative": 1.779228455649154e-07,
+      "normalized_max": 1.8331607187287237e-07,
+      "max_abs": 8.313693171668746e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/replace/learnedTrue/C16/grad/q",
+      "rms_relative": 2.671685069361933e-07,
+      "normalized_max": 3.022216791270793e-07,
+      "max_abs": 3.022216791270793e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/replace/learnedTrue/C16/grad/k",
+      "rms_relative": 2.6870227345889217e-07,
+      "normalized_max": 2.640139902404664e-07,
+      "max_abs": 3.0404779005621663e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/replace/learnedTrue/C16/grad/v",
+      "rms_relative": 1.756535157369717e-07,
+      "normalized_max": 1.5716708385642268e-07,
+      "max_abs": 7.574462617121469e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/replace/learnedTrue/C16/grad/g",
+      "rms_relative": 3.94515029117848e-07,
+      "normalized_max": 6.06462954328648e-07,
+      "max_abs": 4.922422252917613e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/replace/learnedTrue/C16/grad/beta",
+      "rms_relative": 1.6567930651715232e-07,
+      "normalized_max": 9.386776923742082e-08,
+      "max_abs": 2.7421654635872983e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/replace/learnedTrue/C16/grad/initial_keys",
+      "rms_relative": 2.037608219816987e-07,
+      "normalized_max": 1.8502383368479425e-08,
+      "max_abs": 1.8502383368479425e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/replace/learnedTrue/C16/grad/initial_coefficients",
+      "rms_relative": 4.3138079055249984e-07,
+      "normalized_max": 2.836827308616563e-07,
+      "max_abs": 2.836827308616563e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/replace/learnedTrue/C16/grad/scores",
+      "rms_relative": 6.299727501353425e-07,
+      "normalized_max": 3.056895480698659e-07,
+      "max_abs": 3.056895480698659e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.float32/random/learnedTrue/C32/output",
+      "rms_relative": 2.9132976019649495e-07,
+      "normalized_max": 2.752291261565176e-07,
+      "max_abs": 2.752291261565176e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.float32/random/learnedTrue/C32/keys",
+      "rms_relative": 5.503283368903262e-08,
+      "normalized_max": 5.01692529186748e-08,
+      "max_abs": 5.01692529186748e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.float32/random/learnedTrue/C32/state",
+      "rms_relative": 2.737797107430364e-07,
+      "normalized_max": 2.5927181546716264e-07,
+      "max_abs": 1.067857517966786e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.float32/random/learnedTrue/C32/grad/q",
+      "rms_relative": 2.8822514743165546e-07,
+      "normalized_max": 1.3970123163842274e-07,
+      "max_abs": 1.3970123163842274e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.float32/random/learnedTrue/C32/grad/k",
+      "rms_relative": 4.2514675165310596e-07,
+      "normalized_max": 3.2864992349779243e-07,
+      "max_abs": 3.2864992349779243e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.float32/random/learnedTrue/C32/grad/v",
+      "rms_relative": 2.7117160243599803e-07,
+      "normalized_max": 2.1743692250706844e-07,
+      "max_abs": 7.61193749365674e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.float32/random/learnedTrue/C32/grad/g",
+      "rms_relative": 3.6177520999843933e-07,
+      "normalized_max": 3.867007238367097e-07,
+      "max_abs": 4.531186024614442e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.float32/random/learnedTrue/C32/grad/beta",
+      "rms_relative": 3.10068326365369e-07,
+      "normalized_max": 3.3049116186268794e-07,
+      "max_abs": 6.79629990685271e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.float32/random/learnedTrue/C32/grad/initial_keys",
+      "rms_relative": 3.8982076461744324e-07,
+      "normalized_max": 3.3059305509786086e-07,
+      "max_abs": 3.3059305509786086e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.float32/random/learnedTrue/C32/grad/initial_coefficients",
+      "rms_relative": 3.9511831074788437e-07,
+      "normalized_max": 5.660683664586682e-07,
+      "max_abs": 6.279927741159597e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.float32/random/learnedTrue/C32/grad/scores",
+      "rms_relative": 3.193370954297478e-07,
+      "normalized_max": 2.4234747901710573e-07,
+      "max_abs": 1.1442107703540927e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.float32/near/learnedTrue/C16/output",
+      "rms_relative": 4.049408122845253e-05,
+      "normalized_max": 2.3029035385743746e-05,
+      "max_abs": 2.3029035385743746e-05,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.float32/near/learnedTrue/C16/keys",
+      "rms_relative": 5.971301953520091e-08,
+      "normalized_max": 4.463822317335442e-08,
+      "max_abs": 4.463822317335442e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.float32/near/learnedTrue/C16/state",
+      "rms_relative": 0.0012621371252319131,
+      "normalized_max": 0.0005055484858727675,
+      "max_abs": 0.001467736071621803,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.float32/near/learnedTrue/C16/grad/q",
+      "rms_relative": 4.685340886335831e-05,
+      "normalized_max": 1.2242043146044879e-05,
+      "max_abs": 1.2242043146044879e-05,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.float32/near/learnedTrue/C16/grad/k",
+      "rms_relative": 0.001958680703313282,
+      "normalized_max": 0.0016952966264602598,
+      "max_abs": 0.06509468359358372,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.float32/near/learnedTrue/C16/grad/v",
+      "rms_relative": 0.001284473929384046,
+      "normalized_max": 0.0012260096115643284,
+      "max_abs": 0.0028972849663020384,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.float32/near/learnedTrue/C16/grad/g",
+      "rms_relative": 0.0010828915309530316,
+      "normalized_max": 0.0006630794255059375,
+      "max_abs": 0.011171199205083582,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.float32/near/learnedTrue/C16/grad/beta",
+      "rms_relative": 0.0009411672414980603,
+      "normalized_max": 0.000444294322924872,
+      "max_abs": 0.01690327654138457,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.float32/near/learnedTrue/C16/grad/initial_keys",
+      "rms_relative": 0.0029827056564033457,
+      "normalized_max": 0.0031328094937188777,
+      "max_abs": 0.060252836151612144,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.float32/near/learnedTrue/C16/grad/initial_coefficients",
+      "rms_relative": 0.00031304318110244824,
+      "normalized_max": 0.00011320191622985268,
+      "max_abs": 0.00011320191622985268,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.float32/near/learnedTrue/C16/grad/scores",
+      "rms_relative": 0.002105393266477062,
+      "normalized_max": 0.0016372315953900444,
+      "max_abs": 0.005248583615139454,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.bfloat16/random/learnedTrue/C32/output",
+      "rms_relative": 0.0016568154161610224,
+      "normalized_max": 0.001915581709625469,
+      "max_abs": 0.001915581709625469,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.bfloat16/random/learnedTrue/C32/keys",
+      "rms_relative": 5.82679414605037e-08,
+      "normalized_max": 5.677517644908647e-08,
+      "max_abs": 5.677517644908647e-08,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.bfloat16/random/learnedTrue/C32/state",
+      "rms_relative": 2.682257719353052e-07,
+      "normalized_max": 2.344051423129997e-07,
+      "max_abs": 9.677289640741549e-07,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.bfloat16/random/learnedTrue/C32/grad/q",
+      "rms_relative": 0.0023306394373600985,
+      "normalized_max": 0.0010345767217577184,
+      "max_abs": 0.0010345767217577184,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.bfloat16/random/learnedTrue/C32/grad/k",
+      "rms_relative": 0.0018516391985477442,
+      "normalized_max": 0.0019901755281266365,
+      "max_abs": 0.0019901755281266365,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.bfloat16/random/learnedTrue/C32/grad/v",
+      "rms_relative": 0.0018811645186140003,
+      "normalized_max": 0.002202949331157504,
+      "max_abs": 0.007711054860904731,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.bfloat16/random/learnedTrue/C32/grad/g",
+      "rms_relative": 0.0008468510710798401,
+      "normalized_max": 0.0008974549041723033,
+      "max_abs": 0.010525953077831218,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.bfloat16/random/learnedTrue/C32/grad/beta",
+      "rms_relative": 0.0009221581070729364,
+      "normalized_max": 0.0007779951606198499,
+      "max_abs": 0.016015178392780882,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.bfloat16/random/learnedTrue/C32/grad/initial_keys",
+      "rms_relative": 0.0016281640111139222,
+      "normalized_max": 0.0009790418800926237,
+      "max_abs": 0.0009790418800926237,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.bfloat16/random/learnedTrue/C32/grad/initial_coefficients",
+      "rms_relative": 0.0014746853679422469,
+      "normalized_max": 0.0018179609605265303,
+      "max_abs": 0.002016508951932394,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s12/B2T33H2M32K64V64/torch.bfloat16/random/learnedTrue/C32/grad/scores",
+      "rms_relative": 0.0010928090811450082,
+      "normalized_max": 0.000954344893634287,
+      "max_abs": 0.00451037045293301,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.bfloat16/near/learnedTrue/C16/output",
+      "rms_relative": 0.0017330022897009756,
+      "normalized_max": 0.0014766403378877468,
+      "max_abs": 0.0014766403378877468,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.bfloat16/near/learnedTrue/C16/keys",
+      "rms_relative": 6.255649332532351e-08,
+      "normalized_max": 4.360073813103327e-08,
+      "max_abs": 4.360073813103327e-08,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.bfloat16/near/learnedTrue/C16/state",
+      "rms_relative": 0.0011629502131742249,
+      "normalized_max": 0.0004170106554056888,
+      "max_abs": 0.0012126775103010468,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.bfloat16/near/learnedTrue/C16/grad/q",
+      "rms_relative": 0.0023760985602929,
+      "normalized_max": 0.00046584193270488017,
+      "max_abs": 0.00046584193270488017,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.bfloat16/near/learnedTrue/C16/grad/k",
+      "rms_relative": 0.002478452555575286,
+      "normalized_max": 0.0022573342379146317,
+      "max_abs": 0.08972404755900243,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.bfloat16/near/learnedTrue/C16/grad/v",
+      "rms_relative": 0.002065093421121583,
+      "normalized_max": 0.0015460271583992652,
+      "max_abs": 0.0036427211101504042,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.bfloat16/near/learnedTrue/C16/grad/g",
+      "rms_relative": 0.001119160911689889,
+      "normalized_max": 0.0005060066998297349,
+      "max_abs": 0.008532741081640927,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.bfloat16/near/learnedTrue/C16/grad/beta",
+      "rms_relative": 0.0007433129396917251,
+      "normalized_max": 0.0003807852855653383,
+      "max_abs": 0.014551652722926356,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.bfloat16/near/learnedTrue/C16/grad/initial_keys",
+      "rms_relative": 0.0029074747230335165,
+      "normalized_max": 0.0036228289719520287,
+      "max_abs": 0.07183162693704048,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.bfloat16/near/learnedTrue/C16/grad/initial_coefficients",
+      "rms_relative": 0.001416882551579305,
+      "normalized_max": 0.00042615025200637424,
+      "max_abs": 0.00042615025200637424,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s13/B1T65H1M32K64V64/torch.bfloat16/near/learnedTrue/C16/grad/scores",
+      "rms_relative": 0.0016411869756464232,
+      "normalized_max": 0.0009496225015451499,
+      "max_abs": 0.003053484517508559,
+      "rms_tolerance": 0.025,
+      "max_tolerance": 0.03
+    },
+    {
+      "name": "s14/B1T1H1M7K9V11/torch.float32/random/learnedTrue/C16/output",
+      "rms_relative": 2.3920247960631663e-07,
+      "normalized_max": 2.1240013567402904e-08,
+      "max_abs": 2.1240013567402904e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s14/B1T1H1M7K9V11/torch.float32/random/learnedTrue/C16/keys",
+      "rms_relative": 5.993902925859652e-08,
+      "normalized_max": 8.188103306494554e-08,
+      "max_abs": 8.188103306494554e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s14/B1T1H1M7K9V11/torch.float32/random/learnedTrue/C16/state",
+      "rms_relative": 1.5314398700992478e-07,
+      "normalized_max": 1.281809747788465e-07,
+      "max_abs": 1.281809747788465e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s14/B1T1H1M7K9V11/torch.float32/random/learnedTrue/C16/grad/q",
+      "rms_relative": 2.117897908801213e-07,
+      "normalized_max": 1.0592388071262865e-08,
+      "max_abs": 1.0592388071262865e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s14/B1T1H1M7K9V11/torch.float32/random/learnedTrue/C16/grad/k",
+      "rms_relative": 1.3334360789851641e-07,
+      "normalized_max": 3.730762951348332e-08,
+      "max_abs": 3.730762951348332e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s14/B1T1H1M7K9V11/torch.float32/random/learnedTrue/C16/grad/v",
+      "rms_relative": 2.7121887830339463e-08,
+      "normalized_max": 1.7838571370054623e-08,
+      "max_abs": 1.7838571370054623e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s14/B1T1H1M7K9V11/torch.float32/random/learnedTrue/C16/grad/g",
+      "rms_relative": 3.5127044216090604e-07,
+      "normalized_max": 2.0650205612149364e-07,
+      "max_abs": 2.0650205612149364e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s14/B1T1H1M7K9V11/torch.float32/random/learnedTrue/C16/grad/beta",
+      "rms_relative": 7.659688131738782e-08,
+      "normalized_max": 5.7369530903628174e-08,
+      "max_abs": 5.7369530903628174e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s14/B1T1H1M7K9V11/torch.float32/random/learnedTrue/C16/grad/initial_keys",
+      "rms_relative": 9.536480421476986e-08,
+      "normalized_max": 1.2516656744399057e-07,
+      "max_abs": 1.2516656744399057e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s14/B1T1H1M7K9V11/torch.float32/random/learnedTrue/C16/grad/initial_coefficients",
+      "rms_relative": 1.5155310662476014e-07,
+      "normalized_max": 2.0195428969694122e-07,
+      "max_abs": 4.421040539215326e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s14/B1T1H1M7K9V11/torch.float32/random/learnedTrue/C16/grad/scores",
+      "rms_relative": 1.6650654723263008e-07,
+      "normalized_max": 5.042818922856851e-09,
+      "max_abs": 5.042818922856851e-09,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s15/B1T31H1M64K128V128/torch.float32/random/learnedTrue/C32/output",
+      "rms_relative": 2.946233901504886e-07,
+      "normalized_max": 2.7495885623896044e-07,
+      "max_abs": 2.7495885623896044e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s15/B1T31H1M64K128V128/torch.float32/random/learnedTrue/C32/keys",
+      "rms_relative": 5.345749247218199e-08,
+      "normalized_max": 4.0181526023141956e-08,
+      "max_abs": 4.0181526023141956e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s15/B1T31H1M64K128V128/torch.float32/random/learnedTrue/C32/state",
+      "rms_relative": 2.440578578076653e-07,
+      "normalized_max": 2.124898545653408e-07,
+      "max_abs": 5.601085415474216e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s15/B1T31H1M64K128V128/torch.float32/random/learnedTrue/C32/grad/q",
+      "rms_relative": 3.297359555354867e-07,
+      "normalized_max": 8.651526345326843e-08,
+      "max_abs": 8.651526345326843e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s15/B1T31H1M64K128V128/torch.float32/random/learnedTrue/C32/grad/k",
+      "rms_relative": 7.660811208975416e-07,
+      "normalized_max": 6.522463475988616e-07,
+      "max_abs": 6.522463475988616e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s15/B1T31H1M64K128V128/torch.float32/random/learnedTrue/C32/grad/v",
+      "rms_relative": 2.9744874002945974e-07,
+      "normalized_max": 3.467903896245485e-07,
+      "max_abs": 8.864678440190232e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s15/B1T31H1M64K128V128/torch.float32/random/learnedTrue/C32/grad/g",
+      "rms_relative": 2.4948319842181716e-07,
+      "normalized_max": 2.3341536588237701e-07,
+      "max_abs": 3.8542597033952575e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s15/B1T31H1M64K128V128/torch.float32/random/learnedTrue/C32/grad/beta",
+      "rms_relative": 2.6987589740797487e-07,
+      "normalized_max": 2.0805536258414818e-07,
+      "max_abs": 5.686501653556775e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s15/B1T31H1M64K128V128/torch.float32/random/learnedTrue/C32/grad/initial_keys",
+      "rms_relative": 5.840646939201769e-07,
+      "normalized_max": 2.8232038018494165e-07,
+      "max_abs": 2.8232038018494165e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s15/B1T31H1M64K128V128/torch.float32/random/learnedTrue/C32/grad/initial_coefficients",
+      "rms_relative": 4.272320524789552e-07,
+      "normalized_max": 4.639451796287277e-07,
+      "max_abs": 5.893510707233318e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s15/B1T31H1M64K128V128/torch.float32/random/learnedTrue/C32/grad/scores",
+      "rms_relative": 4.1581467920967e-07,
+      "normalized_max": 3.8345632417553665e-07,
+      "max_abs": 2.01579152836473e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s16/B1T129H2M8K32V32/torch.float32/random/learnedTrue/C16/output",
+      "rms_relative": 2.8067027710322217e-07,
+      "normalized_max": 3.67799875000685e-07,
+      "max_abs": 3.67799875000685e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s16/B1T129H2M8K32V32/torch.float32/random/learnedTrue/C16/keys",
+      "rms_relative": 4.71264132842303e-08,
+      "normalized_max": 3.890833932818083e-08,
+      "max_abs": 3.890833932818083e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s16/B1T129H2M8K32V32/torch.float32/random/learnedTrue/C16/state",
+      "rms_relative": 3.350989216653955e-07,
+      "normalized_max": 2.764446508247092e-07,
+      "max_abs": 4.989075366168549e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s17/B1T19H2M8K16V17/torch.float32/random/learnedTrue/C16/output",
+      "rms_relative": 2.712001612888193e-07,
+      "normalized_max": 2.403502736975094e-07,
+      "max_abs": 2.403502736975094e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s17/B1T19H2M8K16V17/torch.float32/random/learnedTrue/C16/keys",
+      "rms_relative": 7.41679676121012e-08,
+      "normalized_max": 1.0243753756356e-07,
+      "max_abs": 1.0243753756356e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s17/B1T19H2M8K16V17/torch.float32/random/learnedTrue/C16/state",
+      "rms_relative": 3.8332491963367776e-07,
+      "normalized_max": 7.053437398981121e-07,
+      "max_abs": 8.1886735459058e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s17/B1T19H2M8K16V17/torch.float32/random/learnedTrue/C16/grad/q",
+      "rms_relative": 2.969446416517382e-07,
+      "normalized_max": 1.791068894724246e-07,
+      "max_abs": 1.791068894724246e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s17/B1T19H2M8K16V17/torch.float32/random/learnedTrue/C16/grad/k",
+      "rms_relative": 3.5004847430313923e-07,
+      "normalized_max": 3.3963501086548397e-07,
+      "max_abs": 3.715472868259795e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s17/B1T19H2M8K16V17/torch.float32/random/learnedTrue/C16/grad/v",
+      "rms_relative": 3.274126109437298e-07,
+      "normalized_max": 3.4385856879959656e-07,
+      "max_abs": 5.1641921228196e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s17/B1T19H2M8K16V17/torch.float32/random/learnedTrue/C16/grad/g",
+      "rms_relative": 3.380078490235273e-07,
+      "normalized_max": 3.8643304309803456e-07,
+      "max_abs": 2.3449882444737113e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s17/B1T19H2M8K16V17/torch.float32/random/learnedTrue/C16/grad/beta",
+      "rms_relative": 3.0475700017776496e-07,
+      "normalized_max": 2.080318006001041e-07,
+      "max_abs": 1.5364251414462515e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s17/B1T19H2M8K16V17/torch.float32/random/learnedTrue/C16/grad/initial_keys",
+      "rms_relative": 3.3330352514658856e-07,
+      "normalized_max": 3.292177951746067e-07,
+      "max_abs": 4.3930814364046e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s17/B1T19H2M8K16V17/torch.float32/random/learnedTrue/C16/grad/initial_coefficients",
+      "rms_relative": 4.1750237596213616e-07,
+      "normalized_max": 5.323193986040527e-07,
+      "max_abs": 6.161194193166075e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s17/B1T19H2M8K16V17/torch.float32/random/learnedTrue/C16/grad/scores",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.0,
+      "max_tolerance": 0.0
+    },
+    {
+      "name": "extra/False/chunk/output",
+      "rms_relative": 1.3893969280283653e-07,
+      "normalized_max": 1.341104507446289e-07,
+      "max_abs": 1.341104507446289e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "extra/False/chunk/state",
+      "rms_relative": 1.361947633880015e-07,
+      "normalized_max": 1.5626636289126813e-07,
+      "max_abs": 3.8743019104003906e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "extra/False/stream/output",
+      "rms_relative": 1.4945459131112868e-07,
+      "normalized_max": 1.4901161193847656e-07,
+      "max_abs": 1.4901161193847656e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "extra/False/stream/state",
+      "rms_relative": 1.901596847861725e-07,
+      "normalized_max": 1.863175865242043e-07,
+      "max_abs": 4.6193599700927734e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "extra/False/stream/keys",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "extra/False/causality",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.0,
+      "max_tolerance": 0.0
+    },
+    {
+      "name": "extra/True/chunk/output",
+      "rms_relative": 1.3893969280283653e-07,
+      "normalized_max": 1.341104507446289e-07,
+      "max_abs": 1.341104507446289e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "extra/True/chunk/state",
+      "rms_relative": 1.361947633880015e-07,
+      "normalized_max": 1.5626636289126813e-07,
+      "max_abs": 3.8743019104003906e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "extra/True/stream/output",
+      "rms_relative": 1.4945459131112868e-07,
+      "normalized_max": 1.4901161193847656e-07,
+      "max_abs": 1.4901161193847656e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "extra/True/stream/state",
+      "rms_relative": 1.901596847861725e-07,
+      "normalized_max": 1.863175865242043e-07,
+      "max_abs": 4.6193599700927734e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "extra/True/stream/keys",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "extra/True/causality",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.0,
+      "max_tolerance": 0.0
+    }
+  ],
+  "check_count": 293
+}

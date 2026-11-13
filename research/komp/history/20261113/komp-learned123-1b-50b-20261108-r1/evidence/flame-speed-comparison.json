@@ -1,0 +1,62 @@
+{
+  "captured_utc": "2026-11-08T16:22:29.525263+00:00",
+  "references": [
+    {
+      "path": "/gpfs/users/linlizhi/flame/exp/gated_deltanet_1B_edu/logs/none_78x8dtx6/attempt_0/0/stderr.log",
+      "configuration_lines": [
+        "    \"batch_size\": 16,",
+        "    \"gradient_accumulation_steps\": 2,",
+        "    \"seq_len\": 2048,",
+        "[titan] 2025-08-21 06:20:47,803 - root - INFO - Building 1-D device mesh with ['dp_shard'], [32]",
+        "[titan] 2025-08-21 06:32:55,564 - root - INFO - Compiling each block with torch.compile"
+      ],
+      "activation_config_context": "\"activation_checkpoint\": {\n    \"mode\": \"none\",\n    \"selective_ac_option\": \"2\"\n  },\n  \"activation_offload\": {\n    \"mode\": \"none\"\n  },\n  \"checkpoint\": {\n    \"async_mode\": \"disabled\",\n    \"create_seed_checkpoint\": false,\n    \"enable_checkpoint\": true,\n    \"exclude_from_loading\": [],\n    \"export_dtype\": \"float32\",\n    \"folder\": \"checkpoint\",\n    \"interval\": 4096,\n    \"interval_type\": \"steps\",\n    \"kee",
+      "metric_lines": [
+        "[titan] 2025-08-23 00:04:01,126 - root - INFO - step: 99991  loss:  2.0666  memory: 60.68GiB(76.71%)  tps: 44,418  tflops: 417.48  mfu: 42.21%",
+        "[titan] 2025-08-23 00:04:02,605 - root - INFO - step: 99992  loss:  2.0673  memory: 60.68GiB(76.71%)  tps: 44,347  tflops: 416.82  mfu: 42.15%",
+        "[titan] 2025-08-23 00:04:04,084 - root - INFO - step: 99993  loss:  2.0619  memory: 60.68GiB(76.71%)  tps: 44,331  tflops: 416.66  mfu: 42.13%",
+        "[titan] 2025-08-23 00:04:05,570 - root - INFO - step: 99994  loss:  2.0524  memory: 60.68GiB(76.71%)  tps: 44,117  tflops: 414.65  mfu: 41.93%",
+        "[titan] 2025-08-23 00:04:07,053 - root - INFO - step: 99995  loss:  2.0314  memory: 60.68GiB(76.71%)  tps: 44,198  tflops: 415.41  mfu: 42.00%",
+        "[titan] 2025-08-23 00:04:08,534 - root - INFO - step: 99996  loss:  2.0379  memory: 60.68GiB(76.71%)  tps: 44,275  tflops: 416.14  mfu: 42.08%",
+        "[titan] 2025-08-23 00:04:10,018 - root - INFO - step: 99997  loss:  2.0717  memory: 60.68GiB(76.71%)  tps: 44,173  tflops: 415.17  mfu: 41.98%",
+        "[titan] 2025-08-23 00:04:11,497 - root - INFO - step: 99998  loss:  2.0823  memory: 60.68GiB(76.71%)  tps: 44,325  tflops: 416.60  mfu: 42.12%",
+        "[titan] 2025-08-23 00:04:12,980 - root - INFO - step: 99999  loss:  2.0105  memory: 60.68GiB(76.71%)  tps: 44,232  tflops: 415.73  mfu: 42.04%",
+        "[titan] 2025-08-23 00:04:14,539 - root - INFO - step: 100000  loss:  2.0396  memory: 60.68GiB(76.71%)  tps: 43,016  tflops: 404.30  mfu: 40.88%"
+      ],
+      "mean_per_rank_tps": 44143.2,
+      "equivalent_50b_hours_on32": 9.832268113271756
+    },
+    {
+      "path": "/gpfs/users/linlizhi/flame/exp/gated_deltanet_1B_reread_100B_tokens_v8/logs/none__vat2viw/attempt_0/0/stderr.log",
+      "configuration_lines": [
+        "    \"batch_size\": 16,",
+        "    \"gradient_accumulation_steps\": 1,",
+        "    \"seq_len\": 2048,",
+        "[titan] 2025-08-13 05:11:54,982 - root - INFO - Building 1-D device mesh with ['dp_shard'], [32]",
+        "[titan] 2025-08-13 05:21:53,887 - root - INFO - Compiling each block with torch.compile"
+      ],
+      "activation_config_context": "\"activation_checkpoint\": {\n    \"mode\": \"none\",\n    \"selective_ac_option\": \"2\"\n  },\n  \"activation_offload\": {\n    \"mode\": \"none\"\n  },\n  \"checkpoint\": {\n    \"async_mode\": \"disabled\",\n    \"create_seed_checkpoint\": false,\n    \"enable_checkpoint\": true,\n    \"exclude_from_loading\": [],\n    \"export_dtype\": \"float32\",\n    \"folder\": \"checkpoint\",\n    \"interval\": 4096,\n    \"interval_type\": \"steps\",\n    \"kee",
+      "metric_lines": [
+        "[titan] 2025-08-14 02:52:16,694 - root - INFO - step: 101991  loss:  2.3551  memory: 60.63GiB(76.65%)  tps: 44,142  tflops: 414.88  mfu: 41.95%",
+        "[titan] 2025-08-14 02:52:17,437 - root - INFO - step: 101992  loss:  2.3305  memory: 60.63GiB(76.65%)  tps: 44,081  tflops: 414.31  mfu: 41.89%",
+        "[titan] 2025-08-14 02:52:18,185 - root - INFO - step: 101993  loss:  2.3310  memory: 60.63GiB(76.65%)  tps: 43,876  tflops: 412.39  mfu: 41.70%",
+        "[titan] 2025-08-14 02:52:18,943 - root - INFO - step: 101994  loss:  2.3617  memory: 60.63GiB(76.65%)  tps: 43,195  tflops: 405.98  mfu: 41.05%",
+        "[titan] 2025-08-14 02:52:19,690 - root - INFO - step: 101995  loss:  2.2793  memory: 60.63GiB(76.65%)  tps: 43,913  tflops: 412.74  mfu: 41.73%",
+        "[titan] 2025-08-14 02:52:20,430 - root - INFO - step: 101996  loss:  2.3265  memory: 60.63GiB(76.65%)  tps: 44,291  tflops: 416.28  mfu: 42.09%",
+        "[titan] 2025-08-14 02:52:21,171 - root - INFO - step: 101997  loss:  2.4103  memory: 60.63GiB(76.65%)  tps: 44,269  tflops: 416.08  mfu: 42.07%",
+        "[titan] 2025-08-14 02:52:21,912 - root - INFO - step: 101998  loss:  2.3440  memory: 60.63GiB(76.65%)  tps: 44,187  tflops: 415.31  mfu: 41.99%",
+        "[titan] 2025-08-14 02:52:22,661 - root - INFO - step: 101999  loss:  2.3269  memory: 60.63GiB(76.65%)  tps: 43,806  tflops: 411.73  mfu: 41.63%",
+        "[titan] 2025-08-14 02:52:23,424 - root - INFO - step: 102000  loss:  2.3392  memory: 60.63GiB(76.65%)  tps: 42,963  tflops: 403.80  mfu: 40.83%"
+      ],
+      "mean_per_rank_tps": 43872.3,
+      "equivalent_50b_hours_on32": 9.892979802239175
+    }
+  ],
+  "current": {
+    "last_step": 962,
+    "mean_seconds100": 2.96938550837338,
+    "global_tps": 353128.95447327977,
+    "per_rank_tps": 11035.279827289993,
+    "total_50b_compute_hours": 39.33092631728623
+  }
+}

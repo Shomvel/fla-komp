@@ -1,0 +1,63 @@
+{
+  "lr": 0.001,
+  "wd": 0.0,
+  "val_ce": 0.7961101424993131,
+  "run": "lano-komp-tune-lr0.001-wd0-seed731",
+  "criterion": "minimum final validation CE at 10M tokens",
+  "candidates": [
+    {
+      "lr": 0.00025,
+      "wd": 0.0,
+      "val_ce": 0.8099919354247671,
+      "run": "lano-komp-tune-lr0.00025-wd0-seed731"
+    },
+    {
+      "lr": 0.00025,
+      "wd": 0.01,
+      "val_ce": 0.8081838848455204,
+      "run": "lano-komp-tune-lr0.00025-wd0.01-seed731"
+    },
+    {
+      "lr": 0.00025,
+      "wd": 0.1,
+      "val_ce": 0.8077991758124466,
+      "run": "lano-komp-tune-lr0.00025-wd0.1-seed731"
+    },
+    {
+      "lr": 0.0005,
+      "wd": 0.0,
+      "val_ce": 0.8007181900420391,
+      "run": "lano-komp-tune-lr0.0005-wd0-seed731"
+    },
+    {
+      "lr": 0.0005,
+      "wd": 0.01,
+      "val_ce": 0.8004106602612622,
+      "run": "lano-komp-tune-lr0.0005-wd0.01-seed731"
+    },
+    {
+      "lr": 0.0005,
+      "wd": 0.1,
+      "val_ce": 0.8008447778891423,
+      "run": "lano-komp-tune-lr0.0005-wd0.1-seed731"
+    },
+    {
+      "lr": 0.001,
+      "wd": 0.0,
+      "val_ce": 0.7961101424993131,
+      "run": "lano-komp-tune-lr0.001-wd0-seed731"
+    },
+    {
+      "lr": 0.001,
+      "wd": 0.01,
+      "val_ce": 0.7981257428960089,
+      "run": "lano-komp-tune-lr0.001-wd0.01-seed731"
+    },
+    {
+      "lr": 0.001,
+      "wd": 0.1,
+      "val_ce": 0.7988506623527782,
+      "run": "lano-komp-tune-lr0.001-wd0.1-seed731"
+    }
+  ]
+}

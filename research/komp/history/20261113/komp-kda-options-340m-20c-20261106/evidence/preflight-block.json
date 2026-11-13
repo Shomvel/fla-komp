@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "kind": "block",
+  "source_sha": "c3d706d01cdb0560ffcbba07747bfcc17d00db18a80c8f9bc73e6de6074f2c46",
+  "data_sha": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f",
+  "batching_sha": "1db5c1ce5cee0fc4f389b3c0a897c767767a6eefc40e65a74209ea7bffd38f1b",
+  "parameters": 307723136,
+  "initial_model_sha": "a49d5e20907afa426ff7df274510a6145853f6dd643a4a231502450016d5e19f",
+  "shared_backbone_initial_sha": "7e27442d37035cfefb7b7083036162f33ba61b0acf32279d889d31bc77814611",
+  "cases": [
+    {
+      "case": "full",
+      "loss": 10.576387405395508,
+      "global_valid_tokens": 524288,
+      "grad_norm": 16.876192092895508,
+      "seconds": 41.100751262158155,
+      "peak_bytes": 32385718784,
+      "replicas_identical": true
+    },
+    {
+      "case": "final_tail",
+      "loss": 9.627419607979911,
+      "global_valid_tokens": 508928,
+      "grad_norm": 20.754404067993164,
+      "seconds": 6.83006957732141,
+      "peak_bytes": 34849908736,
+      "replicas_identical": true
+    }
+  ],
+  "causal_absolute": 0.0,
+  "aligned_full_tail_ce": true,
+  "all_gradients_parameters_finite": true,
+  "full_model_adam_rng_loader_restore": true,
+  "replicas_identical": true,
+  "trial_tokens_counted": 0,
+  "formal_start": "Fresh seed42 model and original data cursor, not trial checkpoint"
+}

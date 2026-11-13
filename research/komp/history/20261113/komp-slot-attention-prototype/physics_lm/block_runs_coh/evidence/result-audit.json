@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "formal_runs": 56,
+  "arms": 8,
+  "seeds_per_arm": 7,
+  "diagnostics": 8,
+  "generations": 14336,
+  "preflight_variants": 12,
+  "frozen_files_verified": 33,
+  "prior_artifacts_unchanged": true,
+  "no_checkpoints": true
+}

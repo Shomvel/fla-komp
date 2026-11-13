@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "overlay_sha256": "63d1e788d0a7fddda2eafcc0d3e6f99fcd0cc2e49af0b0eff227013398e2e7cb",
+  "python_ast": "passed",
+  "package_closure": "passed"
+}

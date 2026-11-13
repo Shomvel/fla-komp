@@ -1,0 +1,307 @@
+{
+  "selection": "final validation CE at equal 10M training budget; provisional at 100M",
+  "tasks": {
+    "depo2": {
+      "candidates": [
+        {
+          "candidate": "baseline",
+          "status": "completed",
+          "ce": 1.0974387698813137,
+          "tokens": 10001214,
+          "seconds": 832.1296656243503,
+          "delta_ce_vs_baseline": 0.0
+        },
+        {
+          "candidate": "alpha0-0.995",
+          "status": "completed",
+          "ce": 1.0889589048498938,
+          "tokens": 10001214,
+          "seconds": 197.39370715990663,
+          "delta_ce_vs_baseline": -0.008479865031419953
+        },
+        {
+          "candidate": "alpha0-0.999",
+          "status": "completed",
+          "ce": 1.0930315925323437,
+          "tokens": 10001214,
+          "seconds": 194.81679210439324,
+          "delta_ce_vs_baseline": -0.004407177348970004
+        },
+        {
+          "candidate": "beta0-0.1",
+          "status": "completed",
+          "ce": 1.0937081176733632,
+          "tokens": 10001214,
+          "seconds": 197.80619798973203,
+          "delta_ce_vs_baseline": -0.0037306522079505466
+        },
+        {
+          "candidate": "beta0-0.4",
+          "status": "completed",
+          "ce": 1.0980826072164498,
+          "tokens": 10001214,
+          "seconds": 196.4814608693123,
+          "delta_ce_vs_baseline": 0.000643837335136066
+        },
+        {
+          "candidate": "temperature-0.25",
+          "status": "completed",
+          "ce": 1.0989994779902392,
+          "tokens": 10001214,
+          "seconds": 686.8662498407066,
+          "delta_ce_vs_baseline": 0.0015607081089255015
+        },
+        {
+          "candidate": "temperature-1",
+          "status": "completed",
+          "ce": 1.0983395769240545,
+          "tokens": 10001214,
+          "seconds": 680.565873298794,
+          "delta_ce_vs_baseline": 0.0009008070427407588
+        },
+        {
+          "candidate": "ridge-1e-05",
+          "status": "completed",
+          "ce": 1.0982495661813758,
+          "tokens": 10001214,
+          "seconds": 702.9722116291523,
+          "delta_ce_vs_baseline": 0.0008107963000620888
+        },
+        {
+          "candidate": "ridge-0.001",
+          "status": "completed",
+          "ce": 1.096623562210857,
+          "tokens": 10001214,
+          "seconds": 630.4160223305225,
+          "delta_ce_vs_baseline": -0.0008152076704566191
+        }
+      ],
+      "ranking": [
+        {
+          "candidate": "alpha0-0.995",
+          "status": "completed",
+          "ce": 1.0889589048498938,
+          "tokens": 10001214,
+          "seconds": 197.39370715990663,
+          "delta_ce_vs_baseline": -0.008479865031419953
+        },
+        {
+          "candidate": "alpha0-0.999",
+          "status": "completed",
+          "ce": 1.0930315925323437,
+          "tokens": 10001214,
+          "seconds": 194.81679210439324,
+          "delta_ce_vs_baseline": -0.004407177348970004
+        },
+        {
+          "candidate": "beta0-0.1",
+          "status": "completed",
+          "ce": 1.0937081176733632,
+          "tokens": 10001214,
+          "seconds": 197.80619798973203,
+          "delta_ce_vs_baseline": -0.0037306522079505466
+        },
+        {
+          "candidate": "ridge-0.001",
+          "status": "completed",
+          "ce": 1.096623562210857,
+          "tokens": 10001214,
+          "seconds": 630.4160223305225,
+          "delta_ce_vs_baseline": -0.0008152076704566191
+        },
+        {
+          "candidate": "baseline",
+          "status": "completed",
+          "ce": 1.0974387698813137,
+          "tokens": 10001214,
+          "seconds": 832.1296656243503,
+          "delta_ce_vs_baseline": 0.0
+        },
+        {
+          "candidate": "beta0-0.4",
+          "status": "completed",
+          "ce": 1.0980826072164498,
+          "tokens": 10001214,
+          "seconds": 196.4814608693123,
+          "delta_ce_vs_baseline": 0.000643837335136066
+        },
+        {
+          "candidate": "ridge-1e-05",
+          "status": "completed",
+          "ce": 1.0982495661813758,
+          "tokens": 10001214,
+          "seconds": 702.9722116291523,
+          "delta_ce_vs_baseline": 0.0008107963000620888
+        },
+        {
+          "candidate": "temperature-1",
+          "status": "completed",
+          "ce": 1.0983395769240545,
+          "tokens": 10001214,
+          "seconds": 680.565873298794,
+          "delta_ce_vs_baseline": 0.0009008070427407588
+        },
+        {
+          "candidate": "temperature-0.25",
+          "status": "completed",
+          "ce": 1.0989994779902392,
+          "tokens": 10001214,
+          "seconds": 686.8662498407066,
+          "delta_ce_vs_baseline": 0.0015607081089255015
+        }
+      ],
+      "screen_complete": true
+    },
+    "brevo2": {
+      "candidates": [
+        {
+          "candidate": "baseline",
+          "status": "completed",
+          "ce": 1.2809471168498274,
+          "tokens": 10000577,
+          "seconds": 715.3830630462617,
+          "delta_ce_vs_baseline": 0.0
+        },
+        {
+          "candidate": "alpha0-0.995",
+          "status": "completed",
+          "ce": 1.257567770903855,
+          "tokens": 10000577,
+          "seconds": 199.4448059797287,
+          "delta_ce_vs_baseline": -0.023379345945972352
+        },
+        {
+          "candidate": "alpha0-0.999",
+          "status": "completed",
+          "ce": 1.2803412086663701,
+          "tokens": 10000577,
+          "seconds": 199.71550914272666,
+          "delta_ce_vs_baseline": -0.0006059081834572932
+        },
+        {
+          "candidate": "beta0-0.1",
+          "status": "completed",
+          "ce": 1.265581001234444,
+          "tokens": 10000577,
+          "seconds": 199.37822740897536,
+          "delta_ce_vs_baseline": -0.01536611561538348
+        },
+        {
+          "candidate": "beta0-0.4",
+          "status": "completed",
+          "ce": 1.3430157180186515,
+          "tokens": 10000577,
+          "seconds": 197.6310869883746,
+          "delta_ce_vs_baseline": 0.06206860116882407
+        },
+        {
+          "candidate": "temperature-0.25",
+          "status": "completed",
+          "ce": 1.283686830988417,
+          "tokens": 10000577,
+          "seconds": 688.1955788657069,
+          "delta_ce_vs_baseline": 0.002739714138589644
+        },
+        {
+          "candidate": "temperature-1",
+          "status": "completed",
+          "ce": 1.3855421997118649,
+          "tokens": 10000577,
+          "seconds": 683.153453476727,
+          "delta_ce_vs_baseline": 0.10459508286203745
+        },
+        {
+          "candidate": "ridge-1e-05",
+          "status": "completed",
+          "ce": 1.2888819442603598,
+          "tokens": 10000577,
+          "seconds": 682.1604068856686,
+          "delta_ce_vs_baseline": 0.007934827410532419
+        },
+        {
+          "candidate": "ridge-0.001",
+          "status": "completed",
+          "ce": 1.2769464693694754,
+          "tokens": 10000577,
+          "seconds": 738.0912850182503,
+          "delta_ce_vs_baseline": -0.004000647480352004
+        }
+      ],
+      "ranking": [
+        {
+          "candidate": "alpha0-0.995",
+          "status": "completed",
+          "ce": 1.257567770903855,
+          "tokens": 10000577,
+          "seconds": 199.4448059797287,
+          "delta_ce_vs_baseline": -0.023379345945972352
+        },
+        {
+          "candidate": "beta0-0.1",
+          "status": "completed",
+          "ce": 1.265581001234444,
+          "tokens": 10000577,
+          "seconds": 199.37822740897536,
+          "delta_ce_vs_baseline": -0.01536611561538348
+        },
+        {
+          "candidate": "ridge-0.001",
+          "status": "completed",
+          "ce": 1.2769464693694754,
+          "tokens": 10000577,
+          "seconds": 738.0912850182503,
+          "delta_ce_vs_baseline": -0.004000647480352004
+        },
+        {
+          "candidate": "alpha0-0.999",
+          "status": "completed",
+          "ce": 1.2803412086663701,
+          "tokens": 10000577,
+          "seconds": 199.71550914272666,
+          "delta_ce_vs_baseline": -0.0006059081834572932
+        },
+        {
+          "candidate": "baseline",
+          "status": "completed",
+          "ce": 1.2809471168498274,
+          "tokens": 10000577,
+          "seconds": 715.3830630462617,
+          "delta_ce_vs_baseline": 0.0
+        },
+        {
+          "candidate": "temperature-0.25",
+          "status": "completed",
+          "ce": 1.283686830988417,
+          "tokens": 10000577,
+          "seconds": 688.1955788657069,
+          "delta_ce_vs_baseline": 0.002739714138589644
+        },
+        {
+          "candidate": "ridge-1e-05",
+          "status": "completed",
+          "ce": 1.2888819442603598,
+          "tokens": 10000577,
+          "seconds": 682.1604068856686,
+          "delta_ce_vs_baseline": 0.007934827410532419
+        },
+        {
+          "candidate": "beta0-0.4",
+          "status": "completed",
+          "ce": 1.3430157180186515,
+          "tokens": 10000577,
+          "seconds": 197.6310869883746,
+          "delta_ce_vs_baseline": 0.06206860116882407
+        },
+        {
+          "candidate": "temperature-1",
+          "status": "completed",
+          "ce": 1.3855421997118649,
+          "tokens": 10000577,
+          "seconds": 683.153453476727,
+          "delta_ce_vs_baseline": 0.10459508286203745
+        }
+      ],
+      "screen_complete": true
+    }
+  }
+}

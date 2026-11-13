@@ -1,0 +1,4002 @@
+{
+  "status": "completed",
+  "stress": {
+    "fp64": {
+      "verdict": "PASSED",
+      "passed": 80,
+      "total": 80,
+      "checks": [
+        {
+          "name": "fp64/random/torch.float32/output",
+          "finite": true,
+          "rms_relative": 2.6437105843114756e-07,
+          "normalized_max": 8.758770954353512e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/random/torch.float32/keys",
+          "finite": true,
+          "rms_relative": 2.560409226239457e-08,
+          "normalized_max": 1.4627203170913816e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/random/torch.float32/state",
+          "finite": true,
+          "rms_relative": 3.1993650228194557e-07,
+          "normalized_max": 2.4069182896768737e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/random/torch.float32/dq",
+          "finite": true,
+          "rms_relative": 4.5782129652671637e-07,
+          "normalized_max": 5.806939853969517e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/random/torch.float32/dk",
+          "finite": true,
+          "rms_relative": 1.7362638273537773e-07,
+          "normalized_max": 1.0101630920633653e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/random/torch.float32/dv",
+          "finite": true,
+          "rms_relative": 4.0093177835445345e-07,
+          "normalized_max": 3.2889314999229313e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/random/torch.float32/dg",
+          "finite": true,
+          "rms_relative": 6.945892343905435e-07,
+          "normalized_max": 5.642183200676432e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/random/torch.float32/dbeta",
+          "finite": true,
+          "rms_relative": 3.9655026037757074e-07,
+          "normalized_max": 3.7811040602226027e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/random/torch.float32/dkeys0",
+          "finite": true,
+          "rms_relative": 3.3721163993666693e-07,
+          "normalized_max": 2.1778630655833187e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/random/torch.float32/dstate0",
+          "finite": true,
+          "rms_relative": 1.7708632174356417e-07,
+          "normalized_max": 3.0117807655858235e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/near/torch.float32/output",
+          "finite": true,
+          "rms_relative": 2.9862765494673416e-07,
+          "normalized_max": 6.482937159324464e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/near/torch.float32/keys",
+          "finite": true,
+          "rms_relative": 2.5495096253277577e-08,
+          "normalized_max": 1.4828762162633069e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/near/torch.float32/state",
+          "finite": true,
+          "rms_relative": 3.3468421718323787e-07,
+          "normalized_max": 2.922402977389993e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/near/torch.float32/dq",
+          "finite": true,
+          "rms_relative": 4.156009344655272e-07,
+          "normalized_max": 3.8526636644831136e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/near/torch.float32/dk",
+          "finite": true,
+          "rms_relative": 6.820831317800438e-07,
+          "normalized_max": 6.207362669035569e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/near/torch.float32/dv",
+          "finite": true,
+          "rms_relative": 4.450970207364509e-07,
+          "normalized_max": 5.094821146078843e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/near/torch.float32/dg",
+          "finite": true,
+          "rms_relative": 7.999012711718545e-07,
+          "normalized_max": 8.97977890409043e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/near/torch.float32/dbeta",
+          "finite": true,
+          "rms_relative": 5.642205925672856e-07,
+          "normalized_max": 7.032775294548171e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/near/torch.float32/dkeys0",
+          "finite": true,
+          "rms_relative": 3.4074435950909184e-06,
+          "normalized_max": 3.2185347281429855e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/near/torch.float32/dstate0",
+          "finite": true,
+          "rms_relative": 4.129008503850028e-07,
+          "normalized_max": 2.84001499317732e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/duplicate/torch.float32/output",
+          "finite": true,
+          "rms_relative": 3.134020274673573e-07,
+          "normalized_max": 6.733020395388589e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/duplicate/torch.float32/keys",
+          "finite": true,
+          "rms_relative": 2.651318550041708e-08,
+          "normalized_max": 1.0608733502781575e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/duplicate/torch.float32/state",
+          "finite": true,
+          "rms_relative": 3.290657007400897e-07,
+          "normalized_max": 2.2388304266041104e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/duplicate/torch.float32/dq",
+          "finite": true,
+          "rms_relative": 4.072132014205722e-07,
+          "normalized_max": 3.945125391646709e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/duplicate/torch.float32/dk",
+          "finite": true,
+          "rms_relative": 1.569052473698087e-07,
+          "normalized_max": 6.537287251806578e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/duplicate/torch.float32/dv",
+          "finite": true,
+          "rms_relative": 4.429060088481871e-07,
+          "normalized_max": 4.514912806952154e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/duplicate/torch.float32/dg",
+          "finite": true,
+          "rms_relative": 8.10009940625661e-07,
+          "normalized_max": 8.746585064933872e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/duplicate/torch.float32/dbeta",
+          "finite": true,
+          "rms_relative": 4.959616575534576e-07,
+          "normalized_max": 6.341417882117615e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/duplicate/torch.float32/dkeys0",
+          "finite": true,
+          "rms_relative": 3.2340991925471655e-07,
+          "normalized_max": 1.6307854410618772e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/duplicate/torch.float32/dstate0",
+          "finite": true,
+          "rms_relative": 5.296320513884962e-07,
+          "normalized_max": 5.570339040861239e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/strong/torch.float32/output",
+          "finite": true,
+          "rms_relative": 2.1714309470784574e-07,
+          "normalized_max": 6.45260246831536e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/strong/torch.float32/keys",
+          "finite": true,
+          "rms_relative": 2.560409226239457e-08,
+          "normalized_max": 1.4627203170913816e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/strong/torch.float32/state",
+          "finite": true,
+          "rms_relative": 1.423137350883314e-07,
+          "normalized_max": 7.192568329816851e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/strong/torch.float32/dq",
+          "finite": true,
+          "rms_relative": 1.8973249547514548e-07,
+          "normalized_max": 1.37186896287389e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/strong/torch.float32/dk",
+          "finite": true,
+          "rms_relative": 2.9495337570886368e-08,
+          "normalized_max": 1.677070737837738e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/strong/torch.float32/dv",
+          "finite": true,
+          "rms_relative": 4.2395248486496136e-08,
+          "normalized_max": 2.2867198079534745e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/strong/torch.float32/dg",
+          "finite": true,
+          "rms_relative": 2.4981039858476815e-07,
+          "normalized_max": 1.613092630581292e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/strong/torch.float32/dbeta",
+          "finite": true,
+          "rms_relative": 1.20361052450456e-07,
+          "normalized_max": 1.6997643670503317e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/strong/torch.float32/dkeys0",
+          "finite": true,
+          "rms_relative": 9.507794673099575e-08,
+          "normalized_max": 1.71163772218208e-09,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/strong/torch.float32/dstate0",
+          "finite": true,
+          "rms_relative": 1.6343756034268605e-07,
+          "normalized_max": 7.321097877932559e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp64/random/torch.bfloat16/output",
+          "finite": true,
+          "rms_relative": 0.0016576431866312281,
+          "normalized_max": 0.0009338145454588775,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/random/torch.bfloat16/keys",
+          "finite": true,
+          "rms_relative": 2.554974934564297e-08,
+          "normalized_max": 1.4853331509190326e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/random/torch.bfloat16/state",
+          "finite": true,
+          "rms_relative": 3.215073746708377e-07,
+          "normalized_max": 2.1428526919553548e-07,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/random/torch.bfloat16/dq",
+          "finite": true,
+          "rms_relative": 0.002344493996975147,
+          "normalized_max": 0.000344049009108352,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/random/torch.bfloat16/dk",
+          "finite": true,
+          "rms_relative": 0.0017556619234236927,
+          "normalized_max": 0.000977596444286466,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/random/torch.bfloat16/dv",
+          "finite": true,
+          "rms_relative": 0.002013667874323505,
+          "normalized_max": 0.001999786500417766,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/random/torch.bfloat16/dg",
+          "finite": true,
+          "rms_relative": 0.0012661852091642378,
+          "normalized_max": 0.0009217284403558332,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/random/torch.bfloat16/dbeta",
+          "finite": true,
+          "rms_relative": 0.0010679909776165233,
+          "normalized_max": 0.0008933383375771677,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/random/torch.bfloat16/dkeys0",
+          "finite": true,
+          "rms_relative": 0.002291536847179447,
+          "normalized_max": 0.0001470079931358767,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/random/torch.bfloat16/dstate0",
+          "finite": true,
+          "rms_relative": 0.001531611484282753,
+          "normalized_max": 0.0017409264047386138,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/near/torch.bfloat16/output",
+          "finite": true,
+          "rms_relative": 0.001664316330134188,
+          "normalized_max": 0.0004863219996984469,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/near/torch.bfloat16/keys",
+          "finite": true,
+          "rms_relative": 2.6804847077651463e-08,
+          "normalized_max": 1.489352441375047e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/near/torch.bfloat16/state",
+          "finite": true,
+          "rms_relative": 3.262288288330982e-07,
+          "normalized_max": 2.3066342302868748e-07,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/near/torch.bfloat16/dq",
+          "finite": true,
+          "rms_relative": 0.0021768138868936775,
+          "normalized_max": 0.0003251294750995365,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/near/torch.bfloat16/dk",
+          "finite": true,
+          "rms_relative": 0.00165553410482299,
+          "normalized_max": 0.002039045041688095,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/near/torch.bfloat16/dv",
+          "finite": true,
+          "rms_relative": 0.0017543212087258598,
+          "normalized_max": 0.0019603096032272394,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/near/torch.bfloat16/dg",
+          "finite": true,
+          "rms_relative": 0.0006225150762310333,
+          "normalized_max": 0.00044909902081649664,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/near/torch.bfloat16/dbeta",
+          "finite": true,
+          "rms_relative": 0.0006530323365120174,
+          "normalized_max": 0.00037683672049965383,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/near/torch.bfloat16/dkeys0",
+          "finite": true,
+          "rms_relative": 0.001762984060802393,
+          "normalized_max": 0.0003619401666108413,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/near/torch.bfloat16/dstate0",
+          "finite": true,
+          "rms_relative": 0.0016106470150093366,
+          "normalized_max": 0.0008928407833993721,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/duplicate/torch.bfloat16/output",
+          "finite": true,
+          "rms_relative": 0.0016534240705605653,
+          "normalized_max": 0.00048476323452009695,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/duplicate/torch.bfloat16/keys",
+          "finite": true,
+          "rms_relative": 2.635360058394147e-08,
+          "normalized_max": 1.279937711373691e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/duplicate/torch.bfloat16/state",
+          "finite": true,
+          "rms_relative": 3.336297821479703e-07,
+          "normalized_max": 2.623377441945962e-07,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/duplicate/torch.bfloat16/dq",
+          "finite": true,
+          "rms_relative": 0.002188101039064755,
+          "normalized_max": 0.00035625626286733825,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/duplicate/torch.bfloat16/dk",
+          "finite": true,
+          "rms_relative": 0.0017426113222116881,
+          "normalized_max": 0.000983963793432685,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/duplicate/torch.bfloat16/dv",
+          "finite": true,
+          "rms_relative": 0.001740365839140929,
+          "normalized_max": 0.001943480142095222,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/duplicate/torch.bfloat16/dg",
+          "finite": true,
+          "rms_relative": 0.0006217514164320333,
+          "normalized_max": 0.00044691435388492876,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/duplicate/torch.bfloat16/dbeta",
+          "finite": true,
+          "rms_relative": 0.0006526984269727396,
+          "normalized_max": 0.0003768836910969067,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/duplicate/torch.bfloat16/dkeys0",
+          "finite": true,
+          "rms_relative": 0.0023910514242615932,
+          "normalized_max": 0.00010956218954657343,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/duplicate/torch.bfloat16/dstate0",
+          "finite": true,
+          "rms_relative": 0.001611148711193439,
+          "normalized_max": 0.000891310094693086,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/strong/torch.bfloat16/output",
+          "finite": true,
+          "rms_relative": 0.0016008101211975273,
+          "normalized_max": 0.00028481845781064274,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/strong/torch.bfloat16/keys",
+          "finite": true,
+          "rms_relative": 2.554974934564297e-08,
+          "normalized_max": 1.4853331509190326e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/strong/torch.bfloat16/state",
+          "finite": true,
+          "rms_relative": 1.22492807867963e-07,
+          "normalized_max": 5.870841274235872e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/strong/torch.bfloat16/dq",
+          "finite": true,
+          "rms_relative": 0.0025016520900367897,
+          "normalized_max": 0.00014920399571569098,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/strong/torch.bfloat16/dk",
+          "finite": true,
+          "rms_relative": 0.0017361365953713723,
+          "normalized_max": 0.0010131652309210981,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/strong/torch.bfloat16/dv",
+          "finite": true,
+          "rms_relative": 0.0022848820160919605,
+          "normalized_max": 0.001940170221344295,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/strong/torch.bfloat16/dg",
+          "finite": true,
+          "rms_relative": 0.0015809943553637994,
+          "normalized_max": 0.0006950956181028811,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/strong/torch.bfloat16/dbeta",
+          "finite": true,
+          "rms_relative": 0.0013082626367054405,
+          "normalized_max": 0.0007048276640103818,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/strong/torch.bfloat16/dkeys0",
+          "finite": true,
+          "rms_relative": 0.002149995891361477,
+          "normalized_max": 3.435169436190669e-05,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp64/strong/torch.bfloat16/dstate0",
+          "finite": true,
+          "rms_relative": 0.001569287485362113,
+          "normalized_max": 0.0010218724434715443,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        }
+      ]
+    },
+    "fp32": {
+      "verdict": "FAILED",
+      "passed": 79,
+      "total": 80,
+      "checks": [
+        {
+          "name": "fp32/random/torch.float32/output",
+          "finite": true,
+          "rms_relative": 3.7918544704148587e-07,
+          "normalized_max": 1.2789753589537156e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/random/torch.float32/keys",
+          "finite": true,
+          "rms_relative": 5.669364927819944e-08,
+          "normalized_max": 3.522006108980236e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/random/torch.float32/state",
+          "finite": true,
+          "rms_relative": 3.5825726861817864e-07,
+          "normalized_max": 2.4069182896768737e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/random/torch.float32/dq",
+          "finite": true,
+          "rms_relative": 5.287480220309579e-07,
+          "normalized_max": 9.229772883478926e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/random/torch.float32/dk",
+          "finite": true,
+          "rms_relative": 3.0932903853591937e-07,
+          "normalized_max": 1.6660612739416436e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/random/torch.float32/dv",
+          "finite": true,
+          "rms_relative": 4.3626668203934506e-07,
+          "normalized_max": 3.411198264968718e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/random/torch.float32/dg",
+          "finite": true,
+          "rms_relative": 7.267899761851679e-07,
+          "normalized_max": 5.796538129438988e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/random/torch.float32/dbeta",
+          "finite": true,
+          "rms_relative": 4.0789009297565686e-07,
+          "normalized_max": 3.1942019899721815e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/random/torch.float32/dkeys0",
+          "finite": true,
+          "rms_relative": 5.31276358982438e-07,
+          "normalized_max": 2.55039209542951e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/random/torch.float32/dstate0",
+          "finite": true,
+          "rms_relative": 4.4187633801936835e-07,
+          "normalized_max": 5.88885963629391e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/near/torch.float32/output",
+          "finite": true,
+          "rms_relative": 7.779706607916553e-07,
+          "normalized_max": 1.7195177425682884e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/near/torch.float32/keys",
+          "finite": true,
+          "rms_relative": 6.085556782594698e-08,
+          "normalized_max": 4.847360118853672e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/near/torch.float32/state",
+          "finite": true,
+          "rms_relative": 0.0006574654459123347,
+          "normalized_max": 0.00038025824039414347,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/near/torch.float32/dq",
+          "finite": true,
+          "rms_relative": 2.3241812257844047e-06,
+          "normalized_max": 1.557257213813737e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/near/torch.float32/dk",
+          "finite": true,
+          "rms_relative": 0.002120554767887601,
+          "normalized_max": 0.002236505224236569,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/near/torch.float32/dv",
+          "finite": true,
+          "rms_relative": 0.0005792637974746828,
+          "normalized_max": 0.0004693768135657292,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/near/torch.float32/dg",
+          "finite": true,
+          "rms_relative": 0.0013301432965882613,
+          "normalized_max": 0.0010545829874554166,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/near/torch.float32/dbeta",
+          "finite": true,
+          "rms_relative": 0.0007132612545724221,
+          "normalized_max": 0.0010164104882440799,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/near/torch.float32/dkeys0",
+          "finite": true,
+          "rms_relative": 0.013009797110030632,
+          "normalized_max": 0.0018478250166578392,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": false
+        },
+        {
+          "name": "fp32/near/torch.float32/dstate0",
+          "finite": true,
+          "rms_relative": 0.00014733694027615365,
+          "normalized_max": 0.00015838727224856686,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/duplicate/torch.float32/output",
+          "finite": true,
+          "rms_relative": 3.8885612128451526e-07,
+          "normalized_max": 9.06861223615163e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/duplicate/torch.float32/keys",
+          "finite": true,
+          "rms_relative": 4.551148674551305e-08,
+          "normalized_max": 2.1688852380741253e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/duplicate/torch.float32/state",
+          "finite": true,
+          "rms_relative": 5.03723720956332e-07,
+          "normalized_max": 1.0766605061107715e-06,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/duplicate/torch.float32/dq",
+          "finite": true,
+          "rms_relative": 5.593645824533023e-07,
+          "normalized_max": 4.506695324563159e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/duplicate/torch.float32/dk",
+          "finite": true,
+          "rms_relative": 3.91373038210122e-07,
+          "normalized_max": 4.16168658388949e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/duplicate/torch.float32/dv",
+          "finite": true,
+          "rms_relative": 5.867086483495818e-07,
+          "normalized_max": 9.717848188650624e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/duplicate/torch.float32/dg",
+          "finite": true,
+          "rms_relative": 1.0171243298723603e-06,
+          "normalized_max": 1.0258396646046651e-06,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/duplicate/torch.float32/dbeta",
+          "finite": true,
+          "rms_relative": 5.589463074934913e-07,
+          "normalized_max": 6.894835217787597e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/duplicate/torch.float32/dkeys0",
+          "finite": true,
+          "rms_relative": 5.726473129662336e-07,
+          "normalized_max": 2.993353925145881e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/duplicate/torch.float32/dstate0",
+          "finite": true,
+          "rms_relative": 6.111476379124452e-07,
+          "normalized_max": 3.899752941821655e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/strong/torch.float32/output",
+          "finite": true,
+          "rms_relative": 2.875398903227568e-07,
+          "normalized_max": 6.881875423692119e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/strong/torch.float32/keys",
+          "finite": true,
+          "rms_relative": 5.669364927819944e-08,
+          "normalized_max": 3.522006108980236e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/strong/torch.float32/state",
+          "finite": true,
+          "rms_relative": 1.4231173882995797e-07,
+          "normalized_max": 7.192568329816851e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/strong/torch.float32/dq",
+          "finite": true,
+          "rms_relative": 2.71282703660939e-07,
+          "normalized_max": 1.7162524072050767e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/strong/torch.float32/dk",
+          "finite": true,
+          "rms_relative": 1.0433032769989089e-07,
+          "normalized_max": 8.42382167909328e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/strong/torch.float32/dv",
+          "finite": true,
+          "rms_relative": 1.3483098988618266e-07,
+          "normalized_max": 3.740987519068595e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/strong/torch.float32/dg",
+          "finite": true,
+          "rms_relative": 2.74585471283861e-07,
+          "normalized_max": 1.7898135290517203e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/strong/torch.float32/dbeta",
+          "finite": true,
+          "rms_relative": 1.7744026907247958e-07,
+          "normalized_max": 1.6997643670503317e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/strong/torch.float32/dkeys0",
+          "finite": true,
+          "rms_relative": 2.555034514383103e-07,
+          "normalized_max": 4.5056054460285155e-09,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/strong/torch.float32/dstate0",
+          "finite": true,
+          "rms_relative": 2.216925120777507e-07,
+          "normalized_max": 1.1318354031786271e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "fp32/random/torch.bfloat16/output",
+          "finite": true,
+          "rms_relative": 0.0016576431957321335,
+          "normalized_max": 0.0009338145454588775,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/random/torch.bfloat16/keys",
+          "finite": true,
+          "rms_relative": 6.222149959477307e-08,
+          "normalized_max": 4.47513132662003e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/random/torch.bfloat16/state",
+          "finite": true,
+          "rms_relative": 3.6005768553108503e-07,
+          "normalized_max": 2.0997191330085485e-07,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/random/torch.bfloat16/dq",
+          "finite": true,
+          "rms_relative": 0.002344490560544024,
+          "normalized_max": 0.000344049009108352,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/random/torch.bfloat16/dk",
+          "finite": true,
+          "rms_relative": 0.0017556619338221372,
+          "normalized_max": 0.000977596444286466,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/random/torch.bfloat16/dv",
+          "finite": true,
+          "rms_relative": 0.0020138591369941623,
+          "normalized_max": 0.001999786500417766,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/random/torch.bfloat16/dg",
+          "finite": true,
+          "rms_relative": 0.001266180233602628,
+          "normalized_max": 0.0009217779752344751,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/random/torch.bfloat16/dbeta",
+          "finite": true,
+          "rms_relative": 0.0010680044327290306,
+          "normalized_max": 0.0008933619175410701,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/random/torch.bfloat16/dkeys0",
+          "finite": true,
+          "rms_relative": 0.002291536847179447,
+          "normalized_max": 0.0001470079931358767,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/random/torch.bfloat16/dstate0",
+          "finite": true,
+          "rms_relative": 0.0015315971781804736,
+          "normalized_max": 0.0017408385257092875,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/near/torch.bfloat16/output",
+          "finite": true,
+          "rms_relative": 0.0016643163745588263,
+          "normalized_max": 0.0004863219996984469,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/near/torch.bfloat16/keys",
+          "finite": true,
+          "rms_relative": 7.154862744927333e-08,
+          "normalized_max": 4.536555076040116e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/near/torch.bfloat16/state",
+          "finite": true,
+          "rms_relative": 0.00068338338632096,
+          "normalized_max": 0.000530699181214872,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/near/torch.bfloat16/dq",
+          "finite": true,
+          "rms_relative": 0.0021760181107481507,
+          "normalized_max": 0.0003251294750995365,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/near/torch.bfloat16/dk",
+          "finite": true,
+          "rms_relative": 0.002756136363053315,
+          "normalized_max": 0.0034481069497534797,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/near/torch.bfloat16/dv",
+          "finite": true,
+          "rms_relative": 0.0018583465213786812,
+          "normalized_max": 0.0019603096032272394,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/near/torch.bfloat16/dg",
+          "finite": true,
+          "rms_relative": 0.001185367268169381,
+          "normalized_max": 0.0009015508430074527,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/near/torch.bfloat16/dbeta",
+          "finite": true,
+          "rms_relative": 0.0008833048340179424,
+          "normalized_max": 0.0009007564777755802,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/near/torch.bfloat16/dkeys0",
+          "finite": true,
+          "rms_relative": 0.01390341673751344,
+          "normalized_max": 0.0020575583894619637,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/near/torch.bfloat16/dstate0",
+          "finite": true,
+          "rms_relative": 0.0016301299495266066,
+          "normalized_max": 0.0009047789911503998,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/duplicate/torch.bfloat16/output",
+          "finite": true,
+          "rms_relative": 0.0016534240934429631,
+          "normalized_max": 0.00048476323452009695,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/duplicate/torch.bfloat16/keys",
+          "finite": true,
+          "rms_relative": 2.9464445294606514e-08,
+          "normalized_max": 1.7002945273958403e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/duplicate/torch.bfloat16/state",
+          "finite": true,
+          "rms_relative": 5.038610625453127e-07,
+          "normalized_max": 1.08393061645784e-06,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/duplicate/torch.bfloat16/dq",
+          "finite": true,
+          "rms_relative": 0.00218809761257934,
+          "normalized_max": 0.00035625626286733825,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/duplicate/torch.bfloat16/dk",
+          "finite": true,
+          "rms_relative": 0.0017426221429236732,
+          "normalized_max": 0.000983963793432685,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/duplicate/torch.bfloat16/dv",
+          "finite": true,
+          "rms_relative": 0.0017403658355128059,
+          "normalized_max": 0.001943480142095222,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/duplicate/torch.bfloat16/dg",
+          "finite": true,
+          "rms_relative": 0.0006216761885633501,
+          "normalized_max": 0.0004468086387428766,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/duplicate/torch.bfloat16/dbeta",
+          "finite": true,
+          "rms_relative": 0.0006527258784666405,
+          "normalized_max": 0.00037687095997044083,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/duplicate/torch.bfloat16/dkeys0",
+          "finite": true,
+          "rms_relative": 0.0023910514242615932,
+          "normalized_max": 0.00010956218954657343,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/duplicate/torch.bfloat16/dstate0",
+          "finite": true,
+          "rms_relative": 0.0016111858884128017,
+          "normalized_max": 0.0008913574994020707,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/strong/torch.bfloat16/output",
+          "finite": true,
+          "rms_relative": 0.0016008101211975273,
+          "normalized_max": 0.00028481845781064274,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/strong/torch.bfloat16/keys",
+          "finite": true,
+          "rms_relative": 6.222149959477307e-08,
+          "normalized_max": 4.47513132662003e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/strong/torch.bfloat16/state",
+          "finite": true,
+          "rms_relative": 1.2239207270887205e-07,
+          "normalized_max": 5.870841274235872e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/strong/torch.bfloat16/dq",
+          "finite": true,
+          "rms_relative": 0.00250165208766442,
+          "normalized_max": 0.00014920399571569098,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/strong/torch.bfloat16/dk",
+          "finite": true,
+          "rms_relative": 0.0017361365953713723,
+          "normalized_max": 0.0010131652309210981,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/strong/torch.bfloat16/dv",
+          "finite": true,
+          "rms_relative": 0.0022848820160919605,
+          "normalized_max": 0.001940170221344295,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/strong/torch.bfloat16/dg",
+          "finite": true,
+          "rms_relative": 0.0015810507803215616,
+          "normalized_max": 0.0006951552227476565,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/strong/torch.bfloat16/dbeta",
+          "finite": true,
+          "rms_relative": 0.00130827140618142,
+          "normalized_max": 0.0007048728603733556,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/strong/torch.bfloat16/dkeys0",
+          "finite": true,
+          "rms_relative": 0.002149995891361477,
+          "normalized_max": 3.435169436190669e-05,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "fp32/strong/torch.bfloat16/dstate0",
+          "finite": true,
+          "rms_relative": 0.0015692670078212222,
+          "normalized_max": 0.0010218128388267689,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        }
+      ]
+    },
+    "bf16_projection": {
+      "verdict": "FAILED",
+      "passed": 44,
+      "total": 80,
+      "checks": [
+        {
+          "name": "bf16_projection/random/torch.float32/output",
+          "finite": true,
+          "rms_relative": 0.002425510687528707,
+          "normalized_max": 0.0008024830966096852,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/random/torch.float32/keys",
+          "finite": true,
+          "rms_relative": 5.669364927819944e-08,
+          "normalized_max": 3.522006108980236e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/random/torch.float32/state",
+          "finite": true,
+          "rms_relative": 0.002037297253317502,
+          "normalized_max": 0.0015007139211606103,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/random/torch.float32/dq",
+          "finite": true,
+          "rms_relative": 0.0023068390239186546,
+          "normalized_max": 0.0003133600870807371,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/random/torch.float32/dk",
+          "finite": true,
+          "rms_relative": 0.0023082196237459865,
+          "normalized_max": 0.0013625098088785315,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/random/torch.float32/dv",
+          "finite": true,
+          "rms_relative": 0.0021404682796845272,
+          "normalized_max": 0.0017238676565848304,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/random/torch.float32/dg",
+          "finite": true,
+          "rms_relative": 0.0035945317176002585,
+          "normalized_max": 0.0026216455199336145,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/random/torch.float32/dbeta",
+          "finite": true,
+          "rms_relative": 0.002071258355074906,
+          "normalized_max": 0.002313983166140818,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/random/torch.float32/dkeys0",
+          "finite": true,
+          "rms_relative": 0.004940878350246933,
+          "normalized_max": 0.00035488481470956,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/random/torch.float32/dstate0",
+          "finite": true,
+          "rms_relative": 0.0027736807082024296,
+          "normalized_max": 0.004111708083817549,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/near/torch.float32/output",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/near/torch.float32/keys",
+          "finite": true,
+          "rms_relative": 6.085556782594698e-08,
+          "normalized_max": 4.847360118853672e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/near/torch.float32/state",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/near/torch.float32/dq",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/near/torch.float32/dk",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/near/torch.float32/dv",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/near/torch.float32/dg",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/near/torch.float32/dbeta",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/near/torch.float32/dkeys0",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/near/torch.float32/dstate0",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/duplicate/torch.float32/output",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/duplicate/torch.float32/keys",
+          "finite": true,
+          "rms_relative": 4.551148674551305e-08,
+          "normalized_max": 2.1688852380741253e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/duplicate/torch.float32/state",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/duplicate/torch.float32/dq",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/duplicate/torch.float32/dk",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/duplicate/torch.float32/dv",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/duplicate/torch.float32/dg",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/duplicate/torch.float32/dbeta",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/duplicate/torch.float32/dkeys0",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/duplicate/torch.float32/dstate0",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/strong/torch.float32/output",
+          "finite": true,
+          "rms_relative": 0.00181474965950966,
+          "normalized_max": 0.00046355309568360537,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/strong/torch.float32/keys",
+          "finite": true,
+          "rms_relative": 5.669364927819944e-08,
+          "normalized_max": 3.522006108980236e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/strong/torch.float32/state",
+          "finite": true,
+          "rms_relative": 6.253283429761925e-06,
+          "normalized_max": 2.7833925064779663e-06,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/strong/torch.float32/dq",
+          "finite": true,
+          "rms_relative": 0.0018522511879503262,
+          "normalized_max": 0.00014884217641907005,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/strong/torch.float32/dk",
+          "finite": true,
+          "rms_relative": 0.00016260112222307623,
+          "normalized_max": 0.0001386465554357591,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/strong/torch.float32/dv",
+          "finite": true,
+          "rms_relative": 0.0013889996460936715,
+          "normalized_max": 0.0005425698675707302,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/strong/torch.float32/dg",
+          "finite": true,
+          "rms_relative": 0.0015052555573457148,
+          "normalized_max": 0.0006633402591239013,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/strong/torch.float32/dbeta",
+          "finite": true,
+          "rms_relative": 0.0013418789303821991,
+          "normalized_max": 0.001056443005543502,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/strong/torch.float32/dkeys0",
+          "finite": true,
+          "rms_relative": 0.0018086507651997035,
+          "normalized_max": 3.0928059739880956e-05,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/strong/torch.float32/dstate0",
+          "finite": true,
+          "rms_relative": 0.0019114679456616029,
+          "normalized_max": 0.0010792208385961843,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/random/torch.bfloat16/output",
+          "finite": true,
+          "rms_relative": 0.0029344380280065985,
+          "normalized_max": 0.0010321981967591765,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/random/torch.bfloat16/keys",
+          "finite": true,
+          "rms_relative": 6.222149959477307e-08,
+          "normalized_max": 4.47513132662003e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/random/torch.bfloat16/state",
+          "finite": true,
+          "rms_relative": 0.00197161793174445,
+          "normalized_max": 0.0011741221552949155,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/random/torch.bfloat16/dq",
+          "finite": true,
+          "rms_relative": 0.003324800575857,
+          "normalized_max": 0.0005427875775837893,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/random/torch.bfloat16/dk",
+          "finite": true,
+          "rms_relative": 0.0027787384102070352,
+          "normalized_max": 0.0012607730338146106,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/random/torch.bfloat16/dv",
+          "finite": true,
+          "rms_relative": 0.0028533759740059506,
+          "normalized_max": 0.0020444558971770554,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/random/torch.bfloat16/dg",
+          "finite": true,
+          "rms_relative": 0.0032302621865029748,
+          "normalized_max": 0.0019715644298192235,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/random/torch.bfloat16/dbeta",
+          "finite": true,
+          "rms_relative": 0.0019182499920051372,
+          "normalized_max": 0.0015113692723762553,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/random/torch.bfloat16/dkeys0",
+          "finite": true,
+          "rms_relative": 0.0053439334722601905,
+          "normalized_max": 0.00047432033418154385,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/random/torch.bfloat16/dstate0",
+          "finite": true,
+          "rms_relative": 0.0031541071068361946,
+          "normalized_max": 0.004131094342190049,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/near/torch.bfloat16/output",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/near/torch.bfloat16/keys",
+          "finite": true,
+          "rms_relative": 7.154862744927333e-08,
+          "normalized_max": 4.536555076040116e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/near/torch.bfloat16/state",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/near/torch.bfloat16/dq",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/near/torch.bfloat16/dk",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/near/torch.bfloat16/dv",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/near/torch.bfloat16/dg",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/near/torch.bfloat16/dbeta",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/near/torch.bfloat16/dkeys0",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/near/torch.bfloat16/dstate0",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/duplicate/torch.bfloat16/output",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/duplicate/torch.bfloat16/keys",
+          "finite": true,
+          "rms_relative": 2.9464445294606514e-08,
+          "normalized_max": 1.7002945273958403e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/duplicate/torch.bfloat16/state",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/duplicate/torch.bfloat16/dq",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/duplicate/torch.bfloat16/dk",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/duplicate/torch.bfloat16/dv",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/duplicate/torch.bfloat16/dg",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/duplicate/torch.bfloat16/dbeta",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/duplicate/torch.bfloat16/dkeys0",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/duplicate/torch.bfloat16/dstate0",
+          "finite": false,
+          "rms_relative": null,
+          "normalized_max": null,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection/strong/torch.bfloat16/output",
+          "finite": true,
+          "rms_relative": 0.002391945238828584,
+          "normalized_max": 0.0006917440421893573,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/strong/torch.bfloat16/keys",
+          "finite": true,
+          "rms_relative": 6.222149959477307e-08,
+          "normalized_max": 4.47513132662003e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/strong/torch.bfloat16/state",
+          "finite": true,
+          "rms_relative": 1.1671295063386451e-05,
+          "normalized_max": 5.795667631813828e-06,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/strong/torch.bfloat16/dq",
+          "finite": true,
+          "rms_relative": 0.0031979518266667555,
+          "normalized_max": 0.00022294955145335527,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/strong/torch.bfloat16/dk",
+          "finite": true,
+          "rms_relative": 0.0017498923009903766,
+          "normalized_max": 0.0010198470584377728,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/strong/torch.bfloat16/dv",
+          "finite": true,
+          "rms_relative": 0.0027032764285705824,
+          "normalized_max": 0.001940170221344295,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/strong/torch.bfloat16/dg",
+          "finite": true,
+          "rms_relative": 0.0020159871172466203,
+          "normalized_max": 0.0008281788164412884,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/strong/torch.bfloat16/dbeta",
+          "finite": true,
+          "rms_relative": 0.0020393286975579467,
+          "normalized_max": 0.0011923259109220838,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/strong/torch.bfloat16/dkeys0",
+          "finite": true,
+          "rms_relative": 0.0028343689548651027,
+          "normalized_max": 7.133977030922972e-05,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection/strong/torch.bfloat16/dstate0",
+          "finite": true,
+          "rms_relative": 0.0025508250847423378,
+          "normalized_max": 0.0016940251530922212,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        }
+      ]
+    },
+    "bf16_projection_mixed": {
+      "verdict": "FAILED",
+      "passed": 70,
+      "total": 80,
+      "checks": [
+        {
+          "name": "bf16_projection_mixed/random/torch.float32/output",
+          "finite": true,
+          "rms_relative": 0.0022382140627358344,
+          "normalized_max": 0.0007653196005922291,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/random/torch.float32/keys",
+          "finite": true,
+          "rms_relative": 5.669364927819944e-08,
+          "normalized_max": 3.522006108980236e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/random/torch.float32/state",
+          "finite": true,
+          "rms_relative": 0.0006610296989888807,
+          "normalized_max": 0.00038394875565177233,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/random/torch.float32/dq",
+          "finite": true,
+          "rms_relative": 0.0018351704356842176,
+          "normalized_max": 0.00023471645617092335,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/random/torch.float32/dk",
+          "finite": true,
+          "rms_relative": 0.0007498936503133113,
+          "normalized_max": 0.0003198078376146392,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/random/torch.float32/dv",
+          "finite": true,
+          "rms_relative": 0.0014591603560059827,
+          "normalized_max": 0.0008355500970731594,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/random/torch.float32/dg",
+          "finite": true,
+          "rms_relative": 0.0022408526151276257,
+          "normalized_max": 0.001310440787917317,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/random/torch.float32/dbeta",
+          "finite": true,
+          "rms_relative": 0.0016975104380279372,
+          "normalized_max": 0.0012059421796456792,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/random/torch.float32/dkeys0",
+          "finite": true,
+          "rms_relative": 0.0022483910371206015,
+          "normalized_max": 0.00011865554778509729,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/random/torch.float32/dstate0",
+          "finite": true,
+          "rms_relative": 0.001959395310811371,
+          "normalized_max": 0.0023225797447793775,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/near/torch.float32/output",
+          "finite": true,
+          "rms_relative": 0.0031412827784712645,
+          "normalized_max": 0.0009548661887181092,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/near/torch.float32/keys",
+          "finite": true,
+          "rms_relative": 6.085556782594698e-08,
+          "normalized_max": 4.847360118853672e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/near/torch.float32/state",
+          "finite": true,
+          "rms_relative": 0.017513698900011254,
+          "normalized_max": 0.010782593614887117,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection_mixed/near/torch.float32/dq",
+          "finite": true,
+          "rms_relative": 0.003376457011224874,
+          "normalized_max": 0.0004890886524493154,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/near/torch.float32/dk",
+          "finite": true,
+          "rms_relative": 0.1025842495722267,
+          "normalized_max": 0.09691571042093672,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection_mixed/near/torch.float32/dv",
+          "finite": true,
+          "rms_relative": 0.016019166089347274,
+          "normalized_max": 0.013687927557832595,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection_mixed/near/torch.float32/dg",
+          "finite": true,
+          "rms_relative": 0.03022690893638481,
+          "normalized_max": 0.02004227992146368,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection_mixed/near/torch.float32/dbeta",
+          "finite": true,
+          "rms_relative": 0.01542240894174343,
+          "normalized_max": 0.0194059403937924,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection_mixed/near/torch.float32/dkeys0",
+          "finite": true,
+          "rms_relative": 0.38815545456544215,
+          "normalized_max": 0.04580243397737377,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection_mixed/near/torch.float32/dstate0",
+          "finite": true,
+          "rms_relative": 0.005184769308281722,
+          "normalized_max": 0.004710656834952587,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection_mixed/duplicate/torch.float32/output",
+          "finite": true,
+          "rms_relative": 0.0016008495525919174,
+          "normalized_max": 0.0004680764685370542,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/duplicate/torch.float32/keys",
+          "finite": true,
+          "rms_relative": 4.551148674551305e-08,
+          "normalized_max": 2.1688852380741253e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/duplicate/torch.float32/state",
+          "finite": true,
+          "rms_relative": 5.425305095126887e-07,
+          "normalized_max": 3.559171970479724e-07,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/duplicate/torch.float32/dq",
+          "finite": true,
+          "rms_relative": 0.001960126410615609,
+          "normalized_max": 0.0003030581407893057,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/duplicate/torch.float32/dk",
+          "finite": true,
+          "rms_relative": 0.0005328715518114552,
+          "normalized_max": 0.00019879569761433943,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/duplicate/torch.float32/dv",
+          "finite": true,
+          "rms_relative": 0.0006102223164296233,
+          "normalized_max": 0.0003519601861577959,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/duplicate/torch.float32/dg",
+          "finite": true,
+          "rms_relative": 0.0006094850192044358,
+          "normalized_max": 0.0005835229778841457,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/duplicate/torch.float32/dbeta",
+          "finite": true,
+          "rms_relative": 0.0005579750219768689,
+          "normalized_max": 0.0006182654671936054,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/duplicate/torch.float32/dkeys0",
+          "finite": true,
+          "rms_relative": 0.0013802024113439512,
+          "normalized_max": 7.96535030656298e-05,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/duplicate/torch.float32/dstate0",
+          "finite": true,
+          "rms_relative": 0.0013426809342573394,
+          "normalized_max": 0.000630593906824406,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/strong/torch.float32/output",
+          "finite": true,
+          "rms_relative": 0.0018146160435284424,
+          "normalized_max": 0.00046355309568360537,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/strong/torch.float32/keys",
+          "finite": true,
+          "rms_relative": 5.669364927819944e-08,
+          "normalized_max": 3.522006108980236e-08,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/strong/torch.float32/state",
+          "finite": true,
+          "rms_relative": 6.253283429761925e-06,
+          "normalized_max": 2.7833925064779663e-06,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/strong/torch.float32/dq",
+          "finite": true,
+          "rms_relative": 0.0018518832735582025,
+          "normalized_max": 0.00014884217641907005,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/strong/torch.float32/dk",
+          "finite": true,
+          "rms_relative": 0.00016260759463480084,
+          "normalized_max": 0.0001386465554357591,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/strong/torch.float32/dv",
+          "finite": true,
+          "rms_relative": 0.0013889996460936715,
+          "normalized_max": 0.0005425698675707302,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/strong/torch.float32/dg",
+          "finite": true,
+          "rms_relative": 0.0015045001479268598,
+          "normalized_max": 0.0006633402591239013,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/strong/torch.float32/dbeta",
+          "finite": true,
+          "rms_relative": 0.001341878234209238,
+          "normalized_max": 0.001056443005543502,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/strong/torch.float32/dkeys0",
+          "finite": true,
+          "rms_relative": 0.0017939314853785925,
+          "normalized_max": 3.0390686614327825e-05,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/strong/torch.float32/dstate0",
+          "finite": true,
+          "rms_relative": 0.001910674871946431,
+          "normalized_max": 0.0010792208385961843,
+          "rms_tolerance": 0.005,
+          "max_tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/random/torch.bfloat16/output",
+          "finite": true,
+          "rms_relative": 0.0027957089458690134,
+          "normalized_max": 0.0010321981967591765,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/random/torch.bfloat16/keys",
+          "finite": true,
+          "rms_relative": 6.222149959477307e-08,
+          "normalized_max": 4.47513132662003e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/random/torch.bfloat16/state",
+          "finite": true,
+          "rms_relative": 0.0006722063725211323,
+          "normalized_max": 0.0004628983086003846,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/random/torch.bfloat16/dq",
+          "finite": true,
+          "rms_relative": 0.0030365003243483708,
+          "normalized_max": 0.0005427875775837893,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/random/torch.bfloat16/dk",
+          "finite": true,
+          "rms_relative": 0.0019176767719274665,
+          "normalized_max": 0.0010851567926805639,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/random/torch.bfloat16/dv",
+          "finite": true,
+          "rms_relative": 0.0024597277974255003,
+          "normalized_max": 0.0020444558971770554,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/random/torch.bfloat16/dg",
+          "finite": true,
+          "rms_relative": 0.0022521665920645652,
+          "normalized_max": 0.0014716416906889068,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/random/torch.bfloat16/dbeta",
+          "finite": true,
+          "rms_relative": 0.0018664325910303405,
+          "normalized_max": 0.0015406084276151498,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/random/torch.bfloat16/dkeys0",
+          "finite": true,
+          "rms_relative": 0.0032946126193498797,
+          "normalized_max": 0.00017370237227078145,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/random/torch.bfloat16/dstate0",
+          "finite": true,
+          "rms_relative": 0.002528020625426117,
+          "normalized_max": 0.0032446244755386863,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/near/torch.bfloat16/output",
+          "finite": true,
+          "rms_relative": 0.0032452234606548413,
+          "normalized_max": 0.001065038296773034,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/near/torch.bfloat16/keys",
+          "finite": true,
+          "rms_relative": 7.154862744927333e-08,
+          "normalized_max": 4.536555076040116e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/near/torch.bfloat16/state",
+          "finite": true,
+          "rms_relative": 0.018245943420587666,
+          "normalized_max": 0.012683673850209493,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/near/torch.bfloat16/dq",
+          "finite": true,
+          "rms_relative": 0.0036556099720360283,
+          "normalized_max": 0.00048797165922417896,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/near/torch.bfloat16/dk",
+          "finite": true,
+          "rms_relative": 0.10648970289445682,
+          "normalized_max": 0.12435888291596778,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection_mixed/near/torch.bfloat16/dv",
+          "finite": true,
+          "rms_relative": 0.01577973030916072,
+          "normalized_max": 0.014483566520859519,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/near/torch.bfloat16/dg",
+          "finite": true,
+          "rms_relative": 0.03380891522985555,
+          "normalized_max": 0.027501922824862586,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection_mixed/near/torch.bfloat16/dbeta",
+          "finite": true,
+          "rms_relative": 0.017078209217175185,
+          "normalized_max": 0.020059840296408324,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/near/torch.bfloat16/dkeys0",
+          "finite": true,
+          "rms_relative": 0.40360827166194563,
+          "normalized_max": 0.05071606976604804,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "bf16_projection_mixed/near/torch.bfloat16/dstate0",
+          "finite": true,
+          "rms_relative": 0.005172154758823766,
+          "normalized_max": 0.00445478284274739,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/duplicate/torch.bfloat16/output",
+          "finite": true,
+          "rms_relative": 0.0022026604052163786,
+          "normalized_max": 0.0007047205287489255,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/duplicate/torch.bfloat16/keys",
+          "finite": true,
+          "rms_relative": 2.9464445294606514e-08,
+          "normalized_max": 1.7002945273958403e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/duplicate/torch.bfloat16/state",
+          "finite": true,
+          "rms_relative": 5.439551198803762e-07,
+          "normalized_max": 2.879398871280525e-07,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/duplicate/torch.bfloat16/dq",
+          "finite": true,
+          "rms_relative": 0.0023473991513955315,
+          "normalized_max": 0.0003526671589578062,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/duplicate/torch.bfloat16/dk",
+          "finite": true,
+          "rms_relative": 0.0018092523515285525,
+          "normalized_max": 0.000983963793432685,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/duplicate/torch.bfloat16/dv",
+          "finite": true,
+          "rms_relative": 0.0018168230707002937,
+          "normalized_max": 0.001943480142095222,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/duplicate/torch.bfloat16/dg",
+          "finite": true,
+          "rms_relative": 0.0007906228641129804,
+          "normalized_max": 0.0005539428468396242,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/duplicate/torch.bfloat16/dbeta",
+          "finite": true,
+          "rms_relative": 0.0007097922827305111,
+          "normalized_max": 0.0004994636228621461,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/duplicate/torch.bfloat16/dkeys0",
+          "finite": true,
+          "rms_relative": 0.002693714952433173,
+          "normalized_max": 0.0001718060322393397,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/duplicate/torch.bfloat16/dstate0",
+          "finite": true,
+          "rms_relative": 0.0016325052778365951,
+          "normalized_max": 0.0008849861890645183,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/strong/torch.bfloat16/output",
+          "finite": true,
+          "rms_relative": 0.0023921235052461087,
+          "normalized_max": 0.0006917440421893573,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/strong/torch.bfloat16/keys",
+          "finite": true,
+          "rms_relative": 6.222149959477307e-08,
+          "normalized_max": 4.47513132662003e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/strong/torch.bfloat16/state",
+          "finite": true,
+          "rms_relative": 1.1671295063386451e-05,
+          "normalized_max": 5.795667631813828e-06,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/strong/torch.bfloat16/dq",
+          "finite": true,
+          "rms_relative": 0.0031988545442795777,
+          "normalized_max": 0.00022294955145335527,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/strong/torch.bfloat16/dk",
+          "finite": true,
+          "rms_relative": 0.0017498919311591849,
+          "normalized_max": 0.0010198470584377728,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/strong/torch.bfloat16/dv",
+          "finite": true,
+          "rms_relative": 0.0027032764285705824,
+          "normalized_max": 0.001940170221344295,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/strong/torch.bfloat16/dg",
+          "finite": true,
+          "rms_relative": 0.0020166201374879665,
+          "normalized_max": 0.0008281788164412884,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/strong/torch.bfloat16/dbeta",
+          "finite": true,
+          "rms_relative": 0.0020393276859663593,
+          "normalized_max": 0.0011923259109220838,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/strong/torch.bfloat16/dkeys0",
+          "finite": true,
+          "rms_relative": 0.002821019527169448,
+          "normalized_max": 7.133977030922972e-05,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "bf16_projection_mixed/strong/torch.bfloat16/dstate0",
+          "finite": true,
+          "rms_relative": 0.0025505995637980466,
+          "normalized_max": 0.0016940251530922212,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        }
+      ]
+    }
+  },
+  "benchmark": [
+    {
+      "mode": "fp64",
+      "B": 1,
+      "T": 8192,
+      "H": 2,
+      "K": 64,
+      "V": 64,
+      "M": 32,
+      "input_dtype": "bfloat16",
+      "finite": true,
+      "numerical_acceptance": "PASSED",
+      "forward": {
+        "eager": {
+          "median_ms": 3.6599903106689453,
+          "trials_ms": [
+            3.655801773071289,
+            3.663324737548828,
+            3.6599903106689453
+          ]
+        },
+        "cuda_graph": {
+          "median_ms": 3.6228401184082033,
+          "trials_ms": [
+            3.630887985229492,
+            3.6228401184082033,
+            3.607686233520508
+          ]
+        },
+        "extra_peak_MiB": 84.7373046875
+      },
+      "forward_backward": {
+        "eager": {
+          "median_ms": 10.783518218994141,
+          "trials_ms": [
+            10.765191650390625,
+            10.783518218994141,
+            10.805611419677735
+          ]
+        },
+        "cuda_graph": {
+          "median_ms": 10.698516845703125,
+          "trials_ms": [
+            10.698133087158203,
+            10.698516845703125,
+            10.707475280761718
+          ]
+        },
+        "extra_peak_MiB": 103.82958984375
+      }
+    },
+    {
+      "mode": "fp32",
+      "B": 1,
+      "T": 8192,
+      "H": 2,
+      "K": 64,
+      "V": 64,
+      "M": 32,
+      "input_dtype": "bfloat16",
+      "finite": true,
+      "numerical_acceptance": "FAILED",
+      "8k_or_1k_difference_vs_fp64": [
+        {
+          "name": "0",
+          "finite": true,
+          "rms_relative": 3.193271195851913e-05,
+          "normalized_max": 0.0009765625,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "1",
+          "finite": true,
+          "rms_relative": 6.339235206296663e-08,
+          "normalized_max": 5.960464477539063e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "2",
+          "finite": true,
+          "rms_relative": 1.5747876300304658e-07,
+          "normalized_max": 1.4901161193847656e-07,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "3",
+          "finite": true,
+          "rms_relative": 1.4119914015468489,
+          "normalized_max": 0.003173828125,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "4",
+          "finite": true,
+          "rms_relative": 1.4119232642849042,
+          "normalized_max": 0.007171630859375,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "5",
+          "finite": true,
+          "rms_relative": 1.4080334682022662,
+          "normalized_max": 0.011505126953125,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "6",
+          "finite": true,
+          "rms_relative": 1.395832123338518,
+          "normalized_max": 0.1211213544011116,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "7",
+          "finite": true,
+          "rms_relative": 1.401340637246048,
+          "normalized_max": 0.2983836978673935,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "8",
+          "finite": true,
+          "rms_relative": 1.4654180903809804,
+          "normalized_max": 0.00043224042747169733,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "9",
+          "finite": true,
+          "rms_relative": 1.4550368311202357,
+          "normalized_max": 0.02111009694635868,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        }
+      ],
+      "forward": {
+        "eager": {
+          "median_ms": 0.7591695785522461,
+          "trials_ms": [
+            0.760423994064331,
+            0.7591695785522461,
+            0.7578320026397705
+          ]
+        },
+        "cuda_graph": {
+          "median_ms": 0.7144832134246826,
+          "trials_ms": [
+            0.714793586730957,
+            0.7144832134246826,
+            0.7143040180206299
+          ]
+        },
+        "extra_peak_MiB": 70.6904296875
+      },
+      "forward_backward": {
+        "eager": {
+          "median_ms": 2.191878318786621,
+          "trials_ms": [
+            2.1940944671630858,
+            2.1913455963134765,
+            2.191878318786621
+          ]
+        },
+        "cuda_graph": {
+          "median_ms": 2.1139888763427734,
+          "trials_ms": [
+            2.116659164428711,
+            2.1139888763427734,
+            2.11389274597168
+          ]
+        },
+        "extra_peak_MiB": 89.78271484375
+      }
+    },
+    {
+      "mode": "bf16_projection",
+      "B": 1,
+      "T": 8192,
+      "H": 2,
+      "K": 64,
+      "V": 64,
+      "M": 32,
+      "input_dtype": "bfloat16",
+      "finite": true,
+      "numerical_acceptance": "FAILED",
+      "8k_or_1k_difference_vs_fp64": [
+        {
+          "name": "0",
+          "finite": true,
+          "rms_relative": 0.0032913305885052474,
+          "normalized_max": 0.001953125,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "1",
+          "finite": true,
+          "rms_relative": 6.339235206296663e-08,
+          "normalized_max": 5.960464477539063e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "2",
+          "finite": true,
+          "rms_relative": 0.0019850487864584284,
+          "normalized_max": 0.002077333629131317,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "3",
+          "finite": true,
+          "rms_relative": 1.4121222621426888,
+          "normalized_max": 0.0032196044921875,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "4",
+          "finite": true,
+          "rms_relative": 1.4114218475552822,
+          "normalized_max": 0.0061492919921875,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "5",
+          "finite": true,
+          "rms_relative": 1.4101843791875786,
+          "normalized_max": 0.009246826171875,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "6",
+          "finite": true,
+          "rms_relative": 1.4344586604768794,
+          "normalized_max": 0.18538489192724228,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "7",
+          "finite": true,
+          "rms_relative": 1.3974433843917626,
+          "normalized_max": 0.23192977905273438,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "8",
+          "finite": true,
+          "rms_relative": 1.4645263362512009,
+          "normalized_max": 0.0004557816864689812,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "9",
+          "finite": true,
+          "rms_relative": 1.450344202245318,
+          "normalized_max": 0.022826150059700012,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        }
+      ],
+      "forward": {
+        "eager": {
+          "median_ms": 0.7918560028076171,
+          "trials_ms": [
+            0.7947328090667725,
+            0.7910687923431396,
+            0.7918560028076171
+          ]
+        },
+        "cuda_graph": {
+          "median_ms": 0.7481760025024414,
+          "trials_ms": [
+            0.7481760025024414,
+            0.7486144065856933,
+            0.7480207920074463
+          ]
+        },
+        "extra_peak_MiB": 67.6591796875
+      },
+      "forward_backward": {
+        "eager": {
+          "median_ms": 2.466640090942383,
+          "trials_ms": [
+            2.4706159591674806,
+            2.466640090942383,
+            2.4643007278442384
+          ]
+        },
+        "cuda_graph": {
+          "median_ms": 2.3914575576782227,
+          "trials_ms": [
+            2.389971160888672,
+            2.392691230773926,
+            2.3914575576782227
+          ]
+        },
+        "extra_peak_MiB": 86.75146484375
+      }
+    },
+    {
+      "mode": "bf16_projection_mixed",
+      "B": 1,
+      "T": 8192,
+      "H": 2,
+      "K": 64,
+      "V": 64,
+      "M": 32,
+      "input_dtype": "bfloat16",
+      "finite": true,
+      "numerical_acceptance": "FAILED",
+      "8k_or_1k_difference_vs_fp64": [
+        {
+          "name": "0",
+          "finite": true,
+          "rms_relative": 0.0030591513352989834,
+          "normalized_max": 0.001953125,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "1",
+          "finite": true,
+          "rms_relative": 6.339235206296663e-08,
+          "normalized_max": 5.960464477539063e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "2",
+          "finite": true,
+          "rms_relative": 0.0006404836278920016,
+          "normalized_max": 0.00043315067887306213,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "3",
+          "finite": true,
+          "rms_relative": 1.4108007887092013,
+          "normalized_max": 0.0030059814453125,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "4",
+          "finite": true,
+          "rms_relative": 1.4113490784811504,
+          "normalized_max": 0.00676727294921875,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "5",
+          "finite": true,
+          "rms_relative": 1.4151003652756247,
+          "normalized_max": 0.00970458984375,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "6",
+          "finite": true,
+          "rms_relative": 1.4086977631440858,
+          "normalized_max": 0.14977214485406876,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "7",
+          "finite": true,
+          "rms_relative": 1.4092600608550727,
+          "normalized_max": 0.2359451875090599,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "8",
+          "finite": true,
+          "rms_relative": 1.416590264998734,
+          "normalized_max": 0.0005048000602982938,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "9",
+          "finite": true,
+          "rms_relative": 1.4450963051453856,
+          "normalized_max": 0.0207358431071043,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        }
+      ],
+      "forward": {
+        "eager": {
+          "median_ms": 0.7649168014526367,
+          "trials_ms": [
+            0.7669968128204345,
+            0.7649168014526367,
+            0.7639455795288086
+          ]
+        },
+        "cuda_graph": {
+          "median_ms": 0.7203152179718018,
+          "trials_ms": [
+            0.7200543880462646,
+            0.7203152179718018,
+            0.7203711986541748
+          ]
+        },
+        "extra_peak_MiB": 67.6591796875
+      },
+      "forward_backward": {
+        "eager": {
+          "median_ms": 2.334628868103027,
+          "trials_ms": [
+            2.341204833984375,
+            2.334628868103027,
+            2.333883285522461
+          ]
+        },
+        "cuda_graph": {
+          "median_ms": 2.259334373474121,
+          "trials_ms": [
+            2.259334373474121,
+            2.2608047485351563,
+            2.2574623107910154
+          ]
+        },
+        "extra_peak_MiB": 86.75146484375
+      }
+    },
+    {
+      "mode": "gdn",
+      "B": 1,
+      "T": 8192,
+      "H": 2,
+      "K": 64,
+      "V": 64,
+      "M": null,
+      "input_dtype": "bfloat16",
+      "finite": true,
+      "numerical_acceptance": "native GDN comparator",
+      "forward": {
+        "eager": {
+          "median_ms": 0.7483456134796143,
+          "trials_ms": [
+            0.8053440093994141,
+            0.7483456134796143,
+            0.7403632164001465
+          ]
+        },
+        "cuda_graph": {
+          "median_ms": 0.13642239570617676,
+          "trials_ms": [
+            0.13640480041503905,
+            0.1365023970603943,
+            0.13642239570617676
+          ]
+        },
+        "extra_peak_MiB": 16.21875
+      },
+      "forward_backward": {
+        "eager": {
+          "median_ms": 2.0727216720581056,
+          "trials_ms": [
+            2.116979217529297,
+            2.0727216720581056,
+            2.0660032272338866
+          ]
+        },
+        "cuda_graph": {
+          "median_ms": 0.46367359161376953,
+          "trials_ms": [
+            0.46367359161376953,
+            0.46408958435058595,
+            0.4633823871612549
+          ]
+        },
+        "extra_peak_MiB": 30.46875
+      }
+    },
+    {
+      "mode": "fp64",
+      "B": 1,
+      "T": 1024,
+      "H": 8,
+      "K": 64,
+      "V": 64,
+      "M": 32,
+      "input_dtype": "bfloat16",
+      "finite": true,
+      "numerical_acceptance": "PASSED",
+      "forward": {
+        "eager": {
+          "median_ms": 1.897857666015625,
+          "trials_ms": [
+            1.9001504898071289,
+            1.8916751861572265,
+            1.897857666015625
+          ]
+        },
+        "cuda_graph": {
+          "median_ms": 1.849870491027832,
+          "trials_ms": [
+            1.8493312835693358,
+            1.849870491027832,
+            1.854769515991211
+          ]
+        },
+        "extra_peak_MiB": 43.41259765625
+      },
+      "forward_backward": {
+        "eager": {
+          "median_ms": 5.56104621887207,
+          "trials_ms": [
+            5.556260681152343,
+            5.571128082275391,
+            5.56104621887207
+          ]
+        },
+        "cuda_graph": {
+          "median_ms": 5.487892913818359,
+          "trials_ms": [
+            5.481185531616211,
+            5.487892913818359,
+            5.491775894165039
+          ]
+        },
+        "extra_peak_MiB": 53.0654296875
+      }
+    },
+    {
+      "mode": "fp32",
+      "B": 1,
+      "T": 1024,
+      "H": 8,
+      "K": 64,
+      "V": 64,
+      "M": 32,
+      "input_dtype": "bfloat16",
+      "finite": true,
+      "numerical_acceptance": "FAILED",
+      "8k_or_1k_difference_vs_fp64": [
+        {
+          "name": "0",
+          "finite": true,
+          "rms_relative": 3.210645503190252e-05,
+          "normalized_max": 0.0009765625,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "1",
+          "finite": true,
+          "rms_relative": 6.27891633430372e-08,
+          "normalized_max": 5.960464477539063e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "2",
+          "finite": true,
+          "rms_relative": 1.6753751526564974e-07,
+          "normalized_max": 1.564621925354004e-07,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "3",
+          "finite": true,
+          "rms_relative": 1.4159651835184113,
+          "normalized_max": 0.0026092529296875,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "4",
+          "finite": true,
+          "rms_relative": 1.420968820089003,
+          "normalized_max": 0.007781982421875,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "5",
+          "finite": true,
+          "rms_relative": 1.4114437635118362,
+          "normalized_max": 0.01068115234375,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "6",
+          "finite": true,
+          "rms_relative": 1.381733427874303,
+          "normalized_max": 0.22408233769237995,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "7",
+          "finite": true,
+          "rms_relative": 1.3840487211476196,
+          "normalized_max": 0.2623387277126312,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "8",
+          "finite": true,
+          "rms_relative": 1.414705251910534,
+          "normalized_max": 0.0005240705359028652,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "9",
+          "finite": true,
+          "rms_relative": 1.336689359788853,
+          "normalized_max": 0.024854233488440514,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        }
+      ],
+      "forward": {
+        "eager": {
+          "median_ms": 0.5765103816986084,
+          "trials_ms": [
+            0.6055791854858399,
+            0.5737616062164307,
+            0.5765103816986084
+          ]
+        },
+        "cuda_graph": {
+          "median_ms": 0.3862751960754395,
+          "trials_ms": [
+            0.3862751960754395,
+            0.3864255905151367,
+            0.3862368106842041
+          ]
+        },
+        "extra_peak_MiB": 36.38134765625
+      },
+      "forward_backward": {
+        "eager": {
+          "median_ms": 1.516260814666748,
+          "trials_ms": [
+            1.518396759033203,
+            1.516260814666748,
+            1.480247974395752
+          ]
+        },
+        "cuda_graph": {
+          "median_ms": 1.1182687759399415,
+          "trials_ms": [
+            1.1187888145446778,
+            1.1182687759399415,
+            1.117579174041748
+          ]
+        },
+        "extra_peak_MiB": 46.0341796875
+      }
+    },
+    {
+      "mode": "bf16_projection",
+      "B": 1,
+      "T": 1024,
+      "H": 8,
+      "K": 64,
+      "V": 64,
+      "M": 32,
+      "input_dtype": "bfloat16",
+      "finite": true,
+      "numerical_acceptance": "FAILED",
+      "8k_or_1k_difference_vs_fp64": [
+        {
+          "name": "0",
+          "finite": true,
+          "rms_relative": 0.0032997791527878792,
+          "normalized_max": 0.00390625,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "1",
+          "finite": true,
+          "rms_relative": 6.27891633430372e-08,
+          "normalized_max": 5.960464477539063e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "2",
+          "finite": true,
+          "rms_relative": 0.0018784992300845897,
+          "normalized_max": 0.001489102840423584,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "3",
+          "finite": true,
+          "rms_relative": 1.4093625462332702,
+          "normalized_max": 0.002880096435546875,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "4",
+          "finite": true,
+          "rms_relative": 1.421848239623529,
+          "normalized_max": 0.00848388671875,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "5",
+          "finite": true,
+          "rms_relative": 1.4117017886248782,
+          "normalized_max": 0.0096893310546875,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "6",
+          "finite": true,
+          "rms_relative": 1.4255756801901402,
+          "normalized_max": 0.2712418735027313,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "7",
+          "finite": true,
+          "rms_relative": 1.415958222872085,
+          "normalized_max": 0.3301231563091278,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "8",
+          "finite": true,
+          "rms_relative": 1.387435662442669,
+          "normalized_max": 0.00048703768698032945,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "9",
+          "finite": true,
+          "rms_relative": 1.3925299796580073,
+          "normalized_max": 0.022824940271675587,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        }
+      ],
+      "forward": {
+        "eager": {
+          "median_ms": 0.5850543975830078,
+          "trials_ms": [
+            0.6212080001831055,
+            0.5850543975830078,
+            0.5759568214416504
+          ]
+        },
+        "cuda_graph": {
+          "median_ms": 0.4026912212371826,
+          "trials_ms": [
+            0.4026912212371826,
+            0.4026959896087646,
+            0.40262398719787595
+          ]
+        },
+        "extra_peak_MiB": 34.86572265625
+      },
+      "forward_backward": {
+        "eager": {
+          "median_ms": 1.6817840576171874,
+          "trials_ms": [
+            1.9502607345581056,
+            1.6817840576171874,
+            1.5073792457580566
+          ]
+        },
+        "cuda_graph": {
+          "median_ms": 1.2655152320861816,
+          "trials_ms": [
+            1.2656720161437989,
+            1.2655152320861816,
+            1.2652560234069825
+          ]
+        },
+        "extra_peak_MiB": 44.5185546875
+      }
+    },
+    {
+      "mode": "bf16_projection_mixed",
+      "B": 1,
+      "T": 1024,
+      "H": 8,
+      "K": 64,
+      "V": 64,
+      "M": 32,
+      "input_dtype": "bfloat16",
+      "finite": true,
+      "numerical_acceptance": "FAILED",
+      "8k_or_1k_difference_vs_fp64": [
+        {
+          "name": "0",
+          "finite": true,
+          "rms_relative": 0.0030655325858436264,
+          "normalized_max": 0.00390625,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "1",
+          "finite": true,
+          "rms_relative": 6.27891633430372e-08,
+          "normalized_max": 5.960464477539063e-08,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "2",
+          "finite": true,
+          "rms_relative": 0.0006427669287726016,
+          "normalized_max": 0.00047763437032699585,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": true
+        },
+        {
+          "name": "3",
+          "finite": true,
+          "rms_relative": 1.4140122083519375,
+          "normalized_max": 0.00266265869140625,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "4",
+          "finite": true,
+          "rms_relative": 1.4188170926015593,
+          "normalized_max": 0.0070343017578125,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "5",
+          "finite": true,
+          "rms_relative": 1.4083026359301516,
+          "normalized_max": 0.009521484375,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "6",
+          "finite": true,
+          "rms_relative": 1.381185732088607,
+          "normalized_max": 0.17014841549098492,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "7",
+          "finite": true,
+          "rms_relative": 1.4040127164717593,
+          "normalized_max": 0.29829829931259155,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "8",
+          "finite": true,
+          "rms_relative": 1.3962453912437398,
+          "normalized_max": 0.0004575426282826811,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        },
+        {
+          "name": "9",
+          "finite": true,
+          "rms_relative": 1.3393969910823391,
+          "normalized_max": 0.027068751864135265,
+          "rms_tolerance": 0.025,
+          "max_tolerance": 0.03,
+          "passed": false
+        }
+      ],
+      "forward": {
+        "eager": {
+          "median_ms": 0.5811279773712158,
+          "trials_ms": [
+            0.5967264175415039,
+            0.5811279773712158,
+            0.5732480049133301
+          ]
+        },
+        "cuda_graph": {
+          "median_ms": 0.38782238960266113,
+          "trials_ms": [
+            0.38771040439605714,
+            0.38782238960266113,
+            0.38784959316253664
+          ]
+        },
+        "extra_peak_MiB": 34.86572265625
+      },
+      "forward_backward": {
+        "eager": {
+          "median_ms": 1.5311920166015625,
+          "trials_ms": [
+            1.5311920166015625,
+            1.4918288230895995,
+            1.5732959747314452
+          ]
+        },
+        "cuda_graph": {
+          "median_ms": 1.187556838989258,
+          "trials_ms": [
+            1.1876607894897462,
+            1.187556838989258,
+            1.1869935989379883
+          ]
+        },
+        "extra_peak_MiB": 44.5185546875
+      }
+    },
+    {
+      "mode": "gdn",
+      "B": 1,
+      "T": 1024,
+      "H": 8,
+      "K": 64,
+      "V": 64,
+      "M": null,
+      "input_dtype": "bfloat16",
+      "finite": true,
+      "numerical_acceptance": "native GDN comparator",
+      "forward": {
+        "eager": {
+          "median_ms": 0.7584320068359375,
+          "trials_ms": [
+            0.7860288143157959,
+            0.7584320068359375,
+            0.7502096176147461
+          ]
+        },
+        "cuda_graph": {
+          "median_ms": 0.04678240120410919,
+          "trials_ms": [
+            0.04665440022945404,
+            0.04678240120410919,
+            0.04681439995765686
+          ]
+        },
+        "extra_peak_MiB": 8.21875
+      },
+      "forward_backward": {
+        "eager": {
+          "median_ms": 2.1133840560913084,
+          "trials_ms": [
+            2.155196762084961,
+            2.111028861999512,
+            2.1133840560913084
+          ]
+        },
+        "cuda_graph": {
+          "median_ms": 0.11627520322799682,
+          "trials_ms": [
+            0.116211199760437,
+            0.11636639833450317,
+            0.11627520322799682
+          ]
+        },
+        "extra_peak_MiB": 15.4375
+      }
+    }
+  ],
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "torch": "2.10.0a0+b558c986e8.nv25.11",
+  "variants": {
+    "source": {
+      "__init__.py": "e5ca7eef4e205d3331b8d24ddb87e0cc12148beddd28fe1e7a9c668f4d2d1058",
+      "chunk_backward.py": "654a29b52abdda49d49d88dd66eb3a6db36d5c31a5ac2d5d69f247f8df454337",
+      "geometry.py": "c3ed25d0557b4bc417ef39f2df1653c4d3e978321590f0cf4abc430ea46ee389",
+      "hierarchical.py": "100517a5611d0db3c82b8584340c76207b39f688d38128c3dbca698937103b68",
+      "operator.py": "d3878b96551a16aef4323ace9bec652604d7dd37534b1fb42b0cbd5b94ca12d0",
+      "recurrence.py": "41bd96f432f2c7424e8831aaa3340495510369609fe90b308baa3646353dd6bd",
+      "versioned.py": "78e15ea818ee0f04ddc551c800b5bb31a34e57212f5c0b7e7f028022a99bd94d"
+    },
+    "variants": {
+      "bf16_projection/__init__.py": "e5ca7eef4e205d3331b8d24ddb87e0cc12148beddd28fe1e7a9c668f4d2d1058",
+      "bf16_projection/chunk_backward.py": "654a29b52abdda49d49d88dd66eb3a6db36d5c31a5ac2d5d69f247f8df454337",
+      "bf16_projection/geometry.py": "ba59858ca47fbd37b20339f39b24ce56bc6d5cdc37706d1e5bd6962035d516df",
+      "bf16_projection/hierarchical.py": "100517a5611d0db3c82b8584340c76207b39f688d38128c3dbca698937103b68",
+      "bf16_projection/operator.py": "4f43a1e966e472059c0c9d903063d7e940029281614986ce14bd6388924eb308",
+      "bf16_projection/recurrence.py": "41bd96f432f2c7424e8831aaa3340495510369609fe90b308baa3646353dd6bd",
+      "bf16_projection/versioned.py": "78e15ea818ee0f04ddc551c800b5bb31a34e57212f5c0b7e7f028022a99bd94d",
+      "bf16_projection_mixed/__init__.py": "e5ca7eef4e205d3331b8d24ddb87e0cc12148beddd28fe1e7a9c668f4d2d1058",
+      "bf16_projection_mixed/chunk_backward.py": "654a29b52abdda49d49d88dd66eb3a6db36d5c31a5ac2d5d69f247f8df454337",
+      "bf16_projection_mixed/geometry.py": "e603072dc5ad272aa14874a262295ed5a6a1ca71262dfe083717b66c2670afe1",
+      "bf16_projection_mixed/hierarchical.py": "100517a5611d0db3c82b8584340c76207b39f688d38128c3dbca698937103b68",
+      "bf16_projection_mixed/operator.py": "4f43a1e966e472059c0c9d903063d7e940029281614986ce14bd6388924eb308",
+      "bf16_projection_mixed/recurrence.py": "41bd96f432f2c7424e8831aaa3340495510369609fe90b308baa3646353dd6bd",
+      "bf16_projection_mixed/versioned.py": "78e15ea818ee0f04ddc551c800b5bb31a34e57212f5c0b7e7f028022a99bd94d"
+    },
+    "semantics": {
+      "bf16_projection": "BF16 Gram/RHS/P/H/R/N; BF16-rounded elimination, including regularized diagonal. FP32 normalization, reductions, state, geometry adjoint. Approximate backward through rounded geometry.",
+      "bf16_projection_mixed": "BF16 Gram/RHS/P/H/R/N; ridge addition and solve FP32. FP32 normalization/state/geometry adjoint. Approximate backward through rounded geometry; not a pure BF16 solve."
+    }
+  },
+  "script_sha256": "de0e682266cee11a3c9a94400b35a4db4ff3fe31752727fb3332962f88334a29",
+  "method": "BF16 q/k/v, FP32 gate/state, FIFO M32 C16. Operator only; includes normalization/final states; gradients on output and final states. 5 warmups then 3x20 event timing, compilation excluded; eager and one-call CUDA graph. GDN native BF16 H/K/V matched, state capacity K*V=4096 vs KOMP keys+coefficients 4096 per head; algorithms differ. BF16 projection variants experimental, approximate backward, never numerical acceptance by speed."
+}

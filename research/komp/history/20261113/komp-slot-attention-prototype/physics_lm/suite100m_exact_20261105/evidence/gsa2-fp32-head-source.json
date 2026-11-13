@@ -1,0 +1,38 @@
+{
+  "sources": {
+    "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+    "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+  },
+  "configuration": [
+    {
+      "kernel": "layer_norm_gated_fwd_kernel",
+      "BT": 32,
+      "num_warps": 4
+    },
+    {
+      "kernel": "layer_norm_gated_bwd_kernel",
+      "BT": 32,
+      "num_warps": 4
+    },
+    {
+      "cache_free_eval_layout": "packed for B>1 and T>64; short recurrent path unchanged"
+    },
+    {
+      "kernel": "l2norm_fwd_kernel",
+      "BT": 32,
+      "num_warps": 4
+    },
+    {
+      "kernel": "l2norm_bwd_kernel",
+      "BT": 32,
+      "num_warps": 4
+    }
+  ],
+  "precision": "BF16 network; FP32 linear loss head and CE",
+  "candidate_sha256": {
+    "gsa2_fixed_norm_candidate.py": "168d5c488f2350bcd7ddcffa2c4c890d65d761e05cdabad1f61e484bb5d44257",
+    "gsa2_packed_eval_candidate.py": "76e92c87723e58c1e9c4db0bd7ab5076031e3cb6f36c8297c2dff95ef31856d8",
+    "gsa2_consistent_candidate.py": "8d5eb48775c766ed4a80d24bac252b1f74ae867d20c4d8cb5ba111ee4c446dda",
+    "diagnose_gsa2_fp32_head.py": "5f5461c8f476164de9fe4113c0d5464539765c0ff090e90d2a8aebbbfc5091e2"
+  }
+}

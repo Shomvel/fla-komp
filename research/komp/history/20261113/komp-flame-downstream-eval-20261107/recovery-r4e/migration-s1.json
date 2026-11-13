@@ -1,0 +1,20 @@
+{
+  "time": "2026-11-07T23:42:34.383654+00:00",
+  "old_identity": "job-b975c4a6b8da-20261108013315",
+  "new_identity": "job-443f62846225-20261108074154",
+  "models": [
+    "block123",
+    "learned",
+    "learned123",
+    "block"
+  ],
+  "shard": 1,
+  "skipped": [
+    "kda",
+    "value",
+    "exact123",
+    "exact_partial"
+  ],
+  "verified_old_batches": 7663,
+  "method": "explicit migration after old job Aborted and all instances terminal; old batches unchanged"
+}

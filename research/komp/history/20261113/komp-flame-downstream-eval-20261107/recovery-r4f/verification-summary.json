@@ -1,0 +1,39 @@
+{
+  "captured_utc": "2026-11-08T06:59:06.021895+00:00",
+  "status": "pending_runtime_progress",
+  "new_identity": "job-7551a320be07-20261108145549",
+  "old_batches_unchanged": 8047,
+  "acceptance_passed": 4,
+  "workers_with_new_batches": 1,
+  "new_batches": 4,
+  "new_samples": 32,
+  "awaiting_first_batch": [
+    "learned-s1",
+    "learned123-s1",
+    "block-s1"
+  ],
+  "s0_s2_claim_files_unchanged": [
+    "sharded/claims-v2/block123-s0/owner.json",
+    "sharded/claims-v2/block123-s0/publish-probe.json",
+    "sharded/claims-v2/learned-s0/owner.json",
+    "sharded/claims-v2/learned-s0/publish-probe.json",
+    "sharded/claims-v2/learned123-s0/owner.json",
+    "sharded/claims-v2/learned123-s0/publish-probe.json",
+    "sharded/claims-v2/block-s0/owner.json",
+    "sharded/claims-v2/block-s0/publish-probe.json",
+    "sharded/claims-v2/block123-s2/owner.json",
+    "sharded/claims-v2/block123-s2/publish-probe.json",
+    "sharded/claims-v2/learned-s2/owner.json",
+    "sharded/claims-v2/learned-s2/publish-probe.json",
+    "sharded/claims-v2/learned123-s2/owner.json",
+    "sharded/claims-v2/learned123-s2/publish-probe.json",
+    "sharded/claims-v2/block-s2/owner.json",
+    "sharded/claims-v2/block-s2/publish-probe.json"
+  ],
+  "completed_models_not_restarted": [
+    "kda",
+    "value",
+    "exact123",
+    "exact_partial"
+  ]
+}

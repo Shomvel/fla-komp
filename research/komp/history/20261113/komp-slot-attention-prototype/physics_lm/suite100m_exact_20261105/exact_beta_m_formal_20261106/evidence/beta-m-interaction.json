@@ -1,0 +1,14 @@
+{
+  "depo2": {
+    "lower_beta_validation_ce_delta_M32": 0.03206193529762291,
+    "lower_beta_validation_ce_delta_M64": -0.04910003682105035,
+    "difference_of_differences": -0.08116197211867326,
+    "scope": "Descriptive single-seed interaction; no uncertainty estimate"
+  },
+  "brevo2": {
+    "lower_beta_validation_ce_delta_M32": 0.03604018561567057,
+    "lower_beta_validation_ce_delta_M64": 0.01911480876879168,
+    "difference_of_differences": -0.016925376846878892,
+    "scope": "Descriptive single-seed interaction; no uncertainty estimate"
+  }
+}

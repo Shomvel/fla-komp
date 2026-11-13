@@ -1,0 +1,66 @@
+{
+  "status": "completed_and_audited",
+  "training_complete": 4,
+  "heldout_complete": 4,
+  "reused_centers": 2,
+  "new_positions": 400003174,
+  "source_manifest_sha256": "a973297998e37cb485956b893b4fc319eb79c93d39ea39ac067f7e735dbcf199",
+  "results_sha256": "fd8d47f8f867c9d7769bccee0da09ca87e923b6eca460db1b9654b3a60560534",
+  "generation_audit": "All 1024 new probes independently regraded by report.py; both reused centers also regraded.",
+  "evaluation_identities": {
+    "depo2-exact-final-lr0.00025-wd0.1-seed731": {
+      "identity": {
+        "run": "depo2-exact-final-lr0.00025-wd0.1-seed731",
+        "summary_sha256": "05a14608d787641ce5cc3afcb14e41d8fa495dcea80a30c2e06a631300d4b88c",
+        "probes_sha256": "da9a5b19749a5c4f874a6b9c2eca3d693fc2ccd2e0baa0ac803c81c705927215",
+        "evaluator_sha256": "70a545ff0dd22781e8f08499589976aee7fe537b30de3b726067e9c580f470e2",
+        "checkpoint_size": 1206763513,
+        "checkpoint_mtime_ns": 1793892754048644371
+      },
+      "heldout_sha256": "26aa4dd390ff9d8a6e62033d6e0450cdc0be4d434fca6f23b78f6e129d87e1f9",
+      "generations_sha256": "3d09f4d5bff8cb38c53baf92a34bbe24e268600e9a6dbb87171db945a1120cdb"
+    },
+    "depo2-exact-final-lr0.001-wd0.1-seed731": {
+      "identity": {
+        "run": "depo2-exact-final-lr0.001-wd0.1-seed731",
+        "summary_sha256": "6b74746a5de9ea4407813b1ae55eccab23aaa4fae0272ef2cad9e10339680761",
+        "probes_sha256": "da9a5b19749a5c4f874a6b9c2eca3d693fc2ccd2e0baa0ac803c81c705927215",
+        "evaluator_sha256": "70a545ff0dd22781e8f08499589976aee7fe537b30de3b726067e9c580f470e2",
+        "checkpoint_size": 1206763449,
+        "checkpoint_mtime_ns": 1793893376373583637
+      },
+      "heldout_sha256": "392604d9a5f9fee52b55de5c66a22f62921accab521726d2abdaa1898e57f050",
+      "generations_sha256": "bcc5ba42a3c4b4106583d10b8e248ad2017056f93a5e5ac2bd440cc45af665cd"
+    },
+    "brevo2-exact-final-lr0.0005-wd0.1-seed731": {
+      "identity": {
+        "run": "brevo2-exact-final-lr0.0005-wd0.1-seed731",
+        "summary_sha256": "d11f8366f106c5d4416575562ce3778580443db8cada4d707e6caf34b93f7aa9",
+        "probes_sha256": "30edad6becb0ce363f217bb304bdb1f1b29b44d6a8683febcb8ce8abe9882948",
+        "evaluator_sha256": "70a545ff0dd22781e8f08499589976aee7fe537b30de3b726067e9c580f470e2",
+        "checkpoint_size": 1206763833,
+        "checkpoint_mtime_ns": 1793893818414351756
+      },
+      "heldout_sha256": "a781fbe61784e06e24e611186c5df852360ac4cf18b40038635767a6764aeb3c",
+      "generations_sha256": "194f92f978b2888d3734db10279786294c99afad880e0a47a75bcc2e17902d63"
+    },
+    "brevo2-exact-final-lr0.002-wd0.1-seed731": {
+      "identity": {
+        "run": "brevo2-exact-final-lr0.002-wd0.1-seed731",
+        "summary_sha256": "d1d42cafded88f5a991f1472b7f348de4b104f0b005f4801d6465c66f16b8a82",
+        "probes_sha256": "30edad6becb0ce363f217bb304bdb1f1b29b44d6a8683febcb8ce8abe9882948",
+        "evaluator_sha256": "70a545ff0dd22781e8f08499589976aee7fe537b30de3b726067e9c580f470e2",
+        "checkpoint_size": 1206763577,
+        "checkpoint_mtime_ns": 1793892976701750126
+      },
+      "heldout_sha256": "60fcd4b179dea3a4bb897df19191f457d913922d0b7e27d804b5e966ca7964df",
+      "generations_sha256": "f48283ddaa5b18b4f91abfe63fea06fa96437e7118ae1f7fe0b6a32b65bfcc2c"
+    }
+  },
+  "validation_only_winners": {
+    "depo2": 0.001,
+    "brevo2": 0.002
+  },
+  "allocations": "Both 8-GPU training jobs and all four 1-GPU heldout jobs deleted and verified absent.",
+  "jobs_final_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+}

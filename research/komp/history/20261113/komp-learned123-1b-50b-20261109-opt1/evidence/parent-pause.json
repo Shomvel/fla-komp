@@ -1,0 +1,20 @@
+{
+  "paused": {
+    "status": "paused",
+    "step": 12922,
+    "tokens": 13549699072
+  },
+  "checkpoint_complete": {
+    "step": 12922,
+    "tokens": 13549699072,
+    "world_size": 32,
+    "source_sha": "84e4ac86514786ff8880287d49860319cc15d4f0fbf9205b26c7298f400a887f",
+    "data_sha": "2c6f0fa997a87c85d2b7940c99051523751fb725d3d221b775ed6d894262aa0f"
+  },
+  "node_exits": [
+    0,
+    0,
+    0,
+    0
+  ]
+}

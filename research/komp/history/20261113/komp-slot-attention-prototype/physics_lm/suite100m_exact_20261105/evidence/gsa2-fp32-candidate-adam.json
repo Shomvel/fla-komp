@@ -1,0 +1,147 @@
+{
+  "status": "completed",
+  "sources": {
+    "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+    "ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2"
+  },
+  "cases": {
+    "gsa2/mano": {
+      "whole_loss": 10.473260879516602,
+      "partition_loss": 10.47959566116333,
+      "loss_abs": 0.006334781646728516,
+      "gradient_rms": {
+        "embed.weight": 0.46852827072143555,
+        "layers.0.mix.layer.o_proj.weight": 0.685655415058136,
+        "head.weight": 0.04234424978494644
+      },
+      "parameter_max_abs": {
+        "embed.weight": 0.00020000338554382324,
+        "layers.0.mix.layer.o_proj.weight": 0.00019999779760837555,
+        "head.weight": 0.00019729789346456528
+      },
+      "whole_grad_norm": 8155.27294921875,
+      "partition_grad_norm": 8047.91552734375,
+      "adam_witness": {
+        "embed.weight": {
+          "flat_index": 2571269,
+          "whole_raw_gradient": -11.332550048828125,
+          "partition_raw_gradient": 35.48554611206055,
+          "whole_clipped_gradient": -0.001389597885687462,
+          "partition_clipped_gradient": 0.004409284116748604,
+          "whole_gradient_rms": 1.571210503578186,
+          "parameter_difference": -0.00020000338554382324,
+          "parameter_rms_relative": 0.00014843422104604542,
+          "update_rms_relative": 0.7750025987625122,
+          "sign_disagreement_fraction": 0.0002207031357102096
+        },
+        "layers.0.mix.layer.o_proj.weight": {
+          "flat_index": 61638,
+          "whole_raw_gradient": 7.140354633331299,
+          "partition_raw_gradient": -5.628198146820068,
+          "whole_clipped_gradient": 0.0008755506623649884,
+          "partition_clipped_gradient": -0.0006993361357979292,
+          "whole_gradient_rms": 2.102926731109619,
+          "parameter_difference": 0.00019999779760837555,
+          "parameter_rms_relative": 0.003665564116090536,
+          "update_rms_relative": 0.9360487461090088,
+          "sign_disagreement_fraction": 0.219207763671875
+        },
+        "head.weight": {
+          "flat_index": 5119134,
+          "whole_raw_gradient": -0.006555773317813873,
+          "partition_raw_gradient": 0.005380108952522278,
+          "whole_clipped_gradient": -8.038692705727313e-07,
+          "partition_clipped_gradient": 6.685096201089844e-07,
+          "whole_gradient_rms": 0.0009528672089800239,
+          "parameter_difference": -0.00019729789346456528,
+          "parameter_rms_relative": 2.360566759307403e-05,
+          "update_rms_relative": 0.06835529208183289,
+          "sign_disagreement_fraction": 0.014783325605094433
+        }
+      },
+      "post_step_function": {
+        "whole_loss": 10.385402903837317,
+        "partition_loss": 10.276925479664522,
+        "loss_abs": 0.10847742417279527,
+        "hidden_rms_relative": 1.066393494606018
+      },
+      "accepted": false,
+      "thresholds": {
+        "loss_abs": 0.005,
+        "gradient_rms": 0.02,
+        "parameter_max_abs": 0.0001
+      }
+    },
+    "gsa2/depo2": {
+      "whole_loss": 10.4973726272583,
+      "partition_loss": 10.497870206832886,
+      "loss_abs": 0.0004975795745849609,
+      "gradient_rms": {
+        "embed.weight": 0.717131495475769,
+        "layers.0.mix.layer.o_proj.weight": 0.6685051321983337,
+        "head.weight": 0.03598727285861969
+      },
+      "parameter_max_abs": {
+        "embed.weight": 0.00020000338554382324,
+        "layers.0.mix.layer.o_proj.weight": 0.00019999826326966286,
+        "head.weight": 0.00019847508519887924
+      },
+      "whole_grad_norm": 831.1466064453125,
+      "partition_grad_norm": 807.199951171875,
+      "adam_witness": {
+        "embed.weight": {
+          "flat_index": 517,
+          "whole_raw_gradient": 2.228762149810791,
+          "partition_raw_gradient": -9.314713478088379,
+          "whole_clipped_gradient": 0.002681551160584432,
+          "partition_clipped_gradient": -0.011539536707139227,
+          "whole_gradient_rms": 0.15541709959506989,
+          "parameter_difference": 0.00020000338554382324,
+          "parameter_rms_relative": 0.00011889800225617364,
+          "update_rms_relative": 0.8684148788452148,
+          "sign_disagreement_fraction": 0.00014141846622806042
+        },
+        "layers.0.mix.layer.o_proj.weight": {
+          "flat_index": 218822,
+          "whole_raw_gradient": -1.0621856451034546,
+          "partition_raw_gradient": 0.78274005651474,
+          "whole_clipped_gradient": -0.0012779762746891123,
+          "partition_clipped_gradient": 0.0009696978479850966,
+          "whole_gradient_rms": 0.2797524333000183,
+          "parameter_difference": -0.00019999826326966286,
+          "parameter_rms_relative": 0.0036407774314284325,
+          "update_rms_relative": 0.9296345710754395,
+          "sign_disagreement_fraction": 0.21619796752929688
+        },
+        "head.weight": {
+          "flat_index": 1695,
+          "whole_raw_gradient": 0.0011094710789620876,
+          "partition_raw_gradient": -0.0010246236342936754,
+          "whole_clipped_gradient": 1.3348680834687617e-06,
+          "partition_clipped_gradient": -1.2693554199759232e-06,
+          "whole_gradient_rms": 0.00025932022253982723,
+          "parameter_difference": 0.00019847508519887924,
+          "parameter_rms_relative": 3.737477891263552e-05,
+          "update_rms_relative": 0.03476075083017349,
+          "sign_disagreement_fraction": 0.0073350220918655396
+        }
+      },
+      "post_step_function": {
+        "whole_loss": 10.474083398788151,
+        "partition_loss": 10.463354360693447,
+        "loss_abs": 0.010729038094703824,
+        "hidden_rms_relative": 1.2016459703445435
+      },
+      "accepted": false,
+      "thresholds": {
+        "loss_abs": 0.005,
+        "gradient_rms": 0.02,
+        "parameter_max_abs": 0.0001
+      }
+    }
+  },
+  "accepted": false,
+  "verdict": "FAILED",
+  "scope": "FP32 isolated candidate diagnostic only; does not authorize formal precision change",
+  "layout_sha256": "9fa2e887151e93b6a184632f3e97bfd0db377a4cd5538a56fdf48bac509074e4"
+}

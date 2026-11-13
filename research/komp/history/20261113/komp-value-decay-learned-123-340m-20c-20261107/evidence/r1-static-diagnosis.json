@@ -1,0 +1,14 @@
+{
+  "root_cause": "Tensor.argsort stable overload requires keyword dim",
+  "instances": [
+    "value_learned.py:_routing score ranking"
+  ],
+  "adjacent_checked": [
+    "all argsort/sort calls in new model/operator/property/preflight files",
+    "existing block_flex stable torch.sort uses keyword dim",
+    "existing block_reference stable torch.argsort uses default dim"
+  ],
+  "fix": "explicit dim keyword for all local sorting calls",
+  "regression": "Existing random/ties/retain-initial/retain-early routing and independent FP64 reference cases execute the repaired call",
+  "formal_tokens": 0
+}

@@ -1,0 +1,221 @@
+--- a/snapshot/fla/ops/komp/block_fast.py
++++ b/snapshot/fla/ops/komp/block_fast.py
+@@ -25,6 +25,7 @@
+ 
+ from .block_komp import _ex, _rows, block_mapgrad_kernel, final_rows_kernel
+ from .geometry import normalize_bwd_kernel, normalize_kernel
++from .geometry_cache import cached_geometry
+ from .geometry_chunk import _sweep_inverse
+ from .recurrence import output_kernel
+ from .scan import _load_map, affine_scan, group_scan_kernel, output_offset_kernel, value_offset_kernel
+@@ -64,6 +65,7 @@
+ SLOT_GC_CACHE = True     # per-slot fifo: ut stores the cumulative log decay, later kernels load it
+ KEYGRAD_DEST = False     # SHARE, T % C == 0: key gradients by destination rows (bitwise identical; measured slower, kept off)
+ OVERLAP_DICT = True      # learned: dictionary-free att part + ut on a side stream while dict_scan/proj run
++DECAY_SLOT_REDUCE = True  # C multiple of M: contract one-hot ring columns by direct summation
+ DOV_BF16 = True          # BF16 inputs: dOV (read only by BF16 products in chunk_bwd) stored in BF16; exact
+ # blocked Cholesky + blocked triangular inverse (chol_kernel): measured slower, fails near-duplicate dk
+ CHOL_INV = False
+@@ -809,7 +811,7 @@
+ @tr.jit
+ def decay_bwd_kernel(G, Beta, DGAM, DE, VEC, DG,
+                      T: tl.constexpr, H: tl.constexpr, M: tl.constexpr, C: tl.constexpr, NC: tl.constexpr,
+-                     BM: tl.constexpr, SLOT: tl.constexpr, IDX: tl.constexpr):
++                     BM: tl.constexpr, SLOT: tl.constexpr, IDX: tl.constexpr, REDUCE: tl.constexpr = False):
+     # Log decay, scattered to ring slots: old atom u <-> slot (o+u) mod M, new atom s -> (o+s) mod M.
+     chunk, bh = tl.program_id(0).to(tl.int64), tl.program_id(1).to(tl.int64)
+     t, n, valid, tok, beta, Gam, Ex, Dl, Dp, dend, gend, le, lt, o, r_new = _slot_decay(
+@@ -830,7 +832,13 @@
+     u_of_r = tl.where(um, u if IDX else (u-o+M) % M, 0)
+     Rnew = (u[None, :] == r_new[:, None]).to(tl.float32)
+     dGc = tl.gather(_ld(DGAM, idx, C, M, C, BM)*Gam, tl.broadcast_to(u_of_r[None, :], (C, BM)), 1)
+-    dGc += tl.dot(Y, Rnew, input_precision='ieee')-(tl.sum(Y, 0)+Z)[:, None]*Rnew
++    if REDUCE and M == BM and C % BM == 0:
++        # C is a multiple of M, so o = (chunk*C) % M = 0 and r_new[s] = s % M.
++        # Y @ one_hot(r_new) sums exactly those columns; no dense FP32 GEMM is needed.
++        yr = tl.sum(tl.reshape(Y, (C, C//BM, BM)), 1)
++    else:
++        yr = tl.dot(Y, Rnew, input_precision='ieee')
++    dGc += yr-(tl.sum(Y, 0)+Z)[:, None]*Rnew
+     rowC = tl.sum(Z[:, None]*Rnew, 0)+tl.gather(W, u_of_r, 0)
+     dGc += tl.where(t[:, None] == n-1, rowC[None, :], 0.)
+     dGc = tl.where(valid[:, None] & um[None, :], dGc, 0.)
+@@ -1349,11 +1357,20 @@
+             with torch.cuda.stream(side):
+                 att_kernel[grid](qn, pool, old, g, beta, hk, hn, rk, rn, t, h, m, d, c, nc, bm, bdk, tau, ix, bf, False,
+                                  1, num_warps=WARPS['att'], num_stages=1)
+-                ut_kernel[grid](g, beta, hn, aa, tt, t, h, m, c, nc, bm, c//16, slot, ix, None, 0,
+-                                num_warps=WARPS['ut_slot' if slot else 'ut'])
++                def build_ut():
++                    ut_kernel[grid](g, beta, hn, aa, tt, t, h, m, c, nc, bm, c//16, slot, ix, None, 0,
++                                    num_warps=WARPS['ut_slot' if slot else 'ut'])
++                    return tt
++                # Reuse the original immutable BF16 UT result within this one checkpoint only.
++                tt = cached_geometry(('block-ut',q.shape,g.shape,q.dtype,q.device,c,m,tau,str(UT),
++                                      slot,ix,WARPS['ut_slot' if slot else 'ut']),build_ut)
+         if ix:
+-            dict_scan_kernel[(b*h,)](scores, init_scores, old, cand, t, h, m, c, nc, bm, tr.next_power_of_2(m+c),
+-                                     num_warps=WARPS['dict'])
++            def build_dictionary():
++                dict_scan_kernel[(b*h,)](scores, init_scores, old, cand, t, h, m, c, nc, bm, tr.next_power_of_2(m+c),
++                                         num_warps=WARPS['dict'])
++                return old,cand
++            old,cand = cached_geometry(('block-dictionary',scores.shape,init_scores.shape,scores.dtype,
++                                        scores.device,t,h,m,c),build_dictionary)
+         share = SHARE_GRAM and c == m and not ix and not FUSE_CHUNK_FWD and not FUSE_PROJ_BWD
+         cache = (SLOT_GC_CACHE and slot and not ix and m == bm and c % bm == 0 and not FUSE_CHUNK_FWD
+                  and not FUSE_PROJ_BWD and FUSE_CHUNK_BWD and c <= 64)
+@@ -1385,8 +1402,13 @@
+             else:
+                 att_kernel[grid](qn, pool, old, g, beta, hk, hn, rk, rn, t, h, m, d, c, nc, bm, bdk, tau, ix, bf, share,
+                                  num_warps=WARPS['att'], num_stages=1)
+-                ut_kernel[grid](g, beta, hn, aa, tt, t, h, m, c, nc, bm, c//16, slot, ix, gcache, 1 if cache else 0,
+-                                num_warps=WARPS['ut_slot' if slot else 'ut'])
++                def build_ut():
++                    ut_kernel[grid](g, beta, hn, aa, tt, t, h, m, c, nc, bm, c//16, slot, ix, gcache, 1 if cache else 0,
++                                    num_warps=WARPS['ut_slot' if slot else 'ut'])
++                    return tt
++                # FIFO's ut also produces a cumulative-decay cache; it must still execute on replay.
++                tt = cached_geometry(('block-ut',q.shape,g.shape,q.dtype,q.device,c,m,tau,str(UT),
++                                      slot,ix,WARPS['ut_slot' if slot else 'ut']),build_ut) if ix else build_ut()
+             compose_kernel[grid](g, beta, cand, hk, rk, rn, tt, peo, pen, os, ov, fs, fv, t, h, m, c, nc, bm, slot, ix,
+                                  share, gcache, 2 if cache else 0, num_warps=WARPS['compose'])
+         if FUSE_SCAN:
+@@ -1471,7 +1493,7 @@
+                                      t, h, m, c, nc, bm, tau, slot, ix, part, num_warps=WARPS['ut_bwd'])
+             ut_bwd_kernel[grid](g, beta, hk, hn, tt, dws, dwv, dgam, de, chk, chns, db,
+                                 t, h, m, c, nc, bm, tau, slot, ix, num_warps=WARPS['ut_bwd'])
+-            decay_bwd_kernel[grid](g, beta, dgam, de, vec, dg, t, h, m, c, nc, bm, slot, ix, num_warps=4)
++            decay_bwd_kernel[grid](g, beta, dgam, de, vec, dg, t, h, m, c, nc, bm, slot, ix, REDUCE=DECAY_SLOT_REDUCE, num_warps=4)
+         dqn = torch.empty(qn.shape, device=qn.device, dtype=torch.float32)
+         kb = min(bd, KEY_BLOCK)
+         bu = tr.next_power_of_2(m+c)
+@@ -1540,3 +1562,6 @@
+     with torch.cuda.device(q.device):
+         out, keys, values = _BlockFast.apply(*inputs, scores, initial_scores, chunk_size, temperature, ridge)
+     return out, (keys, values)
++
++# C128 learned path: independently measured warp configurations.
++WARPS.update(compose=8,ut_bwd=8,keygrad=8,proj_bwd_ix=8)
+--- a/snapshot/fla/models/komp/modeling_komp.py
++++ b/snapshot/fla/models/komp/modeling_komp.py
+@@ -22,13 +22,17 @@
+ from fla.models.komp.configuration_komp import KOMPConfig
+ from fla.models.modeling_utils import FLAForCausalLM, FLAModel
+ from fla.modules import GatedMLP
++from fla.modules.rounded_swiglu import rounded_swiglu
++ROUNDED_SWIGLU = True
+ 
+ 
+ class RoundingCompatibleMLP(GatedMLP):
+     """Native FLA projections, preserving the previous BF16 SiLU-before-multiply rounding."""
+ 
+     def forward(self, x, **kwargs):
+-        return self.down_proj(F.silu(self.gate_proj(x)) * self.up_proj(x))
++        gate, up = self.gate_proj(x), self.up_proj(x)
++        product = rounded_swiglu(gate,up) if ROUNDED_SWIGLU else F.silu(gate)*up
++        return self.down_proj(product)
+ 
+ 
+ class KOMPBlock(GatedDeltaNetBlock):
+--- /dev/null
++++ b/snapshot/fla/modules/rounded_swiglu.py
+@@ -0,0 +1,54 @@
++# Copyright (c) 2026. MIT license, same as this source tree.
++"""Fused SwiGLU retaining the model's BF16 SiLU-before-multiply rounding."""
++import torch
++import triton as tr
++import triton.language as tl
++from torch.nn import functional as F
++
++
++@tr.jit
++def _forward(A, B, Y, N: tl.constexpr, BLOCK: tl.constexpr):
++    i = tl.program_id(0)*BLOCK+tl.arange(0, BLOCK)
++    a = tl.load(A+i, i < N, 0).to(tl.float32)
++    b = tl.load(B+i, i < N, 0).to(tl.float32)
++    silu = (a/(1.+tl.exp(-a))).to(A.dtype.element_ty).to(tl.float32)
++    tl.store(Y+i, silu*b, i < N)
++
++
++@tr.jit
++def _backward(A, B, DY, DA, DB, N: tl.constexpr, BLOCK: tl.constexpr):
++    i = tl.program_id(0)*BLOCK+tl.arange(0, BLOCK)
++    a = tl.load(A+i, i < N, 0).to(tl.float32)
++    b = tl.load(B+i, i < N, 0).to(tl.float32)
++    dy = tl.load(DY+i, i < N, 0).to(tl.float32)
++    denom = 1.+tl.exp(-a)
++    sig = 1./denom
++    silu = (a/denom).to(A.dtype.element_ty).to(tl.float32)
++    # These BF16 roundings match the separate eager MultiplyBackward and SiLUBackward.
++    dsilu = (dy*b).to(A.dtype.element_ty).to(tl.float32)
++    da = dsilu*sig*(1.+a*(1.-sig))
++    tl.store(DA+i, da, i < N)
++    tl.store(DB+i, dy*silu, i < N)
++
++
++class _RoundedSwiGLU(torch.autograd.Function):
++    @staticmethod
++    def forward(ctx, a, b):
++        a, b = a.contiguous(), b.contiguous()
++        y = torch.empty_like(a)
++        _forward[(tr.cdiv(a.numel(),1024),)](a,b,y,a.numel(),1024,enable_fp_fusion=False)
++        ctx.save_for_backward(a,b)
++        return y
++
++    @staticmethod
++    def backward(ctx, dy):
++        a,b = ctx.saved_tensors
++        da,db = torch.empty_like(a),torch.empty_like(b)
++        _backward[(tr.cdiv(a.numel(),1024),)](a,b,dy.contiguous(),da,db,a.numel(),1024,enable_fp_fusion=False)
++        return da,db
++
++
++def rounded_swiglu(a,b):
++    if a.is_cuda and a.dtype in (torch.bfloat16,torch.float16) and a.dtype==b.dtype:
++        return _RoundedSwiGLU.apply(a,b)
++    return F.silu(a)*b
+--- a/models.py
++++ b/models.py
+@@ -3,18 +3,20 @@
+ import hashlib
+ import math
+ import sys
++import os
+ import torch
+ from torch import nn
+ from torch.nn import functional as F
+ from torch.utils.checkpoint import checkpoint
+ ROOT = Path(__file__).resolve().parent
+-sys.path.insert(0, str(ROOT / 'snapshot'))
++sys.path.insert(0, os.environ.get('KOMP_SNAPSHOT', str(ROOT / 'snapshot')))
+ from fla.layers.komp import KOMPMixerBase
+ from fla.models.komp.configuration_komp import KOMPConfig
+ from fla.models.komp.modeling_komp import KOMPBlock, KOMPModel, TrainingLM
+ from fla.models.komp import legacy
+ from fla.models.komp.conversion import map_weights
+ from fla.ops.komp.block_fast import block_komp_fast
++from fla.ops.komp.geometry_cache import geometry_contexts
+ D, H, K, M, L, FF = 2048, 32, 64, 32, 24, 3072
+ PARAMETERS = 1003181056
+ OPTION_DEFAULTS = dict(output_sigmoid=True, low_rank_gates=True,
+@@ -57,6 +59,9 @@
+         super().__init__('block')
+         self.config, self.layer_idx = config, layer_idx
+         self.checkpoint_mixer = config.checkpoint_mixer
++        self.cache_ut_layers = int(os.environ.get('KOMP_UT_CACHE_LAYERS','0'))
++        if not 0 <= self.cache_ut_layers <= L:
++            raise ValueError('KOMP_UT_CACHE_LAYERS must be between 0 and 24')
+         self.output_sigmoid = config.output_sigmoid
+         self.low_rank_gates = config.low_rank_gates
+         if config.low_rank_gates:
+@@ -107,7 +112,8 @@
+             raise ValueError('Dense packed inputs required; mask tail labels')
+         if kwargs:
+             raise TypeError(f'Unsupported mixer arguments: {sorted(kwargs)}')
+-        y = checkpoint(self._mix,hidden_states,use_reentrant=False) if self.training and self.checkpoint_mixer else self._mix(hidden_states)
++        options = {'context_fn':geometry_contexts} if self.layer_idx < self.cache_ut_layers else {}
++        y = checkpoint(self._mix,hidden_states,use_reentrant=False,**options) if self.training and self.checkpoint_mixer else self._mix(hidden_states)
+         return y,None,None
+ 
+ 

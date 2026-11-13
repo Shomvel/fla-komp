@@ -1,0 +1,241 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "case": "production-trained",
+      "shape": [
+        16,
+        2048,
+        32,
+        64
+      ],
+      "slots": 32,
+      "chunk": 128,
+      "eviction": "learned",
+      "final_state_loss": false,
+      "metrics": [
+        {
+          "name": "out",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.09206140041351318,
+          "tolerance": 0.005,
+          "absolute_tolerance": 1e-06,
+          "passed": true
+        },
+        {
+          "name": "final_keys",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.125,
+          "tolerance": 0.005,
+          "absolute_tolerance": 1e-06,
+          "passed": true
+        },
+        {
+          "name": "final_values",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.046128857880830765,
+          "tolerance": 0.005,
+          "absolute_tolerance": 1e-06,
+          "passed": true
+        },
+        {
+          "name": "dq",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.0023482174146920443,
+          "tolerance": 0.008,
+          "absolute_tolerance": 1e-06,
+          "passed": true
+        },
+        {
+          "name": "dk",
+          "relative_rms": 1.4023204128410423e-06,
+          "baseline_repeat_relative_rms": 3.835847043523761e-07,
+          "max_abs": 0.0009765625,
+          "rms": 0.09825145453214645,
+          "tolerance": 0.008,
+          "absolute_tolerance": 1e-06,
+          "passed": true
+        },
+        {
+          "name": "dv",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.002455450827255845,
+          "tolerance": 0.008,
+          "absolute_tolerance": 1e-06,
+          "passed": true
+        },
+        {
+          "name": "dg",
+          "relative_rms": 4.5409417251513474e-07,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 4.0978193283081055e-08,
+          "rms": 0.0017785815289244056,
+          "tolerance": 0.02,
+          "absolute_tolerance": 1e-06,
+          "passed": true
+        },
+        {
+          "name": "dbeta",
+          "relative_rms": 6.85734792596552e-07,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 4.470348358154297e-08,
+          "rms": 0.0017950325272977352,
+          "tolerance": 0.02,
+          "absolute_tolerance": 1e-06,
+          "passed": true
+        },
+        {
+          "name": "dkeys",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "tolerance": 0.008,
+          "absolute_tolerance": 1e-06,
+          "passed": true
+        },
+        {
+          "name": "dvalues",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.005671814549714327,
+          "tolerance": 0.008,
+          "absolute_tolerance": 1e-06,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "tail-129-m32-c128-learned-slotTrue",
+      "shape": [
+        2,
+        129,
+        3,
+        64
+      ],
+      "slots": 32,
+      "chunk": 128,
+      "eviction": "learned",
+      "final_state_loss": true,
+      "metrics": [
+        {
+          "name": "out",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.03835858032107353,
+          "tolerance": 0.005,
+          "absolute_tolerance": 1e-06,
+          "passed": true
+        },
+        {
+          "name": "final_keys",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.125,
+          "tolerance": 0.005,
+          "absolute_tolerance": 1e-06,
+          "passed": true
+        },
+        {
+          "name": "final_values",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.032763514667749405,
+          "tolerance": 0.005,
+          "absolute_tolerance": 1e-06,
+          "passed": true
+        },
+        {
+          "name": "dq",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.0008251878898590803,
+          "tolerance": 0.008,
+          "absolute_tolerance": 1e-06,
+          "passed": true
+        },
+        {
+          "name": "dk",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.002905274275690317,
+          "tolerance": 0.008,
+          "absolute_tolerance": 1e-06,
+          "passed": true
+        },
+        {
+          "name": "dv",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.0012745189014822245,
+          "tolerance": 0.008,
+          "absolute_tolerance": 1e-06,
+          "passed": true
+        },
+        {
+          "name": "dg",
+          "relative_rms": 4.041433339072328e-07,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 9.313225746154785e-09,
+          "rms": 0.004726112354546785,
+          "tolerance": 0.02,
+          "absolute_tolerance": 1e-06,
+          "passed": true
+        },
+        {
+          "name": "dbeta",
+          "relative_rms": 1.2049226405612758e-07,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 7.450580596923828e-09,
+          "rms": 0.010952312499284744,
+          "tolerance": 0.02,
+          "absolute_tolerance": 1e-06,
+          "passed": true
+        },
+        {
+          "name": "dkeys",
+          "relative_rms": 1.1232934410665583e-08,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 9.313225746154785e-10,
+          "rms": 0.003131384262815118,
+          "tolerance": 0.008,
+          "absolute_tolerance": 1e-06,
+          "passed": true
+        },
+        {
+          "name": "dvalues",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.006752828601747751,
+          "tolerance": 0.008,
+          "absolute_tolerance": 1e-06,
+          "passed": true
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "rms_tolerance": 0.0005,
+  "policy": "upstream_gdn_bf16_test_chunk",
+  "baseline_sha": "cea04d17671192bf926fd5f166cb7a6f7aea5d47dd6cb65e30397d8d38a892a7",
+  "candidate_sha": "9ab491fcbc7b356aeb74d90f95dd1f85bcfac74b2fe52f33dd68f85ef98a456b"
+}

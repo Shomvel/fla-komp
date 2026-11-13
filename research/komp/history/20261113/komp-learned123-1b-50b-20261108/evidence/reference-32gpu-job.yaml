@@ -1,0 +1,115 @@
+apiVersion: batch.volcano.sh/v1alpha1
+kind: Job
+metadata:
+  name: dspark-adamw-lr1e4-32gpu-20261106-r1
+  namespace: qiji
+  annotations:
+    JobAlias: dspark-adamw-lr1e4-32gpu-20261106-r1
+    project: WeaverRSI
+spec:
+  minAvailable: 4
+  schedulerName: volcano
+  queue: proj-32
+  tasks:
+  - replicas: 4
+    name: trainer
+    template:
+      spec:
+        tolerations:
+        - key: task-type
+          operator: Equal
+          value: rsi-weaver
+          effect: NoSchedule
+        - key: task-type
+          operator: Equal
+          value: weaver
+          effect: NoSchedule
+        activeDeadlineSeconds: 259200
+        restartPolicy: Never
+        volumes:
+        - name: gpfs
+          hostPath:
+            path: /gpfs
+            type: Directory
+        - name: shm
+          emptyDir:
+            medium: Memory
+            sizeLimit: 288Gi
+        containers:
+        - name: trainer
+          image: harbor.local.clusters/bp/weaver-trainer-megatron-bridge:v1.14.92@sha256:cba116d15f4be378c467a5d15157b69e3307e21c3c67342a06481f8f4a1187df
+          resources:
+            requests:
+              nvidia.com/gpu: '8'
+              cpu: '64'
+              memory: 640Gi
+              rdma/hca_shared_devices: '1'
+            limits:
+              nvidia.com/gpu: '8'
+              cpu: '64'
+              memory: 640Gi
+              rdma/hca_shared_devices: '1'
+          volumeMounts:
+          - name: gpfs
+            mountPath: /gpfs
+          - name: shm
+            mountPath: /dev/shm
+          command:
+          - /bin/bash
+          - /gpfs/users/linlizhi/dspark-adamw-lr1e4-32gpu-20261106-r1/run_train.sh
+          securityContext:
+            capabilities:
+              add:
+              - IPC_LOCK
+          imagePullPolicy: IfNotPresent
+          env:
+          - name: NCCL_NET
+            value: IB
+          - name: NCCL_IB_DISABLE
+            value: '0'
+          - name: NCCL_DEBUG
+            value: INFO
+          - name: NCCL_SOCKET_IFNAME
+            value: =bond0
+          - name: GLOO_SOCKET_IFNAME
+            value: bond0
+          - name: HTTP_PROXY
+            value: ''
+          - name: HTTPS_PROXY
+            value: ''
+          - name: ALL_PROXY
+            value: ''
+          - name: http_proxy
+            value: ''
+          - name: https_proxy
+            value: ''
+          - name: all_proxy
+            value: ''
+          - name: NO_PROXY
+            value: '*'
+          - name: no_proxy
+            value: '*'
+        hostNetwork: true
+        dnsPolicy: ClusterFirstWithHostNet
+        automountServiceAccountToken: false
+        affinity:
+          podAntiAffinity:
+            requiredDuringSchedulingIgnoredDuringExecution:
+            - topologyKey: kubernetes.io/hostname
+              labelSelector:
+                matchLabels:
+                  nexspec-gang: dspark-adamw-lr1e4-32gpu-20261106-r1
+      metadata:
+        labels:
+          nexspec-gang: dspark-adamw-lr1e4-32gpu-20261106-r1
+    minAvailable: 4
+  maxRetry: 0
+  plugins:
+    env: []
+    svc:
+    - --publish-not-ready-addresses=true
+  policies:
+  - events:
+    - PodFailed
+    - PodEvicted
+    action: AbortJob

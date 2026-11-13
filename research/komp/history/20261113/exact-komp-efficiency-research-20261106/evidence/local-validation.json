@@ -1,0 +1,19 @@
+{
+  "status": "stage1_passed",
+  "baseline_and_original_files_verified": 658,
+  "executed_baseline_and_candidate_source_hashes_verified": true,
+  "changed_candidate_files": [
+    "models.py",
+    "snapshot/komp_slot/exact_komp/operator.py",
+    "snapshot/komp_slot/exact_komp/recurrence.py"
+  ],
+  "new_candidate_files": [
+    "geometry_cache.py"
+  ],
+  "cpu_tests": "6 passed",
+  "gpu_operator_cases": 20,
+  "full_and_tail_strict_comparisons": "passed, zero failed tensors in control and combined candidate",
+  "ddp_8_rank": "not run, not authorized",
+  "formal_training": "unchanged",
+  "resource_ledger": "evidence/resource-ledger.json"
+}

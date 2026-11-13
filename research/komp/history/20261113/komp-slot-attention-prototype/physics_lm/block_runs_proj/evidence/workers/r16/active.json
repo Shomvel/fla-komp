@@ -1,0 +1,11 @@
+{
+  "name": "full_attn-seed736",
+  "started": 1793521280.2813094,
+  "command": [
+    "block_ablation.py",
+    "--kind",
+    "full_attn",
+    "--seed",
+    "736"
+  ]
+}

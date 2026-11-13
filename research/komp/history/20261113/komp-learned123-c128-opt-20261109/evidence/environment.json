@@ -1,0 +1,18 @@
+{
+  "hostname": "node135",
+  "python": "3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]",
+  "torch": "2.10.0a0+b558c986e8.nv25.11",
+  "triton": "3.7.1",
+  "cuda": "13.0",
+  "protobuf": "5.29.6",
+  "protobuf_backend": "python",
+  "gpus": [
+    "NVIDIA H100 80GB HBM3"
+  ],
+  "source_sha256": {
+    "snapshot/fla/ops/komp/block_fast.py": "cea04d17671192bf926fd5f166cb7a6f7aea5d47dd6cb65e30397d8d38a892a7",
+    "snapshot/fla/ops/komp/scan.py": "4e63930568457600b9f0f93de45fc787a7906a9978a7d6e265cd60a0005bfd3d",
+    "models.py": "79d5e77fa2d13d7fdf35f50e7d6ab7c59c8483edc3d135a1bf24944a2b6975c8"
+  },
+  "pythonpath": "/gpfs/users/linlizhi/komp-learned123-c128-opt-20261109/snapshot:/gpfs/users/linlizhi/fla-komp-value-integration-20261106-r1/deps:/gpfs/users/linlizhi/komp-gsa-gdn-20261031-env/triton371"
+}

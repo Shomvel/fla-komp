@@ -1,0 +1,69 @@
+{
+  "tasks": [
+    "depo2",
+    "brevo2"
+  ],
+  "alpha0": 0.995,
+  "beta0_grid": [
+    0.1,
+    0.2
+  ],
+  "slots_grid": [
+    32,
+    64
+  ],
+  "new_candidates": [
+    {
+      "beta0": 0.1,
+      "slots": 32
+    },
+    {
+      "beta0": 0.2,
+      "slots": 64
+    },
+    {
+      "beta0": 0.1,
+      "slots": 64
+    }
+  ],
+  "reused_candidate": {
+    "beta0": 0.2,
+    "slots": 32
+  },
+  "lr": {
+    "depo2": 0.001,
+    "brevo2": 0.002
+  },
+  "seed": 731,
+  "wd": 0.1,
+  "projection_dtype": "float32",
+  "state_dtype": "float32",
+  "network_dtype": "bfloat16",
+  "width": 512,
+  "layers": 15,
+  "heads": 8,
+  "head_dim": 64,
+  "ff": 1984,
+  "parameters_by_slots": {
+    "32": 100526392,
+    "64": 102742072
+  },
+  "positions_per_run": {
+    "depo2": 100000997,
+    "brevo2": 100000590
+  },
+  "new_runs": 6,
+  "additional_actual_positions": 600004761,
+  "selection": "minimum final full-validation CE only; test/generation never selects candidates",
+  "precision_limit": "Original near-collinear FP32 stress failure remains; representative shape and DDP preflights do not imply all-stress acceptance",
+  "schedule": "same 100M final corpus, seed, document order, global batch128, 5% warmup/cosine to10%, residual .1 to.3",
+  "initialization": "Construct original M32 backbone (FF1984), preserve shared tensors and first32 atoms; extend M64 with orthogonal complement. Only beta biases and M-dependent decay/keys differ.",
+  "resources": {
+    "project": "WeaverRSI",
+    "project_id": 32,
+    "queue": "proj-32",
+    "groups": 2,
+    "gpus_each": 8,
+    "maximum_concurrent_gpus": 16
+  }
+}

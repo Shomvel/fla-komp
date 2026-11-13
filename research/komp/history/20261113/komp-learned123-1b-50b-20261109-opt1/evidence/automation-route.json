@@ -1,0 +1,10 @@
+{
+  "automation_id": "340m-exact-block-komp",
+  "interval": "hourly",
+  "management_api": "Transport closed",
+  "schedule_changed": false,
+  "forwarding_verified": true,
+  "legacy_collector": "/Users/shom/Downloads/komp-learned123-1b-50b-20261109-mb16-direct/monitoring/collect_training.py",
+  "successor_collector": "/Users/shom/Downloads/komp-learned123-1b-50b-20261109-opt1/monitoring/collect_training.py",
+  "identity": "job-757679e41f6c-20261109101556"
+}

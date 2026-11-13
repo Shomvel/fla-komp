@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "runs": 70,
+  "source_files": 633,
+  "all_workers_completed": true,
+  "no_checkpoints": true,
+  "frozen_source_unchanged": true,
+  "deterministic_algorithms": true,
+  "tokens_per_run": 10001108,
+  "steps_per_run": 2231
+}

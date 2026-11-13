@@ -1,0 +1,422 @@
+{
+  "coh_fifo_off": {
+    "0": {
+      "n": 216,
+      "merge_fraction": 0.0,
+      "condition_median": 95207.05920801964,
+      "condition_max": 126066.38252296708,
+      "pairs_mean": 27.791666666666668,
+      "pairs_max": 56,
+      "coefficient_median": 3.343484959741353,
+      "coefficient_max": 5.077859911528771
+    },
+    "1": {
+      "n": 216,
+      "merge_fraction": 0.0,
+      "condition_median": 73595.68578288576,
+      "condition_max": 287284.2020947972,
+      "pairs_mean": 75.22685185185185,
+      "pairs_max": 471,
+      "coefficient_median": 4.317231742768875,
+      "coefficient_max": 13.678364566199923
+    },
+    "2": {
+      "n": 216,
+      "merge_fraction": 0.0,
+      "condition_median": 23059.138276162314,
+      "condition_max": 166051.49495649885,
+      "pairs_mean": 59.05555555555556,
+      "pairs_max": 199,
+      "coefficient_median": 8.236673854592539,
+      "coefficient_max": 23.42567066088241
+    },
+    "3": {
+      "n": 216,
+      "merge_fraction": 0.0,
+      "condition_median": 14369.0848130775,
+      "condition_max": 148570.51272068007,
+      "pairs_mean": 42.3287037037037,
+      "pairs_max": 115,
+      "coefficient_median": 6.769362374238105,
+      "coefficient_max": 20.484991321501713
+    }
+  },
+  "coh_fifo_99": {
+    "0": {
+      "n": 216,
+      "merge_fraction": 0.7218649517684887,
+      "condition_median": 105.45372153440317,
+      "condition_max": 334.5405643428668,
+      "pairs_mean": 2.0277777777777777,
+      "pairs_max": 6,
+      "coefficient_median": 5.977582183134163,
+      "coefficient_max": 8.42564095219137
+    },
+    "1": {
+      "n": 216,
+      "merge_fraction": 0.376306270096463,
+      "condition_median": 1621.5658574845197,
+      "condition_max": 8601.48977136614,
+      "pairs_mean": 27.435185185185187,
+      "pairs_max": 99,
+      "coefficient_median": 2.4118665395131087,
+      "coefficient_max": 6.526773663696214
+    },
+    "2": {
+      "n": 216,
+      "merge_fraction": 0.16569533762057878,
+      "condition_median": 2197.7895945401388,
+      "condition_max": 18398.397824883043,
+      "pairs_mean": 27.319444444444443,
+      "pairs_max": 97,
+      "coefficient_median": 3.312476394167308,
+      "coefficient_max": 17.610720646588828
+    },
+    "3": {
+      "n": 216,
+      "merge_fraction": 0.17915996784565916,
+      "condition_median": 2176.232933206088,
+      "condition_max": 17132.73409501254,
+      "pairs_mean": 29.36574074074074,
+      "pairs_max": 147,
+      "coefficient_median": 3.347800625719084,
+      "coefficient_max": 15.71740861824181
+    }
+  },
+  "coh_fifo_95": {
+    "0": {
+      "n": 216,
+      "merge_fraction": 0.7393488745980707,
+      "condition_median": 17.318404000939253,
+      "condition_max": 36.790007138070905,
+      "pairs_mean": 0,
+      "pairs_max": 0,
+      "coefficient_median": 6.7071257451899156,
+      "coefficient_max": 9.835204282010434
+    },
+    "1": {
+      "n": 216,
+      "merge_fraction": 0.50633038585209,
+      "condition_median": 168.96403597089915,
+      "condition_max": 797.3209280858977,
+      "pairs_mean": 0,
+      "pairs_max": 0,
+      "coefficient_median": 2.754152355884234,
+      "coefficient_max": 3.6260333486611556
+    },
+    "2": {
+      "n": 216,
+      "merge_fraction": 0.5232114147909968,
+      "condition_median": 149.36747266283004,
+      "condition_max": 812.9409918838859,
+      "pairs_mean": 0,
+      "pairs_max": 0,
+      "coefficient_median": 3.3959481734456425,
+      "coefficient_max": 8.543414161630116
+    },
+    "3": {
+      "n": 216,
+      "merge_fraction": 0.6070136655948553,
+      "condition_median": 200.4703697124966,
+      "condition_max": 723.4940672339961,
+      "pairs_mean": 0,
+      "pairs_max": 0,
+      "coefficient_median": 3.35881792474962,
+      "coefficient_max": 6.414392577754936
+    }
+  },
+  "coh_fifo_80": {
+    "0": {
+      "n": 216,
+      "merge_fraction": 0.7803456591639871,
+      "condition_median": 19.842663107054953,
+      "condition_max": 42.170622041712335,
+      "pairs_mean": 0,
+      "pairs_max": 0,
+      "coefficient_median": 8.002922898841131,
+      "coefficient_max": 16.704968338133778
+    },
+    "1": {
+      "n": 216,
+      "merge_fraction": 0.7181471061093248,
+      "condition_median": 25.521440637757646,
+      "condition_max": 68.12521349595633,
+      "pairs_mean": 0,
+      "pairs_max": 0,
+      "coefficient_median": 2.538633733192503,
+      "coefficient_max": 3.6462071374054927
+    },
+    "2": {
+      "n": 216,
+      "merge_fraction": 0.761153536977492,
+      "condition_median": 28.669411109215844,
+      "condition_max": 62.132370195506304,
+      "pairs_mean": 0,
+      "pairs_max": 0,
+      "coefficient_median": 2.772664272310551,
+      "coefficient_max": 5.10483963842364
+    },
+    "3": {
+      "n": 216,
+      "merge_fraction": 0.8353094855305466,
+      "condition_median": 26.738309007295918,
+      "condition_max": 57.27469722237048,
+      "pairs_mean": 0,
+      "pairs_max": 0,
+      "coefficient_median": 3.5511629136082994,
+      "coefficient_max": 6.595398125935192
+    }
+  },
+  "coh_gate_off": {
+    "0": {
+      "n": 216,
+      "merge_fraction": 0.0,
+      "condition_median": 93926.03655907218,
+      "condition_max": 125588.81533219371,
+      "pairs_mean": 28.444444444444443,
+      "pairs_max": 57,
+      "coefficient_median": 3.0492036116442693,
+      "coefficient_max": 4.541919819444516
+    },
+    "1": {
+      "n": 216,
+      "merge_fraction": 0.0,
+      "condition_median": 66102.9825476103,
+      "condition_max": 295683.5147530001,
+      "pairs_mean": 99.5925925925926,
+      "pairs_max": 496,
+      "coefficient_median": 5.149417454158511,
+      "coefficient_max": 15.171725816848546
+    },
+    "2": {
+      "n": 216,
+      "merge_fraction": 0.0,
+      "condition_median": 15364.303154838675,
+      "condition_max": 159644.69896481076,
+      "pairs_mean": 53.84722222222222,
+      "pairs_max": 123,
+      "coefficient_median": 10.177578648336013,
+      "coefficient_max": 37.66550608062673
+    },
+    "3": {
+      "n": 216,
+      "merge_fraction": 0.0,
+      "condition_median": 15610.114130678026,
+      "condition_max": 148264.34515785947,
+      "pairs_mean": 43.736111111111114,
+      "pairs_max": 129,
+      "coefficient_median": 9.315070056141483,
+      "coefficient_max": 23.8877283771944
+    }
+  },
+  "coh_gate_99": {
+    "0": {
+      "n": 216,
+      "merge_fraction": 0.7218649517684887,
+      "condition_median": 40.36783974804229,
+      "condition_max": 358.5972286075343,
+      "pairs_mean": 2.0462962962962963,
+      "pairs_max": 6,
+      "coefficient_median": 5.261774132533365,
+      "coefficient_max": 7.173107398080472
+    },
+    "1": {
+      "n": 216,
+      "merge_fraction": 0.4084606109324759,
+      "condition_median": 1362.9458201841007,
+      "condition_max": 6789.748044558762,
+      "pairs_mean": 16.02777777777778,
+      "pairs_max": 78,
+      "coefficient_median": 2.7978821355908776,
+      "coefficient_max": 5.497698327723615
+    },
+    "2": {
+      "n": 216,
+      "merge_fraction": 0.32184485530546625,
+      "condition_median": 965.9340461755808,
+      "condition_max": 21868.32772391016,
+      "pairs_mean": 16.34259259259259,
+      "pairs_max": 105,
+      "coefficient_median": 4.71981537306316,
+      "coefficient_max": 22.954794112228576
+    },
+    "3": {
+      "n": 216,
+      "merge_fraction": 0.39389067524115756,
+      "condition_median": 1351.0128393289565,
+      "condition_max": 25398.948156202885,
+      "pairs_mean": 56.50925925925926,
+      "pairs_max": 439,
+      "coefficient_median": 5.1321132151472515,
+      "coefficient_max": 27.74040571692051
+    }
+  },
+  "coh_learned_off": {
+    "0": {
+      "n": 216,
+      "merge_fraction": 0.0,
+      "condition_median": 138028.9618732907,
+      "condition_max": 240542.7019268532,
+      "pairs_mean": 42.65277777777778,
+      "pairs_max": 127,
+      "coefficient_median": 2.8017617926185103,
+      "coefficient_max": 5.178201927945878
+    },
+    "1": {
+      "n": 216,
+      "merge_fraction": 0.0,
+      "condition_median": 12995.052041109293,
+      "condition_max": 281338.39317771397,
+      "pairs_mean": 87.875,
+      "pairs_max": 483,
+      "coefficient_median": 3.3472570107512887,
+      "coefficient_max": 25.439664978869395
+    },
+    "2": {
+      "n": 216,
+      "merge_fraction": 0.0,
+      "condition_median": 3519.5241495967634,
+      "condition_max": 94114.12204664286,
+      "pairs_mean": 17.34722222222222,
+      "pairs_max": 75,
+      "coefficient_median": 8.501519016505554,
+      "coefficient_max": 26.427642338753614
+    },
+    "3": {
+      "n": 216,
+      "merge_fraction": 0.0,
+      "condition_median": 7635.9285840687535,
+      "condition_max": 69359.97055923179,
+      "pairs_mean": 29.89814814814815,
+      "pairs_max": 95,
+      "coefficient_median": 8.374492711382931,
+      "coefficient_max": 26.647838282851847
+    }
+  },
+  "coh_learned_99": {
+    "0": {
+      "n": 216,
+      "merge_fraction": 0.6034967845659164,
+      "condition_median": 76.15635974783626,
+      "condition_max": 340.53112083396525,
+      "pairs_mean": 2.2037037037037037,
+      "pairs_max": 6,
+      "coefficient_median": 3.1477757034001046,
+      "coefficient_max": 6.54255894031357
+    },
+    "1": {
+      "n": 216,
+      "merge_fraction": 0.3833400321543408,
+      "condition_median": 346.1423987056918,
+      "condition_max": 6991.135100812185,
+      "pairs_mean": 12.13425925925926,
+      "pairs_max": 133,
+      "coefficient_median": 2.9947142523125674,
+      "coefficient_max": 6.719049394809834
+    },
+    "2": {
+      "n": 216,
+      "merge_fraction": 0.1560490353697749,
+      "condition_median": 690.0166887891619,
+      "condition_max": 18208.266126585422,
+      "pairs_mean": 15.00925925925926,
+      "pairs_max": 93,
+      "coefficient_median": 3.5238688314960274,
+      "coefficient_max": 24.809722480993273
+    },
+    "3": {
+      "n": 216,
+      "merge_fraction": 0.409967845659164,
+      "condition_median": 1427.0841002608083,
+      "condition_max": 30823.04710711098,
+      "pairs_mean": 46.629629629629626,
+      "pairs_max": 449,
+      "coefficient_median": 7.135326763094685,
+      "coefficient_max": 24.786500879138675
+    }
+  },
+  "coh_fifo_995": {
+    "0": {
+      "n": 216,
+      "merge_fraction": 0.7218649517684887,
+      "condition_median": 118.34133422196001,
+      "condition_max": 319.5753220735053,
+      "pairs_mean": 2.2037037037037037,
+      "pairs_max": 6,
+      "coefficient_median": 5.662923939819491,
+      "coefficient_max": 8.372697691217764
+    },
+    "1": {
+      "n": 216,
+      "merge_fraction": 0.3421422829581994,
+      "condition_median": 3409.872029436517,
+      "condition_max": 29304.710019486833,
+      "pairs_mean": 37.675925925925924,
+      "pairs_max": 172,
+      "coefficient_median": 2.454252636444178,
+      "coefficient_max": 6.208096959940809
+    },
+    "2": {
+      "n": 216,
+      "merge_fraction": 0.12459807073954984,
+      "condition_median": 4347.118221693972,
+      "condition_max": 84548.15132013874,
+      "pairs_mean": 45.833333333333336,
+      "pairs_max": 144,
+      "coefficient_median": 3.568525332898877,
+      "coefficient_max": 22.40979956342623
+    },
+    "3": {
+      "n": 216,
+      "merge_fraction": 0.1255024115755627,
+      "condition_median": 3169.759761741153,
+      "condition_max": 37301.88551445109,
+      "pairs_mean": 30.083333333333332,
+      "pairs_max": 124,
+      "coefficient_median": 3.450133421370146,
+      "coefficient_max": 14.759781762434532
+    }
+  },
+  "coh_fifo_999": {
+    "0": {
+      "n": 216,
+      "merge_fraction": 0.7218649517684887,
+      "condition_median": 133.17710450300143,
+      "condition_max": 390.98704086468985,
+      "pairs_mean": 2.2037037037037037,
+      "pairs_max": 6,
+      "coefficient_median": 5.915305483967263,
+      "coefficient_max": 8.35918316137795
+    },
+    "1": {
+      "n": 216,
+      "merge_fraction": 0.18609324758842444,
+      "condition_median": 13769.17962389809,
+      "condition_max": 93652.06784520132,
+      "pairs_mean": 70.64351851851852,
+      "pairs_max": 456,
+      "coefficient_median": 3.542191358774911,
+      "coefficient_max": 7.8048751019402625
+    },
+    "2": {
+      "n": 216,
+      "merge_fraction": 0.04642282958199357,
+      "condition_median": 13075.232396730393,
+      "condition_max": 89193.61624527187,
+      "pairs_mean": 62.199074074074076,
+      "pairs_max": 178,
+      "coefficient_median": 6.332600986653474,
+      "coefficient_max": 22.439422012002687
+    },
+    "3": {
+      "n": 216,
+      "merge_fraction": 0.038786173633440515,
+      "condition_median": 9041.068587813445,
+      "condition_max": 76592.26829236984,
+      "pairs_mean": 43.68055555555556,
+      "pairs_max": 152,
+      "coefficient_median": 6.258495277473797,
+      "coefficient_max": 17.54896099268945
+    }
+  }
+}

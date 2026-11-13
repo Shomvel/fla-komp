@@ -1,0 +1,63 @@
+{
+  "lr": 0.0005,
+  "wd": 0.1,
+  "val_ce": 1.0955511379095173,
+  "run": "depo2-komp-tune-lr0.0005-wd0.1-seed731",
+  "criterion": "minimum final validation CE at 10M tokens",
+  "candidates": [
+    {
+      "lr": 0.00025,
+      "wd": 0.0,
+      "val_ce": 1.0993961207104879,
+      "run": "depo2-komp-tune-lr0.00025-wd0-seed731"
+    },
+    {
+      "lr": 0.00025,
+      "wd": 0.01,
+      "val_ce": 1.0990665062674132,
+      "run": "depo2-komp-tune-lr0.00025-wd0.01-seed731"
+    },
+    {
+      "lr": 0.00025,
+      "wd": 0.1,
+      "val_ce": 1.0996375058856094,
+      "run": "depo2-komp-tune-lr0.00025-wd0.1-seed731"
+    },
+    {
+      "lr": 0.0005,
+      "wd": 0.0,
+      "val_ce": 1.0963203943669246,
+      "run": "depo2-komp-tune-lr0.0005-wd0-seed731"
+    },
+    {
+      "lr": 0.0005,
+      "wd": 0.01,
+      "val_ce": 1.0966261948966198,
+      "run": "depo2-komp-tune-lr0.0005-wd0.01-seed731"
+    },
+    {
+      "lr": 0.0005,
+      "wd": 0.1,
+      "val_ce": 1.0955511379095173,
+      "run": "depo2-komp-tune-lr0.0005-wd0.1-seed731"
+    },
+    {
+      "lr": 0.001,
+      "wd": 0.0,
+      "val_ce": 1.095660215221417,
+      "run": "depo2-komp-tune-lr0.001-wd0-seed731"
+    },
+    {
+      "lr": 0.001,
+      "wd": 0.01,
+      "val_ce": 1.0980448449279403,
+      "run": "depo2-komp-tune-lr0.001-wd0.01-seed731"
+    },
+    {
+      "lr": 0.001,
+      "wd": 0.1,
+      "val_ce": 1.0956277713162106,
+      "run": "depo2-komp-tune-lr0.001-wd0.1-seed731"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"command": ["python", "train.py", "--preflight", "--kind", "exact"], "requires": ["/gpfs/users/linlizhi/physics100m-exact-20261105/evidence/data-audit.json"], "stage": "preflight", "kind": "exact"}

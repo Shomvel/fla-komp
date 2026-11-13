@@ -1,0 +1,1283 @@
+{
+  "arms": {
+    "fifo_proj_c64": {
+      "content CE": {
+        "n": 7,
+        "mean": 2.089156282147867,
+        "sample_sd": 0.07801088275541655
+      },
+      "Depo CE": {
+        "n": 7,
+        "mean": 3.0425742838200986,
+        "sample_sd": 0.1526475585057328
+      },
+      "Brevo CE": {
+        "n": 7,
+        "mean": 1.1357382804756349,
+        "sample_sd": 0.026483743673265243
+      },
+      "Depo gen %": {
+        "n": 7,
+        "mean": 5.357142857142857,
+        "sample_sd": 2.5685812712514684
+      },
+      "Brevo valid %": {
+        "n": 7,
+        "mean": 35.267857142857146,
+        "sample_sd": 2.832271772421768
+      },
+      "seconds": {
+        "n": 7,
+        "mean": 412.9026988452034,
+        "sample_sd": 7.470567185875972
+      }
+    },
+    "fifo_noproj_c64": {
+      "content CE": {
+        "n": 7,
+        "mean": 2.3168995766734954,
+        "sample_sd": 0.012925065014059382
+      },
+      "Depo CE": {
+        "n": 7,
+        "mean": 3.34627793926064,
+        "sample_sd": 0.0310220176855405
+      },
+      "Brevo CE": {
+        "n": 7,
+        "mean": 1.2875212140863503,
+        "sample_sd": 0.03110216679040545
+      },
+      "Depo gen %": {
+        "n": 7,
+        "mean": 4.352678571428571,
+        "sample_sd": 1.9586974079000272
+      },
+      "Brevo valid %": {
+        "n": 7,
+        "mean": 36.71875,
+        "sample_sd": 2.29993772560621
+      },
+      "seconds": {
+        "n": 7,
+        "mean": 306.8187308228974,
+        "sample_sd": 1.5128100376342444
+      }
+    },
+    "learned_proj_c64": {
+      "content CE": {
+        "n": 7,
+        "mean": 2.015782209743845,
+        "sample_sd": 0.08883490118906393
+      },
+      "Depo CE": {
+        "n": 7,
+        "mean": 2.898030087936617,
+        "sample_sd": 0.18312234087578344
+      },
+      "Brevo CE": {
+        "n": 7,
+        "mean": 1.133534331551073,
+        "sample_sd": 0.04784189938996505
+      },
+      "Depo gen %": {
+        "n": 7,
+        "mean": 7.366071428571429,
+        "sample_sd": 1.416135886210884
+      },
+      "Brevo valid %": {
+        "n": 7,
+        "mean": 36.941964285714285,
+        "sample_sd": 2.287265795973125
+      },
+      "seconds": {
+        "n": 7,
+        "mean": 425.8561263898654,
+        "sample_sd": 12.208332187647114
+      }
+    },
+    "learned_noproj_c64": {
+      "content CE": {
+        "n": 7,
+        "mean": 2.33129105525122,
+        "sample_sd": 0.03799352383894239
+      },
+      "Depo CE": {
+        "n": 7,
+        "mean": 3.343835042530634,
+        "sample_sd": 0.05985774043624641
+      },
+      "Brevo CE": {
+        "n": 7,
+        "mean": 1.3187470679718052,
+        "sample_sd": 0.03280543255120955
+      },
+      "Depo gen %": {
+        "n": 7,
+        "mean": 4.352678571428571,
+        "sample_sd": 1.906054829977604
+      },
+      "Brevo valid %": {
+        "n": 7,
+        "mean": 36.607142857142854,
+        "sample_sd": 2.759504004561413
+      },
+      "seconds": {
+        "n": 7,
+        "mean": 316.37199527717064,
+        "sample_sd": 8.730793723296042
+      }
+    },
+    "swa_w32": {
+      "content CE": {
+        "n": 7,
+        "mean": 2.6647486689676656,
+        "sample_sd": 0.07223777105693398
+      },
+      "Depo CE": {
+        "n": 7,
+        "mean": 3.2321835685395954,
+        "sample_sd": 0.16505711815884058
+      },
+      "Brevo CE": {
+        "n": 7,
+        "mean": 2.097313769395736,
+        "sample_sd": 0.04066946917264923
+      },
+      "Depo gen %": {
+        "n": 7,
+        "mean": 5.691964285714286,
+        "sample_sd": 3.3364127331005133
+      },
+      "Brevo valid %": {
+        "n": 7,
+        "mean": 5.915178571428571,
+        "sample_sd": 1.0916220796965186
+      },
+      "seconds": {
+        "n": 7,
+        "mean": 56.978586648457814,
+        "sample_sd": 0.18602859394951424
+      }
+    },
+    "swa_w96": {
+      "content CE": {
+        "n": 7,
+        "mean": 2.4238820583328895,
+        "sample_sd": 0.2165420542890435
+      },
+      "Depo CE": {
+        "n": 7,
+        "mean": 2.8260303432771345,
+        "sample_sd": 0.4508488512478404
+      },
+      "Brevo CE": {
+        "n": 7,
+        "mean": 2.0217337733886445,
+        "sample_sd": 0.03070217546040865
+      },
+      "Depo gen %": {
+        "n": 7,
+        "mean": 6.473214285714286,
+        "sample_sd": 3.6285196890644773
+      },
+      "Brevo valid %": {
+        "n": 7,
+        "mean": 7.03125,
+        "sample_sd": 2.0669932117692116
+      },
+      "seconds": {
+        "n": 7,
+        "mean": 56.674304865300655,
+        "sample_sd": 0.4813775811138773
+      }
+    },
+    "swa_w96_nope": {
+      "content CE": {
+        "n": 7,
+        "mean": 2.644388642920348,
+        "sample_sd": 0.026898557235304647
+      },
+      "Depo CE": {
+        "n": 7,
+        "mean": 3.1714774676898,
+        "sample_sd": 0.0350540723541687
+      },
+      "Brevo CE": {
+        "n": 7,
+        "mean": 2.1172998181508946,
+        "sample_sd": 0.05713643614173929
+      },
+      "Depo gen %": {
+        "n": 7,
+        "mean": 3.125,
+        "sample_sd": 1.4959798558692783
+      },
+      "Brevo valid %": {
+        "n": 7,
+        "mean": 4.6875,
+        "sample_sd": 0.9021097956087902
+      },
+      "seconds": {
+        "n": 7,
+        "mean": 45.78121301531792,
+        "sample_sd": 1.1522601631078475
+      }
+    },
+    "full_attn": {
+      "content CE": {
+        "n": 7,
+        "mean": 2.416759049151226,
+        "sample_sd": 0.2281066664869092
+      },
+      "Depo CE": {
+        "n": 7,
+        "mean": 2.8013082198524444,
+        "sample_sd": 0.46485547321388654
+      },
+      "Brevo CE": {
+        "n": 7,
+        "mean": 2.0322098784500082,
+        "sample_sd": 0.024952906262187293
+      },
+      "Depo gen %": {
+        "n": 7,
+        "mean": 6.361607142857143,
+        "sample_sd": 4.045149533332953
+      },
+      "Brevo valid %": {
+        "n": 7,
+        "mean": 6.696428571428571,
+        "sample_sd": 1.6790601333923747
+      },
+      "seconds": {
+        "n": 7,
+        "mean": 55.9645416933511,
+        "sample_sd": 0.8498933906950911
+      }
+    },
+    "fifo_proj_c128": {
+      "content CE": {
+        "n": 7,
+        "mean": 1.845123883277218,
+        "sample_sd": 0.16027115640807998
+      },
+      "Depo CE": {
+        "n": 7,
+        "mean": 2.689715768869647,
+        "sample_sd": 0.31914428942617035
+      },
+      "Brevo CE": {
+        "n": 7,
+        "mean": 1.0005319976847888,
+        "sample_sd": 0.02835486947308849
+      },
+      "Depo gen %": {
+        "n": 7,
+        "mean": 7.03125,
+        "sample_sd": 2.5911131174651563
+      },
+      "Brevo valid %": {
+        "n": 7,
+        "mean": 38.61607142857143,
+        "sample_sd": 3.020961614681814
+      },
+      "seconds": {
+        "n": 7,
+        "mean": 281.09622377370084,
+        "sample_sd": 2.775787793856653
+      }
+    },
+    "fifo_noproj_c128": {
+      "content CE": {
+        "n": 7,
+        "mean": 1.890359475495501,
+        "sample_sd": 0.15337824798349928
+      },
+      "Depo CE": {
+        "n": 7,
+        "mean": 2.7540572143320468,
+        "sample_sd": 0.30683663180464305
+      },
+      "Brevo CE": {
+        "n": 7,
+        "mean": 1.026661736658955,
+        "sample_sd": 0.022419166195713595
+      },
+      "Depo gen %": {
+        "n": 7,
+        "mean": 7.03125,
+        "sample_sd": 1.6263015620829162
+      },
+      "Brevo valid %": {
+        "n": 7,
+        "mean": 37.388392857142854,
+        "sample_sd": 2.759504004561413
+      },
+      "seconds": {
+        "n": 7,
+        "mean": 217.48771162065012,
+        "sample_sd": 3.7818554537984226
+      }
+    }
+  },
+  "paired": [
+    {
+      "a": "fifo_noproj_c64",
+      "b": "fifo_proj_c64",
+      "metric": "content CE",
+      "seeds": [
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
+      ],
+      "differences": [
+        0.17635442970188508,
+        0.15666874970902622,
+        0.24883306774156644,
+        0.1954617273771624,
+        0.3622751841185907,
+        0.2178088969726355,
+        0.2368010060585335
+      ],
+      "mean": 0.22774329452562855,
+      "ci95": [
+        0.18763498854061925,
+        0.27912818860577127
+      ],
+      "exploratory": false
+    },
+    {
+      "a": "fifo_noproj_c64",
+      "b": "fifo_proj_c64",
+      "metric": "Depo CE",
+      "seeds": [
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
+      ],
+      "differences": [
+        0.2272168207226799,
+        0.15294828869047583,
+        0.35374605320894403,
+        0.2081020108363858,
+        0.595461667239011,
+        0.2633463541666665,
+        0.3251043932196276
+      ],
+      "mean": 0.3037036554405415,
+      "ci95": [
+        0.2178939534547792,
+        0.41436489710066715
+      ],
+      "exploratory": false
+    },
+    {
+      "a": "fifo_noproj_c64",
+      "b": "fifo_proj_c64",
+      "metric": "Brevo CE",
+      "seeds": [
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
+      ],
+      "differences": [
+        0.12549203868109005,
+        0.16038921072757661,
+        0.1439200822741895,
+        0.18282144391793875,
+        0.1290887009981707,
+        0.1722714397786047,
+        0.14849761889743918
+      ],
+      "mean": 0.15178293361071565,
+      "ci95": [
+        0.13748227407684413,
+        0.16671383841279352
+      ],
+      "exploratory": false
+    },
+    {
+      "a": "fifo_noproj_c64",
+      "b": "fifo_proj_c64",
+      "metric": "Depo gen %",
+      "seeds": [
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
+      ],
+      "differences": [
+        0.78125,
+        2.34375,
+        -2.34375,
+        -3.90625,
+        -1.5625,
+        -0.78125,
+        -1.5625
+      ],
+      "mean": -1.0044642857142858,
+      "ci95": [
+        -2.34375,
+        0.44642857142857145
+      ],
+      "exploratory": false
+    },
+    {
+      "a": "fifo_noproj_c64",
+      "b": "fifo_proj_c64",
+      "metric": "Brevo valid %",
+      "seeds": [
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
+      ],
+      "differences": [
+        1.5625,
+        0.0,
+        3.125,
+        0.0,
+        0.78125,
+        0.78125,
+        3.90625
+      ],
+      "mean": 1.4508928571428572,
+      "ci95": [
+        0.44642857142857145,
+        2.5669642857142856
+      ],
+      "exploratory": false
+    },
+    {
+      "a": "learned_noproj_c64",
+      "b": "learned_proj_c64",
+      "metric": "content CE",
+      "seeds": [
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
+      ],
+      "differences": [
+        0.29443426586679466,
+        0.24980816155374352,
+        0.41351680588134254,
+        0.23971066876128422,
+        0.46761911398611566,
+        0.32153430884794343,
+        0.22193859365439872
+      ],
+      "mean": 0.3155088455073747,
+      "ci95": [
+        0.2570246791274724,
+        0.3830756564439191
+      ],
+      "exploratory": false
+    },
+    {
+      "a": "learned_noproj_c64",
+      "b": "learned_proj_c64",
+      "metric": "Depo CE",
+      "seeds": [
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
+      ],
+      "differences": [
+        0.36872507917429775,
+        0.4334244314713067,
+        0.5766696953220394,
+        0.27057875934829045,
+        0.7720835479624544,
+        0.4385287293002138,
+        0.26062443957951764
+      ],
+      "mean": 0.44580495459401714,
+      "ci95": [
+        0.3330610439287894,
+        0.5758003196270497
+      ],
+      "exploratory": false
+    },
+    {
+      "a": "learned_noproj_c64",
+      "b": "learned_proj_c64",
+      "metric": "Brevo CE",
+      "seeds": [
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
+      ],
+      "differences": [
+        0.22014345255929113,
+        0.06619189163618011,
+        0.25036391644064593,
+        0.20884257817427798,
+        0.16315468000977673,
+        0.20453988839567305,
+        0.18325274772927957
+      ],
+      "mean": 0.18521273642073208,
+      "ci95": [
+        0.14056505709464945,
+        0.22011059483636405
+      ],
+      "exploratory": false
+    },
+    {
+      "a": "learned_noproj_c64",
+      "b": "learned_proj_c64",
+      "metric": "Depo gen %",
+      "seeds": [
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
+      ],
+      "differences": [
+        1.5625,
+        0.78125,
+        -3.90625,
+        -4.6875,
+        -6.25,
+        -5.46875,
+        -3.125
+      ],
+      "mean": -3.013392857142857,
+      "ci95": [
+        -5.022321428571429,
+        -0.78125
+      ],
+      "exploratory": false
+    },
+    {
+      "a": "learned_noproj_c64",
+      "b": "learned_proj_c64",
+      "metric": "Brevo valid %",
+      "seeds": [
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
+      ],
+      "differences": [
+        7.03125,
+        1.5625,
+        -5.46875,
+        -3.90625,
+        -1.5625,
+        -2.34375,
+        2.34375
+      ],
+      "mean": -0.33482142857142855,
+      "ci95": [
+        -3.125,
+        2.6785714285714284
+      ],
+      "exploratory": false
+    },
+    {
+      "a": "fifo_proj_c64",
+      "b": "swa_w32",
+      "metric": "content CE",
+      "seeds": [
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
+      ],
+      "differences": [
+        -0.390812886953805,
+        -0.5134086803546234,
+        -0.6748152674261032,
+        -0.5969657377076798,
+        -0.7095223192807156,
+        -0.49043370316939594,
+        -0.6531881128462693
+      ],
+      "mean": -0.5755923868197989,
+      "ci95": [
+        -0.6513515078915457,
+        -0.4950676615695922
+      ],
+      "exploratory": false
+    },
+    {
+      "a": "fifo_proj_c64",
+      "b": "swa_w32",
+      "metric": "Depo CE",
+      "seeds": [
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
+      ],
+      "differences": [
+        0.176025390625,
+        -0.0864177326579667,
+        -0.3844898861988706,
+        -0.2311895461309521,
+        -0.48854208400106813,
+        0.08174716451083652,
+        -0.39439829918345515
+      ],
+      "mean": -0.1896092847194966,
+      "ci95": [
+        -0.3583853638610891,
+        -0.013181975514564697
+      ],
+      "exploratory": false
+    },
+    {
+      "a": "fifo_proj_c64",
+      "b": "swa_w32",
+      "metric": "Brevo CE",
+      "seeds": [
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
+      ],
+      "differences": [
+        -0.95765116453261,
+        -0.9403996280512803,
+        -0.9651406486533367,
+        -0.9627419292844077,
+        -0.9305025545603631,
+        -1.0626145708496277,
+        -0.911977926509083
+      ],
+      "mean": -0.9615754889201013,
+      "ci95": [
+        -0.9984337232097802,
+        -0.9340570315738254
+      ],
+      "exploratory": false
+    },
+    {
+      "a": "fifo_proj_c64",
+      "b": "swa_w32",
+      "metric": "Depo gen %",
+      "seeds": [
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
+      ],
+      "differences": [
+        -2.34375,
+        -3.90625,
+        3.90625,
+        1.5625,
+        -0.78125,
+        -3.90625,
+        3.125
+      ],
+      "mean": -0.33482142857142855,
+      "ci95": [
+        -2.455357142857143,
+        1.8973214285714286
+      ],
+      "exploratory": false
+    },
+    {
+      "a": "fifo_proj_c64",
+      "b": "swa_w32",
+      "metric": "Brevo valid %",
+      "seeds": [
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
+      ],
+      "differences": [
+        29.6875,
+        28.90625,
+        31.25,
+        31.25,
+        28.125,
+        31.25,
+        25.0
+      ],
+      "mean": 29.352678571428573,
+      "ci95": [
+        27.678571428571427,
+        30.803571428571427
+      ],
+      "exploratory": false
+    },
+    {
+      "a": "fifo_proj_c64",
+      "b": "swa_w96",
+      "metric": "content CE",
+      "seeds": [
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
+      ],
+      "differences": [
+        -0.11203639285397271,
+        0.059391844479190326,
+        -0.5398206692731171,
+        -0.4791021238621149,
+        -0.26289385499445816,
+        -0.5102362436388699,
+        -0.4983829931518171
+      ],
+      "mean": -0.3347257761850228,
+      "ci95": [
+        -0.47996766673172375,
+        -0.16429008215471083
+      ],
+      "exploratory": false
+    },
+    {
+      "a": "fifo_proj_c64",
+      "b": "swa_w96",
+      "metric": "Depo CE",
+      "seeds": [
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
+      ],
+      "differences": [
+        0.708561525822268,
+        0.989627600589515,
+        -0.17587038070436511,
+        -0.09010547828907178,
+        0.35278037121298844,
+        -0.09865785256410264,
+        -0.17052820226648313
+      ],
+      "mean": 0.2165439405429641,
+      "ci95": [
+        -0.07676178569384476,
+        0.5624454910169198
+      ],
+      "exploratory": false
+    },
+    {
+      "a": "fifo_proj_c64",
+      "b": "swa_w96",
+      "metric": "Brevo CE",
+      "seeds": [
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
+      ],
+      "differences": [
+        -0.9326343115302134,
+        -0.8708439116311342,
+        -0.9037709578418696,
+        -0.8680987694351583,
+        -0.8785680812019048,
+        -0.9218146347136369,
+        -0.8262377840371515
+      ],
+      "mean": -0.8859954929130098,
+      "ci95": [
+        -0.9102201351281336,
+        -0.8606235573928506
+      ],
+      "exploratory": false
+    },
+    {
+      "a": "fifo_proj_c64",
+      "b": "swa_w96",
+      "metric": "Depo gen %",
+      "seeds": [
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
+      ],
+      "differences": [
+        -8.59375,
+        -7.8125,
+        3.90625,
+        0.78125,
+        0.0,
+        1.5625,
+        2.34375
+      ],
+      "mean": -1.1160714285714286,
+      "ci95": [
+        -4.6875,
+        2.0089285714285716
+      ],
+      "exploratory": false
+    },
+    {
+      "a": "fifo_proj_c64",
+      "b": "swa_w96",
+      "metric": "Brevo valid %",
+      "seeds": [
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
+      ],
+      "differences": [
+        31.25,
+        28.125,
+        29.6875,
+        25.78125,
+        28.125,
+        31.25,
+        23.4375
+      ],
+      "mean": 28.236607142857142,
+      "ci95": [
+        26.227678571428573,
+        30.133928571428573
+      ],
+      "exploratory": false
+    },
+    {
+      "a": "swa_w96",
+      "b": "swa_w96_nope",
+      "metric": "content CE",
+      "seeds": [
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
+      ],
+      "differences": [
+        -0.345452082147673,
+        -0.5305540632874246,
+        -0.07599004426112588,
+        -0.03708514936937135,
+        -0.40821082654353136,
+        -0.06919302303050312,
+        -0.0770609034725771
+      ],
+      "mean": -0.22050658458745806,
+      "ci95": [
+        -0.36475624024589315,
+        -0.09796407460723085
+      ],
+      "exploratory": false
+    },
+    {
+      "a": "swa_w96",
+      "b": "swa_w96_nope",
+      "metric": "Depo CE",
+      "seeds": [
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
+      ],
+      "differences": [
+        -0.6696927882230614,
+        -0.9452825413518773,
+        -0.019245077838828006,
+        -0.024149651346917267,
+        -0.760147038833562,
+        -0.011468647454975667,
+        0.011855874160561441
+      ],
+      "mean": -0.34544712441266573,
+      "ci95": [
+        -0.6498094868456197,
+        -0.09953785325227862
+      ],
+      "exploratory": false
+    },
+    {
+      "a": "swa_w96",
+      "b": "swa_w96_nope",
+      "metric": "Brevo CE",
+      "seeds": [
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
+      ],
+      "differences": [
+        -0.021211376072284516,
+        -0.11582558522297193,
+        -0.13273501068342375,
+        -0.050020647391825435,
+        -0.056274614253500665,
+        -0.12691739860603013,
+        -0.16597768110571476
+      ],
+      "mean": -0.09556604476225017,
+      "ci95": [
+        -0.1309905243043666,
+        -0.05889085984384287
+      ],
+      "exploratory": false
+    },
+    {
+      "a": "swa_w96",
+      "b": "swa_w96_nope",
+      "metric": "Depo gen %",
+      "seeds": [
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
+      ],
+      "differences": [
+        7.03125,
+        4.6875,
+        1.5625,
+        3.125,
+        5.46875,
+        0.78125,
+        0.78125
+      ],
+      "mean": 3.3482142857142856,
+      "ci95": [
+        1.7857142857142858,
+        5.133928571428571
+      ],
+      "exploratory": false
+    },
+    {
+      "a": "swa_w96",
+      "b": "swa_w96_nope",
+      "metric": "Brevo valid %",
+      "seeds": [
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
+      ],
+      "differences": [
+        2.34375,
+        1.5625,
+        2.34375,
+        6.25,
+        0.0,
+        2.34375,
+        1.5625
+      ],
+      "mean": 2.34375,
+      "ci95": [
+        1.2276785714285714,
+        3.794642857142857
+      ],
+      "exploratory": false
+    },
+    {
+      "a": "fifo_noproj_c128",
+      "b": "fifo_proj_c128",
+      "metric": "content CE",
+      "seeds": [
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
+      ],
+      "differences": [
+        0.049667155210777025,
+        0.027007880907071513,
+        0.08628099769187547,
+        0.010695378681147893,
+        0.06190703635243211,
+        0.011831313693702938,
+        0.06925938299097356
+      ],
+      "mean": 0.04523559221828293,
+      "ci95": [
+        0.02558183897491484,
+        0.06528788292493146
+      ],
+      "exploratory": false
+    },
+    {
+      "a": "fifo_noproj_c128",
+      "b": "fifo_proj_c128",
+      "metric": "Depo CE",
+      "seeds": [
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
+      ],
+      "differences": [
+        0.06647779304029289,
+        0.024186317155066916,
+        0.14524042038690466,
+        -0.01586109203296715,
+        0.07722907246833044,
+        0.011978987809066144,
+        0.14113861941010386
+      ],
+      "mean": 0.06434144546239969,
+      "ci95": [
+        0.022667560613989286,
+        0.10657975379655069
+      ],
+      "exploratory": false
+    },
+    {
+      "a": "fifo_noproj_c128",
+      "b": "fifo_proj_c128",
+      "metric": "Brevo CE",
+      "seeds": [
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
+      ],
+      "differences": [
+        0.032856517381260275,
+        0.029829444659076554,
+        0.027321574996846287,
+        0.03725184939526305,
+        0.04658500023653345,
+        0.011683639578339844,
+        -0.0026198534281567376
+      ],
+      "mean": 0.0261297389741661,
+      "ci95": [
+        0.014192081214857996,
+        0.03672630182051854
+      ],
+      "exploratory": false
+    },
+    {
+      "a": "fifo_noproj_c128",
+      "b": "fifo_proj_c128",
+      "metric": "Depo gen %",
+      "seeds": [
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
+      ],
+      "differences": [
+        0.78125,
+        2.34375,
+        -3.125,
+        0.78125,
+        1.5625,
+        -0.78125,
+        -1.5625
+      ],
+      "mean": 0.0,
+      "ci95": [
+        -1.3392857142857142,
+        1.2276785714285714
+      ],
+      "exploratory": false
+    },
+    {
+      "a": "fifo_noproj_c128",
+      "b": "fifo_proj_c128",
+      "metric": "Brevo valid %",
+      "seeds": [
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
+      ],
+      "differences": [
+        -3.125,
+        -0.78125,
+        -1.5625,
+        -1.5625,
+        -1.5625,
+        0.78125,
+        -0.78125
+      ],
+      "mean": -1.2276785714285714,
+      "ci95": [
+        -2.0089285714285716,
+        -0.44642857142857145
+      ],
+      "exploratory": false
+    }
+  ],
+  "input_sha256": {
+    "results/fifo_proj_c64-seed731/summary.json": "a50de0aca9730a1ab198cac518d91eab4a358aa6964c7d51f3ce5b37d4471226",
+    "results/fifo_proj_c64-seed732/summary.json": "9e12eafb054ec2f20037a406aa12127716122eb3697af1386689bde53f9f539b",
+    "results/fifo_proj_c64-seed733/summary.json": "bfd5bb80de5b671feed3e1c2851454ec953edb5396b521797077dac943c06db6",
+    "results/fifo_proj_c64-seed734/summary.json": "a09efb9cfbd721aede210535b5dce4a76e3b44d5c5de977565a41fa15d16c23b",
+    "results/fifo_proj_c64-seed735/summary.json": "0010fe1af6e311b34f3f26d3e9a160d4e6075f65a36870b0101a5c6369617c76",
+    "results/fifo_proj_c64-seed736/summary.json": "6479311bbab24901a8fdeeb3d5cc7d1d5ffdccc8904cdff67c51781ec459a82b",
+    "results/fifo_proj_c64-seed737/summary.json": "e8bf50338a650943649d8089426406b053c5a9cc79c4447764510cff655b0f77",
+    "results/fifo_noproj_c64-seed731/summary.json": "eefb2131912766061961c76895708f61ea82dc8424c4d4d0d33256866806c43a",
+    "results/fifo_noproj_c64-seed732/summary.json": "b530f8d7a50ccac50f963b98e14688068455834141c76bfca7072acb31a58784",
+    "results/fifo_noproj_c64-seed733/summary.json": "2b9984e17dc2ab3ff342944416644a69dfadbd0eaa2d6aef6eec6d1fc18493d2",
+    "results/fifo_noproj_c64-seed734/summary.json": "083b614d955e8e9b3d6fd60312389e131c1401d991364f5d9de05b6385bf1a6a",
+    "results/fifo_noproj_c64-seed735/summary.json": "c63970be02f051c596aa69e78ab8e303e45cd9fa43e50ca2ba3722814a4679c1",
+    "results/fifo_noproj_c64-seed736/summary.json": "efcaee2a5b236caa16945d4dc4d74b1681dfbd8113d35c49783647a227fd3a55",
+    "results/fifo_noproj_c64-seed737/summary.json": "e1efe88d9636e824857b03b48090c6fc52968aae22f81921adba2a8184ad5a65",
+    "results/learned_proj_c64-seed731/summary.json": "b2719eca1dd1de22b0fb447889b344570f24f2a70792b83d5a454fc944e6032e",
+    "results/learned_proj_c64-seed732/summary.json": "e7ec28125ec7320345fb6f7eb6d626e1f264191c0ab5c3f045398b9fccf3bdcc",
+    "results/learned_proj_c64-seed733/summary.json": "633abab59a11a25941eaf0e127a64a8c545792dc56a1200af8574ad5d87cee71",
+    "results/learned_proj_c64-seed734/summary.json": "fe1feabcabee761c30fb9c3abca7ce3ea3ffdbf5fbc8af2e04ab0f8be7c0140b",
+    "results/learned_proj_c64-seed735/summary.json": "756cbbc916e3f7710540cfd8b95a2c69959fff1f95dd892ab5fa8351868cb4be",
+    "results/learned_proj_c64-seed736/summary.json": "f5f131da56fdd0a3a1d374cd41346e6214491deef2b09fa3257b9aae81029d27",
+    "results/learned_proj_c64-seed737/summary.json": "1087d200f4f5193a1b0fffe4ca0e0dc829109c798c8260ba5b048b49a4c352d9",
+    "results/learned_noproj_c64-seed731/summary.json": "12a01bcf2bf845b2928a2374b6da73bf30bd919e1a53341139d3d780d17e650c",
+    "results/learned_noproj_c64-seed732/summary.json": "7a7eb583fc4fbfe96030cb0b804b336637af143243029d5515dcd3484d3d00d3",
+    "results/learned_noproj_c64-seed733/summary.json": "01a7b4a1137e12e11f85a334866c842a8d208171c39e4c832984d5222de0ab13",
+    "results/learned_noproj_c64-seed734/summary.json": "d5d01fd371c1edb302476ad5323abd569e7b283c888048f758e3faa76dd10b91",
+    "results/learned_noproj_c64-seed735/summary.json": "c5d79ac26f35b4c80c2b38b5c4df1de1cd6e1c7926030ed247b0fcbb7208f8a8",
+    "results/learned_noproj_c64-seed736/summary.json": "0327a69edf74f6a0043fb943bffeccd26e5e2398497200391a0b3b1a72a4f6fe",
+    "results/learned_noproj_c64-seed737/summary.json": "3bbcc9d0ff78815fd9a7c894175009623b7756e7500ca59c2b26a1f58e15561a",
+    "results/swa_w32-seed731/summary.json": "6596ce37ae53f39b2c7f0d0bf122531e89d705992ca10b9b6503ccfd3882f45c",
+    "results/swa_w32-seed732/summary.json": "3ee2d37714dd31526eb123ea5d21df6c54fa6b89ef503499b75be0a821da9067",
+    "results/swa_w32-seed733/summary.json": "e7c5b1aeaf3c5e7fec433bdc78d1f081af98178438e42eb31e03e9c49e3d002f",
+    "results/swa_w32-seed734/summary.json": "649406ccaff4dca73db668becfdd89a85f62fb24b3d9aa0618ff920e6ff81eea",
+    "results/swa_w32-seed735/summary.json": "d50e13a68678c93b0cc0ffd7573e8b8df1b651cd1779f268cd2ad7bf692db7b2",
+    "results/swa_w32-seed736/summary.json": "cd53f790604f86665bd0cffce3e9a0656a50df911abd77dc9527d48356b2d245",
+    "results/swa_w32-seed737/summary.json": "a162fe5d2030b6e7eeb913e61f7ad24bfebf0a2c9b6ce3392d522ef16ef31ea9",
+    "results/swa_w96-seed731/summary.json": "7668815bf13f97dbe64f3a12c0bb2daa1f987f62b6b12798231704cefb67d41f",
+    "results/swa_w96-seed732/summary.json": "d6c46407eed0dcd0b7dfb1b0aca7c39e3ab308719378e0b7aed790182d09aee4",
+    "results/swa_w96-seed733/summary.json": "3b793487e7ee1ece13257fe23c4532c23380a52ed045cac82c94b5f767217b73",
+    "results/swa_w96-seed734/summary.json": "efa24bf424633cf8913a454063a67bc4ef87fd2e8a851ab6bd7a49cd67a838fc",
+    "results/swa_w96-seed735/summary.json": "0e7602998f669f1f5d5890c51e27a6a4e344b51a4fb8526e629fa9c716336718",
+    "results/swa_w96-seed736/summary.json": "5d7a2c62e54dd56519b432957b2078c081dfcde1e9115f0095d9f8b7cc8b6fc5",
+    "results/swa_w96-seed737/summary.json": "70b9160e3f685be3feecbc1fcb2a956be04f20925805e9c15d21887bd15e5bba",
+    "results/swa_w96_nope-seed731/summary.json": "95dfad0b1f4ee85e9e8af2b8defa2e0e8c9efbc27da1d1463d7df6a6f6f2f7ac",
+    "results/swa_w96_nope-seed732/summary.json": "1453472e175df1e175e54db59dfd269dcb92d4e3b0e263a24801e0652d0b0f25",
+    "results/swa_w96_nope-seed733/summary.json": "89faa72fafbb65482f83d3a82834058d93abd7e1522902e16db0bcbbe2b3f902",
+    "results/swa_w96_nope-seed734/summary.json": "7397598413bd52ff7e85752deff260084c2848ede55361c0e76b5c6938d5ad20",
+    "results/swa_w96_nope-seed735/summary.json": "dca91d05d21799ad07de034e0db6bade5e6b186270b13499c5e4406035781235",
+    "results/swa_w96_nope-seed736/summary.json": "f31d1b07c1ba93d850e44ff0fbc11339289ba3924306535be4dd3a72c1284757",
+    "results/swa_w96_nope-seed737/summary.json": "c33f57cd92c392a615d8f9e42c9e02fc015922db2d4024f37b7eeb12f7d04d4c",
+    "results/full_attn-seed731/summary.json": "2bc9a31b2101a50883e61cae860414399c7f137e5bcb11f9fbf8d058fbf82830",
+    "results/full_attn-seed732/summary.json": "6350c519ca0a8419e673e6c8017263c809f16002c571eeec08b7accfedd53d5d",
+    "results/full_attn-seed733/summary.json": "239071aadff4373183dbbccc1ba4179216f455c119ee40388898f897c354966d",
+    "results/full_attn-seed734/summary.json": "a61ab9476f62ae2bce91a39a58383547150471a25948c8e00a7eb60af83bbff0",
+    "results/full_attn-seed735/summary.json": "2c6c1496d0bac4ad3959095c97d170c4d2861ba708fe0a94481f6188f74fb60e",
+    "results/full_attn-seed736/summary.json": "c74cf2c2cfb0421fb6e7cdc2a1a12ec19abc54b0feb94e12cd9a4b8ef4d322c7",
+    "results/full_attn-seed737/summary.json": "e798e4861a35e77fb022714d449a96d7f27ebad6ae726a4918c8978f9965453b",
+    "results/fifo_proj_c128-seed731/summary.json": "a1acae94ee86a708087aa8c184b6ae19e7488174bf075ae552a7a324b77a6864",
+    "results/fifo_proj_c128-seed732/summary.json": "ea49806e3126ba6e3e0a392cd3078a673b94f4b7f8d979854aa333e12c1fc6b4",
+    "results/fifo_proj_c128-seed733/summary.json": "98550ca6f982b6a32f52713b3db149fb203fb5fd80f11ba00cd4be62243e7b85",
+    "results/fifo_proj_c128-seed734/summary.json": "3bcc9bb48f09464486bb4dacfa3456572d9b882c1829db0b4677bfef5beaaedf",
+    "results/fifo_proj_c128-seed735/summary.json": "21ac2cc7b8cbe3f6494371d9b9d9b60f6beb78fd7026a690113c0b87a0e8d88c",
+    "results/fifo_proj_c128-seed736/summary.json": "f77aada730941a27f9fc43ed7b21229ea5f84a4e74365d1134a4b8d73859338e",
+    "results/fifo_proj_c128-seed737/summary.json": "ff53c226c3dca3e43c264be68788316bcae7bc2e4bcd7cd7e10e1e77015e838f",
+    "results/fifo_noproj_c128-seed731/summary.json": "0776c124ee8aedca6e69623e0d2ded53f5d0b729b9953824710c62409c6f6b39",
+    "results/fifo_noproj_c128-seed732/summary.json": "501cbdb1253c01a1b0ea5f207c0e4b0d25ead150d671845538e478180869e5ca",
+    "results/fifo_noproj_c128-seed733/summary.json": "a84b4ed1d34c5657d49dc7be06009ae928b12645f79529b374ba643c8e9eb2ae",
+    "results/fifo_noproj_c128-seed734/summary.json": "8ef9ddc3b2d1e1276ff2e7abc7dab3de617bf67ae84af7461cae8d36c4b487a4",
+    "results/fifo_noproj_c128-seed735/summary.json": "139a81e60795d9a54dcb81702beab8a804f11187017ea07f79156646343f7b5e",
+    "results/fifo_noproj_c128-seed736/summary.json": "905e1aac23a564046cbb01b9c2318e9cb8a02b3fa165e865e5363865362da6e2",
+    "results/fifo_noproj_c128-seed737/summary.json": "5311bc84f8b1c34f1010259925bac71f8da603c4cee3d32168706441c8e490ee"
+  },
+  "seeds": [
+    731,
+    732,
+    733,
+    734,
+    735,
+    736,
+    737
+  ],
+  "bootstrap": {
+    "replicates": 20000,
+    "seed": 91731,
+    "method": "paired percentile"
+  },
+  "integrity": "complete"
+}

@@ -1,0 +1,34 @@
+{
+  "baseline_files_verified": 658,
+  "original_source_files_reverified": 658,
+  "changed_candidate_files": [
+    "models.py",
+    "snapshot/komp_slot/exact_komp/operator.py"
+  ],
+  "new_candidate_files": [
+    "geometry_cache.py"
+  ],
+  "python_ast_checked": [
+    "operator_check.py",
+    "benchmark.py",
+    "test_compare_cpu.py",
+    "test_cache_cpu.py",
+    "profile_input.py",
+    "prepare_fixture.py",
+    "cost_model.py",
+    "summarize_bench.py",
+    "compare.py",
+    "prepare.py",
+    "benchmark_layer.py",
+    "candidate/geometry_cache.py",
+    "candidate/models.py",
+    "candidate/snapshot/komp_slot/exact_komp/operator.py"
+  ],
+  "cpu_tests": "5 passed; PyTorch 2.12.1 CPU",
+  "cuda_tests": "NOT RUN: no GPU authorization",
+  "jobs_submitted": 0,
+  "remote_mutations": 0,
+  "cli_help": "5 commands passed",
+  "shell_syntax": "both stage scripts passed",
+  "yaml_contract": "both jobs: WeaverRSI/proj-32, pinned digest, GPU count and deadline checked"
+}

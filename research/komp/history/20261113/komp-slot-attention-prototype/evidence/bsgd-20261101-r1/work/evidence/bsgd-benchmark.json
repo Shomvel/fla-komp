@@ -1,0 +1,126 @@
+{
+  "rows": [
+    {
+      "config": [
+        2,
+        256,
+        4,
+        32,
+        32,
+        16
+      ],
+      "mode": "gated",
+      "fwd_ms": 0.28151466449101764,
+      "extra_train_gib": 0.00839996337890625,
+      "fwd_bwd_ms": 0.8495253721872965,
+      "status": "passed"
+    },
+    {
+      "config": [
+        2,
+        256,
+        4,
+        32,
+        32,
+        16
+      ],
+      "mode": "grid_cyclic",
+      "fwd_ms": 0.3397973378499349,
+      "extra_train_gib": 0.00839996337890625,
+      "fwd_bwd_ms": 0.9577919642130533,
+      "status": "passed"
+    },
+    {
+      "config": [
+        2,
+        256,
+        4,
+        32,
+        32,
+        16
+      ],
+      "mode": "grid_search",
+      "fwd_ms": 0.39802666505177814,
+      "extra_train_gib": 0.00839996337890625,
+      "fwd_bwd_ms": 1.0075093110402424,
+      "status": "passed"
+    },
+    {
+      "config": [
+        2,
+        256,
+        4,
+        32,
+        32,
+        16
+      ],
+      "mode": "block_c64",
+      "fwd_ms": 0.05492266515890757,
+      "extra_train_gib": 0.007441520690917969,
+      "fwd_bwd_ms": 0.10940800110499065,
+      "status": "passed"
+    },
+    {
+      "config": [
+        2,
+        2048,
+        4,
+        64,
+        64,
+        32
+      ],
+      "mode": "gated",
+      "fwd_ms": 3.1826985677083335,
+      "extra_train_gib": 0.25836181640625,
+      "fwd_bwd_ms": 13.784255981445312,
+      "status": "passed"
+    },
+    {
+      "config": [
+        2,
+        2048,
+        4,
+        64,
+        64,
+        32
+      ],
+      "mode": "grid_cyclic",
+      "fwd_ms": 7.653066635131836,
+      "extra_train_gib": 0.25836181640625,
+      "fwd_bwd_ms": 19.285216013590496,
+      "status": "passed"
+    },
+    {
+      "config": [
+        2,
+        2048,
+        4,
+        64,
+        64,
+        32
+      ],
+      "mode": "grid_search",
+      "fwd_ms": 7.704479853312175,
+      "extra_train_gib": 0.25836181640625,
+      "fwd_bwd_ms": 19.822762807210285,
+      "status": "passed"
+    },
+    {
+      "config": [
+        2,
+        2048,
+        4,
+        64,
+        64,
+        32
+      ],
+      "mode": "block_c64",
+      "fwd_ms": 0.11414399743080139,
+      "extra_train_gib": 0.0972604751586914,
+      "fwd_bwd_ms": 0.27156267563501996,
+      "status": "passed"
+    }
+  ],
+  "note": "BF16 q/k/v; FP32 state/gates; CUDA graph; BSGD is token-recursive, block KOMP is chunked and semantically different.",
+  "status": "passed"
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-76cb9e4e7335-20261031223455",
+    "user_def_name": "komp-shortconv-20261031-r1",
+    "status": "Aborted",
+    "ready_status": "0/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 3
+  }
+]

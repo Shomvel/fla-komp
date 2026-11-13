@@ -1,0 +1,254 @@
+{
+  "error": "{'name': 's11/B1T19H2M8K16V17/torch.float32/near/learnedFalse/C16/grad/initial_keys', 'rms_relative': 0.01873743998315536, 'normalized_max': 0.003817669057090904, 'max_abs': 0.003817669057090904, 'rms_tolerance': 0.005, 'max_tolerance': 0.005}",
+  "traceback": "Traceback (most recent call last):\n  File \"/gpfs/users/linlizhi/komp-exact-opt-20261105/validate_gpu.py\", line 131, in <module>\n    suite(args.mode)\n  File \"/gpfs/users/linlizhi/komp-exact-opt-20261105/validate_gpu.py\", line 115, in suite\n    case(11,1,19,2,8,16,17,torch.float32,pattern,learned,16)\n  File \"/gpfs/users/linlizhi/komp-exact-opt-20261105/validate_gpu.py\", line 83, in case\n    else:check(name+'/grad/'+label,a,e,rt,mt)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/gpfs/users/linlizhi/komp-exact-opt-20261105/validate_gpu.py\", line 22, in check\n    raise AssertionError(row)\nAssertionError: {'name': 's11/B1T19H2M8K16V17/torch.float32/near/learnedFalse/C16/grad/initial_keys', 'rms_relative': 0.01873743998315536, 'normalized_max': 0.003817669057090904, 'max_abs': 0.003817669057090904, 'rms_tolerance': 0.005, 'max_tolerance': 0.005}\n",
+  "checks": [
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedFalse/C16/output",
+      "rms_relative": 1.9166368808447954e-07,
+      "normalized_max": 2.179368192578579e-07,
+      "max_abs": 2.179368192578579e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedFalse/C16/keys",
+      "rms_relative": 4.74302767970467e-08,
+      "normalized_max": 5.710099382216782e-08,
+      "max_abs": 5.710099382216782e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedFalse/C16/state",
+      "rms_relative": 1.4566612451158654e-07,
+      "normalized_max": 1.3856891850378372e-07,
+      "max_abs": 3.17287415230183e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedFalse/C16/grad/q",
+      "rms_relative": 2.1136216068264967e-07,
+      "normalized_max": 1.6151714221646074e-07,
+      "max_abs": 1.6151714221646074e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedFalse/C16/grad/k",
+      "rms_relative": 1.6293446012229093e-07,
+      "normalized_max": 1.665874905243392e-07,
+      "max_abs": 1.665874905243392e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedFalse/C16/grad/v",
+      "rms_relative": 1.2416767556951524e-07,
+      "normalized_max": 1.2967669830986333e-07,
+      "max_abs": 3.1247996878924766e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedFalse/C16/grad/g",
+      "rms_relative": 3.098256748537803e-07,
+      "normalized_max": 4.926655154996032e-07,
+      "max_abs": 1.7324976639976342e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedFalse/C16/grad/beta",
+      "rms_relative": 1.1875567878734499e-07,
+      "normalized_max": 6.880717552352387e-08,
+      "max_abs": 1.0147046500819101e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedFalse/C16/grad/initial_keys",
+      "rms_relative": 1.7054374894909648e-07,
+      "normalized_max": 1.9595297710839343e-08,
+      "max_abs": 1.9595297710839343e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedFalse/C16/grad/initial_coefficients",
+      "rms_relative": 2.906095744905302e-07,
+      "normalized_max": 2.766583356850205e-07,
+      "max_abs": 2.766583356850205e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/random/learnedFalse/C16/grad/scores",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.0,
+      "max_tolerance": 0.0
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedFalse/C16/output",
+      "rms_relative": 1.9166368808447954e-07,
+      "normalized_max": 2.179368192578579e-07,
+      "max_abs": 2.179368192578579e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedFalse/C16/keys",
+      "rms_relative": 4.74302767970467e-08,
+      "normalized_max": 5.710099382216782e-08,
+      "max_abs": 5.710099382216782e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedFalse/C16/state",
+      "rms_relative": 1.4566612451158654e-07,
+      "normalized_max": 1.3856891850378372e-07,
+      "max_abs": 3.17287415230183e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedFalse/C16/grad/q",
+      "rms_relative": 2.1136216068264967e-07,
+      "normalized_max": 1.6151714221646074e-07,
+      "max_abs": 1.6151714221646074e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedFalse/C16/grad/k",
+      "rms_relative": 1.6001731047329677e-07,
+      "normalized_max": 1.2538224253288988e-07,
+      "max_abs": 1.2538224253288988e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedFalse/C16/grad/v",
+      "rms_relative": 1.2416767556951524e-07,
+      "normalized_max": 1.2967669830986333e-07,
+      "max_abs": 3.1247996878924766e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedFalse/C16/grad/g",
+      "rms_relative": 3.098256748537803e-07,
+      "normalized_max": 4.926655154996032e-07,
+      "max_abs": 1.7324976639976342e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedFalse/C16/grad/beta",
+      "rms_relative": 1.1705292086651571e-07,
+      "normalized_max": 6.880717552352387e-08,
+      "max_abs": 1.0147046500819101e-06,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedFalse/C16/grad/initial_keys",
+      "rms_relative": 1.6999911974019427e-07,
+      "normalized_max": 1.9595297710839343e-08,
+      "max_abs": 1.9595297710839343e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedFalse/C16/grad/initial_coefficients",
+      "rms_relative": 2.906095744905302e-07,
+      "normalized_max": 2.766583356850205e-07,
+      "max_abs": 2.766583356850205e-07,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/ties/learnedFalse/C16/grad/scores",
+      "rms_relative": 0.0,
+      "normalized_max": 0.0,
+      "max_abs": 0.0,
+      "rms_tolerance": 0.0,
+      "max_tolerance": 0.0
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedFalse/C16/output",
+      "rms_relative": 0.00036288639756639336,
+      "normalized_max": 0.00032367608104984236,
+      "max_abs": 0.00032367608104984236,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedFalse/C16/keys",
+      "rms_relative": 5.3435406537774666e-08,
+      "normalized_max": 4.357678329292014e-08,
+      "max_abs": 4.357678329292014e-08,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedFalse/C16/state",
+      "rms_relative": 0.0008081597192852807,
+      "normalized_max": 0.0005505238478073476,
+      "max_abs": 0.0015284782334936964,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedFalse/C16/grad/q",
+      "rms_relative": 0.00028702580343942057,
+      "normalized_max": 9.584456105682371e-05,
+      "max_abs": 9.584456105682371e-05,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedFalse/C16/grad/k",
+      "rms_relative": 0.003787615162145316,
+      "normalized_max": 0.0028190118643537775,
+      "max_abs": 0.08757977285596785,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedFalse/C16/grad/v",
+      "rms_relative": 0.0008717693513134085,
+      "normalized_max": 0.001542325634116764,
+      "max_abs": 0.00311870185848781,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedFalse/C16/grad/g",
+      "rms_relative": 0.0011501792793779547,
+      "normalized_max": 0.0006331100637109978,
+      "max_abs": 0.005518126772476206,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedFalse/C16/grad/beta",
+      "rms_relative": 0.0009183050807358713,
+      "normalized_max": 0.0009126371617672292,
+      "max_abs": 0.013553535338692413,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    },
+    {
+      "name": "s11/B1T19H2M8K16V17/torch.float32/near/learnedFalse/C16/grad/initial_keys",
+      "rms_relative": 0.01873743998315536,
+      "normalized_max": 0.003817669057090904,
+      "max_abs": 0.003817669057090904,
+      "rms_tolerance": 0.005,
+      "max_tolerance": 0.005
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "tests": 21,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 7.837,
+  "python": "3.14.6",
+  "torch": "2.12.1",
+  "cuda_available": false,
+  "scope": [
+    "independent FP64 frozen slot/value token oracles",
+    "Exact C1 / Block C128 split continuation",
+    "learned ranking and tie newest",
+    "partial native prefill state metadata",
+    "batch reorder / duplication",
+    "model convolution+recurrent cache / reset / checkpoint immutability",
+    "padding rejection"
+  ],
+  "gpu_status": "pending",
+  "checkpoint_generation_status": "pending",
+  "performance_status": "not_measured"
+}

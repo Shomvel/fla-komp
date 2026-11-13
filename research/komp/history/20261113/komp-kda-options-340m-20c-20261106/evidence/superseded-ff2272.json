@@ -1,0 +1,27 @@
+{
+  "status": "superseded_by_user_requested_ff2272_fresh_restart",
+  "old_jobs_deleted_and_absent": true,
+  "timestamp": "2026-11-06T07:28:07.651116+00:00",
+  "replacement": "/Users/shom/Downloads/komp-kda-options-ff2272-340m-20c-20261106",
+  "spent_tokens_not_reused": {
+    "exact": 320864256,
+    "block": 624427008
+  },
+  "preserved_checkpoints": {
+    "exact": {
+      "path": "/gpfs/users/linlizhi/komp-kda-options-340m-20c-20261106/runs/exact/checkpoint-000512",
+      "step": 512,
+      "tokens": 268435456
+    },
+    "block": {
+      "path": "/gpfs/users/linlizhi/komp-kda-options-340m-20c-20261106/runs/block/checkpoint-001024",
+      "step": 1024,
+      "tokens": 536870912
+    }
+  },
+  "unsaved_tail_tokens": {
+    "exact": 52428800,
+    "block": 87556096
+  },
+  "total_spent_tokens": 945291264
+}

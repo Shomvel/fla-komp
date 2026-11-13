@@ -1,0 +1,75 @@
+{
+  "time": "2026-11-05T22:02:37.979915+08:00",
+  "status": "released_and_submitted",
+  "jobs": [
+    {
+      "name": "job-786c51b87f10-20261105215810",
+      "user_def_name": "physics100m-gsa2-consistent-brevo2-20261105",
+      "status": "Pending",
+      "ready_status": "0/1",
+      "namespace": "qiji",
+      "job_creator": "linlizhi",
+      "user_gpu": 8
+    },
+    {
+      "name": "job-b00f4b4c07f5-20261105215807",
+      "user_def_name": "physics100m-gsa2-consistent-depo2-20261105",
+      "status": "Running",
+      "ready_status": "1/1",
+      "namespace": "qiji",
+      "job_creator": "linlizhi",
+      "user_gpu": 8
+    }
+  ],
+  "actual_training": [
+    {
+      "name": "depo2-gsa2-final-lr0.001-wd0.01-seed731",
+      "sources": {
+        "snapshot": "ae087c67e60bd720377304db7e95a193d318b8b34ee1839a9ce1fa98170f7edd",
+        "inherited_ddp_train": "f19afcdfb6aa27bb185b05a6e615e707666df652b268020cedd2776ebfe752e2",
+        "ddp_train": "b463fc337f09d7da36374d609f67902243e5e9bc687b8cd4b3fc880fe7e314b6",
+        "candidate": {
+          "gsa2_fixed_norm_candidate.py": "168d5c488f2350bcd7ddcffa2c4c890d65d761e05cdabad1f61e484bb5d44257",
+          "gsa2_packed_eval_candidate.py": "76e92c87723e58c1e9c4db0bd7ab5076031e3cb6f36c8297c2dff95ef31856d8",
+          "gsa2_consistent_candidate.py": "8d5eb48775c766ed4a80d24bac252b1f74ae867d20c4d8cb5ba111ee4c446dda",
+          "gsa2_candidate_preflight.py": "4a85de43e19da46747d8a4ba3902691ac9d27e7b1d49953161604559fbadd263"
+        }
+      },
+      "model": {
+        "kind": "gsa2",
+        "parameters": 99286192,
+        "width": 512,
+        "layers": 15,
+        "ff": 1344,
+        "heads": 8,
+        "head_dim": 64,
+        "short_conv": true,
+        "conv_size": 4,
+        "block_chunk": null,
+        "block_slots": null,
+        "exact_compute_chunk": null,
+        "compression_tokens": null,
+        "eviction": null,
+        "projection_dtype": null,
+        "gsa_slots": 64,
+        "rope_base": null,
+        "swa_window": null
+      },
+      "latest": {
+        "loss": 1.1033672745301026,
+        "tokens": 14328408,
+        "supervised": 8988,
+        "microsteps": 2,
+        "global_documents": 128,
+        "grad_norm": 0.9469890594482422,
+        "step": 175,
+        "total": 1224,
+        "lr": 0.0009788311251904198,
+        "seconds": 181.879065617999,
+        "world_size": 8
+      }
+    }
+  ],
+  "maximum_requested_gpus": 32,
+  "budget": "Only original two GSA2 100M-position budgets; no repeats of twelve other formal runs"
+}

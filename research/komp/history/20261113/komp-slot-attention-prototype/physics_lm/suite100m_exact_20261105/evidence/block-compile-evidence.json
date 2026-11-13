@@ -1,0 +1,221 @@
+{
+  "observed_at": 1793881238.5232315,
+  "compile_directories": 7552,
+  "recent_240s_file_count": 1235,
+  "recent_files": [
+    {
+      "name": "__grp__block_mapgrad_kernel.json",
+      "path": "MWLQQFSLOVQTCWR46MLJIO7VRAKYYWZGBN2VX3V37KQL7PCD6K5Q/__grp__block_mapgrad_kernel.json",
+      "mtime": 1793881237.3774266,
+      "bytes": 1227
+    },
+    {
+      "name": "block_mapgrad_kernel.json",
+      "path": "MWLQQFSLOVQTCWR46MLJIO7VRAKYYWZGBN2VX3V37KQL7PCD6K5Q/block_mapgrad_kernel.json",
+      "mtime": 1793881237.3747284,
+      "bytes": 1132
+    },
+    {
+      "name": "block_mapgrad_kernel.cubin",
+      "path": "MWLQQFSLOVQTCWR46MLJIO7VRAKYYWZGBN2VX3V37KQL7PCD6K5Q/block_mapgrad_kernel.cubin",
+      "mtime": 1793881237.365512,
+      "bytes": 88080
+    },
+    {
+      "name": "block_mapgrad_kernel.ptx",
+      "path": "MWLQQFSLOVQTCWR46MLJIO7VRAKYYWZGBN2VX3V37KQL7PCD6K5Q/block_mapgrad_kernel.ptx",
+      "mtime": 1793881237.074674,
+      "bytes": 82524
+    },
+    {
+      "name": "block_mapgrad_kernel.llir",
+      "path": "MWLQQFSLOVQTCWR46MLJIO7VRAKYYWZGBN2VX3V37KQL7PCD6K5Q/block_mapgrad_kernel.llir",
+      "mtime": 1793881236.9662058,
+      "bytes": 543869
+    },
+    {
+      "name": "block_mapgrad_kernel.ttgir",
+      "path": "MWLQQFSLOVQTCWR46MLJIO7VRAKYYWZGBN2VX3V37KQL7PCD6K5Q/block_mapgrad_kernel.ttgir",
+      "mtime": 1793881236.578301,
+      "bytes": 53492
+    },
+    {
+      "name": "block_mapgrad_kernel.ttir",
+      "path": "MWLQQFSLOVQTCWR46MLJIO7VRAKYYWZGBN2VX3V37KQL7PCD6K5Q/block_mapgrad_kernel.ttir",
+      "mtime": 1793881236.444041,
+      "bytes": 28621
+    },
+    {
+      "name": "block_mapgrad_kernel.source",
+      "path": "MWLQQFSLOVQTCWR46MLJIO7VRAKYYWZGBN2VX3V37KQL7PCD6K5Q/block_mapgrad_kernel.source",
+      "mtime": 1793881236.429466,
+      "bytes": 57952
+    },
+    {
+      "name": "__grp__bscan_expand_kernel.json",
+      "path": "K7X32KCJVLLIE2VYUJKURPFLWGOWXJZNB4HMTGHNITASYQKNSYDQ/__grp__bscan_expand_kernel.json",
+      "mtime": 1793881236.3903468,
+      "bytes": 1213
+    },
+    {
+      "name": "bscan_expand_kernel.json",
+      "path": "K7X32KCJVLLIE2VYUJKURPFLWGOWXJZNB4HMTGHNITASYQKNSYDQ/bscan_expand_kernel.json",
+      "mtime": 1793881236.3783514,
+      "bytes": 1131
+    },
+    {
+      "name": "keygrad_kernel.ptx",
+      "path": "IYHCNXKFRJLJWKEP6PWR4XRJZG6F3A4YVP5RRFEMHISVOUR75FIQ/keygrad_kernel.ptx",
+      "mtime": 1793881236.375511,
+      "bytes": 718031
+    },
+    {
+      "name": "bscan_expand_kernel.cubin",
+      "path": "K7X32KCJVLLIE2VYUJKURPFLWGOWXJZNB4HMTGHNITASYQKNSYDQ/bscan_expand_kernel.cubin",
+      "mtime": 1793881236.366343,
+      "bytes": 63488
+    },
+    {
+      "name": "bscan_expand_kernel.ptx",
+      "path": "K7X32KCJVLLIE2VYUJKURPFLWGOWXJZNB4HMTGHNITASYQKNSYDQ/bscan_expand_kernel.ptx",
+      "mtime": 1793881236.264071,
+      "bytes": 56760
+    },
+    {
+      "name": "bscan_expand_kernel.llir",
+      "path": "K7X32KCJVLLIE2VYUJKURPFLWGOWXJZNB4HMTGHNITASYQKNSYDQ/bscan_expand_kernel.llir",
+      "mtime": 1793881236.208311,
+      "bytes": 147898
+    },
+    {
+      "name": "bscan_expand_kernel.ttgir",
+      "path": "K7X32KCJVLLIE2VYUJKURPFLWGOWXJZNB4HMTGHNITASYQKNSYDQ/bscan_expand_kernel.ttgir",
+      "mtime": 1793881236.020158,
+      "bytes": 30630
+    },
+    {
+      "name": "bscan_expand_kernel.ttir",
+      "path": "K7X32KCJVLLIE2VYUJKURPFLWGOWXJZNB4HMTGHNITASYQKNSYDQ/bscan_expand_kernel.ttir",
+      "mtime": 1793881235.956227,
+      "bytes": 22663
+    },
+    {
+      "name": "bscan_expand_kernel.source",
+      "path": "K7X32KCJVLLIE2VYUJKURPFLWGOWXJZNB4HMTGHNITASYQKNSYDQ/bscan_expand_kernel.source",
+      "mtime": 1793881235.928315,
+      "bytes": 41474
+    },
+    {
+      "name": "__grp__bscan_expand_kernel.json",
+      "path": "SJF3ZXA6FQ3D5EFKZH4C3QRQHSK6CAYVU4WKXXE7HROVNEEY47GQ/__grp__bscan_expand_kernel.json",
+      "mtime": 1793881235.8064635,
+      "bytes": 1213
+    },
+    {
+      "name": "bscan_expand_kernel.json",
+      "path": "SJF3ZXA6FQ3D5EFKZH4C3QRQHSK6CAYVU4WKXXE7HROVNEEY47GQ/bscan_expand_kernel.json",
+      "mtime": 1793881235.8033557,
+      "bytes": 1131
+    },
+    {
+      "name": "bscan_expand_kernel.cubin",
+      "path": "SJF3ZXA6FQ3D5EFKZH4C3QRQHSK6CAYVU4WKXXE7HROVNEEY47GQ/bscan_expand_kernel.cubin",
+      "mtime": 1793881235.802047,
+      "bytes": 87936
+    },
+    {
+      "name": "bscan_expand_kernel.ptx",
+      "path": "SJF3ZXA6FQ3D5EFKZH4C3QRQHSK6CAYVU4WKXXE7HROVNEEY47GQ/bscan_expand_kernel.ptx",
+      "mtime": 1793881235.653127,
+      "bytes": 80243
+    },
+    {
+      "name": "bscan_expand_kernel.llir",
+      "path": "SJF3ZXA6FQ3D5EFKZH4C3QRQHSK6CAYVU4WKXXE7HROVNEEY47GQ/bscan_expand_kernel.llir",
+      "mtime": 1793881235.549296,
+      "bytes": 455105
+    },
+    {
+      "name": "__grp__compose_kernel.json",
+      "path": "QJLZW5RUX53I46CNEOABKQ6EJZB2ZFE6GEMAIGXET33NKUMODODQ/__grp__compose_kernel.json",
+      "mtime": 1793881235.456299,
+      "bytes": 1143
+    },
+    {
+      "name": "compose_kernel.json",
+      "path": "QJLZW5RUX53I46CNEOABKQ6EJZB2ZFE6GEMAIGXET33NKUMODODQ/compose_kernel.json",
+      "mtime": 1793881235.4559293,
+      "bytes": 1127
+    },
+    {
+      "name": "compose_kernel.cubin",
+      "path": "QJLZW5RUX53I46CNEOABKQ6EJZB2ZFE6GEMAIGXET33NKUMODODQ/compose_kernel.cubin",
+      "mtime": 1793881235.4537551,
+      "bytes": 648736
+    },
+    {
+      "name": "bscan_expand_kernel.ttgir",
+      "path": "SJF3ZXA6FQ3D5EFKZH4C3QRQHSK6CAYVU4WKXXE7HROVNEEY47GQ/bscan_expand_kernel.ttgir",
+      "mtime": 1793881235.222758,
+      "bytes": 38055
+    },
+    {
+      "name": "bscan_expand_kernel.ttir",
+      "path": "SJF3ZXA6FQ3D5EFKZH4C3QRQHSK6CAYVU4WKXXE7HROVNEEY47GQ/bscan_expand_kernel.ttir",
+      "mtime": 1793881235.149731,
+      "bytes": 26463
+    },
+    {
+      "name": "bscan_expand_kernel.source",
+      "path": "SJF3ZXA6FQ3D5EFKZH4C3QRQHSK6CAYVU4WKXXE7HROVNEEY47GQ/bscan_expand_kernel.source",
+      "mtime": 1793881235.141488,
+      "bytes": 57998
+    },
+    {
+      "name": "keygrad_kernel.llir",
+      "path": "IYHCNXKFRJLJWKEP6PWR4XRJZG6F3A4YVP5RRFEMHISVOUR75FIQ/keygrad_kernel.llir",
+      "mtime": 1793881235.0355403,
+      "bytes": 4167345
+    },
+    {
+      "name": "compose_kernel.ptx",
+      "path": "QJLZW5RUX53I46CNEOABKQ6EJZB2ZFE6GEMAIGXET33NKUMODODQ/compose_kernel.ptx",
+      "mtime": 1793881233.3339877,
+      "bytes": 571409
+    }
+  ],
+  "training": {
+    "depo2": {
+      "mtime": 1793880543.420454,
+      "latest": {
+        "loss": 10.416867863712557,
+        "tokens": 21439,
+        "supervised": 5742,
+        "microsteps": 1,
+        "global_documents": 128,
+        "grad_norm": 26.318641662597656,
+        "step": 1,
+        "total": 1224,
+        "lr": 8.19672131147541e-06,
+        "seconds": 59.13735739886761,
+        "world_size": 8
+      }
+    },
+    "brevo2": {
+      "mtime": 1793880410.9616604,
+      "latest": {
+        "loss": 10.450480767934923,
+        "tokens": 46742,
+        "supervised": 5797,
+        "microsteps": 1,
+        "global_documents": 128,
+        "grad_norm": 13.202479362487793,
+        "step": 1,
+        "total": 2705,
+        "lr": 7.4074074074074075e-06,
+        "seconds": 59.79902075603604,
+        "world_size": 8
+      }
+    }
+  }
+}

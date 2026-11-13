@@ -1,0 +1,695 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "case": "production-trained",
+      "shape": [
+        16,
+        2048,
+        32,
+        64
+      ],
+      "slots": 32,
+      "chunk": 128,
+      "eviction": "learned",
+      "final_state_loss": false,
+      "metrics": [
+        {
+          "name": "out",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.09206140041351318
+        },
+        {
+          "name": "final_keys",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.125
+        },
+        {
+          "name": "final_values",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.046128857880830765
+        },
+        {
+          "name": "dq",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.0023498241789638996
+        },
+        {
+          "name": "dk",
+          "relative_rms": 3.505601375905201e-07,
+          "baseline_repeat_relative_rms": 1.99073808441135e-05,
+          "max_abs": 0.000244140625,
+          "rms": 0.09656907618045807
+        },
+        {
+          "name": "dv",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.002455910900607705
+        },
+        {
+          "name": "dg",
+          "relative_rms": 4.340297217417354e-07,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 3.259629011154175e-08,
+          "rms": 0.0018589854007586837
+        },
+        {
+          "name": "dbeta",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.0017989337211474776
+        },
+        {
+          "name": "dkeys",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.0
+        },
+        {
+          "name": "dvalues",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.0056807613000273705
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "tail-129-m32-c128-learned-slotTrue",
+      "shape": [
+        2,
+        129,
+        3,
+        64
+      ],
+      "slots": 32,
+      "chunk": 128,
+      "eviction": "learned",
+      "final_state_loss": true,
+      "metrics": [
+        {
+          "name": "out",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.03825139254331589
+        },
+        {
+          "name": "final_keys",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.125
+        },
+        {
+          "name": "final_values",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.03106735832989216
+        },
+        {
+          "name": "dq",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.0008098767139017582
+        },
+        {
+          "name": "dk",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.0029118184465914965
+        },
+        {
+          "name": "dv",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.0012426362372934818
+        },
+        {
+          "name": "dg",
+          "relative_rms": 3.8307768782825326e-07,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 1.1175870895385742e-08,
+          "rms": 0.004614551551640034
+        },
+        {
+          "name": "dbeta",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.01171092689037323
+        },
+        {
+          "name": "dkeys",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.0029989811591804028
+        },
+        {
+          "name": "dvalues",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.007151066791266203
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "tail-257-m32-c128-fifo-slotTrue",
+      "shape": [
+        2,
+        257,
+        3,
+        64
+      ],
+      "slots": 32,
+      "chunk": 128,
+      "eviction": "fifo",
+      "final_state_loss": true,
+      "metrics": [
+        {
+          "name": "out",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.03211130201816559
+        },
+        {
+          "name": "final_keys",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.125
+        },
+        {
+          "name": "final_values",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.0319925881922245
+        },
+        {
+          "name": "dq",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.0006759282550774515
+        },
+        {
+          "name": "dk",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.002252143109217286
+        },
+        {
+          "name": "dv",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.001249191234819591
+        },
+        {
+          "name": "dg",
+          "relative_rms": 4.5920263006077185e-07,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 9.313225746154785e-09,
+          "rms": 0.003339181886985898
+        },
+        {
+          "name": "dbeta",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.011536654084920883
+        },
+        {
+          "name": "dkeys",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.0014139538398012519
+        },
+        {
+          "name": "dvalues",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.0064468071796
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "tail-65-m16-c64-learned-slotTrue",
+      "shape": [
+        2,
+        65,
+        3,
+        64
+      ],
+      "slots": 16,
+      "chunk": 64,
+      "eviction": "learned",
+      "final_state_loss": true,
+      "metrics": [
+        {
+          "name": "out",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.03599051013588905
+        },
+        {
+          "name": "final_keys",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.125
+        },
+        {
+          "name": "final_values",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.03989609330892563
+        },
+        {
+          "name": "dq",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.00067253562156111
+        },
+        {
+          "name": "dk",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.002864235080778599
+        },
+        {
+          "name": "dv",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.0011829228606075048
+        },
+        {
+          "name": "dg",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.005572577938437462
+        },
+        {
+          "name": "dbeta",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.011527620255947113
+        },
+        {
+          "name": "dkeys",
+          "relative_rms": 2.0741231623407575e-08,
+          "baseline_repeat_relative_rms": 1.659021493348328e-08,
+          "max_abs": 1.862645149230957e-09,
+          "rms": 0.0028743771836161613
+        },
+        {
+          "name": "dvalues",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.007155421655625105
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "tail-129-m64-c128-learned-slotTrue",
+      "shape": [
+        2,
+        129,
+        3,
+        64
+      ],
+      "slots": 64,
+      "chunk": 128,
+      "eviction": "learned",
+      "final_state_loss": true,
+      "metrics": [
+        {
+          "name": "out",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.050450410693883896
+        },
+        {
+          "name": "final_keys",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.125
+        },
+        {
+          "name": "final_values",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.03435360640287399
+        },
+        {
+          "name": "dq",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.001074473955668509
+        },
+        {
+          "name": "dk",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.003681248752400279
+        },
+        {
+          "name": "dv",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.0012498118449002504
+        },
+        {
+          "name": "dg",
+          "relative_rms": 3.799233434120786e-07,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 1.0244548320770264e-08,
+          "rms": 0.004627118818461895
+        },
+        {
+          "name": "dbeta",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.01262730173766613
+        },
+        {
+          "name": "dkeys",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.003937653265893459
+        },
+        {
+          "name": "dvalues",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.007125201169401407
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "tail-17-m32-c128-learned-slotTrue",
+      "shape": [
+        2,
+        17,
+        3,
+        64
+      ],
+      "slots": 32,
+      "chunk": 128,
+      "eviction": "learned",
+      "final_state_loss": true,
+      "metrics": [
+        {
+          "name": "out",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.06689462065696716
+        },
+        {
+          "name": "final_keys",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.125
+        },
+        {
+          "name": "final_values",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.07512617856264114
+        },
+        {
+          "name": "dq",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.00099387567024678
+        },
+        {
+          "name": "dk",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.005236281082034111
+        },
+        {
+          "name": "dv",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.0015422154683619738
+        },
+        {
+          "name": "dg",
+          "relative_rms": 7.947990292095e-08,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 3.725290298461914e-09,
+          "rms": 0.006959365680813789
+        },
+        {
+          "name": "dbeta",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.01609712652862072
+        },
+        {
+          "name": "dkeys",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.005140337161719799
+        },
+        {
+          "name": "dvalues",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.008645052090287209
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "tail-129-m24-c128-learned-slotTrue",
+      "shape": [
+        2,
+        129,
+        3,
+        64
+      ],
+      "slots": 24,
+      "chunk": 128,
+      "eviction": "learned",
+      "final_state_loss": true,
+      "metrics": [
+        {
+          "name": "out",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.03644710034132004
+        },
+        {
+          "name": "final_keys",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.125
+        },
+        {
+          "name": "final_values",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.03161594271659851
+        },
+        {
+          "name": "dq",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.000726659141946584
+        },
+        {
+          "name": "dk",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.00255945953540504
+        },
+        {
+          "name": "dv",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.0011654228437691927
+        },
+        {
+          "name": "dg",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.004213493783026934
+        },
+        {
+          "name": "dbeta",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.01011247280985117
+        },
+        {
+          "name": "dkeys",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.002722879871726036
+        },
+        {
+          "name": "dvalues",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.007007579784840345
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "tail-129-m32-c128-learned-slotFalse",
+      "shape": [
+        2,
+        129,
+        3,
+        64
+      ],
+      "slots": 32,
+      "chunk": 128,
+      "eviction": "learned",
+      "final_state_loss": true,
+      "metrics": [
+        {
+          "name": "out",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.03968677297234535
+        },
+        {
+          "name": "final_keys",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.125
+        },
+        {
+          "name": "final_values",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.030804267153143883
+        },
+        {
+          "name": "dq",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.0008112573414109647
+        },
+        {
+          "name": "dk",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.0028515751473605633
+        },
+        {
+          "name": "dv",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.001237813150510192
+        },
+        {
+          "name": "dg",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.0216502882540226
+        },
+        {
+          "name": "dbeta",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.01186622679233551
+        },
+        {
+          "name": "dkeys",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.0032297824509441853
+        },
+        {
+          "name": "dvalues",
+          "relative_rms": 0.0,
+          "baseline_repeat_relative_rms": 0.0,
+          "max_abs": 0.0,
+          "rms": 0.006951108109205961
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "baseline_sha": "cea04d17671192bf926fd5f166cb7a6f7aea5d47dd6cb65e30397d8d38a892a7",
+  "candidate_sha": "a1779c7fbafb2bb040032dbf735e378e8d57f20736826fb8ac5d141567143624"
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "name": "job-4a7f9b33c47b-20261105232908",
+    "user_def_name": "physics100m-block-padcheck-20261105",
+    "status": "Completed",
+    "ready_status": "0/1",
+    "namespace": "qiji",
+    "job_creator": "linlizhi",
+    "user_gpu": 1
+  }
+]

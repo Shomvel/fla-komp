@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "changed_parameters": [
+    "layers.0.mix.decay.bias",
+    "layers.1.mix.decay.bias",
+    "layers.2.mix.decay.bias",
+    "layers.3.mix.decay.bias",
+    "layers.4.mix.decay.bias",
+    "layers.5.mix.decay.bias",
+    "layers.6.mix.decay.bias",
+    "layers.7.mix.decay.bias",
+    "layers.8.mix.decay.bias",
+    "layers.9.mix.decay.bias",
+    "layers.10.mix.decay.bias",
+    "layers.11.mix.decay.bias",
+    "layers.12.mix.decay.bias",
+    "layers.13.mix.decay.bias",
+    "layers.14.mix.decay.bias"
+  ],
+  "all_other_tensors_identical": true,
+  "reference_alpha0": 0.98,
+  "new_alpha0": 0.995
+}

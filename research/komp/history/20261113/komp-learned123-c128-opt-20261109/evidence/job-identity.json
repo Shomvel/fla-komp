@@ -1,0 +1,13 @@
+{
+  "alias": "komp-learned123-c128-opt-20261109",
+  "identity": "job-647a7d11db8a-20261109080424",
+  "namespace": "qiji",
+  "creator": "linlizhi",
+  "project": "WeaverRSI",
+  "queue": "proj-32",
+  "gpus": 1,
+  "submitted_local": "2026-11-09 08:04:24 Asia/Shanghai",
+  "yaml_sha256": "861133d8ca73e78a662a48e0c594afb142d3b5df5182033d0b10d2c4af016714",
+  "status": "Pending",
+  "ready": "0/1"
+}

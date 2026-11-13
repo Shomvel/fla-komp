@@ -1,0 +1,45 @@
+{
+  "seeds": [
+    731,
+    732,
+    733,
+    734,
+    735,
+    736,
+    737
+  ],
+  "block": [
+    "block_c64",
+    "block_slot_c64",
+    "block_slot_gate_c64",
+    "block_slot_learn_c64",
+    "block_slot_learn_c32"
+  ],
+  "baselines": [
+    "gdn",
+    "gsa",
+    "gsa_slot"
+  ],
+  "kapa": [
+    "kapa_scalar_p2_c16",
+    "kapa_slot_p2_c16"
+  ],
+  "budget": {
+    "epochs": 1,
+    "unique_tokens": 10001108,
+    "steps": 2231,
+    "batch": 64,
+    "lr_peak": 0.0005,
+    "wd": 0.1
+  },
+  "E3": "Skipped: sequence length 192 and M=32 hardcoded in shared harness; no CLI/environment override.",
+  "kernel_source": "/Users/shom/Downloads/komp-accel-scratch/frozen-20261101-r3",
+  "remote": "/gpfs/users/linlizhi/komp-block-trials-20261101",
+  "notes": [
+    "All 70 runs use frozen r3 kernel; includes rerunning baseline 731/732.",
+    "gsa_slot preserves original optimizer: no WD on decay.bias; others use standard AdamW.",
+    "KAPA uses raw Gaussian without L2 normalization; fixed centers; no hyperparameter sweep.",
+    "No short convolutions in any arm; generation 128 fixed confirm examples per task.",
+    "No optional E3 or adaptive arm added based on confirm results."
+  ]
+}

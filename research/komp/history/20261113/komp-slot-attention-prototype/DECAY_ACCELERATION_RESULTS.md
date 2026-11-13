@@ -1,0 +1,1 @@
+../../komp-slot-attention-prototype/DECAY_ACCELERATION_RESULTS.md

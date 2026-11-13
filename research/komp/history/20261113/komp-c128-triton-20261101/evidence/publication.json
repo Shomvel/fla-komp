@@ -1,0 +1,6 @@
+{
+  "target": "/Users/shom/Downloads/komp-slot-attention-prototype/komp_slot/block_fast.py",
+  "sha256": "79629c0cf0096624c7004a7cab9bd7d41acffb6de93b2a70ded0ed6d0275a9e7",
+  "frozen": "/Users/shom/Downloads/komp-c128-triton-20261101/frozen",
+  "prior_sha256": "b8505bd5c1ef0a019d9f746241742f2c604cba991971914e5658425af6af2dcb"
+}
